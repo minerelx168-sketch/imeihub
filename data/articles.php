@@ -8,6 +8,175 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'free-imei-check-online-before-paid-report',
+        'title' => 'Free IMEI Check Online: What You Get Before Paying',
+        'meta_title' => 'Free IMEI Check Online: What You Get Before Paying',
+        'excerpt' => 'Use a free IMEI check online to identify a phone\'s brand and model. Learn what basic results exclude and when a paid status report may help.',
+        'date' => '2026-09-14',
+        'tag' => 'Guide',
+        'body' => <<<'FREE_IMEI_CHECK_SCOPE'
+A **free IMEI check online** can answer a useful first question: does this 15-digit identifier match the phone brand and model you expect? It should not be treated as a complete history of the device. Knowing that boundary helps you start free, avoid buying an irrelevant report, and pay only when a specific unanswered status matters.
+
+## Key Takeaways
+
+- imeihub's free lookup is designed for basic brand, model and available device information.
+- Blacklist, iCloud, warranty and SIM-lock results are separate premium report types.
+- A valid IMEI or model match does not prove ownership, carrier unlock or Activation Lock status.
+- Select a paid report by the question it answers, not by how comprehensive its name sounds.
+- A lookup provides information; it does not remove an account lock or carrier restriction.
+
+## What Does a Free IMEI Check Online Do?
+
+An IMEI is the 15-digit device identifier used by cellular equipment. The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) distinguishes an IMEI from other identifiers such as MEID and ESN, and explains that cellular devices have identifiers while Wi-Fi-only devices do not.
+
+A basic lookup uses the IMEI to retrieve identification information associated with it. On imeihub, the [free IMEI checker](https://imeihub.net/) is presented as a brand-and-model lookup. Depending on the information available for that identifier, the page may return basic device details.
+
+That makes a free check useful for screening an identifier before deciding whether another report is relevant.
+
+### Good Questions for the Free Lookup
+
+Use the free result to investigate questions such as:
+
+- Does the identifier resolve to the expected manufacturer?
+- Does the model information agree with the listing or device?
+- Did you enter a valid 15-digit IMEI rather than a serial number?
+- Is there an obvious mismatch to resolve before buying a report?
+
+A mismatch deserves attention, but the free result alone may not reveal its cause. Recheck the digits and compare them with the actual device before drawing a conclusion.
+
+## What a Free IMEI Result Does Not Include
+
+Different device checks answer different questions. The imeihub [service catalogue](https://imeihub.net/services.php) lists its free identification check separately from premium reports for blacklist, iCloud, warranty, SIM-lock and manufacturer-specific information.
+
+| Question | Appropriate starting point | Free basic lookup enough? |
+| --- | --- | --- |
+| What brand and model is associated with this IMEI? | Free IMEI lookup | Usually the intended use |
+| Is the IMEI reported lost or stolen in the checked records? | Blacklist report with stated coverage | No |
+| Is Find My reported ON/OFF or Clean/Lost? | Relevant iCloud status report | No |
+| What warranty or activation information is available? | Warranty and activation report | No |
+| Is the iPhone reported as carrier-locked? | Device Settings, carrier, or suitable SIM-lock report | No |
+
+A free model result should not be expanded into claims that were never checked.
+
+### A Model Match Is Not a Blacklist Check
+
+GSMA describes a block-list query as a separate status check. A green result in that service means the identifier is not currently flagged on the GSMA Block List; a red result means it has been flagged. Those status definitions do not come from a basic brand-and-model lookup.
+
+If lost or stolen status is the real concern, review the coverage and result definitions of the selected blacklist report. Do not label a phone “clean” merely because its model was identified successfully.
+
+### A Valid IMEI Is Not Proof of Ownership
+
+Correct length, a valid checksum and a recognizable model can show that the input has a plausible identifier format. They do not establish who owns the phone or whether the seller is entitled to transfer it.
+
+For a purchase, compare the device, seller information and transaction records alongside any report. Keep the full IMEI private rather than posting it publicly for interpretation.
+
+### Identification Does Not Show Every Lock
+
+Carrier lock and Apple's Activation Lock are different restrictions. Apple says an iPhone showing **No SIM restrictions** under **Settings → General → About → Carrier Lock** is unlocked for use with another carrier. [Apple's carrier-unlock guidance](https://support.apple.com/en-us/109316) also states that the current carrier handles carrier unlocking.
+
+Activation Lock is tied to Find My and the previous owner's Apple Account. A free IMEI lookup neither removes nor bypasses either restriction.
+
+## How to Run the Free Check Correctly
+
+### Find the IMEI on the Actual Device
+
+Dial `*#06#` or use the device's Settings menu. For an iPhone or cellular iPad, Apple's [identifier guide](https://support.apple.com/en-us/108037) shows how to find and copy the IMEI in **Settings → General → About**. It also explains where identifiers may appear before setup, on supported SIM trays, in Finder or on original packaging.
+
+If a Dual SIM phone displays IMEI and IMEI2, preserve the labels. Use the number requested by the service or carrier rather than assuming the two entries are interchangeable for every purpose.
+
+### Enter the Number Carefully
+
+Before submitting:
+
+- Confirm that the field accepts an IMEI, not a serial number or EID.
+- Use the complete 15-digit number without missing or repeated digits.
+- Copy from Settings when possible to reduce typing mistakes.
+- Check the result against the device you are holding or considering.
+
+If imeihub rejects the input, confirm the identifier and try again. An input error is not a blacklist or lock result.
+
+### Compare the Result with the Listing
+
+Match the returned brand and model with the seller's description and the information shown on the phone. If the details disagree, pause and resolve the difference before ordering a more detailed report.
+
+A report for the wrong identifier can be accurate yet irrelevant to the device in front of you.
+
+## When Is a Paid IMEI Report Worth It?
+
+A paid report is useful when it answers a decision that the free model lookup cannot settle. Start by writing the question in one sentence.
+
+### You Need a Specific Status Before a Purchase
+
+A remote buyer may need more information before travelling, arranging shipping or paying a deposit. If the unresolved issue is blacklist status, choose a blacklist report. If it is iCloud status, choose the report whose ON/OFF or Clean/Lost output matches the question.
+
+Read the service description, accepted identifier, result fields and current price before placing an order. Do not assume a report includes unrelated checks.
+
+### You Need Information Not Visible on the Device
+
+Some information can be inspected directly. For example, an iPhone's Carrier Lock field may answer the carrier-lock question when you have the device. Other cases may justify a report because the phone is remote or the required information is not available in Settings.
+
+Pay for the missing answer, not for a second copy of information you already have.
+
+### You Are Comparing Multiple Used Phones
+
+A reseller can use free identification to screen model information consistently, then reserve paid checks for devices that pass the first review and need a specific status verified. This staged process controls unnecessary report spending without treating the free check as a full risk assessment.
+
+## Choose the Right Paid Report
+
+Use the report name and description as a scope statement.
+
+- **Blacklist report:** lost or stolen status within the records covered by that service.
+- **iCloud report:** the stated Find My or Activation Lock status output.
+- **Warranty report:** activation and coverage fields described by the service.
+- **SIM-lock report:** the reported carrier-lock field, without performing an unlock.
+- **Manufacturer report:** the brand-specific fields explicitly listed for that product.
+
+The result is a snapshot of the data returned for the submitted identifier. It does not guarantee future status, physical condition, seller ownership or successful activation with every network.
+
+## Common Free IMEI Checker Mistakes
+
+### Assuming “Free” Means Every Status Is Included
+
+The free imeihub service covers basic identification. Detailed reports are separate premium services. Search phrases such as “free iPhone IMEI checker” do not change the scope shown on the service page.
+
+### Buying the Most Detailed Report First
+
+A large report is unnecessary when you only need the model, and it may still omit the one field that matters. Begin with free identification, then select a targeted report if a decision remains unresolved.
+
+### Checking a Screenshot Instead of the Identifier
+
+A seller's screenshot may be old or may belong to another phone. Copy the IMEI from the actual device when possible and compare it again during handover.
+
+### Expecting a Lookup to Change the Phone
+
+Checks report information. They do not unlock a carrier, remove an Apple Account, repair a device, or change network records.
+
+## Frequently Asked Questions
+
+### Is imeihub's IMEI Checker Free?
+
+The basic imeihub lookup for brand, model and available basic information is free. The detailed services shown as Premium in the catalogue require payment.
+
+### Can a Free Online iPhone IMEI Checker Show iCloud Status?
+
+Not through imeihub's basic free lookup. Its iCloud ON/OFF and Clean/Lost products are listed separately as premium reports. Review the exact product description before ordering.
+
+### Does a Successful Free Check Mean the Phone Is Safe to Buy?
+
+It confirms only the identification information returned by that lookup. A purchase decision may also require seller verification, physical inspection, account-removal checks and a suitable status report.
+
+### Can an IMEI Check Unlock a Phone?
+
+No. A lookup does not remove Activation Lock or a carrier restriction. Only the responsible account owner or carrier can complete the appropriate supported process.
+
+## Start Free, Then Pay for the Missing Answer
+
+A free IMEI check online is the right first step when you need to identify a phone and catch an obvious mismatch. Treat that result as basic identification, then decide whether blacklist, iCloud, warranty or SIM-lock information is necessary for your next decision.
+
+[Run the free imeihub IMEI check](https://imeihub.net/) now. If a specific question remains, compare the [premium report descriptions](https://imeihub.net/services.php) and choose the one that directly answers it.
+FREE_IMEI_CHECK_SCOPE,
+    ],
+    [
         'date' => '2026-09-13',
         'excerpt' => 'Running an iPhone IMEI check on a Dual SIM device? Learn which identifier to use, when IMEI2 matters, and what to confirm before buying a report.',
         'meta_title' => 'iPhone IMEI Check: IMEI or IMEI2 for Dual SIM?',
