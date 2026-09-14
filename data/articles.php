@@ -10,7 +10,7 @@ return [
     [
         'slug' => 'free-imei-check-online-before-paid-report',
         'title' => 'Free IMEI Check Online: What You Get Before Paying',
-        'meta_title' => 'Free IMEI Check Online: Brand & Model Results Explained',
+        'meta_title' => 'Free IMEI Check Online: Brand and Model Results Explained',
         'excerpt' => 'Use a free IMEI check online to identify a phone\'s brand and model. Learn what basic results exclude and when a paid status report may help.',
         'date' => '2026-09-14',
         'tag' => 'Guide',
