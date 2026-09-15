@@ -8,6 +8,188 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'blacklisted-iphone-wifi-esim',
+        'title' => 'Blacklisted iPhone: Can It Still Use Wi-Fi or eSIM?',
+        'meta_title' => 'Blacklisted iPhone: Wi-Fi, eSIM and Network Limits',
+        'excerpt' => 'Can a blacklisted iPhone use Wi-Fi or eSIM? Learn what an IMEI block affects, how to verify status, and who can correct a wrong report.',
+        'date' => '2026-09-15',
+        'tag' => 'Apple',
+        'body' => <<<'BLACKLISTED_IPHONE_CONNECTIVITY'
+A **blacklisted iPhone** may still connect to Wi-Fi, but that does not make it ready for normal cellular use. A blacklist record is tied to a device identifier and is intended to stop the phone from attaching to participating mobile networks. eSIM does not automatically solve the problem because it also uses the iPhone's cellular hardware and identifiers.
+
+Before buying, selling or trying to reactivate the phone, identify which restriction is present. IMEI blacklist status, carrier lock and Apple's Activation Lock are different conditions with different remedies.
+
+## Key Takeaways
+
+- An IMEI blacklist is designed to restrict cellular service, not the Wi-Fi radio.
+- eSIM is still cellular service and should not be treated as a blacklist workaround.
+- A Dual SIM iPhone may show IMEI and IMEI2; keep the labels and check the identifiers relevant to the transaction.
+- A blacklist check does not show every carrier, account or Apple security restriction.
+- Only the carrier or organisation responsible for a valid record can correct or remove it through an authorised process.
+- imeihub's free lookup identifies basic device information; blacklist status requires the separate paid report shown in its service catalogue.
+
+## What Does “Blacklisted iPhone” Mean?
+
+An iPhone is commonly called blacklisted when its IMEI has been placed on a mobile-device block list. The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that network blocking occurs when an operator prevents a device from using its network by blocking the IMEI. Lost or stolen reports are common reasons, although a record can also use another supported reason.
+
+The restriction targets the device rather than simply the SIM card or phone number. Replacing a physical SIM with another SIM therefore does not erase a record attached to the handset's IMEI.
+
+### Why an IMEI May Be Flagged
+
+A report can exist because the device was:
+
+- reported lost or stolen;
+- associated with another block-list reason supported by the reporting organisation;
+- entered incorrectly or linked to a disputed account situation; or
+- using a duplicated or tampered identifier that needs carrier investigation.
+
+A report result should show the status and any fields included by the selected service. It should not be used to guess who owns the device or why a seller possesses it.
+
+### Who Controls the Record?
+
+The carrier or approved organisation that contributed the record controls the underlying correction process. GSMA advises consumers who believe a status is wrong to contact their wireless provider, which can verify account identity and recent network activity.
+
+An IMEI-checking website can report returned data. It cannot authenticate the subscriber, prove lawful ownership or remove a carrier record on the user's behalf.
+
+## Can a Blacklisted iPhone Still Use Wi-Fi?
+
+Usually, an IMEI block affects cellular network access rather than Wi-Fi. GSMA defines cellular access blocking as an operator preventing the device from using its mobile network. A home, office or public Wi-Fi connection does not attach to a carrier through the IMEI in the same way.
+
+That means Wi-Fi may still support internet-based features when the iPhone itself is otherwise usable. However, Wi-Fi access does not prove that the phone is legitimate, safe to buy or free of other restrictions.
+
+### Wi-Fi Does Not Remove Activation Lock
+
+Apple's [lost-device guidance](https://support.apple.com/en-us/101593) explains that marking a device as lost locks it with the passcode and keeps it protected by the owner's Apple Account. Activation Lock is part of Apple's account-security system; an IMEI blacklist is a carrier-network status.
+
+An iPhone can have one restriction, both restrictions or neither. Wi-Fi connectivity does not remove Activation Lock, Find My or Lost Mode.
+
+### Wi-Fi Does Not Restore Calls or Mobile Data
+
+Internet calling apps may work over Wi-Fi when the user can lawfully access the device and account. That is different from restoring ordinary cellular calls, SMS or mobile data. A working browser on Wi-Fi is not evidence that the IMEI will be accepted by a carrier.
+
+## Can eSIM Work on a Blacklisted iPhone?
+
+Do not rely on eSIM as a bypass. eSIM changes how a carrier profile is provisioned, but the service still connects through the iPhone's cellular radio. GSMA's 2026 [device blocking practice](https://devicecheck.gsma.com/fs45) recommends that operators compare transmitted device identifiers with block-list data during network attachment and location updates.
+
+Whether a particular line activates or later receives service depends on the device identifiers, the carrier's checks, the reported records and local implementation. A temporary connection is not proof that the phone is clean.
+
+### Dual SIM iPhones Can Have Two IMEIs
+
+Compatible Dual SIM models can display IMEI and IMEI2. Apple's [Dual SIM guide](https://support.apple.com/en-us/109317) describes supported physical-SIM and eSIM configurations, while the identifiers remain separate from the phone number and EID.
+
+For a used-phone purchase:
+
+- open **Settings → General → About** and record the labels accurately;
+- compare the identifiers with the listing and any report;
+- follow the carrier or report provider's instructions about which IMEI to submit; and
+- do not assume a clean result for one identifier answers every question about the other.
+
+If a seller proposes switching to eSIM solely to avoid a blacklist, pause the transaction and verify the device through legitimate channels.
+
+## Blacklist vs Carrier Lock vs Activation Lock
+
+These three conditions are often confused, but they answer different questions.
+
+| Status | What it affects | Who normally resolves it | Does a blacklist report answer it? |
+| --- | --- | --- | --- |
+| IMEI blacklist | Cellular network acceptance of the device | Reporting carrier or organisation | Yes, within the report's stated data coverage |
+| Carrier or SIM lock | Whether the iPhone may use another carrier | Current carrier under its policy | No |
+| Activation Lock | Setup and use tied to the owner's Apple Account | Account owner through Apple's supported process | No |
+
+Apple says **No SIM restrictions** under **Settings → General → About → Carrier Lock** means the iPhone is unlocked for use with another carrier. Apple's [carrier-unlock guidance](https://support.apple.com/en-us/109316) also states that only the current carrier can unlock the iPhone.
+
+A carrier-unlocked iPhone can still be blacklisted. A clean blacklist result can still belong to an iPhone protected by Activation Lock. Check the condition that matters instead of treating “unlocked” as a universal status.
+
+## How to Check an iPhone Before Buying
+
+Use a staged process so you do not pay for the wrong report or rely on one result for every risk.
+
+### 1. Identify the Actual Device
+
+Find the IMEI in **Settings → General → About** or dial `*#06#`. Apple's [identifier guide](https://support.apple.com/en-us/108037) documents additional locations, including supported SIM trays, Finder and original packaging.
+
+Prefer the number shown on the phone you are inspecting. A screenshot or box label can belong to a different handset.
+
+### 2. Start with Basic Identification
+
+Run the [free imeihub IMEI lookup](https://imeihub.net/) to compare the returned brand and model with the device and seller's description. This free check is for basic identification; it is not a free blacklist report.
+
+Stop and resolve a model mismatch before buying another check. An accurate report for the wrong IMEI is not useful evidence about the phone in front of you.
+
+### 3. Order the Relevant Blacklist Report
+
+If lost or stolen status affects the purchase decision, use imeihub's paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist). Review the current product description, price and output fields before ordering.
+
+Treat the result as a snapshot of the records returned for the submitted identifier. Coverage and timing matter; “not currently flagged” is more precise than a promise that the device can never be reported later.
+
+### 4. Check the Other Restrictions Separately
+
+Confirm the Carrier Lock field on the device when possible. Ask the seller to erase the iPhone and complete the supported Apple transfer steps so that setup does not request the previous owner's credentials.
+
+A blacklist report does not replace physical inspection, seller verification, carrier compatibility checks or account-lock checks.
+
+### 5. Recheck at Handover
+
+Status can change between an advertisement and final payment. If the purchase is high risk or several days have passed, run the relevant check again and keep the order timestamp with the transaction records.
+
+For more detail on timing, read [why a clean iPhone blacklist result can change](https://imeihub.net/article/iphone-blacklist-check-clean-status-change).
+
+## What to Do If You Already Own the iPhone
+
+The correct next step depends on how you obtained the device and who reported it.
+
+### If You Are the Account Holder
+
+Contact the carrier that handled the loss, theft or account report. Be ready to verify your identity and provide legitimate purchase or account records. Ask the carrier to explain its correction or recovery process.
+
+If you previously reported the device lost and have recovered it, do not assume inserting a SIM will automatically reverse the record. Complete the carrier's authenticated process.
+
+### If You Bought It from Someone Else
+
+Contact the seller immediately and preserve the listing, messages, receipt and payment record. Request a refund or use the marketplace's buyer-protection process when the item was misrepresented.
+
+Do not pay an unknown third party promising a guaranteed blacklist removal. A lookup does not alter carrier records, and only the responsible organisation can validate an authorised correction.
+
+### If the Device May Be Lost or Stolen
+
+Do not attempt to resell or work around the restriction. GSMA advises returning a flagged device to the organisation that placed it on the block list. Contact the carrier, marketplace or appropriate local authority for safe instructions.
+
+## Does a Blacklist Follow the iPhone Internationally?
+
+It can, but results are not identical in every country or on every network. GSMA maintains shared block-list infrastructure for participating operators and approved contributors. Each network's participation, local rules, update timing and implementation affect what happens in practice.
+
+Do not treat a phone that connects abroad as permanently clear. Likewise, do not promise that one report represents every private carrier database worldwide. Use the report's stated scope and ask the intended carrier about activation when service acceptance is essential.
+
+## Frequently Asked Questions
+
+### Can a Blacklisted iPhone Be Unlocked?
+
+Carrier unlocking and blacklist removal are separate. A carrier may unlock a SIM restriction without changing a blacklist record. A paid check reports information; it does not perform either action.
+
+### Does Changing the SIM Card Remove the Blacklist?
+
+No. A device blacklist is attached to the IMEI, not simply the removable SIM. A new SIM does not erase the underlying record.
+
+### Can I Use an eSIM If the Physical IMEI Is Blacklisted?
+
+Do not assume so. A Dual SIM iPhone may have multiple identifiers, and carriers perform their own device checks. Verify the labelled identifiers and contact the intended carrier instead of attempting to bypass a valid block.
+
+### Is an iPhone Blacklist Check Free on imeihub?
+
+No. imeihub's free service provides basic brand-and-model identification. The WorldWide Blacklist service is listed separately as a premium report.
+
+### Can imeihub Remove a Blacklist Record?
+
+No. imeihub can return a status report for the submitted identifier. The carrier or organisation responsible for the record handles authorised corrections.
+
+## Verify the Device Before You Rely on It
+
+A blacklisted iPhone may still use Wi-Fi, but Wi-Fi does not restore carrier service or clear Apple security controls. eSIM is not a dependable workaround because it remains part of the cellular connection. Verify the actual IMEI, check blacklist status and confirm carrier and Activation Lock conditions separately.
+
+[Check the iPhone's IMEI on imeihub](https://imeihub.net/) first, then select the paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) if lost or stolen status is the unanswered question.
+BLACKLISTED_IPHONE_CONNECTIVITY,
+    ],
+    [
         'slug' => 'free-imei-check-online-before-paid-report',
         'title' => 'Free IMEI Check Online: What You Get Before Paying',
         'meta_title' => 'Free IMEI Check Online: Brand and Model Results Explained',
