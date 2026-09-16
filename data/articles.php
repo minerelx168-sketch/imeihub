@@ -8,6 +8,225 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-mdm-remote-management',
+        'title' => 'iPhone IMEI Check: Does It Reveal MDM or Remote Management?',
+        'meta_title' => 'iPhone IMEI Check: MDM and Remote Management',
+        'excerpt' => 'Can an iPhone IMEI check reveal MDM? Learn what an ON/OFF report means, how to check device management, and when to involve the seller.',
+        'date' => '2026-09-16',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20260916_1'
+An **iPhone IMEI check** can help you investigate device management, but only if you choose a report that actually covers MDM. A free model lookup does not answer that question. If an iPhone displays Remote Management during setup, the important issue is whether an organisation still controls its enrolment—not simply whether the IMEI identifies the right model.
+
+This guide explains how to combine an MDM report with checks on the phone, and what to ask the seller before accepting a managed device.
+
+## Key Takeaways
+
+- MDM means Mobile Device Management. Businesses and schools use it to manage devices.
+- imeihub offers a separate paid Apple MDM ON/OFF report; free basic identification is not that report.
+- Supervision, an installed management profile and automated enrolment are related but not interchangeable observations.
+- A report is supporting information, not proof that an organisation has authorised a sale.
+- A lookup does not remove management, Activation Lock or a carrier lock.
+
+## What an iPhone MDM Check Actually Answers
+
+The [paid Apple MDM ON/OFF service](https://imeihub.net/service.php?slug=apple-mdm) is described as checking whether a device is enrolled in Mobile Device Management. Its current form requires a **15-digit IMEI**, not an Apple Account password or a serial number.
+
+Use that service when management status is the question. Do not assume that a blacklist, warranty or SIM-lock report includes MDM merely because all of those services concern the same phone.
+
+An ON/OFF label is a narrow report result. It should not be expanded into a promise about every restriction, the seller's authority or what will happen during a future setup.
+
+### If the report says ON
+
+Pause the transaction and ask the seller which organisation manages the device. Request a legitimate handover through that organisation or its authorised administrator.
+
+An ON result does not, by itself, prove theft. A company can legitimately own and manage an iPhone. The unresolved question is whether that company has approved its transfer and completed any necessary management changes.
+
+### If the report says OFF
+
+Compare the result with the phone in front of you. If the screen shows organisational management, do not dismiss that evidence because another result says OFF.
+
+Save the report details, confirm the submitted IMEI and ask the service provider about the discrepancy. Treat the disagreement as unresolved until the responsible organisation or administrator clarifies it.
+
+## Check the iPhone Itself Before Relying on a Report
+
+### Step 1: Look for a supervision message
+
+Open Settings and check for a message identifying the iPhone as supervised. Apple explains where this appears in its [guide to supervised devices](https://support.apple.com/en-us/102291).
+
+Supervision allows additional organisational controls. It is not the same thing as a mobile network carrier lock.
+
+### Step 2: Review device-management profiles
+
+Open **Settings > General > VPN & Device Management**. If a configuration profile is present, open it and review the information shown.
+
+A configuration profile can apply settings or restrictions. Its presence needs interpretation; do not assume every profile means the phone was stolen or remains company property. Equally, do not assume the absence of a visible profile settles every enrolment question.
+
+### Step 3: Ask how the device will be handed over
+
+Ask the seller:
+
+- Is this personally owned or organisation-owned stock?
+- Who can authorise its release from management?
+- Can the agreed setup and handover be completed before payment becomes final?
+- What remedy applies if organisational management prevents the agreed use?
+
+Do not erase a borrowed, employer-owned or school-owned phone without permission. An erase is not a substitute for an authorised ownership and management handover.
+
+## Why Remote Management Can Matter During Setup
+
+Apple's [Automated Device Enrolment documentation](https://support.apple.com/guide/deployment/automated-device-enrollment-management-dep73069dd57/web) describes how organisations can enrol devices during setup. Depending on the configuration, users may be prevented from removing the enrolment profile.
+
+That is why “the home screen opens” and “the phone is ready for an unrestricted personal handover” are different claims. When a legitimate sale includes resetting and setting up the phone, unresolved organisational enrolment may become relevant during that process.
+
+If a Remote Management screen appears, record the organisation named on it and contact the seller. Do not submit someone else's workplace credentials or purchase a supposed bypass as a replacement for release by the responsible organisation.
+
+## Match the Report to the Decision You Need to Make
+
+### You only need the brand and model
+
+Start with [imeihub's free basic IMEI lookup](https://imeihub.net/). It is an identification step, not a free MDM clearance certificate.
+
+### You are evaluating company or school resale stock
+
+A targeted paid MDM check can add a useful piece of information. Pair it with the seller's transfer documentation and the device checks above. A database label cannot authorise a transfer on behalf of the organisation.
+
+### You already see Remote Management
+
+The next priority is the seller or administrator, not repeatedly buying unrelated reports. Ask what authorised action is needed to complete the handover. If that cannot be established, do not treat the phone as ready for unrestricted personal use.
+
+## Frequently Asked Questions
+
+### Is MDM the same as iCloud or a carrier lock?
+
+No. They concern different controls. Do not interpret MDM OFF as an answer to an Activation Lock or SIM-lock question, and do not interpret a clean blacklist result as an MDM result.
+
+### Does an IMEI checker online remove management?
+
+No. A lookup provides information. It does not remove an installed management profile, release organisational enrolment or unlock the phone.
+
+### Can a seller's screenshot replace checking the actual phone?
+
+A screenshot can support the discussion, but first match its identifier and date to the device and transaction. If the screenshot conflicts with the phone, resolve that conflict before relying on it.
+
+## Conclusion: Check Management, Not Just Identity
+
+The useful question is not merely whether an IMEI is valid. It is whether the management status, the seller's authority and the actual handover all support the use you intend.
+
+For a targeted report, review [imeihub's Apple MDM ON/OFF check](https://imeihub.net/service.php?slug=apple-mdm), confirm its required IMEI, and compare the result with the device before completing the purchase.
+ARTICLE_20260916_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-storage-color',
+        'title' => 'iPhone Serial Number Check: Confirm Storage and Color',
+        'meta_title' => 'iPhone Serial Number Check: Storage and Color',
+        'excerpt' => 'Use an iPhone serial number check alongside Settings and model details to verify storage and color, and understand when a paid IMEI report helps.',
+        'date' => '2026-09-16',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20260916_2'
+An **iPhone serial number check** can be a starting point when a listing's storage or color looks wrong, but a serial number is not a substitute for inspecting the device. To verify what you are buying, compare the phone's identifiers, its reported storage and the seller's description. A targeted product-details report can add another cross-check, provided you submit the identifier that service actually accepts.
+
+This guide focuses on storage and color discrepancies—not warranty status, blacklist clearance or a general authenticity verdict.
+
+## Key Takeaways
+
+- Verify storage on the actual iPhone instead of relying only on a box or listing.
+- A model number can identify an iPhone variant without identifying its individual storage configuration.
+- Device storage and iCloud storage are different; unused space is not the same as total capacity.
+- imeihub's paid Apple Check Basic service advertises model, color and storage details and currently requires a **15-digit IMEI**.
+- A product-details report does not inspect the enclosure, prove that parts are original or clear locks.
+
+## Start by Matching the Identifiers
+
+Before interpreting a result, confirm that it belongs to the phone being sold.
+
+Apple's [guide to finding an iPhone's serial number and IMEI](https://support.apple.com/en-us/108037) explains the available locations. On an accessible iPhone, start in **Settings > General > About** and copy the identifier carefully.
+
+Keep these fields separate:
+
+- **Serial number:** use it only where the service requests a serial number.
+- **IMEI:** use the device identifier requested by an IMEI-based service.
+- **Model number:** use it to identify the hardware variant; do not substitute it for either field above.
+
+If the box, listing and Settings disagree, ask the seller to explain before ordering a report. A replaced box or transcription error is possible, but a mismatch remains something to resolve—not a reason to guess which identifier is correct.
+
+## How to Verify iPhone Storage
+
+### Check the device-storage screen
+
+Open **Settings > General > iPhone Storage**. Apple's [iPhone storage guidance](https://support.apple.com/en-us/108429) explains the storage view and how apps and other content occupy space.
+
+Compare the total storage shown with the advertised configuration. Do not mistake the remaining free space for the phone's original capacity.
+
+For example, “256 GB model” and “256 GB free” are different claims. A phone with that nominal capacity will not keep all of it available after software and personal content are present.
+
+### Separate iCloud space from physical storage
+
+Apple distinguishes [iCloud storage from device storage](https://support.apple.com/en-us/102670). An iCloud plan is not evidence that the iPhone itself has that amount of storage. If a seller supplies a screenshot of cloud storage, ask for the device-storage screen instead.
+
+This distinction matters because an account can have substantial cloud space while the handset has a smaller physical capacity.
+
+### Allow for how usable capacity is reported
+
+Apple explains in its [storage-capacity guidance](https://support.apple.com/en-us/102119) that formatting and other factors affect available capacity. Do not label every difference between an advertised capacity and usable space as fraud.
+
+However, formatting is not a satisfactory explanation for a listing that names an entirely different storage configuration. Establish which capacity the device actually reports.
+
+## What a Model Number Can—and Cannot—Confirm
+
+### Find the A-number correctly
+
+In **Settings > General > About**, the Model Number field initially shows a part number. Tap it to see the model number, as explained in Apple's [model-number guide](https://support.apple.com/en-us/106343).
+
+Record it separately from the serial number and IMEI.
+
+### Use Apple's model list as a range check
+
+Apple's [iPhone model identification page](https://support.apple.com/en-us/108044) lists model information, available capacities and colors. It can help you question a listing that describes a combination not listed for that model.
+
+But a list of capacities offered for a model does not tell you which capacity this particular handset has. Likewise, identifying a model that was sold in several colors does not establish the original color of the individual phone in your hand.
+
+## Can an iPhone Serial Number Search Confirm Color?
+
+Do not assume that any site accepting a serial number provides a verified color result. Check the service description and the fields it promises before relying on it.
+
+For the physical phone, inspect the enclosure under clear lighting and compare it with the listing. If a product record reports a different color, first recheck the identifier and model. Then ask the seller about the discrepancy.
+
+A database result cannot inspect the current housing or explain every mismatch. It should not be presented as proof that the enclosure is original, that a repair never occurred or that the device is counterfeit.
+
+## When a Paid Apple Product-Details Check Helps
+
+The current [Apple Check Basic service](https://imeihub.net/service.php?slug=apple-basic) advertises **model, color and storage** information. Its form requests a **15-digit IMEI**. Do not paste a serial number into that field merely because you began with an iPhone serial number search.
+
+A paid product-details check is most relevant when you need an additional record to compare against a specific listing. Review the service scope first; do not assume it includes warranty, blacklist, MDM or carrier-lock information.
+
+imeihub's [free basic IMEI lookup](https://imeihub.net/) is a different starting point for basic brand and model identification. Free identification should not be advertised as the paid Apple product-details report or as guaranteed per-device storage and color confirmation.
+
+## What to Do If the Details Do Not Match
+
+### Step 1: Rule out an input mix-up
+
+Compare the submitted identifier with Settings. Make sure the seller did not send information for a different phone from the same stock batch.
+
+### Step 2: Collect the specific disagreement
+
+Keep the listing, relevant Settings details and report together. State the mismatch precisely: “The listing says 256 GB, but the device-storage screen shows a different capacity” is more actionable than “the check failed.”
+
+Avoid posting complete identifiers in public listings or comments.
+
+### Step 3: Resolve it before accepting the sale
+
+Ask for a corrected description or an explanation supported by the actual device. For an unexplained report discrepancy, contact the report provider with the reference details. Do not pay for unrelated checks expecting them to resolve the same question.
+
+Even when storage and color agree, that agreement is not a clearance for Activation Lock, a carrier lock or a blacklist. A lookup does not remove those restrictions.
+
+## Conclusion: Match the Phone, the Listing and the Report
+
+An iPhone serial number check is useful only when its result answers the question you are asking. For storage and color, combine device inspection, correctly identified model information and any relevant product record.
+
+If an additional product-details cross-check would help, review [imeihub's paid Apple Check Basic service](https://imeihub.net/service.php?slug=apple-basic) and use the IMEI requested by its form.
+ARTICLE_20260916_2,
+    ],
+    [
         'slug' => 'blacklisted-iphone-wifi-esim',
         'title' => 'Blacklisted iPhone: Can It Still Use Wi-Fi or eSIM?',
         'meta_title' => 'Blacklisted iPhone: Wi-Fi, eSIM and Network Limits',
