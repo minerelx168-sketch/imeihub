@@ -10,7 +10,7 @@ return [
     [
         'slug' => 'samsung-tablet-imei-check-knox-guard-google-lock',
         'title' => 'Samsung Tablet IMEI Check: Knox Guard vs. Google Lock',
-        'meta_title' => 'Samsung Tablet IMEI Check: Knox Guard vs. Google Lock',
+        'meta_title' => 'Samsung Tablet IMEI Check: Knox Guard and Google Lock Guide',
         'excerpt' => 'A Samsung tablet IMEI check is not a Google account unlock. Learn how Knox Guard differs, which report to choose, and what to verify before buying.',
         'date' => '2026-09-17',
         'tag' => 'Samsung',
@@ -105,7 +105,7 @@ ARTICLE_20260917_1,
     [
         'slug' => 'imei-checker-online-find-phone-number',
         'title' => 'IMEI Checker Online: Can It Find a Phone Number?',
-        'meta_title' => 'IMEI Checker Online: Can It Find a Phone Number?',
+        'meta_title' => 'IMEI Checker Online: Phone Number Lookup Explained',
         'excerpt' => 'Can an IMEI checker online reveal a phone number or owner? Understand device identifiers, report limits, and the right steps for your own lost phone.',
         'date' => '2026-09-17',
         'tag' => 'Guide',
