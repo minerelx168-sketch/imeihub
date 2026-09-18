@@ -2373,4 +2373,87 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'check-blacklisted-phone-nigeria-guide',
+        'title'   => 'How to Check a Blacklisted Phone in Nigeria (2026)',
+        'excerpt' => 'Buying a used phone in Lagos or Abuja? Learn how to check if it is blacklisted, stolen, or barred by the NCC before you pay for it.',
+        'date'    => '2026-09-17',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## Why "it turns on and makes calls" is not enough
+
+Nigeria's second-hand phone market — Computer Village in Lagos, Wuse Market in Abuja, Instagram resellers, and cross-border imports from the UK, US, and UAE — moves an enormous volume of used devices every day. Most transactions are cash-in-hand, with no receipt and no way to undo the sale once you walk away.
+
+A blacklisted phone will often power on, install apps, and even connect to Wi-Fi without any problem. The block only shows up when you insert a SIM card, which is exactly when it is too late to ask the seller for a refund. Checking the IMEI **before** paying is the only reliable way to avoid this.
+
+## What "blacklisted" actually means in Nigeria
+
+A phone's IMEI gets blacklisted when it is reported as:
+
+- **Stolen or lost** — reported by the original owner to their carrier or the police
+- **Fraudulently obtained** — bought on an unpaid finance plan and never fully paid off
+- **Duplicated or cloned** — the same IMEI copied onto multiple counterfeit units
+- **Barred by the Nigerian Communications Commission (NCC)** — flagged through the NCC's device management efforts targeting counterfeit and unregistered handsets
+
+Once an IMEI is blacklisted, Nigerian carriers — MTN, Airtel, Glo, and 9mobile — are expected to block that device from registering a SIM on their networks. A blacklist recorded by a foreign carrier (for example, a phone reported stolen in the UK before being resold into the Nigerian market) can also block the device internationally, even if it was never reported to the NCC directly.
+
+## The difference between "blacklisted" and "not NCC type-approved"
+
+These two problems get confused constantly in Lagos and Abuja phone markets, but they are not the same thing:
+
+| Problem | What it means | Can it be fixed? |
+|---|---|---|
+| **Blacklisted (stolen/fraud)** | The IMEI is flagged as stolen, lost, or fraudulently financed | Almost never — walk away from the purchase |
+| **Not NCC type-approved** | The specific model was never certified for the Nigerian market | Sometimes still usable, but no official support or warranty path |
+| **Duplicated IMEI** | The same IMEI appears on more than one physical device | Indicates a counterfeit or cloned unit — do not buy |
+
+A phone can be perfectly legitimate and still fail an NCC type-approval check simply because it was imported outside the official channel. That is a different (and usually less serious) problem than buying a stolen device. Knowing which one you are looking at changes what you should do next.
+
+## Step-by-step: check a phone's IMEI before buying
+
+**Step 1 — Find the IMEI**
+
+Dial `*#06#` on the phone. The 15-digit IMEI appears immediately on screen. Write down both IMEI 1 and IMEI 2 if it is a dual-SIM device — write it down rather than relying on a screenshot the seller could edit or replace.
+
+**Step 2 — Compare it to the box and SIM tray**
+
+If the seller has the original box, the IMEI printed on the box and the SIM tray should match the one on screen. A mismatch is one of the clearest signs of a swapped logic board or a counterfeit unit.
+
+**Step 3 — Run an independent IMEI check**
+
+Do not rely only on the seller's word or a screenshot they show you. Run a [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) yourself to confirm the brand, model, and specs actually match what is being sold — a common trick in Computer Village is reselling a lower-spec model as a flagship.
+
+**Step 4 — Run a blacklist check**
+
+Follow that with a [WorldWide Blacklist check](https://imeihub.net/service.php?slug=blacklist), which cross-references international carrier and law-enforcement blacklist databases. This is the single most important check for anyone buying a used phone in Nigeria, since a large share of imported devices arrive from markets (UK, US, UAE) with their own stolen-phone registries.
+
+**Step 5 — Check brand-specific locks**
+
+- For iPhones: an [iCloud Activation Lock check](https://imeihub.net/service.php?slug=apple-icloud) and an [Apple SIM-Lock check](https://imeihub.net/service.php?slug=apple-sim-lock) — a device locked to a UK or US carrier is a common problem with imported iPhones sold in Lagos.
+- For Samsung: a [Samsung Info check](https://imeihub.net/service.php?slug=samsung-info) returns the Knox Guard status and country of sale.
+- For Xiaomi, Redmi, or POCO: an [Xiaomi status check](https://imeihub.net/service.php?slug=xiaomi-status) confirms whether Mi Account / Find Device lock is active.
+
+## What to do if a phone comes back blacklisted
+
+- **Do not pay, and do not negotiate a "discount" instead.** A blacklisted phone has no legitimate resale value, no matter how good the physical condition looks.
+- **Do not attempt to have the IMEI "changed" or "unlocked" by a street vendor.** IMEI reprogramming is illegal in Nigeria and elsewhere, and a phone with a tampered IMEI is even harder to resell or get repaired later.
+- **Report the seller if the device appears to be stolen property**, particularly for a private sale where you have the seller's contact details.
+- **Ask for a refund immediately if you already paid**, before the seller disappears — this is why running the check before handing over money matters so much.
+
+## Buying from Computer Village, Alaba, or an online reseller: a quick checklist
+
+| Situation | What to do |
+|---|---|
+| In-person cash purchase (Computer Village, Wuse, Alaba) | Run the IMEI check on the spot, on your own phone, before paying |
+| Buying via Instagram, Jiji, or Facebook Marketplace | Ask the seller for the IMEI in advance and check it before agreeing to meet |
+| Buying from a registered shop with a receipt | Still check — a receipt does not confirm the phone is not blacklisted |
+| Phone shipped from abroad (UK, US, UAE) | Run a blacklist check, since foreign-market blacklists carry over |
+
+## The bottom line
+
+An IMEI check takes less than a minute and costs nothing for the basic lookup, while a blacklisted phone can leave you with a device that never connects to a Nigerian network again. Whether you are buying from Computer Village, Alaba International Market, or an online reseller, treat the IMEI and blacklist check as a non-negotiable step — not an optional extra — before any money changes hands.
+
+For the full range of checks available for Nigerian buyers, see [Imeihub Services](https://imeihub.net/services.php).
+MD,
+    ],
 ];
