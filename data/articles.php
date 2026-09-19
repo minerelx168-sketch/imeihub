@@ -8,6 +8,296 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-phone-age',
+        'title' => 'iPhone Serial Number Check: Can It Tell the Phone\'s Age?',
+        'meta_title' => 'iPhone Serial Number Check: How Old Is It?',
+        'excerpt' => 'Can an iPhone serial number check reveal its age? Separate manufacture, purchase, activation, and warranty dates before buying used.',
+        'date' => '2026-09-19',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260919_1'
+An **iPhone serial number check** can help identify a device and open Apple's official coverage tools, but “How old is this iPhone?” is not a single question. A buyer may mean the model's release year, the unit's manufacture date, its first activation, its original purchase date, or the time left on its warranty. Those dates can differ, and treating one as proof of another can lead to a bad used-phone decision.
+
+This guide explains which age signals are useful, which conclusions go too far, and how to combine the serial number, IMEI, Apple coverage information, a receipt, and the phone itself before you pay.
+
+## Key Takeaways
+
+- An Apple coverage result is about service eligibility; it is not a factory birth certificate.
+- A model's release year does not prove when one specific unit was sold or activated.
+- Apple says the purchase date shown in its coverage system can be estimated and may be corrected with the original receipt.
+- The serial number identifies the device, while the IMEI identifies a cellular radio; use the identifier requested by the tool you are checking.
+- For a used purchase, verify the on-device identifiers, official coverage information, seller evidence, carrier status, and physical condition as separate checks.
+
+## What Does “iPhone Age” Actually Mean?
+
+Before starting an iPhone serial number search, decide which date matters to your decision.
+
+| Age signal | What it means | What it does not prove |
+|---|---|---|
+| Model generation | When Apple introduced that iPhone family | When this unit was manufactured, sold, or activated |
+| Manufacture date | When the physical unit was assembled | Original retail purchase date or current condition |
+| Purchase date | When the device was originally sold | That the current seller owns it free of claims or financing |
+| Activation date | When the device was first activated in a reporting system | That it remained in use continuously afterward |
+| Coverage end date | When eligible Apple coverage expires | The exact factory date or battery health |
+
+An older model can be a relatively recent purchase if it remained in inventory. A newer-looking unit may also be a replacement device rather than the original phone named on an old receipt. This is why one date should not carry the entire decision.
+
+## Can a Serial Number Reveal the Exact Manufacture Date?
+
+Not reliably enough to use as purchase proof. Apple's public workflow lets you enter a serial number at [Check Coverage](https://checkcoverage.apple.com/) and review coverage information, but Apple's current support material does not describe that result as an exact manufacture-date certificate.
+
+Third-party serial decoders may present a factory week or production estimate. Even when a result looks precise, do not let it override the phone's displayed identifiers, Apple's official coverage data, or the original receipt. A decoder also cannot establish ownership, financing status, carrier lock, Activation Lock, battery health, or repair history.
+
+### Why the model year is only a starting point
+
+You can use Apple's model-identification resources to place the device in the correct product generation. That is useful for confirming expected features and compatibility. It still gives the age of the *model line*, not the individual unit.
+
+### Why the box is not enough
+
+A serial number printed on a box can be copied, relabeled, or paired with a different device. Read the identifier from the iPhone itself and compare it with the box and receipt. A match strengthens the evidence; a mismatch needs an explanation before payment.
+
+## How to Find the Correct iPhone Serial Number
+
+Apple explains several ways to locate a serial number, IMEI, EID, and related identifiers in its [device-identifier guide](https://support.apple.com/en-us/108037).
+
+### On a working iPhone
+
+- Open **Settings > General > About**.
+- Find **Serial Number** and press and hold to copy it.
+- Record **IMEI** as well if you plan to check cellular identity or status.
+- On a dual-SIM model, note that more than one IMEI may appear.
+
+### If setup is not complete
+
+Apple also documents ways to view identifiers from the Hello screen, a connected computer, the device packaging, or the owner's Apple Account. For a local purchase, the strongest comparison is the identifier displayed by the actual phone in front of you.
+
+Never post a full serial number or IMEI in a public listing, comment, or forum. Share it only with a service you have chosen for a legitimate check.
+
+## How to Read Apple's Coverage Information as an Age Signal
+
+Apple provides official ways to view AppleCare and warranty coverage in Settings, at Check Coverage, and through My Support. Its [coverage guidance](https://support.apple.com/en-us/102607) explains where to find the plan type and expiration information.
+
+Coverage data can help answer questions such as:
+
+- Is the device currently covered by an Apple plan?
+- Does the reported coverage period fit the seller's timeline?
+- Is there an obvious conflict between the claimed purchase date and Apple's record?
+
+It does not independently answer whether the phone is blacklisted, carrier-locked, financed, Activation Locked, supervised, or physically healthy.
+
+### An estimated purchase date can be wrong
+
+Apple states that its coverage information is based on the purchase-date data available to Apple and that an estimated purchase date may be incorrect. Apple may require the original sales receipt to update it. The details are in Apple's page about [updating proof-of-purchase information](https://support.apple.com/en-us/102865).
+
+That makes the receipt important when a seller claims the phone is younger than the coverage page suggests. Check that the document identifies the same device and appears to come from the claimed retailer or carrier. A screenshot with no matching identifier is weak evidence.
+
+## Serial Number, IMEI, and Coverage: Use the Right Tool
+
+An iPhone SN check and an IMEI lookup are related, but they are not interchangeable.
+
+### Serial number
+
+Use the serial number for Apple's device and coverage workflows when that identifier is requested. It is useful for confirming the unit being discussed and reviewing Apple-provided service information.
+
+### IMEI
+
+Use the 15-digit IMEI for cellular-device identification and IMEI-based reports. IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) resolves the TAC portion to return brand, model, and basic specifications. It does **not** advertise purchase date, activation date, warranty, blacklist, or lock results as part of that free lookup.
+
+For a more specific commercial question, IMEIhub lists a paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) that accepts an IMEI and is described as returning activation date and remaining warranty coverage. This is a different service from the free model lookup. Review the service description before ordering and treat the result as one evidence source, not a guarantee about ownership or condition.
+
+## A Better Used-iPhone Age Check
+
+Use a sequence that tests the seller's story from several angles.
+
+### Confirm the exact device
+
+- Read the serial number and IMEI from **Settings > General > About**.
+- Compare them with the box and receipt.
+- Confirm the displayed model and storage capacity match the listing.
+
+### Check official Apple information
+
+- Review AppleCare and warranty information in Settings or at Check Coverage.
+- Compare the coverage timeline with the claimed purchase date.
+- If Apple shows an estimated date, remember that Apple says it may need receipt-based correction.
+
+### Ask for evidence that answers the remaining question
+
+- Request the original receipt when purchase timing matters.
+- Ask whether the phone was replaced by Apple or an insurer.
+- Check **Settings > General > About > Parts and Service History** when available.
+- Review battery health and perform a physical inspection; neither comes from a serial lookup.
+
+### Check risks that age does not cover
+
+Age is only one part of a used-phone check. Separately verify carrier-lock status, blacklist status, Activation Lock removal, account sign-out, and any remaining financing with the carrier or seller. A serial-number or IMEI report does not remove any restriction.
+
+## Red Flags in an iPhone Serial Number Search
+
+Pause the purchase if you see any of these conflicts:
+
+- The identifier in Settings does not match the box or receipt.
+- The seller will show only a screenshot, not the identifier on the phone.
+- The claimed “purchase date” is inferred only from a model release year.
+- A third-party decoder date is presented as stronger evidence than Apple's coverage record and the original receipt.
+- The seller treats an active warranty as proof that the phone is paid off or unlocked.
+- The seller refuses normal checks for Activation Lock, carrier lock, blacklist status, or device condition.
+
+A mismatch is not automatically fraud; replacement units and corrected records can create legitimate differences. The burden is still on the seller to explain the difference with evidence you can verify.
+
+## What an Age Check Cannot Guarantee
+
+Even a consistent serial, IMEI, receipt, and coverage timeline cannot guarantee future reliability. None of those items measures battery wear, liquid exposure, display quality, camera performance, hidden repair quality, or every network restriction.
+
+The practical goal is not to discover one magical date. It is to reduce uncertainty: confirm the device, understand what each date represents, and test the risks that matter for how you plan to use the phone.
+
+## Conclusion: Treat iPhone Age as a Timeline, Not One Date
+
+An **iPhone serial number check** is useful when it begins a verification process, not when it is treated as a complete history report. Separate model generation, purchase, activation, and warranty dates; use Apple's official tools for Apple coverage information; compare the phone with its receipt; and use the IMEI for the cellular checks that actually require it.
+
+If you need only brand, model, and basic specifications, start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check). If activation timing and remaining Apple warranty are the unanswered questions, review the scope of the paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) before ordering.
+ARTICLE_20260919_1,
+    ],
+    [
+        'slug' => 'imei-check-online-phone-paid-off',
+        'title' => 'IMEI Check Online: Can It Tell If a Phone Is Paid Off?',
+        'meta_title' => 'IMEI Check Online: Is the Phone Paid Off?',
+        'excerpt' => 'Can an IMEI check online prove a phone is paid off? Learn what blacklist and carrier-lock results miss and how to verify financing before buying.',
+        'date' => '2026-09-19',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260919_2'
+An **IMEI check online** can identify a phone and, depending on the report, return blacklist or carrier-lock information. It usually cannot prove that a seller has paid every installment. A device balance belongs to a carrier or financing account, while an IMEI report answers only the data fields included by its provider. Buyers need to verify those questions separately.
+
+This distinction matters because “clean,” “compatible,” “unlocked,” and “paid off” sound reassuring but are not synonyms. Here is what each result means, what it leaves unresolved, and what to ask for before buying a financed phone secondhand.
+
+## Key Takeaways
+
+- A free IMEI lookup normally confirms identity data such as brand and model, not an account balance.
+- A clean blacklist result does not prove that no installments remain.
+- An unlocked phone is not automatically proof of a zero balance or clear ownership history.
+- Carrier rules connect payment and unlock eligibility in different ways; the carrier or account holder is the best source for the current balance.
+- Use IMEI reports to answer their stated questions, then verify financing with carrier/account evidence before paying the seller.
+
+## What “Paid Off” Means
+
+For this buying decision, paid off means the relevant device installment or financing agreement has a zero balance. It does not merely mean that the seller's monthly wireless service bill is current. It also does not mean that the phone is unlocked, clean on a blacklist, compatible with your carrier, or outside an insurance claim.
+
+Those statuses can interact under a carrier's policies, but they remain different records.
+
+| Result | Main question answered | Proof the phone is paid off? |
+|---|---|---|
+| Correct brand and model | Does this IMEI identify the expected device family? | No |
+| Clean blacklist result | Is the IMEI reported lost or stolen in the checked sources now? | No |
+| Carrier compatible | Can the network accept this model/IMEI under current rules? | No |
+| SIM unlocked | Is the device currently restricted to one carrier? | No |
+| Zero installment balance from the carrier account | Is that financing obligation shown as satisfied? | Stronger evidence, but confirm the device and account match |
+
+## What an Online IMEI Check Can Actually Tell You
+
+The answer depends on the service selected. “IMEI checker online” is a broad label, not a standard report with universal fields.
+
+### Free identity lookup
+
+IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) uses the TAC portion of a 15-digit IMEI to return the manufacturer, model, and basic specifications. That is helpful for catching an obvious listing mismatch. The service does not advertise financing, blacklist, warranty, or carrier-lock data as part of the free result.
+
+### Paid blacklist report
+
+IMEIhub's paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) is described as checking lost/stolen status across carrier blacklists. That can answer an important risk question, but its stated scope is blacklist status—not a remaining device balance.
+
+A clean result means the checked sources did not return a blacklist match at that time. It does not promise that the seller will keep an account current, that a later report cannot occur, or that an installment agreement is settled.
+
+### Paid carrier-lock report
+
+IMEIhub's paid [Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) is described as a focused check of whether an iPhone's SIM slot is carrier-locked. It is useful when that is the exact unanswered question. It is not advertised as an installment-balance report.
+
+An iPhone user can also open **Settings > General > About** and look for **Carrier Lock**. Apple says “No SIM restrictions” means the iPhone is unlocked in its [official unlock guidance](https://support.apple.com/en-us/109316). Apple also states that only the current carrier can unlock the iPhone. Neither statement turns the Settings result into a financing receipt.
+
+## Why Carrier Lock and Financing Are Easy to Confuse
+
+Carriers often include payment status among several unlock requirements. For example, AT&T's current [device unlock requirements](https://www.att.com/support/article/wireless/KM1008728/) say an eligible device must be paid in full and its installment balance must be zero, alongside timing, account, and lost/stolen conditions.
+
+That policy shows why a remaining balance can affect an unlock request. It does **not** prove the reverse in every situation: seeing an unlocked device does not reveal who paid it, when it was paid, whether it was sold through another channel, or whether a different obligation exists. Carrier policies also differ, so do not apply one company's rule to every phone.
+
+[T-Mobile](https://www.t-mobile.com/responsibility/consumer-info/policies/sim-unlock-policy) and [Verizon](https://www.verizon.com/support/device-locking-faqs/) publish their own device-locking policies. Use the policy of the carrier connected to the phone rather than assuming all networks treat financing and locking identically.
+
+## How to Verify Whether a Phone Is Paid Off
+
+No single screenshot should carry the transaction. Combine the phone's IMEI with carrier/account evidence and normal buyer protections.
+
+### Confirm the exact IMEI first
+
+- Read the IMEI from the phone's **Settings > About** screen or dial `*#06#` when supported.
+- On dual-SIM phones, record each IMEI and ask which one the carrier account uses.
+- Compare the on-device IMEI with the box, receipt, and any carrier-account page.
+- Do not rely only on an IMEI typed into a marketplace listing.
+
+### Ask the seller to show the carrier account
+
+The strongest practical evidence is a current carrier-account page or carrier confirmation showing the matching device and a zero installment balance. The seller should open it directly rather than sending an easily edited image.
+
+Protect personal data: you need to see the device match and balance status, not the seller's full account number, address, or payment card.
+
+### Contact the relevant carrier
+
+Ask the carrier what it can verify for a prospective buyer and what information the account holder must provide. Privacy rules may prevent an agent from discussing another person's account with you. If so, have the seller contact the carrier while you are present or complete the carrier's official payoff/unlock workflow before the sale.
+
+### Use reports for the questions they answer
+
+- Run a basic IMEI identity check to catch a brand/model mismatch.
+- Use a blacklist report when lost/stolen status is a concern.
+- Check carrier-lock status when you need to use another network.
+- Treat financing as a separate carrier/account verification.
+
+### Preserve a safe exit
+
+Use a payment method and marketplace with buyer protection, record the listing's claims, and agree on a return window. If the seller will not let you verify the IMEI or payment status, the safest choice is not to complete the purchase.
+
+## Common Claims That Do Not Prove a Zero Balance
+
+### “The IMEI is clean”
+
+This addresses the current blacklist result in the sources checked. It does not disclose an installment ledger.
+
+### “It accepts my SIM”
+
+The device may be unlocked or your SIM may use the same carrier. Neither outcome confirms that financing is complete.
+
+### “It has no SIM restrictions”
+
+That is useful evidence of an iPhone's present carrier-lock state. It is not proof of purchase, ownership, blacklist stability, or a zero carrier balance.
+
+### “The free IMEI checker says it is valid”
+
+A valid-looking IMEI and correct model result show that the number has a plausible format and resolves to expected identity data. They do not convert a basic lookup into a financial report.
+
+### “The seller has the box”
+
+Packaging supports the device story only when its identifiers match the phone. A box does not show the current installment balance or prevent a later account dispute.
+
+## What If the Carrier Will Not Confirm the Balance?
+
+Do not fill the information gap with an unrelated IMEI result. Consider one of these safer options:
+
+- Ask the seller to pay off the device and show the updated account state before meeting.
+- Complete the transaction at a carrier store if the carrier supports that workflow.
+- Buy through a marketplace or retailer that provides a clear return and device-financing guarantee.
+- Choose another device if the seller cannot provide verifiable evidence.
+
+The inconvenience is smaller than the risk of buying a phone whose account status you cannot establish.
+
+## Can a Paid IMEI Report Remove a Balance or Lock?
+
+No. A lookup reports data; it does not settle an installment plan, transfer ownership, remove a blacklist entry, clear Activation Lock, or unlock a carrier-restricted device. IMEIhub's service pages describe checks, not removal services.
+
+If a result shows a problem, use the carrier, original seller, insurer, or platform dispute process that controls that record. Do not pay a third party simply because it promises a guaranteed remote removal.
+
+## Conclusion: Check the IMEI, Then Verify the Account
+
+An **IMEI check online** is valuable when its scope matches your question. Use a free check for brand and model, a blacklist report for lost/stolen status, and a carrier-lock check for SIM restrictions. None of those results alone proves that the device installment balance is zero.
+
+Before buying, match the IMEI on the phone to the seller's evidence and get current payment confirmation through the relevant carrier or account holder. Start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then choose a paid [blacklist](https://imeihub.net/service.php?slug=blacklist) or [Apple SIM-lock](https://imeihub.net/service.php?slug=apple-sim-lock) report only when that specific status is still unresolved.
+ARTICLE_20260919_2,
+    ],
+    [
         'slug' => 'imei-checker-online-wrong-model',
         'title' => 'IMEI Checker Online Shows the Wrong Model: What Should You Do?',
         'meta_title' => 'IMEI Checker Online Shows the Wrong Model?',
