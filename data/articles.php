@@ -8,6 +8,330 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-replacement-flag',
+        'title' => 'iPhone IMEI Check: What Does a Replacement Flag Mean?',
+        'meta_title' => 'iPhone IMEI Check: What Replacement Flag Means',
+        'excerpt' => 'An iPhone IMEI check shows a replacement flag? Learn what it may indicate, how it differs from repaired parts, and what to verify before buying.',
+        'date' => '2026-09-20',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260920_1'
+An **iPhone IMEI check** may return a replacement flag in a detailed Apple report. That field can be useful, but it should not be translated into “fake,” “damaged,” or “bad phone.” A replacement device can enter circulation through a legitimate Apple service process, while a repaired original iPhone can contain replaced parts without being a replacement device itself.
+
+The right response is to identify exactly what the report field refers to, match the IMEI to the phone, and compare the result with Apple's on-device service history, coverage information, and the seller's documentation. This guide shows how.
+
+## Key Takeaways
+
+- A replacement-device flag and a replaced-part message answer different questions.
+- Apple offers replacement-device workflows, including Express Replacement Service for eligible AppleCare customers.
+- Apple says service replacement equipment may contain new or previously used genuine Apple parts that meet its functional requirements.
+- A replacement flag does not prove current condition, ownership, blacklist status, carrier-lock status, or Activation Lock status.
+- Free IMEI model identification does not include replacement flags; use a report whose published scope includes that field.
+
+## What Is a Replacement Flag in an IMEI Report?
+
+A replacement flag is a database field that may indicate the device was issued or recorded as a replacement rather than the original retail unit in a service transaction. The exact wording and values can vary by report provider, so read the field label, result legend, and report scope together.
+
+IMEIhub describes its paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) as including original retailer, case and repair history, replacement flags, activation policy, ICCID, and MAC address. That makes it different from a basic identification lookup or a single-purpose SIM-lock report.
+
+The report field is a historical clue. It is not a physical inspection of the iPhone and it does not explain every event that may have happened after the replacement was issued.
+
+## Replacement Device vs. Repaired Device
+
+These terms are easy to confuse, but they describe different levels of the product.
+
+| Term | What changed | Where to verify |
+|---|---|---|
+| Replacement device | The customer received another device in place of the original unit | Detailed service/report history and supporting service documents |
+| Repaired device | The same device was serviced and one or more components may have been changed | Settings > General > About > Parts and Service History, when supported |
+| Replacement part | A battery, display, camera, logic board, or another component was installed | Apple's on-device Parts and Service History |
+| Refurbished listing | A seller's description of how a used device was prepared for resale | Seller evidence, inspection, warranty terms, and return policy |
+
+A replacement device can later be repaired. An original retail device can also have several replacement parts. One label cannot describe the entire history.
+
+### Apple's replacement process is legitimate
+
+Apple's [Express Replacement Service](https://support.apple.com/products/repair/express-replacement) sends an eligible customer a replacement device before the original device is returned. Apple states that equipment supplied through repair or replacement service may contain new or previously used genuine Apple parts that have been tested and meet Apple functional requirements.
+
+Therefore, a replacement flag is not automatically evidence of counterfeiting. It indicates that you should verify the replacement's own identifier, coverage, service history, and present condition rather than assuming the original receipt tells the complete story.
+
+### A replaced part is not the same as a replaced phone
+
+Apple's [Parts and Service History guidance](https://support.apple.com/en-us/102658) explains that supported iPhones can display information about serviced components in **Settings > General > About**. Depending on the model and repair, labels can include Genuine, Used, Unknown, Unverified, or Finish Repair.
+
+That screen is about components linked to the current iPhone. A battery or display replacement does not by itself mean the entire device was issued as a service replacement.
+
+## What a Replacement Flag Does Not Prove
+
+Avoid turning one field into conclusions it cannot support.
+
+### It does not prove the iPhone is defective
+
+A service replacement may have been issued because of damage, a covered fault, or another eligible service situation involving the prior device. The flag alone does not measure the replacement phone's current battery, display, cameras, enclosure, or internal condition.
+
+### It does not prove every part is new
+
+Apple explicitly says service replacement equipment may contain new or previously used genuine Apple parts that pass its functional requirements. If the age or condition of individual parts matters, inspect the phone and review the on-device Parts and Service History where available.
+
+### It does not prove ownership
+
+An IMEI result does not identify the lawful owner or confirm that the seller is entitled to sell the phone. Request the replacement or service document, match it to the device, and use a transaction method with buyer protection.
+
+### It does not answer network or account locks
+
+Replacement history is separate from:
+
+- carrier or SIM-lock status;
+- lost/stolen blacklist status;
+- Find My and Activation Lock;
+- remaining carrier financing;
+- Mobile Device Management enrollment.
+
+Use a check designed for each remaining question. A report does not remove any lock or restriction.
+
+## How to Verify a Replacement iPhone Before Buying
+
+Follow a layered process instead of trusting a single screenshot.
+
+### Confirm the IMEI on the phone
+
+Apple's [identifier guide](https://support.apple.com/en-us/108037) explains where to find the serial number, IMEI, EID, and related values. On a working iPhone, open **Settings > General > About** and copy the IMEI directly.
+
+- Compare the IMEI with the detailed report.
+- If the iPhone has IMEI and IMEI2, record which identifier was checked.
+- Compare the serial number with any Apple service or replacement document.
+- Do not rely only on a box, loose SIM tray, or marketplace screenshot.
+
+### Ask for the replacement paperwork
+
+A legitimate replacement may come with an Apple service confirmation, repair reference, carrier or insurer record, or updated proof of coverage. Look for a document that connects the replacement device to the service event without demanding unnecessary personal account details from the seller.
+
+If the only receipt belongs to the original device, ask the seller to explain how the current serial number and IMEI became associated with the transaction.
+
+### Review Parts and Service History
+
+Open **Settings > General > About**. If Parts and Service History appears, review each available component label and service date. Apple notes that if a part was serviced more than once, only the most recent service may appear, so absence of a full timeline is not proof that nothing else occurred.
+
+An Unknown or Unverified message needs investigation, but it should be interpreted using Apple's definitions rather than treated as a universal counterfeit warning.
+
+### Check coverage separately
+
+Use Apple's [Check Coverage](https://checkcoverage.apple.com/) page or the coverage section on the device. Coverage can support the timeline, but it does not replace blacklist, carrier-lock, ownership, or condition checks.
+
+If the purchase date looks wrong, Apple explains that coverage information may use an estimated date and may require the original receipt for correction. Do not assume a coverage mismatch alone proves that the replacement is illegitimate.
+
+### Inspect the current device
+
+Test the display, cameras, speakers, microphones, charging, Face ID or Touch ID, buttons, cellular connection, Wi-Fi, Bluetooth, and battery health. A replacement flag cannot perform these checks.
+
+Before payment, have the seller remove their Apple Account properly and confirm that setup does not show **iPhone Locked to Owner**. Activation Lock is an account-security issue, not a replacement-history result.
+
+## Which IMEIhub Check Fits This Question?
+
+Choose the smallest report that answers the unresolved risk.
+
+### Free IMEI Check
+
+IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) returns brand, model, and basic specifications from the IMEI's TAC. It is useful for identity screening but does not advertise replacement, repair, warranty, blacklist, or lock fields.
+
+### Apple Check Basic
+
+The paid [Apple Check Basic](https://imeihub.net/service.php?slug=apple-basic) is described as returning the exact model, colour, and storage tier. Use it when configuration is the question, not when you need replacement history.
+
+### Apple Full GSX Report
+
+The paid Apple Full GSX service explicitly lists replacement flags and case/repair history in its scope. Use it when those fields are necessary to your buying, resale, or intake decision. A Full GSX result is still evidence to interpret alongside the phone and documentation—not a guarantee of future condition.
+
+## Common Interpretation Mistakes
+
+- **“Replacement means refurbished.”** The report may indicate a service replacement, while “refurbished” is often a seller or retail category with different standards.
+- **“No replacement flag means no repairs.”** Whole-device replacement and component repairs are different events.
+- **“Apple replacement means every part is brand-new.”** Apple says replacement equipment may include new or previously used genuine parts that meet functional requirements.
+- **“A detailed report replaces inspection.”** Historical data cannot test the device in your hand.
+- **“The report can clear the flag.”** A lookup reports information; it does not change Apple's records or the device's history.
+
+## Conclusion: Interpret the Flag, Then Verify the Phone
+
+An **iPhone IMEI check** with a replacement flag can reveal an important part of the device's service story, but it is not a verdict on quality or legitimacy. Separate whole-device replacement from part replacement, match the report to the on-device IMEI, review Apple's Parts and Service History, check coverage, inspect the hardware, and verify locks independently.
+
+Start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) for basic identity. If replacement flags and case/repair history are the specific unanswered questions, review the published scope of the paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) before ordering.
+ARTICLE_20260920_1,
+    ],
+    [
+        'slug' => 'imei-checker-online-xiaomi-mi-account-lock',
+        'title' => 'IMEI Checker Online for Xiaomi: What Does Mi Account Lock Mean?',
+        'meta_title' => 'IMEI Checker Online for Xiaomi: Mi Account Lock',
+        'excerpt' => 'Use an IMEI checker online for Xiaomi to understand Mi Account lock status, free model data, warranty fields, and safe next steps.',
+        'date' => '2026-09-20',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260920_2'
+An **IMEI checker online** for a Xiaomi, Redmi, or POCO phone may offer anything from basic model identification to a paid Mi Account lock result. Those are not the same check. A free TAC lookup can identify the device family, while a specialized report may return Mi Account or Find Device status, warranty, and country fields. Neither result removes an account lock.
+
+Before buying a used Xiaomi phone, understand what ON, OFF, clean, blacklisted, and Google account protection each refer to. This guide separates those signals and gives you a safe verification workflow.
+
+## Key Takeaways
+
+- A free IMEI lookup can confirm basic identity but does not advertise Mi Account lock, warranty, or blacklist data.
+- IMEIhub's paid Xiaomi Info + Mi ID report is described as returning model, warranty, country, and Mi Account/Find Device ON or OFF.
+- Mi Account status is separate from Google's Android device protection, screen lock, carrier lock, and blacklist status.
+- An ON result is a reason to involve the current owner; it is not an invitation to use a bypass service.
+- Run a report on the IMEI shown by the phone, then complete an account-removal and setup check with the seller before payment.
+
+## Start With the Exact Question You Need Answered
+
+“Check this Xiaomi IMEI” can mean several different things.
+
+| Question | Suitable check | What it does not prove |
+|---|---|---|
+| Is this the expected Xiaomi model? | Free basic IMEI lookup | Warranty, account lock, blacklist, or ownership |
+| Is Mi Account/Find Device reported ON or OFF? | Xiaomi-specific paid status report | Google account protection or carrier status |
+| Is the phone reported lost or stolen? | Separate blacklist report | Mi Account removal or carrier unlock |
+| Will my carrier accept the phone? | Carrier compatibility check | Ownership or account-lock status |
+| Can the seller complete setup after reset? | In-person account removal and setup test | Future physical reliability |
+
+Choosing a report by name alone can produce a technically correct result that does not answer your real concern.
+
+## What a Free Xiaomi IMEI Check Tells You
+
+IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) resolves the first eight digits, known as the TAC, against its catalog and returns manufacturer, model, and basic specifications.
+
+Use that result to ask:
+
+- Does the identifier resolve to Xiaomi, Redmi, or POCO as expected?
+- Does the model family match the phone and listing?
+- Did you enter a complete 15-digit IMEI rather than a serial number, EID, or ICCID?
+- If the phone has two IMEIs, did you check the correct one?
+
+A basic result does not advertise Mi Account, Find Device, warranty, country, blacklist, or carrier-lock fields. “Valid IMEI” and “account ready for resale” are different conclusions.
+
+## What the Paid Xiaomi Info + Mi ID Report Covers
+
+IMEIhub describes its paid [Xiaomi Info + Mi ID report](https://imeihub.net/service.php?slug=xiaomi-status) as returning the Xiaomi, Redmi, or POCO model, warranty, country of origin, and Mi Account/Find Device status as ON or OFF.
+
+That scope is commercially useful when account status is the unanswered question. It should still be treated as a point-in-time information report, not as a transfer of ownership or an unlock service.
+
+### What an ON result means for a buyer
+
+An ON result indicates that the Xiaomi-specific account or Find Device status reported by the service is enabled. Do not ask an unrelated third party to bypass it. Have the legitimate current owner sign in, review the account relationship, and follow Xiaomi's supported removal or recovery process.
+
+If the seller cannot demonstrate control of the linked account, delay or cancel the purchase. A low price does not compensate for a device that cannot be transferred cleanly.
+
+### What an OFF result means—and does not mean
+
+An OFF result addresses the Xiaomi account-status field returned by that report. It does not automatically prove that:
+
+- every Google Account has been removed;
+- Android factory-reset protection is inactive;
+- the phone is clean on carrier blacklists;
+- the device is paid off or carrier-unlocked;
+- the seller owns the phone;
+- the result cannot change before handover.
+
+Verify those risks separately when they matter.
+
+## Mi Account Lock vs. Google Device Protection
+
+A Xiaomi phone runs Android but can have both manufacturer-account features and Google account protection. They should not be combined into one “cloud lock” label.
+
+### Xiaomi account and Find Device status
+
+The Xiaomi-specific report focuses on the Mi Account/Find Device field described on the service page. That is the appropriate report when you need the Xiaomi account status linked to the submitted IMEI.
+
+### Google factory-reset protection
+
+Google's official [Android device-protection guidance](https://support.google.com/android/answer/9459346) explains that a protected Android device reset without authorization can require a previously synced Google Account or screen lock before it can be used again. Google also explains that removing the Google Account from the device turns off that protection.
+
+An IMEI report returning Mi Account OFF does not prove that this separate Google protection has been cleared. The seller should remove their Google Account through Settings before the phone is reset and handed over.
+
+### Screen lock is another layer
+
+A PIN, password, pattern, or biometric lock controls access to the current user session. It is not the same result as Mi Account status, Google device protection, or an IMEI blacklist. The owner should unlock the phone and perform the handover steps openly.
+
+## How to Find and Verify the Xiaomi IMEI
+
+The service page accepts a 15-digit IMEI. Start with the number displayed by the phone rather than a number copied from a marketplace description.
+
+### Check the phone itself
+
+Depending on the Xiaomi or HyperOS version, IMEI information can appear under **Settings > About phone**, detailed information, or status information. Many devices also display the IMEI when you dial `*#06#`.
+
+- Copy all 15 digits exactly.
+- Record IMEI and IMEI2 separately on Dual SIM models.
+- Compare the number with the box and purchase documentation.
+- If Settings, dialer, and packaging disagree, stop and resolve the mismatch before ordering a report.
+
+Do not publish a complete IMEI in a public listing or forum post. Provide it only to the checker, carrier, manufacturer, or buyer involved in the legitimate transaction.
+
+### Confirm the model before buying a specialized report
+
+Run the free lookup first. If the returned manufacturer or model family is unrelated to the phone, recopy the IMEI and investigate. Paying for Xiaomi account data on the wrong identifier only produces a more detailed report about the wrong device.
+
+## A Safe Used-Xiaomi Handover Workflow
+
+Use the report to guide the handover, not replace it.
+
+### Before meeting the seller
+
+- Ask for the IMEI privately and run a basic model check.
+- Decide whether Mi Account status, warranty, blacklist, or carrier compatibility is the real unanswered question.
+- Confirm the marketplace's return and buyer-protection rules.
+
+### With the phone in hand
+
+- Match the IMEI in Settings to the checked result.
+- Confirm the model, storage, cameras, display, charging, speakers, microphones, and connectivity.
+- Ask the seller to remove their Xiaomi and Google accounts through the normal Settings workflows.
+- Do not accept a recovery-mode reset as proof that account protection is cleared.
+
+### Before final payment
+
+- Complete a normal reset with the seller's cooperation.
+- Begin setup and confirm that it does not request the previous owner's Xiaomi or Google credentials.
+- Recheck any time-sensitive blacklist or carrier status close to the transaction if those risks matter.
+- Keep the receipt, listing, report, and seller promises with sensitive identifiers masked where appropriate.
+
+If the seller cannot complete account removal or refuses a setup test, choose another phone.
+
+## Mi Account Status vs. Blacklist and Carrier Lock
+
+These checks control different risks.
+
+### Blacklist status
+
+A paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) is described as checking lost/stolen status across carrier blacklists. It does not remove a Xiaomi account or Google device protection.
+
+### Carrier lock and compatibility
+
+Carrier restrictions determine which mobile network can activate the phone. Mi Account OFF does not guarantee that your carrier accepts the model or IMEI. Confirm bands, regional model, carrier policy, and compatibility separately.
+
+### Warranty and country fields
+
+The Xiaomi report also advertises warranty and country information. Those fields can help with service expectations, but they do not prove current physical condition, local warranty acceptance, ownership, or network compatibility. Confirm warranty terms with Xiaomi support for the country where you intend to seek service.
+
+## Common Mistakes With a Xiaomi IMEI Checker Online
+
+- **Assuming free means every status is included.** The free IMEIhub service advertises brand, model, and basic specifications only.
+- **Treating Mi Account OFF as a complete security clearance.** Google device protection and screen locks are separate.
+- **Using a seller's screenshot as the only evidence.** Match the report to the IMEI displayed by the device.
+- **Checking only one IMEI on a Dual SIM phone.** Record which cellular identity each report covers.
+- **Paying for an unlock promise.** An information lookup does not remove Mi Account, Google protection, a blacklist, or a carrier restriction.
+- **Resetting before the owner removes accounts.** An unauthorized reset can trigger credential verification during setup.
+
+## What to Do If the Report and Phone Disagree
+
+First, recopy the IMEI from Settings and confirm that the report covers the same identifier. Check for IMEI2, an incorrect digit, a box from another phone, or a model-label difference.
+
+If the Xiaomi account result conflicts with what the seller shows, do not guess which source is correct. Ask the legitimate owner to verify the account through Xiaomi's official support or account-recovery process. Save a masked copy of the report for the support conversation, but never share the seller's credentials.
+
+A lookup cannot resolve an ownership dispute. If account control remains unclear, do not complete the transaction.
+
+## Conclusion: Match the Report to the Risk
+
+An **IMEI checker online** can help identify a Xiaomi phone, but a free model result and a paid Mi Account result answer different questions. Verify the IMEI on the device, use Mi Account ON/OFF only for the Xiaomi-specific status it describes, check Google device protection separately, and complete a clean account-removal and setup test with the seller.
+
+Start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check). If Mi Account/Find Device status, warranty, and country fields are the remaining questions, review the scope of the paid [Xiaomi Info + Mi ID report](https://imeihub.net/service.php?slug=xiaomi-status) before ordering.
+ARTICLE_20260920_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-phone-age',
         'title' => 'iPhone Serial Number Check: Can It Tell the Phone\'s Age?',
         'meta_title' => 'iPhone Serial Number Check: How Old Is It?',
