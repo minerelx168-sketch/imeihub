@@ -8,6 +8,339 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-purchase-country',
+        'title' => 'iPhone Serial Number Check: Can It Reveal Purchase Country?',
+        'meta_title' => 'iPhone Serial Number Check: Purchase Country?',
+        'excerpt' => 'Can an iPhone serial number check reveal its purchase country? Learn what serial, part number, IMEI, and retailer fields can actually confirm.',
+        'date' => '2026-09-21',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260921_1'
+An **iPhone serial number check** can identify a specific Apple device and help you reach official support or coverage tools, but the serial number alone is not a dependable label for the country where the phone was bought. If a seller calls an iPhone a “US model,” “Japan model,” or “international version,” verify that claim with several fields instead of decoding one identifier from an unofficial chart.
+
+The most useful evidence is usually a combination of the serial number, IMEI, Apple part number, hardware model number, original retailer information, receipt, and the phone's actual carrier features. This guide explains what each field answers and when a detailed report is worth buying.
+
+## Key Takeaways
+
+- A serial number uniquely identifies an Apple device, but it is not the same as the part number or the A-number hardware model.
+- Apple shows the serial number, IMEI, model name, part number, and hardware model number in Settings, but these fields answer different questions.
+- A seller's claimed purchase country should be supported by a receipt, original retailer record, or another reliable sales record.
+- A region clue does not prove ownership, blacklist status, warranty eligibility, carrier unlock, or Activation Lock status.
+- A free IMEI lookup can help confirm the basic model; a detailed paid report is useful only when its published scope includes the historical field you need.
+
+## Can an iPhone Serial Number Check Show the Purchase Country?
+
+Not by itself. A serial number is a device identifier, not a complete sales invoice. It may help Apple or an authorized system locate a device record, but typing it into a random decoder should not be treated as proof of the original market, retailer, or buyer.
+
+Apple's own guidance explains where to find the serial number and cellular identifiers, while the iPhone User Guide lists the **part number** and **model number** as separate fields. That separation matters: many misleading “serial number check” pages mix these identifiers together.
+
+If your decision depends on the original sales market, look for evidence that directly relates to the sale:
+
+- The original invoice or carrier receipt
+- The retailer or reseller named in a detailed service report
+- The Apple part number shown on the device
+- The A-number hardware model and its supported bands or SIM design
+- The country or region associated with the applicable warranty terms
+
+No single clue replaces the others.
+
+## Serial Number, IMEI, Part Number, and Model Number
+
+Before interpreting a result, make sure you know which identifier you are reading.
+
+| Identifier | Typical format or location | Best use | What it does not prove |
+|---|---|---|---|
+| Serial number | Alphanumeric; Settings > General > About | Identifying the specific Apple device in support and coverage systems | Purchase country by itself |
+| IMEI | Usually 15 digits on cellular iPhones | Identifying the cellular device for model and status reports | Ownership or a clean future status |
+| Part number | Initially displayed beside Model Number in Settings | Distinguishing a sales configuration or product variant | The phone's complete history |
+| Hardware model number | Begins with A after tapping the part number | Matching the hardware variant to Apple's model documentation | Original retailer or current carrier lock |
+| EID | Long eSIM identifier | Identifying the embedded SIM component | Purchase country or blacklist status |
+
+Apple's [iPhone information guide](https://support.apple.com/en-gb/guide/iphone/iph3dd5fc7e/ios) says the part number appears beside Model Number and that tapping it reveals the hardware model number. Apple separately explains how to [find the serial number, EID, and IMEI](https://support.apple.com/en-us/108037).
+
+### Why unofficial serial decoders can be misleading
+
+Unofficial tools may rely on old manufacturing patterns, recycled tables, or assumptions that no longer apply. Even when a lookup identifies the correct family, that does not establish where the specific unit was sold or whether its history changed through a replacement or service event.
+
+Treat a decoder result as a lead to verify, not as a certificate.
+
+## What the Part Number Can Tell You
+
+The part number represents a product configuration rather than the individual phone. It can provide a useful regional clue when compared with reliable Apple or retailer documentation, but the clue must be interpreted carefully.
+
+To view it:
+
+- Open **Settings**.
+- Tap **General** and then **About**.
+- Find **Model Number**. The value shown first is the part number.
+- Tap it to switch to the A-number hardware model.
+
+Do not confuse a regional product configuration with the place where the current owner lives. Phones are exported, resold, replaced, and moved across borders. A part number can support a regional identification, but it does not prove the device was purchased directly from Apple in that country.
+
+### Use the A-number to confirm the hardware variant
+
+Apple's [Identify your iPhone model](https://support.apple.com/en-us/108044) page lists A-number models, capacities, colors, and physical characteristics. That page is useful for checking whether the device's stated model matches the hardware variant.
+
+The A-number may matter when regional versions differ in SIM layout or supported network features. It still does not disclose the original retailer, buyer, financing status, or current carrier policy.
+
+## When an IMEI Report Adds Useful Evidence
+
+An IMEI-based report can add device-specific fields that a public serial lookup does not show. The value depends on the report's stated scope.
+
+A [free IMEI check](https://imeihub.net/) is appropriate for a first-pass confirmation of brand, model, and basic specifications. It should not be described as a free retailer, blacklist, iCloud, warranty, or carrier-lock report.
+
+IMEIhub describes its paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) as including the original retailer, case and repair history, replacement flags, activation policy, ICCID, and MAC address. An original-retailer field can support a purchase-market investigation, especially when the seller has no receipt.
+
+However, **original retailer is not automatically the same as current country, current owner, or current warranty eligibility**. A retailer may sell across channels, and a device may be exported after the original transaction.
+
+### Match the IMEI before ordering a report
+
+Never run a paid report on a number copied only from a marketplace listing. With the seller's permission, compare the IMEI in Settings with the device and packaging information. If the phone uses more than one IMEI, confirm which identifier the report will check.
+
+An accurate report on the wrong IMEI is still the wrong answer for your purchase.
+
+## A Practical Purchase-Country Verification Process
+
+Use this sequence when country or region affects your buying decision.
+
+### 1. Read identifiers from the phone
+
+Open Settings > General > About and record the serial number, IMEI, part number, A-number model, and carrier-lock field. Avoid relying on a screenshot that could belong to another phone.
+
+### 2. Confirm the physical model
+
+Compare the model name and A-number with Apple's official model page. Check whether the phone's SIM tray or eSIM design matches that hardware version. Physical agreement makes a swapped-box or mismatched-listing explanation less likely.
+
+### 3. Ask for the original sales document
+
+A legitimate receipt can identify the seller, transaction location, date, and configuration. Check that its serial number or IMEI matches the phone. A receipt with a different identifier is not proof for the device in front of you.
+
+### 4. Check the field that matters to your decision
+
+If you only need the model, start with a free identification lookup. If you specifically need original retailer or service-history context, choose a report that explicitly includes those fields. Do not pay for a blacklist report when your question is about retailer history, or for a retailer-history report when your concern is carrier lock.
+
+### 5. Verify operational restrictions separately
+
+Purchase country does not answer these separate questions:
+
+- Is the IMEI reported lost or stolen?
+- Is the iPhone carrier-locked?
+- Is Find My or Activation Lock enabled?
+- Is the device enrolled in MDM?
+- Is the warranty active and usable where you live?
+- Is money still owed to a carrier or finance provider?
+
+Order or perform only the checks relevant to the actual risk.
+
+## Common Mistakes to Avoid
+
+### Assuming a country code proves where the owner bought it
+
+A configuration intended for one market can be exported and resold elsewhere. It may support the seller's story, but it does not prove the entire chain of ownership.
+
+### Treating “international version” as a technical specification
+
+“International” is often a sales phrase rather than a precise Apple category. Ask for the part number, A-number, supported SIM setup, and written warranty terms instead.
+
+### Equating purchase country with carrier unlock
+
+An iPhone from one country can be unlocked, while another from the same market can be tied to a carrier policy. Apple lists **Carrier Lock** separately in Settings. Confirm that field and, when necessary, use the appropriate carrier-lock check.
+
+### Expecting an IMEI lookup to change the device
+
+A lookup reports available data. It cannot move a phone to another sales region, rewrite its part number, remove Activation Lock, clear a blacklist, pay a balance, or unlock a carrier restriction.
+
+## What a Purchase-Country Check Cannot Guarantee
+
+Even a detailed report is a snapshot of available records. It cannot guarantee:
+
+- That every historical resale is documented
+- That a seller owns the phone legally
+- That warranty service will be available in your location
+- That all carriers will support the device
+- That the phone has no hidden physical damage
+- That a clean status will never change
+
+For a high-value used iPhone, combine identifier checks with an in-person inspection, activation test, seller identity, proof of purchase, and a written return agreement.
+
+## Conclusion: Verify the Sale, Not Just the Serial
+
+An **iPhone serial number check** is useful for identifying the device and reaching Apple support tools, but it does not independently prove purchase country. Use the part number and A-number for configuration clues, match the IMEI to the phone, request the original receipt, and use original-retailer data only as supporting evidence.
+
+Start with the [free IMEI lookup](https://imeihub.net/) for basic identification. If the purchase decision genuinely depends on original retailer and service-history context, review the published fields and run the [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) for the exact IMEI you verified on the phone.
+ARTICLE_20260921_1,
+    ],
+    [
+        'slug' => 'imei-checker-online-google-pixel-warranty',
+        'title' => 'IMEI Checker Online for Google Pixel: Read Warranty Results',
+        'meta_title' => 'IMEI Checker Online for Google Pixel Warranty',
+        'excerpt' => 'Use an IMEI checker online to read Google Pixel warranty and purchase-country results, verify the correct IMEI, and know what to confirm with Google.',
+        'date' => '2026-09-21',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260921_2'
+An **IMEI checker online** can identify a Google Pixel and, when you choose a report designed for Pixel devices, provide warranty and purchase-country information. The difficult part is interpreting the result correctly. “In warranty” is not a promise that every repair is free, while “out of warranty” does not mean Google cannot offer a paid repair.
+
+Before buying a used Pixel or sending one for service, verify the exact IMEI, understand what the report covers, and confirm repair eligibility through Google's official process. This guide turns the common result fields into practical next steps.
+
+## Key Takeaways
+
+- A free IMEI lookup is useful for basic model identification, not a free warranty or country report.
+- Google's official warranty process can use a Pixel's IMEI or serial number to check coverage.
+- Warranty eligibility depends on more than the expiry date; condition, seller channel, country, and available repair options can matter.
+- A country-of-purchase field does not prove current ownership, carrier compatibility, blacklist status, or carrier unlock.
+- An IMEI report provides information; it cannot extend a warranty, authorize a repair, or remove a device restriction.
+
+## What Can a Pixel IMEI Check Show?
+
+The answer depends on which check you run.
+
+| Check type | Typical purpose | What to expect | What not to assume |
+|---|---|---|---|
+| Free basic lookup | Confirm device identity | Brand, model, and basic specifications | Warranty, purchase country, blacklist, or lock details |
+| Google Pixel information report | Review Pixel-specific fields | Model, warranty information, and country of purchase within the published service scope | Guaranteed repair approval |
+| Official Google warranty check | Confirm coverage and repair options | Coverage status, expiry details, and issue-specific eligibility after sign-in | Blacklist or carrier-unlock status |
+| Blacklist report | Check reported lost or stolen status | Network-blocking records covered by the report | Warranty or financing status |
+
+IMEIhub's paid [Google Pixel Info](https://imeihub.net/service.php?slug=pixel-info) service is described as returning the Pixel model, warranty, and country of purchase. Its [free IMEI checker](https://imeihub.net/) is a basic identification step. Keeping those two scopes separate prevents a free model result from being mistaken for a warranty decision.
+
+## Find the Correct Pixel IMEI First
+
+Google's [device identifier guide](https://support.google.com/store/answer/3333000) says you can find a Pixel phone's IMEI and model in Settings > About phone. It also lists Google Find My Device, the box, and the SIM tray as possible locations.
+
+For a used-phone transaction, the phone's Settings screen is the strongest starting point because you can compare the number displayed by the operating system with the seller's listing and packaging.
+
+### Dual-SIM Pixels can have two IMEIs
+
+Google explains that a dual-SIM phone has one IMEI for each slot: IMEI 1 and IMEI 2. If two numbers appear, do not assume a report for one automatically covers the other.
+
+Before ordering:
+
+- Ask which IMEI the service accepts.
+- Record the identifier exactly; do not add spaces or omit a digit.
+- Match the report's IMEI to the submitted number.
+- Keep both identifiers in your purchase notes when evaluating a Dual SIM device.
+
+The existence of IMEI 2 is normal on supported dual-SIM phones. It is not evidence of cloning or tampering.
+
+## How to Read Pixel Warranty Results
+
+A warranty result normally needs three separate interpretations: time, eligibility, and service availability.
+
+### Coverage or expiry date
+
+Google's [warranty eligibility guidance](https://support.google.com/pixelphone/answer/6160400) says an IMEI or serial number can be used to determine whether a device remains within its warranty period and to check the expiry date. This tells you whether the time window appears open.
+
+It does not by itself determine whether a particular cracked screen, liquid-damaged port, unauthorized repair, or missing phone is covered.
+
+### In-warranty does not mean every repair is free
+
+Google lists item condition as a factor in eligibility. Accidental, cosmetic, and liquid damage may fall outside standard coverage, while some functional faults may qualify when other conditions are satisfied.
+
+Read “in warranty” as **the coverage period appears active**, not “Google has approved this repair.” The official repair flow asks you to select the actual problem before it determines coverage and estimated cost.
+
+### Out-of-warranty does not mean unrepairable
+
+An expired warranty usually means standard warranty coverage is no longer available. Google may still show paid repair options, depending on the model, problem, and location. The practical next step is to enter the same IMEI in Google's official repair process and review the options offered.
+
+### Extended plans are separate
+
+Pixel Care+, Preferred Care, carrier protection, and retailer plans can have their own status and claim process. A general Pixel information report should not be assumed to include every third-party or extended plan unless the service description explicitly says so.
+
+## Why Country of Purchase Matters
+
+Google states that warranty terms vary by the country or region where the phone was bought. Repair methods and authorized locations also vary. A purchase-country result can therefore be useful when a seller imported the Pixel or when you plan to request service somewhere else.
+
+Country information may help you ask better questions:
+
+- Was this Pixel officially sold in the stated market?
+- Are mail-in or walk-in repair options available where you live?
+- Does the seller have the original receipt from that market?
+- Are the network bands, SIM setup, and charger package appropriate for your location?
+- Will Google or the original retailer handle a claim if the phone was imported?
+
+Google's [Pixel warranty-claim guide](https://support.google.com/pixelphone/answer/9218411) advises checking the paper warranty for a phone bought in another country and notes that support availability can depend on where you are. That makes the country field relevant, but not a guarantee of local service.
+
+### Country of purchase is not country of manufacture
+
+These labels answer different questions. “Country of purchase” refers to the original sales market or transaction record. “Country of origin” or manufacture concerns production. Do not silently substitute one for the other when reading a report.
+
+### Imported does not automatically mean defective
+
+An imported Pixel can be legitimate and fully functional. The commercial risks are usually support availability, carrier compatibility, return rights, and documentation—not the mere fact that it crossed a border.
+
+## A Safe Pixel Verification Workflow
+
+Use this process before paying for a used Google Pixel.
+
+### 1. Confirm the model for free
+
+Run the IMEI through a [free online IMEI check](https://imeihub.net/). Confirm that the returned brand and model agree with the phone, listing, and box. If the model is wrong, pause before buying another report and recheck the digits.
+
+### 2. Match every identifier
+
+Compare Settings > About phone with the box and any receipt. A replacement box or seller typo can explain a mismatch, but it still needs a credible explanation before money changes hands.
+
+### 3. Use the Pixel-specific report for Pixel-specific questions
+
+If you need warranty and purchase-country fields, choose a report whose current service description includes them. Do not expect a general free lookup or blacklist report to answer those questions.
+
+### 4. Verify warranty with Google
+
+Google's official [in-warranty or out-of-warranty instructions](https://support.google.com/pixelphone/answer/16443375) direct users to the Your Devices or Repair services page, where the IMEI is entered after sign-in. Use that official step to confirm current coverage and issue-specific repair options.
+
+### 5. Ask for proof of purchase
+
+Google notes that proof of purchase may be needed for warranty support. The document should match the phone's IMEI or serial number, model, and transaction details. A generic store receipt without a device identifier provides weaker evidence.
+
+### 6. Check unrelated risks separately
+
+Warranty and purchase country do not answer whether the phone is:
+
+- Reported lost or stolen
+- Carrier-locked
+- Compatible with your network
+- Fully paid off
+- Protected by a previous owner's Google account after reset
+- Physically damaged or repaired with non-original parts
+
+Use the seller, carrier, official setup process, and the appropriate specialized report for those questions.
+
+## What If the Report and Google Disagree?
+
+Different systems can update at different times or use different definitions. First, verify that both checks used the same IMEI. Then save the report time, field labels, and screenshots without publishing the full identifier.
+
+Possible explanations include:
+
+- IMEI 1 was checked in one place and IMEI 2 in another.
+- A purchase or replacement record has not synchronized yet.
+- One result describes the warranty period while another evaluates a specific damage claim.
+- The seller supplied an IMEI from a box or listing that does not match the phone.
+- A report uses “country” for a different field than Google's sales or warranty region.
+
+For a warranty decision, Google's current support and repair response is authoritative for Google's process. A third-party report can help you investigate, but it cannot approve a claim on Google's behalf.
+
+## Limits of an Online IMEI Check
+
+An **IMEI checker online** cannot inspect the display, battery, cameras, USB-C port, water indicators, or repair quality. It also cannot prove the seller owns the phone, guarantee future blacklist status, or confirm that every carrier will activate it.
+
+A lookup cannot:
+
+- Extend or transfer a warranty
+- Remove Factory Reset Protection
+- Unlock a carrier restriction
+- Clear a blacklist record
+- Pay a device balance
+- Create repair eligibility
+
+For a high-value purchase, combine the report with a live setup test, physical inspection, network test, seller identity, receipt, and return terms.
+
+## Conclusion: Use the Report as a Decision Tool
+
+An **IMEI checker online** helps you confirm that a Google Pixel matches its listing and, with the correct paid report, review warranty and purchase-country fields. Interpret an active warranty as a time-status clue rather than automatic repair approval, and treat country information as support-planning context rather than proof of ownership or compatibility.
+
+Begin with the [free IMEI check](https://imeihub.net/) to confirm the model. When warranty and purchase country materially affect the deal, verify the identifier on the phone and run the [Google Pixel Info report](https://imeihub.net/service.php?slug=pixel-info), then confirm current repair eligibility through Google's official support process.
+ARTICLE_20260921_2,
+    ],
+    [
         'slug' => 'iphone-imei-check-replacement-flag',
         'title' => 'iPhone IMEI Check: What Does a Replacement Flag Mean?',
         'meta_title' => 'iPhone IMEI Check: What Replacement Flag Means',
