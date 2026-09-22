@@ -8,6 +8,367 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-original-carrier',
+        'title' => 'iPhone IMEI Check: Can It Find the Original Carrier?',
+        'meta_title' => 'iPhone IMEI Check: Find the Original Carrier',
+        'excerpt' => 'Use an iPhone IMEI check to investigate the original carrier, then verify current SIM-lock status before buying or switching networks.',
+        'date' => '2026-09-22',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260922_1'
+An **iPhone IMEI check** can help investigate the carrier or sales channel originally associated with a device, but “original carrier” is not the same as the carrier currently serving the phone or its current SIM-lock status. That distinction matters when you are buying a used iPhone, importing one, or planning to move it to another network.
+
+A useful report should answer the exact question you have. Basic model identification, original retailer or carrier history, current SIM-lock status, network compatibility, and financing are separate issues. This guide shows how to keep those results separate and verify the one that affects your decision.
+
+## Key Takeaways
+
+- A free IMEI lookup can confirm basic iPhone model information; it is not a free original-carrier or SIM-lock report.
+- An original carrier or retailer field describes an earlier sales or activation relationship, not necessarily the network used today.
+- Apple says **No SIM restrictions** beside Carrier Lock in Settings means the iPhone is unlocked.
+- A paid historical report and a current SIM-lock check answer different questions.
+- An IMEI lookup cannot unlock an iPhone, settle a carrier balance, or guarantee that a network will activate it.
+
+## What Does “Original Carrier” Mean?
+
+The phrase is used loosely across marketplaces and report providers. Depending on the report, it may refer to an original sales carrier, activation policy, retailer, or channel associated with the device. Read the exact field label instead of treating every carrier-related result as interchangeable.
+
+An iPhone can move far beyond that original relationship. It may be unlocked, resold, exported, used with another physical SIM, or activated with an eSIM from a different provider. Therefore, an original-carrier result is historical context—not a live statement about the SIM currently inside the phone.
+
+### Original retailer is not always a carrier
+
+Some iPhones are sold by Apple or another retailer without a carrier being the seller. A detailed report may return an **original retailer** rather than a network name. That can support a seller's story about where the device entered the market, but it does not independently prove the current owner, current service provider, purchase country, or lock status.
+
+### Activation policy is not a plain-language unlock guarantee
+
+A detailed Apple report may include an activation-policy field. Treat it as a technical record within that report, not as a substitute for checking the current **Carrier Lock** field on the iPhone. Policies, report labels, and live device status are different evidence sources.
+
+If the practical question is “Can I use my SIM?” prioritize the current lock status and the intended carrier's compatibility or activation check.
+
+## Original Carrier vs. Current SIM-Lock Status
+
+The two fields can point in different directions without either being wrong.
+
+| Result | What it helps explain | What it does not prove |
+| --- | --- | --- |
+| Original carrier or retailer | Earlier sales, activation, or distribution context | Current carrier or current ownership |
+| Activation policy | A policy record associated with device activation | Guaranteed present-day unlock status |
+| SIM-lock status | Whether the iPhone is reported as carrier-locked now | Original seller, financing, or compatibility |
+| Carrier compatibility result | Whether one carrier expects to accept the device | Universal compatibility or unlock status |
+| Blacklist result | Whether covered records currently flag the IMEI | Financing, ownership, or permanent future status |
+
+For example, a phone can name a US carrier in a historical field and still show **No SIM restrictions** today. It can also match a carrier's network bands while remaining locked. Compatibility means the device can technically work with a network; unlocking determines whether the carrier restriction permits it.
+
+## How to Check Whether an iPhone Is Unlocked
+
+Apple provides a direct on-device check. Open **Settings**, tap **General**, tap **About**, and find **Carrier Lock**. Apple's current [carrier-unlock guidance](https://support.apple.com/en-us/109316) says that **No SIM restrictions** means the iPhone is unlocked.
+
+This is the best starting point when you have the phone in hand. Apple also states that only the carrier can unlock an iPhone. A report can describe status, but it cannot perform the unlock.
+
+### When an online SIM-lock check helps
+
+You may not be able to inspect Settings when evaluating a remote listing, receiving trade-in inventory, or checking a sealed device. A paid [Apple SIM-Lock Status check](https://imeihub.net/service.php?slug=apple-sim-lock) is designed to return the current SIM-lock status without the additional historical fields of a larger report.
+
+Use it when the lock result is the decision-critical field. Do not pay for a broad historical report solely to answer a yes-or-no lock question if a focused service covers it.
+
+### Test the intended carrier separately
+
+An unlocked result does not promise service on every network. The intended carrier may still check the exact model, supported radio bands, eSIM or SIM requirements, blacklist records, account eligibility, and its own activation rules.
+
+When possible, submit the IMEI to the carrier's official compatibility or bring-your-own-device checker. If you are buying in person, test an eligible SIM or eSIM after the seller has removed their accounts and before the return window closes.
+
+## Which iPhone IMEI Check Should You Run?
+
+Start with the question, then choose the smallest report that answers it.
+
+### To confirm the basic model
+
+Use the [free IMEI lookup](https://imeihub.net/) to compare the returned brand, model, and basic specifications with the iPhone and listing. This first step can expose a copied number or a mismatched listing.
+
+The free result should not be interpreted as a free carrier, blacklist, iCloud, warranty, or financing report. Those statuses require separate data sources and services.
+
+### To check current SIM-lock status
+
+Inspect Settings when you control the phone. If you need a remote report, review the paid [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) service description and submit the IMEI you verified.
+
+This result answers a narrower question than an original-carrier investigation. It does not identify the original seller or remove a restriction.
+
+### To investigate original retailer or policy history
+
+IMEIhub describes its paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) as including original retailer, case and repair history, replacement flags, activation policy, ICCID, and MAC address. Those published fields make it the relevant option when historical Apple data—not merely current SIM-lock status—affects the transaction.
+
+Interpret the returned labels literally. If the report says original retailer, do not silently rename it original carrier. If it shows an activation policy, do not promise that the result guarantees activation with every network.
+
+## Verify the Correct IMEI Before Paying
+
+Apple lists the serial number, EID, IMEI, and ICCID as separate identifiers. Follow Apple's [identifier guide](https://support.apple.com/en-us/108037) and copy the IMEI from **Settings > General > About** whenever possible.
+
+Before running any paid check:
+
+- Compare the IMEI in Settings with the seller's listing and available purchase document.
+- Confirm that you copied an IMEI rather than the serial number, EID, or ICCID.
+- Keep IMEI and IMEI2 separate on a Dual SIM iPhone.
+- Ask which IMEI the carrier or report provider expects.
+- Recheck all 15 digits before submitting.
+
+A detailed, accurate report for another device cannot protect your purchase.
+
+## A Used-iPhone Carrier Verification Workflow
+
+Use the following sequence to avoid paying for unrelated checks.
+
+### Confirm device identity
+
+Read the IMEI directly from the iPhone and run the free basic lookup. Make sure the result agrees with the model in Settings and the seller's description.
+
+### Inspect the live Carrier Lock field
+
+If the phone is present, check Settings > General > About. Record the wording exactly. Do not accept “international,” “global,” or “works everywhere” as a substitute for the actual field.
+
+### Investigate history only when it matters
+
+Order a detailed historical report if the original retailer or activation-policy context affects warranty planning, an import decision, or the seller's claims. If the only question is current lock status, use the focused route.
+
+### Check the destination network
+
+Use the intended carrier's official compatibility tool or support process. Confirm the correct IMEI, plan type, and eSIM or physical-SIM requirements.
+
+### Check separate purchase risks
+
+Carrier history does not answer whether the iPhone is:
+
+- Reported lost or stolen
+- Still financed or tied to an unpaid account
+- Protected by Activation Lock
+- Enrolled in MDM
+- Physically damaged or poorly repaired
+- Eligible for warranty service where you live
+
+Investigate each material risk with the seller, carrier, on-device setup flow, and the relevant report.
+
+## What If the Report and Settings Disagree?
+
+First, confirm that both checks refer to the same IMEI. A Dual SIM iPhone, mistyped digit, replacement box, or recycled marketplace screenshot can create an apparent conflict.
+
+Then compare timestamps and definitions. A historical original-carrier field can coexist with a currently unlocked phone. A third-party status report may also have a different update time from the device or carrier system.
+
+Use this order of action:
+
+- Recopy the IMEI from Settings.
+- Verify the exact report field and report time.
+- Check Carrier Lock again on the device.
+- Ask the current or original carrier to confirm any restriction it controls.
+- Delay the purchase until the seller explains a material mismatch.
+
+Apple is clear that only the carrier can unlock the device. Do not pay anyone who claims an informational lookup itself will remove the lock.
+
+## Limits an IMEI Report Cannot Remove
+
+An **iPhone IMEI check** reports available information. It cannot:
+
+- Change the original carrier or retailer record
+- Remove a current carrier lock
+- Pay a device installment balance
+- Clear a blacklist entry
+- Remove Find My or Activation Lock
+- Guarantee service on a specific network
+- Prove the seller owns the phone
+
+For a valuable used iPhone, combine data checks with the actual device, seller identification, proof of purchase, network testing, and written return terms.
+
+## Conclusion: Match the Report to the Carrier Question
+
+An **iPhone IMEI check** can help investigate the original carrier, retailer, or activation context, but historical carrier data does not tell you everything about the phone's status today. Check **Carrier Lock** in Settings or use a focused SIM-lock report for the current restriction, then verify compatibility with the network you plan to use.
+
+Start with the [free IMEI lookup](https://imeihub.net/) to confirm the model. If original retailer and activation-policy history genuinely affect your decision, review the stated fields and run the paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) for the IMEI you verified on the device.
+ARTICLE_20260922_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-repair-history',
+        'title' => 'iPhone Serial Number Check: Does It Show Repair History?',
+        'meta_title' => 'iPhone Serial Number Check for Repair History',
+        'excerpt' => 'Can an iPhone serial number check show repairs? Learn what Apple displays on-device and when a detailed IMEI report can add service history.',
+        'date' => '2026-09-22',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260922_2'
+An **iPhone serial number check** can identify a device and open Apple's coverage tools, but a basic serial-number search does not normally show a complete repair history. For repairs, the most useful evidence is the iPhone's own **Parts and Service History**, supporting documents from the seller, and—when broader case records matter—a report whose published scope explicitly includes repair history.
+
+The word “history” can mean several things: a replaced display, an Apple service case, a whole-device replacement, or a warranty claim. These records are not interchangeable. This guide explains what each check can reveal before you buy, accept a trade-in, or send an iPhone for repair.
+
+## Key Takeaways
+
+- Apple's public coverage check is for coverage information, not a public list of every repair.
+- On supported iPhones with iOS 15.2 or later, Parts and Service History appears in Settings when relevant repair information exists.
+- Apple says only the most recent service appears when a part has been serviced more than once.
+- A free IMEI lookup confirms basic model identity; it is not a free repair-history report.
+- IMEIhub's paid Apple Full GSX Report is described as including case and repair history, but no report replaces a physical inspection or Apple support decision.
+
+## What a Serial Number Check Usually Shows
+
+Apple uses the serial number to identify a specific device in support and coverage systems. You can find it in **Settings > General > About**, on the original packaging, and through other methods in Apple's [identifier guide](https://support.apple.com/en-us/108037).
+
+Entering the serial number in Apple's [Check Coverage](https://checkcoverage.apple.com/) tool can help you review coverage and benefits. That does not mean the page is a public repair ledger. A coverage result answers questions about the service plan or eligibility window, not necessarily which parts were replaced or why the phone entered a repair center.
+
+### Serial number, IMEI, and service records are different
+
+The serial number identifies the Apple device in support systems. The IMEI identifies its cellular equipment for network and device-report purposes. A repair case is a service event. These records may be connected inside authorized systems, but they answer different questions for a buyer.
+
+| Evidence | Best use | Important limit |
+| --- | --- | --- |
+| Apple coverage check | Review coverage or AppleCare information | Does not present a complete public repair history |
+| Parts and Service History | See supported part and service information on the phone | Availability depends on model, iOS, part, and repair history |
+| Seller invoice or repair receipt | Verify a documented service event | Only proves what the matching document reliably records |
+| Detailed case-history report | Investigate case and repair records within the report's scope | May not include every repair or physical defect |
+| Physical inspection and diagnostics | Evaluate the phone's current condition | Cannot reconstruct every historical event |
+
+## Check Parts and Service History on the iPhone
+
+Apple's current [Parts and Service History guide](https://support.apple.com/en-us/102658) says that on iOS 15.2 and later you can open **Settings > General > About**. If the iPhone has relevant repair information, a Parts and Service History section appears.
+
+Depending on the iPhone model and software version, Apple may show information for the battery, display, logic board, front camera, or rear cameras. The available parts differ by model, so the absence of one category should not be interpreted without checking Apple's compatibility table.
+
+### What the labels mean
+
+Apple currently describes several possible messages:
+
+- **Genuine** indicates a repair using genuine Apple parts and processes.
+- **Used** indicates that the part was previously used or installed in another iPhone.
+- **Unknown** can appear when a part is nongenuine, not functioning as expected, not verified and linked after repair, modified, or otherwise unable to be verified.
+- **Unverified** can appear when a previously used logic board is detected.
+- **Finish Repair** can appear until calibration and the repair process are completed.
+
+Read the details on the phone and compare them with Apple's definitions. An Unknown label has several possible causes; it is not permission to claim a specific cause without additional evidence.
+
+### The screen may not show every past service
+
+Apple says that if a part has been serviced more than once, only the most recent service appears. Older iOS versions and older iPhone models also provide less information.
+
+Therefore, “no repair section” is not a universal certificate that an iPhone has never been opened or repaired. It means the phone is not displaying supported history under the conditions you checked.
+
+## Can an Online iPhone SN Check Reveal Repairs?
+
+It depends on the service. A generic serial decoder may identify the device or route you to coverage information, but it should not be trusted as a complete repair database unless its current description names the repair or case fields it returns.
+
+Avoid pages that promise a “full history” without explaining:
+
+- Which identifier they require
+- Which repair systems or regions they cover
+- Whether the result is a live status or historical record
+- Which case and part fields are included
+- What happens when no record is available
+
+A credible result should label its fields and limits clearly.
+
+### Free model lookup is not repair history
+
+IMEIhub's [free IMEI lookup](https://imeihub.net/) is for basic brand, model, and specification identification. It is useful for checking that the number belongs to the expected iPhone before ordering a report.
+
+It should not be presented as a free repair, case-history, blacklist, iCloud, carrier-lock, or warranty service. Those questions use separate data and products.
+
+### When a paid detailed report is relevant
+
+IMEIhub's paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) is described as including original retailer, case and repair history, replacement flags, activation policy, ICCID, and MAC address. The service page asks for a 15-digit IMEI.
+
+That makes the report relevant when you need historical service context beyond a public serial-number coverage check. It does not mean that every repair performed by every shop will appear, or that a case record describes the phone's present physical condition.
+
+## Repair History vs. Replacement Status
+
+A repair and a whole-device replacement are not the same event.
+
+A repair may involve one or more parts while the device remains associated with its existing identity. A replacement event may involve Apple or another service channel providing a different unit. A detailed report may contain both repair-history and replacement-related fields, but interpret each field separately.
+
+If a seller says “never repaired,” ask what they mean:
+
+- No part replacement appears in Settings
+- No repair was performed during their ownership
+- No Apple service case exists
+- No whole-device replacement occurred
+- They simply do not have the records
+
+Those statements carry different levels of evidence.
+
+## A Practical Repair-History Verification Process
+
+Use several sources rather than relying on one lookup.
+
+### Match the identifiers
+
+Open Settings > General > About and record the serial number and IMEI. Compare them with the box, receipt, and repair paperwork. A receipt for a different serial or IMEI does not document the phone in front of you.
+
+### Check Apple's public coverage information
+
+Use the serial number with Apple's coverage tool. This helps confirm the device record and current coverage context. Do not assume that a valid serial number or active coverage proves the phone has never been repaired.
+
+### Inspect Parts and Service History
+
+On supported software, review every listed part and tap available details. Note labels and service dates exactly. Do not ask a seller to send only one cropped screenshot; inspect the device yourself or use a live video walkthrough when buying remotely.
+
+### Review documents and case records
+
+Ask for original repair receipts, case numbers, and the reason for service. Match dates and identifiers. If the transaction value justifies deeper history, choose a report whose published fields include repair and case history.
+
+### Test the current device
+
+History does not replace condition testing. Check:
+
+- Display brightness, touch response, and dead pixels
+- Battery health and charging behavior
+- Front and rear cameras, stabilization, and focus
+- Face ID or Touch ID where applicable
+- Speakers, microphones, buttons, and vibration
+- Cellular, Wi-Fi, Bluetooth, and GPS behavior
+- Any warning under Settings > General > About
+
+A documented genuine repair can still be followed by later damage, and an undocumented repair can function normally. The current condition remains part of the buying decision.
+
+## How to Interpret Common Situations
+
+### “Genuine” appears beside a part
+
+This supports that the recorded repair used genuine Apple parts and processes as Apple defines them. It does not show that every other component is original, that no later damage occurred, or that the seller owns the phone.
+
+### “Used” appears beside a part
+
+Apple says this indicates a part previously used or installed in another iPhone. Ask when and why the repair occurred, test the affected function, and consider how the history affects value and warranty expectations.
+
+### “Unknown” appears beside a part
+
+Do not jump to one conclusion. Apple's list includes several possibilities, such as a nongenuine part, a part that is not functioning as expected, or incomplete verification after repair. Ask the seller for documentation and have the phone assessed if the risk matters.
+
+### The report has a case but Settings shows nothing
+
+The case may concern a diagnostic, support contact, software issue, whole-device event, or service that does not produce a visible supported part label. Compare the date and case description instead of assuming the sources conflict.
+
+### Settings shows a repair but a report is empty
+
+The report may have limited coverage, an update delay, or no record from the repair channel used. The on-device Apple information still deserves attention. An empty external report should not erase evidence displayed by the phone.
+
+## What Repair History Cannot Prove
+
+Even a detailed case report cannot guarantee:
+
+- That every independent-shop repair was recorded
+- That the phone has no liquid or impact damage
+- That all replacement parts currently work correctly
+- That the seller legally owns the device
+- That the IMEI is clean or the phone is carrier-unlocked
+- That Apple will approve a future warranty claim
+- That a previous repair caused or did not cause a present fault
+
+Check blacklist, Activation Lock, carrier lock, MDM, financing, and warranty questions separately when they affect the purchase. An informational lookup cannot remove any of those restrictions.
+
+## Protect the Identifier and Report
+
+Do not publish a full serial number or IMEI in a marketplace listing, public forum, or review. Share only what is necessary with the buyer, service provider, carrier, or report service. Redact identifiers from screenshots while preserving the field names, result, and date.
+
+When ordering a paid report, verify the number first. A typo can return no data or information for the wrong device, and the resulting report will not document the iPhone you intended to check.
+
+## Conclusion: Combine the Serial Check with On-Device Evidence
+
+An **iPhone serial number check** is useful for identifying the device and reviewing coverage, but it does not automatically show a complete repair history. Inspect Parts and Service History on the iPhone, match all documents to the identifiers, review the meaning of each Apple label, and test the phone's current condition.
+
+Begin with the [free IMEI lookup](https://imeihub.net/) to confirm the basic model. If a high-value purchase or trade-in requires deeper case and repair context, verify the IMEI on the phone and review the paid [Apple Full GSX Report](https://imeihub.net/service.php?slug=apple-full-gsx) before ordering.
+ARTICLE_20260922_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-purchase-country',
         'title' => 'iPhone Serial Number Check: Can It Reveal Purchase Country?',
         'meta_title' => 'iPhone Serial Number Check: Purchase Country?',
