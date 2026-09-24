@@ -8,6 +8,126 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ceir-gov-mm-registration-guide-english-burmese',
+        'title' => 'ceir.gov.mm Registration: Form Fields in English & Burmese',
+        'meta_title' => 'ceir.gov.mm Registration: English & Burmese Guide',
+        'excerpt' => 'A step-by-step ceir.gov.mm IMEI registration walkthrough with English and Burmese (မြန်မာ) field labels, required documents, and common error fixes.',
+        'date' => '2026-09-24',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260924_1'
+## ceir.gov.mm Registration: A Bilingual Step-by-Step Guide
+
+Registering a phone on Myanmar's **CEIR (Central Equipment Identity Register)** portal at **ceir.gov.mm** is straightforward once you know exactly which field is which — but the portal's mix of English and Burmese labelling causes more failed submissions than any technical problem. This guide walks through every screen of the registration form with the **English label next to its Burmese (မြန်မာ) equivalent**, so residents, returning travellers, and expats can complete the process on the first try.
+
+If you have not yet checked whether your phone even needs registration, read our overview of [Myanmar's CEIR system and check process](https://imeihub.net/articles.php?slug=ceir-gov-mm-imei-check-register-myanmar-guide) first. This guide focuses only on completing the registration form correctly.
+
+## Key Takeaways
+
+- The ceir.gov.mm form uses short Burmese labels next to English ones; misreading a field is the most common reason submissions bounce back.
+- You need your NRC or passport, IMEI number(s), and proof of purchase before you start — the session can time out if you gather documents mid-form.
+- Dual-SIM phones must have **both** IMEI 1 (ပထမ IMEI) and IMEI 2 (ဒုတိယ IMEI) entered, or the second slot stays unregistered.
+- Photo/file uploads must be JPG or PDF under 2MB; oversized scans are the second most common rejection reason.
+- A submitted form is not the same as an approved one — recheck your IMEI status after 1–3 business days to confirm you moved to the whitelist.
+
+## What to Prepare Before You Open the Portal
+
+Have these ready in one place before you start the form, since the session can expire while you search for documents:
+
+- **NRC card** (နိုင်ငံသားစိစစ်ရေးကတ်) for citizens, or **passport** (ပတ်စ်ပို့) for foreign nationals
+- **Proof of purchase** — receipt, invoice, or order confirmation showing price and date
+- **IMEI number(s)** — dial `*#06#` to display them; write down both numbers for dual-SIM devices
+- **Phone brand and model name**, exactly as printed on the box or in Settings
+
+## Field-by-Field: English and Burmese Labels on ceir.gov.mm
+
+The table below matches the fields you will see on the registration form to their Burmese equivalents, so you can confirm you are entering data in the right box even if the page loads in Burmese by default.
+
+| English Field | Burmese Label | What to Enter |
+|---|---|---|
+| Full Name | အမည်အပြည့်အစုံ | Name exactly as it appears on your NRC or passport |
+| NRC / Passport Number | မှတ်ပုံတင်အမှတ် / ပတ်စ်ပို့အမှတ် | Full ID number, no spaces |
+| Phone Number | ဖုန်းနံပါတ် | An active Myanmar mobile number for SMS confirmation |
+| IMEI 1 | ပထမ IMEI နံပါတ် | 15-digit IMEI from your primary SIM slot |
+| IMEI 2 | ဒုတိယ IMEI နံပါတ် | 15-digit IMEI from the second slot (dual-SIM only) |
+| Brand / Model | အမှတ်တံဆိပ် / မော်ဒယ် | Exact brand and model, e.g. "Samsung Galaxy A55" |
+| Purchase Date | ဝယ်ယူသည့်ရက်စွဲ | Date shown on your receipt or invoice |
+| Purchase Country | ဝယ်ယူသည့်နိုင်ငံ | Country where the phone was purchased |
+| Purchase Price | ဝယ်ယူစျေးနှုန်း | Amount in the original currency, not converted to Kyat |
+| Upload Document | စာရွက်စာတမ်း upload | Receipt and NRC/passport scan, JPG or PDF, under 2MB |
+
+## Step-by-Step Registration Walkthrough
+
+**Step 1 — Check your status first.**
+Go to ceir.gov.mm and enter your IMEI in the check field. If the result says "Not Found" or "Unregistered," continue to registration.
+
+**Step 2 — Open the registration section.**
+Look for **"စာရင်းသွင်းရန်"** (registration) or the English "Register Device" link/button on the homepage or navigation menu.
+
+**Step 3 — Enter personal details.**
+Fill in your name (အမည်), NRC or passport number, and a working Myanmar phone number for the SMS confirmation code.
+
+**Step 4 — Enter device details.**
+Input IMEI 1, and IMEI 2 if your phone is dual-SIM, along with the brand and exact model name.
+
+**Step 5 — Enter purchase information.**
+Add the purchase date, purchase country, and purchase price as shown on your receipt.
+
+**Step 6 — Upload supporting documents.**
+Attach a clear photo or scan of your receipt and your NRC/passport. Keep each file under 2MB in JPG or PDF format — larger files are the most common reason a submission fails silently.
+
+**Step 7 — Submit and record your confirmation code.**
+After submitting, you should receive an SMS or on-screen confirmation number. Save it; you may need it if you have to follow up with an operator service centre.
+
+**Step 8 — Recheck after 1–3 business days.**
+Return to the IMEI check field and search your number again. A successful registration shows as **whitelisted**.
+
+## Common Portal Errors and How to Fix Them
+
+| Problem | Likely Cause | Fix |
+|---|---|---|
+| Form resets before submission | Session timeout while gathering documents | Prepare all documents first, then complete the form in one sitting |
+| "Invalid IMEI" message | Typo, spaces, or dashes typed into the IMEI field | Re-check with `*#06#` and enter digits only, no spaces |
+| Upload fails repeatedly | File larger than 2MB or wrong format | Compress the photo or re-scan as JPG/PDF under the size limit |
+| No SMS confirmation received | Wrong phone number entered, or weak signal | Re-enter the number carefully; retry from a location with stable signal |
+| Status still shows "Not Found" after 3 days | Registration still processing, or documents were rejected | Visit an MPT, Mytel, Ooredoo, or ATOM service centre with original documents |
+
+## If the Online Form Does Not Work
+
+The online portal is not the only option. All four licensed operators — **MPT, Mytel, Ooredoo, and ATOM** — can complete IMEI registration in person at their service centres. Bring your **original** NRC or passport (not a photocopy) and your original purchase receipt; counter staff can enter the same fields directly and typically process it the same day.
+
+## Before You Register, Confirm the Phone Itself Is Clean
+
+A registration form only records ownership details — it does not tell you whether the phone was reported stolen elsewhere before it reached Myanmar. If you bought the device secondhand or imported it yourself, run an independent check first:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand and model match what is printed on the box
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm the IMEI has not been reported stolen in another country before you register it locally
+
+## Frequently Asked Questions
+
+**Q: Do I fill the form in English or Burmese?**
+A: Either works — the portal accepts Latin-script entries for most fields. Use the table above to make sure you are filling the correct field, regardless of which language the page displays.
+
+**Q: What happens if I enter the wrong IMEI by mistake?**
+A: Contact your operator's service centre with your confirmation code and correct documents; a wrongly entered IMEI cannot always be self-corrected online.
+
+**Q: How long does approval actually take?**
+A: Most registrations process within 1–3 business days, though it can take longer during high-volume periods. Recheck your IMEI status on ceir.gov.mm rather than assuming approval.
+
+**Q: I only have IMEI 1 on hand — can I register the second SIM slot later?**
+A: Yes, but do it as soon as possible. Until IMEI 2 is registered, that slot will not connect to any Myanmar network once enforcement applies.
+
+**Q: Can a tourist use this same form?**
+A: Short-stay visitors may fall under a grace period rather than needing full registration — check current Ministry of Transport and Communications announcements before assuming you must register.
+
+## Final Check Before You Submit
+
+Registration only takes a few minutes once your documents are ready and you know which field maps to which label. Gather your NRC/passport, purchase receipt, and both IMEI numbers first, then complete the form in one sitting to avoid a session timeout.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — verify your device's basic details before you register
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — make sure the phone has a clean history before it enters Myanmar's whitelist
+ARTICLE_20260924_1,
+    ],
+    [
         'slug' => 'samsung-tab-a-imei-check-carrier-warranty',
         'title' => 'Samsung Tab A IMEI Check: Read Carrier and Warranty Results',
         'meta_title' => 'Samsung Tab A IMEI Check: Carrier and Warranty',
