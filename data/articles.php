@@ -8,6 +8,385 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'blacklisted-iphone-remove-imei-block',
+        'title' => 'Blacklisted iPhone: Who Can Remove an IMEI Block?',
+        'meta_title' => 'Blacklisted iPhone: Who Can Remove the Block?',
+        'excerpt' => 'Learn who can correct a blacklisted iPhone, what proof a carrier may require, and why an IMEI lookup cannot remove a lost-or-stolen report.',
+        'date' => '2026-09-25',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260925_1'
+A **blacklisted iPhone** has an IMEI that a carrier or another approved organization has flagged, often after a lost-or-stolen report. If the status is wrong or the phone has been recovered, the correction normally has to come from the carrier or organization that supplied the record. An IMEI checker can show the status, but it cannot remove the block.
+
+This guide explains who can act, what the rightful owner should prepare, why a buyer should not accept a seller's promise to “fix it later,” and which separate locks still need attention after a blacklist issue is resolved.
+
+## Key Takeaways
+
+- A blacklist check reports an IMEI status; it does not change the carrier's record.
+- The account holder should contact the reporting carrier first when a lost-or-stolen report was made by mistake or the phone has been recovered.
+- The carrier may need to verify the account, ownership, recent network activity, and the reason for the original block.
+- Apple, a marketplace seller, and a third-party checker generally cannot override a carrier-supplied blacklist record.
+- Removing a blacklist entry does not remove Activation Lock, a carrier SIM lock, a financing restriction, or an MDM profile.
+- A free basic IMEI lookup identifies a device. IMEIhub's WorldWide Blacklist check is a separate paid report.
+
+## What Does “Blacklisted iPhone” Mean?
+
+The IMEI identifies the iPhone's cellular equipment. A network can block that identifier when the phone is reported lost, stolen, or otherwise unsuitable for cellular use.
+
+The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that a red result means the identifier is flagged on the GSMA Block List. Network operators can prevent a blocked IMEI from using cellular service and share status information so other participating networks may also block it.
+
+That status is about the device identifier, not the SIM card. Replacing the SIM does not give the phone a new IMEI or correct the underlying report.
+
+### A blacklist is not the same as Activation Lock
+
+Activation Lock is Apple's account-based protection linked to Find My. A blacklist is a carrier or device-registry status tied to the IMEI.
+
+An iPhone can have:
+
+- A clear IMEI but still be protected by Activation Lock.
+- A blacklisted IMEI while the previous owner has removed Find My.
+- Both restrictions at the same time.
+- Neither restriction but still be locked to a carrier.
+
+Each status needs its own verification and resolution path.
+
+### A blacklist is not the same as a carrier SIM lock
+
+A SIM lock limits which carrier's service the iPhone can use. A blacklist can block the device because of a lost-or-stolen report or another network reason. A carrier may manage both systems, but an unlock approval does not automatically clear a blacklist record.
+
+## Who Can Remove an iPhone From the Blacklist?
+
+The organization that contributed the flag is normally the one that must correct it. For most consumers, the first contact is the wireless carrier associated with the account when the report was created.
+
+The GSMA advises a consumer who believes the status is wrong to contact their wireless provider. It says the provider is uniquely able to verify the account and recent device network activity. Commercial users should contact the organization that flagged the device.
+
+### The original account holder
+
+The person whose carrier account was used to report the phone is usually in the strongest position to request a correction. The carrier may ask that person to:
+
+- Sign in to the account or pass identity verification.
+- Confirm the iPhone's IMEI and line details.
+- Explain whether the phone was recovered or the original report was mistaken.
+- Resolve an insurance or replacement-device claim.
+- Provide a receipt, police report number, or other records when required.
+
+Policies vary, so the carrier decides which evidence is sufficient. A receipt alone does not force a carrier to change a record if the requester cannot verify the related account or claim.
+
+### The reporting carrier or organization
+
+The carrier can investigate its own record and submit a correction when appropriate. If another approved commercial organization supplied the flag, the carrier may direct the owner to that contributor.
+
+Do not assume that any carrier can clear any blacklist entry. A network that only receives the shared status might be able to explain the block but not edit the source record.
+
+### An insurer or device-replacement program
+
+If the iPhone was replaced through insurance or a theft-and-loss claim, the original device may remain flagged under the claim terms. The claimant should contact the insurer or carrier before selling or reactivating a recovered phone.
+
+Apple's current [lost iPhone guidance](https://support.apple.com/en-us/101593) tells users with AppleCare+ Theft and Loss not to remove the device from Find My or their Apple Account until the replacement claim is fully approved. That Apple account step is separate from any carrier blacklist handling.
+
+## Who Cannot Legitimately Remove the Block?
+
+Be wary of anyone promising an instant remote deletion from every blacklist.
+
+### An IMEI lookup service
+
+A checker reads information from its available sources. It does not control the source carrier's account or reporting system. IMEIhub's paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) is described as a lost-or-stolen status check across carrier blacklists, not a removal service.
+
+Use the report to identify risk and document the current result. Take the correction request to the responsible carrier or organization.
+
+### Apple Support
+
+Apple can help with Apple Account, Find My, warranty, repair, and eligible theft-and-loss claim processes. A carrier-supplied network blacklist is a different system. Apple cannot verify a private carrier account or unilaterally erase that carrier's IMEI report.
+
+### A buyer who has no access to the original account
+
+A buyer may have a receipt from the seller, but the carrier can still require the original account holder. This is why the seller should resolve the status before payment or transfer, not promise that the buyer can do it afterward.
+
+### A repair shop that changes the phone's identity
+
+Changing, cloning, or tampering with a device identifier is not a legitimate blacklist correction. The GSMA notes that every cellular device should have a unique identifier unless it has been tampered with or incorrectly manufactured. A report that does not match the physical phone can indicate a counterfeit or altered electronic identity.
+
+## What to Do If Your Own iPhone Is Incorrectly Blacklisted
+
+Use a documented process and keep the original identifier unchanged.
+
+- **Confirm the IMEI on the phone.** Open **Settings > General > About** and copy the IMEI. Apple's [identifier guide](https://support.apple.com/en-us/108037) also explains where to find it on the device, packaging, Apple Account, Finder, or Apple Devices app.
+- **Run a current blacklist report.** Save the result, date, IMEI, and source so you can describe the issue accurately.
+- **Contact the carrier that handled the line or original report.** Use its official support channel, store, fraud team, or lost-device team.
+- **Verify the account.** Be ready to provide the account holder's information through the carrier's secure process.
+- **Explain the correction clearly.** State whether the phone was recovered, the wrong IMEI was reported, a claim was cancelled, or another error occurred.
+- **Supply requested evidence.** Keep the original receipt, bill of sale, claim reference, police report, and carrier case number when applicable.
+- **Ask for a case or ticket number.** Record the representative, date, promised review time, and next step.
+- **Recheck after the carrier confirms completion.** Registry changes may not appear in every downstream source at exactly the same time.
+
+Do not send passwords, one-time verification codes, or full identity documents to an unofficial “unblacklisting” contact.
+
+## What to Do Before Buying a Blacklisted iPhone
+
+The safest approach is for the seller to correct the status before the transaction.
+
+### Ask the seller to resolve it first
+
+The seller should contact the relevant carrier while they still control the account and supporting records. After the carrier confirms correction, run a fresh blacklist check close to the time of payment.
+
+If the seller says the status is harmless because Wi-Fi works, remember that the problem concerns cellular use and resale risk. A phone can appear normal in a short inspection while remaining blocked on participating networks.
+
+### Do not price a promise as if it were a result
+
+Statements such as “it will clear next week,” “my friend can remove it,” or “just use another SIM” are not evidence. Require a current report and a written return arrangement.
+
+### Verify the rest of the phone separately
+
+Even after a clean blacklist result, check:
+
+- Find My and Activation Lock.
+- Current carrier-lock status.
+- Model, storage, color, and IMEI consistency.
+- Parts and Service History.
+- Battery Health and hardware condition.
+- Seller identity, purchase evidence, and return rights.
+
+A blacklist report answers one question, not the whole purchase decision.
+
+## Free Lookup vs. Paid Blacklist Report
+
+Use the check that matches your question.
+
+| Check | What it is for | What it does not do |
+| --- | --- | --- |
+| Free basic IMEI lookup | Brand, model, and basic specifications | Does not provide a free blacklist result |
+| Paid WorldWide Blacklist report | Current lost-or-stolen status in covered carrier sources | Does not remove or guarantee future status |
+| Carrier support review | Account verification and possible source-record correction | Does not remove Apple account locks automatically |
+
+Start with free identification if you only need to confirm the device. Use the paid blacklist report when the lost-or-stolen status affects the transaction. Contact the carrier for correction.
+
+## Common Questions
+
+### Can a blacklisted iPhone be unlocked?
+
+Carrier unlocking and blacklist correction are separate. A carrier may approve one and not the other. Ask about both statuses explicitly.
+
+### Will a factory reset remove the blacklist?
+
+No. A reset erases user data and settings; it does not change the IMEI or delete the carrier's report.
+
+### Will changing the SIM card fix it?
+
+No. The block is tied to the device identifier. A different SIM does not correct the source record.
+
+### Can the status become blacklisted after a clean result?
+
+Yes. A report is a snapshot. A later lost-device, theft, fraud, or claim report can change the status. Keep transaction records and recheck near the purchase.
+
+### How long does removal take?
+
+There is no universal time. It depends on the reporting organization, its investigation, the evidence, and the time needed for other data sources to receive the correction. Ask the carrier for its current estimate.
+
+## Conclusion
+
+A blacklisted iPhone can be corrected only through the organization responsible for the report, usually after the account holder verifies ownership and the reason for the block. A lookup can document the current status, but it cannot remove the record, reset the phone, or bypass another restriction.
+
+Before buying or reselling, run the paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist), require the seller to resolve any flag through the responsible carrier, and recheck the IMEI before completing the transaction.
+ARTICLE_20260925_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-battery-health',
+        'title' => 'iPhone Serial Number Check: Can It Show Battery Health?',
+        'meta_title' => 'iPhone Serial Number Check: Battery Health',
+        'excerpt' => 'An iPhone serial number check cannot show live battery health. Learn where to find maximum capacity, service history, and relevant coverage details.',
+        'date' => '2026-09-25',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260925_2'
+An **iPhone serial number check** can help identify a device or review Apple coverage, but it does not show the battery's current Maximum Capacity or live condition. Battery Health is calculated by the iPhone and should be checked in Settings on the device. Serial-number, warranty, and IMEI reports answer different questions.
+
+This guide explains where to find reliable battery information, how to interpret the percentage, how to check whether the battery was replaced, and which online report is relevant when you also need identity or coverage details.
+
+## Key Takeaways
+
+- The serial number identifies the iPhone for Apple support and coverage processes; it is not a live battery sensor.
+- On supported iPhones, Battery Health appears in **Settings > Battery > Battery Health**.
+- Maximum Capacity is an estimate relative to the battery when new, not a guarantee of hours of use.
+- Parts and Service History can show battery-replacement information on supported models and iOS versions.
+- An Apple warranty or activation report does not provide the current Battery Health percentage unless the service explicitly lists that field.
+- Free basic IMEI identification, paid Apple device reports, and on-device Battery Health serve different purposes.
+
+## What an iPhone Serial Number Check Can Tell You
+
+Apple describes the serial number as one of the identifiers used to recognize a device when you contact support. Its [identifier guide](https://support.apple.com/en-us/108037) explains that the serial number, IMEI, EID, and ICCID can appear in **Settings > General > About**, Finder, Apple Devices, the original packaging, or the owner's Apple Account.
+
+A serial-number check may help with:
+
+- Confirming that Apple recognizes the device identifier.
+- Reviewing the coverage information Apple makes available.
+- Starting a support or repair conversation.
+- Matching the phone to its box or purchase record.
+
+Those are identity and service functions. The number itself does not encode the battery's present capacity, charge-cycle history, temperature exposure, peak-power capability, or replacement quality.
+
+### Serial number and IMEI have different roles
+
+Both identifiers relate to the same iPhone, but they are used differently.
+
+| Identifier | Useful for | Does not show by itself |
+| --- | --- | --- |
+| Serial number | Apple coverage, support, and unit identification | Live Battery Health or current charge level |
+| IMEI | Cellular identity, blacklist, carrier, and IMEI-report checks | Live Battery Health or physical condition |
+| Battery Health screen | Maximum Capacity and performance messages | Ownership, blacklist, or carrier-lock status |
+
+Use the serial number when Apple asks for it. Use the IMEI for a service that specifically requests a 15-digit IMEI. Read battery health on the iPhone.
+
+## Where to Check iPhone Battery Health
+
+Apple's current [iPhone battery and performance guide](https://support.apple.com/en-us/101575) says iPhone 6 and later provide battery-health information in iOS. Open:
+
+- **Settings**
+- **Battery**
+- **Battery Health**
+
+The exact labels can vary with iPhone model and iOS version. Inspect the phone directly when evaluating a used device rather than relying on a seller's old screenshot.
+
+### Maximum Capacity
+
+Maximum Capacity compares the battery's estimated capacity with its capacity when new. A lower percentage generally means the battery holds less energy between charges.
+
+Apple explains that rechargeable batteries are consumable components. Chemical age depends on more than calendar time; charge cycles, charging habits, temperature, and use all matter.
+
+The percentage is useful, but it is not a precise promise of screen-on time. Signal strength, apps, display brightness, background activity, temperature, and the phone's workload can change real-world battery life.
+
+### Peak Performance Capability
+
+Battery Health can also show whether the battery supports normal peak performance or whether performance management has been applied after an unexpected shutdown.
+
+This status helps explain performance behavior. It does not prove that every slowdown comes from the battery, and it does not replace hardware diagnostics when the phone restarts, overheats, swells, or drains abnormally.
+
+### Important Battery Message or unable-to-verify notice
+
+Apple says some iPhones may show a message when the battery cannot be verified. In that situation, displayed battery-health details might not be accurate.
+
+Do not treat an attractive percentage as reliable if the phone also reports that the battery cannot be verified. Inspect Parts and Service History and consider an Apple or authorized-service diagnostic.
+
+## Can You Check Battery Health Without the iPhone?
+
+Not reliably through a public serial-number search. Battery condition changes with use, charging, repairs, and time. A live reading requires access to the device or an authorized diagnostic process.
+
+### A screenshot is only a snapshot
+
+A seller may send a Battery Health screenshot, but it can be old, cropped, or taken from another phone. When possible:
+
+- Meet with the iPhone powered on.
+- Navigate to Battery Health yourself.
+- Compare the serial number and IMEI in Settings with the listing and receipt.
+- Check the date and current iOS interface.
+- Look for verification or service messages.
+
+If buying remotely, use a return policy and payment protection rather than assuming the screenshot proves current condition.
+
+### Apple diagnostics are a separate process
+
+Apple Support or an authorized provider may run diagnostics when service is needed. That is not the same as entering a serial number into a public web form. Diagnostic conclusions, eligibility, and repair recommendations come from Apple or the service provider.
+
+## Check Whether the Battery Was Replaced
+
+Current battery health and replacement history are related but separate questions.
+
+Apple's [Parts and Service History guidance](https://support.apple.com/en-us/102658) says supported iPhones running iOS 15.2 or later can display repair information in **Settings > General > About**. Depending on the model, the battery entry may show labels such as Genuine, Used, Unknown, or another verification message.
+
+### What a Genuine label means
+
+A Genuine label indicates that the service used genuine Apple parts and processes recognized by the system. It does not mean the battery is still new or that its capacity remains at 100 percent.
+
+Check Battery Health separately after reviewing the service label.
+
+### What a Used or Unknown label means
+
+A Used label can indicate that the part was previously installed in another iPhone. An Unknown label can appear when a part is nongenuine, not working as expected, not properly verified after repair, or modified.
+
+These labels do not automatically tell you how long the phone will run. They are reasons to inspect the battery-health message, repair evidence, safety, and seller explanation more carefully.
+
+### Absence of a history section is not universal proof
+
+Parts and Service History depends on the iPhone model, part, iOS version, and repair circumstances. An older model or earlier repair may not display the same information as a current device.
+
+Do not conclude that “no history shown” always means “never repaired.” Combine the on-device screen with receipts, Apple support records available to the owner, and physical inspection.
+
+## Battery Health vs. Warranty Coverage
+
+Warranty status and battery condition are not interchangeable.
+
+IMEIhub's paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) is described as providing activation date and remaining warranty coverage. It is not advertised as a live Battery Health report.
+
+Apple's battery guidance says its limited warranty includes service coverage for a defective battery, subject to applicable terms and local consumer rights. That does not mean every reduced Maximum Capacity reading qualifies for free service.
+
+### Coverage does not equal current capacity
+
+An iPhone can still be within its coverage period while showing some battery wear. Another phone can be out of warranty while its battery remains useful.
+
+Use coverage information to understand the possible service route. Use the on-device Battery Health screen and diagnostics to understand condition.
+
+### Battery service decisions belong to Apple or the provider
+
+An online lookup cannot approve a repair claim. Apple or the service provider evaluates the battery, device condition, coverage, repair history, and applicable terms.
+
+Keep the original receipt and any battery-replacement invoice. These documents can matter more to a service decision than a marketplace listing.
+
+## How to Verify a Used iPhone Battery Before Buying
+
+Use a short sequence that checks identity, software information, and real behavior.
+
+- **Open Settings yourself.** Go to **General > About** and record the serial number, IMEI, model, and storage.
+- **Match the identifiers.** Compare the phone with the box, receipt, and seller's listing.
+- **Open Battery Health.** Read Maximum Capacity and any peak-performance or verification message.
+- **Review Parts and Service History.** Note any battery entry and its label.
+- **Test real use.** Observe charging, heat, unexpected shutdowns, and rapid percentage drops.
+- **Check physical safety.** A swollen battery, lifted display, damaged enclosure, or unusual heat needs professional attention.
+- **Review coverage separately.** Use Apple's current coverage process or the appropriate warranty report if coverage affects the purchase.
+- **Keep return protection.** Battery condition can be difficult to judge from a short test.
+
+Apple's [battery maintenance guidance](https://support.apple.com/en-us/105105) notes that temperature history and charging patterns affect chemical aging. A single percentage cannot summarize every condition the battery has experienced.
+
+## Free Lookup vs. Paid Apple Report vs. On-Device Check
+
+Choose the source that answers the actual question.
+
+| Question | Best first source |
+| --- | --- |
+| What brand and model does this IMEI identify? | Free basic IMEI lookup |
+| What exact Apple model, color, and storage does the IMEI report? | Paid Apple Check Basic |
+| When was it activated and what warranty remains? | Paid Apple Warranty & Activation report |
+| What is the current Maximum Capacity? | Battery Health on the iPhone |
+| Was the battery replaced on a supported device? | Parts and Service History on the iPhone |
+
+IMEIhub's paid [Apple Check Basic](https://imeihub.net/service.php?slug=apple-basic) lists model, color, and storage. Neither that service nor the free basic lookup should be presented as a remote battery-health reading.
+
+## Common Questions
+
+### Can an iPhone serial number tell the battery's age?
+
+No. It identifies the device, not the current battery's installation date or chemical age. The battery might also have been replaced after the phone was manufactured.
+
+### Is 100 percent Maximum Capacity proof of a new battery?
+
+No. It is an estimate relative to the battery's designed capacity. Review Parts and Service History, verification messages, receipts, and actual behavior.
+
+### Can an IMEI report show battery cycles?
+
+Only rely on a report for fields explicitly listed by that service. IMEIhub's current free, Apple Basic, and Apple Warranty pages do not advertise live battery cycle or Maximum Capacity fields.
+
+### Does a low percentage mean the iPhone is unsafe?
+
+Not automatically. Lower capacity reflects wear, but swelling, overheating, damage, or a service warning deserves prompt professional attention. Ask Apple or an authorized provider when safety is in doubt.
+
+### Can a lookup improve Battery Health?
+
+No. A lookup cannot change battery chemistry, remove a verification message, or repair the phone. Battery service requires a physical repair process.
+
+## Conclusion
+
+An iPhone serial number check is useful for identity, support, and coverage context, but it cannot show live Battery Health. Check Maximum Capacity and performance messages on the iPhone, review Parts and Service History, test the device, and confirm service eligibility separately.
+
+Start with the [free IMEIhub lookup](https://imeihub.net/) to confirm the basic device identity. If model, color, storage, activation, or warranty details matter, choose the relevant Apple report—then inspect Battery Health on the iPhone before completing the purchase.
+ARTICLE_20260925_2,
+    ],
+    [
         'slug' => 'free-imei-check-online-safety',
         'title' => 'Free IMEI Check Online: Is It Safe to Enter Your IMEI?',
         'meta_title' => 'Free IMEI Check Online: Is It Safe?',
