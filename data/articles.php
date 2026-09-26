@@ -8,6 +8,440 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-test-valid-number-clean-status',
+        'title' => 'IMEI Test: Does a Valid Number Mean the Phone Is Clean?',
+        'meta_title' => 'IMEI Test: Valid Number vs. Clean Status',
+        'excerpt' => 'Learn what an IMEI test checks, how the check digit catches input errors, and why a valid number does not prove a phone is clean or unlocked.',
+        'date' => '2026-09-26',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260926_1'
+An **IMEI test** can confirm that a 15-digit identifier has the expected format and check digit, but that is only the first layer of verification. A number can pass the mathematical test and still belong to a blacklisted, carrier-locked, financed, or incorrectly identified phone. The words *valid* and *clean* answer different questions.
+
+This guide explains the difference, shows how the check digit works without turning the process into a math lesson, and gives you a practical order for checking a phone before purchase.
+
+## Key Takeaways
+
+- A standard IMEI contains 15 decimal digits.
+- The final digit is a check digit calculated from the first 14 digits using the Luhn formula.
+- Passing the checksum mainly confirms that the number is structurally plausible and was probably typed correctly.
+- A valid IMEI does not prove that the device is genuine, clean, paid off, unlocked, or safe to buy.
+- A free basic lookup can help match the identifier to a brand and model.
+- Blacklist, carrier-lock, account-lock, warranty, and financing questions require separate evidence or reports.
+
+## What Does an IMEI Test Actually Test?
+
+People use “IMEI test” to describe several different checks. Keeping them separate prevents a green result in one test from being mistaken for approval in every category.
+
+### Format test
+
+The first question is simple: does the input contain exactly 15 digits? Spaces, hyphens, copied labels, and a missing digit can cause a lookup to fail before any device data is checked.
+
+The [GSMA IMEI allocation process](https://imeidb.gsma.com/imei/resources/documents/TS.06%20v27.0.pdf) describes the familiar structure:
+
+- Eight-digit Type Allocation Code, or TAC.
+- Six-digit serial portion assigned within that TAC.
+- One final check digit.
+
+That makes 15 digits in total. The TAC identifies an approved device type allocation; it is not the same as the individual device's serial number printed by the manufacturer.
+
+### Check-digit test
+
+The fifteenth digit is calculated from the preceding 14 digits. GSMA specifies the Luhn formula for this calculation. A checker can recompute the value and compare it with the final digit.
+
+If the values do not match, the most likely first explanation is an input problem. One digit may have been omitted, repeated, swapped, or read incorrectly from a damaged label.
+
+If the values do match, the number is mathematically consistent. That is useful, but it is not a live report about the phone's ownership or network status.
+
+### Device-data test
+
+A lookup can use the TAC to identify a manufacturer and device family. IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides brand, model, and basic specifications without charging credits.
+
+This is the point where you compare the lookup result with the phone in your hand. A result for a different brand or model deserves investigation before you buy, repair, or order a paid report.
+
+### Status test
+
+A status test asks a different question: is the identifier present on a lost-or-stolen block list, restricted to a carrier, or associated with another service-specific condition?
+
+Those answers do not come from the Luhn formula. They require a current database or the responsible carrier, manufacturer, or account provider.
+
+## What Does a Valid IMEI Prove?
+
+A valid checksum proves only a narrow point: the digits form a number that satisfies the prescribed calculation.
+
+It can help you:
+
+- Catch many transcription mistakes before submitting a lookup.
+- Confirm that a copied number has the expected length and structure.
+- Avoid paying for a report using an obviously mistyped identifier.
+- Distinguish an IMEI from a serial number, EID, phone number, or order number.
+
+That makes validity testing a useful gate at the start of the process. It is not the final buying decision.
+
+### A checksum is not an ownership record
+
+The calculation does not know who owns the phone, who sold it, or whether it was reported missing. It cannot compare a seller's identity with a carrier account or purchase receipt.
+
+### A checksum is not a live network query
+
+The formula produces the same answer whether the device is connected, offline, blacklisted, or sitting unopened in a warehouse. It does not contact a carrier and cannot show whether the phone will be accepted on a specific plan.
+
+### A checksum is not proof of authenticity
+
+Anyone who knows the formula can create digits that pass it. A copied identifier can also retain a valid check digit. The [GSMA Device Registry specification](https://devicecheck.gsma.com/sg18) treats the check digit as one field in a wider device-identity system, not as a guarantee that the hardware is genuine.
+
+## Valid IMEI vs. Clean IMEI
+
+The distinction matters most when shopping for a used phone.
+
+| Result | Question answered | What it does not answer |
+| --- | --- | --- |
+| Valid format | Are there 15 digits in the expected structure? | Ownership, blacklist, lock, financing |
+| Valid check digit | Do the digits pass the Luhn calculation? | Whether the identifier was copied or altered |
+| Model match | Does the TAC resolve to the expected brand/model? | Current blacklist or carrier status |
+| Clean blacklist result | Is the IMEI currently absent from the checked block-list source? | Future reports, financing, carrier lock, account lock |
+| Carrier-unlocked result | Is the device reported as SIM-unlocked? | Blacklist, Activation Lock, payment status |
+
+A phone can pass the first three rows and fail the fourth. It can also be clean on a blacklist report but remain locked to one carrier.
+
+## Why Can a Valid IMEI Return the Wrong Model?
+
+A check-digit pass and a model mismatch can occur together. The checksum validates the digits as a sequence; it does not confirm that those digits belong to the hardware being presented.
+
+### The number was copied from the wrong place
+
+Dual-SIM devices may show IMEI1 and IMEI2. A seller may also send a photograph of a box, receipt, or Settings screen from another phone. Compare the full number, not just its first or last four digits.
+
+### The box and device no longer belong together
+
+Used-phone packaging is easy to mix up. A genuine box label can describe another unit of the same model. Treat the number shown in the powered-on device as the main reference, then use the box as supporting evidence.
+
+### The device identity may have been altered or duplicated
+
+GSMA's [Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that an IMEI should be unique and notes that duplicate identifiers can result from tampering or a manufacturing error. A valid check digit does not prevent the same identifier from appearing on more than one device.
+
+### The lookup source may be incomplete
+
+TAC catalogs and commercial data sources can differ in naming detail. One source may return a family name while another returns a regional variant. A minor naming difference is not automatically fraud, but a different manufacturer or incompatible model family should stop the transaction until resolved.
+
+## How to Test an IMEI in the Right Order
+
+Use a layered process so each check answers one question.
+
+### 1. Read the IMEI from the device
+
+Open Settings and locate the device information page, or dial `*#06#` where supported. Do not rely only on a seller's typed message.
+
+For a dual-SIM device, record both identifiers and note which slot or digital line each one belongs to.
+
+### 2. Confirm the 15 digits
+
+Remove spaces or punctuation and count the digits. Recheck easily confused characters. An IMEI uses numbers only, so a letter O or I indicates a copying error.
+
+### 3. Run the checksum and basic lookup
+
+Use a checker that rejects invalid input and returns the expected brand/model. The free IMEIhub lookup is appropriate for this basic identity step.
+
+If the number fails, return to the device and read it again. Do not “fix” the final digit by guessing what the checksum should be; you need the identifier actually stored by the device.
+
+### 4. Compare every physical source
+
+Compare Settings with the box, SIM tray or rear label where present, proof of purchase, and any seller screenshot. A mismatch is more important than whether each separate number passes the Luhn test.
+
+### 5. Choose the status report that matches your risk
+
+If you are buying used, the relevant paid check may be a blacklist, carrier-lock, manufacturer, warranty, or account-lock report. IMEIhub's [service catalog](https://imeihub.net/services.php) lists these as separate checks because no single validity result answers them all.
+
+### 6. Verify with the responsible organization
+
+Use the carrier for network eligibility, unlocking, or account-related questions. Use the manufacturer for coverage and hardware-service questions. Use the seller's original receipt and account evidence for ownership.
+
+No lookup can pay a balance, remove an activation lock, clear a carrier restriction, or change a blacklist record.
+
+## What If the IMEI Fails the Test?
+
+Do not jump immediately to the conclusion that the phone is fake. Start with the lowest-risk explanations.
+
+### Re-enter the number
+
+Read it directly from Settings and enter all 15 digits again. Copy-and-paste can include hidden spaces; photographs can make repeated digits hard to distinguish.
+
+### Check whether you entered another identifier
+
+Serial numbers and EIDs can contain letters or have different lengths. An order number, phone number, ICCID, or MEID is not interchangeable with a 15-digit IMEI.
+
+### Compare IMEI1 and IMEI2
+
+On a dual-SIM phone, both numbers should be recorded separately. Do not combine digits from the two lines.
+
+### Pause if the on-device number still fails
+
+If the complete identifier shown by the device cannot pass basic validation, do not purchase a paid report or the phone until the manufacturer or carrier explains the discrepancy. A guessed replacement number would describe a different identifier and make the report useless.
+
+## Common IMEI Test Mistakes
+
+Avoid these shortcuts:
+
+- Treating “valid” as a synonym for “clean.”
+- Assuming a correct model result proves the phone is genuine.
+- Checking only IMEI1 on a dual-SIM device when the second line matters.
+- Trusting a box label without matching it to Settings.
+- Buying because a screenshot says “clean” without confirming the full identifier and report date.
+- Expecting a free model lookup to include paid blacklist, warranty, lock, or financing data.
+- Assuming a lookup can remove a restriction after finding it.
+
+## Frequently Asked Questions
+
+### Can a valid IMEI be blacklisted?
+
+Yes. Validity and blacklist status are independent. The number may pass its check digit and identify the correct model while also appearing on a current lost-or-stolen block list.
+
+### Can a fake phone have a valid IMEI?
+
+It can display a number that passes the checksum or copies a real device's identifier. Verify the hardware, software, seller, and device-specific records rather than relying on the checksum alone.
+
+### Does an IMEI test unlock the phone?
+
+No. Testing or looking up the number is informational. Only the responsible carrier or provider can approve and apply an unlock under its policy.
+
+## Final Checklist
+
+Before relying on any IMEI result, confirm:
+
+- The number came from the device, not only the box.
+- It contains exactly 15 digits.
+- It passes the check digit.
+- The free lookup returns the expected brand and model.
+- Every visible label matches the same device.
+- You ran the separate status checks relevant to the purchase.
+- The carrier and seller supplied any ownership or eligibility evidence you need.
+
+## Conclusion
+
+An **IMEI test** is a valuable first filter: it can catch bad input and confirm that a number has the expected structure. It cannot turn a mathematically valid identifier into proof that the phone is clean, genuine, unlocked, paid off, or safe to buy.
+
+Start with the [free IMEIhub check](https://imeihub.net/service.php?slug=free-imei-check) to validate the number and compare its basic model result, then choose a separate report only for the specific status you still need to verify.
+ARTICLE_20260926_1,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-number-box-match',
+        'title' => 'Samsung Tablet IMEI Number on the Box: Can You Trust It?',
+        'meta_title' => 'Samsung Tablet IMEI Number: Check the Box',
+        'excerpt' => 'Compare the Samsung tablet IMEI number on the box with Settings, understand mismatches, and learn which checks matter before buying used.',
+        'date' => '2026-09-26',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20260926_2'
+The **Samsung tablet IMEI number** printed on a retail box is useful, but it should never be your only source when checking a used Galaxy Tab. Boxes get mixed up, replacement devices may keep old packaging, and Wi-Fi-only tablets normally use a serial number rather than an IMEI. The safest approach is to match the box with the identifier displayed by the powered-on tablet.
+
+This guide shows where to find the number, how to compare the full 15 digits, what a mismatch may mean, and which free or paid check fits your next question.
+
+## Key Takeaways
+
+- Cellular Galaxy tablets have an IMEI; Wi-Fi-only models normally do not.
+- The number shown in Settings on the actual tablet is the primary reference.
+- A retail box can be supporting evidence only after every digit matches the device.
+- Dual-SIM or eSIM-capable models may show more than one device identifier.
+- A matching box does not prove clean blacklist, warranty, carrier, financing, or Knox Guard status.
+- IMEIhub offers free brand/model identification; its Samsung Info + Knox Guard report is a separate paid service.
+
+## Where Is the Samsung Tablet IMEI Number?
+
+Samsung provides several ways to locate device identifiers. Availability varies by model and region, so start with the tablet itself.
+
+### Settings is the best starting point
+
+Samsung's current [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) directs users to the device information screen and other supported methods for finding an IMEI, model number, or serial number.
+
+On a recent Galaxy tablet:
+
+- Open **Settings**.
+- Tap **About tablet**.
+- Look for the IMEI, model name, model number, and serial number.
+- Open status information if your software version places the full details there.
+
+The exact labels may differ by One UI version. Record the complete number rather than relying on a partial value shown in a marketplace listing.
+
+### The tablet may have a printed identifier
+
+Samsung's [UK support guidance](https://www.samsung.com/uk/support/mobile-devices/how-to-find-the-model-and-serial-number-of-my-product/) says the IMEI, serial number, and model number may be printed on the back of a tablet. Printing practices vary, and newer devices may use a smaller regulatory label or show less information externally.
+
+### The original box may list the IMEI
+
+The label on a cellular Galaxy Tab box commonly lists the model code, serial number, and IMEI. Some packages include barcodes for each identifier. A dual-line model may list IMEI1 and IMEI2 separately.
+
+The box is convenient when the tablet is sealed or powered off, but it is movable packaging. It does not establish by itself that the device inside is the original unit.
+
+## Why a Wi-Fi-Only Samsung Tablet May Have No IMEI
+
+An IMEI identifies equipment that connects to a cellular network. A Wi-Fi-only Galaxy Tab does not contain a cellular modem for mobile-network service, so it normally has no IMEI.
+
+It still has other identifiers, including:
+
+- A Samsung serial number.
+- A model number or model code.
+- Wi-Fi and Bluetooth hardware addresses.
+- A product registration record where supported.
+
+Do not enter the serial number into a field that specifically requests a 15-digit IMEI. If a listing calls a Wi-Fi-only tablet's serial number an IMEI, ask the seller to show the **About tablet** screen and the exact model code.
+
+### Cellular and Wi-Fi versions can look almost identical
+
+Samsung often sells visually similar Wi-Fi and cellular versions within the same Galaxy Tab family. The model suffix, SIM tray, cellular settings, and About tablet details help distinguish them.
+
+A box for the cellular version placed beside a Wi-Fi tablet can make the listing appear to include mobile-network support that the device does not have. Matching the full model code is as important as matching the product name.
+
+## Can You Trust the IMEI on a Samsung Tablet Box?
+
+Trust it after comparison, not before.
+
+The box label is evidence that a package was created for a particular unit. It is not live evidence of what is currently inside the box, whether the motherboard changed, or whether the IMEI has a network restriction.
+
+### A trustworthy match has multiple consistent points
+
+Look for all of the following:
+
+- The 15-digit IMEI on the box exactly matches Settings.
+- The serial number matches where Samsung displays it on the tablet.
+- The model code and storage variant agree with the hardware and Settings.
+- The color and regional model are consistent with the packaging.
+- IMEI1 and IMEI2 are not accidentally reversed or mixed with another unit.
+- A basic lookup resolves to the expected Galaxy Tab family.
+
+One matching field is weaker than several independent matches.
+
+## Why Might the Box IMEI and Tablet IMEI Be Different?
+
+A mismatch is not proof of one specific problem. It is a reason to stop and establish the device's history.
+
+### The wrong box was paired with the tablet
+
+Repair shops, resellers, families, and bulk sellers may have multiple identical tablets. Boxes can be swapped accidentally because the product names and colors look the same.
+
+Ask the seller for the correct packaging or treat the tablet as a device without original box provenance.
+
+### The tablet was replaced
+
+A warranty or insurance replacement may come in service packaging rather than the original retail box. If the seller kept the old box, its IMEI will describe the previous unit.
+
+Request replacement paperwork that identifies the new device. A story without a receipt, carrier record, or service document is not enough for a high-value purchase.
+
+### A mainboard repair changed the device identity
+
+The cellular identity is tied to the device's radio hardware and manufacturing records. Authorized repair documentation should explain a major component replacement when it changes the identifier presented by the tablet.
+
+Do not attempt to rewrite or “restore” an old box IMEI. Device-identity alteration can violate law and carrier rules, and a lookup should always use the identifier actually displayed by the device.
+
+### The listing photograph came from another unit
+
+Marketplace sellers sometimes reuse photographs. Ask for a fresh image showing the full box label beside the About tablet screen, with account names and unrelated personal information hidden.
+
+### You compared IMEI1 with IMEI2
+
+Where a model supports two cellular identities, the two IMEIs are supposed to be different. Match IMEI1 to the corresponding label and IMEI2 to its own label. Do not expect both fields to contain one number.
+
+### The identifier may have been duplicated or altered
+
+The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that an IMEI should be unique and that duplicate identifiers can result from tampering or a manufacturing error. If a device's model, label, and lookup data strongly disagree, involve Samsung or the carrier rather than guessing which number is correct.
+
+## A Five-Step Box-to-Tablet Check
+
+Use this process before buying a used Samsung tablet or accepting a shipped device.
+
+### 1. Confirm the connectivity version
+
+Ask whether the tablet is Wi-Fi only, LTE, or 5G. Check the complete model code, not just “Tab A,” “Tab S,” or the screen size.
+
+If it is advertised as cellular, confirm that the tablet has the expected SIM or eSIM settings and that About tablet shows an IMEI.
+
+### 2. Read identifiers from Settings
+
+Power on the tablet and open **Settings → About tablet**. Photograph or write down:
+
+- IMEI1 and IMEI2, if present.
+- Serial number.
+- Model name and complete model number.
+- Storage capacity shown by the system.
+
+Use Settings as the anchor for every later comparison.
+
+### 3. Compare the full box label
+
+Match all 15 IMEI digits. Also compare the serial and model code. Similar first eight digits only show that two units may share a device type; they do not prove that the box belongs to this individual tablet.
+
+### 4. Run a free identity lookup
+
+Use IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) to verify that the TAC resolves to the expected manufacturer and model family. This lookup provides brand, model, and basic specifications; it does not include Samsung warranty, carrier, blacklist, or Knox Guard status.
+
+If the lookup returns a different manufacturer or unrelated device family, re-enter the number directly from Settings. Pause the purchase if the discrepancy remains.
+
+### 5. Check the specific risk you care about
+
+For a used cellular tablet, you may need more than identity data. IMEIhub's paid [Samsung Info + Knox Guard](https://imeihub.net/service.php?slug=samsung-info) report lists exact model, warranty, original carrier, purchase country, and Knox Guard status as separate provider data.
+
+Blacklist status is another distinct check. Carrier unlock or compatibility may still require the carrier's own eligibility tool. A report does not remove a restriction or force a carrier to activate the tablet.
+
+## What a Matching Box Does Not Prove
+
+Even a perfect identifier match has limits:
+
+- **Blacklist:** a static label cannot show whether a lost-or-stolen report was added later.
+- **Financing:** a TAC match does not prove that every installment on the seller's carrier account was paid.
+- **Compatibility:** regional variants can support different network bands, so confirm the full model with Samsung and the intended carrier.
+- **Knox Guard:** a matching box or successful reset does not replace a current status report or seller demonstration after setup.
+- **Warranty and ownership:** coverage can depend on region, purchase date, proof of purchase, and Samsung policy. Packaging does not transfer account or retailer rights.
+
+## What to Ask a Seller When the Numbers Do Not Match
+
+Use direct questions and request evidence:
+
+- Why is the retail box from another unit?
+- Was the tablet replaced by Samsung, a carrier, insurer, or retailer?
+- Is there an authorized service or replacement receipt?
+- Which IMEI is registered on the carrier account?
+- Can the seller show the About tablet screen live?
+- Can the tablet complete setup without a previous account or management restriction?
+- Is there a return period if the carrier rejects activation?
+
+Do not accept “all Galaxy Tabs use the same IMEI prefix” as an explanation. Devices of the same model may share a TAC, but the full individual IMEI should not be identical.
+
+## Frequently Asked Questions
+
+### Does every Samsung tablet box show an IMEI?
+
+No. A Wi-Fi-only tablet normally has no IMEI, so its packaging may show only a serial number and model code. Cellular packaging should identify the relevant IMEI or IMEIs, subject to regional labeling practices.
+
+### Is the Samsung serial number the same as the IMEI?
+
+No. The serial number is the manufacturer's product identifier. The IMEI is a 15-digit cellular-equipment identifier. Keep both when checking the box against the tablet.
+
+### Can I check a sealed tablet using only the box?
+
+You can run a preliminary identity lookup, but you cannot prove that the labeled device is still inside or inspect its current setup and hardware condition. Use a return policy and compare identifiers immediately after opening.
+
+### What if Settings shows two IMEIs?
+
+Record both as separate identifiers. Match each one with the appropriate packaging label and use the IMEI associated with the cellular line or report you need to investigate.
+
+## Final Buying Checklist
+
+Before paying for a cellular Galaxy tablet, confirm:
+
+- The model is cellular rather than Wi-Fi only.
+- Settings shows the expected IMEI or IMEIs.
+- Every digit matches the box and available physical labels.
+- The serial number and full model code also match.
+- A free lookup returns the expected Samsung model family.
+- Any replacement or repair history has supporting documents.
+- Current blacklist, carrier, financing, warranty, and Knox Guard questions were checked separately where relevant.
+- The seller provides a usable return path if activation fails.
+
+## Conclusion
+
+The **Samsung tablet IMEI number** on the box is a useful comparison point, not standalone proof. Start with the identifier stored by the powered-on tablet, match every digit to the packaging, and investigate any difference before you buy.
+
+Use the [free IMEIhub check](https://imeihub.net/service.php?slug=free-imei-check) for basic model identification. If you need Samsung-specific warranty, carrier, country, or Knox Guard fields, continue to the separate [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) only after the box and tablet numbers match.
+ARTICLE_20260926_2,
+    ],
+    [
         'slug' => 'blacklisted-iphone-remove-imei-block',
         'title' => 'Blacklisted iPhone: Who Can Remove an IMEI Block?',
         'meta_title' => 'Blacklisted iPhone: Who Can Remove the Block?',
