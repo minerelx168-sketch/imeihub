@@ -8,6 +8,310 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-esim-compatibility',
+        'title' => 'iPhone IMEI Check: Can It Confirm eSIM Compatibility?',
+        'meta_title' => 'iPhone IMEI Check for eSIM Compatibility',
+        'excerpt' => 'Learn what an iPhone IMEI check can confirm about eSIM support, and why carrier compatibility, SIM lock, EID, and activation need separate checks.',
+        'date' => '2026-09-27',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260927_1'
+An **iPhone IMEI check** can identify the model connected with an IMEI and help you research whether that model supports eSIM. It cannot, by itself, guarantee that a particular carrier will activate the phone. eSIM readiness depends on several separate facts: the exact iPhone model and market version, carrier support, SIM-lock status, an active plan, and the identifiers shown on the device.
+
+This guide explains what the lookup can establish, what IMEI2 and EID mean, and the checks to complete before you buy an iPhone or move a number to eSIM.
+
+## The Short Answer
+
+An IMEI lookup is a useful first step, not a complete eSIM eligibility decision.
+
+- A basic lookup can help confirm the iPhone model associated with the submitted IMEI.
+- The model can then be compared with Apple's current eSIM documentation and the carrier's supported-device list.
+- IMEI2 commonly identifies the second cellular line on an eSIM-capable iPhone, while EID identifies the embedded SIM component.
+- A carrier may still reject activation because of regional model differences, an unsupported plan, account requirements, or a carrier lock.
+- An IMEI lookup does not install an eSIM, unlock the iPhone, or remove an account restriction.
+
+## What an iPhone IMEI Check Can Confirm
+
+The IMEI is a cellular equipment identifier. On supported devices, Apple shows the IMEI, IMEI2, EID, serial number, and other identifiers in **Settings > General > About**. Apple's [identifier guide](https://support.apple.com/en-us/108037?device-type=iphone) also explains where to find these values on the device, packaging, or connected Apple account.
+
+### Model identification
+
+IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) uses the Type Allocation Code portion of the IMEI to return the brand, model, and basic specifications. No credits are charged for this basic lookup.
+
+That result helps answer a foundational question: does the number belong to the iPhone model the seller or owner claims? If the result points to a different device family, stop and verify the number directly from Settings before doing anything else.
+
+Model identification can also guide your next research step. Apple's eSIM support varies by device generation and, in some cases, country or region. Use the identified model as a clue, then confirm it against Apple's current documentation and the carrier's rules.
+
+### IMEI format and the correct line
+
+An iPhone may display more than one IMEI. Dual-SIM models can assign one identifier to each cellular line. If your carrier asks for IMEI2 during eSIM setup, sending IMEI1 instead can produce a misleading compatibility error even though the phone supports eSIM.
+
+Always copy the identifier exactly as shown in Settings. Do not assume the number on an old box or marketplace listing is the correct one for the eSIM line.
+
+## What the IMEI Cannot Prove About eSIM
+
+The IMEI is not a universal activation approval. Several decisions happen outside the identifier lookup.
+
+### Carrier and plan support
+
+Apple's [eSIM setup guide](https://support.apple.com/en-us/118669) states that eSIM activation depends on a carrier that supports eSIM and an eligible cellular plan. Carriers may support only selected models, account types, countries, or activation methods.
+
+A model that supports eSIM technically may therefore be unavailable for a particular prepaid plan, enterprise account, roaming product, or regional carrier. The carrier's current compatibility checker or support team is the final source for its own network.
+
+### Carrier-lock status
+
+eSIM capability and carrier freedom are different. Apple explains in its [Dual SIM troubleshooting guide](https://support.apple.com/en-us/109322) that, to use two different carriers, the iPhone must be unlocked or both plans must come from the same carrier.
+
+If the phone is locked, it may still activate an eSIM from the locking carrier while rejecting another carrier. IMEIhub's [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) is a separate paid check for this question. The free model lookup does not include a free SIM-lock report.
+
+### Account and activation conditions
+
+The carrier may require an active account, identity verification, a supported billing plan, and a connection to Wi-Fi. Apple's [eSIM troubleshooting instructions](https://support.apple.com/en-us/102478) advise having the phone number, carrier account details, and the iPhone's IMEI or EID ready when contacting the carrier.
+
+An IMEI result cannot confirm that those account conditions have been satisfied. It also cannot download the carrier profile or fix an activation outage.
+
+## IMEI, IMEI2, and EID: Which Number Do You Need?
+
+These identifiers are related but not interchangeable.
+
+| Identifier | What it identifies | When it is useful |
+|---|---|---|
+| IMEI | A cellular device or line interface | Model lookup, carrier compatibility, network-status checks |
+| IMEI2 | The second cellular line interface on supported iPhones | Often requested when the eSIM uses the second line |
+| EID | The embedded SIM hardware | Carrier provisioning and eSIM troubleshooting |
+| Serial number | The individual Apple product | Apple service, support, and product records |
+
+If a carrier asks for an EID, do not substitute the IMEI. If it asks for IMEI2, confirm the label beside the number in Settings. Supplying the right identifier prevents avoidable rejection and keeps different checks tied to the correct line.
+
+## How to Check an iPhone Before eSIM Activation
+
+Use this order to separate device identity, eSIM capability, and carrier approval.
+
+### 1. Read the identifiers from the iPhone
+
+Open **Settings > General > About** and record:
+
+- Model name and model number.
+- IMEI and, if displayed, IMEI2.
+- EID, if displayed.
+- Carrier Lock status.
+
+For a used phone, compare the Settings values with the box only as a secondary check. The device screen is more relevant to the phone you will activate.
+
+### 2. Run a free model lookup
+
+Enter the relevant IMEI in the free IMEI checker. Confirm that the returned brand and model agree with the device. This basic result helps catch a mistyped number or a mismatch before you contact a carrier or order a paid report.
+
+### 3. Confirm Apple model support
+
+Check Apple's current eSIM documentation for the identified model and country or region. Do not rely on a generic statement such as “all recent iPhones have eSIM,” because regional hardware and activation policies can differ.
+
+### 4. Ask the carrier about this exact identifier
+
+Use the carrier's own compatibility tool when available, or give support the IMEI or IMEI2 it requests. Ask whether the model, plan, and account type are eligible for eSIM activation.
+
+For a transfer between phones, also ask whether the carrier supports eSIM Quick Transfer, a QR code, a carrier app, or manual activation. These are provisioning methods, not IMEI-check results.
+
+### 5. Check the carrier lock separately
+
+In Settings, look for **Carrier Lock** and the wording shown there. If you need evidence beyond the screen, use a dedicated SIM-lock check or confirm with the carrier. A model match is not proof that the phone is unlocked.
+
+### 6. Keep both lines in mind
+
+If the iPhone uses Dual SIM, label which plan belongs to each line. Confirm that the carrier has the correct IMEI for the line it is provisioning. This is especially important when converting a physical SIM to eSIM or adding a second provider.
+
+## Common eSIM Compatibility Results
+
+### The model supports eSIM, but the carrier says no
+
+This can happen when the carrier does not support that regional variant, plan, or account type. It can also happen when the wrong IMEI was submitted. Recheck IMEI2 and EID, update iOS, and ask the carrier for its specific rejection reason.
+
+### The phone shows EID but no Add eSIM option
+
+An EID is evidence of embedded-SIM hardware, but software configuration, regional restrictions, device management, or carrier policy may still affect the menu. Follow Apple's current setup steps and contact the carrier if the option remains unavailable.
+
+### The free lookup shows the right model
+
+That is a useful identity match, but it is not a promise of activation. Continue with the carrier compatibility and lock checks. Do not treat a green model result as evidence that the account is eligible or the iPhone is unlocked.
+
+### A paid SIM-lock result says unlocked
+
+An unlocked result addresses carrier restriction, not every eSIM requirement. The carrier must still support the model, plan, and activation method. The check does not create an eSIM profile or remove an Apple Account lock.
+
+## Buying a Used iPhone for eSIM
+
+Before paying, ask the seller to let you inspect the iPhone after it has been erased and removed from the seller's account. Apple's [used-iPhone guidance](https://support.apple.com/en-hk/104999) says not to buy a device if Activation Lock is enabled.
+
+Then complete these checks:
+
+- Verify the IMEI from Settings and run the basic model lookup.
+- Confirm that the intended carrier accepts that exact IMEI for eSIM.
+- Check the Carrier Lock field or a dedicated SIM-lock report.
+- Confirm the phone reaches the setup process without requesting the previous owner's Apple Account.
+- If the device has two IMEIs, verify which one the carrier will activate.
+
+These checks cover different risks. A carrier-compatible IMEI does not prove that Activation Lock is off, and an unlocked iPhone is not automatically eligible for every carrier plan.
+
+## Final Checklist
+
+An iPhone IMEI check can identify the model and help you start an eSIM compatibility review. It cannot replace the carrier's decision or prove that the phone is unlocked and ready to activate.
+
+Before activation, confirm the model, the correct IMEI or IMEI2, the EID when requested, carrier and plan support, and SIM-lock status. Start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) to verify the model, then use the carrier's official compatibility process for the final eSIM decision.
+ARTICLE_20260927_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-stolen-status',
+        'title' => 'iPhone Serial Number Check: Can It Tell If It Was Stolen?',
+        'meta_title' => 'iPhone Serial Number Check for Stolen Status',
+        'excerpt' => 'Learn why an iPhone serial number check cannot prove stolen status, and how IMEI blacklist results and Activation Lock checks answer different questions.',
+        'date' => '2026-09-27',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260927_2'
+An **iPhone serial number check** can help identify an Apple product and support warranty or service research, but it does not provide a reliable stolen-phone verdict. Lost-or-stolen network reports are normally associated with the device's IMEI, while Apple's Activation Lock is tied to the previous owner's Apple Account. You need separate checks for those separate systems.
+
+This guide shows which identifier to use, how blacklist and Activation Lock checks differ, and what evidence to collect before buying a used iPhone.
+
+## The Short Answer
+
+A serial number alone cannot prove that an iPhone is safe to buy.
+
+- The serial number identifies the individual Apple product for support and service purposes.
+- The IMEI is the identifier used for cellular network and blacklist checks.
+- A blacklist result can show whether the submitted IMEI has been flagged lost, stolen, or otherwise unsuitable in participating records.
+- Activation Lock must be checked on the iPhone during setup; it is not the same as an IMEI blacklist.
+- A clean result today is useful evidence, not a permanent ownership guarantee.
+
+## Serial Number and IMEI Answer Different Questions
+
+Apple shows both identifiers in **Settings > General > About**, but they are not substitutes. Apple's [identifier guide](https://support.apple.com/en-us/108037?device-type=iphone) explains where to locate the serial number, IMEI, EID, and ICCID.
+
+### What the serial number is for
+
+The serial number identifies a particular Apple product in Apple's service ecosystem. It can be relevant when checking coverage, requesting support, documenting a repair, or matching the phone with a receipt or box.
+
+That does not make it a public theft database key. A serial-number result may confirm that the format or product record is plausible without revealing whether a carrier has blocked the phone.
+
+### What the IMEI is for
+
+The IMEI identifies the cellular equipment on mobile networks. Carriers and industry systems use it when reporting a device lost or stolen and when applying network restrictions.
+
+The [GSMA Device Check](https://devicecheck.gsma.com/) service describes an IMEI-based check for whether a device has been flagged lost or stolen. Its [FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that a red result means the IMEI has been flagged lost or stolen, or is otherwise unsuitable for use.
+
+If your question is “has this cellular device been reported?”, the IMEI is the relevant number. Running only an iPhone SN check leaves that question unanswered.
+
+## Why a Serial Number Cannot Prove Stolen Status
+
+There are three main reasons.
+
+### Carrier block lists are IMEI-based
+
+Cellular networks need an identifier tied to the radio equipment they can permit or restrict. The IMEI serves that purpose. A serial number may remain useful to Apple, but it is not the number a blacklist service normally asks you to submit.
+
+### Activation Lock is account-based
+
+Activation Lock is part of Find My. Apple explains in its [Activation Lock guide](https://support.apple.com/en-us/108794) that the feature helps prevent anyone else from using an iPhone if it is lost or stolen. The device can require the owner's Apple Account credentials before another person can activate it.
+
+That condition is not the same as a carrier blacklist. A phone can have a clean IMEI and still be protected by Activation Lock. Conversely, a seller may remove Activation Lock while the IMEI is still blocked by a carrier report.
+
+### Status can change
+
+A phone may be reported after a transaction, especially if a seller is not the rightful owner or if an account dispute develops. A clean result is a time-specific observation. Keep a dated copy of the report, seller identity, listing, and receipt, but do not treat the result as an unchangeable ownership certificate.
+
+## The Three Checks a Used iPhone Needs
+
+The safest review combines device identity, network status, and account-lock status.
+
+| Check | Identifier or evidence | What it answers | What it does not answer |
+|---|---|---|---|
+| Model check | IMEI/TAC | Does the IMEI match the expected iPhone model? | Lost/stolen status or ownership |
+| Blacklist check | IMEI | Is the submitted IMEI currently flagged in available network records? | Activation Lock or future reports |
+| Activation Lock check | Erased iPhone during setup | Can a new owner activate it without the seller's account? | Carrier blacklist or financing status |
+
+Each result is narrow. Combining them gives a much clearer picture than asking one identifier to answer every question.
+
+## How to Check a Used iPhone Step by Step
+
+### 1. Get the IMEI from the device
+
+Ask the seller to open **Settings > General > About** and show the IMEI and serial number. Copy the IMEI carefully. On a Dual-SIM iPhone, record both IMEI and IMEI2 because either line can matter to a carrier.
+
+Do not rely only on a typed number in a message. A seller could accidentally or deliberately provide an identifier from a different phone.
+
+### 2. Confirm the basic model
+
+Run IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check). This free lookup returns the brand, model, and basic specifications based on the IMEI's Type Allocation Code.
+
+Compare the result with the phone in front of you. A mismatch does not automatically prove theft, but it is a strong reason to stop and investigate before paying or ordering another report.
+
+### 3. Check blacklist status using the IMEI
+
+Use an appropriate carrier or blacklist source for the market where the phone will be used. IMEIhub's [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) is a separate paid report that checks the submitted IMEI against worldwide carrier blacklist data. The free basic model lookup does not include a free blacklist result.
+
+Read the report wording carefully. A “clean” result means the submitted IMEI was not shown as blacklisted in the checked data at that time. It does not guarantee lawful ownership, erase a later report, unlock the phone, or settle an insurance claim.
+
+### 4. Have the seller remove their account
+
+Apple's [instructions for selling or giving away an iPhone](https://support.apple.com/en-au/109511) tell the owner to sign out and erase the device. Erasing through the proper process turns off Find My and Activation Lock.
+
+Do not accept a promise that the seller will remove the account later. Complete this step while the seller is present and able to enter their credentials.
+
+### 5. Start the setup process yourself
+
+After the erase, turn on the iPhone and begin setup. Apple's [preowned iPhone guidance](https://support.apple.com/en-hk/104999) says not to buy the device if Activation Lock is enabled. If setup requests the previous owner's Apple Account, the phone is not ready for transfer.
+
+Do not use unofficial “bypass” offers as evidence of ownership. An IMEI or serial-number lookup does not remove Activation Lock.
+
+### 6. Document the sale
+
+Keep a receipt that includes the date, price, seller information, device description, and IMEI. Save screenshots of the listing and the dated report. Documentation cannot guarantee that a dispute will never occur, but it gives you a record of what was represented at the time of purchase.
+
+## How to Read Common Results
+
+### Serial number recognized, IMEI clean
+
+This is consistent with a valid product record and no current blacklist flag in the checked source. You still need to confirm Activation Lock is off and that the seller is entitled to transfer the phone.
+
+### Serial number recognized, IMEI blacklisted
+
+Do not proceed until the seller resolves the issue with the reporting carrier and you can verify a new result. A recognized serial number does not cancel an IMEI block.
+
+### IMEI clean, Activation Lock on
+
+Do not buy the phone. The network result does not override Apple's account protection. The owner must remove the device from their account through Apple's official process.
+
+### IMEI blacklisted, Activation Lock off
+
+The phone may be erased and free of the former Apple Account yet still be restricted on cellular networks. These systems are independent. An account-free setup screen does not make a blocked IMEI clean.
+
+### Seller provides only the serial number
+
+Ask for the IMEI from Settings and inspect the device in person if possible. A serial number is not enough for the blacklist question. Refusal to provide the relevant identifier before a used-phone sale is a practical warning sign.
+
+## Important Limits of a Blacklist Check
+
+An IMEI blacklist check is meaningful, but it should be interpreted within its scope.
+
+- Coverage depends on the networks and databases available to the service.
+- Reporting and data synchronization may not be immediate.
+- A phone can be clean in the checked data and still have unpaid-financing, carrier-lock, account-lock, management, repair, or ownership issues.
+- Dual-SIM devices can have two IMEIs, so check the identifier relevant to the line you intend to use.
+- A lookup reports status; it does not remove a block or transfer ownership.
+
+If a carrier controls the restriction, only the carrier or authorized account holder can resolve it under that carrier's rules.
+
+## Can Apple Remove Activation Lock for a Buyer?
+
+The normal route is for the previous owner to remove the device from their account. Apple's [Activation Lock support page](https://support.apple.com/en-hk/108934) also describes an official support request route when the requester has proof-of-purchase documentation.
+
+That is not a promise that every receipt will be accepted, and it is not a service provided by an IMEI checker. The simplest time to resolve the issue is before payment, while the seller can sign out and erase the iPhone properly.
+
+## Final Buying Rule
+
+Use the serial number for Apple product and service questions, and use the IMEI for cellular identity and blacklist questions. Then check Activation Lock directly during setup. No single result covers all three areas.
+
+For a used iPhone, verify the model first with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then order the separate [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) when you need current lost-or-stolen status evidence. Complete the purchase only after the seller has removed Activation Lock and you have documented the transfer.
+ARTICLE_20260927_2,
+    ],
+    [
         'slug' => 'imei-test-valid-number-clean-status',
         'title' => 'IMEI Test: Does a Valid Number Mean the Phone Is Clean?',
         'meta_title' => 'IMEI Test: Valid Number vs. Clean Status',
