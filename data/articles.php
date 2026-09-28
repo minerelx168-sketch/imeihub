@@ -8,6 +8,394 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tablet-imei-number-imei1-imei2',
+        'title' => 'Samsung Tablet IMEI Number: Why Does It Show Two?',
+        'meta_title' => 'Samsung Tablet IMEI Number: IMEI1 vs IMEI2',
+        'excerpt' => 'Learn why a Samsung tablet may show IMEI1 and IMEI2, which number belongs to each cellular line, and which IMEI to use for device or carrier checks.',
+        'date' => '2026-09-28',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20260928_1'
+A **Samsung tablet IMEI number** identifies a cellular radio interface, so a Galaxy Tab that can use more than one cellular line may display IMEI1 and IMEI2. The two numbers do not mean that you own two tablets, and the second number is not a spare serial number. Each IMEI must be copied and checked as a complete 15-digit identifier for the line or service you are investigating.
+
+This guide explains why two IMEIs can appear, how physical SIM and eSIM support affect the labels, and which number to give a carrier or IMEI-report provider.
+
+## The Short Answer
+
+- A Wi-Fi-only Galaxy Tab normally has no IMEI because it does not connect directly to a cellular network.
+- A cellular tablet has at least one IMEI.
+- A model with two cellular interfaces may show IMEI1 and IMEI2.
+- The exact relationship between IMEI1, IMEI2, a physical SIM and an eSIM can vary by model, region, software and active configuration.
+- A model lookup should be run with the complete IMEI shown by the tablet, not a mixture of digits from both numbers.
+- For activation, use the exact IMEI requested by the carrier for the line being provisioned.
+
+## Why a Galaxy Tab Can Have Two IMEI Numbers
+
+An IMEI identifies mobile equipment on a cellular network. It is not the phone number assigned to your plan and it is not the Samsung serial number.
+
+Samsung's current [identifier instructions](https://www.samsung.com/us/support/answer/ANS10002504/) explain that the IMEI and serial number are different forms of identification and can be found under **Settings > About tablet**. Samsung also notes that available screens and settings vary by carrier, software version and model.
+
+### One identifier for each cellular interface
+
+When a tablet is capable of maintaining two addressable cellular lines, the device can expose two IMEIs. The Settings screen may label them IMEI1 and IMEI2, or it may identify one as the eSIM IMEI.
+
+Think of the numbers as identifiers for cellular interfaces, not for SIM cards you can move between devices. Removing a physical SIM does not erase the tablet's IMEI. Downloading a new eSIM profile also does not create a new tablet identity on demand.
+
+### Physical SIM plus eSIM
+
+Some current Galaxy Tab models support eSIM in addition to a physical SIM. Samsung's [Galaxy eSIM compatibility page](https://www.samsung.com/ca/support/mobile-devices/galaxy-esim-and-supported-network-carriers/) lists supported Tab families and warns that support can differ by country of origin. It also states that Wi-Fi-only tablet models do not support eSIM.
+
+On an eligible tablet, the second IMEI may be associated with the eSIM interface. Do not assume this mapping without reading the labels on your tablet, because product variants and carrier configurations can differ.
+
+### Two physical SIM paths
+
+In markets where a model accepts two physical SIMs, each active network path may have its own IMEI. Samsung's [Dual SIM guidance](https://www.samsung.com/uk/support/mobile-devices/how-to-use-or-manage-dual-sim-cards/) explains that supported devices manage individual SIMs through **Settings > Connections > SIM manager**.
+
+The tray shape alone is not enough to prove that a particular regional tablet supports two active SIMs. Confirm the model specification and the options shown in SIM manager.
+
+## IMEI1, IMEI2, EID and Serial Number
+
+These values serve different purposes.
+
+| Identifier | What it identifies | Common use |
+|---|---|---|
+| IMEI1 | First cellular interface | Carrier activation, compatibility and device-status checks |
+| IMEI2 | Second cellular interface on supported models | Second SIM or eSIM provisioning and line-specific checks |
+| EID | Embedded SIM hardware | eSIM download, transfer and carrier troubleshooting |
+| Serial number | The individual Samsung product | Registration, service, repair and warranty administration |
+| ICCID | A SIM or eSIM profile | Identifying the installed mobile subscription |
+
+An EID can be much longer than an IMEI. An ICCID identifies the SIM profile, not the tablet hardware. Neither should be shortened or pasted into a form that asks for a 15-digit IMEI.
+
+## How to Find Both IMEIs on a Samsung Tablet
+
+### Check About tablet first
+
+Open **Settings > About tablet**. Depending on the software version, you may see the IMEI directly or need to open **Status information > IMEI information**.
+
+Record every label and number exactly. A screenshot for your own records can prevent IMEI1 and IMEI2 from being swapped later, but avoid posting the screenshot publicly.
+
+### Review SIM manager
+
+Open **Settings > Connections > SIM manager**. This screen shows the SIM and eSIM lines the tablet can manage. Compare the names of those lines with the labels in About tablet.
+
+SIM manager is especially useful after adding an eSIM because it shows which plan is enabled. It does not replace the carrier's eligibility decision.
+
+### Use the original packaging as a comparison
+
+The retail box may list one or two IMEIs. Samsung includes packaging among the places where an identifier may appear. Compare every digit with Settings before relying on the label.
+
+If the box and tablet disagree, use the powered-on tablet as the immediate reference and investigate why the packaging belongs to a different unit. Do not combine the first digits from one label with the last digits from another.
+
+## Which Samsung Tablet IMEI Number Should You Use?
+
+The correct choice depends on the question.
+
+### For a free model lookup
+
+Start with the IMEI tied to the line you intend to use. IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) returns brand, model and basic specifications based on the identifier. It does not include free blacklist, warranty, carrier or Knox Guard data.
+
+If IMEI1 and IMEI2 return the same model family, that is normally consistent with two interfaces on the same tablet. A substantially different brand or model deserves investigation before activation or purchase.
+
+### For carrier activation
+
+Give the carrier the IMEI it specifically requests for the physical SIM or eSIM line. If the carrier says “IMEI2” or “eSIM IMEI,” do not submit IMEI1 merely because it appears first in Settings.
+
+Samsung notes that eSIM availability depends on both the device and the carrier. A valid model result cannot force a carrier to accept that tablet, plan or regional variant.
+
+### For an eSIM transfer
+
+Have the EID and both IMEIs available. Samsung's eSIM instructions direct users to **SIM manager** and advise contacting the network carrier when a supported transfer method is unavailable.
+
+The carrier may need the EID to provision the embedded SIM and an IMEI to associate the plan with the correct cellular interface. Follow the carrier's field labels rather than guessing which number belongs in each box.
+
+### For a paid Samsung report
+
+IMEIhub's paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) asks for a 15-digit IMEI and lists model, warranty, original carrier, purchase country and Knox Guard information among its report fields.
+
+Before ordering, confirm that the service supports your tablet model and submit the IMEI relevant to your decision. The report does not activate a SIM, change the tablet's configuration or remove a Knox Guard restriction.
+
+### For a blacklist question
+
+A blacklist check is separate from a Samsung information report. On a tablet with two IMEIs, a network restriction may be recorded against the identifier used by that line. If the risk matters to a purchase, ask the report provider or carrier whether both identifiers should be checked.
+
+Do not describe the entire tablet as permanently safe based on a model match from only one number.
+
+## What If Only One IMEI Appears?
+
+One IMEI can be completely normal.
+
+### The tablet has one cellular interface
+
+A single-SIM cellular model may expose only one equipment identity. It can still be genuine and fully functional on a supported network.
+
+### The regional variant differs
+
+Samsung sells different hardware and firmware variants under similar marketing names. eSIM and Dual SIM support can vary by country of origin even when the family name looks the same.
+
+Check the full model code, not only a name such as “Galaxy Tab S” or “Galaxy Tab A.” Then consult Samsung and the intended carrier for that region.
+
+### The second interface is not supported or enabled
+
+An eSIM menu may be unavailable because the model, region, carrier or software configuration does not support it. The absence of IMEI2 is not something an online lookup can repair.
+
+### It is a Wi-Fi-only tablet
+
+A Wi-Fi-only Galaxy Tab does not need an IMEI. It should still have a Samsung model code and serial number. Entering that serial number into an IMEI-only form will fail because the identifier has a different purpose and format.
+
+## What If IMEI1 and IMEI2 Give Different Results?
+
+Small naming differences can come from the lookup source, but a major mismatch should be investigated.
+
+### Recopy both numbers
+
+Read them again from Settings. Make sure each number contains 15 digits and that you did not transpose a repeated digit.
+
+### Compare the Type Allocation Code
+
+The first eight digits form the TAC, which identifies an approved device type allocation. Different interfaces on one product can be associated with different TAC allocations, so the first eight digits do not always need to be identical. Both results should still make sense for the tablet you own.
+
+### Confirm the exact model code
+
+Compare the lookup results with the model code in About tablet and on the packaging. A result for an unrelated manufacturer or incompatible product family is more serious than a difference in regional naming.
+
+### Ask before paying for another report
+
+If the basic results conflict, contact the report provider or carrier with the exact labels and identifiers. Do not keep buying reports until the identity mismatch is understood.
+
+## Buying a Used Dual-SIM or eSIM Galaxy Tab
+
+Use a layered inspection:
+
+- Confirm that the tablet is a cellular model rather than Wi-Fi-only.
+- Record IMEI1, IMEI2 and EID directly from Settings when shown.
+- Match both IMEIs with the packaging and seller documentation.
+- Run a free model check before ordering a paid status report.
+- Ask the intended carrier to verify the exact IMEI it will activate.
+- Test authorized setup and confirm that no seller account or management restriction blocks normal use.
+- Keep a receipt that identifies the tablet and its IMEI or IMEIs.
+
+Two clean-looking identifiers do not prove ownership, financing status, carrier freedom or absence of account locks. Each risk needs the appropriate evidence.
+
+## Common Mistakes to Avoid
+
+- Entering the Samsung serial number in an IMEI field.
+- Treating IMEI2 as a duplicate that can be ignored.
+- Assuming IMEI1 always means physical SIM in every regional model.
+- Assuming any tablet with two IMEIs supports every carrier's eSIM plan.
+- Checking only the box without comparing Settings.
+- Believing a free model lookup includes paid blacklist, warranty or Knox Guard status.
+- Expecting a report to activate eSIM or remove a lock.
+
+## Final Checklist
+
+Two Samsung tablet IMEI numbers usually reflect two cellular interfaces, not two devices. The safe approach is to read the labels in Settings, map the active lines in SIM manager and follow the carrier's exact request for IMEI1, IMEI2 or EID.
+
+Begin with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the model associated with the relevant IMEI. If you need the separately listed Samsung warranty, carrier, country or Knox Guard fields, review the paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) after confirming that you have selected the correct line identifier.
+ARTICLE_20260928_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-purchase-date-not-validated',
+        'title' => 'iPhone Serial Number Check: Purchase Date Not Validated?',
+        'meta_title' => 'iPhone Serial Number Check: Purchase Date Error',
+        'excerpt' => 'See why an iPhone purchase date may not validate, what the serial number result means, and how proof of purchase can correct Apple\'s coverage record.',
+        'date' => '2026-09-28',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260928_2'
+An **iPhone serial number check** may return an unvalidated, missing or incorrect purchase date when Apple's coverage record does not contain enough confirmed purchase information. The message does not automatically mean that the iPhone is counterfeit, stolen, inactive or out of warranty. It means the purchase-date record needs separate evidence before it can be relied upon for coverage timing.
+
+This guide explains what the result means, how it differs from activation and warranty status, and how the owner can ask Apple to correct the date with an acceptable sales receipt.
+
+## The Short Answer
+
+- Apple's coverage information is based on purchase-date data available in its system.
+- The estimated date can be missing or incorrect depending on how and when the product was sold or registered.
+- A serial number result is not proof of the buyer's identity or legal ownership.
+- Apple may require the original sales receipt to correct the purchase date or verify service eligibility.
+- An IMEI-based activation or warranty report is a separate evidence source and cannot edit Apple's record.
+- A lookup cannot create warranty coverage, change an invoice or remove Activation Lock.
+
+## What “Purchase Date Not Validated” Means
+
+The exact wording can vary between a coverage page, reseller portal or third-party report. In general, it means the system has not accepted a purchase date as sufficiently confirmed for the result being displayed.
+
+Apple's current [warranty coverage explanation](https://support.apple.com/en-us/102865) says that its service-coverage information is based on the purchase-date information available to Apple. The page also notes that the estimated date may be incorrect depending on registration and whether the product was bought from Apple or an authorized reseller.
+
+### It is a record problem, not a hardware diagnosis
+
+The message does not inspect the screen, battery, cameras or internal parts. It does not prove that the serial number was altered or that the phone failed Apple's hardware tests.
+
+Use the result as a prompt to verify the invoice and coverage record, not as a complete judgment about the phone.
+
+### It is not the same as “not activated”
+
+Purchase date, activation date and warranty expiration are related but distinct fields. A device may have been activated while the documented retail date is missing or estimated. A sealed-looking phone can also have an earlier record because it was previously sold, registered or replaced.
+
+Do not convert one unavailable field into a conclusion about all three dates.
+
+### It is not proof that the iPhone is stolen
+
+Lost-or-stolen network status is normally checked with the IMEI, not the serial number's purchase-date field. Activation Lock is a separate Apple Account protection checked during device setup.
+
+A purchase-date error can occur on a legitimately owned phone, while a correctly dated record does not prove that the current seller owns the device.
+
+## Why the Purchase Date May Be Missing or Incorrect
+
+### The reseller record has not reached Apple correctly
+
+Apple explains that coverage records can depend on purchase information available to its system. A delay, incomplete sale record or mismatch in reseller data can leave the date unconfirmed.
+
+This possibility is especially relevant soon after purchase. It does not guarantee that the record will correct itself, so keep the receipt and contact Apple if coverage timing matters.
+
+### The product was not registered as expected
+
+Registration history can influence the estimated date shown by the coverage system. The owner should sign in through Apple's official support channels and confirm that the correct device appears on the account.
+
+Registration does not replace proof of purchase when Apple asks for the original receipt.
+
+### The iPhone was sold through an authorized reseller
+
+Apple specifically notes that estimated purchase information can be incorrect for products bought from an Apple authorized reseller or Apple Store. The remedy is evidence of the real transaction, not a new IMEI lookup.
+
+### The receipt describes a different device
+
+An invoice may omit the serial number or list an identifier that does not match the iPhone. A generic receipt for “mobile phone” gives Apple less evidence than a document that clearly identifies the product.
+
+Compare the serial number in **Settings > General > About** with the receipt, packaging and seller documentation. Do not alter a receipt or copy a serial number from another device.
+
+### The device was replaced or exchanged
+
+A service replacement can have its own serial number and coverage history. If the seller provides a receipt for the original unit but the phone is a replacement, Apple may also need service documentation connecting the two records.
+
+This is one reason to keep repair and replacement paperwork with the phone.
+
+## What Apple Requires to Correct the Date
+
+Apple's current [purchase-date correction instructions](https://support.apple.com/en-ph/102261) say that the owner must send the original proof of purchase to request a correction.
+
+The receipt should include:
+
+- A clear description of the device.
+- The date of purchase.
+- An invoice or receipt number.
+- The price paid.
+- The reseller's contact information.
+- The device serial number.
+
+Apple's separate [receipt guidance](https://support.apple.com/en-sg/102264) also emphasizes a legible sales receipt and the information needed to identify the transaction and product.
+
+### Use Apple's official support route
+
+Start from Apple's purchase-date support page and follow its correction link. Do not send an invoice or personal details to an unrelated checker or marketplace contact.
+
+Apple decides whether the document is sufficient. An online article or report provider cannot approve the correction on Apple's behalf.
+
+### Keep the original document unchanged
+
+Use the receipt supplied by the seller or retailer. If information is missing, ask the retailer for a corrected invoice rather than editing the file yourself.
+
+Apple may request additional documentation when service eligibility or an extended coverage period is disputed.
+
+## How to Verify the iPhone Before Requesting a Correction
+
+### 1. Read the serial number from Settings
+
+Open **Settings > General > About** and copy the serial number. Apple's [identifier guide](https://support.apple.com/en-us/108037?device-type=iphone) explains other places to find it when the device is unavailable.
+
+Use the number stored by the iPhone as the main reference. Compare the packaging and receipt afterward.
+
+### 2. Check coverage through Apple
+
+Use Apple's official coverage and support tools while signed in where required. Record the exact wording and date of the result. A screenshot can help when explaining the issue to Apple, but avoid sharing the serial number publicly.
+
+### 3. Compare the receipt
+
+Confirm that the device description, purchase date, reseller information and serial number agree with the iPhone. A mismatch should be resolved with the seller or retailer before sending the document to Apple.
+
+### 4. Check the model separately
+
+If you also have the IMEI, IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) can confirm the brand, model and basic specifications. It does not provide a free purchase-date, activation, warranty, blacklist or iCloud report.
+
+A correct model match supports the identity review but does not validate the retail date.
+
+### 5. Submit the correction to Apple
+
+Follow Apple's official process and provide the original proof of purchase. Keep a copy of everything submitted and note any support case number.
+
+Do not pay a third party that promises to edit Apple's records without Apple's review.
+
+## How to Read Related Coverage Fields
+
+| Field | What it can indicate | What it cannot prove |
+|---|---|---|
+| Purchase date | Date Apple currently associates with the sale | Current ownership or device condition |
+| Activation date | When a device record was activated or began service | Exact retail transaction in every case |
+| Limited warranty | Coverage window shown in the relevant system | Every consumer-law right or every repair approval |
+| AppleCare plan | Additional plan shown for the device | That the plan automatically transfers with a private sale |
+| Serial number | Individual Apple product identity | IMEI blacklist or carrier-lock status |
+
+Apple warns that its coverage system may not reflect every right available under local consumer law. A displayed expiration date is therefore not the only possible source of service rights.
+
+## When an IMEI-Based Warranty Report Helps
+
+IMEIhub's paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) accepts a 15-digit IMEI and is described as returning activation date and remaining Apple limited-warranty information.
+
+That report can provide a second data point when activation timing or remaining coverage is the specific question. It is different from the free brand-and-model lookup and from Apple's proof-of-purchase correction process.
+
+### What the report does not do
+
+It does not:
+
+- Change Apple's purchase date.
+- Approve a warranty repair.
+- Transfer AppleCare.
+- Prove current ownership.
+- Remove Activation Lock or a carrier lock.
+- Guarantee that recently submitted information is already reflected.
+
+If the paid result and Apple's coverage page disagree, keep both results and ask Apple to review the original purchase evidence.
+
+## Buying a Used iPhone With an Unvalidated Date
+
+The message is not an automatic reason to reject a phone, but it increases the need for documentation.
+
+Ask the seller for:
+
+- The original, legible sales receipt.
+- A serial number that matches Settings.
+- Any replacement or repair paperwork.
+- Permission to check the device after it has been erased.
+- Confirmation that Activation Lock is removed.
+- The IMEI for separate model, blacklist and carrier checks when relevant.
+
+If the seller claims that warranty remains, require evidence from Apple's current coverage information or have the seller resolve the purchase-date record before payment. Do not value the phone as covered based only on a verbal promise.
+
+### A corrected date does not clear every risk
+
+Even after Apple updates the date, you still need to consider carrier lock, blacklist status, financing, account locks and physical condition. The date correction answers a coverage-record question only.
+
+### A clean IMEI does not correct the date
+
+A blacklist report and a purchase-date record come from different systems. A clean network result does not supply the receipt Apple needs, and an accepted receipt does not guarantee that a carrier will activate the phone.
+
+## Common Mistakes to Avoid
+
+- Treating an unvalidated date as proof that the iPhone is fake.
+- Assuming the message means the device has never been activated.
+- Sending purchase documents to an unofficial website.
+- Using a box serial number without matching it to Settings.
+- Editing an invoice instead of asking the retailer for a corrected document.
+- Confusing Apple's limited warranty with an AppleCare plan.
+- Expecting an IMEI report to modify Apple's database.
+- Buying a used phone before the seller removes Activation Lock.
+
+## Final Checklist
+
+An iPhone purchase date that is not validated is a coverage-record issue, not a complete verdict about authenticity, ownership or activation. Verify the serial number from the phone, compare the original receipt and use Apple's official support process to request a correction.
+
+For basic device identification, start with IMEIhub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check). If the remaining question is IMEI-based activation timing or limited-warranty information, review the scope of the paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty), then rely on Apple to make any official purchase-date correction.
+ARTICLE_20260928_2,
+    ],
+    [
         'slug' => 'iphone-imei-check-esim-compatibility',
         'title' => 'iPhone IMEI Check: Can It Confirm eSIM Compatibility?',
         'meta_title' => 'iPhone IMEI Check for eSIM Compatibility',
