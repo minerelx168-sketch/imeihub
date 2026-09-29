@@ -8,6 +8,282 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-cloned-imei',
+        'title' => 'IMEI Checker Online: Can It Detect a Cloned IMEI?',
+        'meta_title' => 'IMEI Checker Online: Can It Detect a Clone?',
+        'excerpt' => 'Learn when an IMEI checker online may flag a cloned IMEI, why a normal result is not proof of uniqueness, and what to verify with a carrier.',
+        'date' => '2026-09-29',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20260929_1'
+An **IMEI checker online** may reveal that an identifier has been reported as duplicated, but it cannot prove that an IMEI is unique simply because the result looks normal. A copied IMEI can still pass a 15-digit format check, identify the expected model and return an ordinary status until a carrier or database contributor has detected and reported multiple devices using it.
+
+That distinction matters when a phone shows the right model in a lookup but has unexplained network problems, a seller provides an IMEI that does not match the device, or a carrier says the identifier is already in use. This guide explains what an online check can show, what it cannot establish, and how to investigate without assuming that every mismatch means cloning.
+
+## The Short Answer
+
+- An online lookup can report a duplicate only when its data source contains a relevant duplicate or block-list record.
+- A valid check digit proves only that the number is mathematically well formed; it does not prove that the number belongs exclusively to one phone.
+- A correct brand and model result usually comes from the IMEI's Type Allocation Code, so a copied IMEI may return the same model as the original.
+- A clean blacklist result is a status snapshot, not a certificate that the IMEI has never been copied.
+- Network operators are better placed to investigate simultaneous or implausible use of one identifier on their networks.
+- An IMEI lookup reports information; it cannot rewrite an identifier, remove a network block or repair a phone.
+
+## What a Cloned IMEI Means
+
+The IMEI is intended to identify a cellular device. The [GSMA IMEI Database overview](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) explains that an IMEI contains a Type Allocation Code, a device serial portion and a check digit. Manufacturers receive official TACs for approved device models and then assign individual IMEIs during production.
+
+An IMEI is duplicated or cloned when the same identifier is copied into more than one device. This is different from two legitimate IMEIs on a Dual SIM phone: IMEI1 and IMEI2 are separate identifiers assigned to different cellular interfaces.
+
+### A duplicate is not the same as a typing error
+
+If one digit was copied incorrectly, a lookup may reject the number or identify a different TAC. That is an input problem, not evidence of cloning. Always compare the complete identifier shown in the phone with the box, tray or seller's message before drawing a conclusion.
+
+### A duplicate is not automatically a stolen-phone report
+
+Lost, stolen and duplicated identifiers can all appear in device-status systems, but they are different reasons. The [GSMA Block List service description](https://devicecheck.gsma.com/deviceregistryservices/GSMA_Block_List_Services_Description_January_2021) defines one reason code for equipment reported stolen or lost and another for an IMEI identified as copied into multiple devices.
+
+That is why a report should be read by field and reason, not reduced to a single idea that every blocked phone was stolen.
+
+## What an Online IMEI Check Can Reveal
+
+The answer depends on the report and its data source. A basic lookup and a device-status report do not answer the same question.
+
+### Free model identification
+
+A [free IMEI model check](https://imeihub.net/service.php?slug=free-imei-check) can help confirm whether the number is structurally usable and which brand or model family its TAC represents. This is useful for catching obvious mismatches, such as a seller advertising one model while supplying an IMEI allocated to another.
+
+However, model identification does not count how many physical phones are transmitting that number. Two devices using one copied IMEI can produce the same TAC-based model result.
+
+### Blacklist and duplicate-related records
+
+A paid [IMEI blacklist report](https://imeihub.net/service.php?slug=blacklist) may add device-status information beyond a free model lookup. If the underlying source has a duplicate-related record and the report exposes that reason, the result can be meaningful evidence that the identifier requires investigation.
+
+The GSMA's current Device Registry specification includes values for suspected duplicates, known duplicates and multiple instances. It also explains that the displayed duplicate state reflects records contributed to the registry. In practical terms, the data can identify known cases, but absence of a flag is not proof that no copy exists.
+
+### Model mismatch as a warning, not a verdict
+
+If an IMEI returns a different manufacturer or model family from the device in your hand, pause the transaction. Possible causes include:
+
+- a digit copied incorrectly;
+- a seller sending an IMEI from another device;
+- a replaced mainboard or housing with mismatched labels;
+- incomplete or inaccurate catalog data;
+- an altered identifier.
+
+Repeat the check with the number displayed by the phone itself. A mismatch warrants more evidence, but an online result alone does not identify which cause applies.
+
+## Why a Normal Result Cannot Rule Out Cloning
+
+### The check digit validates format, not ownership
+
+The fifteenth digit of an IMEI is calculated from the first fourteen digits. A copied number retains the same correct check digit, so it can pass an IMEI test exactly as the original does.
+
+The [GSMA Device Registry specification](https://devicecheck.gsma.com/sg18) states that comparison is based on the first fourteen digits and that the final digit is the check digit. This lets systems catch entry mistakes, but it does not establish that only one physical device carries the number.
+
+### TAC data identifies a model family
+
+The first eight digits describe an allocated device type. A lookup that returns the expected model has successfully mapped the TAC, but it has not authenticated the hardware in front of you.
+
+### Duplicate detection depends on observed and shared data
+
+Carriers can see identifiers attached to their networks and may identify impossible or repeated usage patterns. The [GSMA device-blocking practice](https://devicecheck.gsma.com/fs45) tells operators to check for duplicate IMEIs and submit identifiers known to be duplicated using the appropriate reason code.
+
+Coverage still varies by contributor, market and timing. A newly copied identifier may not yet be flagged, and a public-facing report may not expose every internal network signal.
+
+## How to Check a Suspected Cloned IMEI
+
+### Compare identifiers on the phone
+
+Open the device's About screen and record IMEI1 and IMEI2 separately if both appear. You can also dial `*#06#` on many phones. Compare those values with the box label and any SIM-tray engraving, but give the on-device value the most weight when checking the active hardware.
+
+Do not combine digits from two IMEIs. Do not enter the EID, serial number or SIM ICCID into a form asking for a 15-digit IMEI.
+
+### Run a model lookup first
+
+Use the free lookup to confirm the brand and model family. If the result is completely inconsistent with the phone, stop and ask the seller for an explanation and verifiable purchase evidence.
+
+### Order a status report when the risk justifies it
+
+For a used-phone purchase or unexplained service failure, a blacklist report can add lost, stolen or duplicate-related status when available. Read the report date and individual fields. A status can change after the lookup, and not every database uses identical wording.
+
+### Ask the carrier to investigate network evidence
+
+If your legitimate phone suddenly loses service, shows an identifier conflict, or a carrier specifically mentions duplication, contact the carrier that provides your line. Provide the device purchase receipt, account details and the IMEI shown in Settings. The carrier can compare network and account records that a public checker cannot see.
+
+### Keep proof of ownership
+
+Retain the invoice, seller conversation, box and payment record. These documents do not prove technical uniqueness by themselves, but they help establish how you obtained the device if a carrier or marketplace needs to review the case.
+
+## What Not to Do
+
+- Do not pay a stranger who promises to change or “repair” an IMEI remotely.
+- Do not assume a factory reset will restore a blocked or duplicated identifier.
+- Do not post the full IMEI publicly while asking for help.
+- Do not treat a model match as proof that the phone is authentic or unique.
+- Do not accuse a seller of cloning based on one inconsistent lookup; verify the number and source first.
+
+Altering an equipment identifier may be unlawful and can create service problems. The safe route is to document the issue and work with the seller, marketplace and carrier.
+
+## Which imeihub Check Should You Use?
+
+Start with the free service when your question is, “Does this IMEI map to the device I expect?” It provides basic identification without claiming to prove blacklist, duplicate, carrier-lock or ownership status.
+
+Use a paid blacklist report when you need current status fields relevant to loss, theft or network blocking. Check the service description before ordering so you know which fields are included. Neither type of lookup changes the device or removes a restriction.
+
+## Conclusion
+
+An IMEI checker online can surface a known duplicate record or a suspicious model mismatch, but an ordinary result cannot certify that an identifier exists on only one phone. Validate the number on the device, separate a free TAC-based model lookup from a paid status report, preserve purchase evidence and involve the carrier when network behavior suggests duplication. Begin with the [free imeihub IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then choose the [blacklist report](https://imeihub.net/service.php?slug=blacklist) only if you need the additional status fields it describes.
+ARTICLE_20260929_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-refurbished',
+        'title' => 'iPhone Serial Number Check: Can It Prove the Phone Was Refurbished?',
+        'meta_title' => 'iPhone Serial Number Check: Was It Refurbished?',
+        'excerpt' => 'Learn why an iPhone serial number check cannot prove refurbishment, what Apple Certified Refurbished means, and which evidence to verify instead.',
+        'date' => '2026-09-29',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260929_2'
+An **iPhone serial number check** can help identify the device and inspect available coverage information, but it cannot by itself prove whether an iPhone was refurbished, who refurbished it or what work was performed. “Refurbished” describes a sales and preparation process, while a serial number is a device identifier. The strongest evidence comes from the original seller's documentation, the device's on-screen identifiers, coverage records, Parts and Service History, and a physical inspection.
+
+This guide separates Apple Certified Refurbished products from seller-refurbished phones, explains why serial-number prefix shortcuts are unreliable, and gives you a practical checklist before buying.
+
+## The Short Answer
+
+- A serial-number result does not provide a universal “refurbished: yes/no” certificate.
+- Apple Certified Refurbished is a specific Apple sales program with documented testing, packaging and warranty terms.
+- A phone refurbished by a carrier, retailer or independent seller is not automatically an Apple Certified Refurbished product.
+- Coverage information can help you understand service eligibility, but it does not reveal the device's full ownership or refurbishment history.
+- Parts and Service History may show certain repaired components on supported iPhone models and software versions, but repair history is not the same as refurbishment status.
+- A clean serial-number lookup does not prove that every part is original or that the phone has never been opened.
+
+## What “Refurbished iPhone” Can Mean
+
+The term is used broadly in resale listings, so first identify whose standard the seller is claiming.
+
+### Apple Certified Refurbished
+
+Apple describes its [Certified Refurbished process](https://www.apple.com/shop/refurbished/about) as including full functional testing, cleaning and inspection, genuine Apple replacement parts as needed, and a new battery and outer shell for refurbished iOS devices. Apple also states that these products come in a new white box and include its standard one-year limited warranty.
+
+Those promises apply to products sold through Apple's Certified Refurbished channel. A serial number that works on an Apple page does not transform a marketplace listing into an Apple Certified Refurbished product. Ask for the Apple order or invoice if the seller makes that specific claim.
+
+### Carrier or retailer refurbishment
+
+A carrier or retailer may inspect, grade, repair and resell an iPhone under its own program. Its testing, warranty, cosmetic grade and parts policy can differ from Apple's program. The relevant evidence is the seller's refurbishment standard, invoice and written warranty.
+
+### Independent refurbishment or repair
+
+An independent seller may replace a battery, screen, housing or another component and call the result refurbished. That may describe genuine work, but the word alone does not tell you which parts were replaced, how they were tested or whether the device has a service guarantee.
+
+## What a Serial Number Check Can Confirm
+
+### The identifier is recognized
+
+Apple explains how to [find a product serial number](https://support.apple.com/en-us/102858) on the device, packaging or related Apple account surfaces. A recognized serial can help you match the phone with its box and records.
+
+Recognition is not authentication of the entire phone. A number can be copied into a listing or printed on mismatched packaging, so compare the serial shown under **Settings > General > About** with the seller's documents and box.
+
+### Available coverage information
+
+Apple provides online coverage tools and lets owners review devices through [My Support](https://support.apple.com/my-support). Coverage can show whether an Apple Limited Warranty or AppleCare plan is active where supported.
+
+Coverage dates are useful, but they do not reveal every prior repair, cosmetic replacement or reseller refurbishment step. An expired warranty also does not prove that a phone was refurbished.
+
+### Model-related report fields
+
+An [Apple basic report](https://imeihub.net/service.php?slug=apple-basic) may return device details associated with an identifier, while a paid [Apple warranty report](https://imeihub.net/service.php?slug=apple-warranty) may provide additional coverage-related fields described on that service page. Review the included fields before ordering.
+
+Neither report should be read as a universal certificate of refurbishment. A lookup does not inspect the phone in your hand and cannot guarantee the condition of its battery, display, cameras or housing.
+
+## Why Serial-Number Prefix Tricks Are Not Proof
+
+Older online advice often claims that one starting character in a serial or model-related code always identifies a retail, replacement or refurbished phone. That shortcut is not a dependable buying test.
+
+Apple's current serial-number guidance focuses on where to find the identifier and how its characters are represented. It does not publish a current consumer rule that turns the first serial character into a complete refurbishment history. Serial formats and product records can change, and sellers may confuse a serial number with a part number or model number.
+
+Treat a prefix claim as an unsupported clue unless Apple or the original seller can connect it to documentation for that exact device.
+
+## Parts and Service History Helps, but Has Limits
+
+On supported iPhones with recent iOS versions, open **Settings > General > About** and look for **Parts and Service History**. Apple's [Parts and Service History guide](https://support.apple.com/en-us/102658) explains that this area may identify repaired components and labels such as Genuine, Used, Unknown or Unverified, depending on the model and part.
+
+### What the screen can tell you
+
+- whether certain supported parts have recorded service information;
+- whether a displayed part is recognized as genuine, used or unable to be verified;
+- the service date for some completed repairs after the phone connects to the internet;
+- whether Repair Assistant still needs to finish a supported repair.
+
+### What the screen cannot prove
+
+- that the device was or was not sold as refurbished;
+- the complete history of every repair ever performed;
+- the seller's testing standard or cosmetic grade;
+- whether packaging and accessories came from the original sale;
+- that a component not listed has never been changed.
+
+Apple notes that if a part has been serviced more than once, only the most recent service appears. Older iPhone models and older software also expose less information. A blank section therefore is not proof that no work occurred.
+
+## A Better Refurbished iPhone Verification Checklist
+
+### Match every identifier
+
+Compare the serial number, IMEI and model number in **Settings > General > About** with the box and invoice. If the iPhone has two IMEIs, record IMEI1 and IMEI2 separately. A mismatch should be explained before money changes hands.
+
+### Verify the seller's exact claim
+
+Ask whether the phone is:
+
+- Apple Certified Refurbished;
+- refurbished under a carrier or retailer program;
+- repaired and resold by an independent business;
+- simply used and cleaned for resale.
+
+Request the invoice, program name, grade definition, return period and written warranty. If the seller claims Apple certification, ask for Apple purchase evidence rather than relying on a screenshot from an identifier site.
+
+### Review Parts and Service History in person
+
+Do this on the phone, not from a seller-provided image. Tap any listed part for more detail. A Genuine label can support the service record for that component, but it does not certify the entire device as Apple refurbished.
+
+### Check coverage separately
+
+Use Apple's coverage page or an appropriate report to understand service eligibility. Confirm that the serial displayed by the phone is the one being checked. Coverage status is one part of due diligence, not a condition report.
+
+### Check IMEI risks separately
+
+A serial-number lookup does not replace an IMEI blacklist check, carrier-lock check or Activation Lock verification. Before buying, verify the phone's IMEI status and confirm that the seller can erase the device and remove it from their Apple Account.
+
+An identifier report cannot remove Activation Lock, unlock a carrier-restricted iPhone or reverse a blacklist entry.
+
+### Inspect and test the hardware
+
+Test Face ID or Touch ID, cameras, microphones, speakers, buttons, charging, Wi-Fi, Bluetooth and cellular service. Review **Settings > Battery > Battery Health & Charging** where available. Compare the phone's model and storage with the listing.
+
+No online serial-number result substitutes for a hands-on inspection and a return policy.
+
+## Red Flags Before You Buy
+
+- The seller calls the phone Apple Certified Refurbished but cannot provide Apple purchase evidence.
+- The serial number or IMEI in Settings does not match the box or invoice.
+- The seller refuses to let you view Parts and Service History.
+- The device is still linked to the seller's Apple Account.
+- Coverage screenshots hide the identifier or do not match the phone.
+- The listing treats “recognized serial number” as proof that every part is original.
+- The price depends on immediate payment with no return or dispute process.
+
+One red flag may have an innocent explanation, but unresolved identifier or ownership mismatches are a reason to pause the purchase.
+
+## Which imeihub Report Fits the Question?
+
+Use the Apple basic service when you need available model or identifier-related fields described on the service page. Choose the Apple warranty service only when you need its additional coverage fields. Free basic model information and paid warranty information answer different questions.
+
+For loss, theft or network blocking, use a separate blacklist service. For SIM restrictions, use a carrier-lock service. None of these reports certifies a refurbishment process or changes the phone's status.
+
+## Conclusion
+
+An iPhone serial number check is useful for matching a device to available model and coverage records, but it cannot prove who refurbished the phone or what work was completed. Verify the seller's program and invoice, inspect Parts and Service History, match the on-device serial and IMEI, test the hardware, and run separate lock or blacklist checks when needed. Start with the [imeihub Apple basic report](https://imeihub.net/service.php?slug=apple-basic), and use the [Apple warranty report](https://imeihub.net/service.php?slug=apple-warranty) only if its listed coverage fields match your question.
+ARTICLE_20260929_2,
+    ],
+    [
         'slug' => 'samsung-tablet-imei-number-imei1-imei2',
         'title' => 'Samsung Tablet IMEI Number: Why Does It Show Two?',
         'meta_title' => 'Samsung Tablet IMEI Number: IMEI1 vs IMEI2',
