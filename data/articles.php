@@ -8,6 +8,317 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tab-a-imei-factory-reset',
+        'title' => 'Samsung Tab A IMEI: Does a Factory Reset Change It?',
+        'meta_title' => 'Samsung Tab A IMEI After a Factory Reset',
+        'excerpt' => 'Learn why a factory reset does not normally change a Samsung Tab A IMEI, what the reset erases, and when hardware service can explain a new number.',
+        'date' => '2026-09-30',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20260930_1'
+A **Samsung Tab A IMEI** does not normally change when you perform a factory reset. The reset removes personal information, downloaded apps, accounts and device settings, while the IMEI is a manufacturer-assigned identifier for the tablet's cellular hardware. After setup, the same cellular Galaxy Tab A should display the same IMEI it used before the reset.
+
+If the number is different, missing or rejected after a reset, do not assume that Android generated a new IMEI. First confirm that you are checking the same tablet variant and the correct identifier. A mainboard replacement, a mismatched box, IMEI1-versus-IMEI2 confusion or an abnormal hardware problem is more relevant than the reset itself.
+
+## The Short Answer
+
+- A standard factory data reset does not normally create a new IMEI.
+- Samsung describes a factory reset as erasing personal information and data and returning the device to its initial setup screen.
+- The IMEI belongs to a cellular device interface, not to your Google account, Samsung account, SIM card or downloaded apps.
+- Removing or changing a SIM does not assign the tablet a new IMEI.
+- A Wi-Fi-only Galaxy Tab A does not use an IMEI because it has no cellular radio.
+- A replacement mainboard or replacement device may legitimately have a different identifier.
+- Resetting a tablet does not clear a blacklist, Knox Guard, Google Factory Reset Protection or carrier restriction.
+
+## What a Factory Reset Actually Removes
+
+Samsung's current [factory-reset instructions](https://www.samsung.com/us/support/answer/ANS10002030/) explain that a factory data reset erases personal information and data, then restarts the Galaxy phone or tablet at the initial setup screen. Samsung recommends backing up important information first because erased personal data may not be recoverable.
+
+Depending on the tablet and configuration, the reset can remove:
+
+- installed apps and their local data;
+- saved accounts and user profiles;
+- photos, downloads and files stored in internal storage;
+- Wi-Fi, Bluetooth and mobile-network preferences;
+- accessibility and other customized settings;
+- screen locks and local credentials as part of the supported reset flow.
+
+The reset is a software process for returning the user environment to a clean state. It is not a manufacturing process and does not reallocate the tablet's cellular identity.
+
+### Reset all settings is different
+
+Samsung also offers options to reset all settings, network settings or accessibility settings without deleting every app and file. These narrower resets do not replace the IMEI either. They may change connection behavior, so a tablet can temporarily appear different to you even though its equipment identifier is unchanged.
+
+### The SIM card is separate
+
+The SIM or eSIM profile identifies a mobile subscription. The IMEI identifies the tablet's cellular equipment. Removing a physical SIM, changing carriers or downloading another eSIM profile does not rewrite the factory-assigned IMEI.
+
+## Why the IMEI Normally Stays the Same
+
+The [GSMA IMEI Database overview](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) describes the IMEI as a 15-digit unique identifier for a device on a mobile network. Its Type Allocation Code identifies an approved device type, while the remaining device-specific portion distinguishes an individual unit.
+
+Personal content is not part of that structure. Your photos, Samsung account, Google account, passcode and mobile plan are not encoded into the IMEI. Erasing those items therefore does not require a new equipment identifier.
+
+### A reset is not an IMEI repair
+
+If a tablet reports an invalid, null or unknown IMEI, a factory reset is not a reliable method for repairing the identifier. Repeated resets can erase data without addressing damaged radio firmware, a board fault or an unauthorized modification.
+
+### A reset does not erase status records
+
+Blacklist and device-management records are maintained outside the tablet. A local reset cannot delete a lost-or-stolen report, change a carrier database or remove a finance-related restriction. An IMEI lookup can report available status, but it cannot change that status either.
+
+## Why a Samsung Tab A IMEI Might Look Different
+
+### You compared the wrong identifier
+
+A cellular tablet may show IMEI1 and IMEI2 when it supports more than one cellular interface. Each is a complete identifier. Comparing IMEI1 before the reset with IMEI2 after setup creates an apparent change even though both numbers already belonged to the tablet.
+
+Record the labels as well as the digits. Do not merge the numbers or substitute an EID, ICCID or Samsung serial number.
+
+### The box belongs to another unit
+
+Used tablets are sometimes sold with a replacement box. Compare the identifier in **Settings > About tablet** with the label on the box and any information supplied by the seller. A mismatch can be innocent, but the seller should explain it before a purchase.
+
+### The mainboard was replaced
+
+The cellular modem and related device identity are tied to core hardware. If Samsung or another repair provider replaced the mainboard, the serviced tablet may present a different IMEI. Ask for the repair invoice and verify that the new number matches the device after service.
+
+A mainboard replacement is not the same as a factory reset. One changes important hardware; the other erases user data and settings.
+
+### The device was replaced rather than repaired
+
+A warranty or insurance provider may swap the entire tablet. The replacement unit should have its own serial number and IMEI. Documentation should connect the old case or order with the new device.
+
+### The tablet is Wi-Fi-only
+
+Some Galaxy Tab A models look almost identical even though one supports cellular service and another is Wi-Fi-only. A Wi-Fi-only model normally has no IMEI. A serial number, model code or Wi-Fi MAC address should not be shortened and entered into a 15-digit IMEI form.
+
+### There is a software or hardware fault
+
+If the same cellular tablet previously displayed an IMEI and now shows **Unknown**, **Null** or a blank value, stop resetting it. Restart once, install legitimate Samsung updates if the device works normally, and contact Samsung or an authorized service provider. Preserve purchase and repair records.
+
+## How to Verify the IMEI Before and After Resetting
+
+### Record the identifiers first
+
+Before erasing the tablet, open **Settings > About tablet**. Depending on the model and software version, the IMEI may appear directly or under **Status information**. Record:
+
+- model name and model code;
+- Samsung serial number;
+- IMEI1 and IMEI2, if present;
+- EID, if the tablet supports eSIM;
+- the current carrier and SIM configuration.
+
+Keep this record private. Do not post a complete IMEI in a public support forum.
+
+### Back up and remove accounts correctly
+
+Back up files you need and follow Samsung's supported reset path. If you are selling the tablet, remove your Samsung and Google accounts in the proper order and confirm that the device reaches setup without asking for your private credentials.
+
+Google Factory Reset Protection can require the previously synchronized account after an unauthorized reset. An IMEI report does not bypass that security feature.
+
+### Check the same field after setup
+
+After the reset, return to **About tablet** and compare IMEI1 with the earlier IMEI1, and IMEI2 with the earlier IMEI2. Ignore spaces used only for display formatting.
+
+### Run a basic model lookup
+
+Use the [free imeihub IMEI check](https://imeihub.net/service.php?slug=free-imei-check) to confirm that the number maps to the expected device family. This is basic identification; it is not a free blacklist, warranty, carrier-lock or Knox Guard report.
+
+### Use a paid Samsung report only when needed
+
+The [Samsung Info + Knox Guard service](https://imeihub.net/service.php?slug=samsung-info) may provide the additional Samsung-related fields described on its service page. Read the included fields before ordering. The report does not change the IMEI, remove Knox Guard or unlock a Google account.
+
+## What a Reset Cannot Fix
+
+A factory reset may help with user-level software problems, but it cannot legitimately:
+
+- remove a lost-or-stolen blacklist record;
+- change the original device model associated with a TAC;
+- unlock a carrier-restricted cellular radio;
+- clear Knox Guard or financing controls;
+- bypass Google Factory Reset Protection;
+- convert a Wi-Fi-only tablet into a cellular model;
+- repair a damaged mainboard or modem;
+- assign a replacement IMEI to a repaired device.
+
+Be cautious with anyone selling a “reset IMEI” or remote identifier rewrite. Altering equipment identifiers may be unlawful and can create network or ownership problems.
+
+## Used-Tablet Checklist After a Reset
+
+If a seller has already reset the Galaxy Tab A, verify more than the welcome screen:
+
+- Complete enough of setup to open About tablet with the seller's permission.
+- Match the model code, serial number and IMEI with the invoice or repair documents.
+- Confirm whether the tablet is cellular or Wi-Fi-only.
+- Check IMEI1 and IMEI2 separately when two numbers appear.
+- Insert an eligible SIM or follow the carrier's activation process.
+- Verify that setup does not request an unknown previous Google account.
+- Run the status report that matches your actual risk before payment.
+- Keep a written return policy for unresolved identifier or activation problems.
+
+## Conclusion
+
+A Samsung Tab A IMEI should remain the same after a normal factory reset because the reset erases user data and settings, not the manufacturer-assigned cellular identity. If the number differs, compare IMEI1 and IMEI2, check the box and repair records, and investigate a board or device replacement. Start with the [free imeihub model lookup](https://imeihub.net/service.php?slug=free-imei-check), then use the [Samsung report](https://imeihub.net/service.php?slug=samsung-info) only when its listed fields answer the additional question you need resolved.
+ARTICLE_20260930_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-water-damage',
+        'title' => 'iPhone Serial Number Check: Can It Reveal Water Damage?',
+        'meta_title' => 'iPhone Serial Number Check for Water Damage',
+        'excerpt' => 'An iPhone serial number check cannot reveal water damage. Learn what Apple\'s liquid indicator shows, what coverage means, and how to inspect safely.',
+        'date' => '2026-09-30',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20260930_2'
+An **iPhone serial number check** cannot tell you whether the phone has been exposed to water or another liquid. A serial lookup can identify the device and show available coverage information, but it does not inspect the Liquid Contact Indicator, corrosion, seals, cameras, speakers or charging port. A recognized serial number and active coverage are not proof that an iPhone is free from liquid damage.
+
+To assess a used iPhone, combine the on-device identifiers with Apple's Liquid Contact Indicator guidance, a careful functional test, seller documentation and—when the risk matters—an inspection by Apple or an Apple Authorized Service Provider.
+
+## The Short Answer
+
+- A serial-number result does not include a universal water-damage status.
+- Apple's Liquid Contact Indicator can show contact with water or a water-containing liquid on supported models.
+- A white or silver indicator has not activated; an activated indicator turns fully red.
+- A normal-looking indicator cannot guarantee that every internal component is dry or undamaged.
+- Water resistance is not permanent and can diminish with normal wear.
+- Coverage status does not mean liquid damage is covered by Apple's standard limited warranty.
+- An IMEI or serial-number report cannot dry, repair or unlock an iPhone.
+
+## What a Serial Number Check Can Show
+
+Apple explains how to [find the serial number](https://support.apple.com/en-us/102858) in Settings, on packaging and through related account surfaces. The serial number helps distinguish an individual Apple product and connect it with model or support records.
+
+### Device and coverage records
+
+An Apple lookup may recognize the serial number and provide available warranty or AppleCare information. An [imeihub Apple basic report](https://imeihub.net/service.php?slug=apple-basic) may add the model-related fields described on its service page, while the paid [Apple Warranty report](https://imeihub.net/service.php?slug=apple-warranty) may provide additional coverage fields.
+
+These records answer administrative questions. They do not contain a remote moisture sensor reading and do not inspect the phone in your hand.
+
+### What the serial number cannot reveal
+
+A serial check cannot reliably tell you:
+
+- whether the phone was dropped in water;
+- whether an internal component has corrosion;
+- whether the display or housing seals still perform as designed;
+- whether a charging port was exposed to liquid;
+- whether a repair shop cleaned or replaced damaged parts;
+- whether all cameras, microphones and speakers work correctly;
+- whether liquid damage will appear later.
+
+Do not treat a recognized serial number, valid purchase date or active plan as a physical condition report.
+
+## Apple's Liquid Contact Indicator
+
+Apple's current [liquid-damage guidance](https://support.apple.com/en-us/109350) explains that iPhone models contain Liquid Contact Indicators, commonly called LCIs. On many models, the indicator is externally visible in or near the SIM-card area.
+
+### How the indicator changes
+
+Apple states that the LCI is normally white or silver and turns fully red after contact with water or a liquid containing water. It should not activate because of humidity or temperature changes that stay within the product's environmental requirements.
+
+### The location depends on the model
+
+Apple publishes a model-by-model diagram of externally visible LCI locations. Some iPhones sold as eSIM-only in certain countries or regions do not have a SIM tray or an externally visible LCI. Confirm the exact model before looking for the indicator.
+
+### A red LCI is meaningful, but not a complete diagnosis
+
+A fully red indicator is evidence of liquid contact. It does not identify the liquid, the date of exposure, the length of contact or the exact component affected.
+
+A white or silver indicator is reassuring but not a guarantee. A phone can have a problem that needs professional inspection even when an externally visible indicator has not activated.
+
+Apple advises contacting Apple or an Authorized Service Provider when you are unsure whether liquid exposure is causing a device problem—even if the indicator is red.
+
+## Water Resistance Does Not Mean Waterproof
+
+Apple's [splash, water and dust resistance guidance](https://support.apple.com/en-us/108039) says supported iPhones were tested under controlled laboratory conditions. The rating is not a promise that every used phone will have the same protection forever.
+
+Apple also explains that splash, water and dust resistance are not permanent conditions and may decrease through normal wear. Impacts, disassembly and prior repairs can affect the device's protection.
+
+### Why a used phone needs extra scrutiny
+
+You usually do not know whether the iPhone was dropped, opened, exposed to cleaning chemicals or repaired with a changed seal. A seller's statement that a model is water resistant does not answer those questions.
+
+### Liquid damage and standard warranty coverage
+
+Apple states that service for liquid damage is not covered by the Apple One-Year Limited Warranty, although consumer-law rights may apply. AppleCare plan benefits and service fees depend on the plan, country, incident and current terms. Check the actual plan rather than assuming active coverage makes every liquid-related repair free.
+
+## How to Check a Used iPhone Safely
+
+### Match the identifiers
+
+Open **Settings > General > About** and compare the serial number, model number and IMEI with the box and invoice. If two IMEIs appear, record IMEI1 and IMEI2 separately.
+
+Identifier consistency does not prove that the phone is dry, but a mismatch is an additional reason to pause the purchase.
+
+### Inspect the LCI without damaging the phone
+
+Use Apple's model diagram to locate an externally visible indicator. Remove the SIM tray only if the model has one and the seller permits it. Use good light and do not insert tools, cotton swabs or liquids into the opening.
+
+Do not open the phone merely to search for internal moisture evidence. Opening it can damage seals and should be left to qualified service personnel.
+
+### Examine common symptoms
+
+Look for issues that can follow liquid exposure, while remembering that each symptom can have other causes:
+
+- muffled or distorted speakers;
+- microphones that fail during calls or recordings;
+- fogging inside a camera lens;
+- intermittent charging or accessory detection;
+- display discoloration, flicker or touch problems;
+- Face ID or Touch ID failures;
+- unexpected shutdowns, overheating or rapid battery drain;
+- corrosion or residue around the port, tray or screws.
+
+One successful test does not eliminate every risk. Test the phone after it has been running for a while, not only for a few seconds at the seller's table.
+
+### Check Parts and Service History
+
+On supported models and software versions, open **Settings > General > About** and review Parts and Service History. This can show certain repaired components and whether they are recognized by Apple.
+
+Repair history is not a water-damage log. A replaced display or battery may have many causes, and the absence of a listed repair does not prove that the phone was never opened or exposed to liquid.
+
+### Ask for a service inspection
+
+For a high-value purchase or a phone with warning signs, ask Apple or an Apple Authorized Service Provider to inspect it. A professional can evaluate symptoms and internal condition that a serial-number site cannot see.
+
+## What to Do If the iPhone Recently Got Wet
+
+If you are checking your own iPhone after a recent incident, focus on safety instead of repeatedly testing the port.
+
+- Disconnect cables and accessories.
+- Do not charge the phone until it is dry.
+- Follow Apple's drying guidance for the model and connector alert.
+- Do not use external heat, compressed air or objects inside the connector.
+- Do not place the iPhone in rice; particles can enter and damage the device.
+- Contact Apple Support if alerts persist or the phone behaves abnormally.
+
+A serial-number lookup cannot determine when charging is safe.
+
+## Free Lookup vs. Paid Report
+
+The free IMEI service is useful for basic model identification. It is not a free water-damage, warranty, blacklist, iCloud or carrier-lock report.
+
+An Apple warranty report may provide coverage-related fields, but coverage is not liquid-exposure detection. A blacklist report answers a network-status question. A carrier-lock report answers a SIM-restriction question. Choose a report only when its listed fields match the decision you need to make.
+
+No report can remove Activation Lock, unlock a carrier-restricted iPhone, repair corrosion or reverse a liquid-damage finding.
+
+## Red Flags Before Buying
+
+- The seller refuses to let you open Settings or compare identifiers.
+- The LCI is fully red and there is no repair documentation.
+- Camera lenses show condensation or persistent fogging.
+- Charging, audio or biometric features fail intermittently.
+- The seller relies on an active warranty screenshot as proof of no damage.
+- The phone was recently “cleaned” or opened but the work is undocumented.
+- The listing has no return period for problems that appear after normal testing.
+
+Any one sign can have another explanation, but unresolved liquid or identifier concerns justify delaying the purchase.
+
+## Conclusion
+
+An iPhone serial number check can identify the phone and show available coverage records, but it cannot reveal water damage. Use Apple's model-specific Liquid Contact Indicator guidance, inspect and test the hardware, review repair information and obtain professional service evidence when the risk is significant. Start with the [imeihub Apple basic report](https://imeihub.net/service.php?slug=apple-basic) for listed device fields, and use the [Apple Warranty report](https://imeihub.net/service.php?slug=apple-warranty) only when you specifically need its coverage information—not as proof that the phone has never contacted liquid.
+ARTICLE_20260930_2,
+    ],
+    [
         'slug' => 'imei-checker-online-cloned-imei',
         'title' => 'IMEI Checker Online: Can It Detect a Cloned IMEI?',
         'meta_title' => 'IMEI Checker Online: Can It Detect a Clone?',
