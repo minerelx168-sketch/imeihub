@@ -7421,4 +7421,135 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'togo-imei-check-verify-phone-before-buying-guide',
+        'title'   => 'Togo IMEI Check: Verify a Phone Before You Buy (2026)',
+        'excerpt' => 'No national IMEI registry yet in Togo — so buyers carry the risk. Learn how to check an IMEI and avoid stolen or counterfeit phones.',
+        'date'    => '2026-07-21',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## IMEI Check in Togo: What Buyers Need to Know (2026)
+
+If you are buying a used or imported phone in Togo — whether from the **Grand Marché de Lomé**, a shop in **Hedzranawoe** or **Adawlato**, a private seller on Facebook Marketplace, or a courier bringing a device from abroad — the IMEI check is the one step that protects you. Unlike Kenya, Nigeria, or Pakistan, **Togo does not currently operate a mandatory government IMEI declaration or registration portal**. That absence of a central checkpoint means the burden of verification falls on you, the buyer, at the point of sale.
+
+This guide explains what the **IMEI** (International Mobile Equipment Identity) is, how Togo's telecom regulator and mobile operators fit into the picture, and the exact checks to run — in under two minutes — before you hand over your money.
+
+---
+
+## Who Regulates Mobile Devices in Togo?
+
+The **Autorité de Régulation des Communications Électroniques et des Postes (ARCEP)** is Togo's independent regulator for electronic communications and postal services (arcep.tg). ARCEP's recent public actions have focused on **consumer protection in mobile billing and SIM-plan rules** — including a 2026 decision (No. 030/ARCEP/DG/26) reforming how operators handle unused voice and data bundles — rather than a device-level IMEI registry.
+
+Togo's two mobile network operators are:
+
+| Operator | Network Brand | Role in Device Compliance |
+|---|---|---|
+| Togo Telecom | **Togocel** | Provisions SIMs; can block a handset's IMEI from its own network on request |
+| Moov Africa | **Moov Africa Togo** | Provisions SIMs; can block a handset's IMEI from its own network on request |
+
+Neither operator publishes a public self-service IMEI blacklist lookup, and there is currently no unified national **EIR (Equipment Identity Register)** shared between them the way Pakistan's DIRBS or Kenya's CA system works. This is common across much of West Africa today, though regional bodies such as **WATRA (West Africa Telecommunications Regulators Assembly)** have been encouraging ECOWAS member states to move toward device type-approval and IMEI registration, following the systems Nigeria's NCC and Ghana's NCA have already rolled out. Togolese buyers should expect this to tighten in the coming years — which makes it even more important to build the habit of checking an IMEI now.
+
+---
+
+## Why This Matters: The Risk You're Actually Buying
+
+Without a national registry standing between a stolen phone and a new owner, the risk shifts entirely onto whoever buys the device next. The two things an IMEI check protects you from are:
+
+1. **Stolen or lost devices** — a phone reported stolen anywhere in the world (not just Togo) can be flagged on the **GSMA's global blacklist database**, which most international carriers reference. A blacklisted phone may work on a local network today and stop working the moment it roams, gets a new SIM, or the original network catches up.
+2. **Counterfeit or grey-market devices** — phones assembled with duplicated or invalid IMEIs, common in some cross-border import channels, that will not match their claimed brand and model when checked.
+
+---
+
+## How to Find and Check an IMEI
+
+### Step 1: Get the IMEI from the phone itself
+
+Dial the universal code on the phone you are about to buy:
+
+```
+*#06#
+```
+
+The 15-digit IMEI (or two IMEIs, for dual-SIM phones) will display immediately on screen. **This is the only IMEI source you should trust** — never rely on a number the seller tells you verbally.
+
+### Step 2: Match it against the box and SIM tray
+
+- The IMEI is printed on the **retail box** barcode label
+- On most phones it is also etched into the **SIM tray** or visible under **Settings → About Phone**
+
+All three numbers — screen, box, tray — must match exactly. A mismatch is an immediate red flag.
+
+### Step 3: Run a free IMEI check
+
+A free check confirms the **brand, model, and basic specs** tied to that IMEI, so you can catch a phone advertised as one model but registered as another (a common sign of a rebuilt or counterfeit unit).
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+
+### Step 4: Run a blacklist check
+
+This confirms whether the IMEI has been reported lost or stolen anywhere in the GSMA-connected blacklist network — the closest thing to a global registry, even though Togo itself has no domestic equivalent yet.
+
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+
+---
+
+## A Buyer's Checklist for Lomé's Phone Markets
+
+Used-phone trading in Togo is largely informal, which keeps prices low but shifts diligence onto the buyer. Before paying:
+
+- **Ask the seller to power on the phone and dial `*#06#`** in front of you
+- **Compare the IMEI to the box and SIM tray**
+- **Run a free IMEI check and a blacklist check** on the spot using mobile data
+- **Insist on a receipt** with the seller's name, phone number, and the IMEI written on it — this is your only paper trail if a dispute arises later
+- **Be suspicious of prices far below market rate** for a recent flagship model — it is one of the most reliable signs of a stolen device
+- **Avoid phones with a different IMEI on the box than on the screen** — this usually means the board or housing has been swapped
+
+| Warning Sign | What It Usually Means |
+|---|---|
+| IMEI on screen ≠ IMEI on box | Swapped components or counterfeit packaging |
+| Seller refuses to let you dial `*#06#` | High risk — walk away |
+| Blacklist check returns "reported lost/stolen" | Confirmed stolen device — do not buy |
+| Price is 40%+ below local resale value | Common pricing pattern for stolen stock |
+| No receipt or ID offered by seller | No recourse if the phone is later blocked |
+
+---
+
+## What Happens If Your Phone Is Stolen in Togo
+
+If your own phone is stolen, report it to the police (**gendarmerie** or local **commissariat**) with your IMEI, phone number, and a description of the device, then contact your operator (**Togocel** or **Moov Africa**) to request that the IMEI be blocked on their network. Keep a copy of your IMEI (screenshot the `*#06#` result, or check your box) **before** you ever need it — it is far harder to prove after the fact.
+
+Because Togo does not yet share a unified blacklist between operators, a phone blocked on one network may still function if the SIM is switched to the other. This is exactly why an international blacklist check — which draws on the shared GSMA database rather than a single Togolese operator — is the more reliable safety net for used-phone buyers today.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is IMEI registration mandatory in Togo like it is in Kenya or Pakistan?**
+A: No. As of 2026, Togo has no national IMEI declaration requirement at customs and no unified government EIR/CEIR portal. Verification is voluntary and buyer-driven.
+
+**Q: Which operators does Togo have, and can they block a stolen phone?**
+A: Togo has two operators, **Togocel** (Togo Telecom) and **Moov Africa Togo**. Each can block a reported IMEI on its own network, but there is no confirmed shared blacklist between the two.
+
+**Q: Will this change soon?**
+A: Regional bodies like WATRA have pushed ECOWAS states toward IMEI registration and device type-approval, and neighbouring Nigeria and Ghana already run their own systems. Togo has not announced a launch date for a comparable system, but buyers should expect tighter rules over time.
+
+**Q: What is the fastest way to check a used phone before buying it in Togo?**
+A: Dial `*#06#` to get the IMEI, confirm it matches the box and SIM tray, then run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — both take under two minutes on mobile data.
+
+**Q: Does a blacklist check cover phones stolen outside Togo too?**
+A: Yes. The GSMA blacklist database that these checks reference is international, so a phone stolen in Ghana, France, or anywhere else connected to the network will still show as flagged.
+
+---
+
+## Check Before You Pay
+
+In a market without a national safety net, the IMEI check is your safety net. Before you buy a used or imported phone in Togo, spend two minutes confirming it is genuine and clean:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Verify brand, model, and specs instantly, at no cost
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Confirm the phone has not been reported stolen anywhere in the world
+
+A confirmed-clean IMEI takes two minutes to check and can save you the full price of the phone.
+MD,
+    ],
+
 ];
