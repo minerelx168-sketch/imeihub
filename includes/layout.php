@@ -154,8 +154,13 @@ function layout_foot(): void
     });
 })();
 </script>
+<?php $gaId = (string) env('GA4_MEASUREMENT_ID', ''); ?>
+<?php if (preg_match('/^G-[A-Z0-9]+$/', $gaId)): ?>
+<script src="/assets/js/analytics.js?v=1" data-measurement-id="<?= htmlspecialchars($gaId, ENT_QUOTES, 'UTF-8') ?>"></script>
+<?php endif; ?>
 <script src="/assets/js/main.js?v=<?= @filemtime(__DIR__ . '/../assets/js/main.js') ?: '1' ?>"></script>
 </body>
 </html>
     <?php
 }
+
