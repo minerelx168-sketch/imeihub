@@ -8,6 +8,92 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'check-used-phone-pta-approved-pakistan',
+        'title' => 'Is a Used Phone PTA Approved? Check Before You Pay',
+        'excerpt' => 'Buying a used phone in Pakistan? Learn how to check PTA DIRBS status by IMEI, spot non-compliant devices and avoid a blocked SIM after 60 days.',
+        'date' => '2026-10-03',
+        'tag' => 'Guide',
+        'body' => <<<MD
+## Why PTA Status Matters When Buying a Used Phone
+
+In Pakistan, a phone is only as useful as its **PTA compliance status**. The Pakistan Telecommunication Authority runs **DIRBS** (Device Identification, Registration and Blocking System), which links every handset's **IMEI** to the mobile networks. A device that is not compliant can work for a short grace period and then lose service on Jazz, Telenor, Ufone and Zong.
+
+For used-phone buyers in Lahore, Karachi, Islamabad, Rawalpindi or Peshawar, this creates a real risk: the seller's phone may be working today only because it is still inside its grace window. Once the window closes, **you** are the one holding a blocked device. This guide shows how to check **PTA DIRBS status by IMEI** before any money changes hands.
+
+## What "PTA Approved" Actually Means
+
+People use the phrase loosely. In practice a phone can be in one of several states:
+
+| Status | What it means | Risk for a buyer |
+|---|---|---|
+| **Compliant (registered)** | IMEI is registered with PTA, either through customs duty payment or local-market import | Low |
+| **Non-compliant / unregistered** | IMEI is not registered; typically works only during the grace period | High, SIM blocked later |
+| **Blocked** | IMEI has been blocked on all networks | Very high, resale value is near zero |
+| **Stolen / blacklisted** | IMEI reported lost or stolen locally or globally | Very high, may also be a legal problem |
+
+A phone that is "factory unlocked" is **not** the same as PTA compliant. Unlocking only removes a carrier lock. It says nothing about whether the IMEI is registered in Pakistan.
+
+## How to Check PTA Status Before You Buy
+
+Always do the check yourself, on **your** phone, while the seller is still in front of you.
+
+- **Step 1: Get the IMEI.** Dial `*#06#` on the seller's phone. Do not rely on a photo or a message from the seller. Phones with two SIM slots show two IMEIs; note both.
+- **Step 2: Match it to the box and settings.** Compare the IMEI shown on the dialer with the one in Settings and on the box or SIM tray. Mismatches suggest a repaired board, a replaced tray or a cloned IMEI.
+- **Step 3: Check compliance with PTA.** Use PTA's official device verification channels, which at the time of writing include an SMS service and the DVS web portal, and enter the 15-digit IMEI. PTA can change these channels, so confirm the current method on the official PTA website.
+- **Step 4: Run an independent global check.** PTA's database does not tell you whether the phone is reported stolen abroad, or whether it is iCloud-locked. Use the tools below for that.
+- **Step 5: Decide with the result in hand.** Only a compliant, clean, correctly matched IMEI should be bought at the full "PTA approved" price.
+
+## Check Beyond PTA: Blacklist and Model Verification
+
+PTA tells you the local compliance picture. It does not tell you the full history of the device. Before you pay, also verify:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand and model match what the seller claims, which exposes "dummy" or relabelled phones.
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see whether the IMEI has been reported lost or stolen anywhere in the GSMA-connected ecosystem.
+- [Apple iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) for any iPhone, since a PTA-compliant iPhone can still be locked to someone else's Apple ID.
+
+## Common Used-Phone Traps in Pakistan
+
+- **"Works on my SIM, so it's fine."** A working SIM only proves the grace period is active, not that the phone is registered.
+- **JV or "non-PTA" discount deals.** A big discount often reflects the cost of registering the phone yourself. Work out that cost first; it may erase the saving.
+- **Copied or changed IMEIs.** If the IMEI on the box, the dialer and the settings do not agree, walk away.
+- **Phones with no box or receipt.** Not a deal-breaker, but it raises the importance of every check above.
+- **Pressure to pay quickly.** Honest sellers allow you to run an IMEI check. Refusal is a red flag.
+
+## What To Do If a Phone Turns Out To Be Non-Compliant
+
+You have three realistic options:
+
+- **Negotiate** the price down by the cost of registering the device, if you still want it.
+- **Register it** through the official PTA process and pay the applicable duties and taxes. Rates depend on the model and are updated regularly, so use PTA's current tax figures rather than a number quoted by a shop.
+- **Walk away.** If the IMEI is blocked or reported stolen, registration will not fix it.
+
+## Quick Buyer's Checklist
+
+| Check | Where | Pass condition |
+|---|---|---|
+| IMEI matches box, dialer and settings | On the phone | All identical |
+| PTA compliance | Official PTA channel | Registered / compliant |
+| Blacklist status | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) | Clean |
+| Model and specs | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | Matches the listing |
+| iPhone lock status | [Apple iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) | iCloud off, not lost |
+
+## FAQ
+
+**Can I check PTA status for free?**
+PTA's official verification channels are intended for public use. Check the PTA website for the current method and any charges from your mobile operator.
+
+**Does a PTA-compliant phone work on every network in Pakistan?**
+Compliance means the IMEI is registered. Network band support is a separate question, so confirm the model supports the bands your operator uses.
+
+**Is a blacklisted IMEI the same as a non-PTA IMEI?**
+No. Non-compliant means unregistered in Pakistan. Blacklisted means reported lost or stolen. Check both.
+
+## Final Word
+
+In a market where the same model can be listed at very different prices depending on its status, five minutes of verification protects you from the most expensive mistake a used-phone buyer can make. Start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check), then confirm blacklist status with the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) before you pay.
+MD,
+    ],
+    [
         'slug' => 'imei-checker-online-smartwatch',
         'title' => 'IMEI Checker Online for Smartwatches: What Can It Verify?',
         'meta_title' => 'IMEI Checker Online for Smartwatches',
