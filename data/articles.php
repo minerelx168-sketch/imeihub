@@ -7421,4 +7421,125 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'sierra-leone-imei-check-blacklist-guide',
+        'title'   => 'Sierra Leone IMEI Check: Avoid Stolen & Blacklisted Phones',
+        'excerpt' => 'How to check a phone\'s IMEI in Sierra Leone before buying used, spot a blacklisted device, and what NatCA\'s 2025 SIM rules actually cover.',
+        'date'    => '2026-07-12',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## Does Sierra Leone have a national IMEI registration system?
+
+Not yet — and that is the single most important thing to understand before
+you buy a phone in Freetown, Bo, Kenema, or anywhere else in the country.
+Unlike Kenya (KRA F88), Myanmar (CEIR), Pakistan (DIRBS), or Indonesia
+(Bea Cukai), **Sierra Leone does not currently operate a mandatory
+government IMEI registration or customs-clearance portal for handsets.**
+
+That does not mean phones are unregulated. It means the checks that matter
+here happen at a different layer: SIM registration, operator-level
+blacklisting, and the global GSMA blacklist — not a national device
+registry you have to log into.
+
+## What NatCA actually regulates
+
+The **National Communications Authority (NatCA)** — formerly known as
+NATCOM, renamed under the NatCA Act 2022 — is Sierra Leone's
+telecommunications regulator. NatCA's most significant recent directive is
+the **mandatory SIM-to-NIN (National Identification Number) linkage rule**,
+which required all mobile subscribers to verify and link their SIM cards
+to their national ID by **1 October 2025**. Subscribers who did not comply
+risk having calls, SMS, and data suspended until they complete
+verification.
+
+It is easy to confuse this with device/IMEI registration, but the two are
+different things:
+
+| Requirement | What it checks | Who enforces it |
+|---|---|---|
+| SIM–NIN linkage | Your identity (national ID tied to the SIM card) | NatCA, via Orange, Africell, Sierratel, QCell |
+| IMEI blacklist check | The device (has this handset been reported stolen anywhere) | Individual operators + the global GSMA blacklist |
+| Type approval | Whether an imported device model is certified for the network | NatCA (for importers/distributors, not everyday buyers) |
+
+NatCA has also warned the public against buying SIM cards from unauthorised
+street vendors, as part of a wider push against counterfeit SIMs and
+unregistered devices — but there is no consumer-facing "check my IMEI here"
+government website for Sierra Leone the way there is for Kenya or Myanmar.
+
+## How a stolen or blacklisted phone actually gets blocked here
+
+With four operators sharing the market — **Orange, Africell, Sierratel,
+and QCell** — device blocking works through each operator's own Equipment
+Identity Register (EIR), backed by the worldwide GSMA blacklist database
+that most international carriers subscribe to. The process looks like
+this:
+
+- **Step 1: Report to the police.** If your phone is lost or stolen, file
+  a report at the nearest police station and keep the case/reference
+  number — you will need it.
+- **Step 2: Find your IMEI.** Dial **`*#06#`** on any working phone, or
+  check your original box/receipt, to get the 15-digit IMEI of the stolen
+  device.
+- **Step 3: Contact your network operator.** Give Orange, Africell,
+  Sierratel, or QCell your IMEI and police case number so they can
+  blacklist the device on their EIR.
+- **Step 4: Understand the limits.** A local operator blacklist stops the
+  phone from working on **that operator's** network. It does not
+  automatically stop the phone working on a different network or in a
+  different country unless that operator also checks the shared GSMA
+  blacklist.
+
+This is exactly why an independent, global IMEI check matters more in a
+market like Sierra Leone than in a country with one centralised national
+registry — a phone can be "clean" on a local SIM today and still show up
+as reported-stolen the moment you check it against the worldwide database.
+
+## The 5-minute checklist before buying a used phone
+
+Sierra Leone's second-hand phone market — from mobile-money-linked
+smartphones to devices imported by travellers and diaspora relatives — is
+large and mostly informal. Before you hand over cash for a used handset:
+
+- **Dial `*#06#`** in front of the seller and confirm the IMEI matches the
+  one printed on the box and the SIM tray.
+- **Confirm it's 15 digits.** Anything shorter, or containing letters,
+  is not a genuine IMEI.
+- **Run a free IMEI check** to confirm the brand and model match what the
+  seller is claiming (a phone sold as an "iPhone 14" should return Apple /
+  iPhone 14, not a rebranded clone).
+- **Run a worldwide blacklist check** to see if the IMEI has been reported
+  lost or stolen anywhere in the world — not just in Sierra Leone.
+- **Ask which operator the phone was last used on** (Orange, Africell,
+  Sierratel, QCell) and confirm it is not network-locked to a carrier you
+  cannot use.
+
+## FAQ
+
+**Q: Is there a government website where I can register my phone's IMEI in Sierra Leone?**
+A: No. As of 2026, Sierra Leone has no national IMEI registration or customs-clearance portal for handsets. Regulation currently focuses on SIM–NIN linkage, not device registration.
+
+**Q: Does NatCA's SIM-NIN rule affect whether my phone works?**
+A: It affects whether your **SIM card** stays active — not your device. An unlinked SIM can be suspended even on a perfectly clean phone, so make sure your SIM is verified with your operator.
+
+**Q: I'm buying a used iPhone/Samsung in Freetown. What's the single most useful check?**
+A: A worldwide blacklist check. Because Sierra Leone has no national device registry, the GSMA-linked global blacklist is the most reliable way to confirm a phone hasn't been reported stolen anywhere, not just locally.
+
+**Q: My phone was stolen — who do I contact first?**
+A: The police, to get a case/reference number, then your network operator (Orange, Africell, Sierratel, or QCell) to blacklist the IMEI using that case number.
+
+**Q: Can a phone blacklisted in another country still be sold in Sierra Leone?**
+A: It can be offered for sale, since there is no customs-level IMEI block at import. This is precisely why buyers should run their own independent blacklist check rather than assuming a "working" phone is clean.
+
+---
+
+## Check Before You Buy
+
+Whether you're purchasing from a shop on the high street or a private
+seller, an IMEI check takes less time than the transaction itself:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Verify the brand, model, and specs match what's advertised
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Confirm the device hasn't been reported lost or stolen anywhere in the world
+MD,
+    ],
+
 ];
