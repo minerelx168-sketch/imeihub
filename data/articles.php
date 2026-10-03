@@ -8,6 +8,326 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-service-program',
+        'title' => 'iPhone Serial Number Check: Is It in an Apple Service Program?',
+        'meta_title' => 'iPhone Serial Number Check for Service Programs',
+        'excerpt' => 'Use an iPhone serial number check to investigate Apple service-program eligibility. Learn what the result means and why warranty status is separate.',
+        'date' => '2026-10-03',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261003_1'
+An **iPhone serial number check** can be the final eligibility step for some Apple service programs, but only when Apple provides a checker for that specific program. A general model or warranty lookup cannot automatically tell you that every repair campaign applies. You must first match the exact iPhone model and symptom to an active Apple program, then use Apple's program page or support process to confirm the individual device.
+
+This guide explains what service-program eligibility means, how to use the serial number correctly, and why a free repair program is different from warranty coverage, AppleCare, a recall, or ordinary repair history.
+
+## What Is an Apple Service Program?
+
+Apple creates service programs for defined product issues affecting particular models or production ranges. Each program has its own scope, eligibility rules, service process, geographic limits, and coverage period.
+
+For example, Apple's [iPhone 14 Plus Service Program for Rear Camera Issue](https://support.apple.com/iphone-14-plus-service-program-for-rear-camera-issue) covers eligible iPhone 14 Plus units whose rear camera may show no preview. Apple provides a serial-number field on that page and says the device will still be examined before service.
+
+That example shows why the program page matters. Eligibility is not based only on the marketing name “iPhone 14 Plus.” Apple also considers whether the serial number falls within the affected range, whether the phone has already been serviced under the program, whether the program window remains open, and whether physical damage prevents the repair.
+
+### Service Program Does Not Always Mean Recall
+
+People often search for an “iPhone recall check,” but Apple commonly uses the term **service program**. A safety recall, a quality program, a limited repair extension, and normal warranty service are not interchangeable.
+
+Use the wording on Apple's official page. It tells you what issue is covered, which models qualify, and what remedy is offered. Avoid assuming that a social-media post or marketplace listing proves that every unit in a model family receives a free repair.
+
+## What an iPhone Serial Number Check Can Confirm
+
+The serial number identifies the individual Apple device in Apple's support and service systems. Apple explains that you can find it in Settings, on the setup screen, in Finder or Apple Devices, in your Apple Account, or on original packaging. See [Find the serial number or IMEI on your iPhone](https://support.apple.com/en-us/108037).
+
+### Program-Specific Eligibility
+
+When an active program provides a serial-number checker, the result may tell you that the device appears eligible, is outside the affected range, was already serviced under the program, or is no longer within the program's coverage period.
+
+That answer applies to the named program only. Passing a camera-program check does not mean the same phone qualifies for an unrelated display, battery, audio, or logic-board program.
+
+### Correct Product Identification
+
+A general lookup can help confirm the iPhone family before you visit the program page. This is useful when a seller uses an imprecise name or the phone cannot be fully set up.
+
+However, basic identification is only a screening step. Apple makes the final program decision through its own records and inspection process.
+
+### A Starting Point for Apple Support
+
+Apple uses device identifiers when customers request support. Having the serial number ready helps Apple or an Apple Authorized Service Provider locate the correct device record and assess the relevant options.
+
+The serial number is not a repair authorization by itself. Apple may still ask for the phone, proof of purchase, identity, or additional information before completing service.
+
+## What the Serial Number Cannot Prove Alone
+
+A serial number result has meaningful limits. Treat it as one piece of the service decision rather than a complete diagnosis.
+
+### The Phone Actually Has the Covered Fault
+
+A serial number may fall inside an affected production range while the phone shows no covered symptom. Conversely, a similar symptom can have a different cause. Apple states that a device is examined before service to verify eligibility.
+
+Do not replace diagnosis with a database result. Back up the iPhone and let an authorized service location evaluate the actual hardware.
+
+### Every Repair Will Be Free
+
+The named program normally covers a defined issue. Damage that interferes with the program repair—such as cracked glass—may need to be fixed first and may involve a separate cost. The program page explains these conditions.
+
+A program can also limit service to the original country or region of purchase. Confirm availability in the country where you plan to request repair.
+
+### Standard Warranty or AppleCare Coverage
+
+Apple's iPhone 14 Plus program specifically says it does not extend the standard warranty. That distinction is important:
+
+- **Service program:** covers a named issue for eligible devices under program rules.
+- **Limited warranty:** covers qualifying manufacturing issues during the warranty term.
+- **AppleCare plan:** adds coverage and service options under its own terms.
+- **Out-of-warranty repair:** is ordinary paid service when no coverage applies.
+
+A paid warranty report may help you review coverage-related fields, but it does not replace Apple's program-specific checker or physical inspection.
+
+### Complete Repair History
+
+Program eligibility does not reveal every prior repair. Apple's on-device Parts and Service History can show certain replaced parts on supported models and software versions, while Apple support records may contain additional service information. A serial-number checker for one program is not a universal repair-history report.
+
+## How to Check Apple Service-Program Eligibility
+
+### Confirm the Exact Model and Symptom
+
+Open Settings, tap General, then About. Record the model name and serial number from the actual iPhone. Compare the symptom with the precise description on Apple's program page.
+
+If you are buying used, do not rely only on the box. Packaging and phones can be mismatched, and a program may cover only one member of an iPhone family.
+
+### Review Apple's Active Programs
+
+Start at the official [Apple Service Programs](https://support.apple.com/service-programs) page. Program availability changes over time, so use the current list rather than an old article or saved screenshot.
+
+Open the relevant program and read:
+
+- Included and excluded models
+- Affected manufacture or sales period
+- Covered symptom
+- Serial-number instructions
+- Service options
+- Program end date or coverage window
+- Country or region limits
+
+### Use the Program's Own Checker
+
+If the page includes a serial-number form, enter the number there. Recheck letters and digits if Apple says the number is invalid. Copying directly from Settings reduces transcription errors.
+
+Some programs do not offer a public serial checker. In that case, contact Apple Support or an Apple Authorized Service Provider and ask about the named program. Do not substitute an unrelated warranty checker.
+
+### Confirm Service With Apple
+
+An online eligible result is not the final physical inspection. Arrange service through the options on the program page. Ask whether the location can perform that repair and whether any unrelated damage must be resolved first.
+
+Keep the program name and serial result, but do not assume a screenshot guarantees service after the program expires or in a different region.
+
+### Prepare the iPhone Safely
+
+Apple's current [service preparation guidance](https://support.apple.com/en-us/109519) tells customers to back up and sync their data, address unfinished repairs, and use the current Find My preparation flow. It also says never to give anyone an Apple Account password, device passcode, or account-security details.
+
+Bring the device, relevant accessories, proof of purchase if available, and identification requested by the service location. Follow Apple's current instructions because preparation steps can change with iOS versions.
+
+## How to Interpret Common Results
+
+### “Eligible”
+
+The serial number appears within the program's records. Apple still examines the device and may require any obstructing damage to be repaired first. Book service before the program window closes.
+
+### “Not in the Affected Serial Number Range”
+
+The individual phone is not included in that program, even if it is the same model. Contact Apple if the phone has a similar symptom; ordinary warranty, AppleCare, or paid repair may still apply.
+
+### “Already Serviced Under This Program”
+
+Apple's records indicate the program remedy was previously completed. If the issue has returned, contact Apple with the current symptom and any available service documentation rather than repeatedly submitting the serial number.
+
+### “No Longer Eligible”
+
+The program's time limit may have passed for that unit. Program coverage can be tied to the first retail sale date, not simply today's warranty status. Ask Apple about paid service options if the phone still needs repair.
+
+### “Invalid Serial Number”
+
+Confirm that you entered the serial number, not the IMEI, EID, or model number. Read it from Settings or another Apple-documented source and try again. If the same number remains invalid, contact Apple before paying a seller or repair shop.
+
+## Free Model Lookup vs. Paid Warranty Report
+
+Use each check for the question it is designed to answer:
+
+- A **free basic lookup** can help identify the iPhone family.
+- A **paid Apple warranty report** may provide additional coverage-related fields.
+- An **Apple program checker** determines database eligibility for that named program.
+- An **authorized inspection** confirms the device and repair conditions.
+
+Neither a free lookup nor a paid report enrolls a phone in a program, extends the warranty, removes Activation Lock, or authorizes a repair. Only Apple or an authorized provider can make the service decision.
+
+## Conclusion: Use the Official Program Checker for the Final Answer
+
+An **iPhone serial number check** can confirm eligibility when Apple provides a checker for a specific service program, but a general lookup cannot apply every active program automatically. Match the exact model and symptom, read the current Apple program terms, submit the serial number through the official page, and allow Apple to inspect the phone.
+
+To review separate coverage information before contacting Apple, start with the [IMEIhub Apple Warranty check](https://imeihub.net/service.php?slug=apple-warranty), then use Apple's official service-program page for the final eligibility decision.
+ARTICLE_20261003_1,
+    ],
+    [
+        'slug' => 'blacklisted-iphone-another-country',
+        'title' => 'Blacklisted iPhone: Can It Work in Another Country?',
+        'meta_title' => 'Blacklisted iPhone: Will It Work Abroad?',
+        'excerpt' => 'A blacklisted iPhone may remain blocked abroad when networks share IMEI data. Learn why results vary and what to check before travel, sale, or export.',
+        'date' => '2026-10-03',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261003_2'
+A **blacklisted iPhone** may remain blocked in another country because participating mobile networks share lost-or-stolen IMEI data. It is unsafe to assume that crossing a border, inserting a foreign SIM, or installing a travel eSIM will make the device eligible for cellular service. At the same time, blacklist participation and update timing can vary between operators, so one successful connection is not proof that the IMEI is clean worldwide.
+
+This guide explains how international IMEI blocking works, why results can differ by country or carrier, and which checks to complete before traveling with, buying, selling, or exporting a used iPhone.
+
+## Why an IMEI Block Can Follow the iPhone Abroad
+
+The IMEI identifies the cellular device when it requests access to a mobile network. A lost-or-stolen report can place that identifier on a block list shared through industry systems.
+
+The [GSMA IMEI Database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) describes its Device Registry as a central system through which operators can share their block lists. Its purpose is to help prevent a device blocked by one network from working on other participating networks.
+
+T-Mobile gives customers a practical version of the same explanation in its [lost or stolen device guidance](https://www.t-mobile.com/support/account/lost-or-stolen-device-help). It says the carrier reports a lost or stolen IMEI to an international database and that this can prevent use on most carrier networks, even when another SIM card is inserted.
+
+### The Block Is Tied to the Device Identifier
+
+Changing a physical SIM or downloading a new eSIM changes the mobile subscription, not the iPhone's hardware identifier. The foreign network can still see the IMEI when the phone tries to register.
+
+Erasing iOS, changing the Apple Account, resetting network settings, or roaming with a different plan also does not remove a carrier's lost-or-stolen report.
+
+### International Sharing Is Broad but Not Identical Everywhere
+
+The GSMA system enables operators to exchange block-list information, but individual operators and national systems decide how they participate and enforce it. Updates can also take time to propagate.
+
+Therefore, a blacklisted iPhone might appear to connect temporarily or on a network that has not applied the same data. That inconsistent behavior is not a legitimate “unlock” and does not establish that the phone is safe to resell.
+
+## What “Works Abroad” Actually Means
+
+People use the word *works* for several different functions. Separate them before judging the phone's status.
+
+### Wi-Fi and Offline Features
+
+An IMEI blacklist controls cellular network access. The iPhone may still turn on, connect to Wi-Fi, run offline apps, use the camera, or restore from a backup. Those functions do not prove the device can register on a mobile network.
+
+### Emergency Calling
+
+Emergency-call availability depends on local law, network design, coverage, and the device's condition. Do not use an emergency-call attempt as a blacklist test or as evidence that ordinary voice and data service will work.
+
+### Cellular Voice, Data, and SMS
+
+These services require the foreign carrier to accept both the device and the subscription. A network may reject a blocklisted IMEI even when the SIM or eSIM is active and the iPhone supports the required bands.
+
+### Roaming on the Original SIM
+
+Roaming does not hide the device identifier. The visited network and home carrier exchange information to provide service. A suspended line, invalid roaming plan, or blocked IMEI can independently stop the connection.
+
+## Blacklist Status Is Different From Carrier Lock
+
+An international buyer may face two separate restrictions:
+
+- **IMEI blacklist:** the device was reported lost, stolen, faulty, or otherwise unsuitable for cellular use.
+- **Carrier lock:** the iPhone is restricted to a particular carrier until that carrier approves an unlock.
+
+Apple's [carrier-unlock guidance](https://support.apple.com/en-us/109316) says “No SIM restrictions” in Settings indicates an unlocked iPhone, and only the carrier can unlock it. A carrier-unlocked iPhone can still be blacklisted. A clean IMEI can still be carrier-locked.
+
+A third condition, Activation Lock, is tied to the previous owner's Apple Account. Neither a blacklist report nor a carrier unlock removes Activation Lock.
+
+## Why Two Countries Can Give Different Results
+
+### Operator Participation
+
+Networks may use the GSMA Device Registry, a national equipment registry, their own internal list, or a combination. Enforcement can differ across markets and operators.
+
+### Reporting and Update Timing
+
+A phone can be reported after it was sold or exported. A clean result from yesterday may change after the original carrier processes a theft, insurance, or account report. Likewise, a legitimate correction may not appear everywhere immediately.
+
+### Multiple IMEIs on Dual SIM iPhones
+
+Dual SIM models can have more than one IMEI associated with their cellular interfaces. Checking only one identifier can leave an incomplete picture. Use the IMEI relevant to the line you intend to activate and follow the report provider's instructions when both IMEI and IMEI2 are present.
+
+Do not treat a second IMEI as a way to evade a legitimate loss report. Networks and reporting organizations may associate multiple identifiers with the same device.
+
+### Compatibility and Local Registration Rules
+
+Even a clear, carrier-unlocked iPhone may fail abroad because it lacks important local frequency bands, is unsupported by the carrier, requires national device registration, or has an account problem. Blacklist status is only one part of international eligibility.
+
+## How to Check an iPhone Before Travel or Export
+
+### Get the IMEI From the Actual Device
+
+Open Settings, tap General, then About. Record IMEI and IMEI2 if shown. Avoid relying only on a box, receipt, or marketplace screenshot because identifiers can be copied or packaging can be mismatched.
+
+### Run a Current Blacklist Report
+
+Use a dedicated blacklist report close to the transaction or departure date. The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that a red status means the identifier is flagged on the GSMA Block List, while a green result means it is not currently flagged there.
+
+The word *currently* matters. A clean result is a timestamped snapshot, not a promise that no later report will be filed.
+
+### Check Both Relevant IMEIs
+
+If the iPhone shows two IMEIs, confirm which one the destination carrier will use. For a used-phone purchase or export, consider checking both identifiers rather than assuming one result covers the entire device.
+
+### Verify Carrier Lock Separately
+
+In Settings > General > About, look for Carrier Lock. “No SIM restrictions” indicates the iPhone is unlocked according to Apple's guidance. If it is locked, the current carrier—not Apple or an IMEI lookup service—decides whether it qualifies for unlocking.
+
+### Ask the Destination Carrier
+
+Give the carrier the exact model and IMEI. Ask about:
+
+- Device compatibility and supported bands
+- Blacklist or lost-device eligibility
+- Local registration or tax requirements
+- Physical SIM and eSIM support
+- Prepaid, postpaid, and roaming restrictions
+
+The destination carrier's activation decision is more specific than a generic model lookup.
+
+### Keep the Purchase and Export Records
+
+Retain the seller's identity, dated receipt, payment record, IMEI, and written return terms. For commercial exports, keep inventory and customs records required by the destination market. These documents do not clear a blacklist, but they help establish the transaction if a report appears later.
+
+## What to Do With a Blacklisted Result
+
+### If It Is Your Own Recovered iPhone
+
+Contact the carrier or organization that made the report. The account holder may need to verify identity and show that the phone was recovered. Only the reporting party can correct the record through the proper process.
+
+Do not pay a third party that promises a guaranteed international “cleaning” service. A lookup can report data; it cannot remove a legitimate carrier or insurance report.
+
+### If You Are the Buyer
+
+Pause the purchase or request a return. Ask the seller to resolve the status with the original carrier before money changes hands. A promise that the phone “works in another country” is not a substitute for a current check and written ownership evidence.
+
+### If You Are an Exporter or Reseller
+
+Quarantine the device from sellable inventory and preserve the supplier record. Contact the supplier and reporting organization through documented channels. Do not route the device to a market with weaker enforcement; that transfers risk to the next buyer and the status may later propagate.
+
+### If the Result Appears Wrong
+
+GSMA advises consumers to contact their wireless provider because the provider can verify the account and recent device activity. Have the receipt, carrier account details, IMEI, and report reference ready. IMEIhub cannot adjudicate ownership or override the contributor's data.
+
+## Free Lookup vs. International Blacklist Report
+
+A free basic lookup may identify the iPhone model or device family. It does not automatically include international lost-or-stolen status, carrier-lock status, financing, Activation Lock, warranty, or destination-carrier eligibility.
+
+A paid blacklist report focuses on reported IMEI status. It still does not:
+
+- Unlock the iPhone for another carrier
+- Remove an Apple Account or Activation Lock
+- Activate a foreign SIM or eSIM
+- Register the phone with a national regulator
+- Guarantee acceptance by every carrier worldwide
+- Prevent a later status update
+
+Choose the report for the decision you need, then confirm activation rules with the destination carrier.
+
+## Conclusion: Crossing a Border Does Not Clear the IMEI
+
+A **blacklisted iPhone** can remain blocked abroad when networks share the reported IMEI through international or national systems. Because participation and timing vary, an occasional connection does not prove that the phone is clean or suitable for sale. Check all relevant IMEIs, separate blacklist status from carrier lock, and ask the destination carrier before traveling, buying, or exporting.
+
+Start with the [IMEIhub blacklist check](https://imeihub.net/service.php?slug=blacklist) for current reported status, then confirm the final activation decision with the carrier in the destination country.
+ARTICLE_20261003_2,
+    ],
+    [
         'slug' => 'imei-checker-online-smartwatch',
         'title' => 'IMEI Checker Online for Smartwatches: What Can It Verify?',
         'meta_title' => 'IMEI Checker Online for Smartwatches',
