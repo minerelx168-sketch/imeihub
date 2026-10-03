@@ -7421,4 +7421,147 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'bea-cukai-imei-registration-check-imei-indonesia-guide',
+        'title'   => 'Bea Cukai IMEI Registration: Check IMEI Indonesia',
+        'excerpt' => 'Bringing a phone into Indonesia? Learn how Bea Cukai IMEI registration works, the $500 duty-free limit, and how to check your IMEI before it gets blocked.',
+        'date'    => '2026-07-06',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## Bea Cukai IMEI Registration: The Complete Indonesia Guide (2026)
+
+Indonesia operates one of the strictest IMEI control systems in Southeast Asia. Since 2020, every mobile phone used on an Indonesian SIM must have its **IMEI (International Mobile Equipment Identity)** registered in the national **CEIR (Central Equipment Identity Register)** database, jointly managed by the **Ministry of Communication and Digital Affairs (Kominfo)**, the **Ministry of Industry (Kemenperin)**, the **Ministry of Trade (Kemendag)**, and enforced at the border by **Bea Cukai** — the Directorate General of Customs and Excise.
+
+If you are a tourist, an expat, or an Indonesian resident bringing a phone purchased overseas, this guide explains exactly how **Bea Cukai IMEI registration** works, what it costs, and how to confirm your phone will actually work once you land.
+
+---
+
+## Why Does Indonesia Regulate IMEI at Customs?
+
+The IMEI whitelist policy (Permenkominfo No. 1/2020, jointly issued by Kominfo, Kemenperin, and Kemendag) was introduced to:
+
+1. Block the "black market" (**HP BM** — *ponsel Black Market*) trade in smuggled, untaxed phones
+2. Ensure import duty and VAT are collected on devices entering the country
+3. Reduce IMEI cloning and counterfeit device circulation
+4. Give authorities a national registry to help recover stolen phones
+
+Any phone whose IMEI is **not** in the CEIR whitelist will be blocked from registering on Indonesian mobile networks — it will not make calls, send SMS, or use mobile data on **Telkomsel, Indosat Ooredoo Hutchison, XL Axiata**, or any other local carrier. Wi-Fi continues to work normally, since the block only applies to cellular SIM connections.
+
+---
+
+## Who Needs to Register a Phone's IMEI at Bea Cukai?
+
+| Scenario | Registration Required? |
+|---|---|
+| Tourist bringing a foreign-purchased phone to use with a local SIM | **Yes** |
+| Indonesian resident returning from abroad with a new phone | **Yes** |
+| Phone purchased online from an overseas retailer and shipped in | **Yes** |
+| Phone bought at an authorized Indonesian retailer | No (already registered by the seller) |
+| Traveller only using Wi-Fi, no local SIM | Technically optional, but recommended |
+| Business traveller carrying multiple demo devices | Yes, subject to commercial import rules |
+
+---
+
+## The $500 Duty-Free Limit
+
+Under Bea Cukai's personal-use allowance, travellers may register **up to two devices per passport, per calendar year** through the passenger (non-commercial) IMEI registration channel. The combined customs value of the goods you bring in — phones included — carries a personal duty-free allowance; commonly cited as around **USD 500 per person**. Any value above that threshold is subject to:
+
+| Charge | Approximate Rate |
+|---|---|
+| Import Duty (Bea Masuk) | ~10% of the value above the duty-free allowance |
+| VAT (PPN) | 11% |
+| Income Tax (PPh 22) | 7.5%–10% (higher without an Indonesian Tax ID/NPWP) |
+
+> Rates and thresholds are set by Indonesian customs regulation and can change. Always confirm the current duty-free limit and tax rates on the official Bea Cukai IMEI portal before you travel, rather than relying on last year's figures.
+
+For example, an iPhone purchased overseas for USD 900 would have roughly USD 400 exposed to duty, VAT, and income tax after the USD 500 allowance is applied — so budget for the possibility of paying tax at the airport.
+
+---
+
+## How to Find Your Phone's IMEI Number
+
+- Dial **`*#06#`** on the keypad — your IMEI (or two IMEIs, for dual-SIM phones) appears instantly
+- **iPhone:** Settings → General → About → IMEI
+- **Android:** Settings → About Phone → IMEI Information
+- Printed on the retail box or on the SIM tray
+
+---
+
+## Step-by-Step: Registering Your IMEI with Bea Cukai
+
+**Step 1 — Register Before You Fly (Recommended)**
+Use the official Bea Cukai customs declaration channel to pre-register your device before departure. This lets you complete the paperwork online and simply confirm at the airport, saving time on arrival.
+
+**Step 2 — Or Register on Arrival**
+If you did not pre-register, go to the **Customs (Bea Cukai) counter** in the international arrivals hall before clearing immigration. Passenger IMEI registration desks are available at major airports including Soekarno-Hatta (Jakarta), Ngurah Rai (Bali), and Juanda (Surabaya).
+
+**Step 3 — Provide Required Documents**
+- Passport (and boarding pass/flight ticket)
+- The phone itself, powered on
+- Proof of purchase or invoice showing the price paid (if available)
+
+**Step 4 — Declare the IMEI and Value**
+A customs officer enters your phone's IMEI number(s) and declared value into the system. If the value exceeds the duty-free allowance, you will be assessed the applicable duty, VAT, and income tax on the spot.
+
+**Step 5 — Pay Any Assessed Tax**
+Payment can typically be made by card or bank transfer at the customs desk. Keep the receipt — it is your proof of legal registration.
+
+**Step 6 — Confirm Registration Before Inserting a Local SIM**
+Registration is generally processed within **2x24 hours**. Wait for confirmation (via SMS or the Bea Cukai portal) before relying on a local SIM, to avoid a temporary "no service" period.
+
+---
+
+## What Happens If You Skip Registration?
+
+Phones with an unregistered IMEI will fail to activate on any Indonesian mobile network once the grace window closes. Symptoms include:
+
+- SIM shows "no service" or "emergency calls only" despite a valid, active SIM card
+- Mobile data never connects, even with a strong signal indicator
+- The phone works perfectly over Wi-Fi, masking the problem until you leave a Wi-Fi network
+
+There is no simple software fix for a CEIR-blocked IMEI — the only remedy is completing (or correcting) the Bea Cukai registration, which can mean an unplanned trip back to the customs office and possible penalty payments.
+
+---
+
+## Buying a Second-Hand Phone in Indonesia? Check the IMEI First
+
+Indonesia's second-hand phone market — including online marketplaces and physical outlets in cities like Jakarta, Surabaya, and Medan — includes both properly registered devices and **HP BM** (black-market, unregistered) units sold without disclosure. Before buying:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand, model, and specs match the listing
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — check whether the device has been reported lost or stolen internationally
+
+A phone that looks brand new can still be network-blocked in Indonesia if its IMEI was never entered into the CEIR whitelist — always verify before you pay.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Does the IMEI block apply immediately, or is there a grace period?**
+A: Registration is typically completed within 2x24 hours (two days) of your customs declaration. Using an unregistered phone with a local SIM before that window closes can appear to work briefly before the block takes effect.
+
+**Q: Can I use my overseas phone in Indonesia with only Wi-Fi, no registration?**
+A: Yes. The Bea Cukai/CEIR system only controls cellular network access. A phone used solely over Wi-Fi is unaffected by IMEI registration status.
+
+**Q: What if I am only visiting Indonesia for a short holiday?**
+A: The registration requirement applies whenever you intend to use a local SIM card, regardless of trip length. Short-term visitors relying on an international roaming SIM from their home carrier are generally not subject to Bea Cukai IMEI registration, since the phone is not registering with an Indonesian-issued SIM.
+
+**Q: How many phones can I register duty-free?**
+A: The passenger allowance generally covers up to two devices per passport per calendar year within the personal-use value threshold. Additional devices, or values above the threshold, are treated as commercial imports subject to full duty and tax.
+
+**Q: Where can I check my phone's registration status?**
+A: Status can be checked through the official Bea Cukai IMEI portal using your IMEI number and registration reference. For a general device and blacklist check before you travel, use our [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) and [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist).
+
+---
+
+## Check Your Phone's IMEI Before You Travel
+
+Before you fly to Indonesia — or before you buy a used phone once you arrive — take two minutes to verify the device:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Instantly verify your phone's brand, model, and basic specs
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Confirm the phone has not been reported stolen anywhere in the world
+
+Registering with Bea Cukai takes a few minutes at the airport. Discovering your phone is CEIR-blocked after you have already settled in is a far more expensive and time-consuming problem to fix.
+MD,
+    ],
+
 ];
