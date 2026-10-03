@@ -191,6 +191,7 @@ layout_head('Order history · imeihub', 'Your past IMEI lookups.');
         .then(function(r){return r.json();})
         .then(function(d){
           if(!d.ok){ banner.textContent='Not found'; body.innerHTML='<div class="rline">'+esc(d.error||'Error')+'</div>'; return; }
+          if (window.imeihubAnalytics) window.imeihubAnalytics.purchase(d);
           banner.textContent = (d.service||'Result');
           var det = d.details||{};
           var html='';
@@ -284,3 +285,4 @@ layout_head('Order history · imeihub', 'Your past IMEI lookups.');
 })();
 </script>
 <?php layout_foot(); ?>
+
