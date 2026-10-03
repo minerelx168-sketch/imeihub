@@ -7421,4 +7421,137 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'register-imei-kenya-residents-guide',
+        'title'   => 'How to Register Your IMEI in Kenya: 2026 Guide',
+        'excerpt' => 'A step-by-step guide for Kenyan residents on verifying and registering a phone IMEI with the CA and KRA — not just for travellers at the airport.',
+        'date'    => '2026-07-24',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## IMEI Registration in Kenya: A Resident's Guide (Not Just for Travellers)
+
+Most coverage of Kenya's IMEI rules focuses on what happens at **Jomo Kenyatta International Airport** when you land with a foreign phone. But if you already live in Kenya — whether you bought your phone at a Nairobi electronics shop, imported one through a friend, or picked one up on a trip abroad — the practical question is different: **is my phone actually registered, and what do I do if it isn't?**
+
+This guide walks through that from a resident's point of view: how registration actually works behind the scenes, how to check your own device in under a minute, and what to do if your IMEI comes back as unregistered.
+
+---
+
+## Two Different Things Called "IMEI Registration" in Kenya
+
+A lot of confusion comes from the fact that "IMEI registration" means two different processes depending on who you are:
+
+| Who | What "registration" means | Where it happens |
+|---|---|---|
+| **Importers, assemblers, retailers, wholesalers, MNOs** | Bulk-registering every device's IMEI in the national system before it reaches a customer | Kenya Revenue Authority's Device Identification & Registration System (DIRS) |
+| **Travellers entering Kenya with a phone** | Declaring the IMEI(s) of devices they are personally carrying | The **F88** customs declaration form at the port of entry |
+| **Residents who already own a phone** | Nothing to actively "register" — the device is already tied to the retailer's or network's records, unless it was privately imported | N/A — verify only |
+
+If you bought your phone from a licensed Kenyan retailer (Safaricom, Airtel Kenya, Telkom, Jumia, or a physical electronics shop), the retailer is required to have registered that device's IMEI in the DIRS system before selling it to you. You do not need to do anything else — but it is still worth verifying, since registration gaps do happen with grey-market stock.
+
+Devices that were already active on a Kenyan network **before 31 October 2024** are exempted from the new compliance checks entirely, regardless of how they were originally imported.
+
+---
+
+## Step 1: Find Your IMEI Number
+
+Every phone has one IMEI per SIM slot. Find yours before doing anything else:
+
+- Dial **`*#06#`** on the keypad — the 15-digit IMEI appears on screen immediately.
+- Or check **Settings → About Phone → IMEI** (Android) or **Settings → General → About → IMEI** (iPhone).
+- Dual-SIM phones will show **two** IMEI numbers — note both.
+
+---
+
+## Step 2: Verify Your IMEI With the Communications Authority (Free)
+
+The Communications Authority of Kenya (CA) runs a free verification service that tells you whether a given IMEI is valid and recognised on the network — this is the fastest way to self-check compliance as a resident.
+
+**Option A — SMS check:**
+1. Dial `*#06#` and copy the 15-digit IMEI.
+2. Send the IMEI number as an SMS to **1555**.
+3. You will receive a reply within seconds confirming whether the IMEI is valid, along with the phone's model.
+
+**Option B — Web check:**
+1. Visit the CA's **IMEI Checker** at `ca.go.ke/imei-checker`.
+2. Enter your 15-digit IMEI.
+3. Review the result — a valid, correctly-formatted IMEI will return the manufacturer and model.
+
+Neither check tells you whether the device is stolen or blacklisted internationally — only that the IMEI itself is well-formed and recognised. For a stolen/blacklist check, use a dedicated tool such as the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist).
+
+---
+
+## Step 3: What to Do If Your Phone Was Privately Imported
+
+If you brought your phone into Kenya yourself — carried in your luggage, shipped by courier, or bought secondhand from someone who imported it — and it was **not** already active on a Kenyan network before 31 October 2024, you need to formalise it:
+
+**If you are entering Kenya now (traveller or returning resident):**
+Declare the IMEI(s) on the **F88 form** at your port of entry, along with the purchase value. Our [KRA F88 declaration guide](https://imeihub.net/article.php?slug=kra-imei-declaration-kenya-f88-form-guide) covers this process in full, step by step.
+
+**If you already imported the phone previously and it was never declared:**
+Approach a KRA customs office or the CA directly to regularise the device. Be ready to provide:
+- The phone's IMEI number(s)
+- Proof of purchase (receipt, invoice, or bank statement)
+- Your ID or passport
+
+Do not wait for a network block to act — voluntary regularisation is handled far more smoothly than a device that has already been flagged.
+
+---
+
+## Step 4: Buying Locally? Confirm Before You Pay, Not After
+
+If you are buying a phone secondhand in Kenya — from a market stall, an online marketplace, or a private seller — registration status is only half the picture. Run these checks **before** paying:
+
+1. **Dial `*#06#`** in front of the seller and confirm the IMEI matches the one on the box and SIM tray.
+2. **Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)** to confirm the brand and model match what is being sold.
+3. **Run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)** to confirm the device has not been reported stolen — locally or internationally.
+4. **SMS the IMEI to 1555** to confirm the CA recognises it as valid.
+5. For a Samsung device, the [Samsung Info check](https://imeihub.net/service.php?slug=samsung-info) will also confirm Knox Guard status, which matters if the phone was financed or leased abroad.
+
+A phone that passes the CA's validity check can still be blacklisted for theft, and a phone that is not blacklisted can still fail CA validity if it was never registered. The two checks answer different questions — run both.
+
+---
+
+## What Happens If a Device Is Never Registered or Declared
+
+| Stage | What happens |
+|---|---|
+| Unregistered device detected | Network operator sends a warning notice (SMS) |
+| Grace period expires | Outgoing calls and SMS may be restricted |
+| No action taken | IMEI is blocked across all Kenyan mobile networks |
+| Device flagged as stolen | Immediate block, regardless of registration status |
+
+A blocked phone still connects to Wi-Fi — it simply cannot use any Kenyan SIM for calls, texts, or mobile data.
+
+---
+
+## Frequently Asked Questions
+
+**Q: I bought my phone from Safaricom's shop in Nairobi — do I need to register it myself?**
+A: No. Licensed retailers are required to register device IMEIs in the DIRS system before sale. Verify with the free SMS check to 1555 if you want confirmation.
+
+**Q: Is there a self-service portal where residents register their own existing phone, like Myanmar's CEIR or Pakistan's DIRBS?**
+A: Not for devices already in personal use. Kenya's registration requirement sits mainly with importers, assemblers, and retailers at the point of sale, plus travellers declaring devices via the F88 form. Residents mostly need to *verify*, not self-register — unless the phone was privately imported and never declared.
+
+**Q: My phone works fine today. Does that mean it's registered?**
+A: Not necessarily. Devices already active on a network before 31 October 2024 are exempt regardless of registration status, which is why many older phones "just work." A newer, privately imported device may still function until the next compliance sweep, even if it was never declared.
+
+**Q: Does the CA's IMEI checker tell me if a phone is stolen?**
+A: No. It confirms the IMEI is validly formatted and recognises the model. For stolen-device checks, use a dedicated [blacklist check](https://imeihub.net/service.php?slug=blacklist).
+
+**Q: What number do I text my IMEI to for a free check?**
+A: **1555**. You'll get an automated reply confirming validity and the device model within seconds.
+
+---
+
+## Verify Your Phone Now
+
+Before you assume your phone is compliant — or before you buy one secondhand — take two minutes to check:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand and model instantly
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm the device hasn't been reported stolen anywhere in the world
+
+Combined with the CA's free 1555 SMS check, these three steps cover everything a Kenyan resident needs to know about their phone's IMEI status.
+MD,
+    ],
+
 ];
