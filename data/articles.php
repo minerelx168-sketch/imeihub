@@ -7421,4 +7421,130 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'pta-tax-iphone-17-pakistan-dirbs-calculator',
+        'title'   => 'PTA Tax on iPhone 17 in Pakistan 2026: Full Cost Guide',
+        'excerpt' => 'Exact PTA tax brackets for iPhone 17, 17 Pro and 17 Pro Max via Passport vs CNIC, plus how to check DIRBS status before you pay.',
+        'date'    => '2026-08-20',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## Why iPhone 17 Buyers in Pakistan Are Searching for PTA Tax Numbers
+
+Since the iPhone 17 lineup landed in Pakistan, **"PTA tax on iPhone 17"** has become one of the highest-intent searches among overseas Pakistanis, returning travellers, and local buyers importing a handset for a friend or family member. The reason is simple: a phone bought abroad will not work on a local SIM in Pakistan until its IMEI is registered with the **Device Identification, Registration and Blocking System (DIRBS)** — and registration only completes after the **Pakistan Telecommunication Authority (PTA)** tax is paid through the Federal Board of Revenue (FBR).
+
+Skip this step and the phone keeps working on Wi‑Fi and on a **foreign SIM for a limited grace period**, but it is permanently blocked from all Pakistani mobile networks once that window closes.
+
+This guide breaks down exactly how the PTA tax is calculated for the iPhone 17 series, the difference between paying via **Passport** and **CNIC**, and how to check your device status before you commit to paying.
+
+---
+
+## How PTA Tax Is Calculated: The Two-Track System
+
+Pakistan's PTA/FBR tax on imported phones is **not a single flat number** — it depends on which document you register against:
+
+| Registration Method | Who Uses It | Typical Cost Impact |
+|---|---|---|
+| **Passport** | Anyone with a valid Pakistani or foreign passport, most commonly overseas Pakistanis bringing a phone home | Generally the **lower** duty bracket, calculated in USD value bands |
+| **CNIC** | Pakistani residents registering with their national ID | Generally **higher**, calculated with additional sales tax and regulatory duty added on top |
+
+Both routes ultimately apply a mix of:
+- **Regulatory Duty (RD)**
+- **Sales Tax**
+- **Mobile Levy** (value-based, higher for premium flagships)
+- **Withholding Tax**, in some cases
+
+Because Apple's flagship devices sit in the top mobile-levy bracket, the **iPhone 17 Pro and Pro Max attract the highest tax tier** in Pakistan's structure — often exceeding the retail price difference between buying locally versus importing.
+
+---
+
+## Estimated PTA Tax Ranges for the iPhone 17 Series
+
+The figures below are **indicative estimates** based on the tax bands PTA and FBR have applied to previous top-tier iPhone launches (iPhone 15 and 16 series). Government duty schedules are revised periodically, sometimes with little notice, so treat this table as a planning guide — not a final invoice.
+
+| Model | Passport Tax (approx.) | CNIC Tax (approx.) |
+|---|---|---|
+| iPhone 17 | PKR 85,000 – 95,000 | PKR 105,000 – 115,000 |
+| iPhone 17 Pro | PKR 115,000 – 130,000 | PKR 140,000 – 155,000 |
+| iPhone 17 Pro Max | PKR 130,000 – 145,000 | PKR 155,000 – 175,000 |
+
+> These are estimates only. Exact figures depend on the phone's declared value, storage variant, and the FBR duty schedule in effect on your registration date.
+
+**Always confirm the exact, live figure using the official PTA DIRBS tax calculator** before budgeting — third-party blogs and forum estimates go stale the moment FBR revises a duty slab.
+
+---
+
+## Step-by-Step: Registering Your iPhone 17 with PTA
+
+**Step 1 — Find Both IMEI Numbers**
+Dial `*#06#` on the iPhone, or go to **Settings → General → About**. The iPhone 17 series ships as dual-eSIM or physical+eSIM depending on region, so note every IMEI/EID shown.
+
+**Step 2 — Check Current DIRBS Status**
+Before paying anything, check whether the device is already flagged. Send an SMS with your IMEI to **8484**, or check via the PTA DIRBS portal, to see if it is:
+- **Compliant** — already registered, nothing to pay
+- **Non-Compliant** — must be registered within the grace period
+- **Blocked** — grace period has expired; registration now requires additional steps
+
+**Step 3 — Choose Passport or CNIC**
+Log into the **PTA DIRBS registration portal**. Overseas Pakistanis and short-term travellers typically register via passport; residents register via CNIC. Have your passport/CNIC number, travel or purchase documents, and both IMEI numbers ready.
+
+**Step 4 — Enter Device Details**
+Submit the IMEI numbers, device model (iPhone 17 / 17 Pro / 17 Pro Max), and storage variant. The portal calculates the exact tax owed for your specific device.
+
+**Step 5 — Pay via FBR-Linked Channels**
+Pay the generated PSID (Payment Slip ID) through 1Link-enabled bank apps, ATMs, or over the counter at any designated bank branch.
+
+**Step 6 — Wait for Network Activation**
+Registration typically activates within **24–72 hours** of confirmed payment. Re-check the DIRBS status once that window passes.
+
+---
+
+## Passport Registration Grace Period
+
+Travellers entering Pakistan with a foreign-purchased iPhone 17 get a **60-day grace period** on a local SIM before the device requires registration. This is designed for tourists and short visits — but for anyone settling in Pakistan long-term or gifting the device locally, registration before the deadline avoids a hard network block.
+
+---
+
+## Common Mistakes That Inflate the Tax Bill
+
+- **Registering the wrong storage variant** — the 1TB Pro Max is taxed differently from the base 256GB model; always match the exact SKU.
+- **Letting the grace period lapse** — some categories carry a late-registration penalty on top of the standard duty.
+- **Registering via CNIC when passport qualifies** — overseas Pakistanis sometimes default to CNIC out of habit, missing the lower passport bracket.
+- **Buying a phone that is already blacklisted abroad** — PTA registration does not fix a device that was reported lost or stolen in another country.
+
+---
+
+## Check Before You Pay or Buy
+
+Before starting DIRBS registration — or before buying a used iPhone 17 that claims to be "PTA approved" — verify the device independently:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Confirm the IMEI matches the advertised model, colour, and storage before you pay a rupee in tax
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Make sure the phone was never reported lost or stolen in another country; PTA tax paid on a blacklisted device does not undo an international blacklist flag
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is the PTA tax the same for every iPhone 17 colour and storage size?**
+A: No. Tax is based on the device's declared USD value, which rises with storage capacity. A 256GB and a 1TB iPhone 17 Pro Max are taxed differently even though they look identical.
+
+**Q: Can I pay PTA tax before I travel to Pakistan?**
+A: You can generate the PSID in advance once the phone's IMEI is known, but full registration typically requires the device to have connected to a Pakistani network with a local SIM at least once.
+
+**Q: What happens if I never register my iPhone 17?**
+A: After the grace period, the device is blocked from all Pakistani cellular networks. Wi‑Fi calling and internet-based apps (WhatsApp over Wi‑Fi, for example) continue to work, but SIM-based calls, SMS, and mobile data stop entirely.
+
+**Q: Is buying "PTA approved" second-hand safer than importing and registering myself?**
+A: It can save time, but always verify the IMEI independently first — some sellers misrepresent a device's registration or blacklist status.
+
+**Q: Do these tax estimates apply to the iPhone Air or older iPhone models too?**
+A: No — each model and storage variant has its own declared value and therefore its own tax bracket. Use the official PTA calculator for a model-specific figure.
+
+---
+
+## Bottom Line
+
+The iPhone 17 series sits in Pakistan's highest mobile-levy bracket, so budgeting the PTA tax accurately — and choosing the correct passport-or-CNIC track — can mean a difference of tens of thousands of rupees. Confirm the live figure on the official PTA portal, register within your grace period, and always run an independent IMEI and blacklist check before you hand over payment for any iPhone 17 in Pakistan's used market.
+MD,
+    ],
+
 ];
