@@ -8,6 +8,187 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-phone-wont-turn-on',
+        'title' => 'iPhone Serial Number Check When the Phone Won\'t Turn On',
+        'meta_title' => 'iPhone Serial Number Check When It Won\'t Turn On',
+        'excerpt' => 'Find an iPhone serial number or IMEI without opening Settings. Learn which records to use, how to check coverage, and what a lookup cannot diagnose.',
+        'date' => '2026-10-04',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261004_1'
+An **iPhone serial number check** is still possible when the phone will not turn on, provided you can recover the correct serial number from another source. The lookup itself does not need a working screen. The difficult part is proving that the number belongs to the phone in your hand, especially if you have owned several iPhones or received a replacement.
+
+Start with your own account records and original documentation. Then choose a coverage or identification check that accepts the number you actually have. A successful result helps identify a record; it does not explain why the phone stopped working.
+
+## Start With Records You Can Access Without the Phone
+
+### Review your Apple Account device list
+
+From another device, sign in at account.apple.com and choose Devices. Select the affected iPhone and review its details. Alternatively, on another iPhone or iPad signed in to your account, open Settings, tap your name, and select the device below.
+
+Apple's [device-list guidance](https://support.apple.com/en-us/102649) explains these routes. You are viewing information already associated with your account, rather than asking the unresponsive handset to display Settings.
+
+If several entries look similar, do not select one purely because it has a familiar device name. Compare the available details with your purchase or service documents. Keep the chosen entry intact while you gather information; removing an account entry is not an identification step.
+
+### Check the original packaging
+
+Apple lists the original box's barcode label as another source of device identifiers. Copy the field labelled Serial Number separately from IMEI. A box supplied with a used phone is supporting evidence, not confirmation that its label matches the handset.
+
+Write down where each number came from. That small detail helps resolve a disagreement later without repeatedly buying reports for uncertain identifiers.
+
+## If the Phone Responds Partly, Use the Appropriate Route
+
+Apple's [identifier guide](https://support.apple.com/en-us/108037) describes several alternatives to Settings:
+
+- If the phone reaches the Hello screen, tap its information button.
+- If a computer recognizes it, inspect the device in Finder, Apple Devices, or iTunes.
+- On supported older models, the IMEI may be engraved on the SIM tray or back.
+- iPhone 14 models and later do not have an IMEI/MEID engraving.
+
+These routes depend on the model and the phone's condition. Connecting a completely unresponsive device does not guarantee that a computer will reveal its numbers. An engraved IMEI is also not automatically the serial number requested by a form.
+
+### Do not erase the phone merely to retrieve a number
+
+Identification and recovery are different tasks. Apple explains that its [computer-based passcode reset](https://support.apple.com/en-us/118430) erases the data currently on the iPhone. Do not use an erase or restore operation simply because you cannot reach the About screen.
+
+If the data matters, tell the service provider before agreeing to a recovery procedure. First exhaust the account and document routes that do not alter the device.
+
+## Resolve Conflicting Identifiers Before Ordering a Check
+
+Suppose your box shows one serial number while an account entry shows another. The useful next step is reconciliation, not choosing whichever number returns the more reassuring result.
+
+Build a short record:
+
+- Phone model as described on your purchase receipt.
+- Serial number and the source from which you copied it.
+- IMEI, if available, recorded in a separate field.
+- Any replacement or service reference.
+- The last date you know the phone worked.
+
+If a service exchange took place, ask the provider which record describes the current device. If you bought the phone second-hand, ask the seller for matching documentation. Do not publish full identifiers in a marketplace comment to crowdsource a match.
+
+This approach makes an iPhone serial number search useful: the result stays attached to a specific device and a traceable source.
+
+## Choose Coverage Information or Hardware Diagnosis
+
+### Check coverage with Apple
+
+Apple provides an online coverage route and account-based support information, so an inaccessible Settings screen does not automatically prevent a coverage enquiry. See Apple's [coverage guidance](https://support.apple.com/en-us/102607) and use the identifier requested by the linked checker.
+
+Coverage information answers a service-entitlement question. It does not establish that a particular fault will be repaired free of charge. Describe the symptom and let Apple or the service provider assess the repair.
+
+### Treat a black screen as a separate troubleshooting problem
+
+Apple's [black-screen and power-on guide](https://support.apple.com/en-us/116940) recommends model-specific restart steps and charging, with service if the phone remains unresponsive. Follow the instructions for your model rather than assuming every iPhone uses the same button sequence.
+
+An online identifier report does not inspect the battery, display, charging port, or internal electronics. Avoid treating a valid serial number or an active coverage record as a diagnosis of the fault.
+
+## Where an IMEIhub Check Fits
+
+IMEIhub's [free basic IMEI lookup](https://imeihub.net/) can help compare the reported brand and model with your records when you have an IMEI. Its free identification result is separate from paid warranty, blacklist, and iCloud reports.
+
+The [Apple Warranty & Activation service](https://imeihub.net/service.php?slug=apple-warranty) is a paid check whose current form asks for a 15-digit IMEI. If you have only a serial number, do not paste it into that IMEI field or invent missing digits. Use Apple's serial-based coverage route first.
+
+A lookup will not turn on the phone, recover its files, remove Activation Lock, or unlock a carrier restriction. Buy additional information only when the report addresses a remaining question.
+
+## Conclusion: Recover the Right Number Before Checking It
+
+A phone that will not start can still have accessible identification records. Recover the serial number or IMEI, document its source, and resolve mismatches before relying on a result. Keep coverage research separate from diagnosing the power problem.
+
+If you have confirmed the phone's IMEI and want its available coverage-related information, review the scope of [IMEIhub's paid Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty) before ordering.
+ARTICLE_20261004_1,
+    ],
+    [
+        'slug' => 'iphone-imei-check-unable-to-activate',
+        'title' => 'iPhone IMEI Check: Unable to Activate or Activation Lock?',
+        'meta_title' => 'iPhone IMEI Check: Unable to Activate vs Activation Lock',
+        'excerpt' => 'Use an iPhone IMEI check for the right question. Separate activation-server errors, unsupported SIMs, and Activation Lock before paying for a report.',
+        'date' => '2026-10-04',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261004_2'
+An **iPhone IMEI check** can help investigate a specific device status, but an “Unable to Activate” message does not automatically mean the iPhone has Activation Lock. A setup interruption, a SIM-related rejection, and a request for a previous owner's Apple Account lead to different next steps. Buying an iCloud report before reading the exact message may answer the wrong question.
+
+The practical starting point is the screen in front of you. Record its wording, when it appears, and whether the phone has ever completed setup since you received it. Then use a report only if a device-status question remains unresolved.
+
+## Identify Which Activation Problem You Actually Have
+
+### The activation server cannot be reached
+
+Apple's [activation troubleshooting guide](https://support.apple.com/en-us/109326) directs users to check iOS Device Activation on Apple's System Status page. It also recommends restarting, using a reliable Wi-Fi connection, and retrying after a short wait for temporary server errors.
+
+Those steps address communication with the activation service. An outage message alone is not evidence of a lost-or-stolen record or an account lock.
+
+There is no useful reason to purchase repeated status reports while the same server-connection problem remains. Record the time and retry through Apple's process first.
+
+### The screen asks for a previous owner's account
+
+Apple explains that [Activation Lock is connected to Find My](https://support.apple.com/en-us/108794). During activation or recovery, the device checks with Apple. A request for the previous owner's Apple Account, or an iPhone Locked to Owner screen, needs the ownership-related path.
+
+For a used purchase, ask the seller to resolve that link before accepting the device. A screenshot of a model lookup is not a substitute for completing the setup check on the actual phone.
+
+### The message concerns an unsupported SIM
+
+A SIM or eSIM rejection belongs on a carrier support path. Apple's [carrier-unlock guidance](https://support.apple.com/en-us/109316) explains that only the carrier can unlock an iPhone for another network. When Settings is accessible, General > About contains the Carrier Lock field.
+
+A Find My result cannot tell you whether your chosen carrier has correctly provisioned the line. If support asks for the IMEI or eSIM details, provide the identifiers requested for that activation attempt.
+
+## Match the Next Action to the Evidence
+
+Use the following as a routing guide, not a remote diagnosis:
+
+- **Temporary server message:** check Apple's service status, connection, and retry guidance.
+- **Previous owner's account requested:** involve the seller or legitimate account holder.
+- **SIM or eSIM rejected:** ask the carrier to investigate the line and device eligibility.
+- **Activation information cannot be obtained:** follow Apple's computer-based troubleshooting and support route.
+- **Setup finishes but a later service fails:** document that later failure separately; the phone has progressed beyond the original setup problem.
+
+For certain activation-information errors, Apple directs users to recovery-mode restoration. That is a recovery step with consequences, not an IMEI lookup. Read the complete instructions and understand the data implications before proceeding.
+
+### Keep the evidence specific
+
+When contacting support, prepare:
+
+- Exact alert text rather than “the phone is locked.”
+- Model and the relevant device identifier.
+- Whether the issue occurs over Wi-Fi or during cellular setup.
+- Whether a previous owner's account appears.
+- The last troubleshooting step and its result.
+
+This record helps prevent a conversation about account access from becoming an unrelated conversation about carrier unlocking.
+
+## What an iCloud IMEI Check Adds
+
+IMEIhub offers a paid [iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status) for whether Find My is enabled. It can provide a focused status result when that is the question you need to investigate. It is not a test of Apple's server availability or your Wi-Fi connection.
+
+The free basic IMEI lookup identifies brand and model. Free identification should not be read as free iCloud, warranty, blacklist, or carrier-lock reporting.
+
+### An ON result does not identify the cause of every error
+
+A device can have Find My enabled while the immediate activation attempt is also affected by a connection problem. The report and the on-screen symptom are separate observations.
+
+Use the result to decide whether account-related follow-up is needed. Do not turn it into a diagnosis of hardware failure, network configuration, or the seller's intentions.
+
+### An OFF result does not guarantee setup will finish
+
+An OFF result addresses the checked Find My status. It is not a promise that the SIM is accepted, the software is working correctly, or every setup requirement has been met.
+
+If a report and the phone's screen disagree, confirm the submitted IMEI and retain the report reference. Ask the reporting service about its result and Apple about the actual activation prompt. Ordering the same report repeatedly is unlikely to clarify an identifier mismatch.
+
+## Resolving Activation Lock Requires the Authorized Route
+
+Apple's [Activation Lock removal guidance](https://support.apple.com/en-us/108934) covers the legitimate account credentials or device passcode where offered, web removal by the account holder, and support requests backed by proof of purchase. Business- or school-owned devices should go through the organization's administrator.
+
+A status lookup performs none of those actions. It does not remove Activation Lock, disclose an account password, or complete a carrier unlock. A payment for information should never be confused with authorization to use the phone.
+
+If a seller cannot resolve a previous-owner prompt, pause the handover and use the seller's or marketplace's documented resolution process. Keep the receipt and communications rather than accepting a promise that another lookup will activate it.
+
+## Conclusion: Read the Error Before Choosing the Report
+
+An iPhone activation failure is a symptom, while an IMEI report answers a defined status question. Start with Apple's troubleshooting for server or activation-information errors, contact the carrier for SIM-related problems, and involve the account holder for Activation Lock.
+
+When your remaining question is specifically whether Find My is enabled, review [IMEIhub's paid iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status) and its current terms before ordering.
+ARTICLE_20261004_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-service-program',
         'title' => 'iPhone Serial Number Check: Is It in an Apple Service Program?',
         'meta_title' => 'iPhone Serial Number Check for Service Programs',
