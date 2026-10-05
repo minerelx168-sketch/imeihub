@@ -8,6 +8,193 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 't-mobile-imei-check-activation-failed',
+        'title' => 'T-Mobile IMEI Check Passed: Why Won\'t the Phone Activate?',
+        'meta_title' => 'T-Mobile IMEI Check Passed but Activation Failed',
+        'excerpt' => 'Your T-Mobile IMEI check passed, but activation still failed. Separate carrier lock, eSIM, line and account issues before trying again.',
+        'date' => '2026-10-05',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261005_1'
+A **T-Mobile IMEI check** can say that a phone is compatible and still leave you with an activation error. That is not necessarily a contradiction. Compatibility is only one part of activation: the device must also be eligible for use, unlocked when required, correctly provisioned, and attached to a working line or eSIM. The fastest way forward is to identify which layer failed instead of repeating the same IMEI lookup.
+
+## What a Passed T-Mobile IMEI Check Actually Means
+
+T-Mobile's official [Bring Your Own Phone checker](https://www.t-mobile.com/resources/bring-your-own-phone) uses the device IMEI to assess whether a phone can work on its network. A compatible result is useful because it narrows the hardware question, but it is not a promise that every later activation step will succeed.
+
+T-Mobile's own checker can return several kinds of results, including compatible, partially compatible, incompatible, blocked, locked, or unknown compatibility. A clean compatibility result therefore answers a narrower question than “Is this phone ready for my account right now?”
+
+### Compatibility, eligibility, and activation are different checks
+
+- **Compatibility** asks whether the device supports the network well enough to be used.
+- **Eligibility** can depend on whether the device is blocked, reported lost or stolen, or restricted by a carrier.
+- **Activation** connects the physical SIM or eSIM, line, plan, account, and device identifiers.
+
+A phone can pass the first layer and fail one of the others.
+
+## Why Activation Can Fail After a Passed IMEI Check
+
+### 1. The phone is still carrier-locked
+
+Network compatibility does not equal an unlocked phone. A compatible phone may still accept only the original carrier's SIM or eSIM profile. If the device came from another carrier, that carrier—not T-Mobile or an IMEI lookup provider—normally controls the unlock decision.
+
+Check the device settings for a lock indicator where available, then ask the original carrier to confirm eligibility under its policy. A lookup may report lock-related data, but it cannot remove a carrier lock.
+
+### 2. The wrong IMEI was checked
+
+Dual-SIM phones may have IMEI1 and IMEI2, while eSIM activation can also require an EID. T-Mobile notes on its BYOD page that the EID may be needed for eSIM setup. If the checker used the physical-SIM IMEI but activation is trying to provision the second IMEI or eSIM, the records may not line up.
+
+Before contacting support, collect:
+
+- **IMEI1 and IMEI2:** Record both if the device shows two.
+- **EID:** Include it for an eSIM-capable device.
+- **Intended line:** Note the physical SIM slot or eSIM line you plan to use.
+- **Error wording:** Save a screenshot or exact message without exposing full identifiers publicly.
+
+### 3. The SIM or eSIM profile was not provisioned correctly
+
+A passed device check does not activate a line by itself. A physical SIM may be inactive, assigned to another line, damaged, or inserted before the account change finished. An eSIM download may fail if the wrong EID was supplied, an older profile remains installed, or the activation request is incomplete.
+
+Do not repeatedly delete an eSIM unless T-Mobile instructs you to do so. First confirm that the line is active and that the carrier has the intended IMEI and EID on the order.
+
+### 4. The account, plan, or number transfer is not ready
+
+The device may be fine while the service order is still pending. A new account can require identity or payment verification. A number port can remain incomplete if the previous carrier account number, transfer PIN, or billing ZIP code does not match. A suspended line or incompatible plan can also stop activation.
+
+These are account-side issues; another IMEI check will not resolve them.
+
+### 5. The device has a block or ownership-status problem
+
+A compatibility result should not be treated as a permanent ownership guarantee. Lost-or-stolen status can change after a sale, and carrier or industry databases may update at different times. The [GSMA Device Check guidance](https://devicecheck.gsma.com/rtlapp/faqs/) explains that a device reported lost or stolen can be placed on a block list by participating operators.
+
+If T-Mobile reports that the phone is blocked, contact the seller and the carrier that placed the block. An IMEI report can help document the current result, but it cannot clear a block or prove legal ownership.
+
+### 6. Software, network settings, or coverage is interfering
+
+Activation can also fail because the phone needs a software or carrier-settings update, cannot reach Wi-Fi during eSIM setup, or has stale network settings. T-Mobile also cautions that non-T-Mobile devices are not guaranteed to provide every feature or the same performance.
+
+Install supported updates, restart the phone, connect to reliable Wi-Fi for eSIM setup, and follow the carrier's troubleshooting steps before resetting the entire device.
+
+## A Practical Troubleshooting Order
+
+Use this order so each step eliminates a different cause:
+
+- **Step 1 — Recheck the exact identifier.** Confirm whether activation uses IMEI1, IMEI2, and an EID.
+- **Step 2 — Read the complete T-Mobile result.** Note whether it says compatible, partially compatible, locked, blocked, or unknown—not merely whether the page loaded successfully.
+- **Step 3 — Verify the carrier lock.** Ask the original carrier if the device is unlocked and eligible under its policy.
+- **Step 4 — Confirm the line and order.** Check that the SIM/eSIM is assigned to the correct active line and that any number transfer is complete.
+- **Step 5 — Update and restart.** Install current supported software and carrier settings, then retry on stable Wi-Fi if using eSIM.
+- **Step 6 — Contact T-Mobile with the evidence.** Provide the error wording, the identifier used, and the order or line details. Do not post a full IMEI or EID publicly.
+
+## What an IMEIhub Lookup Can Add
+
+Start with IMEIhub's [free basic IMEI lookup](https://imeihub.net/) to confirm that the entered number resolves to the expected brand and model. This is a model-identification step, not a free promise of blacklist, carrier-lock, warranty, or activation status.
+
+If you need another device-status data point, review the clearly labeled [paid reports in the IMEIhub service catalog](https://imeihub.net/services.php). Select only the report that answers your unresolved question. Report availability and fields vary by device and data source.
+
+An IMEI lookup does not activate a line, unlock a phone, remove a block, finish a number port, or repair an eSIM order. Those actions remain with the carrier, account owner, or seller.
+
+## Conclusion: Treat the Passed Check as One Piece of Evidence
+
+A passed **T-Mobile IMEI check** is encouraging, but it establishes compatibility—not a guaranteed activation. Confirm the exact IMEI or EID, carrier-lock status, device eligibility, SIM/eSIM assignment, and account order in that order. To verify the device identity first and then choose a relevant status report if needed, begin with the [IMEIhub free lookup](https://imeihub.net/) and continue only with the appropriate paid service.
+ARTICLE_20261005_1,
+    ],
+    [
+        'slug' => 'icloud-imei-check-factory-reset-find-my',
+        'title' => 'iCloud IMEI Check: Does a Factory Reset Turn Find My Off?',
+        'meta_title' => 'iCloud IMEI Check: Does a Reset Turn Find My Off?',
+        'excerpt' => 'Learn why erasing an iPhone may not remove Activation Lock, what Find My ON/OFF means, and how the owner should prepare a device for resale.',
+        'date' => '2026-10-05',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261005_2'
+An **iCloud IMEI check** may still report Find My as ON after an iPhone has been erased. That can be completely normal: deleting the user's data and removing Apple's Activation Lock are related actions, but they are not always the same action. Before buying, selling, or troubleshooting an erased iPhone, verify both the setup screen and the device's account status rather than assuming that a factory reset made it ready for a new owner.
+
+## The Short Answer: A Reset Does Not Always Remove Activation Lock
+
+Apple explains that [Activation Lock turns on automatically with Find My](https://support.apple.com/en-us/108794). It is designed to remain tied to the owner's Apple Account so that an erased device cannot simply be claimed by someone else.
+
+An erase performed through the normal Settings workflow may ask for the Apple Account password and remove the owner's services as part of preparing the phone. But a recovery-mode restore or a remote erase does not prove that the device was removed from the account. Apple specifically states that Activation Lock remains on after a remote erase.
+
+### Three actions people often call a “factory reset”
+
+- **Settings erase:** Apple asks for the device passcode and may request the Apple Account password. This is the normal owner-led process.
+- **Remote erase through Find My:** This deletes content but deliberately keeps Activation Lock active so the device remains protected.
+- **Computer or recovery-mode restore:** This can reinstall the operating system, but it does not by itself establish that the previous owner's account link was removed.
+
+The visual result can look similar—a Hello screen—while the ownership state is different.
+
+## Why Find My Status Matters After an Erase
+
+During activation, the iPhone contacts Apple to check whether Activation Lock is enabled. If it is, the device may request the Apple Account credentials previously used on it. Apple advises buyers not to take ownership of a used iPhone until it has been erased and is no longer linked to the previous owner's account.
+
+An erased phone can therefore be in one of two broad states:
+
+- **Ready for a new owner:** setup proceeds without requesting the previous owner's Apple Account.
+- **Still account-linked:** setup displays an “iPhone Locked to Owner” message or asks for the previous owner's credentials.
+
+An **iCloud IMEI check** can add a remote Find My ON/OFF data point before a transaction, but the handset's setup behavior remains essential evidence.
+
+## What a Find My ON/OFF Result Tells You
+
+### Find My ON
+
+An ON result indicates that Find My is enabled in the available data source. Treat this as a signal that Activation Lock may protect the device. The owner should complete Apple's legitimate removal process before money or possession changes hands.
+
+Do not pay a third party that promises to “bypass” the lock. An IMEI report cannot turn Find My off, remove the Apple Account, or create proof of ownership.
+
+### Find My OFF
+
+An OFF result is useful, but it should not replace an in-person or live-video setup check. Data sources can update at different times, and other issues—such as carrier lock, blacklist status, device management, or a pending account problem—are separate from Find My.
+
+For a used phone, verify that the setup process reaches the language, region, Wi-Fi, and activation steps without requesting the seller's credentials. Stop if the phone says it is locked to the owner.
+
+### ON/OFF is not the same as Clean/Lost
+
+Find My ON/OFF and iCloud Clean/Lost answer different questions. ON/OFF describes the Find My state. Clean/Lost is a separate status category that may reflect whether a device is reported lost within a particular data source. Neither result substitutes for a carrier blacklist report or a physical inspection.
+
+## How the Owner Should Prepare an iPhone for Resale
+
+Apple's official [erase guide](https://support.apple.com/en-us/108931) describes the owner-led path from Settings: go to **General > Transfer or Reset iPhone > Erase All Content and Settings**, then enter the passcode and Apple Account password when requested. The owner must also decide whether to erase the eSIM.
+
+Use this seller checklist:
+
+- **Step 1:** Back up any data that needs to be kept.
+- **Step 2:** Unpair an Apple Watch if one is linked.
+- **Step 3:** Sign out or complete the authenticated erase process requested by iOS.
+- **Step 4:** Remove or transfer the SIM/eSIM as appropriate.
+- **Step 5:** Wait for the erase to finish and the Hello screen to appear.
+- **Step 6:** Confirm that setup does not ask for the previous owner's Apple Account.
+
+If the seller no longer has the device, Apple's [Activation Lock removal guidance](https://support.apple.com/en-us/108934) describes legitimate options such as using Find Devices on iCloud.com to remove the device from the account. Apple may also offer a support request route when the requester has valid proof-of-purchase documentation.
+
+## Buyer Verification Before Payment
+
+### Check the phone itself
+
+Ask the seller to erase the device while you can observe the process. Then start setup far enough to confirm it does not display the previous-owner lock. Do not ask the seller to disclose their password; they should enter it privately.
+
+Also compare the IMEI shown in Settings or on the Hello-screen information panel with the device, box, or sales record. A mismatch is a reason to pause.
+
+### Use the right report for the right question
+
+- Use a basic IMEI lookup to confirm model identity.
+- Use a Find My ON/OFF report for the available Find My status.
+- Use a separate Clean/Lost or blacklist report only when that distinct status is needed.
+- Ask the carrier directly about activation, financing, or unlock eligibility when those issues matter.
+
+No single report proves that a used iPhone is safe to buy. The best decision combines the device screen, seller cooperation, proof of purchase, carrier information, and the relevant report.
+
+## What IMEIhub Offers—and What It Does Not
+
+IMEIhub provides a [free basic IMEI lookup](https://imeihub.net/) for model information. That free result is not advertised as a free Find My, blacklist, warranty, or carrier-lock report.
+
+For the specific question in this guide, IMEIhub's [paid iCloud Status ON/OFF report](https://imeihub.net/service.php?slug=apple-icloud-status) is the relevant option. It reports the available Find My state; it does not remove Activation Lock, change account ownership, or guarantee that the phone will activate with a carrier.
+
+## Conclusion: Erased Does Not Automatically Mean Unlocked
+
+A factory-reset screen is not enough to prove that Find My is off. Remote erase intentionally preserves Activation Lock, while an authenticated owner-led erase and account removal are the appropriate preparation steps. Verify the setup screen first, then use the right status check for any remaining uncertainty. If you need a current ON/OFF data point, order the [IMEIhub iCloud Status report](https://imeihub.net/service.php?slug=apple-icloud-status) before completing the transaction.
+ARTICLE_20261005_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-phone-wont-turn-on',
         'title' => 'iPhone Serial Number Check When the Phone Won\'t Turn On',
         'meta_title' => 'iPhone Serial Number Check When It Won\'t Turn On',
