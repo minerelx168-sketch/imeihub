@@ -8,6 +8,79 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title' => 'NCC IMEI Check: Verify a Phone IMEI in Nigeria (2026)',
+        'excerpt' => 'How to run an NCC-style IMEI check in Nigeria: spot counterfeit, cloned or blacklisted phones before you pay in Lagos, Abuja or Kano.',
+        'date' => '2026-10-06',
+        'tag' => 'Guide',
+        'body' => <<<MD
+## Why Nigerian buyers search for "NCC IMEI check"
+
+Nigeria is one of Africa's largest smartphone markets, and it is also one of the places where counterfeit, cloned and stolen handsets circulate most freely. The **Nigerian Communications Commission (NCC)**, the telecoms regulator, has been working on a **Device Management System (DMS)** that links an IMEI to a legitimate, type-approved handset so that counterfeit and unapproved devices can be identified and restricted on local networks.
+
+For you as a buyer, the practical question is simple: **is the IMEI on this phone genuine, clean and consistent with the model I am paying for?** You can answer that in under two minutes, before any money changes hands.
+
+> **Important:** imeihub.net is an independent IMEI information service. We are not the NCC and we cannot register or unblock a phone with the regulator. For official registration or complaints, use the NCC's own channels or your network operator.
+
+## What an IMEI check can and cannot tell you in Nigeria
+
+| What you want to know | Can an IMEI check show it? | Best tool |
+|---|---|---|
+| Brand, model and basic specs match the listing | Yes | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Reported lost or stolen in a GSMA-connected country | Yes | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| Samsung Knox Guard / carrier details | Yes (Samsung devices) | [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) |
+| iPhone carrier lock and SIM-lock status | Yes (iPhone) | [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) |
+| Whether the NCC has approved the device locally | No, only the NCC or your operator can confirm this | NCC / operator |
+
+## Step-by-step: verify a phone IMEI before you buy
+
+- **Step 1: Dial the IMEI yourself.** On the phone's keypad, dial `*#06#`. Write down every IMEI shown (dual-SIM phones show two). Never rely on a number the seller sends you in a chat.
+- **Step 2: Compare it to the box and the settings.** The IMEI on the box, the SIM tray or back label, and *Settings > About phone* must all match what `*#06#` displays. A mismatch is a major red flag.
+- **Step 3: Run a free IMEI check.** Enter the 15-digit number into the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). Confirm the brand and model match what the seller is advertising. A "Samsung Galaxy S24 Ultra" whose IMEI resolves to a low-end model is almost certainly a clone.
+- **Step 4: Run a blacklist check.** Use the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see whether the device has been reported lost or stolen. A blacklisted phone can be blocked on networks even if it works today.
+- **Step 5: Test it in person.** Insert your own SIM, make a call, use mobile data, and check the camera and fingerprint sensor before paying.
+
+## Red flags common in Lagos, Abuja and Kano markets
+
+- **A price far below market** for a flagship phone, especially "UK used" or "Belgium used" units with no box or receipt.
+- **The IMEI is missing, blurred, or scratched** on the box or tray.
+- **The IMEI resolves to a different model** than the one on the screen of *About phone*.
+- **A seller who refuses an on-the-spot check** or wants to rush the sale.
+- **The same IMEI appears on several phones.** Cloned IMEIs let multiple handsets share one valid number, and any of them can be flagged later.
+
+## Genuine vs counterfeit: quick comparison
+
+| Sign | Genuine phone | Likely counterfeit or clone |
+|---|---|---|
+| IMEI on box, tray and `*#06#` | All identical | Different or missing |
+| IMEI lookup model | Matches the listing | Different, cheaper model |
+| Software and *About phone* | Official firmware | Odd specs, spelling errors, unofficial launcher |
+| Blacklist status | Clean | May be flagged lost/stolen |
+
+## Tourists, returnees and people who import phones
+
+If you are bringing a phone into Nigeria, or buying one imported by a friend or relative, check the IMEI **before** you travel or pay. Rules around device approval and registration can change, so confirm the current requirements with the NCC or your network operator rather than relying on old forum posts.
+
+## Frequently asked questions
+
+**Is an IMEI check enough to prove a phone is "NCC approved"?**
+No. Our tools tell you about the device's identity and global blacklist status. Local approval status is held by the regulator and operators.
+
+**Can I check an IMEI for free?**
+Yes. The [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) returns brand and model information at no cost.
+
+**What if the seller's phone shows as blacklisted?**
+Walk away. A blacklisted phone can lose network service, and you would have little recourse after paying.
+
+## Check before you pay
+
+A two-minute check costs far less than a phone you cannot use. Start here:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): verify brand, model and basic details
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): confirm the phone is not reported lost or stolen
+MD,
+    ],
+    [
         'slug' => 't-mobile-imei-check-activation-failed',
         'title' => 'T-Mobile IMEI Check Passed: Why Won\'t the Phone Activate?',
         'meta_title' => 'T-Mobile IMEI Check Passed but Activation Failed',
