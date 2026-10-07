@@ -1,0 +1,89 @@
+    [
+        'slug'    => 'kra-imei-declaration-kenya-f88-phone-check',
+        'title'   => 'KRA IMEI Declaration Kenya: F88 Phone Guide',
+        'excerpt' => 'Bringing a phone into Kenya? Learn how KRA IMEI declaration and the F88 form work, what to check first, and how to avoid blocked devices.',
+        'date'    => '2026-10-07',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## What Is the KRA IMEI Declaration in Kenya?
+
+Kenya now expects travellers to **declare the mobile phones they bring into the country**. The Kenya Revenue Authority (KRA) handles customs at airports and border posts, and the **F88 passenger declaration form** is the document used to list items you carry, including smartphones, tablets and other devices with an **IMEI number**.
+
+The aim is simple: stop smuggled, under-valued and counterfeit handsets from entering the market, and make sure the right duty is paid on imported devices. Together with the Communications Authority of Kenya (CA) device management system, the IMEI is the key that links a phone to its legal import record.
+
+> **Always confirm the latest rules.** Customs procedures, thresholds and forms change. Check the official KRA website (kra.go.ke) or ask a customs officer before you travel. This guide explains the process in plain English and is not legal advice.
+
+## Why the IMEI Matters at the Border
+
+Every phone has a unique **15-digit IMEI** (International Mobile Equipment Identity). Customs and telecom regulators use it to:
+
+- **Identify the exact device** (brand, model, storage) and estimate its value
+- **Match the handset** to a declaration so it is not treated as smuggled
+- **Detect cloned or counterfeit IMEIs** that can be disconnected from mobile networks
+- **Flag stolen or blacklisted phones** reported in other countries
+
+If the IMEI on your declaration does not match the phone in your hand, you may face questions, delays or extra charges.
+
+## How to Declare Your Phone: Step by Step
+
+- **Step 1: Find your IMEI.** Dial `*#06#` on the phone, or go to *Settings > About phone*. Dual-SIM phones show two IMEIs; note both. The IMEI is also printed on the box and the SIM tray.
+- **Step 2: Verify the IMEI before you travel.** Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand and model match what you expect.
+- **Step 3: Check for blacklist status.** A blacklisted phone can be blocked locally. Use the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) especially for second-hand devices.
+- **Step 4: Complete the F88 form.** List your phones, including make, model and IMEI, as requested on the form or the digital declaration channel offered at your port of entry.
+- **Step 5: Keep your proof.** Carry the purchase receipt or invoice. It helps customs verify value and shows the phone is legitimately yours.
+- **Step 6: Present the phone if asked.** Officers may ask you to show the device and its IMEI.
+- **Step 7: Pay any duty due.** If duty applies, pay through the official KRA channel and keep the receipt.
+
+## Personal Phone vs. Phone for Sale
+
+| Situation | Typical Treatment | What to Prepare |
+|---|---|---|
+| Your own phone, used personally | Usually declared; often no duty for personal use items within allowances | IMEI, receipt, F88 entry |
+| Extra or new phones carried | May be dutiable | Invoice, IMEI list, duty payment |
+| Phones brought for resale | Treated as commercial goods | Commercial import documents |
+| Gift phones | May be dutiable depending on value | Proof of value, IMEI |
+
+Allowances and rates differ by item and can change, so confirm current figures with KRA before travel.
+
+## What Happens If You Do Not Declare?
+
+Failing to declare a device can result in **seizure, penalties or fines**, and the phone may be flagged in the national system. Worse, a device without a legitimate import record may later be **restricted on local networks**. Declaring honestly is cheaper and safer than being caught.
+
+## Buying a Used Phone in Kenya? Check the IMEI First
+
+The same IMEI logic protects local buyers in Nairobi, Mombasa, Kisumu and beyond. Before paying for a second-hand phone:
+
+- **Check the IMEI matches** the box, the phone settings (`*#06#`) and the seller's claims
+- **Look for blacklist or stolen reports** before handing over cash
+- **For iPhones, check iCloud status.** An iCloud-locked phone is a brick to you
+- **Be wary of prices far below market.** Cheap often means stolen, cloned or locked
+
+Start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) and add the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) before you buy.
+
+## Frequently Asked Questions
+
+**Do I have to declare a phone I already own?**
+Declare the devices you carry when the process asks for them. Listing your IMEI creates a clear record that the phone entered legally and belongs to you.
+
+**What is the F88 form?**
+It is the passenger declaration used at entry to list goods you bring in, including electronics such as phones.
+
+**Where do I find my IMEI?**
+Dial `*#06#`, check *Settings > About phone*, or look at the box and SIM tray.
+
+**Can a phone be blocked in Kenya?**
+Yes. Counterfeit, cloned, stolen or non-compliant devices can be restricted by the regulator and operators.
+
+**Is checking an IMEI free?**
+Basic brand and model lookups are free on IMEI Hub. Premium checks such as blacklist status are paid per check.
+
+## Key Takeaways
+
+- **Declare your phones** and their IMEIs when entering Kenya
+- **Keep receipts** to prove value and ownership
+- **Verify the IMEI** and blacklist status before you travel or buy
+- **Check official KRA guidance** for current rules and rates
+
+Ready to verify your device? Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) now.
+MD,
+    ],
