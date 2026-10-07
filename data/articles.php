@@ -8,6 +8,244 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-carrier-lock',
+        'title' => 'iPhone Serial Number Check: Does It Show Carrier Lock?',
+        'meta_title' => 'iPhone Serial Number Check for Carrier Lock Status',
+        'excerpt' => 'Can an iPhone serial number check show carrier lock status? Learn what serial, IMEI, Settings, and carrier records can—and cannot—confirm.',
+        'date' => '2026-10-07',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261007_1'
+An **iPhone serial number check** can identify an Apple device and support coverage or service enquiries, but the serial number by itself is not the most reliable way to prove whether an iPhone is carrier-locked. For that question, the phone's Carrier Lock setting, the current carrier's records, and an IMEI-based status report are more useful. Knowing which identifier answers which question can save you from buying the wrong report—or the wrong used iPhone.
+
+## Short Answer: Serial Number and Carrier Lock Are Different Records
+
+A serial number identifies a particular Apple device for support, coverage, and service purposes. A carrier lock is a network restriction that determines whether the iPhone can use service from another carrier.
+
+Apple lists the serial number and IMEI as separate identifiers in its [official identifier guide](https://support.apple.com/en-us/108037). Both appear in Settings > General > About, but they are not interchangeable:
+
+- **Serial number:** Primarily identifies the Apple product and its service record.
+- **IMEI:** Identifies the cellular device and is commonly used for carrier, blacklist, and network-status checks.
+- **EID:** Identifies the eSIM component; it is not a substitute for either the serial number or IMEI.
+- **Carrier Lock:** A status shown by iOS and controlled by the carrier, not encoded as a plain-English answer inside the serial number.
+
+A website may accept a serial number and return Apple information, but that does not mean every report includes live carrier-lock data. Read the fields and product description before paying.
+
+## The Best On-Device Carrier Lock Check
+
+If you can access the iPhone, Apple's own method is the strongest first check. Open:
+
+**Settings > General > About > Carrier Lock**
+
+Apple says that if **No SIM restrictions** appears next to Carrier Lock, the iPhone is unlocked. Its [carrier-unlock guidance](https://support.apple.com/en-ge/109316) also says Apple does not perform carrier unlocks; requests must go to the iPhone's current carrier.
+
+### Why the Settings result matters
+
+This screen reports the state recognized by the device at that moment. It is more direct than trying to infer a network restriction from a serial-number format, model name, country code, or seller description.
+
+Before buying a used phone in person:
+
+- Ask the seller to open the Carrier Lock field while you watch.
+- Restart the phone and reconnect to Wi-Fi if the device has been offline for a long time.
+- Photograph the result with the seller's permission.
+- Confirm that the IMEI shown in About matches the device, box, and invoice.
+
+Do not treat “works with my SIM” as universal proof. A phone may work with one carrier or an affiliated network and still be restricted for another.
+
+## When an IMEI Report Is Useful
+
+You may not be able to open Settings when buying remotely, checking an unopened device, or inspecting a phone that will not power on. In those cases, an IMEI-based carrier report can provide an additional record before the transaction.
+
+IMEIhub's [Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) is a paid service intended for this question. It is different from the [free basic IMEI lookup](https://imeihub.net/), which can return available brand, model, and basic specifications from an IMEI but does not advertise a free carrier-lock result.
+
+Use the paid report when you need the available lock status without direct access to the phone. Then compare the report with the on-device field and carrier confirmation whenever possible.
+
+### What a lock report cannot do
+
+A lookup reports available information; it does not change the phone. It cannot:
+
+- Unlock the iPhone.
+- Make an ineligible device eligible under a carrier's policy.
+- Remove an unpaid-balance or account restriction.
+- Clear a lost-or-stolen blacklist record.
+- Remove Find My or Activation Lock.
+- Guarantee that every carrier will activate the device.
+
+Carrier compatibility, carrier lock, blacklist status, and Activation Lock are separate questions. A favorable answer in one category does not automatically clear the others.
+
+## Why a Serial Number Search Can Mislead Buyers
+
+Searchers often type “iPhone SN check” or “iPhone check serial” because the serial number is visible on a box or receipt. The mistake is assuming that one Apple identifier provides every ownership, network, and security status.
+
+### Model or coverage data is not a lock result
+
+A serial-number result may confirm a recognized product or show available coverage information. That is useful, but it does not prove the device accepts another carrier's SIM or eSIM.
+
+Similarly, an IMEI that resolves to the expected model is not automatically unlocked. A free model lookup answers an identification question, not the carrier-policy question.
+
+### Original carrier is not the same as current lock state
+
+Some reports may identify an original or activation carrier. That historical field can help with follow-up, but it is not identical to today's lock status. The carrier may have unlocked the phone later, or a reseller may be describing a network relationship imprecisely.
+
+Use a report that expressly includes SIM-lock or carrier-lock status rather than inferring the answer from the carrier name alone.
+
+## A Reliable Carrier-Lock Verification Workflow
+
+Use several sources in a sensible order instead of repeating the same type of lookup:
+
+- **Copy the correct identifiers:** In Settings > General > About, record the serial number and IMEI separately. Apple also says these identifiers may be available from the original packaging or the owner's Apple Account.
+- **Run the free model lookup:** Confirm that the IMEI maps to the expected brand and model.
+- **Check Carrier Lock on the phone:** Look for “No SIM restrictions” when direct access is possible.
+- **Use a dedicated paid report if needed:** Choose a SIM-lock report rather than assuming a warranty or serial-number result includes it.
+- **Ask the current carrier:** Request confirmation of the unlock status and any eligibility requirements. Only the carrier can complete an unlock.
+- **Test the intended network:** Where practical, activate a SIM or eSIM from the carrier you actually plan to use.
+- **Keep transaction evidence:** Save the listing, receipt, report time, and seller messages in case the description was inaccurate.
+
+For remote purchases, make your payment or acceptance conditional on the on-device result matching the seller's claim.
+
+## What If the Results Disagree?
+
+Start by checking the identifier. Dual-SIM iPhones can show more than one IMEI, so confirm which IMEI the report used. Correct any copied digit and verify that the report describes the same device.
+
+Then refresh the phone's network connection and check Settings again. If the seller says an unlock was recently approved, ask the carrier for written confirmation and the expected completion steps. Apple's guidance notes that carrier processing can take time.
+
+If Settings still shows a restriction, do not assume that a serial-number screenshot or seller promise overrides it. Pause the purchase or return process until the current carrier explains the discrepancy.
+
+## Carrier Lock Is Not Blacklist or Activation Lock
+
+These terms are often mixed together, but they describe different controls:
+
+- **Carrier lock:** Limits use with other mobile carriers.
+- **Blacklist status:** Indicates that an IMEI has been flagged, commonly for loss or theft, by a reporting organization.
+- **Activation Lock:** Links the device to Find My and the owner's Apple Account.
+- **Financing status:** Relates to an account or payment obligation and may not appear in a standard lock report.
+
+An unlocked iPhone can still be blacklisted or Activation Locked. A clean blacklist result can still belong to a carrier-locked phone. Order the report that answers the specific risk you are trying to resolve.
+
+## Conclusion: Check the Right Record for the Right Question
+
+An **iPhone serial number check** is useful for device identification and Apple service information, but it should not be treated as definitive carrier-lock proof. Check the Carrier Lock field on the iPhone, use the IMEI for a dedicated status report when necessary, and contact the current carrier for the final unlock decision. Start with the [IMEIhub free model lookup](https://imeihub.net/), then order the [Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) only when you need that specific paid status.
+ARTICLE_20261007_1,
+    ],
+    [
+        'slug' => 'blacklisted-iphone-apple-repair',
+        'title' => 'Blacklisted iPhone: Can Apple Repair or Replace It?',
+        'meta_title' => 'Blacklisted iPhone: Can Apple Repair It?',
+        'excerpt' => 'Learn whether Apple can repair a blacklisted iPhone, why carrier blocks and service eligibility are separate, and what a repair cannot remove.',
+        'date' => '2026-10-07',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261007_2'
+A **blacklisted iPhone** has an IMEI that a carrier or authorized organization has flagged, commonly after a loss or theft report. That network status is not the same thing as Apple's repair eligibility, warranty coverage, or Find My Activation Lock. Apple or an authorized provider may need to assess a repair case separately, but repairing or replacing hardware does not automatically remove the carrier's blacklist record.
+
+## Blacklist Status and Apple Service Answer Different Questions
+
+A blacklist check asks whether the cellular device identifier has been flagged in participating network records. An Apple service assessment asks whether the device and damage qualify for a particular repair or replacement path.
+
+Those systems can overlap in a real case, but one result does not decide the other:
+
+- A clean IMEI does not guarantee Apple warranty coverage.
+- Active Apple coverage does not prove that the IMEI is clear for mobile service.
+- A hardware repair does not instruct the reporting carrier to remove a block.
+- A replacement decision does not prove that the owner has resolved a lost-or-stolen report.
+
+The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) says a device reported lost or stolen may show as flagged on the GSMA Block List. It directs consumers who dispute the status to their wireless provider, which can verify the account and recent network activity.
+
+## Will Apple Repair a Blacklisted iPhone?
+
+There is no responsible universal yes-or-no answer based only on an IMEI result. Apple or an Apple Authorized Service Provider must assess the device, ownership context, damage, region, coverage, parts, and current service requirements.
+
+A blacklist flag is not a repair quotation, while an Apple repair estimate is not clearance for cellular use. Contact Apple Support or the service provider before traveling or shipping the phone, disclose the situation accurately, and ask what documents and preparation they require.
+
+### Expect ownership and security checks
+
+Apple's current [service-preparation guidance](https://support.apple.com/en-ie/109519) tells customers to prepare the device, bring identification and, if possible, a sales receipt because some repairs may require proof of purchase. It also explains that Apple might not be able to service a device if Find My is not turned off or prepared for service through Apple's supported process.
+
+These steps protect the owner and service channel. They are separate from a carrier's blacklist investigation.
+
+### Do not use repair as a blacklist workaround
+
+If the phone was legitimately reported lost or stolen, a repair request is not a way to clear its network status. Return a found device through the carrier, police, venue, marketplace, or other appropriate channel. If you are the rightful owner and the report is outdated or mistaken, contact the organization that placed the flag.
+
+IMEIhub cannot remove a blacklist entry, and a lookup does not transfer ownership.
+
+## What Happens If Apple Replaces the Device?
+
+Apple may offer different service outcomes depending on the case; do not assume a replacement is available. If a device is replaced, the replacement hardware has its own identifiers. That does not retroactively correct the old IMEI's history or settle a carrier, insurer, financing, or ownership dispute.
+
+Before accepting a service option, ask:
+
+- Whether the service is a repair or replacement.
+- Which identifier will appear on the service document.
+- Whether you must contact the carrier or insurer afterward.
+- Whether your SIM or eSIM needs to be transferred or reissued.
+- What happens to the original device and its data.
+
+Keep Apple's service paperwork. It may help explain why the device identifier changed, but the carrier or reporting organization remains the authority for its own blacklist record.
+
+## Check the IMEI Before Paying for Service
+
+When the phone's history is uncertain, first confirm that you are checking the correct identifier. Apple explains in its [serial number and IMEI guide](https://support.apple.com/en-us/108037) that you can find these numbers in Settings > General > About, on the original packaging, through the Apple Account, or in other supported locations.
+
+Then choose the right check:
+
+- Use the [free IMEIhub lookup](https://imeihub.net/) for available brand, model, and basic specifications.
+- Use the paid [Blacklist Status report](https://imeihub.net/service.php?slug=blacklist) when you specifically need available blacklist information.
+- Use Apple's official coverage channel or the paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) for the separate warranty or activation question.
+
+The free lookup is not a free blacklist, warranty, iCloud, or repair-eligibility report. A paid report returns available data; it does not change the status.
+
+### Check every IMEI shown
+
+Some iPhones expose more than one IMEI for Dual SIM operation. Record each identifier exactly as displayed and confirm which one the seller, carrier, or report is discussing. Do not substitute the serial number for the IMEI when the question is about a network block.
+
+If the box, Settings screen, receipt, and report identify different devices, stop and resolve the mismatch before paying for repair or buying the phone.
+
+## A Practical Workflow for the Rightful Owner
+
+If your own iPhone is blacklisted and needs repair, use this order:
+
+- **Confirm the flag:** Run the appropriate blacklist report and save the date and identifier.
+- **Identify the reporting organization:** Review the reason or source information that is available.
+- **Contact the carrier or insurer:** Explain whether the device was recovered, reported by mistake, or replaced under a claim.
+- **Resolve ownership obligations:** Follow the organization's process and provide requested account or purchase evidence.
+- **Ask Apple about repair eligibility:** Describe the hardware problem and current security state without assuming the blacklist decides the repair.
+- **Prepare the device correctly:** Back up data, follow Apple's current Find My or Ready for Repair instructions, and bring the requested ID and receipt.
+- **Recheck network status:** After the reporting organization says the record is corrected, run a new check rather than relying on an old screenshot.
+
+Status updates are not always instantaneous. GSMA's terms note that reports and updates may take time to reach the shared block list, so document when the carrier confirms a correction.
+
+## A Practical Workflow for a Used-Phone Buyer
+
+If a seller says, “Apple can repair it, so the blacklist does not matter,” treat that as two separate claims.
+
+Before buying:
+
+- Check the IMEI independently rather than using only the seller's screenshot.
+- Ask for the original receipt and any carrier, insurer, or Apple service records.
+- Confirm that Find My and Activation Lock can be removed by the owner through Apple's legitimate process.
+- Do not pay on the promise that a repair will clear cellular service.
+- Make the sale conditional on a current, acceptable blacklist result and a successful activation test with your intended carrier.
+- Avoid a device whose seller cannot explain why it was flagged.
+
+Even if the phone works on Wi-Fi, the unresolved IMEI status can affect cellular use and resale. A hardware repair does not solve that commercial risk.
+
+## Blacklist, Activation Lock, and Carrier Lock Are Separate
+
+A service decision becomes clearer when each status has its own owner:
+
+- **Blacklist:** Usually investigated and corrected by the carrier or organization that submitted the report.
+- **Activation Lock:** Controlled through Find My and the owner's Apple Account.
+- **Carrier lock:** Controlled by the current carrier; Apple says only the carrier can unlock the iPhone for another network.
+- **Repair coverage:** Assessed by Apple or the service provider under the applicable coverage and service terms.
+
+No single “Apple IMEI verify” result should be stretched to cover all four. Order only the report relevant to your question, and verify ownership separately.
+
+## Conclusion: Repair the Hardware, Resolve the Record Separately
+
+A **blacklisted iPhone** may still need a case-specific Apple service assessment, but repair eligibility and cellular blacklist status are separate. Apple service can address eligible hardware problems; it does not remove a carrier block, cancel a loss claim, or prove ownership. If you need to document the network status before contacting the carrier or arranging service, order the [IMEIhub Blacklist Status report](https://imeihub.net/service.php?slug=blacklist), then take any disputed flag to the organization that reported it.
+ARTICLE_20261007_2,
+    ],
+
+    [
         'slug' => 'free-iphone-checker-sealed-box',
         'title' => 'Free iPhone Checker: Can You Verify a Sealed iPhone?',
         'meta_title' => 'Free iPhone Checker for a Sealed Box: What It Proves',
