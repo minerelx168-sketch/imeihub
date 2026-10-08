@@ -8,6 +8,287 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'icloud-imei-check-stolen-device-protection',
+        'title' => 'iCloud IMEI Check: Can It Detect Stolen Device Protection?',
+        'meta_title' => 'iCloud IMEI Check vs Stolen Device Protection',
+        'excerpt' => 'Can an iCloud IMEI check detect Stolen Device Protection? Learn how it differs from Find My and Activation Lock, and what to verify on the iPhone.',
+        'date' => '2026-10-08',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261008_1'
+An **iCloud IMEI check** can help answer a Find My or Activation Lock status question when you choose the relevant paid report, but it does not reveal whether Apple's Stolen Device Protection setting is turned on. These features are connected to device security, yet they solve different problems and expose different information. Understanding the distinction helps you avoid buying the wrong report or treating one clean-looking result as proof that a used iPhone is ready for transfer.
+
+## Short Answer: Stolen Device Protection Is an On-Device Setting
+
+Stolen Device Protection adds biometric checks and, for certain sensitive actions, a Security Delay. Apple designed it to reduce the damage someone can cause if they steal an iPhone and know its passcode.
+
+Apple's [Stolen Device Protection guide](https://support.apple.com/guide/iphone/use-stolen-device-protection-iph17105538b/ios) explains that protected actions may require Face ID or Touch ID with no passcode fallback. More sensitive changes can require biometric authentication, a wait, and another biometric check.
+
+An IMEI lookup does not read the iPhone's current Settings screen. It cannot remotely see whether this feature is on, which familiar locations the phone recognizes, or whether a Security Delay is running.
+
+### What an iCloud status report can answer
+
+Depending on the specific report, an iCloud-related check may return available information such as:
+
+- Whether Find My appears ON or OFF.
+- Whether the associated status is reported as Clean or Lost.
+- The device identifiers and Apple model information included by that service.
+- A snapshot timestamp or other fields shown in the finished report.
+
+Those fields do not include the Stolen Device Protection toggle. Read the report name and output rather than assuming “iCloud check” covers every Apple security feature.
+
+## Find My, Activation Lock, and Stolen Device Protection Are Different
+
+The three terms are often grouped together, but each has a separate purpose.
+
+### Find My and Activation Lock
+
+Apple's [Activation Lock documentation](https://support.apple.com/en-us/108794) says Activation Lock turns on automatically when Find My is enabled. It links the device to the owner's Apple Account and can require that account before Find My is disabled, the phone is erased, or the device is reactivated.
+
+An iCloud ON/OFF report is therefore relevant when the question is whether Find My is currently reported as enabled. A Clean/Lost report asks a related but different status question.
+
+### Stolen Device Protection
+
+Stolen Device Protection is an additional security layer for sensitive account and device changes. It uses biometric authentication and may apply a Security Delay, particularly away from familiar locations.
+
+It does not replace Activation Lock. Likewise, Find My being ON does not tell a remote checker whether Stolen Device Protection is enabled. The owner must verify that setting on the iPhone.
+
+### Lost Mode and blacklist status
+
+Lost Mode is an action the owner can take through Find My after a device goes missing. A carrier blacklist is a network status tied to an IMEI report from a carrier or other authorized organization. Neither is the same as the Stolen Device Protection setting.
+
+Use a dedicated blacklist report when the unresolved question is lost-or-stolen network status. Do not infer a clean blacklist from Find My OFF, or infer Stolen Device Protection from either result.
+
+## How to Check Stolen Device Protection Correctly
+
+If the owner can unlock the iPhone, check the setting directly:
+
+- Open **Settings**.
+- Tap **Face ID & Passcode** or **Touch ID & Passcode** on a supported model.
+- Authenticate as requested.
+- Find **Stolen Device Protection** and review whether it is on.
+- If the owner plans to change the setting, follow Apple's prompts and allow for any Security Delay.
+
+The exact options can depend on the device and current iOS version. Use Apple's live guide rather than a seller's old screenshot.
+
+### Why a screenshot is not enough
+
+A screenshot can be edited, may belong to another phone, or may no longer reflect the current setting. During an in-person purchase, compare the IMEI in Settings > General > About with the box, receipt, and any report. Then watch the seller open the security setting on that same device.
+
+For a remote purchase, make completion of the sale conditional on the phone reaching the Hello screen without requesting the previous owner's Apple Account.
+
+## Can You Check It When the iPhone Is Locked or Offline?
+
+Not through an IMEI report. A checker can query supported records tied to the submitted identifier, but it cannot open Settings, perform Face ID, recognize a familiar location, or complete Apple's Security Delay.
+
+If it is your iPhone, use Apple's legitimate account-recovery and Find My processes. If it belongs to a seller, the seller should prepare it for transfer. Do not pay anyone who promises to “bypass” Stolen Device Protection, Activation Lock, or an Apple Account.
+
+If the phone is marked lost or appears to belong to someone else, stop the transaction and return it through the seller, carrier, venue, police, or another appropriate channel.
+
+## Which IMEIhub Check Fits the Question?
+
+Start by identifying the exact unknown.
+
+### Free model identification
+
+IMEIhub's [free basic IMEI lookup](https://imeihub.net/) can return available brand, model, and basic specifications. It does not advertise a free iCloud, blacklist, warranty, or Stolen Device Protection result.
+
+### Paid Find My ON/OFF information
+
+The paid [iCloud ON/OFF report](https://imeihub.net/service.php?slug=apple-icloud-status) is relevant when you need the available Find My state associated with the submitted device. It does not disable Find My, remove Activation Lock, or reveal the Stolen Device Protection toggle.
+
+### Paid Clean/Lost information
+
+The paid [iCloud Clean/Lost report](https://imeihub.net/service.php?slug=apple-icloud) addresses the available Clean/Lost status. It does not identify the owner, transfer ownership, or replace a blacklist report.
+
+Choose one report for the specific question instead of buying several overlapping checks without a plan.
+
+## A Safer Used-iPhone Verification Workflow
+
+Use the following sequence before payment:
+
+- **Verify the identifier:** Copy the IMEI from Settings or the information button on the Hello screen.
+- **Run the free lookup:** Confirm that the number maps to the expected iPhone family.
+- **Order only the needed status report:** Use ON/OFF, Clean/Lost, blacklist, warranty, or SIM-lock data for its named purpose.
+- **Inspect the phone directly:** Review Stolen Device Protection on the device while the seller is present.
+- **Require proper erasure:** Apple advises buyers not to take ownership of a used iPhone that remains linked to the previous owner's account.
+- **Start setup:** Confirm the phone does not request the seller's Apple Account.
+- **Test cellular service separately:** Activation Lock, carrier lock, and blacklist status are independent checks.
+- **Keep evidence:** Save the listing, receipt, report time, and seller messages.
+
+A current report is useful evidence, but device status can change. Complete the direct setup check as close to payment as possible.
+
+## What If Find My Is OFF but Stolen Device Protection Is ON?
+
+Treat the result as a mismatch that needs the owner's explanation and direct verification. A report and the Settings screen may reflect different moments, identifiers, or security states. Do not assume that one field automatically controls the other.
+
+Ask the owner to:
+
+- Confirm the IMEI used for the report.
+- Reopen the relevant settings on the same iPhone.
+- Follow Apple's supported process for any pending Security Delay.
+- Prepare and erase the phone correctly.
+- Let you begin setup before final acceptance.
+
+If the owner cannot complete those steps, pause the purchase. A discounted price does not compensate for an account-linked device you cannot safely take over.
+
+## Conclusion: Use the Report for Find My, Not the Security Toggle
+
+An **iCloud IMEI check** can support a Find My ON/OFF or Clean/Lost decision, but it cannot detect Stolen Device Protection. Verify that feature directly on the iPhone, then complete Apple's legitimate erasure and setup process before buying. If your immediate question is the available Find My state, order the paid [IMEIhub iCloud ON/OFF report](https://imeihub.net/service.php?slug=apple-icloud-status) and use it alongside—not instead of—the on-device checks.
+ARTICLE_20261008_1,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-theft-loss-coverage',
+        'title' => 'iPhone Serial Number Check: Does It Show Theft and Loss Coverage?',
+        'meta_title' => 'iPhone Serial Number Check for Theft and Loss Coverage',
+        'excerpt' => 'Can an iPhone serial number check confirm Theft and Loss coverage? Learn which Apple records to use and what an IMEI or warranty report cannot prove.',
+        'date' => '2026-10-08',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261008_2'
+An **iPhone serial number check** can help you find AppleCare plan information through Apple's official coverage channels, but a serial number alone does not prove that a particular theft or loss claim will be accepted. Plan type, territory, ownership, Find My status, claim timing, and current policy terms can all matter. Use the serial number to locate the correct record, then verify the actual plan and claim requirements with Apple or the applicable insurance partner.
+
+## Short Answer: Coverage Lookup Is Not Claim Approval
+
+Apple provides official ways to review warranty and AppleCare information. Its [coverage guidance](https://support.apple.com/en-sg/102607) directs users to the AppleCare & Warranty section on a device or to My Support while signed in to the relevant Apple Account.
+
+The result may help answer:
+
+- Whether Apple recognizes the device.
+- Whether an AppleCare plan appears active.
+- The available coverage end date.
+- Which support or hardware-service benefits are listed.
+- Where to obtain proof of coverage or an agreement number.
+
+It does not automatically answer whether a future or existing theft-and-loss claim satisfies every condition. A coverage page is evidence of the plan record, not a claim decision.
+
+## Use the Serial Number in the Right Place
+
+Apple treats the serial number and IMEI as different identifiers. The serial number is commonly used for Apple support and coverage records; the IMEI identifies the cellular device and is used for carrier or network-status checks.
+
+For an official coverage review:
+
+- On the iPhone, open **Settings > General > AppleCare & Warranty** and select the device.
+- Sign in to [My Support](https://mysupport.apple.com/) with the Apple Account associated with the product.
+- Use Apple's coverage page when directed and enter the exact serial number.
+- Compare the displayed device with the iPhone, receipt, and plan documents.
+- Save the agreement number or proof of coverage if Apple provides it.
+
+Do not paste a box part number, EID, or another device's serial into the form. A recognized number must still match the physical phone you are evaluating.
+
+### A public result may show less than the owner's account
+
+A signed-in owner may see plan and support details that are not exposed through a basic public lookup. That is one reason a buyer should not rely on a seller's cropped screenshot.
+
+Ask the owner to show the plan inside Settings or My Support while you compare the serial number on the same phone. Do not ask for the owner's password or private account data.
+
+## Does AppleCare+ Always Include Theft and Loss?
+
+No. AppleCare products and benefits vary by plan, country, sales channel, and date. Standard warranty coverage, AppleCare+, and AppleCare+ with Theft and Loss are not interchangeable labels.
+
+The current record must expressly identify a plan that includes theft and loss in the relevant region. If the page only says AppleCare+ or lists hardware coverage, do not assume a theft-and-loss benefit is included.
+
+Apple's [Theft and Loss legal page](https://www.apple.com/legal/sales-support/applecare/applecareplus/theftandloss/) provides region-specific terms and conditions. Review the document applicable to the plan instead of using a general article or a policy from another country.
+
+### Find My can be a claim requirement
+
+Apple's published Theft and Loss terms in supported markets commonly require Find My to be enabled when the device is lost or stolen and to remain enabled with the device associated with the owner's Apple Account during the claim process. The exact requirement must be checked against the current plan and region.
+
+This creates an important distinction:
+
+- A warranty report may show plan information.
+- An iCloud ON/OFF report may show available Find My status.
+- Neither report approves a theft-and-loss claim.
+- Turning off Find My after a loss can affect the owner's ability to satisfy applicable claim terms.
+
+If a loss has already occurred, follow Apple's claim instructions before removing the device from the account.
+
+## What an IMEIhub Warranty Report Can Add
+
+IMEIhub's paid [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) can return the available warranty and activation fields supplied for the submitted device. It can be useful when you want an additional device-status record before contacting Apple.
+
+It does not:
+
+- File a theft or loss claim.
+- Guarantee that the plan includes theft-and-loss benefits.
+- Confirm the claimant's identity or legal ownership.
+- Replace Apple's plan agreement.
+- Prove that Find My satisfied the policy at the required time.
+- Remove Activation Lock, a carrier lock, or a blacklist record.
+
+The [free IMEIhub lookup](https://imeihub.net/) is more limited: it returns available brand, model, and basic specifications. It is not a free warranty, AppleCare, iCloud, or claim-eligibility report.
+
+## Coverage, Blacklist, and Find My Are Separate Records
+
+An iPhone can have an active AppleCare plan and still present another risk. Before buying used, separate these questions:
+
+- **AppleCare coverage:** What plan does Apple currently list for this device?
+- **Find My or Activation Lock:** Is the phone still linked to the previous owner's Apple Account?
+- **Blacklist status:** Has a carrier or authorized organization flagged the IMEI?
+- **Carrier lock:** Can the phone use another mobile network?
+- **Ownership:** Does the seller have a legitimate receipt and the authority to transfer the phone?
+
+An active coverage record does not prove that a phone was never reported lost, and a clean blacklist snapshot does not transfer an AppleCare plan or account ownership.
+
+## Buying a Used iPhone With Theft and Loss Coverage
+
+Be cautious when a seller includes “AppleCare Theft and Loss” in the asking price. The benefit may not transfer automatically in every market or plan type.
+
+Before paying:
+
+- Match the serial number in Settings to the seller's coverage record.
+- Ask for the original purchase receipt and AppleCare agreement or proof of coverage.
+- Confirm the exact plan name and expiration date.
+- Review the current transfer rules that apply to that plan and country.
+- Check that the device is not Activation Locked to the seller.
+- Run the relevant blacklist and carrier-lock checks separately.
+- Put any coverage promise in the sales agreement.
+- Contact Apple if the value of the transaction depends on a valid transfer.
+
+Do not pay a premium merely because the seller shows an AppleCare logo. The usable value depends on the plan record and whether you can legitimately receive its benefits.
+
+### A replaced phone can have different identifiers
+
+If Apple or an insurer previously replaced the iPhone, the replacement has its own identifiers. Ask for the service or claim document that connects the original plan to the current device.
+
+A box, receipt, and iPhone with different serial numbers may have a legitimate explanation, but the explanation should be documented before the sale.
+
+## If the iPhone Is Already Lost or Stolen
+
+The owner should use Apple's official lost-device and claim process, not a third-party lookup as a substitute.
+
+Apple's [Activation Lock guidance](https://support.apple.com/en-us/108794) recommends marking a missing device as lost in Find My. Activation Lock helps keep the device linked to the owner's Apple Account even if it is erased remotely.
+
+The owner should:
+
+- Mark the device as lost through Find My.
+- Follow the instructions for the applicable AppleCare theft-and-loss claim.
+- Keep Find My and the account association in the state required by the plan.
+- Contact the carrier to suspend service and report the device when appropriate.
+- Preserve the police report, receipt, plan record, and claim communications requested in that jurisdiction.
+
+Do not remove the missing iPhone from the Apple Account simply because a buyer, finder, or unknown caller asks you to.
+
+## What If Two Coverage Results Disagree?
+
+First, confirm that every source used the same serial number. Then compare the check time, plan name, country, and whether the result came from a signed-in Apple account or a third-party report.
+
+Use this order to resolve the difference:
+
+- Recheck the serial number in Settings or on the device's original documentation.
+- Review AppleCare & Warranty on the iPhone.
+- Sign in to My Support with the correct Apple Account.
+- Locate the agreement number or proof of coverage.
+- Contact Apple or the plan's insurance partner about the specific discrepancy.
+- Recheck any third-party report only after correcting the identifier.
+
+Do not interpret a cached or partial result as more authoritative than the current plan record supplied by Apple.
+
+## Conclusion: Confirm the Plan, Then Confirm the Conditions
+
+An **iPhone serial number check** can locate valuable AppleCare information, but it cannot guarantee Theft and Loss claim approval. Verify the exact plan through Apple, review the current regional terms, preserve Find My as required, and check ownership, blacklist, and carrier status separately. For an additional paid snapshot of available warranty and activation fields, use the [IMEIhub Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty), then confirm any claim-critical detail directly with Apple.
+ARTICLE_20261008_2,
+    ],
+
+    [
         'slug' => 'iphone-serial-number-check-carrier-lock',
         'title' => 'iPhone Serial Number Check: Does It Show Carrier Lock?',
         'meta_title' => 'iPhone Serial Number Check for Carrier Lock Status',
