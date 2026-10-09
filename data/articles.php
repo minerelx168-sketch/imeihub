@@ -8831,4 +8831,186 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'pta-dirbs-status-check-tax-calculator-pakistan',
+        'title'   => 'PTA DIRBS Status Check & Tax Calculator Pakistan 2026',
+        'excerpt' => 'Check your PTA DIRBS registration status and estimate your mobile phone tax before your 60-day window closes and your IMEI gets blocked.',
+        'date'    => '2026-07-05',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## PTA DIRBS Status Check & Tax Calculator: The Complete Pakistan Guide (2026)
+
+If you have brought a mobile phone into Pakistan — whether in your luggage, as a gift, or shipped from abroad — you are on the clock. The **Pakistan Telecommunication Authority (PTA)**, through its **Device Identification, Registration and Blocking System (DIRBS)**, gives every non-local IMEI a **60-day grace period** before it is permanently blocked from all Pakistani mobile networks.
+
+This guide explains how DIRBS works, how to check your PTA registration status in under a minute, how the PTA mobile tax is calculated, and exactly how to register and pay before your window closes.
+
+---
+
+## What Is PTA DIRBS?
+
+**DIRBS (Device Identification, Registration and Blocking System)** is a national IMEI database operated by the PTA in partnership with Pakistan's mobile network operators — **Jazz, Zong, Telenor, and Ufone**. Every phone's IMEI is checked against DIRBS the moment a new SIM is inserted or an existing SIM is used in that device for the first time.
+
+DIRBS classifies every IMEI into one of three states:
+
+1. **Compliant / Approved** — the device is registered with PTA and can use any Pakistani SIM without restriction
+2. **Non-Compliant (in grace period)** — a foreign or unregistered IMEI still inside its 60-day window; local calls and SMS may work, but a countdown is running
+3. **Blocked** — the 60-day window has expired without registration; the device can no longer make or receive calls or use mobile data on any Pakistani network
+
+Locally purchased phones from authorised Pakistani retailers are registered by the dealer at the point of sale and never enter DIRBS as non-compliant. The system exists specifically to control **grey-market and foreign-purchased devices** entering the country outside official import channels.
+
+---
+
+## Who Needs to Register a Phone With PTA?
+
+| Scenario | Registration Required? |
+|---|---|
+| Phone bought new from an authorised Pakistani dealer | No — pre-registered by dealer |
+| Overseas Pakistani bringing a phone home on a visit | **Yes** |
+| Phone bought abroad and shipped/couriered to Pakistan | **Yes** |
+| Tourist or foreign national staying under 120 days on a foreign SIM | Grace period applies (roaming exemption) |
+| Tourist or foreign national inserting a local Pakistani SIM | **Yes, once a local SIM is used** |
+| Second-hand phone bought within Pakistan | **Verify PTA status before buying** — do not assume it is registered |
+
+> **Dual-SIM devices:** Both IMEI 1 and IMEI 2 must be PTA-registered. Registering only one slot means the second SIM slot will still be blocked after the grace period.
+
+---
+
+## How to Check Your PTA DIRBS Status
+
+Before you do anything else, confirm your phone's current status. There are three official ways:
+
+### Method 1: SMS Check (No Internet Required)
+Send your 15-digit IMEI number as an SMS to **8484**. You will receive a reply showing whether the device is **Compliant**, **Non-Compliant**, or the number of days remaining in your grace period.
+
+### Method 2: DIRBS Web Portal
+Visit the official PTA DIRBS portal (**dirbs.pta.gov.pk**), enter your IMEI in the "Check Device Compliance Status" tool, and submit. The result appears instantly, along with the device's remaining grace-period days if applicable.
+
+### Method 3: Dial a Code to Find Your IMEI First
+If you don't already know your IMEI, dial:
+```
+*#06#
+```
+on your phone's dialler. The 15-digit number (or two numbers, for dual-SIM phones) will appear on screen.
+
+---
+
+## PTA Tax Calculator: How Much Will Your Phone Cost to Register?
+
+The PTA registration tax (officially the **Mobile Device Registration duty and tax**) is calculated using two factors: the phone's **declared/invoice value in USD**, and whether you are registering **on a passport (higher exemption)** or **on a CNIC (Pakistani national ID)**.
+
+The tax has three components:
+- **Customs Duty** — based on the phone's value slab
+- **Sales Tax / GST**
+- **Regulatory Duty and Withholding Tax** (varies by import channel — passenger baggage vs. courier/postal)
+
+### Approximate PTA Tax Slabs (Passport Registration, in USD)
+
+| Phone Value (USD) | Approx. Tax (PKR) |
+|---|---|
+| Up to $30 | PKR 550 |
+| $30 – $100 | PKR 4,323 |
+| $100 – $200 | PKR 11,561 |
+| $200 – $350 | PKR 17,214 (+17% Sales Tax on higher-end models) |
+| $350 – $500 | PKR 23,420 (+17% Sales Tax) |
+| Above $500 | PKR 37,007 (+17% Sales Tax) |
+
+> **Passport vs. CNIC registration:** Registering with a passport (available to overseas Pakistanis and foreigners within the first 60 days of entry) is generally cheaper than registering with a CNIC after that window, where higher duty slabs and additional regulatory duty apply. Always register during your first visit to Pakistan on the passport route if you qualify.
+
+### Example: PTA Tax on iPhone 15 / iPhone 16
+
+| Model | Approx. Declared Value | Approx. PTA Tax (Passport) | Approx. PTA Tax (CNIC) |
+|---|---|---|---|
+| iPhone 15 | ~$700 – $800 | PKR ~85,000 – 95,000 | PKR ~115,000 – 135,000 |
+| iPhone 15 Pro Max | ~$1,000+ | PKR ~105,000 – 120,000 | PKR ~140,000 – 160,000 |
+| iPhone 16 | ~$800 – $900 | PKR ~95,000 – 105,000 | PKR ~125,000 – 145,000 |
+| iPhone 16 Pro Max | ~$1,100+ | PKR ~115,000 – 130,000 | PKR ~150,000 – 170,000 |
+
+> Tax figures fluctuate with PKR/USD exchange rates and periodic FBR/PTA rate revisions. Always confirm the exact figure via the official DIRBS portal or PTA's tax calculator tool before paying, since duty tables are updated periodically by the Federal Board of Revenue (FBR).
+
+---
+
+## Step-by-Step: How to Register Your Phone With PTA
+
+**Step 1 — Check Your Current Status**
+SMS your IMEI to 8484 or use the DIRBS portal to confirm the device is Non-Compliant and see remaining grace days.
+
+**Step 2 — Choose Your Registration Route**
+- **Passport route** (COMSATS/Overseas Pakistanis, within 60 days of arrival) — go to **dirbs.pta.gov.pk**, register using your passport number and travel document.
+- **CNIC route** (if the passport window has passed, or for locally-acquired grey-market phones) — register using your CNIC number.
+
+**Step 3 — Create a DIRBS Account**
+Sign up on the DIRBS portal with your CNIC/passport number and mobile number for OTP verification.
+
+**Step 4 — Submit Device Details**
+Enter the IMEI(s), phone make and model, and — for the passport route — flight/travel document details.
+
+**Step 5 — Pay the Assessed Tax**
+The system calculates the duty and tax owed. Pay via **1Link-enabled bank**, **ATM**, **mobile wallet (JazzCash, Easypaisa)**, or a designated bank branch, using the generated PSID (Payment Slip ID).
+
+**Step 6 — Confirmation and Activation**
+Once payment is confirmed (typically within 24–48 hours), the device status updates to **Compliant** on DIRBS, and it can be used with any Pakistani SIM indefinitely.
+
+---
+
+## What Happens if You Don't Register in Time?
+
+| Grace Period Stage | What Happens |
+|---|---|
+| Day 1–60 | Device works normally on local SIMs; countdown is active |
+| Around Day 50–55 | PTA/operator sends SMS reminders about the approaching deadline |
+| Day 61 onward | IMEI is moved to **Blocked** status; the SIM cannot register on any Jazz, Zong, Telenor, or Ufone network |
+| After blocking | The phone can still be registered later, but typically at the **CNIC tax rate** rather than the cheaper passport rate |
+
+A blocked phone still works over Wi-Fi and Bluetooth — it simply cannot use any Pakistani cellular network for calls, SMS, or mobile data.
+
+---
+
+## Buying a Second-Hand Phone in Pakistan? Check PTA Status First
+
+Pakistan's used-phone markets — including **Hafeez Centre (Lahore)**, **Mobile Market Saddar (Karachi)**, and **Karachi's Al-Rehman Plaza** — carry a mix of properly registered and unregistered grey-market devices. Before buying:
+
+1. Ask the seller to dial `*#06#` and show you the IMEI on screen
+2. SMS the IMEI to **8484** to confirm it shows **Compliant**
+3. Run an independent blacklist check to confirm the phone was not reported lost or stolen
+
+Never rely on the seller's word alone — a phone that "still works" today can be sitting inside an active grace-period countdown that ends the week after you buy it.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+
+---
+
+## Frequently Asked Questions
+
+**Q: How long is the PTA grace period before a phone is blocked?**
+A: 60 days from the first time the device connects to a Pakistani mobile network with a local SIM inserted.
+
+**Q: Can I register my phone before travelling to Pakistan?**
+A: No. DIRBS registration requires the device to have already triggered a compliance check inside Pakistan (via a local SIM) or requires travel document verification tied to an actual entry into the country.
+
+**Q: Is PTA tax the same for iPhones and Android phones?**
+A: The duty/tax slabs are based on the phone's declared USD value, not the brand — but because iPhones generally have a higher declared value, they usually fall into the higher tax brackets.
+
+**Q: Does an eSIM-only phone still need PTA registration?**
+A: Yes. DIRBS checks the IMEI regardless of whether the SIM is physical or an eSIM profile.
+
+**Q: What if my phone shows "Blocked" but I never received a warning?**
+A: SMS reminders are sent to the number active in the device at the time, so warnings can be missed if you changed SIMs. Check your status anytime via SMS to 8484 or the DIRBS portal — blocked devices can still be registered afterward, typically at the CNIC tax rate.
+
+**Q: Can a blocked phone be unblocked after paying the tax?**
+A: Yes. Once the DIRBS registration payment is confirmed, the device is reclassified as Compliant and regains full network access — there is no permanent penalty beyond the tax itself.
+
+---
+
+## Check Your Phone's IMEI Status Right Now
+
+Before your 60-day window runs out — or before you buy any second-hand phone in Pakistan — verify the IMEI:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Confirm the brand, model, and specs match what is on the box
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Make sure the device has not been reported lost or stolen internationally
+
+Registering with PTA DIRBS is a one-time process. Once your device shows **Compliant**, it stays that way for as long as you own the phone in Pakistan.
+MD,
+    ],
+
 ];
