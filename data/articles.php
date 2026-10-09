@@ -8831,4 +8831,134 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'ncc-imei-check-nigeria-type-approval-guide',
+        'title'   => 'NCC IMEI Check Nigeria: Type Approval & Blocking Guide 2026',
+        'excerpt' => 'The Nigerian Communications Commission is blocking counterfeit and unapproved IMEIs. Learn how to check NCC type-approval status and avoid a blocked phone.',
+        'date'    => '2026-08-09',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## NCC IMEI Check Nigeria: What Every Phone Owner Needs to Know in 2026
+
+The **Nigerian Communications Commission (NCC)** operates a **Device Management System (DMS)** that checks every IMEI connecting to a Nigerian network against a national type-approval and blacklist database. Phones running on cloned, duplicated, or non-type-approved IMEIs can be **blocked from MTN, Airtel, Glo, and 9mobile** — even if the handset itself works perfectly.
+
+With counterfeit and grey-market devices common in markets like **Lagos's Computer Village**, **Alaba International Market**, and **Abuja's Wuse phone market**, an NCC IMEI check has become a essential step before buying any second-hand or imported phone in Nigeria.
+
+---
+
+## What Does "NCC Type Approval" Mean?
+
+Every phone legally sold or imported for use in Nigeria must be **type-approved** by the NCC — certified as meeting Nigeria's technical and safety standards for connecting to local networks. Type approval is tied to the device's TAC (the first 8 digits of its IMEI), not to each individual unit.
+
+The NCC's Device Management System cross-checks three things whenever a phone tries to register on a Nigerian network:
+
+1. **Type approval status** — is this model/TAC certified for use in Nigeria?
+2. **IMEI uniqueness** — is this exact IMEI duplicated across multiple physical devices?
+3. **Blacklist status** — has this IMEI been reported lost, stolen, or fraudulent?
+
+A device can fail any one of these checks and be blocked, regardless of whether it "looks" genuine.
+
+---
+
+## Why Nigeria Is Cracking Down on Unapproved IMEIs
+
+Nigeria is Africa's largest smartphone market, and a significant share of devices in circulation enter through informal channels rather than official importers. The NCC's enforcement targets three specific problems:
+
+- **Hardware clones** — budget Android boards flashed with counterfeit firmware and sold in genuine-looking Samsung or Apple packaging.
+- **IMEI duplication** — a single legitimate IMEI copied onto hundreds of counterfeit units, a technique common with popular models like the iPhone and Samsung Galaxy A-series.
+- **Unrouted grey imports** — devices brought in outside official customs channels that were never type-approved for the Nigerian market.
+
+Blocking these devices at the network level protects revenue for the treasury, reduces phone theft (a duplicated or stolen IMEI cannot roam freely once blacklisted), and pushes counterfeit hardware out of circulation.
+
+---
+
+## Who Should Run an NCC IMEI Check Before Buying?
+
+| Situation | Check Needed? |
+|---|---|
+| Buying a used phone from Computer Village, Alaba, or a local reseller | **Yes — always** |
+| Buying a "brand new" phone at a suspiciously low price | **Yes — high priority** |
+| Importing a phone from the UK, US, UAE, or China for personal use | **Yes** |
+| Buying directly from an authorised Samsung, Apple, or Transsion (Tecno/Infinix/itel) dealer | Recommended, lower risk |
+| Receiving a phone as a gift from abroad | **Yes** |
+
+---
+
+## How to Check Your Phone's IMEI Status in Nigeria
+
+**Step 1 — Find your IMEI**
+Dial `*#06#` on the handset. The 15-digit IMEI appears instantly. Dual-SIM phones display two IMEI numbers — note both.
+
+**Step 2 — Confirm it against the box and SIM tray**
+All three sources — screen, retail box, and SIM tray — should show the identical IMEI. A mismatch is a strong signal of a swapped logic board or counterfeit packaging.
+
+**Step 3 — Run a free IMEI check**
+Before trusting a seller's claim about brand and model, verify it independently. A phone advertised as a "Samsung Galaxy S24" should return exactly that.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+
+**Step 4 — Run a blacklist check**
+This confirms whether the IMEI has been reported lost, stolen, or fraudulent anywhere in the world — not just within Nigeria.
+
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+
+**Step 5 — For Samsung devices, check Knox Guard**
+Samsung has a dominant share of Nigeria's mid-range market. A Knox Guard-locked device cannot be reset or resold without the original Samsung account credentials.
+
+- [Samsung Info + Knox Guard Check](https://imeihub.net/service.php?slug=samsung-info)
+
+---
+
+## What Happens If Your Phone Fails the NCC Check?
+
+| Outcome | What It Means |
+|---|---|
+| **Type-approved & clean** | Device connects normally on all four networks |
+| **Duplicated IMEI** | Network may flag and restrict the device once the duplication is detected |
+| **Not type-approved** | Device may be blocked from registering on Nigerian networks |
+| **Blacklisted (stolen/lost)** | Device is blocked outright; carriers will refuse SIM activation |
+
+A blocked IMEI is not a software problem you can fix with a factory reset — the block happens at the network level, independent of the phone's operating system.
+
+---
+
+## Protecting Yourself When Buying a Used Phone in Nigeria
+
+1. **Insist on testing the SIM live** before paying — a working SIM at the point of sale does not guarantee the device will stay unblocked once the NCC's database sync catches a duplication or blacklist hit.
+2. **Ask for the original receipt or proof of purchase.** Legitimate resellers and importers can usually produce one.
+3. **Compare the price to market rate.** An iPhone or Galaxy flagship priced far below Computer Village's going rate is a red flag for a cloned or stolen device.
+4. **Run the free check and blacklist check before handing over cash** — not after. Both checks take under a minute.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Does the NCC block phones instantly, or is there a grace period?**
+A: Enforcement typically happens in phases, with warnings issued before a full network block. Timelines are announced by the NCC and can change, so always check your device's current status rather than relying on past enforcement dates.
+
+**Q: My phone works fine right now — does that mean it passed the NCC check?**
+A: Not necessarily. A phone can work today and still be flagged during a later database sync, particularly if it has a duplicated IMEI that has not yet been detected.
+
+**Q: Can a blocked phone be unblocked?**
+A: If the block is due to a genuine blacklist report tied to your own device (for example, mistakenly reported lost and then recovered), you can pursue resolution through the reporting carrier. Devices blocked for IMEI duplication or non-type-approval generally cannot be legitimately unblocked.
+
+**Q: Does an NCC block affect Wi-Fi calling or Wi-Fi internet use?**
+A: No. Network-level IMEI blocks affect cellular connectivity (calls, SMS, mobile data) only. Wi-Fi functionality is unaffected.
+
+**Q: Is the NCC check the same as an international blacklist check?**
+A: They overlap but are not identical. The NCC's database focuses on Nigerian type approval and duplication as well as blacklist data shared with international registries. Always run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) in addition to any local check for the most complete picture.
+
+---
+
+## Check Your Phone's IMEI Before You Buy or Travel
+
+Whether you are buying second-hand in Lagos, importing a device for personal use, or simply want peace of mind about a phone you already own, verifying the IMEI takes less than a minute:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Confirm brand, model, and basic device info instantly
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Confirm the device has not been reported lost or stolen anywhere in the world
+
+A blocked IMEI is expensive and difficult to fix after the fact — a 60-second check before you pay is the cheapest insurance available.
+MD,
+    ],
+
 ];
