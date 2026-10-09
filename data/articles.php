@@ -8,6 +8,307 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-without-sim',
+        'title' => 'IMEI Checker Online: Can You Check a Phone Without a SIM?',
+        'meta_title' => 'IMEI Checker Online Without a SIM Card',
+        'excerpt' => 'Use an IMEI checker online without a SIM card. Learn where to find the device IMEI, what a lookup can verify, and which carrier facts need separate checks.',
+        'date' => '2026-10-09',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261009_1'
+An **IMEI checker online** can identify a cellular device even when no SIM card is installed. The IMEI belongs to the device's cellular hardware, while the SIM or eSIM represents a mobile subscription. If you can obtain the correct 15-digit IMEI from the phone, its packaging, or an account record, you can submit that number from any internet-connected device. What you learn depends on the check you choose; removing the SIM does not turn a basic model lookup into a carrier, blacklist, warranty, or account-status report.
+
+## Short Answer: The SIM Is Not Required for an IMEI Lookup
+
+The GSMA describes an IMEI as a unique identifier for a device used on a mobile network. A SIM is different: it connects a subscriber profile to a carrier. That distinction is why a phone can retain the same IMEI after its physical SIM is removed or replaced.
+
+You need two things to run an online check:
+
+- The complete IMEI for the device you want to investigate.
+- Internet access on the same phone or on another computer, tablet, or phone.
+
+The phone being checked does not need an active line, mobile data, or a SIM in its tray. However, the lookup cannot test whether a particular SIM will activate, whether an account is in good standing, or whether a carrier will approve the device.
+
+## IMEI and SIM Identify Different Things
+
+Confusion usually starts because both identifiers appear during activation.
+
+### IMEI identifies the cellular device
+
+The [GSMA IMEI Database overview](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) defines the IMEI as a 15-digit identifier for a device on a mobile network. Its first eight digits form the Type Allocation Code, which can map to a brand and model family.
+
+An IMEI checker uses that device identifier as its input. It does not need to read the plastic SIM card inside the phone.
+
+### SIM or eSIM identifies a subscription profile
+
+A removable SIM has an ICCID, and an eSIM-capable device may also display an EID for its embedded SIM hardware. Those identifiers support subscription provisioning. They are not substitutes for a 15-digit IMEI on an IMEI form.
+
+Removing a physical SIM changes which subscription is present. It does not normally change the handset's IMEI. Likewise, adding an eSIM profile does not create a new model identity for the phone.
+
+## How to Find the IMEI Without an Installed SIM
+
+Use the identifier shown by the device whenever possible. A seller's message or a loose box is weaker evidence because it may refer to another phone.
+
+### Check Settings
+
+On an iPhone, Apple directs users to **Settings > General > About**, where the serial number, EID, IMEI/MEID, and ICCID appear as separate fields. Apple's [identifier guide](https://support.apple.com/en-us/108037) also explains other ways to find those numbers when the device cannot be used normally.
+
+On a Samsung Galaxy phone, open **Settings > About phone**. Samsung's [IMEI and serial-number guide](https://www.samsung.com/us/support/answer/ANS10002504/) lists Settings, Samsung Members, supported dial-code access, packaging, and other device records as possible sources.
+
+### Try the device information code
+
+Many phones display identifiers after you enter `*#06#` in the Phone app. No call is placed, so an active SIM is generally unnecessary. Device software, carrier customization, and product type can affect whether the code works. If it does not, use Settings or the manufacturer's documented alternatives.
+
+### Check the setup or recovery screen
+
+Some phones expose device information before activation. Apple, for example, documents an Info button on the Hello screen that can show available identifiers. This can help when a phone has been erased but has not yet been set up.
+
+### Use packaging or account records carefully
+
+The original box, purchase receipt, carrier account, or manufacturer account may list an IMEI. Treat it as a candidate number until it matches the physical device. Packaging can be swapped, and an account can contain several devices.
+
+Compare every digit and, where possible, also compare the displayed model or serial number. Never combine the first part of one IMEI with the ending of another.
+
+## What an Online IMEI Check Can Verify Without a SIM
+
+The absence of a SIM does not limit a database lookup. The service returns whatever fields its selected report is designed to provide.
+
+### Free basic identification
+
+The [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) uses the IMEI's TAC to return brand, model, and basic specification information. No sign-in or credits are required for that basic lookup.
+
+Use it to answer questions such as:
+
+- Does this IMEI map to the expected manufacturer?
+- Does the model family agree with the phone in hand?
+- Did you enter a plausible 15-digit identifier?
+
+The free result is not described as a free blacklist, iCloud, warranty, financing, or carrier-lock report.
+
+### Paid reports answer separate status questions
+
+The [imeihub service catalog](https://imeihub.net/services.php) lists specialized paid reports for questions such as blacklist status, Apple SIM lock, warranty, iCloud status, and brand-specific information. Review the current service description before ordering so the report matches the decision you need to make.
+
+A report can return a database result for the entered IMEI without a SIM in the phone. It cannot remove a lock, clear a blacklist record, settle a finance balance, or activate service.
+
+## What the Lookup Cannot Test Without Carrier Context
+
+An IMEI result and a successful activation are not the same outcome. A carrier may need information that a general lookup does not have.
+
+### It cannot confirm a particular SIM will work
+
+Activation can depend on the carrier, plan, account permissions, local network, supported bands, eSIM provisioning, and current device status. A model match is useful, but it is not carrier approval.
+
+### It cannot reveal the phone number
+
+The mobile number belongs to a line or subscription, not to the IMEI itself. An online IMEI check should not be expected to expose the current or previous subscriber's phone number.
+
+### It cannot prove ownership
+
+Knowing an IMEI or receiving a matching model result does not prove that the person submitting it owns the device. For a purchase, also review the seller's documentation, return terms, and ability to remove account locks.
+
+### It cannot perform a live radio test
+
+A lookup does not test the antenna, SIM reader, modem performance, voice service, data service, or reception in your location. Those require device-side testing and, often, an active compatible line.
+
+## A Safe No-SIM Checking Workflow
+
+Use this sequence when evaluating a phone that has no SIM installed:
+
+- **Read the IMEI from the device.** Prefer Settings or the setup information screen over a seller-provided screenshot.
+- **Record each IMEI separately.** Dual-SIM phones may show IMEI1 and IMEI2; do not merge them.
+- **Run a free model lookup.** Confirm that the returned brand and model family match the device.
+- **Choose only the status reports you need.** Blacklist, carrier lock, warranty, and account locks are separate questions.
+- **Compare the phone again at handover.** Match the on-device IMEI with the report and transaction record.
+- **Ask the intended carrier about activation.** Provide the correct IMEI and explain whether you plan to use a physical SIM or eSIM.
+- **Test the actual line before the return window closes.** A clean-looking report cannot replace activation and hardware testing.
+
+### If the phone shows no IMEI
+
+First confirm that the product is a cellular model. Wi-Fi-only tablets and other non-cellular devices may not have an IMEI. If a phone that should have cellular capability displays no IMEI, do not invent a number from the box or another record. Restart the device, review the manufacturer's support guidance, and seek authorized service if the identifier remains unavailable.
+
+## Common Questions
+
+### Can I run the check from another device?
+
+Yes. Copy the IMEI carefully and open the checker on a connected computer, tablet, or phone. The checker needs the number, not physical access to the SIM tray.
+
+### Will inserting a different SIM change the result?
+
+The basic device identity tied to the IMEI should not change simply because you insert another SIM. Carrier eligibility or activation outcomes may differ with the new carrier and account.
+
+### Does airplane mode prevent an online lookup?
+
+Airplane mode on the target phone does not affect a lookup submitted elsewhere. If you use the same phone, connect it to Wi-Fi before opening the checker.
+
+### Can a lookup activate or unlock the phone?
+
+No. A lookup reports information. It does not activate a SIM, transfer an eSIM, unlock a carrier restriction, remove an account lock, or erase a blacklist entry.
+
+## Check the Device First, Then Confirm the Line
+
+An IMEI checker online works without a SIM because it looks up the device identifier, not the subscription card. Start with the IMEI shown on the phone, use a free result for basic brand-and-model confirmation, and select a paid report only when its stated fields answer a separate status question. Then ask the intended carrier to confirm line activation and test the phone itself.
+
+Ready to identify a no-SIM device? [Run imeihub's free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), compare the result with the phone, and continue with a paid report only if you still have a specific unanswered question.
+ARTICLE_20261009_1,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-number-vs-eid',
+        'title' => 'Samsung Tablet IMEI Number vs EID: Which One Do You Need?',
+        'meta_title' => 'Samsung Tablet IMEI Number vs EID Explained',
+        'excerpt' => 'Learn how a Samsung tablet IMEI number differs from an EID, serial number, and ICCID, which identifier each task needs, and what an IMEI check can show.',
+        'date' => '2026-10-09',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261009_2'
+A **Samsung tablet IMEI number** identifies cellular device hardware, while an EID identifies the embedded SIM component used for eSIM provisioning. They can appear near each other in Settings, but they are not interchangeable. A Galaxy tablet may also show a serial number and, after a mobile plan is installed, an ICCID. Choosing the correct identifier prevents failed lookups, carrier delays, and reports run against the wrong value.
+
+## Short Answer: Use IMEI for Device Checks and EID for eSIM Setup
+
+The right number depends on the task:
+
+- Use the **IMEI** for device identity, carrier compatibility, and IMEI-based status reports.
+- Use the **EID** when a carrier specifically asks for the embedded SIM identifier during eSIM provisioning.
+- Use the **serial number** for Samsung product support, registration, or warranty workflows that request it.
+- Use the **ICCID** to identify a particular SIM or downloaded eSIM profile when the carrier asks for that value.
+
+Do not shorten an EID to 15 digits or paste a serial number into an IMEI checker. A valid form should tell you which identifier it accepts.
+
+## What Is a Samsung Tablet IMEI Number?
+
+The IMEI is the International Mobile Equipment Identity assigned to cellular-capable device hardware. The [GSMA IMEI Database overview](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) describes it as a 15-digit identifier for a device on a mobile network.
+
+The first eight digits are the Type Allocation Code, or TAC. That portion can identify the brand and model family. The remaining digits distinguish the device and include a check digit used to catch many typing errors.
+
+### Only cellular tablets need an IMEI
+
+A Wi-Fi-only Galaxy Tab has no cellular modem to register on a mobile network, so it normally has no IMEI. Samsung's current [SIM and eSIM guidance](https://www.samsung.com/us/support/answer/ANS10001619/) explicitly notes that Wi-Fi-only tablet models do not support eSIM functionality.
+
+If **About tablet** shows only a serial number and model code, confirm that you own the Wi-Fi version before assuming anything is missing. A retail family such as Galaxy Tab can include both Wi-Fi and cellular variants with similar names.
+
+### A Dual SIM tablet may show two IMEIs
+
+Some cellular tablets support more than one cellular line through physical SIM and eSIM combinations. They may display IMEI1 and IMEI2. Each IMEI belongs to a cellular identity on the same tablet.
+
+When ordering a report or asking a carrier for help, use the IMEI connected to the line or slot being evaluated. Keep both numbers complete and labeled.
+
+## What Is an EID?
+
+EID stands for eUICC Identifier. The eUICC is the secure component that stores downloadable eSIM profiles. The GSMA explains that an eUICC is identified by a globally unique EID in its [5G security and eSIM overview](https://www.gsma.com/solutions-and-impact/technologies/security/securing-the-5g-era/).
+
+An EID is generally much longer than an IMEI. It identifies the eSIM hardware, not the tablet model and not one carrier plan. A carrier may request it to prepare or transfer an eSIM profile to the correct device.
+
+### EID does not replace IMEI
+
+Even when a Galaxy tablet uses eSIM, the carrier may need both values:
+
+- The IMEI to evaluate the cellular device or map the correct radio identity.
+- The EID to provision the downloadable profile to the embedded SIM hardware.
+
+Entering the EID into an IMEI checker will not produce a valid IMEI result because the formats and purposes differ.
+
+## Serial Number and ICCID Are Different Again
+
+Four identifiers can appear in one support conversation, so it helps to give each a clear job.
+
+| Identifier | What it identifies | Typical use |
+| --- | --- | --- |
+| IMEI | Cellular device identity | Model lookup, compatibility, device-status reports |
+| EID | Embedded SIM hardware | eSIM provisioning or transfer |
+| Serial number | Individual Samsung product | Product registration, support, service records |
+| ICCID | A SIM or eSIM profile | Carrier line and SIM-profile support |
+
+### Serial number
+
+Samsung assigns a serial number to the individual tablet. Samsung's [device identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) explains that IMEI, model, and serial information may be available through Settings, Samsung Members, supported dial codes, packaging, and other records.
+
+A serial number can be useful even on a Wi-Fi-only tablet. That does not make it an IMEI, and it should not be submitted to a service that explicitly requires 15 IMEI digits.
+
+### ICCID
+
+The ICCID identifies the SIM profile or removable SIM card. If you replace the physical SIM or install a different eSIM profile, the ICCID can change while the tablet's IMEI remains the device identifier.
+
+An ICCID is carrier-related information. Do not publish it or send it to anyone who is not involved in your own account or device support.
+
+## How to Find the Correct Identifier on a Galaxy Tablet
+
+Start with the tablet itself:
+
+- Open **Settings**.
+- Tap **About tablet**.
+- Review the model name, model number, serial number, and IMEI fields shown.
+- If your cellular model supports eSIM, open the SIM manager or status details to locate the EID when your carrier requests it.
+- Copy the complete value or take a private reference screenshot.
+
+Samsung notes that screens can vary by carrier, software version, and model. Use the labels displayed on your tablet instead of guessing from the number's position.
+
+### Compare against the packaging
+
+The original box may list model, serial, and IMEI information. Match the box to Settings character by character. A mismatch can mean the box belongs to another tablet, the seller copied the wrong line, or the device has a service history that needs explanation.
+
+Do not treat packaging alone as proof. The on-device value is the better input for checking the tablet in front of you.
+
+### When `*#06#` does not work
+
+Some cellular devices display IMEI information after `*#06#` is entered, but Samsung notes that availability can depend on the carrier or device. Tablets without a traditional Phone app may not support that route. Use **Settings > About tablet** or Samsung Members instead.
+
+## What an IMEI Lookup Can Tell You
+
+An IMEI service reads the 15-digit IMEI, not the EID or ICCID.
+
+### Free model identification
+
+The [free imeihub IMEI check](https://imeihub.net/service.php?slug=free-imei-check) resolves TAC information to return the brand, model, and basic specifications. It is useful for checking whether the IMEI maps to the Galaxy tablet family you expect.
+
+It is not advertised as a free warranty, Knox Guard, blacklist, carrier, or eSIM-provisioning report.
+
+### Paid Samsung information
+
+The [Samsung Info + Knox Guard service](https://imeihub.net/service.php?slug=samsung-info) is a paid report listed for Galaxy model, warranty, original carrier, purchase country, and Knox Guard status. Review the current description and price before ordering, and submit the correct IMEI rather than the EID.
+
+That report does not install an eSIM, transfer a mobile plan, remove Knox Guard, unlock a carrier restriction, or correct a Samsung account issue. It reports the fields the selected service makes available.
+
+## Which Number Should You Give the Carrier?
+
+Follow the carrier's exact prompt. If it asks for both IMEI and EID, provide both from the same tablet.
+
+Before contacting support, prepare:
+
+- The tablet's full model number.
+- IMEI1 and IMEI2, if both appear.
+- The EID, if the device supports eSIM and the carrier requests it.
+- The ICCID of the relevant SIM profile, if already installed.
+- Your own carrier account and order details.
+
+Never send an entire set of identifiers in a public forum. A support agent normally needs only the values relevant to your account and task.
+
+### A valid EID does not guarantee activation
+
+eSIM support can depend on the exact Galaxy model, sales region, carrier, software, and plan. Samsung maintains regional lists of supported Galaxy devices and carriers. The presence of an EID is useful evidence of eSIM hardware, but the intended carrier must still confirm that it can provision that tablet variant.
+
+### A clean IMEI result does not provision eSIM
+
+An IMEI report can help identify the device or return a status field. It cannot download a carrier profile. Only the carrier or its approved activation process can issue and activate the eSIM for your line.
+
+## Avoid These Identifier Mistakes
+
+- Do not enter the EID into a 15-digit IMEI field.
+- Do not assume a Wi-Fi-only Galaxy Tab has a hidden IMEI.
+- Do not use a box IMEI until it matches the tablet.
+- Do not mix digits from IMEI1 and IMEI2.
+- Do not treat the serial number as a blacklist identifier.
+- Do not expect an IMEI lookup to activate or unlock the tablet.
+- Do not share IMEI, EID, ICCID, or serial values publicly.
+
+If a form rejects a number, reread the label first. Repeatedly editing a long EID until it fits an IMEI field will only create an invalid identifier.
+
+## Use the Identifier That Matches the Job
+
+A Samsung tablet IMEI number identifies cellular device hardware; an EID identifies the embedded SIM component; a serial number identifies the Samsung product; and an ICCID identifies a SIM profile. Read the label, copy the complete value from the tablet, and give each service only the identifier it requests.
+
+Need to confirm which Galaxy model an IMEI belongs to? [Start with imeihub's free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then review the paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) only if its listed fields answer your remaining question.
+ARTICLE_20261009_2,
+    ],
+
+    [
         'slug' => 'icloud-imei-check-stolen-device-protection',
         'title' => 'iCloud IMEI Check: Can It Detect Stolen Device Protection?',
         'meta_title' => 'iCloud IMEI Check vs Stolen Device Protection',
