@@ -8830,5 +8830,124 @@ Whether you are a Myanmar resident, an expat, or a traveller with a foreign devi
 Registering on ceir.gov.mm takes less than ten minutes. The alternative — a permanently blocked phone — costs far more to resolve.
 MD,
     ],
+    [
+        'slug'    => 'nca-imei-registration-ghana-check-stolen-phone-guide',
+        'title'   => 'NCA IMEI Check Ghana: Stolen Phone & 2026 Registration Guide',
+        'excerpt' => 'How Ghana\'s NCA blacklists stolen IMEIs across MTN, Telecel and AirtelTigo — plus the new 2026 CEIR device registration rules.',
+        'date'    => '2026-07-02',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## NCA IMEI Registration in Ghana: What You Need to Know in 2026
+
+Ghana's **National Communications Authority (NCA)** operates the country's central **Equipment Identity Register (EIR)** — a shared blacklist that MTN, Telecel, and AirtelTigo all check before letting a device connect to their networks. In March 2026, the NCA and the **National Identification Authority (NIA)** announced a major overhaul: a new nationwide SIM registration exercise that links every phone's IMEI to a verified Ghana Card identity through a Central Equipment Identity Register (CEIR).
+
+Whether you are buying a used phone in Accra's Circle market, Kumasi's Kejetia, or importing a device from abroad, this guide explains how Ghana's IMEI blacklist works today, what changes in the 2026 CEIR rollout, and how to check a phone before you hand over your money.
+
+---
+
+## How Ghana's IMEI Blacklist Works Today
+
+The NCA's Equipment Identity Register is a shared database that all three mobile network operators submit blocked IMEIs to. Once an IMEI is added:
+
+1. **Telco reports the IMEI** to the NCA's central EIR (after a customer files a stolen-phone report)
+2. **The EIR propagates the block** to MTN, Telecel, and AirtelTigo simultaneously
+3. **The device is blocked from all three networks** — even if the thief inserts a brand-new SIM card
+4. **Propagation typically takes 24–48 hours** from the time the telco submits the IMEI
+
+This means a phone blacklisted on MTN cannot simply be switched to a Telecel or AirtelTigo SIM to keep working — Ghana's blacklist is network-agnostic, unlike some countries where blocks only apply to a single carrier.
+
+---
+
+## What's Changing: The 2026 CEIR & SIM Registration Overhaul
+
+Announced by the NCA in March 2026, the new exercise moves beyond the existing stolen-phone blacklist toward a full **Central Equipment Identity Register (CEIR)** that ties every registered IMEI to a verified identity. Key details confirmed by the NCA and NIA:
+
+- **IMEI-to-Ghana Card linking** — your device's IMEI is merged with the mobile number and the Ghana Card identity of the person registered to it
+- **Self-service mobile app** — most subscribers will complete registration from their own phone: present a Ghana Card, pass a liveness (facial recognition) test, and submit
+- **Assisted registration** — designated centres and mobile teams will help subscribers without smartphones or who hit technical issues
+- **No cost to consumers** — telecom operators are covering the NIA verification fees on behalf of subscribers
+- **Fraud prevention focus** — liveness detection was added specifically to stop the spoofed photos and photocopied Ghana Cards that undermined the 2021–2023 SIM registration drive
+
+The stated goal is a "dependable national database" that improves accountability, reduces SIM-swap fraud, and gives the NCA a stronger foundation for tracking counterfeit and unauthorized devices entering the country.
+
+---
+
+## How to Check Your IMEI Status in Ghana
+
+| Step | Action |
+|---|---|
+| 1 | Dial **`*#06#`** on the phone to display its IMEI (or two IMEIs on dual-SIM devices) |
+| 2 | Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand, model, and specs match what the seller claims |
+| 3 | Run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see if the IMEI is flagged stolen anywhere in the global GSMA-linked database |
+| 4 | Before buying, ask the seller to dial `*156#` (MTN), `*700#` (Telecel), or `*123#` (AirtelTigo) with **their own SIM in the phone** to confirm the device shows no network restriction |
+
+A device that fails the blacklist check or shows a network restriction should never be purchased, regardless of how good the price looks.
+
+---
+
+## Reporting a Stolen Phone in Ghana
+
+If your phone is stolen, act within the first 24 hours:
+
+1. **File a police report** at the nearest station — you will receive an official report/reference number
+2. **Call your network's hotline immediately** to suspend the SIM: MTN `100`, Telecel `100`, AirtelTigo `111`
+3. **Provide the police report and your device's IMEI** to the telco so they can submit it to the NCA's Equipment Identity Register
+4. **Use the network's fraud hotline** if mobile money is linked to the number: MTN `170#`, Telecel `181#`, AirtelTigo `155#`
+
+| Network | Block SIM | Fraud Hotline | Check Registration |
+|---|---|---|---|
+| MTN | `100` | `170#` | `*156#` |
+| Telecel | `100` | `181#` | `*700#` |
+| AirtelTigo | `111` | `155#` | `*123#` |
+
+---
+
+## Buying a Used Phone in Ghana: A Safety Checklist
+
+Ghana's second-hand phone market — from Kantamanto and Circle in Accra to Adum in Kumasi — is large, competitively priced, and includes a significant volume of imported "Yankee" (used) phones from the US, UK, and Europe. Most are legitimate, but blacklisted, iCloud-locked, or carrier-locked devices do circulate. Before buying:
+
+- **Check the blacklist status** — a phone stolen abroad can still be blacklisted internationally and will eventually be flagged in Ghana too
+- **Verify iCloud/MDM lock status** on iPhones — a locked device is effectively unusable even if it is not stolen
+- **Confirm the IMEI on the box matches the IMEI in the phone's settings** — mismatched IMEIs are a common counterfeit-device red flag
+- **Test the SIM slot with a local SIM before paying** — confirms the phone is not network-restricted
+
+| Check | Why It Matters | Imeihub Service |
+|---|---|---|
+| Blacklist status | Confirms the phone was not reported stolen or lost | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud lock (iPhone) | Locked iPhones cannot be activated even with a valid IMEI | [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) |
+| Basic specs match | Confirms brand, model, and storage match the listing | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Samsung Knox status | Detects Knox-tripped or reflashed Samsung devices | [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) |
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is the NCA's IMEI blacklist the same as the new CEIR system?**
+A: They are related but not identical. The existing EIR blacklists stolen/reported IMEIs across MTN, Telecel, and AirtelTigo today. The 2026 CEIR expands this into a full identity-linked device register tied to the SIM re-registration exercise.
+
+**Q: Will I need to re-register my phone's IMEI in 2026?**
+A: The exercise centres on re-registering your SIM/mobile number with your Ghana Card via liveness verification; your device's IMEI is captured as part of that process. Watch for official communication from your network operator for your specific registration window.
+
+**Q: My phone works fine on all three networks — is it definitely not blacklisted?**
+A: Working today does not guarantee a clean history if it was recently acquired abroad — cross-border blacklist syncs are not instant. Always run an independent check before buying rather than relying on the phone working at the point of sale.
+
+**Q: Can a blacklisted phone be un-blacklisted?**
+A: Only if the block was made in error or the original owner recovers the device and formally requests removal through the reporting telco. A confirmed stolen-device block is not something a new buyer can remove.
+
+**Q: Does registering cost money?**
+A: No. The NCA has confirmed telecom operators are covering the NIA verification costs, so subscribers do not pay for the 2026 registration exercise.
+
+---
+
+## Check Before You Buy or Travel
+
+Ghana's phone market is shifting toward tighter identity-linked device tracking in 2026. Whether you are buying second-hand in Accra, receiving a device from a relative abroad, or simply want peace of mind about the phone in your pocket:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — Confirm brand, model, and specs in seconds
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — Check stolen/lost status against the global blacklist database
+
+A two-minute check now is far cheaper than discovering your new phone is blacklisted after the seller has already spent your money.
+MD,
+    ],
 
 ];
