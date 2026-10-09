@@ -8831,4 +8831,76 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'ncc-imei-check-nigeria-type-approval-guide',
+        'title'   => 'NCC IMEI Check Nigeria: Type Approval & Blacklist Guide 2026',
+        'excerpt' => 'How to verify a phone is NCC type-approved and not blacklisted before buying in Lagos, Abuja, or Port Harcourt.',
+        'date'    => '2026-08-06',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## Why the NCC checks IMEIs in Nigeria
+
+The **Nigerian Communications Commission (NCC)** regulates every device that connects to Nigeria's mobile networks — MTN, Airtel, Glo, and 9mobile. Under the Commission's **Device Management System (DMS)**, phones must carry a genuine, **type-approved** IMEI to register on a Nigerian SIM. Two categories of devices get blocked:
+
+- **Counterfeit or cloned IMEIs** — hardware sold in fake packaging, or one real IMEI duplicated across many units.
+- **Non-type-approved imports** — devices that were never certified for the Nigerian market, common with grey-market shipments through Lagos and Kano.
+
+For buyers, this means an IMEI check is not optional. A phone that looks genuine and powers on fine in the shop can still be rejected by the network the moment you insert a Nigerian SIM.
+
+## Three checks every Nigerian buyer should run
+
+### 1. Free IMEI / model check
+
+Confirm the phone's actual brand and model match what the seller claims. A device sold as a "Samsung Galaxy A54" that returns an unrelated model on lookup is a counterfeit or clone.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+
+### 2. WorldWide Blacklist check
+
+This is the single most important check in Nigeria's high-clone, high-import market. It confirms the IMEI has not been reported lost or stolen anywhere in the world — a status that will get the device blocked once it registers on the NCC's system.
+
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+
+### 3. Brand-specific lock check
+
+For Samsung devices — dominant in Nigeria's mid-range segment — check Knox Guard status, which reveals the phone's country of manufacture and whether it is enrolled in an enterprise lock. For iPhones, check iCloud Activation Lock before paying.
+
+- [Samsung Info + Knox Guard](https://imeihub.net/service.php?slug=samsung-info)
+
+## Step-by-step: checking a phone before you buy
+
+1. **Dial `*#06#`** on the seller's phone and compare the IMEI to the box and SIM tray. Any mismatch is a red flag.
+2. **Run the free IMEI check** to confirm brand and model.
+3. **Run the blacklist check** to rule out a stolen or reported device.
+4. **Run the brand-specific lock check** (Samsung Knox, Apple iCloud) relevant to the device.
+5. **Only pay once all three come back clean.**
+
+## What happens if your phone gets blocked
+
+If the NCC's Device Management System flags an IMEI, all four Nigerian carriers stop the device from registering — no calls, no SMS, no mobile data on any local SIM. Wi-Fi still works, but the phone is unusable as a phone. There is no quick workaround: recovery requires proof of legitimate purchase submitted through the carrier or the NCC, and cloned or counterfeit IMEIs generally cannot be cleared at all.
+
+## Comparison: what each check actually tells you
+
+| Check | What it reveals | Cost |
+|---|---|---|
+| Free IMEI check | Brand, model, basic specs | Free |
+| WorldWide Blacklist | Stolen/lost report status globally | Paid |
+| Samsung Knox Guard | Country of sale, enterprise lock status | Paid |
+| Apple iCloud status | Activation Lock ON/OFF | Paid |
+
+## Frequently asked questions
+
+**Q: Does the NCC check apply to phones I already own?**
+A: Yes. Any device connecting to a Nigerian SIM is subject to DMS screening, not just newly imported phones.
+
+**Q: Can a shop remove a blacklist flag for me?**
+A: No individual seller or shop can clear an international blacklist entry — only the reporting carrier can, once the device is confirmed recovered or the report was made in error.
+
+**Q: Is a type-approved phone automatically blacklist-clean?**
+A: No — the two checks are independent. A phone can be a genuine, type-approved model and still be blacklisted if it was reported stolen. Always run both checks.
+
+Run all three checks in under five minutes at [Imeihub Services](https://imeihub.net/services.php) before you hand over cash for any used phone in Nigeria.
+MD,
+    ],
+
 ];
