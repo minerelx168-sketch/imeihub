@@ -8831,4 +8831,89 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'togo-arcep-imei-check-stolen-phone-guide',
+        'title'   => 'Togo IMEI Check: ARCEP Rules & Stolen Phone Guide 2026',
+        'excerpt' => 'Buying a used phone in Lomé? Here is how ARCEP Togo\'s device-identity rules work and how to check an IMEI before you pay.',
+        'date'    => '2026-08-16',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## Why an IMEI check matters before buying a phone in Togo
+
+Togo's second-hand phone market — concentrated around Lomé's **Grand Marché** and the many small electronics stalls along Boulevard du 13 Janvier — moves a high volume of imported devices, many of them re-sold several times before reaching a final buyer. Because Togo, like its West African neighbours, has moved toward device-identity oversight through its telecom regulator, a phone that looks fine in a five-minute test at the stall can still turn out to be reported stolen, cloned, or otherwise unusable once you try to register it.
+
+This guide explains what an IMEI is, how Togo's regulatory approach to device identity works in practice, and the checks you should run before handing over cash for any second-hand or imported phone.
+
+## Who regulates mobile devices in Togo?
+
+Telecommunications in Togo are regulated by **ARCEP Togo** (Autorité de Réglementation des Communications Électroniques et des Postes), the national authority responsible for licensing mobile operators, managing spectrum, and — increasingly, in line with a broader West African trend — device identity and anti-counterfeiting oversight. Togo's two main mobile operators, **Togocom** and **Moov Africa Togo**, both rely on the IMEI embedded in every GSM device to identify it on their networks.
+
+The regional direction is clear even where implementation timelines differ from country to country: neighbouring markets (Ghana's NCA, Nigeria's NCC, Sierra Leone's NATCOM) have each rolled out — or are rolling out — an Equipment Identity Register (EIR) that lets a regulator or operator block a phone network-wide based on its IMEI. Togo buyers should assume the same direction of travel applies locally, and treat IMEI verification as standard due diligence rather than an optional extra.
+
+## What actually gets checked when you verify an IMEI
+
+An IMEI check is not a single lookup — it answers several separate questions, and a phone can pass one and fail another:
+
+- **Does the IMEI match the phone?** The first eight digits (the TAC, or Type Allocation Code) identify the brand and model. If a seller claims "Samsung Galaxy A54" but the IMEI decodes to a different device, that is a hard stop.
+- **Is the IMEI valid at all?** A 15-digit number that fails the Luhn checksum, or that is obviously duplicated across multiple listings, points to a cloned or counterfeit unit.
+- **Has the device been reported lost or stolen?** International blacklist databases aggregate reports from carriers and law-enforcement partners across many countries — relevant for phones that arrived in Togo via Nigeria, Ghana, or further afield.
+- **Is the device locked to a previous owner's account?** Apple's iCloud Activation Lock and Samsung's Knox Guard are the two most common reasons a buyer in Lomé ends up with a phone that cannot be reset or reactivated.
+
+## Step-by-step: checking a phone before you buy in Lomé
+
+**Step 1 — Get the IMEI from the phone itself, not just the box.**
+Dial `*#06#` on the handset and compare the number shown on screen to the number printed on the box and on the SIM tray. All three should match; if the seller can only show you a box or a screenshot, treat that as a warning sign.
+
+**Step 2 — Note both IMEI numbers on dual-SIM phones.**
+Most phones sold in Togo are dual-SIM. Each SIM slot has its own IMEI, and both need to be clean — a device can pass on IMEI 1 and still be blocked on IMEI 2.
+
+**Step 3 — Run a free IMEI lookup to confirm brand and model.**
+This is the fastest way to catch a mismatched or cloned device before spending any money: [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check).
+
+**Step 4 — Run a blacklist check.**
+A [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) cross-references international carrier and law-enforcement blacklist databases — useful given how many devices in Togo's market have passed through several countries.
+
+**Step 5 — Check account locks for Apple and Samsung devices.**
+For iPhones, confirm iCloud Activation Lock is off. For Samsung devices, confirm the Knox Guard status. Both are common reasons a phone that "works fine" in the shop becomes unusable the moment you try to set it up with your own account.
+
+## Red flags specific to Togo's market
+
+- **A price that is noticeably below the going rate for that model.** In Lomé's competitive resale market, an unusually cheap iPhone or Samsung flagship is more often explained by a blacklist or lock problem than by a genuine bargain.
+- **A seller who is reluctant to let you dial `*#06#` before paying.** A legitimate seller has no reason to object to a 30-second check.
+- **Packaging that does not match the phone's language settings or regional model number.** A device boxed for a different market (different plug, different model suffix) can indicate a device that was never intended for sale in Togo — and may carry a higher risk of being reported elsewhere.
+- **No functioning receipt or proof of purchase.** Ask for one; it protects you if a dispute over the device's origin comes up later.
+
+## A quick reference: which checks for which situation
+
+| Situation | Checks to run |
+| --- | --- |
+| Brand-new phone, sealed box, from an authorised dealer | Free IMEI check only |
+| Second-hand phone from a Grand Marché stall | Free IMEI + Blacklist + Account lock (iCloud/Knox) |
+| Phone imported informally from Ghana, Nigeria, or Benin | Free IMEI + Blacklist + Model/region check |
+| Any iPhone, regardless of source | Free IMEI + iCloud Activation Lock check |
+
+## Frequently asked questions
+
+**Q: Does Togo currently block phones the way Nigeria or Ghana do?**
+A: Device-identity oversight is expanding across West Africa, with ARCEP Togo aligned to the same regional direction as neighbouring regulators. Whether or not network-level blocking is active at the moment you read this, an IMEI that is already flagged internationally (stolen, cloned, or duplicated) is a real risk regardless of local enforcement status — it can still fail activation with either Togocom or Moov Africa Togo, or become unusable if it travels to a country actively enforcing a blacklist.
+
+**Q: I bought a phone that turned out to be iCloud-locked. What can I do?**
+A: Very little without the original owner's Apple ID and password. This is why checking iCloud status *before* paying is far more effective than trying to resolve it afterward — always confirm with an [iCloud check](https://imeihub.net/service.php?slug=apple-icloud) before buying any second-hand iPhone.
+
+**Q: Both my SIM slots show different IMEI numbers — is that normal?**
+A: Yes, this is normal for any dual-SIM phone. Each physical SIM slot has its own distinct IMEI, and both should be checked separately.
+
+**Q: Where can I check an IMEI from Togo?**
+A: Any internet-connected device works — [imeihub.net](https://imeihub.net) runs checks from a browser with no local installation required, which is convenient for verifying a phone at the point of sale before you commit to buying it.
+
+## Check before you commit
+
+A used-phone purchase in Togo is a considered expense for most buyers — running two or three checks before paying takes a few minutes and costs a fraction of what a blacklisted or locked device would cost you afterward.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+- [Full Services List](https://imeihub.net/services.php)
+MD,
+    ],
+
 ];
