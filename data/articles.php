@@ -8831,4 +8831,85 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'senegal-imei-check-guide',
+        'title'   => 'Senegal IMEI Check: Verify Any Phone Before You Buy',
+        'excerpt' => 'Buying a phone in Dakar or importing one from abroad? Here is how to check the IMEI (numéro IMEI) before you pay, in plain French-friendly steps.',
+        'date'    => '2026-07-23',
+        'tag'     => 'Guide',
+        'body'    => <<<MD
+## Senegal IMEI Check: A Buyer's Guide for Imported and Second-Hand Phones
+
+Senegal's phone market runs on imports — new devices from Europe and the Gulf, and a large volume of second-hand and refurbished phones sold through markets like **Sandaga** and **Colobane** in Dakar, or shipped in by relatives and traders from France, Belgium, and Dubai. That mix makes Senegal one of the higher-risk markets in West Africa for **stolen, blacklisted, or counterfeit devices** — and checking the IMEI before you hand over your money (or your CFA francs) is the single best protection you have.
+
+This guide explains what the **IMEI** (numéro IMEI) is, why it matters for a purchase in Senegal specifically, and how to check it in under a minute.
+
+---
+
+## Why IMEI Checks Matter More for Imported Phones
+
+Every phone has a 15-digit **IMEI (International Mobile Equipment Identity)** that uniquely identifies the device — separate from the SIM card or phone number. When a phone is reported lost or stolen anywhere in the world, its IMEI can be added to the **GSMA's global blacklist database**, a shared record that mobile networks around the world can check against.
+
+For a country like Senegal, where a large share of phones enter the country second-hand rather than through an official retailer, this matters because:
+
+- A phone stolen in **Paris, Brussels, or Dubai** can be resold in Senegal months later, still carrying its blacklisted status;
+- A device blocked by its country of origin's network may still power on and connect to Wi-Fi in Dakar, but can lose **cellular service** the moment a local carrier syncs with the international blacklist;
+- Counterfeit or **cloned IMEI** devices (two phones sharing the same identity number) are common in informal markets and can cause a legitimate phone to be flagged in error.
+
+Senegal's telecom sector is overseen by the **Autorité de Régulation des Télécommunications et des Postes (ARTP)**, which regulates network operators including **Orange Sénégal**, **Free (formerly Tigo)**, and **Expresso**. As with most GSMA-affiliated operators, these networks can restrict service to a device whose IMEI is flagged internationally — so a clean purchase today does not guarantee a working phone tomorrow if you skip the check.
+
+---
+
+## How to Find Your Phone's IMEI (Trouver le numéro IMEI)
+
+Before you can check anything, you need the number itself:
+
+1. Dial **`*#06#`** on the phone's keypad — the IMEI (or two IMEIs, for dual-SIM phones) displays instantly, no internet required.
+2. Check the **original box or receipt**, if the seller still has it.
+3. On iPhone: **Settings → General → About**. On Android: **Settings → About Phone → Status**.
+4. Look under the battery on older phones with removable backs, or on the SIM tray on newer models.
+
+---
+
+## Step-by-Step: Checking a Phone Before You Buy in Senegal
+
+- **Step 1 — Get the IMEI from the seller before paying anything.** Ask them to dial `*#06#` in front of you; never rely on a number written on a piece of paper.
+- **Step 2 — Run a free IMEI check** to confirm the brand, model, and specifications match what the seller claims — a mismatch is an early red flag for a cloned or swapped device.
+- **Step 3 — Run a blacklist check** to confirm the device has not been reported lost or stolen anywhere in the world, not just in Senegal.
+- **Step 4 — Check the carrier lock status** if the phone was imported from Europe, the US, or the Gulf — a locked phone may only work with its original carrier's SIM, which is useless once it is in Dakar.
+- **Step 5 — Keep proof of the check and the transaction** — a screenshot of the check result alongside the seller's ID protects you if a dispute arises later.
+
+---
+
+## What a Basic vs. Full IMEI Check Tells You
+
+| Check Type | What It Confirms | Best For |
+|---|---|---|
+| Free IMEI Check | Brand, model, colour, storage, basic specs | Confirming the phone matches the listing |
+| WorldWide Blacklist Check | Whether the device is reported lost/stolen anywhere globally | Any second-hand or imported purchase |
+| Carrier / SIM-Lock Check | Whether the phone is locked to a specific network | Phones brought in from Europe, the US, or the Gulf |
+| iCloud / MDM Check (iPhone) | Whether the device is still linked to a previous owner's account | Any used iPhone |
+
+---
+
+## Buying Safely in Dakar's Second-Hand Market
+
+If you are shopping at Sandaga, Colobane, or through a local Facebook/WhatsApp marketplace listing:
+
+- Meet in a public place with reliable mobile signal so you can run the check live before paying;
+- Be suspicious of prices significantly below the going rate for a given model — it is often the clearest sign of a stolen or blacklisted device;
+- For higher-value phones (recent iPhones and flagship Samsung/Android models), run **both** a blacklist check and an iCloud/account-lock check before you agree on a price;
+- If the seller refuses to let you check the IMEI before payment, walk away.
+
+---
+
+## Run Your Check
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, and specs instantly, at no cost
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm the phone has not been reported stolen anywhere in the world
+
+A phone purchase in Senegal's second-hand market can be a great deal or an expensive mistake — the IMEI check is what tells you which one you are getting, before you pay rather than after.
+MD,
+    ],
+
 ];
