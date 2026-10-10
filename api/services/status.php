@@ -89,6 +89,7 @@ if ($status === 'SUCCESS') {
     reply(200, [
         'ok'              => true,
         'status'          => 'success',
+        'service_code'    => $code,
         'public_id'       => $publicId,
         'imei'            => $imei,
         'tac'             => $imei ? imei_tac($imei) : '',
@@ -140,6 +141,7 @@ if ($status === 'PROCESSING' && !empty($usage['provider_order_id'])) {
             reply(200, [
                 'ok'              => true,
                 'status'          => 'success',
+                'service_code'    => $code,
                 'public_id'       => $publicId,
                 'imei'            => $imei,
                 'tac'             => $imei ? imei_tac($imei) : '',
@@ -172,3 +174,4 @@ reply(200, [
     'public_id'   => $publicId,
     'retry_after' => 8,
 ]);
+

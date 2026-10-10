@@ -236,6 +236,7 @@ $curated = service_result_has_template($code);
 echo json_encode([
     'ok'              => true,
     'status'          => 'success',
+    'service_code'    => $code,
     'public_id'       => $publicId,
     'imei'            => $imei,
     'tac'             => imei_tac($imei),
@@ -248,3 +249,4 @@ echo json_encode([
     // Community blacklist alerts are a paid feature; suppress for free services.
     'blacklist'       => $cost > 0 ? blacklist_status($imei) : null,
 ]);
+
