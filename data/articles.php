@@ -113,12 +113,12 @@ Apple's current [Face ID troubleshooting guide](https://support.apple.com/en-us/
 
 Work through the following sequence:
 
-1. Clean the camera area and remove an obstructing case or protector.
-2. Update iOS if the owner agrees and the phone has a reliable connection and backup.
-3. Restart the iPhone and enter the passcode.
-4. Reset Face ID, then attempt a new enrollment.
-5. Review Parts and Service History for relevant messages.
-6. Seek service if setup repeatedly stalls or the camera does not work.
+- Clean the camera area and remove an obstructing case or protector.
+- Update iOS if the owner agrees and the phone has a reliable connection and backup.
+- Restart the iPhone and enter the passcode.
+- Reset Face ID, then attempt a new enrollment.
+- Review Parts and Service History for relevant messages.
+- Seek service if setup repeatedly stalls or the camera does not work.
 
 Do not treat a successful IMEI report as a reason to ignore a failed enrollment. Apple states that service may be needed when Face ID cannot complete setup. A seller's promise that a future update will fix it is not proof.
 
@@ -229,10 +229,10 @@ Whenever possible, inspect the phone in person or during a live video call. Stat
 
 Google directs users to:
 
-1. Open **Settings**.
-2. Tap **About phone** or **About tablet**.
-3. Tap **Android version**.
-4. Review the Android version, security update, Google Play system update, and build number.
+- Open **Settings**.
+- Tap **About phone** or **About tablet**.
+- Tap **Android version**.
+- Review the Android version, security update, Google Play system update, and build number.
 
 Menu wording can vary by manufacturer. Use Settings search for “Android version,” “software information,” or “build number” if the path differs.
 
