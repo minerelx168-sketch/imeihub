@@ -8,6 +8,109 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ncc-imei-check-verify-phone-imei-nigeria-buyers-guide',
+        'title' => 'NCC IMEI Check: Verify a Phone IMEI in Nigeria',
+        'meta_title' => 'NCC IMEI Check Nigeria: Verify a Phone IMEI',
+        'excerpt' => 'Buying a phone in Nigeria? Learn how to verify its IMEI, spot counterfeit or unapproved devices, and check NCC type approval before you pay.',
+        'date' => '2026-10-11',
+        'tag' => 'Regulation',
+        'body' => <<<'ARTICLE_20261011_1'
+An **NCC IMEI check** is the first thing to do before paying for any phone in Nigeria. The Nigerian Communications Commission (NCC) regulates which handsets may be sold and connected to local networks, and the 15-digit IMEI is how a device is identified. Counterfeit, cloned, stolen or unapproved phones are a real risk in busy markets such as Computer Village in Lagos or Wuse in Abuja. This guide shows how to **verify a phone IMEI in Nigeria**, what each result means, and what to do when something does not add up.
+
+## What the NCC Does With IMEI Numbers
+
+The NCC is Nigeria's telecoms regulator. Two parts of its work matter to phone buyers:
+
+- **Type approval:** handsets sold in Nigeria are expected to meet NCC technical standards. A device that is not type approved, or that is a copy of a branded model, can be treated as unapproved or counterfeit equipment.
+- **Consumer protection:** the NCC has repeatedly warned the public about counterfeit and substandard devices, and it publishes guidance for consumers who want to confirm a handset is genuine.
+
+The IMEI links a handset to its **TAC (Type Allocation Code)**, the first 8 digits, which identifies the brand and model. If the TAC does not match what the seller says the phone is, that is the earliest warning sign of a fake.
+
+Because rules and tools change, always confirm the latest requirements on the NCC website (ncc.gov.ng) or through the NCC consumer line before relying on any single source.
+
+## Step 1: Get the IMEI From the Phone Itself
+
+Never rely on a number the seller types or texts to you. Read it from the device:
+
+- Open the dialer and enter the code star-hash-0-6-hash (written as `*#06#`). The IMEI appears on screen.
+- Open **Settings > About phone** (Android) or **Settings > General > About** (iPhone).
+- Look at the **box label** and the **SIM tray or back of the phone** on supported models.
+
+All of these should show the same number. A mismatch between the screen, the box and the tray is a red flag.
+
+Dual-SIM phones have two IMEIs. Check both, and record IMEI 1 for the lookup.
+
+## Step 2: Validate the Number and Identify the Model
+
+Run the IMEI through the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). It confirms the number passes the Luhn checksum and returns the brand and model tied to that TAC.
+
+Compare the result with the phone in your hand:
+
+| Result | What it suggests | What to do |
+|---|---|---|
+| Brand and model match the phone | The IMEI is consistent with the device | Continue to the blacklist check |
+| Different brand or model | Possible clone, swapped IMEI or counterfeit | Do not buy |
+| Invalid or unknown IMEI | Typo, fake or altered number | Recheck, then walk away if it persists |
+| No IMEI at all, or mismatched numbers | Tampering | Do not buy |
+
+## Step 3: Check Whether the Phone Is Blacklisted
+
+A genuine phone can still be a stolen one. Run the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see whether the IMEI has been reported lost or stolen. A blacklisted handset may work briefly and then lose service once a network applies the block.
+
+This matters in Nigeria for two reasons:
+
+- Phones stolen elsewhere are sometimes resold locally.
+- A device reported stolen in another country may still carry a flag that follows it.
+
+Remember that a blacklist check covers reported theft or loss. It is not an NCC type-approval certificate, and a clean result does not prove the phone is genuine, so use it together with Step 2.
+
+## Spotting a Counterfeit Phone Before You Pay
+
+Fake phones are built to look right and fail on detail. Check these while you are still at the stall:
+
+- **Price too good to be true.** A flagship at half the usual price is almost always a copy or a stolen unit.
+- **Specs that do not match.** Open About phone and compare storage, RAM and processor with the official specification of the model you identified.
+- **Cheap build quality.** Misaligned buttons, a loose back, blurry logos or a poor screen suggest a clone.
+- **Pre-installed oddities.** Unknown app stores or an Android skin that does not match the brand are warning signs.
+- **Missing or generic box contents.** Genuine boxes carry matching labels, a proper charger and printed documentation.
+
+If the seller refuses to let you test the phone, check the IMEI, or insert your own SIM, treat that as the answer.
+
+## Local Tips for Lagos, Abuja and Online Sales
+
+- **Test in person.** Insert your own SIM, make a call, use mobile data and try the camera before handing over money.
+- **Keep the receipt.** Ask for a written receipt that lists the model and IMEI.
+- **Be careful with deliveries.** If you buy online, check the IMEI the moment the parcel arrives and keep the unboxing evidence.
+- **Avoid pressure.** Sellers who rush you or discourage checks are protecting something.
+- **Traveling with a phone?** Check how it will be treated on arrival and whether your network accepts it.
+
+## What To Do If a Phone Fails the Check
+
+1. Do not complete the purchase. Walk away or ask for a refund immediately.
+2. Keep any receipt, messages and the seller's contact details.
+3. If you suspect stolen goods, report it to the Nigeria Police Force with the IMEI.
+4. For counterfeit or substandard devices, you can raise a complaint with the NCC consumer line, which is reachable on **622** from supported networks. Confirm the current contact details on the official NCC website.
+
+## Frequently Asked Questions
+
+**Is there one official NCC page where I can type any IMEI and get a pass or fail?**
+Do not assume so. Check ncc.gov.ng for the tools and device lists the Commission currently publishes. A third-party IMEI check helps you validate the number, identify the model and test for blacklisting, but it does not replace official NCC information.
+
+**Can a counterfeit phone have a valid IMEI?**
+Yes. Fakes may reuse a real IMEI copied from a genuine device. That is why the model match in Step 2 and the physical inspection matter.
+
+**Does a clean blacklist result mean the phone is safe to buy?**
+It means the IMEI has not been reported lost or stolen in the database checked. It does not prove the device is genuine or free of other locks such as an iCloud or Google account lock.
+
+**Are two IMEIs normal?**
+On dual-SIM phones, yes. Each SIM slot has its own IMEI. Check both.
+
+## Check Before You Pay
+
+A few minutes of checking can save you from losing money on a fake or stolen handset. Start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand and model, then run the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) for theft and loss reports before you hand over cash.
+ARTICLE_20261011_1,
+    ],
+    [
         'slug' => 'apple-imei-verify-face-id',
         'title' => 'Apple IMEI Verify: Can It Confirm Face ID Works?',
         'meta_title' => 'Apple IMEI Verify: Does Face ID Work?',
