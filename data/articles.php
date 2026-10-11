@@ -8,6 +8,309 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'blacklisted-iphone-apple-pay',
+        'title' => 'Blacklisted iPhone: Can It Still Use Apple Pay?',
+        'meta_title' => 'Blacklisted iPhone: Does Apple Pay Still Work?',
+        'excerpt' => 'Learn how an iPhone blacklist affects cellular service, why Apple Pay is separate, and when Lost Mode or account security can suspend payment cards.',
+        'date' => '2026-10-11',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261011_2'
+A **blacklisted iPhone** may still open Wallet or make some Apple Pay transactions because an IMEI blacklist and Apple Pay control different systems. The blacklist primarily affects the phone's eligibility for cellular networks. Apple Pay depends on supported hardware, an Apple Account, eligible cards, device security, and the issuer's approval. However, a phone marked as lost, locked by its owner, or restricted by an account or card issuer may have payment cards suspended. Never treat working Apple Pay as proof that an iPhone is safe to buy.
+
+## Short Answer: Cellular Blocking and Apple Pay Are Separate
+
+An IMEI blacklist records a device identifier as blocked, commonly after a lost-or-stolen report. Participating carriers can use that status to deny cellular service. The status concerns the device on mobile networks; it is not a general switch for every feature on the iPhone.
+
+Apple Pay uses a separate security and payment process. A blacklisted phone might still connect to Wi-Fi, open Wallet, and meet the conditions for a transaction. But the circumstances behind the blacklist matter. If the legitimate owner marks the iPhone as lost, Apple says payment cards used with Apple Pay are suspended. A bank or card issuer can also restrict a card independently.
+
+The safe conclusion is not “Apple Pay works, so the phone is clean.” It is “these systems must be checked separately.”
+
+## What an IMEI Blacklist Usually Affects
+
+The IMEI identifies the phone's cellular equipment. When a carrier records that number as lost, stolen, or otherwise blocked and shares it through an industry database, other participating networks can refuse service to the device.
+
+T-Mobile's [lost or stolen device guidance](https://www.t-mobile.com/support/account/lost-or-stolen-device-help), for example, says a reported device's IMEI is added to an international database that prevents it from working on most carrier networks. Exact coverage and policy can vary by carrier and country, so a status in one market should not be generalized into a worldwide guarantee.
+
+A network block can affect:
+
+- Cellular activation.
+- Voice calls over the mobile network.
+- SMS and mobile data.
+- Use with participating carriers that recognize the record.
+
+It does not automatically erase the phone, remove apps, sign out the Apple Account, or disable every Wi-Fi feature. It also does not prove who currently possesses the device.
+
+## Why Apple Pay May Behave Differently
+
+Apple Pay does not use the IMEI blacklist as its sole authorization system.
+
+### Apple Pay uses device and payment credentials
+
+Apple's [Apple Pay security and privacy overview](https://support.apple.com/en-us/101554) explains that cards are represented on the device with a device-specific number and that transactions use security features rather than sending the physical card number to the merchant. The service also depends on a supported device, an eligible card, and the card issuer.
+
+Whether a cellular network accepts the phone's IMEI is a different question from whether Wallet has a valid payment credential. That is why a network-blacklisted iPhone is not guaranteed to lose Apple Pay immediately.
+
+### Apple Pay can work without cellular service in some situations
+
+Contactless payments use NFC between the iPhone and the payment terminal. A lack of cellular activation does not by itself prove that an already provisioned card cannot be presented. Availability can still depend on the device state, issuer, transaction, location, and Apple Pay requirements.
+
+Do not buy a blacklisted phone on the assumption that Wi-Fi and Wallet make it equivalent to a normal iPhone. It can remain unable to join supported mobile networks and may be subject to ownership or account controls.
+
+### The reason for the blacklist changes the risk
+
+A reporting mistake or unresolved carrier record is different from an active lost-or-stolen case. If the phone belongs to someone else, working features do not transfer ownership. A later Lost Mode action, account recovery, issuer decision, or network update can change what works.
+
+## What Happens When the Owner Marks an iPhone as Lost
+
+Apple's [stolen iPhone guidance](https://support.apple.com/en-us/120837) tells owners to mark a missing device as lost in Find My. Apple states that this locks the device with a passcode and suspends payment cards and passes used with Apple Pay. Find My also keeps Activation Lock in place to help prevent unauthorized reactivation.
+
+This is separate from a carrier IMEI blacklist:
+
+- **IMEI blacklist:** participating mobile networks may block the cellular equipment.
+- **Lost Mode:** Find My locks the iPhone and displays owner-directed contact information.
+- **Activation Lock:** the linked Apple Account is required before another person can activate and use the device after erase.
+- **Apple Pay suspension:** cards and passes on that device are suspended when it is marked lost.
+
+These controls can coexist, but one status does not reliably reveal all the others. An IMEI report cannot remove Lost Mode, bypass Activation Lock, restore payment cards, or establish lawful ownership.
+
+## Can a Blacklisted iPhone Add a New Card?
+
+It is not safe to predict this from the IMEI status alone. Adding a card can require:
+
+- A supported iPhone and current software.
+- A signed-in Apple Account.
+- A device passcode and required security settings.
+- An eligible card from a participating issuer.
+- Issuer verification and account approval.
+- A device that is not restricted by Find My or account-security actions.
+
+Apple's [compatible-device requirements](https://support.apple.com/en-us/102896) describe the device and account conditions for Apple Pay. A carrier blacklist is not listed as a substitute for those requirements, and satisfying the requirements does not clear the blacklist.
+
+If a card appears in Wallet, that still does not verify the seller's ownership, cellular eligibility, balance status, or future access. Do not ask a seller to expose card details or perform a payment for you. Verify the phone through lawful, privacy-respecting steps instead.
+
+## How to Evaluate a Used iPhone Before Buying
+
+### Match the IMEI to the actual phone
+
+Open **Settings > General > About** and compare the IMEI digit for digit with the seller's listing and any report. Apple's [identifier guide](https://support.apple.com/en-us/108037) explains where to find the IMEI, serial number, EID, and other identifiers.
+
+Do not rely only on a box, tray, receipt photo, or screenshot. Dual-SIM iPhones can have more than one IMEI, so identify which one the report covers.
+
+### Start with model identification
+
+The [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) returns basic brand, model, and specification information. Use it to confirm that the entered number is consistent with the iPhone in front of you.
+
+That free lookup is not advertised as a free blacklist, iCloud, carrier-lock, warranty, financing, or Apple Pay report. A correct model result does not mean the phone is clear for cellular use.
+
+### Use the correct blacklist report
+
+If lost-or-stolen status matters, choose the separate [imeihub Worldwide Blacklist report](https://imeihub.net/service.php?slug=blacklist) and review the exact fields shown on the service page before ordering. A blacklist report is a point-in-time database result. It cannot guarantee future status or correct a record.
+
+If the result is blocked, ask the seller to resolve it with the carrier that placed the restriction before money changes hands. A buyer usually cannot prove or repair another person's account history.
+
+### Confirm that Find My is removed through Apple's process
+
+Do not accept an iPhone that remains linked to the previous owner's account. The seller should follow Apple's documented transfer steps, erase the device, and allow setup to reach the point where it does not request the previous owner's Apple Account.
+
+Never pay for a third-party claim that an IMEI lookup will remove Activation Lock. A lookup reports information; it does not change Apple account controls.
+
+### Test cellular service with the intended carrier
+
+An “unlocked” label and a clean blacklist result answer different questions. Carrier Lock in Settings can describe SIM restrictions, while a blacklist can still make the IMEI ineligible. Confirm both and, where practical, test activation with the carrier you plan to use.
+
+### Inspect the rest of the phone
+
+Check cameras, Face ID, speakers, microphones, charging, battery information, buttons, Wi-Fi, Bluetooth, and display condition. Review Parts and Service History where supported. No IMEI report performs these hardware tests.
+
+## What If the Seller Says Apple Pay Proves the Phone Is Clean?
+
+Treat that claim as unreliable. A successful Wallet screen or contactless transaction can show only that a particular payment action worked at that moment. It does not prove:
+
+- The IMEI is absent from every relevant blacklist.
+- The seller is the lawful owner.
+- Find My and Activation Lock are removed.
+- The phone is paid off.
+- The intended carrier will activate it.
+- The card will remain available.
+- The device will keep its current status after databases update.
+
+Ask for verifiable ownership and complete the appropriate checks instead of using a payment feature as a shortcut.
+
+## Can an IMEI Check Restore Apple Pay?
+
+No. An IMEI lookup does not reactivate cards, remove Lost Mode, change an Apple Account, unlock a carrier, or clear a blacklist. If Apple Pay is unavailable on a phone you legitimately own:
+
+- Review Wallet and Apple Account alerts.
+- Confirm that the device and region meet Apple's current requirements.
+- Contact the card issuer about card approval or suspension.
+- Contact Apple Support for device or account issues.
+- Contact the reporting carrier about an incorrect blacklist record.
+
+Keep those support paths separate. A carrier cannot necessarily resolve an issuer decision, and a card issuer cannot clear an IMEI block.
+
+## Conclusion: Verify Network, Ownership, and Wallet Separately
+
+A blacklisted iPhone may still use some Apple Pay functions because cellular eligibility and payment authorization are different systems. But Lost Mode, Activation Lock, Apple Account security, and issuer actions can suspend access independently. Before buying, match the IMEI, confirm ownership, remove Find My correctly, check blacklist status with the appropriate report, and test the intended carrier. Begin with the [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then use the [Worldwide Blacklist report](https://imeihub.net/service.php?slug=blacklist) only when you need its listed status fields.
+ARTICLE_20261011_2,
+    ],
+    [
+        'slug' => 'imei-checker-online-rooted-android',
+        'title' => 'IMEI Checker Online: Can It Detect a Rooted Android Phone?',
+        'meta_title' => 'Can an IMEI Checker Detect a Rooted Android?',
+        'excerpt' => 'Learn why an IMEI checker online cannot detect root access, how Android integrity checks work, and what to verify before buying a modified phone.',
+        'date' => '2026-10-11',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261011_1'
+An **IMEI checker online** can identify an Android phone and return database-backed details, but it cannot inspect that phone's live software to determine whether it is rooted. Root access, an unlocked bootloader, and a modified system image are software-state questions. An IMEI is a cellular-equipment identifier. If you are assessing a used phone, combine an IMEI lookup with on-device integrity checks and a careful functional inspection.
+
+## Short Answer: Root Status Is Not Stored in the IMEI
+
+Submitting an IMEI does not give a website remote access to the handset. The lookup can use the number to identify a device type or query the databases included in a selected report. It cannot run code on the phone, examine system partitions, inspect installed root-management tools, or verify the current boot state.
+
+That distinction matters because a phone can keep the same IMEI while its software changes many times. Its owner might install an official update, unlock the bootloader, flash a custom image, restore factory software, or change apps without changing the cellular identifier.
+
+Use each method for the question it can actually answer:
+
+- Use an IMEI check for device identity and the specific database fields listed by the service.
+- Use Android's on-device and app integrity signals for current software trust.
+- Use a hands-on test for banking apps, payments, biometrics, cameras, radios, and updates.
+- Use manufacturer or authorized support when a boot warning or integrity failure is unclear.
+
+## What a Free IMEI Check Can Show
+
+The [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) returns basic brand, model, and specification information from the submitted identifier. This is a useful first step when a listing uses an incomplete model name or when several regional variants look alike.
+
+A basic model lookup can help you:
+
+- Confirm that the IMEI maps to the expected brand and model family.
+- Compare the result with the model number shown in Settings.
+- Catch a mistyped or mismatched number before ordering another report.
+- Research the manufacturer's official software and security support for that model.
+
+It is not advertised as a free root-status, bootloader, blacklist, carrier-lock, financing, warranty, or account-lock report. Paid reports add the fields described on their service pages; payment does not turn a database lookup into a live software scan.
+
+## Why Root Cannot Be Detected from the IMEI
+
+The IMEI and root status describe different layers of the device.
+
+### The IMEI identifies cellular equipment
+
+The [GSMA IMEI Database overview](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) explains that the IMEI uniquely identifies mobile equipment and that its Type Allocation Code is associated with a device type. Networks and authorized databases can use that identifier for equipment-related records.
+
+The number does not contain a field that says “rooted,” “unrooted,” “bootloader locked,” or “custom ROM installed.” An ordinary factory reset or operating-system update also does not issue a new IMEI.
+
+### Root is a changeable software condition
+
+“Rooted” normally means that software on the phone can obtain elevated privileges beyond the standard Android application model. That condition can be introduced or removed after the device is manufactured. The same physical phone can move between official and modified software states while retaining its identity.
+
+An online IMEI result may correctly identify the model and still tell you nothing about the currently installed image. Conversely, an unexpected app warning does not prove that the IMEI is invalid or blacklisted.
+
+### Boot integrity requires a device-side measurement
+
+Android's [Verified Boot documentation](https://source.android.com/docs/security/features/verifiedboot) describes a chain of trust that verifies executable code and protected partitions before Android runs. It can communicate the device's integrity state to the user. Those checks happen during boot on the device; they are not reconstructed from the IMEI.
+
+Google's [Play Integrity API overview](https://developer.android.com/google/play/integrity/overview) similarly describes signals that help an app determine whether it is interacting with its genuine binary on a genuine, certified Android device. The app receives integrity verdicts from Google Play. A public IMEI form does not receive those private app-specific verdicts.
+
+## Better Ways to Check a Phone for Software Modification
+
+No single screen proves every Android phone is untouched. Use several consistent signals and treat contradictions as a reason to pause.
+
+### Watch the complete startup sequence
+
+Restart the phone and watch from power-on to the lock screen. Some manufacturers display a warning when the bootloader is unlocked or the operating system cannot be verified. Record the exact message and model number, then compare it with that manufacturer's official support material.
+
+The absence of a warning is not absolute proof that the phone has never been modified. It is one observation, not a universal certificate.
+
+### Check the device and build details
+
+Open **Settings > About phone** and the software-information screen. Menu names vary, but record:
+
+- Exact model number.
+- Android version.
+- Security update level.
+- Google Play system update date, when shown.
+- Full build number.
+
+Compare the model number with the IMEI result. Research the build using official manufacturer or carrier documentation. A custom name, an unfamiliar build, or an update path that does not match the exact variant deserves investigation.
+
+### Check Play Protect certification
+
+On devices with Google Play, the Play Store settings can show whether the device is Play Protect certified. Certification is useful context because Google applies compatibility and integrity requirements to certified devices.
+
+Do not treat this field as a complete forensic test. A certification problem can have several causes, and a passing screen does not guarantee that every app will accept the device. If the field is missing or reports a problem, investigate before buying.
+
+### Test the apps that matter to you
+
+Integrity-sensitive apps make their own decisions. A bank, payment service, game, streaming provider, or workplace app may restrict features on a modified or untrusted device. Install only from trusted stores, sign in safely, and test essential functions before the return period ends.
+
+One app working does not certify the entire phone. Different apps can request different integrity levels and can change their policies.
+
+### Ask for a clean, official reset when appropriate
+
+If the seller claims that a phone has been returned to stock, ask for evidence that the official image and update path are restored. A factory reset erases user data, but it does not necessarily relock an unlocked bootloader or replace a custom operating system with the manufacturer's software.
+
+The seller should remove their accounts correctly before reset. Do not proceed if the phone asks for a previous owner's Google account during setup.
+
+## A Practical Used-Android Verification Workflow
+
+### Match the physical phone to the identifier
+
+Find the IMEI in Settings and compare it digit for digit with the seller's listing, receipt, and report. Do not rely on a loose box or screenshot. Dual-SIM phones may show IMEI1 and IMEI2; make sure you know which number was checked.
+
+### Run the basic model lookup
+
+Use the free checker to confirm the expected brand and model family. If the result is unrelated to the phone, recheck every digit. Stop if the mismatch remains unresolved.
+
+### Inspect the boot and software state
+
+Restart the device, record warnings, review build details, and check for official updates. Compare the exact variant with manufacturer guidance rather than assuming that every phone sharing a marketing name receives the same software.
+
+### Test real-world functions
+
+Check calls, mobile data, Wi-Fi, Bluetooth, cameras, biometrics, charging, speakers, and the apps you depend on. A model match cannot prove that hardware works or that integrity-sensitive apps will accept the current software.
+
+### Order only the report that answers the remaining risk
+
+If you also need blacklist, carrier, financing, warranty, or account-status information, select a report that explicitly lists that field. These are separate questions. A clean database result does not certify the software, and a software-integrity result does not guarantee network eligibility.
+
+## What an IMEI Check Cannot Fix
+
+An IMEI lookup is informational. It does not:
+
+- Remove root access or a custom image.
+- Relock the bootloader.
+- Restore Verified Boot trust.
+- Make an app accept the phone.
+- Remove Factory Reset Protection.
+- Clear a carrier or blacklist restriction.
+- Repair damaged hardware.
+
+Be cautious if a seller says that purchasing a report will “certify,” “clean,” or remotely restore the device. The report should be evaluated only for the fields it promises to return.
+
+## Common Mistakes to Avoid
+
+### Mistake: Treating a correct model result as a software certificate
+
+The result confirms identity information, not the current system state. Inspect the handset.
+
+### Mistake: Assuming a factory reset removes every modification
+
+A reset normally clears user data. It may leave the bootloader state or installed system image unchanged.
+
+### Mistake: Trusting a single app
+
+App policies and integrity requirements differ. Test the services that matter to you and review device-side evidence together.
+
+### Mistake: Confusing root status with blacklist status
+
+Root concerns software privileges. A blacklist is a network-related database status. One does not establish the other.
+
+## Conclusion: Use IMEI for Identity, Then Inspect Android
+
+An IMEI checker online cannot detect whether an Android phone is rooted because the IMEI does not contain live software state. Use the number to confirm the device identity, then inspect startup warnings, build details, certification context, updates, and essential apps on the phone itself. Start with the [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), and order a paid report only when its listed fields answer a separate database question you still need resolved.
+ARTICLE_20261011_1,
+    ],
+    [
         'slug' => 'apple-imei-verify-face-id',
         'title' => 'Apple IMEI Verify: Can It Confirm Face ID Works?',
         'meta_title' => 'Apple IMEI Verify: Does Face ID Work?',
