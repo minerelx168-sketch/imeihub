@@ -8,6 +8,373 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'blacklisted-iphone-emergency-calls',
+        'title' => 'Blacklisted iPhone: Can It Still Make Emergency Calls?',
+        'meta_title' => 'Blacklisted iPhone: Can It Make Emergency Calls?',
+        'excerpt' => 'Learn when a blacklisted iPhone may still place emergency calls, why availability varies, and what an IMEI blacklist check can and cannot prove.',
+        'date' => '2026-10-15',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261015_2'
+A **blacklisted iPhone** may still be able to place an emergency call even when ordinary cellular service is blocked, because many networks and regulators treat emergency traffic differently from normal calls, texts, and mobile data. That is not a universal guarantee. The result depends on the country, available networks, radio compatibility, local rules, device condition, and whether the call can reach a supported emergency service. Never rely on a blacklisted phone as your only emergency device.
+
+## Short Answer: Emergency Access May Be Preserved
+
+An IMEI blacklist tells participating mobile networks to restrict normal service for a device reported lost, stolen, or otherwise blocked. Emergency calling can follow a separate rule.
+
+The GSMA’s 2026 [device-blocking recommendation](https://devicecheck.gsma.com/fs45) says operators should permit emergency calls from otherwise blocked devices when regulatory obligations require that traffic. In the United States, the FCC’s [Wireless 911 guidance](https://www.fcc.gov/consumers/guides/wireless-911-service) says wireless providers must transmit 911 calls to emergency call centers regardless of whether the caller subscribes to the provider.
+
+Apple also explains that an iPhone showing **SOS** or **SOS only** is not connected to its normal cellular network but can still make emergency calls through another available carrier network in supported countries.
+
+The practical answer is therefore:
+
+- An IMEI block can stop ordinary cellular service.
+- Emergency calls may still be routed when local rules and a compatible network allow them.
+- A successful emergency call does not remove the blacklist.
+- A failed test call does not authorize repeated non-emergency calls to an emergency number.
+
+Use a normal phone for routine testing. Call emergency services only for a real emergency.
+
+## Why Emergency Calls Are Treated Differently
+
+### Normal service requires carrier authorization
+
+For ordinary use, a carrier checks the subscription and device. A blacklisted IMEI may be denied network registration or service even if someone inserts a different SIM or activates a new eSIM.
+
+T-Mobile’s [lost or stolen device guidance](https://www.t-mobile.com/support/account/lost-or-stolen-device-help) says a reported IMEI is sent to an international database and can be prevented from working on most carrier networks, including after another SIM is inserted.
+
+That restriction can affect:
+
+- Normal voice calls.
+- SMS and MMS.
+- Mobile data.
+- SIM or eSIM activation.
+- Bring-your-own-device eligibility.
+
+### Emergency traffic can bypass normal subscription checks
+
+Public-safety rules may require networks to carry an emergency call even when the phone does not have an active subscription with that carrier. This exception exists to connect people with emergency services, not to restore normal use of a blocked device.
+
+The network still needs a usable radio signal, compatible technology, and a route to the local emergency center. An IMEI blacklist is only one part of that chain.
+
+## What “SOS Only” Means on an iPhone
+
+Apple’s [SOS, No Service, or Searching guide](https://support.apple.com/en-us/120000) says that **SOS** or **SOS only** means the iPhone is not connected to its normal cellular network. In Australia, Canada, and the United States, it may still make emergency calls through other carrier networks.
+
+That icon does not tell you why normal service failed. Possible causes include:
+
+- The carrier has no coverage at the location.
+- The line or account is inactive.
+- The SIM or eSIM is not working.
+- The phone is incompatible with the available network.
+- The device has a carrier, account, or IMEI restriction.
+- A local outage or radio problem exists.
+
+An SOS-only display is not a blacklist result. Use the correct IMEI report or ask the carrier if you need to investigate device status.
+
+## Situations Where an Emergency Call May Still Fail
+
+### No compatible network is available
+
+An emergency exception cannot create coverage. If no supported network signal reaches the phone, a cellular call cannot connect.
+
+Network shutdowns also matter. A device that lacks the bands or voice technology required by nearby operators may be unable to place a call even when it can detect some signal.
+
+### The iPhone is damaged or has a radio fault
+
+A broken antenna, damaged modem, failed battery, water damage, or severe software problem can prevent emergency communication. An IMEI lookup cannot test the live hardware.
+
+### Local rules differ
+
+Emergency numbers, routing duties, and support for phones without active service vary by jurisdiction. Apple’s SOS-only support through other carrier networks is specifically documented for certain countries; do not assume the same behavior everywhere.
+
+When travelling, learn the local emergency number and carrier requirements before an emergency occurs.
+
+### The phone cannot identify the caller normally
+
+A phone without active service may not supply reliable callback information. The FCC warns that an emergency center may have difficulty calling back a phone without an active service contract if the call is disconnected. Give the dispatcher your exact location and a reachable callback number when possible.
+
+### Emergency SOS via satellite is unavailable
+
+Supported iPhone models can offer Emergency SOS via satellite in eligible countries and conditions, but the feature has separate hardware, software, location, sky-view, and regional requirements. Apple’s [satellite emergency guide](https://support.apple.com/en-us/101573) tells users to try the local emergency number first, because another cellular network may still carry the call.
+
+Do not confuse satellite availability with an IMEI-blacklist removal. They are separate systems.
+
+## An IMEI Blacklist Check Cannot Test Emergency Calling
+
+A blacklist report answers whether the submitted IMEI appears in the covered lost, stolen, or blocked databases at the time of the lookup. It does not simulate a 911, 112, 999, or other emergency call.
+
+It cannot confirm:
+
+- Which networks are available at your location.
+- Whether local law requires those networks to accept the call.
+- Whether the iPhone’s antenna and modem work.
+- Whether an emergency center can receive location or callback details.
+- Whether satellite emergency service is available.
+- Whether the current user lawfully owns the phone.
+
+A check also cannot remove the blacklist, activate cellular service, unlock a carrier restriction, disable Find My, or clear Activation Lock.
+
+## How to Check a Used iPhone Safely
+
+### 1. Read the IMEI from the device
+
+Open **Settings > General > About** and copy the IMEI. Dual-SIM iPhones can have more than one IMEI, so confirm which one the seller and report are using. Apple’s [identifier guide](https://support.apple.com/en-us/108037) lists other official ways to find the IMEI when the device is not fully set up.
+
+Do not rely only on the box or a seller-provided screenshot.
+
+### 2. Confirm the basic model
+
+Run the number through the [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check). The free result identifies the brand and model associated with a valid IMEI. It is not advertised as a free blacklist, warranty, iCloud, carrier-lock, financing, or emergency-call report.
+
+If the model result does not match the phone, stop before purchasing another report.
+
+### 3. Order the blacklist field you actually need
+
+Use the paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) when you need the listed lost-or-stolen status. Read the service scope before ordering and submit the IMEI from the live iPhone.
+
+Treat the report as a point-in-time result. A clean result does not guarantee the device will remain clean, and a blocked result does not identify the person who made the report.
+
+### 4. Ask the carrier about a disputed block
+
+Only the reporting carrier or responsible organization can investigate and remove a legitimate block under its policies. The account holder may need proof of purchase, account verification, or recovery documentation.
+
+Do not pay a seller or third party who promises to “clean” a stolen-device record without the carrier.
+
+### 5. Verify Apple ownership protections separately
+
+Blacklist status and Activation Lock are different. The seller should sign out, turn off Find My, erase the iPhone, and let you begin setup without requesting the previous owner’s Apple Account.
+
+Emergency-calling capability does not prove that these steps were completed.
+
+## What to Do If You Own the Blacklisted iPhone
+
+### If it was reported lost and recovered
+
+Contact the carrier or organization that placed the block. T-Mobile, for example, directs customers who recover a reported device to use the account process to mark it found and restore service when applicable.
+
+Keep the receipt, account records, and the original report details. An IMEI lookup cannot authenticate your ownership for the carrier.
+
+### If you bought it from someone else
+
+Ask the seller to resolve the report with the original carrier. If the seller cannot or will not do so, use the marketplace’s return or buyer-protection process. Do not rely on emergency access, Wi-Fi, or satellite features as substitutes for a usable phone.
+
+### If there is a real emergency
+
+Try the local emergency number. Apple says an iPhone may route the call through another available network when the normal carrier is unavailable. If a supported iPhone cannot connect by cellular and offers Emergency SOS via satellite, follow the onscreen instructions.
+
+Move to a safer location and use another working phone when available. Do not delay seeking help while troubleshooting the blacklist.
+
+## Common Questions
+
+### Does calling 911 remove an IMEI blacklist?
+
+No. Emergency routing is a public-safety exception. It does not change the carrier’s device-status record.
+
+### Can I test emergency calling by dialing 911?
+
+Do not place a non-emergency test call unless your local emergency authority specifically provides a scheduled test procedure. Unnecessary calls can occupy emergency resources.
+
+### Will an emergency call work without a SIM?
+
+It may in some jurisdictions and network conditions, but it is not guaranteed. The phone still needs compatible hardware, an available network, and locally supported routing.
+
+### Does SOS only mean the iPhone is blacklisted?
+
+No. SOS only can result from coverage, account, SIM, compatibility, outage, or device problems. A separate blacklist check is needed to investigate the IMEI record.
+
+### Can a blacklisted iPhone use Emergency SOS via satellite?
+
+Blacklist status and satellite eligibility are separate, but satellite service still depends on supported iPhone hardware, software, country, and operating conditions. Follow Apple’s current availability guidance.
+
+## Conclusion
+
+A blacklisted iPhone may still place an emergency call when a compatible network and local public-safety rules permit it, but that possibility is not a substitute for normal cellular service or a reliable emergency plan. The call does not clean the IMEI, prove ownership, or remove Apple and carrier restrictions.
+
+Use the [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) to confirm the model, then order the paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) when you need the device’s listed blacklist status before buying or troubleshooting.
+
+ARTICLE_20261015_2,
+    ],
+
+    [
+        'slug' => 'iphone-serial-number-check-invalid-result',
+        'title' => 'iPhone Serial Number Check: What Does an Invalid Result Mean?',
+        'meta_title' => 'iPhone Serial Number Check: Invalid Result?',
+        'excerpt' => 'Learn why an iPhone serial number check may return an invalid result, how to verify the identifier, and when to contact Apple before buying.',
+        'date' => '2026-10-15',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261015_1'
+An **iPhone serial number check** that returns “invalid,” “not recognized,” or no matching device deserves a careful second look—but it does not prove by itself that the iPhone is fake. The number may have been copied incorrectly, confused with an IMEI or model number, taken from the wrong box, or submitted while the lookup service was unavailable. The safest response is to verify the serial number on the iPhone itself, compare it with Apple’s records, and resolve any mismatch before paying a seller.
+
+## Short Answer: Verify the Number Before Judging the Phone
+
+A serial-number result is only as reliable as the identifier submitted and the database being queried. Start with the live device instead of a seller’s screenshot or packaging.
+
+Apple’s [identifier guide](https://support.apple.com/en-us/108037) shows the serial number in **Settings > General > About**. It also lists other official places to find identifiers when the iPhone has not been set up or cannot be used normally.
+
+If Apple does not recognize the number, work through these questions:
+
+1. Did you copy the serial number—not the IMEI, EID, ICCID, model number, or part number?
+2. Does the serial in Settings match the Hello-screen information, Apple Account device list, computer, box, and receipt?
+3. Does Apple’s coverage system return a different message such as “purchase date not validated” or “not eligible” rather than “invalid”?
+4. Does the same number still fail after being copied directly and checked again later?
+5. Can Apple Support confirm the device and its service history?
+
+Do not treat an online error as permission to ignore a mismatch. For a used-phone purchase, an unresolved serial-number problem is a reason to pause.
+
+## Know Which Identifier You Are Checking
+
+### Serial number
+
+The serial number identifies an individual Apple product in Apple’s support, warranty, and service systems. It is commonly used for coverage checks, repairs, service-program eligibility, and account device records.
+
+### IMEI
+
+The IMEI identifies cellular equipment on mobile networks. An iPhone can have more than one IMEI when it supports multiple cellular lines. IMEI-based reports are used for model identity and separate fields such as blacklist, original carrier, SIM-lock, or activation information when the selected service explicitly provides them.
+
+### Model and part numbers
+
+A model number identifies a hardware family or regulatory variant. A part number can help describe the sales configuration. Neither should be pasted into a serial-number field unless the page specifically asks for it.
+
+### EID and ICCID
+
+The EID identifies embedded-SIM hardware, while the ICCID identifies a SIM profile or card. They are not substitutes for the iPhone serial number.
+
+Apple places these values near one another in the About screen, so choosing the wrong row is an easy mistake. Copy the field by touching and holding it instead of retyping it.
+
+## Why an iPhone Serial Number Search May Fail
+
+### The number was mistyped or truncated
+
+Serial formats have changed across Apple product generations. Do not assume a fixed length, add spaces, or “correct” a character based on what an older serial looked like. Copy the complete value exactly as the iPhone displays it.
+
+If the number came from a photo, zoom in and compare every character. A cropped screenshot, low-resolution listing, or copied message can lose a character without making the error obvious.
+
+### The seller supplied the wrong identifier
+
+A listing may show an IMEI while calling it a serial number, or show the model number printed near the barcode. Apple’s official instructions distinguish the serial number, EID, IMEI/MEID, and ICCID because each serves a different purpose.
+
+Ask the seller for a fresh photo of **Settings > General > About** with personal information obscured but the relevant identifier visible. Then compare it with the physical iPhone during inspection.
+
+### The box belongs to another iPhone
+
+Packaging is useful evidence only when it matches the live device. A valid serial on a genuine Apple box does not prove that the phone inside is the same unit.
+
+Compare at least:
+
+- The serial number in Settings.
+- The IMEI or IMEIs in Settings.
+- The box label.
+- The purchase receipt, if available.
+- The Apple Account device list of the current owner.
+
+If any number differs, ask for the repair, replacement, or sales documentation that explains why.
+
+### The message is about coverage, not validity
+
+An Apple coverage page can show a valid device while asking for purchase-date information or reporting that coverage has expired. That is different from saying the identifier is invalid.
+
+Apple’s [coverage guidance](https://support.apple.com/en-us/102607) explains how to view AppleCare and warranty information on the device or through My Support. If the estimated purchase date is wrong, Apple says the owner may request a correction using the original proof of purchase under its [purchase-date update process](https://support.apple.com/en-us/102261).
+
+Read the complete message. “Coverage expired,” “purchase date not validated,” and “not eligible for this service program” do not mean the serial number is fake.
+
+### The lookup service or connection failed
+
+A timeout, maintenance window, unsupported input field, or temporary provider error can produce no result. Check the same official Apple page again later and avoid paying repeatedly for the same unresolved input.
+
+A third-party database can also have a narrower purpose than Apple’s systems. A “not found” result from a model or warranty provider should be treated as missing evidence, not a final authenticity verdict.
+
+### Repair or replacement history needs explanation
+
+Modern iPhones can show repair information in **Settings > General > About**. Apple’s [Parts and Service History guide](https://support.apple.com/en-us/102658) explains that supported models may display information for parts such as the battery, display, cameras, and logic board.
+
+A legitimate Apple or authorized replacement can come with service documentation. A mismatch without documentation is different: it may indicate a swapped box, inaccurate listing, or repair history the seller has not explained. The serial-number error alone cannot tell you which scenario applies.
+
+## A Step-by-Step Check Before Buying
+
+### 1. Read the serial from the live iPhone
+
+Open **Settings > General > About**. Touch and hold the serial number to copy it. If the phone is still on the Hello screen, use Apple’s identifier guide for the information button available before setup.
+
+Do not accept only a typed number from the seller. A live-device check reduces transcription and wrong-box errors.
+
+### 2. Compare every available source
+
+Match the serial and IMEI across the phone, box, receipt, Apple Account record, and any repair paperwork. Do not post the full identifiers publicly.
+
+Record which source differs. “The box is different” is a more useful fact than “the checker failed.”
+
+### 3. Run Apple’s coverage check
+
+Use Apple’s official coverage route or the AppleCare & Warranty screen on the iPhone. Save the exact wording of the result.
+
+- A recognized device with expired coverage is still recognized.
+- An incorrect purchase date may be correctable with proof of purchase.
+- Service-program eligibility is narrower than general device validity.
+- A processing error should be retried before drawing a conclusion.
+
+### 4. Confirm the model with the IMEI
+
+Use the [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) to check whether the cellular identifier resolves to the expected brand and model. This is a free basic identity check; it is not a free warranty, blacklist, iCloud, carrier-lock, or repair-history report.
+
+If the IMEI model conflicts with the physical phone or seller’s listing, stop and investigate.
+
+### 5. Check the specific paid field only if needed
+
+The paid [Apple Check Basic report](https://imeihub.net/service.php?slug=apple-basic) is intended for listed Apple details such as the exact model, colour, and storage. Other questions require separate reports: warranty, blacklist, SIM-lock, iCloud status, and GSX history are not interchangeable.
+
+Read the service description before ordering. A paid lookup reports data; it does not correct Apple’s records, remove Activation Lock, unlock a carrier restriction, or establish ownership.
+
+### 6. Ask Apple when the conflict remains
+
+If the serial copied directly from Settings still is not recognized, contact [Apple Support](https://support.apple.com/contact) with the iPhone, proof of purchase, and any repair or replacement records available. Apple is the appropriate source for resolving its own product and coverage records.
+
+Do not complete a high-value purchase while the seller controls the evidence or refuses an official check.
+
+## What an Invalid Result Does and Does Not Prove
+
+An invalid result can show that the submitted number did not produce the expected record. It cannot, by itself, prove:
+
+- That the iPhone is counterfeit.
+- That the phone was stolen.
+- That Activation Lock is off.
+- That the device is carrier-unlocked.
+- That every part is genuine.
+- That the seller owns the phone.
+
+Those are separate questions. Check the live identifiers, Apple Account removal, Find My status, carrier eligibility, blacklist status, parts history, receipt, and seller identity according to the risk you need to resolve.
+
+## Common Questions
+
+### Can a valid serial number prove an iPhone is genuine?
+
+No. A recognized serial is useful evidence, but it can be copied from another device or box. Match it to the live phone and combine it with on-device checks, Apple records, and physical inspection.
+
+### Is “purchase date not validated” the same as “invalid serial number”?
+
+No. Purchase-date validation concerns Apple’s sales or coverage record. Apple provides a process for correcting an inaccurate date with acceptable proof of purchase.
+
+### Can an IMEI replace the serial number for Apple coverage?
+
+Some services accept more than one identifier, but use the field the service requests. The IMEI and serial number answer overlapping but different identity, network, and support questions.
+
+### Can an IMEI report fix an invalid Apple serial?
+
+No. A report can return available information for the submitted identifier. It cannot rewrite Apple’s device record or issue a new serial number.
+
+### Should I buy the iPhone if the seller says the error is normal?
+
+Only after the mismatch is independently resolved. Require access to the live iPhone, matching identifiers, account removal, and verifiable documentation before payment.
+
+## Conclusion
+
+An iPhone serial number check that returns an invalid or unrecognized result is a signal to verify the input and the device—not a complete diagnosis. Copy the serial from Settings, separate coverage messages from identifier errors, compare the phone with its box and documents, and ask Apple to resolve any record that still conflicts.
+
+Start with the [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) to confirm the cellular model, then choose the relevant paid Apple report only when its listed fields answer the remaining question.
+
+ARTICLE_20261015_1,
+    ],
+
+    [
         'slug' => 'blacklisted-iphone-vpn-imei-block',
         'title' => 'Blacklisted iPhone: Can a VPN Bypass the IMEI Block?',
         'meta_title' => 'Can a VPN Bypass a Blacklisted iPhone?',
