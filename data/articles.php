@@ -8,6 +8,105 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ncc-imei-check-nigeria-verify-phone-imei',
+        'title' => 'NCC IMEI Check Nigeria: Verify a Phone Before You Buy',
+        'meta_title' => 'NCC IMEI Check Nigeria: Verify Phone IMEI (2026)',
+        'excerpt' => 'Nigeria\'s NCC is moving to block fake, cloned and stolen phones by IMEI. Learn how to verify a phone IMEI in Nigeria before you pay.',
+        'date' => '2026-10-15',
+        'tag' => 'Regulation',
+        'body' => <<<'ARTICLE_20261015_1'
+If you buy or sell phones in Nigeria, an **NCC IMEI check** is now one of the smartest steps you can take before handing over cash. The **Nigerian Communications Commission (NCC)** has introduced a national **Device Management System (DMS)** designed to keep counterfeit, cloned and stolen handsets off Nigerian mobile networks. A phone that looks perfect in a Computer Village stall or on a Jiji listing can still carry an IMEI that is fake, duplicated or reported stolen.
+
+This guide explains what the NCC is doing, what it means for buyers in Lagos, Abuja, Port Harcourt and Kano, and how to **verify a phone IMEI in Nigeria** quickly and for free.
+
+## What the NCC Device Management System Is
+
+The NCC publicly announced the DMS in **October 2025**. In plain terms, it is a central database that records the **IMEI** (International Mobile Equipment Identity) of devices connecting to Nigerian networks and compares those identities against national and international records.
+
+According to the regulator's announcement and trade press coverage, the system is intended to:
+
+- **Block counterfeit and cloned devices** that use invalid or copied IMEI numbers
+- **Disconnect stolen phones** once they are reported and flagged
+- **Link with global IMEI repositories**, including [GSMA IMEI Database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) records, so a phone reported stolen elsewhere can be recognised
+- **Apply the NCC's type-approval rules**, so only devices that meet regulatory standards operate on the network
+
+Mobile network operators in Nigeria are required to connect to the system, and the NCC has said rollout will be gradual to limit disruption for legitimate users. Because enforcement details and timelines can change, always confirm current rules on the official [NCC website](https://ncc.gov.ng) before relying on any specific deadline.
+
+## Why This Matters to Phone Buyers in Nigeria
+
+Nigeria has one of Africa's largest used-phone and grey-import markets. That creates three real risks for buyers:
+
+| Risk | What happens | Who loses |
+|---|---|---|
+| **Stolen phone** | IMEI is reported and later blocked | The buyer, who paid for a dead device |
+| **Fake or cloned IMEI** | Several phones share one IMEI, or the number fails validation | The buyer, with no warranty or resale value |
+| **Unapproved or counterfeit model** | Device does not meet NCC standards | The buyer, if it is disconnected |
+
+A blocked phone usually still turns on and works on Wi-Fi, which is exactly why sellers can pass it off as "fine". The problem only appears when you insert a SIM and the network refuses it.
+
+## How to Verify a Phone IMEI in Nigeria (Step by Step)
+
+You do not need to wait for the seller's word. Follow these steps in the shop or before you transfer money.
+
+- **Step 1: Dial `*#06#`.** The phone displays its IMEI number(s). Dual-SIM phones show two. Photograph them.
+- **Step 2: Match the IMEI to the box and the settings.** Compare the dialled number with the label on the box and with *Settings > About phone*. If they differ, walk away.
+- **Step 3: Validate the number.** A genuine IMEI is 15 digits and passes the Luhn checksum. A number that fails is invalid or fake.
+- **Step 4: Run a free IMEI check.** Use the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand and model match what the seller is advertising.
+- **Step 5: Run a blacklist check.** Use the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see whether the IMEI has been reported lost or stolen.
+- **Step 6: Test with your own SIM.** Insert a SIM from MTN, Airtel, Glo or 9mobile, make a call and use mobile data before you pay.
+
+## What the NCC Check Can and Cannot Tell You
+
+Be realistic about what different checks reveal:
+
+| Check | Confirms model and specs | Detects stolen or blacklisted | Detects fake IMEI |
+|---|---|---|---|
+| Dialling `*#06#` only | No | No | Partly |
+| Free TAC-based IMEI check | **Yes** | No | **Yes** (invalid format) |
+| Blacklist check | Yes | **Yes** | Yes |
+| NCC or operator confirmation | No | Depends on the network | Depends on the network |
+
+The NCC and the networks hold the authoritative record for Nigerian service decisions, but they do not currently offer every buyer a simple public lookup for an individual phone. That is why independent IMEI and blacklist checks are the practical way to reduce risk at the point of sale.
+
+## Red Flags at Computer Village, Alaba and Online Marketplaces
+
+- **Price far below market:** A "new" flagship at half price is usually stolen, cloned or refurbished and misdescribed.
+- **Seller refuses to show `*#06#`:** Legitimate sellers have no reason to hide the IMEI.
+- **IMEI sticker missing or scratched:** Boxes and trays should match the device.
+- **Scratched-out or taped IMEI on the SIM tray:** A common sign of tampering.
+- **Pressure to pay before testing:** Always test with your own SIM first.
+- **No receipt or proof of purchase:** Ask for one and note the seller's contact details.
+
+## For iPhone Buyers: Extra Checks
+
+Imported iPhones are popular in Nigeria and often carry a carrier lock, an iCloud lock or a replaced-device flag. Alongside the blacklist check, review [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status), [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) and [Apple Warranty](https://imeihub.net/service.php?slug=apple-warranty) so you know the phone is usable on Nigerian SIM cards and has not been wiped from a lost-device report.
+
+## What to Do If Your Phone Is Stolen or Blocked
+
+- **If your phone is stolen:** Report it to the police and keep the report. Contact your network operator and ask them to block the SIM and the device. Keep your IMEI from the box or your Google/Apple account.
+- **If you bought a phone that stopped working:** Check the IMEI status, then contact the seller with the evidence. If the device was reported stolen, do not try to resell it.
+- **If you believe your phone was blocked in error:** Contact your operator or the NCC consumer channels with proof of purchase and the IMEI.
+
+## Frequently Asked Questions
+
+**Will the NCC block my phone if I bought it second-hand?**
+Only if the IMEI is flagged, for example as stolen, cloned or non-compliant. A clean second-hand phone with a valid IMEI should not be affected, which is why checking before you buy matters.
+
+**Is a free IMEI check enough?**
+A free check confirms the brand, model and format. To rule out stolen or blacklisted status, add a blacklist check.
+
+**Does `*#06#` prove a phone is genuine?**
+No. It only shows the number the phone reports. Cloned phones can display a copied IMEI, so always verify it with a database check.
+
+**Do I need to check a phone that was given to me as a gift or brought from abroad?**
+Yes. Imported devices are the most likely to have lock, region or compliance issues.
+
+## Bottom Line
+
+The NCC's Device Management System signals a clear direction: Nigerian networks are moving toward identifying every handset by IMEI and cutting off the ones that are fake, cloned or stolen. Whether you shop in Lagos, Abuja or online, spend two minutes on an IMEI check before you pay. Start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check), then run the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) for full peace of mind.
+ARTICLE_20261015_1,
+    ],
+    [
         'slug' => 'blacklisted-iphone-vpn-imei-block',
         'title' => 'Blacklisted iPhone: Can a VPN Bypass the IMEI Block?',
         'meta_title' => 'Can a VPN Bypass a Blacklisted iPhone?',
