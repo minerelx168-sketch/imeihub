@@ -161,6 +161,7 @@
             }).then(function (resp) {
                 var body = resp.body || {};
                 if (body.ok && body.status === 'success') {
+                    if (window.imeihubAnalytics) window.imeihubAnalytics.purchase(body);
                     renderResult(body);
                     resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     return;
@@ -327,6 +328,9 @@
             code = form.getAttribute('data-code');
             serviceName = form.getAttribute('data-service-name') || '';
         }
+        // Snapshot attribution per request; changing the selector while an async
+        // report runs must not change the service or article credited to it.
+        var analyticsContext = window.imeihubAnalytics ? window.imeihubAnalytics.context() : null;
         renderInProgress(serviceName || 'IMEI lookup', paid);
         resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
         // Slow upstream providers (or a flaky mobile network) can leave the
@@ -393,12 +397,14 @@
                 // DHRU async services: order was placed, no result yet.
                 // Render the processing card and start polling.
                 if (resp.body.status === 'processing' && resp.body.public_id) {
+                    if (window.imeihubAnalytics) window.imeihubAnalytics.pending(resp.body.public_id, analyticsContext);
                     renderProcessing(resp.body.public_id);
                     resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     showBlacklistPopup(resp.body.blacklist);
                     pollStatus(resp.body.public_id, resp.body.retry_after);
                     return;
                 }
+                if (window.imeihubAnalytics) window.imeihubAnalytics.purchase(resp.body, analyticsContext);
                 renderResult(resp.body);
                 resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
             })
@@ -426,3 +432,4 @@
             });
     });
 })();
+
