@@ -8,6 +8,370 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-vintage-obsolete',
+        'title' => 'iPhone Serial Number Check: Is It Vintage or Obsolete?',
+        'meta_title' => 'iPhone Serial Number Check: Vintage or Obsolete?',
+        'excerpt' => 'Use an iPhone serial number check to identify the model, compare Apple\'s vintage and obsolete lists, and understand what service status means.',
+        'date' => '2026-10-18',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261018_1'
+An **iPhone serial number check** can help identify a device and retrieve available coverage information, but it does not automatically decide whether the iPhone is vintage or obsolete. Apple applies those labels to product models based mainly on how long ago the company stopped distributing them for sale. To get the right answer, first identify the exact model, then compare it with Apple's current service-status list.
+
+This distinction matters when you are buying an older iPhone, planning a repair, or estimating how easy replacement parts may be to obtain. A device can be out of warranty without being vintage, and a vintage device is not necessarily obsolete.
+
+## The Short Answer
+
+A serial number is useful for identifying a particular Apple device and checking available coverage records. Apple's vintage and obsolete classifications, however, apply to product models rather than being a hidden age code that you can reliably decode from the serial number.
+
+Use this workflow:
+
+- Verify that the serial number belongs to the iPhone in front of you.
+- Identify the model or model number.
+- Check Apple's current [vintage and obsolete products list](https://support.apple.com/en-us/102772).
+- Treat warranty, software support, and hardware-service status as separate questions.
+
+Apple updates its list over time. A screenshot or an old blog post can therefore be outdated even when the model name is correct.
+
+## What Vintage and Obsolete Mean
+
+Apple's definitions are based on the date it stopped distributing a product for sale, not the date a particular owner bought or activated one.
+
+### Vintage is a hardware-service classification
+
+Apple says a product is considered vintage when it stopped being distributed for sale more than five but less than seven years ago. Service and parts may still be available, subject to parts availability, local law, and the service provider's capabilities.
+
+Vintage does not mean the phone is counterfeit, blocked, unsafe, or unusable. It signals that official hardware-service options may be more limited than for a current product.
+
+### Obsolete is a later service stage
+
+Apple says a product is considered obsolete when it stopped being distributed for sale more than seven years ago. Apple discontinues hardware service for obsolete products, and service providers cannot order parts for them through Apple. Local legal exceptions or special programs may still affect a specific situation, so the official page is the right reference.
+
+### Out of warranty is not the same thing
+
+Warranty status concerns coverage for an individual device. Vintage and obsolete status concern the product model's place in Apple's hardware-service lifecycle. An iPhone can be out of warranty for years while its model remains neither vintage nor obsolete.
+
+| Result | Applies to | What it tells you |
+| --- | --- | --- |
+| Limited warranty or coverage | The individual device or plan | Whether listed coverage may apply |
+| Out of warranty | The individual device | Standard warranty coverage has ended |
+| Vintage | The product model | Hardware service may depend on parts availability |
+| Obsolete | The product model | Apple has discontinued hardware service for that product |
+
+## What an iPhone Serial Number Check Can Show
+
+The exact output depends on the service used. Apple can use a serial number to identify a device for support, and its coverage tools may display model and coverage information. A third-party report may return additional database fields if they are included in that report's description.
+
+### Device identity
+
+The strongest first use is confirming that the identifier resolves to the expected Apple product. Compare the returned family or model with the actual phone, its Settings screen, and any purchase documents. A mismatch should be resolved before paying for the device or a report.
+
+### Coverage information
+
+Apple's [Check Coverage](https://checkcoverage.apple.com/) page is the official starting point for coverage information linked to a serial number. Coverage is not a promise that a particular repair will be accepted, and it does not replace a technician's inspection.
+
+### Information included in a paid report
+
+IMEIhub's [Apple Basic Check](https://imeihub.net/service.php?slug=apple-basic) is a paid report with its own listed fields. Review the service description before ordering. Do not assume that a model result includes vintage status, blacklist status, carrier lock, iCloud status, warranty entitlement, or a repair decision unless the selected service explicitly says so.
+
+## What the Serial Number Cannot Prove by Itself
+
+A serial number is an identifier, not a complete condition report. It cannot physically inspect the phone or override Apple's service policies.
+
+It does not by itself prove:
+
+- That the phone is still eligible for every repair.
+- That replacement parts are currently in stock.
+- That the battery, display, cameras, or Face ID work.
+- That the IMEI is clean or the device is carrier-unlocked.
+- That Find My and Activation Lock are off.
+- That the seller owns the phone.
+- That the device will receive a particular future iOS release.
+
+A lookup also cannot remove an account lock, carrier lock, blacklist record, or management profile.
+
+## How to Identify the Exact iPhone Model
+
+Vintage and obsolete lists use model names, so accuracy matters. Similar-looking iPhones can have different service classifications.
+
+### Find the serial number and IMEI
+
+On a working iPhone, open **Settings → General → About**. Apple also documents other places to find the serial number or IMEI, including the original packaging, a computer used with the device, and the Apple Account device list. See Apple's [identifier guide](https://support.apple.com/en-us/108037) for the options that apply to each model.
+
+Do not publish a full serial number or IMEI in a marketplace listing. Share it only with a trusted service when a lookup is necessary.
+
+### Find the model number
+
+In **Settings → General → About**, tap the part number to reveal the model number beginning with “A.” Apple's [Identify your iPhone model](https://support.apple.com/en-us/108044) page maps those model numbers to model names, years introduced, capacities, colors, and regional variants.
+
+The model number is often more useful than appearance alone. For example, devices with similar screen sizes may have different radios, regional features, or release years.
+
+### Check the actual device, not only the box
+
+Boxes can be mixed up, and seller screenshots can refer to another phone. Compare identifiers shown on the device with the packaging and report. If the phone does not turn on, use Apple's documented alternative locations, then verify again once the device is operational.
+
+## Step-by-Step: Check Vintage or Obsolete Status
+
+### 1. Copy the identifier carefully
+
+Copy the serial number from Settings when possible. Watch for characters that can be confused, and do not substitute the IMEI, EID, or part number in a serial-number field.
+
+### 2. Confirm the model
+
+Use Apple support or an appropriate lookup to identify the product. If you only need a cellular model family from an IMEI, IMEIhub's [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) provides basic brand, model, and specifications. It is not a free warranty, blacklist, iCloud, or vintage-status report.
+
+### 3. Open Apple's current list
+
+Search the iPhone sections on Apple's vintage and obsolete page for the exact model. Check whether Apple lists regional or model-specific exceptions. Because the list changes, use the current Apple page rather than relying on a saved copy.
+
+### 4. Separate service status from coverage
+
+Check coverage separately if warranty or an AppleCare plan matters. An “out of warranty” result does not mean “obsolete,” and a model that is not on the obsolete list is not automatically covered.
+
+### 5. Confirm the repair before spending money
+
+Ask Apple or an Apple Authorized Service Provider whether the requested service and part are available in your country. Vintage status can make availability less predictable, and a technician may find additional damage that changes the repair decision.
+
+## Buying a Vintage iPhone: What Else to Check
+
+A vintage classification is only one part of the purchase decision. Older devices need a broader inspection.
+
+### Hardware condition
+
+Test the display, touch response, cameras, microphones, speakers, charging, buttons, biometric authentication, Wi-Fi, Bluetooth, and cellular connection. Review battery health when available. A serial lookup cannot perform these tests.
+
+### Software compatibility
+
+Check which iOS version is installed and whether the apps you need still support it. Vintage or obsolete hardware status is not the same as current software compatibility. Apple can change operating-system support independently of the hardware-service list.
+
+### Locks and ownership
+
+Confirm that the seller has removed the iPhone from their Apple Account and that setup does not request the previous owner's credentials. Check carrier-lock and blacklist questions separately. A coverage or model result cannot clear those risks.
+
+### Repair economics
+
+Compare the purchase price plus likely battery or screen work with the price of a newer supported model. Limited official parts availability can make a low purchase price less attractive if an essential repair is needed soon.
+
+## Common Mistakes
+
+### Decoding the age from the serial number
+
+Old serial-number formulas circulated online, but they are not a reliable universal method for current devices. Apple changed serial-number formats, and an estimated production period would still not establish the model's present service classification.
+
+### Treating the year introduced as the cutoff date
+
+Apple's definition uses when it stopped distributing the product for sale, not simply the launch year. Two models introduced in the same year can reach vintage or obsolete status at different times.
+
+### Assuming “not listed” means fully supported
+
+If a model is not on the vintage or obsolete list, that does not guarantee warranty coverage, a particular repair, parts availability, or future software updates. Ask the right service-specific question.
+
+### Confusing discontinued with obsolete
+
+Apple may stop selling a model long before it becomes obsolete. Discontinued retail sales begin the timeline; they do not instantly end service.
+
+## Conclusion
+
+An iPhone serial number check helps you identify a device and review available coverage information, but vintage and obsolete status must be confirmed against Apple's current model list. Identify the exact iPhone, keep warranty and hardware-service classifications separate, and verify parts availability before committing to a repair or used purchase. Start with IMEIhub's [free model lookup](https://imeihub.net/service.php?slug=free-imei-check), or choose the [paid Apple Basic report](https://imeihub.net/service.php?slug=apple-basic) when its listed fields match the information you need.
+ARTICLE_20261018_1,
+    ],
+    [
+        'slug' => 'imei-checker-online-fcc-id',
+        'title' => 'IMEI Checker Online: Can It Show a Phone\'s FCC ID?',
+        'meta_title' => 'IMEI Checker Online: Can It Show the FCC ID?',
+        'excerpt' => 'Learn why an IMEI checker online may identify a phone model but not its FCC ID, where to find the regulatory ID, and how to verify it safely.',
+        'date' => '2026-10-18',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261018_2'
+An **IMEI checker online** can usually identify a cellular device's brand and model from its Type Allocation Code, but it should not be assumed to return the phone's FCC ID. The two identifiers belong to different systems: an IMEI identifies mobile equipment on cellular networks, while an FCC ID identifies radio-frequency equipment authorized for the United States market.
+
+If you need an FCC ID for a regulatory search, hearing-aid compatibility check, import review, repair document, or test report, first identify the exact model and regional variant. Then obtain the FCC ID from the device's regulatory information or official product documentation.
+
+## The Short Answer
+
+An IMEI and an FCC ID are not interchangeable. A generic IMEI lookup may help you narrow down the device model, but the IMEI digits do not universally encode the FCC ID.
+
+Use the identifiers for different jobs:
+
+- Use the **IMEI** for device identification on mobile networks and for reports that explicitly use the IMEI.
+- Use the **TAC**, the first eight IMEI digits, to identify the allocated make and model family.
+- Use the **FCC ID** to search U.S. equipment-authorization records for a radio device or variant.
+- Use the **model number** to distinguish regional versions that may look identical.
+
+Never paste an IMEI into a public FCC ID search and expect a match. Locate the actual FCC ID first.
+
+## IMEI vs. FCC ID
+
+The identifiers can appear near each other in Settings or product documentation, which makes them easy to confuse. Their formats and purposes are different.
+
+| Identifier | Typical format | Main purpose | Scope |
+| --- | --- | --- | --- |
+| IMEI | 15 digits | Identifies an individual cellular device | Mobile-network equipment identity |
+| TAC | First 8 IMEI digits | Identifies an allocated make and model | GSMA device allocation |
+| FCC ID | Letters and numbers | Identifies authorized RF equipment | U.S. equipment authorization |
+| Model number | Manufacturer-defined | Distinguishes product or regional variant | Manufacturer catalog and support |
+
+### IMEI identifies an individual cellular unit
+
+GSMA describes the IMEI as a unique identifier for a device on a mobile network. The serial portion distinguishes individual units within a TAC range. This is why two phones of the same model should not share the same complete IMEI.
+
+### TAC identifies the device model allocation
+
+The first eight digits are the Type Allocation Code. GSMA explains that a TAC identifies the make and model used to create individual IMEIs. A basic checker can match that TAC to catalog information such as brand and model family.
+
+See GSMA's [TAC allocation overview](https://www.gsmaservices.com/device-services/tac-allocation/) for the official role of the code.
+
+### FCC ID identifies authorized radio equipment
+
+The FCC ID belongs to the Federal Communications Commission's equipment-authorization system. It is used to locate records associated with an authorized radio product. An FCC ID is not a phone number, account number, carrier-lock code, or substitute IMEI.
+
+FCC records can include authorization documents, exhibits, test information, internal or external photos subject to disclosure rules, and details tied to the authorization. The available material varies by filing and device.
+
+## Why the IMEI Does Not Directly Reveal the FCC ID
+
+There is no universal mathematical conversion between the two identifiers.
+
+### They are issued by different systems
+
+GSMA-appointed processes allocate TAC ranges used to build IMEIs. The FCC equipment-authorization system assigns FCC IDs under U.S. radio rules. A manufacturer may use both systems for one product, but one identifier is not embedded inside the other by a shared standard.
+
+### Regional variants can differ
+
+A marketing name such as “Phone X” may cover multiple hardware variants. Different variants can support different frequency bands, antennas, or regulatory markets. Apple's [model identification guide](https://support.apple.com/en-us/108044), for example, lists model numbers by country or region for many iPhones.
+
+An IMEI lookup that returns only a broad marketing name may not be specific enough to select the correct FCC record. The model number and regulatory screen help narrow the match.
+
+### One product may contain several authorized radio components
+
+Some equipment may include modules with their own authorization or a label such as “Contains FCC ID.” The regulatory information on the actual product is more authoritative than guessing from the brand name.
+
+### Non-U.S. variants may use other regulatory identifiers
+
+FCC authorization concerns the United States. A device made for another market may display regional compliance marks and may not use the same FCC ID as a U.S. variant. Do not interpret the absence of an FCC ID as proof that a phone is fake; first confirm its intended market and regulatory requirements.
+
+## What an IMEI Checker Online Can Reliably Add
+
+An IMEI lookup is still useful before an FCC search when its scope is understood.
+
+### Confirm the brand and model family
+
+IMEIhub's [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) returns basic brand, model, and specifications. That can help you spot an obvious mismatch before searching regulatory records.
+
+The free result is not advertised as an FCC authorization, blacklist, warranty, iCloud, or carrier-lock report. If you need one of those statuses, choose a service that explicitly lists it.
+
+### Catch input mistakes
+
+A lookup may help reveal that the number belongs to another model or that the IMEI structure is invalid. Recheck the identifier on the device instead of assuming the box label or seller screenshot is correct.
+
+### Narrow the regulatory search
+
+Once you have the model family, locate the exact model number and FCC ID. The lookup is a starting point, not a substitute for the regulatory label.
+
+## Where to Find a Phone's FCC ID
+
+The location varies by brand, model, and software version.
+
+### Regulatory information in Settings
+
+Many phones provide electronic regulatory labels in Settings. Look under paths such as **Settings → General → Legal & Regulatory** on an iPhone, or **Settings → About phone → Status information → FCC certification** on supported Samsung devices. Menu names can differ, so use the manufacturer's support instructions for the exact model.
+
+Samsung's official support materials note that an FCC ID may be printed on the device, included in the user manual, or shown under the phone's regulatory information. Apple also publishes model-specific regulatory resources, including its [hearing-aid compatibility table](https://support.apple.com/en-us/106349), which maps listed iPhone model numbers to FCC IDs.
+
+### Device label or housing
+
+Some products display the FCC ID on a physical label, back cover, frame, SIM area, or another location permitted by the applicable rules. Very small products may use electronic labeling or accompanying documentation instead of a prominent exterior mark.
+
+### Packaging and manual
+
+The original box, quick-start guide, safety booklet, or regulatory leaflet may list the FCC ID. Match the model and variant carefully; accessories such as chargers or wireless modules can have their own FCC IDs.
+
+### Manufacturer support page
+
+Search the manufacturer's official documentation using the exact model number. Avoid selecting an FCC ID from an unofficial list based only on a similar product name.
+
+## How to Verify an FCC ID
+
+### 1. Record the exact identifier
+
+Copy the FCC ID exactly as shown, including letters and numbers. Do not use the IMEI, serial number, EID, ICCID, or part number.
+
+### 2. Confirm the model number
+
+Compare the regulatory screen with the model number in Settings and on the packaging. If a seller has combined a box and phone from different variants, the identifiers may not agree.
+
+### 3. Search the official authorization system
+
+Use the FCC's [Equipment Authorization Search](https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm) to search by grantee code and product code. The grantee code is the first portion of the FCC ID; the remaining portion is the product code.
+
+The search result should correspond to the manufacturer or grantee and the relevant equipment. Read the filing rather than relying only on a third-party summary.
+
+### 4. Compare dates and exhibits carefully
+
+Authorization dates do not necessarily equal manufacture, purchase, activation, or warranty dates. A filing may cover a family, variant, or change in identification. Check the applicant, model references, and available exhibits.
+
+### 5. Resolve mismatches before buying or importing
+
+If the FCC ID belongs to another manufacturer or model, recheck every identifier. A mismatch can result from a typing error, mixed packaging, a replaced housing, a regional variant, or inaccurate seller information. Do not label the device counterfeit from one mismatch alone, but do not ignore it either.
+
+## What an FCC ID Search Does Not Tell You
+
+FCC authorization answers a regulatory question about radio equipment. It does not provide a complete ownership or condition report.
+
+An FCC ID search does not prove:
+
+- That a particular phone's IMEI is clean.
+- That the device is paid off or accepted by a carrier.
+- That the phone is SIM-unlocked.
+- That Activation Lock or an Android account lock is removed.
+- That the warranty is active.
+- That every internal component is original.
+- That the device passed a recent hands-on safety inspection.
+
+Likewise, an IMEI report cannot grant FCC authorization, change a regulatory filing, or make an unsupported radio variant legal for a particular market.
+
+## When You Need a Different Check
+
+Choose the report by the decision you are making.
+
+### Buying a used phone
+
+Start with model identity, then check blacklist, carrier lock, account locks, financing risk, and physical condition separately. The FCC ID can help confirm the regulatory variant but does not replace those checks.
+
+### Checking carrier compatibility
+
+Use the exact model number, supported bands, and the carrier's compatibility process. FCC authorization is not a carrier approval and does not guarantee activation on a particular plan.
+
+### Looking for warranty or purchase information
+
+Use the manufacturer's official coverage tool or a paid report whose description includes the fields you need. Do not infer warranty from an equipment-authorization date.
+
+### Researching RF test documents
+
+Use the actual FCC ID and official FCC filing. This is the correct route for authorization exhibits; an IMEI model result is only a clue to the product identity.
+
+## Common Mistakes
+
+### Entering an IMEI into the FCC database
+
+The formats differ, and the FCC search expects FCC ID components. A 15-digit IMEI will not become an FCC ID simply because both appear on the same phone.
+
+### Using the marketing name alone
+
+A marketing name can span multiple regional variants. Confirm the model number and regulatory ID shown on the device.
+
+### Assuming an FCC grant means the phone is genuine
+
+A valid grant shows that equipment under that FCC ID was authorized. It does not prove that the individual phone in your hand is authentic or unmodified. Compare multiple identifiers and inspect the device.
+
+### Treating regulatory approval as a network unlock
+
+FCC authorization and carrier locking are separate. A lookup or FCC filing does not remove a SIM restriction, account lock, blacklist entry, or financing obligation.
+
+## Conclusion
+
+An IMEI checker online can identify a phone's model family and help you begin a regulatory search, but the IMEI does not universally encode the FCC ID. Find the exact FCC ID in the device's regulatory information or official documentation, verify it in the FCC authorization system, and keep carrier, blacklist, warranty, and account-lock questions separate. Start with IMEIhub's [free brand and model lookup](https://imeihub.net/service.php?slug=free-imei-check), then choose a paid report only when its listed fields answer the additional question you need resolved.
+ARTICLE_20261018_2,
+    ],
+    [
         'slug' => 'free-icloud-imei-checker-remove-activation-lock',
         'title' => 'Free iCloud IMEI Checker: Can It Remove Activation Lock?',
         'meta_title' => 'Free iCloud IMEI Checker: Can It Remove a Lock?',
