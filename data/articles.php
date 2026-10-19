@@ -8,6 +8,351 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-identifiers',
+        'title' => 'iPhone Serial Number Check: Serial, Model, or IMEI?',
+        'meta_title' => 'iPhone Serial Number Check: Serial, Model, or IMEI?',
+        'excerpt' => 'Learn which iPhone identifier to use for Apple coverage, model variants, carrier checks, eSIM setup, and used-phone verification.',
+        'date' => '2026-10-19',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261019_1'
+An **iPhone serial number check** is useful, but the serial number is not the right identifier for every question. Apple devices can show a serial number, one or two IMEIs, an EID, a model number and a part number. Each answers a different question. Choosing the wrong one can produce an incomplete result, send you to the wrong checker or make a genuine phone look suspicious when nothing is actually wrong.
+
+This guide explains which identifier to use for Apple coverage, exact hardware variants, cellular status, eSIM setup and used-iPhone verification.
+
+## Quick Answer: Which iPhone Number Do You Need?
+
+Use this table before starting a lookup.
+
+| Question | Best identifier | Why |
+| --- | --- | --- |
+| Is this device recognized by Apple? | Serial number | Apple uses it for product identification and support records |
+| What is the regional hardware variant? | Model number, usually A followed by four digits | Apple maps model numbers to countries, SIM configurations and hardware details |
+| Is the phone blacklisted or carrier-restricted? | IMEI | Mobile networks identify cellular equipment by IMEI |
+| Which line on a dual-SIM iPhone am I checking? | IMEI or IMEI2 | Each cellular identity must be checked separately when relevant |
+| What identifier belongs to the eSIM chip? | EID | The EID identifies the embedded SIM hardware, not the phone on a blacklist |
+| What color or storage configuration was sold? | Part number or an appropriate Apple device report | A model family alone may include several colors and capacities |
+| Is Apple coverage active? | Serial number | Apple's coverage system uses the serial number |
+
+The numbers are related, but they are not interchangeable. A clean serial-number result does not prove a clean IMEI, and a valid IMEI does not prove that Find My is off or that the device is carrier-unlocked.
+
+## What an iPhone Serial Number Check Is Best For
+
+### Confirming that Apple recognizes the device
+
+The serial number is Apple's device-level identifier for support and product records. Apple's current [identifier guide](https://support.apple.com/en-us/108037) says the serial number can be found in Settings, on original packaging, through Finder or Apple Devices, and inside the Apple Account that is already linked to the device.
+
+A serial-number result can help you:
+
+- confirm that the identifier has a valid format and is recognized;
+- open Apple's coverage workflow;
+- distinguish an iPhone from a different Apple product;
+- give Apple Support the correct device reference; and
+- compare the number in Settings with the box, invoice or service paperwork.
+
+If the number is rejected, first check for transcription errors. Letters and digits can be confused, especially on small packaging labels. An invalid result is a reason to pause and verify the number, not automatic proof that the phone is counterfeit.
+
+### Checking Apple coverage records
+
+Apple's [coverage page](https://checkcoverage.apple.com/) uses the serial number. Coverage information can help establish whether Apple's system recognizes the device and what service coverage is currently shown.
+
+Coverage is not the same as condition. It does not test the battery, cameras, display, Face ID, liquid exposure or current parts. It also does not prove that a seller owns the phone.
+
+### Matching records before a purchase
+
+For a used iPhone, compare the serial number in at least two places when possible:
+
+- Open **Settings > General > About**.
+- Compare the serial number with the original box or proof of purchase.
+- Confirm the product shown by the lookup matches the phone in your hand.
+- Treat a mismatch as something the seller should explain before payment.
+
+A replaced retail box is possible, but the buyer should not assume that is the explanation. Ask for documentation and verify the device itself.
+
+## When the Model Number Is More Useful
+
+### Identifying the regional hardware version
+
+The model number normally begins with **A** followed by four digits, such as Axxxx. Apple's current [iPhone model guide](https://support.apple.com/en-us/108044) maps these numbers to particular hardware versions and sales regions.
+
+This matters because two phones with the same marketing name can differ by region. Depending on the generation, regional variants may have different physical-SIM arrangements or cellular-band support. If your question is whether the phone is the U.S., China mainland, Japan or another regional version, the model number is more direct than the serial number.
+
+### Finding the A-number in Settings
+
+In **Settings > General > About**, the first value beside Model Number may be a longer part number. Tap it to reveal the A-number. Do not confuse these two values:
+
+- **A-number:** identifies a hardware model or regional variant;
+- **part number:** describes the sales configuration and may encode market or configuration information; and
+- **serial number:** identifies the individual Apple device in support records.
+
+The A-number does not tell you whether the individual phone is blacklisted, financed, Activation Locked or damaged.
+
+## When You Need the IMEI Instead
+
+### Carrier and blacklist questions use the IMEI
+
+The IMEI is the cellular equipment identity used by mobile networks. Use it when your real question is about:
+
+- lost-or-stolen blacklist status;
+- carrier compatibility;
+- original carrier information;
+- SIM-lock reporting;
+- activation eligibility; or
+- a cellular device report.
+
+An **iPhone check serial** search often starts with the serial number because it is easy to recognize. For network questions, however, the IMEI is normally the actionable number.
+
+You can run a [free IMEI model lookup](https://imeihub.net/service.php?slug=free-imei-check) to confirm the basic brand and model. This free lookup is for basic identification. Blacklist, carrier, iCloud, warranty and other status reports are separate paid services when offered; the free result should not be read as proof that those statuses are clear.
+
+### IMEI and IMEI2 on dual-SIM iPhones
+
+Many iPhones show both IMEI and IMEI2. They represent separate cellular identities associated with the device's line capabilities. If a carrier, report provider or seller specifies one of them, use that exact number.
+
+For a pre-purchase check, record both when available and make sure you know which one the result covers. A report for IMEI1 should not silently be treated as a report for IMEI2. The detailed guide to [IMEI and IMEI2 on dual-SIM iPhones](https://imeihub.net/article/iphone-imei-check-dual-sim-imei2) explains how to choose.
+
+### A lookup does not change a lock
+
+An IMEI report is informational. It does not remove a carrier lock, erase a blacklist entry, disable Find My or release a financed device. Only the organization responsible for a status can correct it after verifying the account and evidence.
+
+## What the EID Is For
+
+The EID identifies the embedded SIM hardware used for eSIM provisioning. It is longer than an IMEI and serves a different purpose.
+
+Use the EID when a carrier specifically asks for it during eSIM setup or troubleshooting. Do not enter an EID into a standard IMEI field and do not use an IMEI when the carrier asks for an EID.
+
+Apple lists the EID with the serial number, IMEI and ICCID in its official identifier guide. You can usually find it in **Settings > General > About**. The EID does not itself tell you whether the phone is blacklisted, unlocked or covered by warranty.
+
+## What an Apple Basic Report Can Add
+
+An identifier tells a system which device to look up; the report determines which fields you receive. IMEIHub's [paid Apple Basic report](https://imeihub.net/service.php?slug=apple-basic) is designed for the exact iPhone or iPad model, color and storage tier. That is different from the free TAC-based lookup, which is intended for basic brand and model identification.
+
+Choose the report based on the decision you need to make:
+
+- use the free lookup for a quick brand/model sanity check;
+- use Apple's own coverage page for current Apple coverage information;
+- use Apple Basic when exact configuration fields are relevant;
+- use a blacklist report for lost-or-stolen network status; and
+- use a separate SIM-lock or iCloud report only when that specific status is the question.
+
+Paying for the most detailed report is not automatically better. A focused report is usually easier to interpret and avoids collecting fields unrelated to your decision.
+
+## A Safe Used-iPhone Identifier Workflow
+
+### Step 1: Read identifiers from the phone
+
+Ask the seller to open **Settings > General > About**. Record the serial number, model number, IMEI and IMEI2 if shown. If the phone has been erased, Apple's guide explains how to use the Info button on the setup screen.
+
+### Step 2: Compare physical and documentary evidence
+
+Compare the device values with the box and proof of purchase. The phone's Settings screen is more persuasive than a photo of a label sent in advance because labels can be reused or copied.
+
+### Step 3: Use each number for the correct check
+
+- Serial number: Apple recognition and coverage.
+- A-number: regional hardware variant.
+- IMEI: carrier and blacklist questions.
+- EID: eSIM provisioning when requested.
+- Part number or targeted report: exact sales configuration.
+
+### Step 4: Inspect the phone itself
+
+No identifier lookup can test physical condition. Check the display, cameras, speakers, microphones, charging, buttons, biometrics and battery information on the device.
+
+### Step 5: Complete the setup check
+
+Before taking ownership, the seller should erase the iPhone correctly and remove it from their Apple Account. If setup asks for the previous owner's account information, do not complete the purchase until the seller resolves it. A serial or IMEI lookup cannot bypass Activation Lock.
+
+## Common Identifier Mistakes
+
+### Using the serial number in an IMEI checker
+
+An iPhone serial number is not a 15-digit IMEI. If a checker expects an IMEI, enter the IMEI from Settings or the setup screen, not the serial number.
+
+### Treating the A-number as a unique device ID
+
+Every phone of the same regional hardware variant can share the same A-number. It identifies a model group, not one individual iPhone.
+
+### Assuming a valid result proves ownership
+
+A valid identifier proves only that the number can be recognized or matched to records. It does not establish who owns the phone, whether the seller is authorized to sell it or whether a status will change later.
+
+### Assuming one green result covers every risk
+
+Coverage, blacklist, carrier lock, financing, Activation Lock and physical condition are separate. A result from one system should not be expanded into claims about another.
+
+## Conclusion: Start With the Question, Then Choose the Number
+
+An iPhone serial number check is the right starting point for Apple identification and coverage, while the model number identifies the hardware variant, the IMEI answers cellular-status questions and the EID supports eSIM provisioning. Using the right identifier prevents misleading results and makes a used-iPhone check faster.
+
+Start with IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) for basic model identification, then choose a paid report only if you need a specific status or exact Apple configuration.
+ARTICLE_20261019_1,
+    ],
+    [
+        'slug' => 't-mobile-imei-check-blacklist-status',
+        'title' => 'T-Mobile IMEI Check: Does It Include Blacklist Status?',
+        'meta_title' => 'T-Mobile IMEI Check: Is the Phone Blacklisted?',
+        'excerpt' => 'Learn how a T-Mobile IMEI check handles blocked devices, how blacklist and carrier-lock status differ, and what to verify before buying or switching.',
+        'date' => '2026-10-19',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261019_2'
+A **T-Mobile IMEI check** can indicate whether a device is ready to bring to T-Mobile and may return a blocked-device result. That is valuable, but it is not the same as a complete explanation of every blacklist record, carrier lock, financing obligation or account restriction. Before buying a used phone or moving service, understand exactly what the result covers and which follow-up check answers the remaining risk.
+
+## Short Answer: Does T-Mobile Check Blacklist Status?
+
+T-Mobile's Bring Your Own Device flow asks for the IMEI to evaluate whether a phone is compatible and ready for activation. Its current public checker includes outcomes such as **Device Blocked** and can say that a compatible device is not blocked from use on T-Mobile's network.
+
+That makes the checker useful for a T-Mobile activation decision. It should not be treated as a universal certificate that the phone is clean everywhere or that every non-blacklist issue is resolved.
+
+Use a separate blacklist report when you need a wider lost-or-stolen status check, especially before paying a private seller. IMEIHub's [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) is a paid report; the free model lookup does not include blacklist status.
+
+## What the T-Mobile IMEI Checker Is Designed to Answer
+
+### Compatibility with the T-Mobile network
+
+T-Mobile's official [Bring Your Own Device page](https://www.t-mobile.com/resources/bring-your-own-phone) asks for an IMEI to check whether a device is compatible with its network and ready to bring over. Compatibility can depend on the exact hardware, supported technologies and T-Mobile's device records.
+
+A positive result is useful evidence for network compatibility. It is not a guarantee that activation will succeed, because activation can still depend on the SIM or eSIM, line, account, carrier lock and device status at the time you activate.
+
+### Whether T-Mobile considers the device blocked
+
+The checker can present a blocked-device result. T-Mobile also explains that when a device is reported lost or stolen, its IMEI can be reported to an international database so the device can be blocked on participating networks.
+
+If the checker says **Device Blocked**, stop before activation or purchase. Re-enter the IMEI carefully, then ask the current owner to contact the carrier responsible for the block. A checker cannot remove the record.
+
+### Whether the IMEI was entered correctly
+
+A no-match or unexpected result can also come from the wrong number. Dual-SIM phones may show IMEI and IMEI2, and a seller may copy a number from the box rather than the phone.
+
+Verify the IMEI on the device itself:
+
+- dial `*#06#` when the phone allows it;
+- open the About screen in Settings;
+- use the Info button on an iPhone setup screen; or
+- compare the device with the original packaging.
+
+Run a [free IMEI model lookup](https://imeihub.net/service.php?slug=free-imei-check) first if you want to confirm that the brand and basic model match. That free lookup does not include blacklist, iCloud, warranty or carrier-lock status.
+
+## Blacklist Status Is Not the Same as Carrier Lock
+
+### A blacklist block restricts network access
+
+The GSMA's official [Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that a red result means an IMEI is flagged on the GSMA Block List because it was reported lost, stolen or otherwise unsuitable for cellular use. Network operators can share these records through the GSMA Device Registry.
+
+This status follows the device identifier. Swapping a SIM does not create a new IMEI and does not clear the underlying report.
+
+### A carrier lock restricts which SIMs can be used
+
+A carrier-locked phone can be legitimate, fully paid and not blacklisted. It simply has a software restriction that limits use to an approved carrier until unlock requirements are met.
+
+T-Mobile's current [device unlock guide](https://www.t-mobile.com/support/devices/unlock-your-mobile-wireless-device) treats unlock status as a separate process. For an iPhone, T-Mobile points users to **Settings > General > About** and the Carrier Lock field; **No SIM restrictions** means the iPhone is unlocked.
+
+The distinction matters:
+
+| Status | Main question | Who can resolve it? |
+| --- | --- | --- |
+| Blacklisted or blocked | Has the IMEI been barred from cellular use? | The organization that placed or controls the record |
+| Carrier locked | Can the phone use another carrier's SIM or eSIM? | The locking carrier after its eligibility rules are met |
+| Incompatible | Does the hardware work correctly on the network? | Usually not fixable by an unlock; choose compatible hardware |
+| Account or line issue | Is service allowed on this customer's account and line? | The carrier account holder and carrier support |
+
+An IMEI lookup does not remove any of these restrictions.
+
+## Why a Phone Can Pass One Check and Fail Another
+
+### Records can have different scope
+
+T-Mobile's checker is designed for the T-Mobile network. A separate blacklist service may consult broader carrier data and may show the source or reason supplied by a reporting organization. Different systems can also update at different times.
+
+Do not assume that a single green result will remain green forever. A phone may be reported after a sale, an insurance claim may still be in progress or a delayed carrier record may appear later.
+
+### IMEI1 and IMEI2 can be confused
+
+A dual-SIM device may have two IMEIs. If you check one and activate the other, you may be comparing different cellular identities. Record which IMEI each result covers and use the number requested by the activation flow.
+
+### A clean blacklist result does not prove the phone is paid off
+
+Blacklist data and financing are separate. A clean report does not prove that the seller has completed device payments or that the account is in good standing. Ask for proof of purchase and, when possible, complete the carrier verification with the seller present.
+
+### Activation Lock is another system
+
+On an iPhone, Find My and Activation Lock are controlled through Apple's systems. A T-Mobile compatibility or blacklist result cannot remove Activation Lock and should not be used as evidence that the previous owner has removed the phone from their Apple Account.
+
+## How T-Mobile Handles a Reported Lost or Stolen Device
+
+T-Mobile's [lost or stolen device guidance](https://www.t-mobile.com/support/account/lost-or-stolen-device-help) says that reporting a device lost or stolen sends the IMEI to an international database. The company says this helps prevent use on most carrier networks, including T-Mobile, even if another SIM is inserted.
+
+The same guidance separates the device block from the line suspension:
+
+- reporting the device addresses the equipment identity;
+- suspending the line helps prevent unauthorized service charges; and
+- restoring a found device requires the account holder to follow T-Mobile's recovery process.
+
+If you find a phone, do not try to sell or activate it. T-Mobile instructs finders of a lost T-Mobile device to take it to a T-Mobile store so it can be returned to the owner.
+
+## A Safer Check Before Buying a Used Phone
+
+### Step 1: Get the IMEI from the phone
+
+Ask the seller to show the IMEI in Settings or through `*#06#`. Avoid relying only on a typed number or a photo of a box label.
+
+### Step 2: Confirm the basic identity
+
+Use the free IMEIHub lookup to check that the brand and model match the device. A mismatch can indicate a typing error, a replaced label, an unusual database mapping or tampering that needs investigation.
+
+### Step 3: Run the T-Mobile compatibility check
+
+Enter the same IMEI in T-Mobile's official checker. Save the wording of the result, because **compatible**, **not blocked**, **no match** and **device blocked** do not mean the same thing.
+
+### Step 4: Check wider blacklist status when the purchase risk justifies it
+
+A paid blacklist report is useful when you need a broader lost-or-stolen check rather than only a T-Mobile activation answer. Review the report scope and timestamp. No report can promise that a clean device will never be reported later.
+
+### Step 5: Verify carrier lock and account facts separately
+
+On iPhone, inspect the Carrier Lock field. For other devices, follow the carrier's official unlock workflow. Ask the seller for evidence of ownership and payment status; an IMEI result alone cannot verify their account balance.
+
+### Step 6: Finish setup before handing over payment
+
+Insert or activate the intended SIM/eSIM when practical, make a test call and verify mobile data. For an iPhone, make sure the seller has erased it correctly and that setup does not ask for the previous owner's Apple Account.
+
+## How to Read Common Results
+
+### Compatible and not blocked
+
+This is encouraging for T-Mobile use, but still verify carrier lock, account eligibility, SIM/eSIM setup and physical condition. If buying used, consider a broader blacklist check.
+
+### Device blocked
+
+Do not try different SIM cards as a workaround. Confirm the IMEI and ask the seller to resolve the status with the carrier that placed the block. If the seller cannot provide a credible path, do not buy the phone.
+
+### No match or unable to verify
+
+Check all 15 digits, remove spaces and confirm whether the phone has IMEI2. A no-match result is not proof of a blacklist. It means the checker could not produce the expected device match and needs further verification.
+
+### Compatible but activation still fails
+
+Check the line, account, SIM/eSIM, carrier lock and current service status. Compatibility is only one part of activation.
+
+## What an IMEI Check Cannot Do
+
+No T-Mobile IMEI check or third-party report can:
+
+- remove a lost-or-stolen block;
+- unlock a carrier-restricted phone;
+- pay a seller's remaining device balance;
+- remove Apple Activation Lock;
+- prove legal ownership by itself; or
+- guarantee that a status will never change.
+
+These limits do not make the check unhelpful. They define how to use the result correctly—as evidence for a specific decision, not a universal certificate.
+
+## Conclusion: Use T-Mobile and Blacklist Checks for Different Decisions
+
+A T-Mobile IMEI check can identify compatibility and may flag a device as blocked on T-Mobile's network. A separate blacklist report is the better tool when you need broader lost-or-stolen status, while carrier lock, financing, Activation Lock and physical condition still require separate verification.
+
+Before buying or switching, confirm the model with IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then order the [paid WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) only when you need that additional status evidence.
+ARTICLE_20261019_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-vintage-obsolete',
         'title' => 'iPhone Serial Number Check: Is It Vintage or Obsolete?',
         'meta_title' => 'iPhone Serial Number Check: Vintage or Obsolete?',
