@@ -8,6 +8,311 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tablet-imei-number-change-sim',
+        'title' => 'Samsung Tablet IMEI Number: Does Changing the SIM Change It?',
+        'meta_title' => 'Samsung Tablet IMEI Number: Does a SIM Change It?',
+        'excerpt' => 'Learn whether changing a SIM changes a Samsung tablet IMEI number, how dual-SIM tablets use IMEI1 and IMEI2, and which identifier to check.',
+        'date' => '2026-10-20',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261020_1'
+Changing a SIM card does **not** change a Samsung tablet IMEI number. The IMEI identifies the tablet's cellular radio, while the SIM or eSIM identifies the mobile subscription using it. That distinction matters when you replace a SIM, move a data plan, buy a used Galaxy Tab, or investigate why a carrier will not activate the device.
+
+The short answer is simple, but tablets with Wi-Fi-only, cellular, dual-SIM, and eSIM variants can make the result look confusing. This guide explains which number stays with the tablet, which details move with the subscription, and what an online lookup can actually verify.
+
+## IMEI and SIM Identify Different Things
+
+An IMEI is a device identifier used by cellular networks. The [GSMA describes an IMEI as the unique identifier associated with a mobile device](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/). Its first eight digits form the Type Allocation Code, or TAC, which identifies the device type and model family.
+
+A SIM has a different job. It represents a mobile subscription and lets the carrier associate service with the subscriber. The GSMA's current device-identifier documentation distinguishes the physical device identifier from the [subscription represented by the active SIM or eSIM](https://open-gateway.gsma.com/docs/device-identifier/api-reference).
+
+That means a cellular Galaxy Tab normally has two separate layers:
+
+- **Tablet identity:** IMEI, serial number, model number, and sometimes a second IMEI or EID.
+- **Subscription identity:** SIM or eSIM profile, phone or data number, carrier account, and plan.
+
+Replacing the subscription layer does not rewrite the tablet's hardware identity.
+
+## What Happens When You Change the SIM?
+
+When you remove one SIM and insert another, the Samsung tablet IMEI number stored for that cellular radio remains the same. The new carrier may associate that unchanged IMEI with a different account, number, or data plan, but it does not issue a new IMEI to the tablet.
+
+### Details that can change
+
+- The carrier and plan attached to the tablet
+- The subscriber or account using the device
+- The phone or mobile-data number assigned to the SIM
+- The SIM's ICCID
+- Network settings and available features
+- The carrier's record of which IMEI is currently using that subscription
+
+### Details that normally do not change
+
+- IMEI1 and IMEI2 stored by the device
+- Samsung serial number
+- Hardware model number
+- Storage capacity and physical configuration
+- A blacklist record attached to a particular IMEI
+
+The practical consequence is important: changing a SIM is not a way to clear a blocked IMEI, remove Knox Guard, or unlock a carrier-restricted device. It only changes the subscription attempting to use the tablet.
+
+## Why a Tablet May Show IMEI1 and IMEI2
+
+Some cellular tablets support more than one mobile connection, such as a physical SIM plus an eSIM. In that situation, the device may show IMEI1 and IMEI2. These are identifiers for the tablet's separate cellular capabilities; they are not numbers printed on the removable SIM itself.
+
+Changing which line is active can change which IMEI a carrier sees for that connection. It does not create a fresh number. The tablet should continue to list the same IMEI1 and IMEI2 in its device information.
+
+### Which IMEI should you check?
+
+Use the IMEI assigned to the line or slot you plan to activate. If you are buying a used dual-SIM or eSIM-capable tablet and cannot confirm which connection was previously used, checking both IMEIs is safer. One identifier may have a different carrier history or block-list status from the other.
+
+Record the numbers separately and do not assume a clean result for IMEI1 automatically covers IMEI2.
+
+## Does Every Samsung Tablet Have an IMEI?
+
+No. A Wi-Fi-only Galaxy tablet does not connect directly to a cellular network, so it normally has no IMEI. The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) explains that cellular-capable devices such as tablets contain a network device identifier, while devices that rely only on Wi-Fi do not.
+
+This is why two Samsung tablets with nearly identical names can behave differently:
+
+| Tablet version | SIM or eSIM | IMEI expected? |
+| --- | --- | --- |
+| Wi-Fi only | No | No |
+| Cellular with one active radio | Yes | Usually one |
+| Dual-SIM or SIM plus eSIM | Yes | May show IMEI1 and IMEI2 |
+
+The absence of an IMEI is normal on a genuine Wi-Fi-only model. It becomes a concern when a tablet sold as a cellular version has no IMEI in Settings, shows an invalid number, or does not match its packaging.
+
+## How to Find the Correct Samsung Tablet IMEI Number
+
+[Samsung's official support guide](https://www.samsung.com/us/support/answer/ANS10002504/) lists several places where a Galaxy phone or tablet identifier may appear. Available menus can vary by model, software version, and carrier.
+
+### Check Settings first
+
+- Open **Settings**.
+- Tap **About tablet**.
+- Look for **IMEI**, **IMEI1**, or **IMEI2**.
+- Record the model number and serial number shown on the same screen.
+
+Settings is usually the best source because it shows what the tablet itself reports. If the device is locked, damaged, or not powered on, compare the other available sources.
+
+### Check the box and account records
+
+Samsung also identifies the original packaging, carrier account, bill of sale, and Samsung Members as possible sources. The dial code `*#06#` can display the IMEI on supported cellular models, although Samsung notes that carrier support can affect whether this method works.
+
+Use at least two sources when buying used. A mismatch between Settings and the box could mean the box belongs to another unit, the device was replaced, or the listing contains an error. Do not treat the packaging alone as proof of the tablet in front of you.
+
+## What an IMEI Check Can Confirm After a SIM Swap
+
+An IMEI lookup evaluates the device identifier you submit. It does not read the SIM card or reveal the subscriber's private account information.
+
+### Free basic lookup
+
+The [imeihub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) is designed for brand, model, and basic specification matching. It is useful for checking whether the IMEI's TAC is consistent with the Samsung tablet you expect.
+
+A basic result does not promise blacklist, warranty, carrier, or Knox Guard information. Those are separate status questions and may require a paid report.
+
+### Paid Samsung report
+
+For a cellular Galaxy tablet, the [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) is the relevant paid option when you need supported Samsung details such as the exact model, warranty, original carrier, purchase country, and Knox Guard status.
+
+Even a detailed lookup has limits. It cannot test the SIM tray, confirm mobile signal at your location, transfer a plan, remove a network block, or disable Knox Guard. A report gives information; it does not change the tablet or the carrier's records.
+
+## Troubleshooting a Different IMEI After Changing SIM
+
+If you believe the Samsung tablet IMEI number changed, work through the explanation before assuming the identifier was rewritten.
+
+### You may be viewing the other IMEI
+
+On a dual-SIM device, a carrier account or diagnostic screen may show IMEI2 while you previously recorded IMEI1. Compare the complete 15-digit numbers in **Settings > About tablet** and label each one clearly.
+
+### The carrier may show an old device
+
+Account dashboards are not always updated instantly after a SIM moves between devices. The IMEI shown online may belong to the previous tablet or phone that used the subscription. Restart the tablet, allow it to register on the network, and contact the carrier if the record remains wrong.
+
+### The box may not belong to the tablet
+
+Used devices are often resold with replacement packaging. Compare the IMEI in Settings with the label, receipt, and any seller-provided report before paying.
+
+### The device may have been serviced
+
+If Samsung or a repair provider replaced a major assembly, ask for service documentation. Do not infer the cause from an IMEI lookup alone. A mismatch deserves verification, but it does not by itself prove theft or tampering.
+
+## A Safe Check Before Buying or Activating
+
+Use this short sequence for a used Samsung tablet:
+
+- Confirm that the exact model is cellular rather than Wi-Fi-only.
+- Read IMEI1 and IMEI2 directly from Settings when available.
+- Match the identifier against the box or sales record.
+- Run a basic model lookup before paying.
+- Check every IMEI you intend to use, not just the first number displayed.
+- Use an appropriate paid report when carrier, blacklist, warranty, or Knox Guard status affects the purchase.
+- Test the intended SIM or eSIM with the carrier before the return period ends.
+
+Keep a screenshot or written record of the identifier and result date. Status information can change after a lost-device report, financing dispute, or carrier database update.
+
+## Conclusion
+
+Changing a SIM changes the subscription using a Samsung tablet, not the tablet's IMEI. A Wi-Fi-only model may have no IMEI, while a cellular model may show one or two identifiers depending on its radio and SIM configuration. Check the correct number in Settings, compare it with the sales records, and investigate any mismatch before activation or purchase.
+
+Start with the [free imeihub model lookup](https://imeihub.net/service.php?slug=free-imei-check), then choose the [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) when you need the supported paid device-status details.
+ARTICLE_20261020_1,
+    ],
+    [
+        'slug' => 'apple-imei-verify-genuine-parts',
+        'title' => 'Apple IMEI Verify: Can It Detect Genuine Apple Parts?',
+        'meta_title' => 'Apple IMEI Verify: Can It Detect Genuine Parts?',
+        'excerpt' => 'Learn what an Apple IMEI verify report can and cannot reveal about genuine parts, repair history, and the checks to run directly on an iPhone.',
+        'date' => '2026-10-20',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261020_2'
+An **Apple IMEI verify** lookup can identify an iPhone and may return supported device or repair records, but the IMEI alone cannot inspect the display, battery, camera, or other part installed in the phone today. To evaluate genuine Apple parts, combine an identifier report with Apple's on-device Parts and Service History and a physical function test.
+
+That distinction protects buyers from two opposite mistakes: assuming a clean device report proves every component is original, or assuming any repaired iPhone must contain counterfeit parts. Apple now uses several labels—including Genuine, Used, Unknown, and Finish Repair—and each one means something different.
+
+## What an Apple IMEI Verify Lookup Actually Reads
+
+An IMEI is an identifier assigned to a cellular device. It can be used to match records associated with that iPhone, but it is not a live hardware scanner. A lookup receives the number you submit and returns fields available from the selected data source.
+
+Depending on the report, useful results may include:
+
+- Device family and model
+- Storage and colour where supported
+- Activation or warranty information
+- Carrier or SIM-lock information in a carrier-focused report
+- Case or repair history when the selected service includes it
+- Blacklist or lost/stolen status in a separate blacklist report
+
+Those records can add context, but they do not electrically test the screen or authenticate every internal component at the moment of the lookup.
+
+## Why an IMEI Cannot Prove Every Part Is Genuine
+
+The IMEI identifies the iPhone's cellular equipment. A replacement display, battery, camera, or back glass does not normally cause a public IMEI lookup to become a component inventory.
+
+An online report also cannot see current symptoms such as:
+
+- Display touch errors or dead pixels
+- Reduced battery capacity
+- Face ID or Touch ID performance
+- Camera focus and stabilization
+- Microphone, speaker, or charging faults
+- Whether a repair was completed and calibrated correctly
+
+A historical repair record and the component currently fitted are related, but they are not the same fact. A device could have a recorded repair and still use a genuine part. It could also have an unrecorded third-party repair that a general identifier report does not reveal.
+
+## Use Apple's Parts and Service History on the iPhone
+
+Apple's [iPhone Parts and Service History guide](https://support.apple.com/102658) explains how supported iPhone models display repair information in **Settings > General > About**. The section appears when the device and software support the feature and relevant part information is available.
+
+### Genuine Apple Part
+
+A **Genuine** label indicates that the repair used a genuine Apple part and the relevant Apple processes. This is stronger evidence about the installed component than an IMEI model match.
+
+### Used Apple Part
+
+On supported newer devices and software, **Used** can indicate a genuine Apple part that was previously installed in another iPhone. Used does not automatically mean counterfeit. Apple notes that previously used genuine parts may vary in condition and repair coverage.
+
+### Unknown Part
+
+Apple says an **Unknown** message can appear for several reasons. The part might not be genuine, might not function as expected, might have been modified, or might not have been verified and linked after repair. Therefore, Unknown is a warning that requires investigation—not a precise diagnosis of who repaired the phone or which failure occurred.
+
+### Finish Repair
+
+**Finish Repair** indicates that the repair process or calibration still needs to be completed with Apple's Repair Assistant on a supported device. It should not be described as proof that the part is fake. Ask the seller or technician to complete the process and confirm that the final status updates correctly.
+
+## If the Section Is Missing, Are All Parts Original?
+
+No. The absence of Parts and Service History is not universal proof that an iPhone has never been repaired.
+
+Possible explanations include:
+
+- The iPhone model or installed iOS version does not expose the relevant history.
+- No covered part replacement is recorded.
+- The repair involved a component not shown for that model.
+- The phone has not completed the software or network steps needed to display updated information.
+- A repair occurred outside the records visible in that screen.
+
+Use Apple's current model-specific guidance rather than applying one rule to every generation. Apple also publishes separate component guidance, such as its [information about genuine iPhone displays](https://support.apple.com/103256), because available labels and supported parts vary by model.
+
+## Match the IMEI Before Trusting the On-Device Screen
+
+Before interpreting the repair labels, confirm that the phone, packaging, seller report, and online lookup refer to the same unit.
+
+### Find the identifiers
+
+Open **Settings > General > About** and record:
+
+- Serial number
+- IMEI and IMEI2, if present
+- Model name and model number
+- EID when relevant to eSIM setup
+
+Compare the complete identifier with the sales receipt, box, and report. Do not rely on a screenshot supplied by the seller if you can inspect the iPhone directly.
+
+### Run a basic identity match
+
+The [imeihub Apple Basic report](https://imeihub.net/service.php?slug=apple-basic) is a paid lookup for supported model, colour, and storage details. Compare those fields with the physical phone. A mismatch is a reason to pause and verify the identifier, not automatic proof of counterfeit parts.
+
+If you only need a first-pass brand and model check, the [free basic IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) covers basic identification. It does not advertise free repair history, blacklist, iCloud, warranty, or parts-authenticity results.
+
+## When a Repair-History Report Adds Value
+
+The [Apple Full GSX report](https://imeihub.net/service.php?slug=apple-full-gsx) is the relevant paid imeihub service when you need the supported Apple case and repair-history fields described on that service page. It can help answer whether known service events exist and provide context for a seller's explanation.
+
+Use it as one layer of evidence. A repair-history report does not replace:
+
+- The Parts and Service History screen
+- A check of current iOS warnings
+- Physical inspection of screws, frame, seals, and display fit
+- Functional tests of biometric sensors, cameras, charging, audio, and buttons
+- Battery Health information on the device
+- Proof of purchase or an Apple repair invoice
+
+The report also does not remove Activation Lock, disable Find My, unlock a carrier, or change any part status. A lookup reports information; it does not modify the iPhone.
+
+## A Practical Used-iPhone Parts Check
+
+Follow the checks in an order that prevents one result from being mistaken for complete proof.
+
+### 1. Confirm the phone's identity
+
+Read the IMEI and serial number from Settings. Match the expected model, capacity, and colour with a suitable identifier report.
+
+### 2. Review Parts and Service History
+
+In **Settings > General > About**, inspect every listed component. Note whether the label says Genuine, Used, Unknown, or Finish Repair. Photograph the screen with the seller's permission.
+
+### 3. Test the related functions
+
+If the display is listed, test touch across the screen, brightness, colour, and automatic brightness. For a camera entry, test focus, zoom, stabilization, flash, and video. For battery information, review Battery Health and observe charging behaviour.
+
+### 4. Compare documentary evidence
+
+Ask for the repair invoice and check that the dates and work performed make sense alongside any report history. Apple's [repair information](https://support.apple.com/iphone/repair) notes that Apple service equipment may contain new or previously used genuine parts that have passed its functional requirements, so “repaired” does not automatically mean “non-genuine.”
+
+### 5. Resolve warnings before paying
+
+An Unknown or Finish Repair message deserves a clear explanation and, when possible, resolution before the sale. Price the risk realistically if the seller cannot provide records or allow testing.
+
+## What Each Check Can and Cannot Tell You
+
+| Check | Useful for | Does not prove |
+| --- | --- | --- |
+| Free basic IMEI lookup | Brand and model match | Genuine parts or repair quality |
+| Apple Basic paid report | Supported model, colour, and storage details | Current component condition |
+| Apple Full GSX paid report | Supported case and repair-history context | Every installed part is genuine today |
+| Parts and Service History | Apple's available on-device component labels | Complete history for every model and every component |
+| Physical function test | Current behaviour of the inspected phone | Ownership, blacklist, or carrier-unlock status |
+
+No single row replaces the others. The strongest purchase decision comes from matching identity, record history, on-device status, and actual function.
+
+## Conclusion
+
+An Apple IMEI verify lookup is valuable for confirming that the identifier matches the expected iPhone and for retrieving the fields included in a selected report. It cannot, by itself, certify every internal component. Use Apple's Parts and Service History to read supported part labels, then test the phone and compare repair documents before buying.
+
+Begin with the [Apple Basic report](https://imeihub.net/service.php?slug=apple-basic) for supported identity details, or choose the [Apple Full GSX report](https://imeihub.net/service.php?slug=apple-full-gsx) when documented case and repair-history context is relevant to your decision.
+ARTICLE_20261020_2,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-identifiers',
         'title' => 'iPhone Serial Number Check: Serial, Model, or IMEI?',
         'meta_title' => 'iPhone Serial Number Check: Serial, Model, or IMEI?',
@@ -11920,3 +12225,4 @@ MD,
     ],
 
 ];
+
