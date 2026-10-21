@@ -8,6 +8,89 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title' => 'NCC IMEI Check Nigeria: How to Verify a Phone IMEI',
+        'meta_title' => 'NCC IMEI Check Nigeria: Verify Any Phone IMEI',
+        'excerpt' => 'Buying a phone in Nigeria? Learn how NCC-linked IMEI checks work, how to spot counterfeit or unapproved devices, and what to do before you pay.',
+        'date' => '2026-10-21',
+        'tag' => 'Guide',
+        'body' => <<<'MD'
+## NCC IMEI Check in Nigeria: Why It Matters in 2026
+
+If you are buying a phone in Lagos, Abuja, Kano or Port Harcourt, the single most useful 15-digit number on the device is its **IMEI**. The **Nigerian Communications Commission (NCC)** regulates telecom equipment in Nigeria, and its type approval rules exist to keep **counterfeit, substandard and unapproved handsets** off Nigerian networks. Operators such as **MTN, Airtel, Glo and 9mobile** all rely on IMEI data to identify devices on their networks.
+
+For a buyer, that means one thing: a phone that looks perfect in the shop can still be a fake, a clone, or a stolen handset. A proper **verify phone IMEI Nigeria** routine takes about two minutes and costs far less than a bad purchase.
+
+> **Note:** Rules and enforcement tools change. Always confirm current requirements on the official NCC website or by calling the NCC consumer line (**622**, toll-free) before relying on any single source.
+
+## What the NCC Does With IMEI Numbers
+
+The IMEI (International Mobile Equipment Identity) is a unique identifier assigned to each phone. The first 8 digits are the **TAC (Type Allocation Code)**, which identifies the brand and model. The NCC's interest in the IMEI covers three areas:
+
+- **Type approval:** Devices sold in Nigeria are expected to meet NCC technical standards.
+- **Counterfeit control:** Fake handsets often carry copied or invalid IMEIs.
+- **Stolen device deterrence:** Reported IMEIs can be flagged so they are harder to resell.
+
+An IMEI check cannot replace NCC approval paperwork, but it quickly exposes the most common scams.
+
+## Step-by-Step: How to Verify a Phone IMEI in Nigeria
+
+- **Step 1: Get the IMEI.** Dial `*#06#` on the phone. Then compare it with the number printed on the box and under **Settings > About phone**. All three should match.
+- **Step 2: Check the format.** A genuine IMEI has 15 digits and passes the Luhn checksum. Dual-SIM phones show two IMEIs; check both.
+- **Step 3: Decode the model.** Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). The brand and model returned must match what the seller is advertising.
+- **Step 4: Check for theft or blacklisting.** Run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist). A device reported lost or stolen abroad can still be flagged, even if it works in the shop.
+- **Step 5: Test with your own SIM.** Insert your SIM, make a call, send an SMS and use mobile data before you hand over cash.
+- **Step 6: Keep proof.** Save the seller's details, a receipt and a screenshot of your check results.
+
+## Red Flags That Suggest a Counterfeit or Unapproved Phone
+
+| Red flag | What it may mean |
+|---|---|
+| IMEI on the box differs from `*#06#` | Swapped box or tampered device |
+| IMEI is missing, all zeros or repeated digits | Invalid or cloned IMEI |
+| Free IMEI Check returns a different model | Fake or re-badged handset |
+| Price far below market for a flagship | Counterfeit, stolen or locked device |
+| Two phones sharing one IMEI | Cloned IMEI; network may block one |
+| Seller refuses to let you test with your SIM | High risk, walk away |
+
+## iPhones and Samsung Phones: Extra Checks
+
+Premium brands are the most copied. For a used iPhone, add an [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) check and an [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) so you know it is not locked to Activation Lock or to a foreign carrier. A [Apple Warranty](https://imeihub.net/service.php?slug=apple-warranty) check helps confirm the age and coverage.
+
+For Samsung devices, the [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) report confirms the model and region, which helps you spot imitation Galaxy phones.
+
+## What To Do If Your Phone Is Flagged
+
+- **If the phone is reported stolen:** Do not buy it. Report the seller to the police.
+- **If you already bought it:** Contact the seller for a refund and report the case to the police. Contact your network operator for guidance.
+- **If you suspect a counterfeit:** Report it to the NCC through the consumer line (622) or its official channels.
+- **If your own phone stopped working on the network:** Ask your operator whether the IMEI has been flagged and what proof of ownership they need.
+
+Never pay anyone who promises to "unblock" an IMEI through unofficial means. These offers are a common scam.
+
+## If Your Phone Is Lost or Stolen
+
+Record the IMEI now, while you still have the phone. Keep it with your purchase receipt. If the phone is stolen, report it to the police and request that your operator block the device and SIM. Having the IMEI ready speeds this up significantly.
+
+## Quick Checklist Before You Pay
+
+- IMEI matches the box, `*#06#` and Settings.
+- Free IMEI Check shows the right brand and model.
+- Blacklist Check is clean.
+- SIM, calls and data work on your own network.
+- You have a receipt and the seller's contact details.
+
+## Check Before You Buy
+
+Take two minutes before handing over your money:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the brand, model and basic specs
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone has been reported lost or stolen
+
+A verified IMEI will not make a bad deal good, but it will stop the most common ones before they cost you.
+MD,
+    ],
+    [
         'slug' => 'iphone-imei-check-locked-sim-pin',
         'title' => 'iPhone IMEI Check: Does Locked SIM Mean Carrier Locked?',
         'meta_title' => 'iPhone IMEI Check: Locked SIM vs Carrier Lock',
