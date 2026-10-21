@@ -8,6 +8,178 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-locked-sim-pin',
+        'title' => 'iPhone IMEI Check: Does Locked SIM Mean Carrier Locked?',
+        'meta_title' => 'iPhone IMEI Check: Locked SIM vs Carrier Lock',
+        'excerpt' => 'Seeing Locked SIM on an iPhone? Separate SIM PIN and PUK requests from carrier lock, and learn when an IMEI report can help.',
+        'date' => '2026-10-21',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261021_1'
+An iPhone IMEI check can help investigate a carrier restriction, but a **Locked SIM** message can mean something else: the SIM or eSIM is protected by a PIN. Before buying a report or requesting a carrier unlock, identify the exact message and the setting involved. A SIM PIN, the phone's screen passcode, and a carrier restriction are separate controls.
+
+The useful question is not simply whether the phone is "locked." It is **what is locked, and who can resolve it?** This guide focuses on that decision so you can choose the right next step.
+
+## Start with the message, not a paid check
+
+Write down the wording of the alert without recording any secret codes. Note whether it appeared after restarting, moving a SIM, or adding a mobile plan. Then separate what you observed from what you suspect.
+
+| What you see | What to investigate first | Appropriate next step |
+|---|---|---|
+| A SIM PIN request or Locked SIM | Protection on the SIM or eSIM | Use your known SIM PIN or contact the SIM provider |
+| A PUK request | Recovery after SIM PIN failures | Obtain the correct PUK through your carrier |
+| Carrier Lock in About | The iPhone's carrier restriction | Read the value and ask the locking carrier if necessary |
+| An iPhone screen passcode request | Access to the device | Follow Apple's device-passcode support process |
+
+Do not treat every message containing "SIM" as proof that the handset needs a network unlock. The observation should decide which service, if any, is useful.
+
+## What a SIM PIN protects
+
+Apple explains that a SIM PIN protects cellular calls and mobile data on the SIM or eSIM. With this protection enabled, restarting the device or removing the SIM can trigger a lock. See Apple's [SIM PIN instructions](https://support.apple.com/en-us/118228) for the supported settings and recovery route.
+
+### A PUK is a different recovery credential
+
+If you do not know the SIM PIN or PUK, stop entering guesses and contact the provider of that SIM or eSIM. Apple warns that incorrect attempts can permanently lock it, requiring a replacement.
+
+A PUK is not an IMEI-derived unlock code. T-Mobile's [PUK and SIM error guide](https://www.t-mobile.com/support/devices/device-troubleshooting/puk-and-sim-error-troubleshooting) says the PUK belongs to the SIM and that moving the SIM to another device does not fix a PUK lock.
+
+### Keep the support request specific
+
+Tell the carrier that you have a **SIM PIN or PUK request**, if that is what the screen actually says. Asking only to "unlock my iPhone" can send the conversation toward handset eligibility instead.
+
+Have your account-verification information ready for the carrier's official process. There is no reason to enter your SIM PIN, PUK, account password, or verification code into an IMEI report form.
+
+## Check the iPhone's carrier restriction separately
+
+For the handset itself, Apple directs users to **Settings > General > About > Carrier Lock**. A value of **No SIM restrictions** means the iPhone is unlocked for use with different carriers. Apple's [carrier-unlock guidance](https://support.apple.com/en-us/109316) also explains that Apple cannot perform a carrier unlock; the carrier controls that process.
+
+### An unlocked handset can still have a PIN-protected SIM
+
+Consider a phone whose About screen says No SIM restrictions but whose cellular line requests a PIN after restart. Those observations are consistent: one describes the handset's carrier policy, while the other concerns the subscription credential.
+
+Buying another carrier-status report would not supply the missing PIN. Deal with the PIN request through the SIM provider first.
+
+### A working SIM does not settle the carrier-lock question
+
+A seller showing that their own line works has demonstrated one working combination. That does not establish that another carrier's line will be accepted. If your purpose is switching networks, check Carrier Lock and the intended carrier's compatibility requirements separately.
+
+Record these as separate findings instead of collapsing everything into one "unlocked" checkbox.
+
+## When an iPhone IMEI check is useful
+
+Use a report when the question is specifically about a supported device-status field, especially when comparing the seller's claim with a recorded result. First obtain the identifier from the actual device where possible. Apple's [identifier guide](https://support.apple.com/en-us/108037) explains how to locate and copy the IMEI in About.
+
+The [IMEIHub Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) is a paid check for carrier-lock status. Its purpose is not to recover a SIM PIN or PUK, and ordering it does not change the phone's restrictions.
+
+The [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) identifies basic brand, model, and specifications. It is not a free carrier-lock, blacklist, iCloud, or warranty report.
+
+### What to keep with a result
+
+For your own comparison, record:
+
+- The device and IMEI used, keeping the full identifier private.
+- The exact report type and returned status.
+- The time you ran the check.
+- The value currently shown in Carrier Lock.
+- The carrier's response if the two disagree.
+
+A disagreement calls for checking the identifier and clarifying the status with the carrier, not guessing secret codes or assuming an online report can override the device.
+
+## Choose the next step that matches the problem
+
+A Locked SIM alert is a reason to identify the lock carefully. SIM PIN and PUK issues go to the SIM provider; a handset carrier restriction goes to the carrier responsible for that restriction. A report can provide information, but cannot remove a carrier lock or Activation Lock.
+
+If you have confirmed that your question concerns the iPhone's carrier policy, review the scope of the [IMEIHub Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) before ordering.
+ARTICLE_20261021_1
+    ],
+    [
+        'slug' => 'imei-checker-online-excel-scientific-notation',
+        'title' => 'IMEI Checker Online: Keep Excel from Changing Your IMEI',
+        'meta_title' => 'IMEI Checker Online: Fix Excel IMEI Formatting',
+        'excerpt' => 'Prepare IMEI numbers in Excel without losing digits or leading zeros. Learn when scientific notation is only a display issue and when to re-import.',
+        'date' => '2026-10-21',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261021_2'
+An IMEI checker online needs the exact identifier from the device. If your inventory spreadsheet shows a shortened value such as scientific notation, check the underlying digits before copying anything into a lookup form. A formatting problem can turn a useful device record into an invalid input or a report for the wrong number.
+
+For shops and individual sellers, the safest habit is to store IMEIs as **text identifiers**, then compare the exported value with the source. You do not need arithmetic on an IMEI, and a neatly displayed spreadsheet is not proof that every digit survived an import.
+
+## Why an IMEI is better stored as text
+
+The [GSMA describes an IMEI](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database/) as a 15-digit device identifier. Its role is identity, not quantity: adding two IMEIs or rounding one has no useful meaning.
+
+Microsoft documents that Excel can remove leading zeros and display long numbers in scientific notation. Its [guide to preserving zeros and large numbers](https://support.microsoft.com/en-us/excel/keeping-leading-zeros-and-large-numbers) also identifies the 15-significant-digit numeric precision limit.
+
+A normal 15-digit IMEI is not automatically rounded merely because it contains 15 digits. The greater precision problem affects longer numeric identifiers. However, automatic formatting, lost leading zeros, copied abbreviations, or an earlier damaged export can still make an IMEI unusable.
+
+### Keep different identifiers in different columns
+
+Do not put IMEI, serial number, EID, and SIM identifiers into one generic "phone number" column. Label each field explicitly. For dual-IMEI devices, use separate IMEI1 and IMEI2 fields rather than joining both strings.
+
+This is a suggested inventory convention, not a claim that IMEIHub accepts spreadsheet uploads or automatically checks a whole workbook.
+
+## Is scientific notation a display issue or lost data?
+
+Treat these as different situations:
+
+| Observation | What it tells you | What to do |
+|---|---|---|
+| The cell looks abbreviated, but the underlying value matches the source | The display may be the issue | Preserve the verified full value as text |
+| A leading zero is missing | The identifier no longer matches its source | Re-import or copy again from the original |
+| A long identifier has trailing digits replaced with zeros | Precision may already be lost | Recover the original string; do not invent digits |
+| The file literally contains an abbreviated exponential value | The export may not retain the full identifier | Return to the original record |
+
+These are troubleshooting clues rather than a guarantee that a particular cell is correct. Compare against the device or an unchanged source file before spending money on a report.
+
+### Changing the format is not data recovery
+
+Applying Text formatting after an import cannot recreate digits that have already disappeared. Nor does widening a column prove that a previously rounded number is accurate.
+
+Keep the original file untouched while investigating. Work on a copy, document which rows need correction, and avoid overwriting the source with values reconstructed from memory.
+
+## Prepare the column before pasting
+
+For a new worksheet, select the intended IMEI column and apply **Text** format before entering values. Microsoft explains the formatting controls in its [number-format guide](https://support.microsoft.com/en-us/excel/format-numbers). Interface details vary by Excel version and platform.
+
+Use this practical handoff checklist:
+
+- Create a separate stock reference for each physical device.
+- Label the IMEI field and set its format before entry.
+- Copy the identifier from a reliable source without surrounding labels.
+- Compare the stored string with that source.
+- Check the value you actually paste into the lookup form.
+
+On an iPhone, Apple's [identifier instructions](https://support.apple.com/en-us/108037) show where to find the IMEI and how to copy it from Settings. Match the field label as well as the digits so an EID or serial number is not accidentally submitted instead.
+
+## Import CSV files deliberately
+
+For a CSV or text file, use Excel's import workflow and set the IMEI column's data type to Text before loading it. Microsoft's preservation guide explains the Power Query approach. Review any automatic type-conversion step; converting an already altered value to text does not restore the original.
+
+### Check automatic conversion settings where available
+
+Supported Excel versions offer controls for conversions involving leading zeros, long numeric strings, the letter E, and date-like entries. Microsoft's [data import and analysis options](https://support.microsoft.com/en-us/excel/data-import-and-analysis-options-in-excel) explains these controls. Use the options appropriate to your installed version rather than assuming every colleague's Excel behaves identically.
+
+### Verify the round trip
+
+After saving or exporting, inspect several records from the resulting file, including any that previously looked abbreviated. For a small batch, compare every identifier. Reopening a file through another application's import settings can introduce a fresh change, so check the final value at the point of use.
+
+Keep a simple review note: source checked, output checked, and any unresolved rows. This makes it easier to correct an inventory problem without repeatedly ordering reports against questionable inputs.
+
+## What an online lookup can and cannot confirm
+
+A model result may expose an obvious mismatch, but it does not prove that your spreadsheet belongs to the physical phone. A correctly formatted number can still have been copied from another device.
+
+IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic brand, model, and specification information. Paid services address separate questions such as carrier lock or blacklist status; the free result should not be described as a free iCloud, warranty, or blacklist report.
+
+Do not use repeated paid checks to guess a missing digit. A lookup also cannot recover lost spreadsheet data, establish ownership, or remove an activation or carrier lock.
+
+## Preserve the identifier before checking the device
+
+Keep IMEIs as text from capture through export, distinguish a shortened display from damaged data, and recover uncertain values from their original source. That preparation makes the result easier to trust because you know which device number you submitted.
+
+Once the exact identifier is verified, start with the [IMEIHub free IMEI checker](https://imeihub.net/service.php?slug=free-imei-check) to compare its basic model result with your inventory record.
+ARTICLE_20261021_2
+    ],
+    [
         'slug' => 'samsung-tablet-imei-number-change-sim',
         'title' => 'Samsung Tablet IMEI Number: Does Changing the SIM Change It?',
         'meta_title' => 'Samsung Tablet IMEI Number: Does a SIM Change It?',
