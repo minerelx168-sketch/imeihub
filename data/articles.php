@@ -8,6 +8,179 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-imeisv-16-digits',
+        'title' => 'IMEI Checker Online: Why Does Your Number Have 16 Digits?',
+        'meta_title' => 'IMEI Checker Online: IMEI vs 16-Digit IMEISV',
+        'excerpt' => 'Have a 16-digit IMEISV instead of a 15-digit IMEI? Learn the difference, why trimming one digit is wrong, and how to find the right lookup input.',
+        'date' => '2026-10-22',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261022_1'
+An IMEI checker online asks for 15 digits, but the record in front of you contains 16. Before deleting a digit to make it fit, check the field label: you may be looking at an **IMEISV**, a related identifier with a different ending. Getting that distinction right prevents a lookup from being run against the wrong number.
+
+The goal is to recover the device's actual IMEI, not to force an unfamiliar string through a form.
+
+## IMEI and IMEISV have different endings
+
+The [GSMA Device Identifier documentation](https://open-gateway.gsma.com/docs/device-identifier/api-reference) distinguishes the 15-digit IMEI from the 16-digit IMEISV. Both contain an eight-digit Type Allocation Code and a six-digit equipment serial component. Their final fields differ:
+
+| Identifier | Shared first 14 digits | Ending | Total length |
+|---|---|---|---|
+| IMEI as entered in a consumer lookup | TAC plus equipment serial component | One check digit | 15 digits |
+| IMEISV | TAC plus equipment serial component | Two software-version digits | 16 digits |
+
+The serial component inside these identifiers should not be confused with a separately labeled manufacturer serial number.
+
+### Why removing the last digit is not a conversion
+
+The two-digit software-version field does not contain the IMEI check digit. Removing just the final character leaves the first software-version digit in that position. It is therefore not a reliable way to obtain the IMEI.
+
+GSMA's [IMEI allocation guidance](https://www.gsma.com/newsroom/wp-content/uploads/TS.06-v25.0-IMEI-Allocation-and-Approval-Process.pdf) explains that the check digit is calculated from the other IMEI digits and excludes the software-version number. For a consumer check, retrieving the displayed IMEI is preferable to rebuilding it from another field.
+
+### A format mismatch does not mean the phone is blacklisted
+
+A form rejecting 16 digits tells you that the input does not meet that form's requirements. It does not establish a lost-or-stolen report, a carrier restriction, or a hardware fault. Resolve the identifier before interpreting any device-status result.
+
+## Find the field labeled IMEI
+
+Start with the device itself when it is available. On an iPhone, open **Settings > General > About**, find the IMEI field, and touch and hold its value to copy it. Apple's [identifier guide](https://support.apple.com/en-us/108037) also covers other places to find identifiers when Settings is unavailable.
+
+For another brand, follow its official model-specific instructions. Menu names and the information displayed can differ. Do not assume that every diagnostic or account screen uses the same label.
+
+Use this short input checklist:
+
+- Read the complete field name, including any suffix.
+- Copy the value from that field without adding nearby labels.
+- Compare the copied digits with the original display.
+- If the device has IMEI1 and IMEI2, keep each number separate.
+- Match the chosen number to the device or line you intend to investigate.
+
+If a seller sent an image, ask for the field label as well as the digits. A cropped string with no context is a poor basis for a paid report.
+
+## What to do with an inventory record containing only IMEISV
+
+Preserve the original record and label it accurately. Add a separate IMEI field once you obtain the number from the device or a reliable record. This avoids silently changing the meaning of an existing column.
+
+### Ask the record provider before transforming the data
+
+If a repair shop, supplier, or inventory system exported the value, ask what its field represents and whether it can supply the displayed IMEI. If a system offers an explicit conversion function, confirm its documented input and output rather than assuming that truncation performs the same job.
+
+For a batch of devices, unresolved identifiers should remain visibly unresolved. Guessing a final digit can produce a plausible-looking value without proving that it belongs to the intended unit.
+
+### Do not infer the field from length alone
+
+Sixteen characters are a clue, not proof of IMEISV. A copied label, an extra character, or an unrelated identifier could also explain the mismatch. The source field and device association matter more than the character count by itself.
+
+## Does the software-version suffix reveal the installed OS?
+
+The [IETF's IMEISV description](https://www.rfc-editor.org/rfc/rfc7254.html) identifies the final two digits as a manufacturer-assigned software-version number. That definition does not provide a universal translation into an Android or iOS release.
+
+Do not interpret a suffix as a consumer operating-system version merely because the digits resemble one. If you need the installed OS or security-update level, inspect the device's software-information screen. An IMEISV label is not a substitute for that observation.
+
+## Run the appropriate check after confirming the input
+
+IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic brand, model, and specification information. Use that result as a comparison with the physical device, not as proof that an uncertain identifier was reconstructed correctly.
+
+Blacklist, iCloud, warranty, and carrier-lock reports are separate paid services where offered. The free model lookup does not include those status checks. A lookup also cannot remove an activation or carrier lock.
+
+## Keep the original identifier intact
+
+When a record has 16 digits, identify the field first, obtain the actual IMEI, and keep the two values separately labeled. That small step makes the report easier to interpret and avoids paying to check a number created by a guess.
+
+Once you have verified the 15-digit IMEI, use the [IMEIHub free IMEI checker](https://imeihub.net/service.php?slug=free-imei-check) to compare the basic device details.
+ARTICLE_20261022_1
+    ],
+    [
+        'slug' => 'iphone-imei-check-wifi-calling',
+        'title' => 'iPhone IMEI Check: Can It Confirm Wi-Fi Calling Will Work?',
+        'meta_title' => 'iPhone IMEI Check: Verify Wi-Fi Calling Support',
+        'excerpt' => 'An iPhone IMEI check cannot guarantee Wi-Fi Calling. Check carrier support, line setup, software and the Wi-Fi connection before relying on the feature.',
+        'date' => '2026-10-22',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261022_2'
+An iPhone IMEI check may identify a device or report a supported status, but it cannot guarantee that Wi-Fi Calling will work on your line. If indoor reception is poor, the useful question is whether your carrier, account, iPhone settings, and Wi-Fi connection can deliver the feature together.
+
+Before buying an iPhone for this purpose, ask for evidence of the particular feature you need. A model match or an unlocked result answers only part of the question.
+
+## Separate device identity from a working calling feature
+
+A practical review has three parts:
+
+| Question | Best evidence |
+|---|---|
+| Which device is being checked? | The IMEI on the phone and a matching model result |
+| Can your carrier provide Wi-Fi Calling for it? | The carrier's current requirements and confirmation for your line |
+| Does it work in your intended setup? | The enabled feature, its status indicator, and an ordinary test call |
+
+Keep these findings separate. A report naming the expected iPhone model is useful for identification, but it does not observe the account or network you will use.
+
+### A seller's demonstration has a limited scope
+
+A working call on the seller's account shows that one setup works. It does not establish that your carrier or subscription offers the same feature. Ask which line was used and whether the call was actually using carrier Wi-Fi Calling.
+
+Likewise, a call through a messaging app is not evidence that your normal carrier phone number can place calls through Wi-Fi Calling.
+
+## Check the carrier requirements before ordering a report
+
+For a concrete example, [T-Mobile's Wi-Fi Calling requirements](https://www.t-mobile.com/support/coverage/wi-fi-calling-from-t-mobile) include an active account, a supported device, Wi-Fi internet access, and an E911 address. The page also distinguishes carrier Wi-Fi Calling from calls made in other apps.
+
+If you have already completed a T-Mobile IMEI check, follow up with the feature-specific question: **Is Wi-Fi Calling supported and enabled for this iPhone on my line?** A general compatibility result should not replace that conversation.
+
+### Ask about your own account and intended use
+
+Have these details ready for carrier support:
+
+- The iPhone model and the IMEI requested by the carrier.
+- The line on which you want Wi-Fi Calling.
+- Whether the option is absent, refuses to enable, or enables without completing calls.
+- Any exact error text.
+- Whether the problem occurs on one Wi-Fi network or several.
+
+This gives support a specific problem to investigate. It is more useful than saying only that the phone passed an online check.
+
+### Check charges before using it abroad
+
+Wi-Fi Calling is not a promise of free international calls. T-Mobile's page explains that billing depends on the plan, destination, and circumstances. Confirm your carrier's current terms for the trip or number you intend to call rather than treating the Wi-Fi icon as a billing guarantee.
+
+## Enable and verify the feature on the intended line
+
+Apple's [Wi-Fi Calling instructions](https://support.apple.com/en-us/108066), published October 7, 2026, direct you to the cellular settings and the relevant line when multiple SIMs are present. Turn on Wi-Fi Calling and follow any request to enter or confirm an emergency address.
+
+Apple says a Wi-Fi indication appears in the status bar while viewing Control Center when the feature is available. Check that indication before making an ordinary test call.
+
+### Keep the test relevant
+
+Use the line you plan to keep and a Wi-Fi network you expect to use. Record whether the call connects and whether audio works in both directions. This is a practical observation, not a guarantee of future availability on every network.
+
+Do not use an emergency number as a test destination. Keep emergency-address information accurate through the carrier's official process.
+
+### Update carrier settings as well as iOS
+
+Apple explains that [carrier-settings updates](https://support.apple.com/en-us/109324) can add support for features including Wi-Fi Calling. While connected to a network, open **Settings > General > About** and follow any update prompt. Installing a new SIM or eSIM can require new carrier settings.
+
+A successful IMEI lookup cannot tell you whether that update prompt is waiting on the phone.
+
+## If Wi-Fi Calling is missing or fails
+
+Apple recommends confirming carrier support and current device software, then contacting the carrier if the problem remains. Its troubleshooting guidance includes restarting and trying another Wi-Fi network because not all networks work with the feature.
+
+Avoid turning a feature failure into an unsupported diagnosis. It does not, by itself, prove that the iPhone is blacklisted or carrier-locked. Capture the symptom and ask the provider to check the line and feature setup.
+
+## Where IMEIHub fits into the decision
+
+Start with IMEIHub's [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) if you need basic brand, model, and specification identification. Free lookup is not a free Wi-Fi Calling certification, blacklist, iCloud, or warranty report.
+
+If you are switching carriers and specifically need a carrier-lock status report, IMEIHub offers the paid [Apple SIM-Lock Status check](https://imeihub.net/service.php?slug=apple-sim-lock). On the iPhone itself, Apple's [carrier-unlock guidance](https://support.apple.com/en-us/109316) identifies the Carrier Lock field in About; No SIM restrictions indicates an unlocked phone.
+
+Neither an unlocked status nor a paid report confirms Wi-Fi Calling provisioning. A lookup supplies information and cannot remove a carrier lock or Activation Lock.
+
+## Verify the feature you plan to rely on
+
+For Wi-Fi Calling, combine correct device identification, confirmation from your carrier, and a test on your own line. Keep any unresolved account or network issue separate from the device-status report.
+
+Begin by matching the device with the [IMEIHub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then complete the carrier and on-device checks before relying on Wi-Fi Calling.
+ARTICLE_20261022_2
+    ],
+    [
         'slug' => 'iphone-imei-check-locked-sim-pin',
         'title' => 'iPhone IMEI Check: Does Locked SIM Mean Carrier Locked?',
         'meta_title' => 'iPhone IMEI Check: Locked SIM vs Carrier Lock',
