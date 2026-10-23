@@ -8,6 +8,178 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'icloud-imei-check-offline-vs-off',
+        'title' => 'iCloud IMEI Check: Does Offline Mean Find My Is Off?',
+        'meta_title' => 'iCloud IMEI Check: Offline vs Find My OFF',
+        'excerpt' => 'Offline in Find My does not mean Find My is OFF. Learn how to read location messages, pending erases and iCloud IMEI check results before a handover.',
+        'date' => '2026-10-23',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261023_1'
+An iCloud IMEI check and an **Offline** message in Find My answer different questions. Offline concerns the device's availability in a location service; it is not evidence that Find My has been switched off or that the iPhone is ready for a new owner. This matters when a seller points to a grey device icon and says the account lock is gone.
+
+Read the label in its original context before drawing a conclusion. A location screen, an ON/OFF report, and an activation screen are different pieces of evidence.
+
+## What Offline and No location found actually tell you
+
+Apple's [Find My troubleshooting guide](https://support.apple.com/en-us/104978), published September 23, 2026, explains that a current location may be unavailable when a device's battery has run out. The app may instead display a previous location, or eventually show No location found.
+
+Apple also distinguishes the Find My app from Find Devices on iCloud.com: their location availability and retention differ. A screenshot from one interface should not be treated as a complete description of the other.
+
+### Offline devices may still participate in Find My
+
+Apple's [Find My overview](https://www.apple.com/icloud/find-my/) describes how supported devices can be found through the Find My network even when they cannot connect directly to the internet. Nearby Apple devices can help relay an approximate location.
+
+This is another reason not to translate the word Offline into Find My OFF. Location availability depends on the device, settings, and circumstances; the account-protection question needs its own evidence.
+
+## Compare the labels without mixing their meanings
+
+| Evidence | Question it addresses | Conclusion it does not support |
+|---|---|---|
+| Offline in Find My | Can the service currently reach or locate this device as expected? | The owner's account protection has been removed |
+| No location found | Is location information available in this interface? | The phone is unlocked for another owner |
+| Find My ON/OFF report | What status is returned for the submitted identifier? | Where the phone is now |
+| Activation screen | What does this physical device require to proceed? | Its complete ownership or carrier history |
+
+Keep the exact wording in your notes. Replacing all four observations with a single word such as “clear” makes it harder to see what remains unresolved.
+
+### An old map position is not a live reading
+
+If a location screen includes a time, preserve it with the observation. A previous location can be useful to an owner searching for a missing device, but it should not be described as the phone's confirmed current position.
+
+An IMEI status report does not update that map or provide access to the owner's Find My account.
+
+## Why Activation Lock can remain on an offline iPhone
+
+Apple's [Activation Lock explanation](https://support.apple.com/en-us/108794) states that enabling Find My also enables Activation Lock. Apple stores the account-to-device association on its activation servers, which the device checks during activation or recovery.
+
+The practical implication is that a phone being unreachable does not establish that this association has been removed. Powering it down is not the same action as an authorized owner completing Apple's transfer process.
+
+For a buyer, the missing evidence is not a fresher map screenshot. It is whether the actual phone can proceed through setup without requiring the previous owner's account.
+
+## A pending erase is not a completed handover
+
+Apple's [remote-erase guidance](https://support.apple.com/guide/icloud/erase-a-device-mmfc0ef36f/icloud) says an erase requested while a device is offline begins when it next comes online. The same guidance says Activation Lock remains on after a remote erase.
+
+Treat these as separate milestones:
+
+- The owner has submitted an erase request.
+- The device has actually received and completed it.
+- Any account association needed for resale has been removed through the supported process.
+- The buyer has checked the resulting setup screen.
+
+A screenshot of a pending action does not demonstrate all four. Ask the owner to complete the transfer and allow verification before treating the phone as ready.
+
+### Lost-device protection and resale have different goals
+
+If the iPhone is missing, use Apple's recovery guidance rather than a resale checklist. Do not remove account protection merely to make an Offline label disappear. If the device is being sold, the owner should perform the authorized handover while retaining control of their own credentials.
+
+There is no need to share an Apple Account password or verification code with a buyer or an IMEI-report website.
+
+## When an iCloud IMEI check helps
+
+The paid [IMEIHub iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status) reports whether Find My is returned as enabled for the supplied IMEI. It does not include the separate Clean/Lost detail, and it does not locate the phone.
+
+Before using a result, match the submitted identifier to the device and note when the report was obtained. If the result conflicts with the actual activation screen, resolve that discrepancy with the owner and Apple before proceeding. Do not substitute repeated screenshots for a completed setup check.
+
+IMEIHub's [free basic IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) provides brand, model, and basic specifications. It is not a free iCloud, blacklist, or warranty report. Neither a free nor paid lookup removes an activation or carrier lock.
+
+## Ask the account-status question directly
+
+Offline means you need to interpret a location-service observation; it does not certify that Find My is off. Keep location, pending actions, reported account status, and successful setup as separate checks.
+
+If your remaining question is specifically whether Find My is reported as enabled, review the [IMEIHub iCloud ON/OFF report](https://imeihub.net/service.php?slug=apple-icloud-status) and use it alongside verification of the physical device.
+ARTICLE_20261023_1
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-knox-warranty-bit',
+        'title' => 'Samsung Tablet IMEI Check: Knox Guard or Knox Warranty Bit?',
+        'meta_title' => 'Samsung Tablet IMEI Check: Knox Guard vs Warranty Bit',
+        'excerpt' => 'A Samsung tablet IMEI check may report Knox Guard, but that is not the Knox Warranty Bit. Learn which status to verify and what each one can tell you.',
+        'date' => '2026-10-23',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261023_2'
+A Samsung tablet IMEI check may offer Knox Guard information, but that does not mean it measures the **Knox Warranty Bit**. Both names include Knox, yet they describe different issues: management restrictions and a persistent device-security record. Confusing them can lead you to buy a report that does not answer your question.
+
+When a Galaxy tablet is advertised as “Knox clear,” ask which exact status the seller means and how it was checked.
+
+## Two Knox terms, two different questions
+
+Samsung describes [Knox Guard](https://docs.samsungknox.com/admin/knox-guard/) as a cloud service that helps organizations protect devices and payment plans. Authorized administrators can send messages, apply controls, and lock or unlock supported enrolled devices.
+
+The [Knox Warranty Bit](https://docs.samsungknox.com/admin/fundamentals/whitepaper/samsung-knox-mobile-security/system-security/hw-backed-security/) is a hardware-backed record that a device has run in a non-approved state. It is not a subscription balance or an administrator's lock switch.
+
+| Term | What to investigate | Evidence to request |
+|---|---|---|
+| Knox Guard | Management or payment-related restrictions on an enrolled device | The relevant report field and clarification from the responsible organization |
+| Knox Warranty Bit | A persistent security state recorded on the device | A device-specific check using Samsung's guidance |
+| Warranty coverage | Eligibility for a particular service or repair | Samsung's applicable coverage record and service assessment |
+
+These distinctions apply when evaluating a Samsung Tab A IMEI or another cellular Galaxy tablet. The exact model and supported features still matter.
+
+### Do not convert one result into another
+
+A favorable Knox Guard result is not a measurement of the Warranty Bit. Equally, an untripped Warranty Bit does not establish that a financing or management relationship has ended.
+
+Write down the complete field name instead of summarizing either result as “all Knox checks passed.” That keeps the evidence tied to the question it actually answers.
+
+## What a tripped Knox Warranty Bit means
+
+Samsung's [Knox Platform for Enterprise FAQ](https://docs.samsungknox.com/admin/knox-platform-for-enterprise/faq/) describes the bit as a one-time programmable e-fuse. It can move from 0x0 to 0x1 when triggered, including by a non-Knox bootloader or kernel. Samsung says it cannot be reverted through software.
+
+### A working tablet can still have affected features
+
+Samsung's security documentation explains that the device may remain usable after a reset while certain Knox-dependent functions are blocked. Being able to open Settings or browse the web therefore does not establish that every protected feature will work.
+
+Test the functions you intend to rely on, such as a supported work-profile setup. If an error appears, retain its wording and ask Samsung to interpret it for that model. Do not assume every app failure is caused by the Warranty Bit.
+
+### Avoid treating the name as a universal coverage decision
+
+The words Warranty Bit identify a security mechanism. A screenshot of that field alone should not be presented as a complete decision about every repair or coverage request.
+
+If repair eligibility is the issue, give Samsung the model, purchase evidence, reported fault, and any relevant security-state information. Ask for a decision on that specific service request rather than inferring one from a short seller description.
+
+## Check the physical tablet before paying for the wrong report
+
+For a cellular tablet, match the IMEI in the listing or report to the device you are inspecting. Keep the model number and serial number available too, so support can distinguish the hardware variant and service record.
+
+Use this inspection sequence:
+
+- Ask what “Knox clear” refers to: Guard, Warranty Bit, or another product.
+- Request the exact result and its source.
+- Confirm that it belongs to the tablet being offered.
+- Check the feature that matters to your purchase.
+- Resolve contradictory results before accepting the seller's assurance.
+
+For a Wi-Fi-only tablet without an IMEI, do not borrow a number from a related cellular model. Use the model and serial number with Samsung support for the relevant device-side investigation.
+
+### Follow model-appropriate inspection instructions
+
+Samsung's FAQ provides methods for viewing the Warranty Bit on different device generations. Follow guidance appropriate to the exact model or have an authorized service provider inspect it.
+
+Viewing a status does not require you to install custom firmware, unlock a bootloader, or attempt a reset. Avoid making changes merely to discover what a field means.
+
+## What IMEIHub's Samsung report covers
+
+The paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) lists Samsung model, warranty, original carrier, purchase-country, and Knox Guard information. Its form asks for a 15-digit IMEI.
+
+The published scope does not advertise a Knox Warranty Bit measurement. If that is your only question, do not assume this report will supply it. Confirm the field you need before ordering.
+
+The [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) supplies basic brand, model, and specification information. It does not include free Knox Guard, Warranty Bit, blacklist, or warranty reports.
+
+### A lookup does not repair or release a device
+
+An IMEI report cannot reset a hardware security bit, release a management restriction, or remove an activation or carrier lock. A Knox Guard issue needs the responsible organization's authorized process; a device-security issue needs the appropriate Samsung assessment.
+
+Keeping these routes separate helps avoid paying for repeated status checks when the next useful step is clarification from the organization or an inspection of the tablet.
+
+## Choose the check by its full name
+
+Knox Guard and the Knox Warranty Bit should remain separate entries in your buying checklist. One concerns supported device-management information; the other concerns a persistent security state that must be assessed appropriately on the device.
+
+If Knox Guard is the specific information you need for a cellular Galaxy tablet, review the scope of the [IMEIHub Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) before ordering.
+ARTICLE_20261023_2
+    ],
+    [
         'slug' => 'imei-checker-online-imeisv-16-digits',
         'title' => 'IMEI Checker Online: Why Does Your Number Have 16 Digits?',
         'meta_title' => 'IMEI Checker Online: IMEI vs 16-Digit IMEISV',
