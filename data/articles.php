@@ -8,6 +8,288 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'pta-dirbs-status-check-tax-calculator-pakistan',
+        'title' => 'PTA DIRBS Status Check & Tax Calculator Pakistan',
+        'meta_title' => 'PTA DIRBS Status Check Pakistan: IMEI & Tax Guide',
+        'excerpt' => 'Check your phone\'s PTA DIRBS status, understand the 60-day blocking rule, and see how PTA tax works before you buy or import a phone in Pakistan.',
+        'date' => '2026-10-23',
+        'tag' => 'Regulation',
+        'body' => <<<'MD'
+## PTA DIRBS Status Check: Why Every Phone Buyer in Pakistan Needs It
+
+In Pakistan, a phone that works perfectly today can be **blocked tomorrow** if its IMEI is not registered. The **Pakistan Telecommunication Authority (PTA)** runs the **DIRBS (Device Identification, Registration and Blocking System)**, which checks every handset on the **Jazz, Telenor, Ufone and Zong** networks and blocks devices that are not compliant.
+
+If you are buying a used phone in Lahore, Karachi or Islamabad, receiving a phone from family abroad, or importing one yourself, a **PTA DIRBS status check** is the first thing to do. It takes under a minute and can save you from paying for a phone that will lose service.
+
+> **Note:** PTA rules, duty rates and grace periods are revised from time to time, including in the federal budget. Always confirm current figures on the official PTA DIRBS portal before you pay anything. This guide is general information, not legal or tax advice.
+
+## What DIRBS Actually Does
+
+DIRBS compares the **IMEI** (the unique 15-digit number of each handset) against national lists. In plain terms:
+
+- **Compliant:** the IMEI is registered and any required duty or tax is paid. The phone works normally.
+- **Non-compliant:** the IMEI is not registered. After the grace period, the phone is **blocked from all local networks**.
+- **Blocked:** the device has been reported lost or stolen, or has been switched off by the system after the grace period ended.
+
+The key rule most buyers miss: a non-compliant phone usually keeps working for **about 60 days after a local SIM is first inserted**. Sellers know this, which is why a phone can look fine during a quick test and fail two months later, long after the seller has disappeared.
+
+## How to Check PTA DIRBS Status (3 Ways)
+
+- **Step 1: Find the IMEI.** Dial `*#06#`. Dual-SIM phones show two IMEIs, so note both. Compare them with **Settings > About phone** and the box.
+- **Step 2: SMS method.** Send the 15-digit IMEI as a text message to **8484** from any Pakistani SIM. You will receive the compliance status in a reply.
+- **Step 3: Official portal or app.** Enter the IMEI on the PTA DIRBS website or use the PTA DIRBS mobile app.
+- **Step 4: Run an independent check.** PTA status tells you about Pakistan only. Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the brand and model, and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to see whether the phone has been reported lost or stolen anywhere else.
+
+## Reading the Results
+
+| Status | What it means | What to do |
+|---|---|---|
+| Compliant | Registered and duty paid | Safe to buy |
+| Non-compliant, still in grace period | Works for now, will be blocked | Do not buy unless the price includes the PTA tax and you pay it before anything else |
+| Non-compliant, blocked | No network access | Avoid, or pay the tax to register first |
+| Blocked as lost or stolen | Reported through police or operator | Walk away and report the seller |
+| Result does not match the model on the box | Cloned, fake or re-badged phone | Walk away |
+
+## PTA Tax Calculator: How the Cost Is Worked Out
+
+To make an imported phone compliant, you pay **customs duty and taxes** and then register the IMEI. The amount depends mainly on:
+
+- **The phone model and its declared value** (flagship iPhones and Galaxy phones cost far more than budget Android phones)
+- **Whether you register with a CNIC or a passport** (residents and overseas Pakistanis have different routes)
+- **The current federal budget rates**, which change often
+
+The practical steps are:
+
+- **Step 1:** Open the official **PTA DIRBS** portal and use its tax calculator. Select the brand and model.
+- **Step 2:** Note the exact tax shown for that model and for your registration type.
+- **Step 3:** Generate a payment slip (PSID) and pay through the listed banking channels.
+- **Step 4:** Wait for the payment to be confirmed, then re-check the IMEI. Registration is normally completed within a short time after payment, though delays can occur.
+
+Because rates move, never trust a figure quoted by a shopkeeper or seen on social media. Calculate it yourself on the official portal and compare it with the phone's price.
+
+## Used Phone Buyer's Real Cost
+
+A cheap "non-PTA approved" iPhone is often not cheap at all. Use this simple test before you pay:
+
+| Line | Example |
+|---|---|
+| Seller's price for the non-PTA phone | Your quoted price |
+| Add: PTA tax from the official calculator | Amount from the portal |
+| **Real cost** | Price plus tax |
+| Local PTA-approved price for the same model | Compare |
+
+If the real cost is the same or higher than a PTA-approved phone, the "bargain" is not a bargain, and the approved phone also keeps its resale value.
+
+## Extra Checks for iPhone and Samsung Buyers
+
+Premium phones are the most commonly faked or locked. For a used iPhone, add an [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) check so you are not left with an Activation Lock, an [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) to see whether it is locked to a foreign carrier, and an [Apple Warranty](https://imeihub.net/service.php?slug=apple-warranty) check to verify its age.
+
+For Samsung, the [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) report confirms the model and region, which helps you spot imitation Galaxy phones.
+
+## Overseas Pakistanis and Travellers
+
+If you bring a phone from abroad, you can generally use it with a local SIM during the grace period, but you must register it with PTA before the period ends. Have your passport or CNIC, the IMEI numbers and the passport arrival details ready. Registration options, allowances and fees differ for residents, overseas Pakistanis and visitors, so check the official portal for your situation.
+
+## Red Flags When Buying in Pakistan
+
+- The seller says "PTA approved" but cannot show a DIRBS result for that exact IMEI
+- The IMEI on the box differs from the one shown by `*#06#`
+- The seller says the phone is "JV" or "factory unlocked" without proof
+- The price is far below the local PTA-approved price
+- The seller refuses to let you check the IMEI before paying
+- Anyone offers to "fix" or "change" an IMEI. This is illegal and a common scam
+
+## If Your Phone Is Blocked
+
+- **Your own phone, after the grace period:** Check the IMEI on the official portal, calculate the tax, pay it and ask for registration. Do not pay agents who promise a quick unofficial unblock.
+- **A phone you just bought:** Ask the seller for a refund and keep proof of the purchase.
+- **Reported stolen:** Do not use it. Contact your local police station.
+
+## Quick Checklist Before You Pay
+
+- IMEI matches the box, `*#06#` and Settings.
+- The SMS to 8484 or the portal shows **Compliant**.
+- Free IMEI Check shows the correct brand and model.
+- Blacklist Check is clean.
+- You have a receipt and the seller's CNIC copy or contact details.
+
+## Check Before You Buy
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the brand, model and basic specs
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone has been reported lost or stolen
+
+A clean PTA DIRBS result plus a clean blacklist check is the safest way to buy a phone in Pakistan.
+MD,
+    ],
+    [
+        'slug' => 'nca-imei-registration-check-stolen-phone-ghana',
+        'title' => 'NCA IMEI Check Ghana: Stolen Phone & Registration',
+        'meta_title' => 'NCA IMEI Check Ghana: Stolen Phone Guide',
+        'excerpt' => 'Buying a phone in Accra or Kumasi? Learn how NCA-linked IMEI checks work in Ghana, how to check a stolen phone, and what to do before you pay.',
+        'date' => '2026-10-22',
+        'tag' => 'Regulation',
+        'body' => <<<'MD'
+## NCA IMEI Check in Ghana: Why It Matters
+
+Phone theft and counterfeit handsets are two of the biggest risks for used-phone buyers in Accra, Kumasi, Takoradi and Tamale. The **National Communications Authority (NCA)** is the regulator for telecom equipment and networks in Ghana, and the **IMEI** (International Mobile Equipment Identity) is the 15-digit number that ties every handset to a record. **MTN Ghana, Telecel Ghana and AT Ghana** all use IMEI data to identify devices on their networks.
+
+If you want to **check a stolen phone in Ghana** or confirm a handset is genuine before you pay, the IMEI is where you start. A two-minute check can save you from losing money on a stolen, cloned or blacklisted device.
+
+> **Note:** Regulations and operator processes change. Confirm current NCA requirements on the official NCA website or through your network operator before relying on any single source. This guide is general information, not legal advice.
+
+## What the NCA and Operators Do With IMEI Numbers
+
+The first 8 digits of an IMEI are the **TAC (Type Allocation Code)**, which identifies the brand and model. Regulators and operators use IMEI data in three ways:
+
+- **Compliance:** Devices used on Ghanaian networks are expected to meet the NCA's technical standards.
+- **Counterfeit control:** Fake handsets often carry copied, invalid or duplicated IMEIs.
+- **Stolen device deterrence:** When a phone is reported stolen, its IMEI can be flagged so the device is harder to resell or use.
+
+An independent IMEI check does not replace official NCA records, but it quickly exposes the most common scams in the used-phone market.
+
+## Step-by-Step: How to Check a Stolen Phone in Ghana
+
+- **Step 1: Get the IMEI.** Dial `*#06#` on the phone. Compare it with the number on the box and under **Settings > About phone**. All three must match.
+- **Step 2: Check the format.** A genuine IMEI has 15 digits. Dual-SIM phones show two IMEIs; check both.
+- **Step 3: Confirm the model.** Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). The brand and model must match the seller's claim.
+- **Step 4: Check for theft or blacklisting.** Run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist). A phone reported lost or stolen, in Ghana or abroad, can still be flagged even if it works in the shop.
+- **Step 5: Test with your own SIM.** Make a call, send an SMS and use mobile data on your own network before paying.
+- **Step 6: Keep proof.** Save the seller's name, phone number, ID details if offered, a receipt and a screenshot of your results.
+
+## Red Flags in Accra and Kumasi Phone Markets
+
+| Red flag | What it may mean |
+|---|---|
+| IMEI on the box differs from `*#06#` | Swapped box or tampered device |
+| IMEI is missing, all zeros or repeated digits | Invalid or cloned IMEI |
+| Check shows a different model than advertised | Fake or re-badged handset |
+| Price far below market for a flagship | Stolen, locked or counterfeit device |
+| Seller will not meet in a public place or refuses a SIM test | High risk, walk away |
+| Seller says "the IMEI can be changed or fixed" | Illegal practice; do not buy |
+
+## Extra Checks for iPhone and Samsung
+
+Premium brands are the most targeted. For a used iPhone, add an [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) check and an [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) so you know it is not stuck on Activation Lock or locked to a foreign carrier. An [Apple Warranty](https://imeihub.net/service.php?slug=apple-warranty) check helps confirm age and coverage.
+
+For Samsung, the [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) report confirms the model and region, which helps you spot imitation Galaxy phones.
+
+## Imported Phones and Travelling to Ghana
+
+If you bring a phone into Ghana or buy an imported device, check it before you rely on it. Foreign-locked or blacklisted handsets may not work properly on local networks. Run a blacklist check and, for iPhones, a SIM-lock check before you travel or pay a shipping agent. Customs and import rules can change, so confirm current requirements with the Ghana Revenue Authority or your operator.
+
+## What To Do If a Phone Is Flagged
+
+- **Reported stolen:** Do not buy it. Report the seller to the Ghana Police Service.
+- **Already bought it:** Ask the seller for a refund and report the case to the police, then speak to your network operator about next steps.
+- **Suspected counterfeit:** Report it to the NCA through its official consumer channels.
+- **Your own phone stopped working:** Ask your operator whether the IMEI has been flagged and what proof of ownership you need to provide.
+
+Never pay anyone who promises to "unblock" an IMEI through unofficial means. These offers are a common scam.
+
+## If Your Phone Is Lost or Stolen
+
+Write down the IMEI now, while you still have the phone, and keep it with your receipt. If it is stolen, report it to the police and ask your operator to block the device and SIM. Having the IMEI ready speeds everything up.
+
+## Quick Checklist Before You Pay
+
+- IMEI matches the box, `*#06#` and Settings.
+- Free IMEI Check shows the right brand and model.
+- Blacklist Check is clean.
+- SIM, calls and data work on your own network.
+- You have a receipt and the seller's contact details.
+
+## Check Before You Buy
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the brand, model and basic specs
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone has been reported lost or stolen
+
+A verified IMEI will not make a bad deal good, but it will stop the most common ones before they cost you.
+MD,
+    ],
+    [
+        'slug' => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title' => 'NCC IMEI Check Nigeria: How to Verify a Phone IMEI',
+        'meta_title' => 'NCC IMEI Check Nigeria: Verify Any Phone IMEI',
+        'excerpt' => 'Buying a phone in Nigeria? Learn how NCC-linked IMEI checks work, how to spot counterfeit or unapproved devices, and what to do before you pay.',
+        'date' => '2026-10-21',
+        'tag' => 'Guide',
+        'body' => <<<'MD'
+## NCC IMEI Check in Nigeria: Why It Matters in 2026
+
+If you are buying a phone in Lagos, Abuja, Kano or Port Harcourt, the single most useful 15-digit number on the device is its **IMEI**. The **Nigerian Communications Commission (NCC)** regulates telecom equipment in Nigeria, and its type approval rules exist to keep **counterfeit, substandard and unapproved handsets** off Nigerian networks. Operators such as **MTN, Airtel, Glo and 9mobile** all rely on IMEI data to identify devices on their networks.
+
+For a buyer, that means one thing: a phone that looks perfect in the shop can still be a fake, a clone, or a stolen handset. A proper **verify phone IMEI Nigeria** routine takes about two minutes and costs far less than a bad purchase.
+
+> **Note:** Rules and enforcement tools change. Always confirm current requirements on the official NCC website or by calling the NCC consumer line (**622**, toll-free) before relying on any single source.
+
+## What the NCC Does With IMEI Numbers
+
+The IMEI (International Mobile Equipment Identity) is a unique identifier assigned to each phone. The first 8 digits are the **TAC (Type Allocation Code)**, which identifies the brand and model. The NCC's interest in the IMEI covers three areas:
+
+- **Type approval:** Devices sold in Nigeria are expected to meet NCC technical standards.
+- **Counterfeit control:** Fake handsets often carry copied or invalid IMEIs.
+- **Stolen device deterrence:** Reported IMEIs can be flagged so they are harder to resell.
+
+An IMEI check cannot replace NCC approval paperwork, but it quickly exposes the most common scams.
+
+## Step-by-Step: How to Verify a Phone IMEI in Nigeria
+
+- **Step 1: Get the IMEI.** Dial `*#06#` on the phone. Then compare it with the number printed on the box and under **Settings > About phone**. All three should match.
+- **Step 2: Check the format.** A genuine IMEI has 15 digits and passes the Luhn checksum. Dual-SIM phones show two IMEIs; check both.
+- **Step 3: Decode the model.** Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). The brand and model returned must match what the seller is advertising.
+- **Step 4: Check for theft or blacklisting.** Run a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist). A device reported lost or stolen abroad can still be flagged, even if it works in the shop.
+- **Step 5: Test with your own SIM.** Insert your SIM, make a call, send an SMS and use mobile data before you hand over cash.
+- **Step 6: Keep proof.** Save the seller's details, a receipt and a screenshot of your check results.
+
+## Red Flags That Suggest a Counterfeit or Unapproved Phone
+
+| Red flag | What it may mean |
+|---|---|
+| IMEI on the box differs from `*#06#` | Swapped box or tampered device |
+| IMEI is missing, all zeros or repeated digits | Invalid or cloned IMEI |
+| Free IMEI Check returns a different model | Fake or re-badged handset |
+| Price far below market for a flagship | Counterfeit, stolen or locked device |
+| Two phones sharing one IMEI | Cloned IMEI; network may block one |
+| Seller refuses to let you test with your SIM | High risk, walk away |
+
+## iPhones and Samsung Phones: Extra Checks
+
+Premium brands are the most copied. For a used iPhone, add an [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) check and an [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) so you know it is not locked to Activation Lock or to a foreign carrier. A [Apple Warranty](https://imeihub.net/service.php?slug=apple-warranty) check helps confirm the age and coverage.
+
+For Samsung devices, the [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) report confirms the model and region, which helps you spot imitation Galaxy phones.
+
+## What To Do If Your Phone Is Flagged
+
+- **If the phone is reported stolen:** Do not buy it. Report the seller to the police.
+- **If you already bought it:** Contact the seller for a refund and report the case to the police. Contact your network operator for guidance.
+- **If you suspect a counterfeit:** Report it to the NCC through the consumer line (622) or its official channels.
+- **If your own phone stopped working on the network:** Ask your operator whether the IMEI has been flagged and what proof of ownership they need.
+
+Never pay anyone who promises to "unblock" an IMEI through unofficial means. These offers are a common scam.
+
+## If Your Phone Is Lost or Stolen
+
+Record the IMEI now, while you still have the phone. Keep it with your purchase receipt. If the phone is stolen, report it to the police and request that your operator block the device and SIM. Having the IMEI ready speeds this up significantly.
+
+## Quick Checklist Before You Pay
+
+- IMEI matches the box, `*#06#` and Settings.
+- Free IMEI Check shows the right brand and model.
+- Blacklist Check is clean.
+- SIM, calls and data work on your own network.
+- You have a receipt and the seller's contact details.
+
+## Check Before You Buy
+
+Take two minutes before handing over your money:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the brand, model and basic specs
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone has been reported lost or stolen
+
+A verified IMEI will not make a bad deal good, but it will stop the most common ones before they cost you.
+MD,
+    ],
+    [
         'slug' => 'imei-checker-online-imeisv-16-digits',
         'title' => 'IMEI Checker Online: Why Does Your Number Have 16 Digits?',
         'meta_title' => 'IMEI Checker Online: IMEI vs 16-Digit IMEISV',
