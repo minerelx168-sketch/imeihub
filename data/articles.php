@@ -8,6 +8,85 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title' => 'NCC IMEI Check: Verify a Phone IMEI in Nigeria',
+        'meta_title' => 'NCC IMEI Check: Verify Phone IMEI in Nigeria',
+        'excerpt' => 'Buying a phone in Nigeria? Learn how an NCC IMEI check helps you spot counterfeit, cloned, stolen or unapproved handsets before you pay.',
+        'date' => '2026-10-24',
+        'tag' => 'Regulation',
+        'body' => <<<'ARTICLE_20261024_NG'
+If you are buying a phone in Lagos, Abuja, Kano or Port Harcourt, an **NCC IMEI check** is the fastest way to avoid paying for a handset that is counterfeit, cloned or reported stolen. The Nigerian Communications Commission (NCC) regulates which devices may be sold and connected, and fake or tampered IMEIs are one of the main reasons a "good deal" stops working on a network.
+
+This guide explains what the NCC's role is, what you can and cannot verify yourself, and a practical checklist for **verifying a phone IMEI in Nigeria** before you hand over cash.
+
+## What the NCC does about phones and IMEIs
+
+The NCC is Nigeria's telecoms regulator. For handsets, its work centres on two ideas:
+
+- **Type approval:** radio equipment sold in Nigeria is expected to meet NCC technical standards. Devices that were never approved, or that carry a copied identity, are a compliance and consumer-safety risk.
+- **Device identity:** the IMEI is the 15-digit number that identifies a handset on the network. Counterfeit and cloned phones often reuse or invent IMEIs, which is why the number must match the actual device.
+
+Rules and tools change over time. Before relying on any specific NCC process, confirm the current position on the NCC's official website or through its consumer line.
+
+## Why an IMEI check matters in Nigerian markets
+
+Used and imported phones are sold through shops, street markets and online classifieds. The common problems are:
+
+| Risk | What it looks like | Why an IMEI check helps |
+|---|---|---|
+| Counterfeit handset | Looks like a flagship, runs a re-skinned OS | IMEI returns the wrong brand or model |
+| Cloned or duplicate IMEI | Same IMEI printed on many devices | IMEI does not match the box, settings and phone body |
+| Stolen phone | Price far below market, no box or receipt | Blacklist database flags the IMEI |
+| Locked or financed phone | Works with one SIM only | Carrier and lock status reveal restrictions |
+
+## Step-by-step: verify a phone IMEI before you buy
+
+- **Step 1: Dial `*#06#`.** The phone shows its IMEI on screen. Write down every IMEI listed (dual-SIM phones show two).
+- **Step 2: Compare it with the box and the phone.** Check the box label, the SIM tray or back of the device, and Settings > About. They should all agree.
+- **Step 3: Validate the number.** A genuine IMEI is 15 digits and passes the Luhn checksum. A number that fails is not a real IMEI.
+- **Step 4: Run a free IMEI lookup.** The brand and model returned must match what the seller is claiming.
+- **Step 5: Run a blacklist check.** This tells you whether the IMEI has been reported lost or stolen in connected databases.
+- **Step 6: Test with your own SIM.** Make a call, send an SMS and use mobile data before paying.
+- **Step 7: Keep proof.** Take a receipt with the seller's name and phone number, and screenshot your checks.
+
+## What a third-party check can and cannot tell you
+
+A third-party IMEI check reads public and commercial databases. It can confirm the model, flag blacklist records and, for some brands, show lock or warranty details. It is **not** the NCC and cannot see private NCC or operator records, so treat it as strong evidence, not a legal guarantee. If something looks wrong, walk away or ask the seller to prove ownership.
+
+## Red flags when buying a phone in Nigeria
+
+- The seller refuses to let you dial `*#06#` or insert your SIM.
+- The IMEI on the box differs from the phone.
+- The price is far below the market rate for that model.
+- The IMEI lookup returns a different brand or an older model.
+- The seller has no receipt, original box or accessories and rushes you.
+
+## What to do if your phone has an IMEI problem
+
+If you already own the phone, keep your purchase proof and report the issue to your network operator. For disputes or consumer complaints, the NCC runs a consumer line (commonly cited as 622) and a complaints process on its website; verify the current contact details there. If you believe the phone is stolen, do not keep using it. Report it to the police.
+
+## Frequently asked questions
+
+**Does an IMEI check prove my phone is NCC-approved?**
+No. A lookup shows what databases say about the IMEI. NCC approval is a regulatory status you should confirm with the NCC or the manufacturer's authorised distributor.
+
+**Can a phone have a valid IMEI and still be counterfeit?**
+Yes. Some counterfeits copy a real IMEI. That is why you must compare the lookup result with the phone's real brand, model and specifications.
+
+**Is it safe to share my IMEI?**
+Sharing an IMEI for a lookup is generally low risk, but never share passwords, OTPs or your Apple ID or Google login.
+
+## Run your checks now
+
+Check the device before you pay:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm brand, model and basic specs from the IMEI.
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone is reported lost or stolen.
+
+For iPhones and Samsung phones, add the brand-specific reports from [Imeihub Services](https://imeihub.net/services.php) to check lock and warranty status.
+ARTICLE_20261024_NG
+    ],
+    [
         'slug' => 'iphone-serial-number-check-applecare-expired',
         'title' => 'iPhone Serial Number Check: Can Expired AppleCare Be Renewed?',
         'meta_title' => 'iPhone Serial Number Check: AppleCare After Expiry',
