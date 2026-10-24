@@ -8,6 +8,156 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-applecare-expired',
+        'title' => 'iPhone Serial Number Check: Can Expired AppleCare Be Renewed?',
+        'meta_title' => 'iPhone Serial Number Check: AppleCare After Expiry',
+        'excerpt' => 'Check an iPhone\'s coverage end date, distinguish expired AppleCare from the limited warranty, and find out where to verify new coverage eligibility.',
+        'date' => '2026-10-24',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261024_0'
+An iPhone serial number check can help you investigate expired coverage, but an expiry date is not a promise that AppleCare can be renewed. The useful next step is to identify which protection ended, then check the coverage options Apple actually offers for that device and region.
+
+This is especially important when a used-phone listing says “AppleCare renewable.” Treat that as a claim to verify before you include future coverage in the price you are willing to pay.
+
+## First identify what expired
+
+Do not combine the limited warranty and an AppleCare plan into one generic “warranty” field. Record the exact label, device identifier and end date from the original result.
+
+| What you have | What to verify next |
+|---|---|
+| A limited-warranty expiry date | Whether Apple offers any eligible coverage option for this device |
+| An expired AppleCare plan | The applicable post-expiry purchase window and plan terms |
+| A seller's old screenshot | The current record for the actual iPhone |
+| An offer to buy new coverage | Whether purchase completes and coverage is confirmed |
+
+A report about one type of protection should not be used to fill in missing details about another.
+
+### Find the current Apple record
+
+Apple's [coverage information guide](https://support.apple.com/en-us/102607) directs iPhone users to Settings, General, then AppleCare & Warranty. Select the device to view its coverage information. Apple also offers an online coverage check and account-based support records.
+
+Keep the plan name and expiration date together. If the seller only provides a cropped image with a date, ask to see which device and plan the date belongs to.
+
+## Can you buy coverage after AppleCare ends?
+
+Possibly, but eligibility is conditional. Apple's [current coverage-purchase guidance](https://support.apple.com/en-us/104941), reviewed October 24, 2026, includes post-expiry options in some regions. Several regional sections describe a possible 45-day window; another describes 30 days. Available plans and purchase methods differ by location.
+
+Select the correct country or region on Apple's page and check the actual device. Do not apply a deadline copied from a different market, and do not assume the end of the limited warranty starts the same window as the end of an AppleCare plan.
+
+### Check the offer before budgeting for it
+
+Use Apple's coverage-purchase flow to establish what is available now. An old receipt, an IMEI report, or a seller's assurance is not a substitute for a current offer from Apple.
+
+If no option appears, contact Apple with the device details and the previous plan information. Avoid buying repeated third-party reports in the hope that one will change the enrollment decision.
+
+## A practical checklist for an owner or buyer
+
+Before making a decision, gather a small set of evidence:
+
+- Match the serial number to the iPhone being discussed.
+- Record the exact coverage type and its end date.
+- Note the country or region relevant to the coverage.
+- Check the device's current purchase options with Apple.
+- Keep any confirmation issued after a successful purchase.
+
+For a buyer, separate “coverage exists today” from “coverage might be purchasable later.” If the price depends on the second statement, resolve it before paying. A seller can demonstrate a screen without sharing an Apple Account password or verification code.
+
+### Keep proof after purchase
+
+Apple explains how to obtain an agreement number or proof of coverage through [My Support](https://mysupport.apple.com). Retain that confirmation with your purchase records. A saved screenshot of an eligibility offer is useful context, but it is not the same document as proof of an active plan.
+
+## Where an IMEIHub report fits
+
+The paid [IMEIHub Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty) advertises activation-date and remaining-warranty information and accepts a 15-digit IMEI. Its published scope does not promise AppleCare renewal eligibility.
+
+Use that report when the missing information is the reported activation or warranty status. Use Apple for the decision about buying new AppleCare coverage. A serial-number search and an IMEI report are related tools, but their input fields and purposes are not interchangeable.
+
+The [free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides brand, model and basic specifications. It is not a free warranty, blacklist or iCloud report. No lookup extends coverage or removes an activation or carrier lock.
+
+## Make the decision from the current offer
+
+An expired entry is a reason to check the next available option, not evidence that renewal is guaranteed or impossible. Identify the plan, verify the date and region, and ask Apple to confirm what can be purchased for that iPhone.
+
+If you also need the device's reported activation and warranty details, review the [IMEIHub Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) before ordering.
+ARTICLE_20261024_0
+    ],
+    [
+        'slug' => 'tmobile-imei-check-temporary-unlock',
+        'title' => 'T-Mobile IMEI Check: Is a Temporary Unlock Permanent?',
+        'meta_title' => 'T-Mobile IMEI Check: Temporary vs Permanent Unlock',
+        'excerpt' => 'A working foreign SIM does not prove a permanent unlock. Learn what to verify about a T-Mobile temporary unlock before travel or buying a used phone.',
+        'date' => '2026-10-24',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261024_1'
+A T-Mobile IMEI check should not turn a temporary network unlock into a promise of permanent freedom to switch carriers. A phone accepting another SIM today is useful evidence, but you still need to know whether the permission has an end date.
+
+This distinction matters when a seller demonstrates a working foreign SIM or when you are arranging connectivity for a trip longer than the temporary unlock period.
+
+## What makes a temporary unlock different?
+
+T-Mobile's [Galaxy S23+ unlock tutorial](https://www.t-mobile.com/support/tutorials/device/samsung/galaxy-s23-plus/topic/settings/mobile-device-unlock/3), checked October 24, 2026, describes a temporary option lasting 30 days for using a foreign SIM while abroad. That is model-specific guidance, not a promise that every T-Mobile phone has the same option.
+
+A temporary permission should not be advertised as a completed permanent unlock. Ask for the exact status and any expiry information instead of accepting the shorthand “unlocked.”
+
+### Check the instructions for your exact device
+
+Menus and supported methods differ. T-Mobile's [device-unlock guide](https://www.t-mobile.com/support/devices/unlock-your-mobile-wireless-device) gives separate instructions for Apple, Samsung, Google and Motorola devices. Follow the entry for your model rather than a screenshot from another phone.
+
+If the available screen is unclear, have T-Mobile explain the status. Do not try unofficial menu tricks or software changes to convert one type of permission into another.
+
+## Evidence that answers the duration question
+
+| Evidence | What it helps establish | What remains open |
+|---|---|---|
+| Another SIM works during a demonstration | That SIM can obtain service in the observed conditions | Whether permission expires |
+| A temporary-unlock confirmation | A time-limited authorization was issued | Permanent-unlock eligibility |
+| A completed permanent-unlock confirmation | The carrier says the permanent process completed | Compatibility and service on the next carrier |
+| A generic IMEI status result | The specific status returned by that report | Any duration or expiry not explicitly included |
+
+Read a report literally. If it contains no temporary-unlock expiry field, do not infer a date from the word “unlocked.”
+
+### Ask for a complete handover record
+
+For a used phone, request the model, matching IMEI, exact unlock message and date of the observation. A photograph of a successful call alone leaves the duration question unanswered.
+
+If permanent use with your carrier is essential, make that requirement explicit before purchase. Resolve the status with the seller and T-Mobile rather than planning to investigate after a temporary period ends.
+
+## Eligibility and completion are separate steps
+
+T-Mobile's [SIM unlock policy](https://www.t-mobile.com/responsibility/consumer-info/policies/sim-unlock-policy) sets requirements for permanent unlocking. It also describes automatic remote unlocking within two business days once an eligible device supports that process.
+
+An eligibility result is therefore not identical to evidence that the unlock has already completed. Check the final device status and follow the carrier's instructions if an eligible handset remains locked.
+
+For planning purposes, keep three questions separate:
+
+- Does this device qualify for the permanent process?
+- Has that process completed?
+- Does the intended carrier support this model and line setup?
+
+A temporary travel permission does not answer all three.
+
+### What about an iPhone?
+
+Do not assume a Samsung temporary-unlock menu applies to an iPhone. T-Mobile directs iPhone users to Settings, General, About and the Carrier Lock field; No SIM restrictions indicates an unlocked iPhone. Ask T-Mobile about any unresolved claim that an iPhone is only temporarily unlocked.
+
+For an additional reported status check, [IMEIHub Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) is a paid iPhone service. It advertises SIM-lock status, not a temporary-unlock countdown or a carrier eligibility decision.
+
+## Plan travel around the authorization you actually have
+
+Record an expiry date if the carrier or device supplies one, and compare it with the whole trip. If the dates do not cover your plans, resolve your connectivity arrangements before departure.
+
+Also distinguish roaming from using another carrier's SIM. T-Mobile explains that roaming uses your T-Mobile SIM or eSIM on a partner network; device unlocking addresses use with another provider. A successful roaming session does not demonstrate that a foreign SIM is permitted.
+
+The [IMEIHub free basic lookup](https://imeihub.net/service.php?slug=free-imei-check) can help identify the model, but it does not include free carrier-lock, blacklist, iCloud or warranty reports. Neither a free nor paid check removes an activation or carrier lock.
+
+## Verify the term, not just the demonstration
+
+Temporary and permanent unlocks should be described separately in a purchase agreement or travel plan. Match the evidence to the actual device, check for an end date, and obtain carrier clarification where the status is ambiguous.
+
+If your remaining question concerns an iPhone's reported SIM-lock status, review the scope of the [IMEIHub Apple SIM-Lock Status check](https://imeihub.net/service.php?slug=apple-sim-lock) before ordering.
+ARTICLE_20261024_1
+    ],
+    [
         'slug' => 'icloud-imei-check-offline-vs-off',
         'title' => 'iCloud IMEI Check: Does Offline Mean Find My Is Off?',
         'meta_title' => 'iCloud IMEI Check: Offline vs Find My OFF',
