@@ -8,6 +8,156 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-mobile-router',
+        'title' => 'IMEI Checker Online for Mobile Routers: What Should You Check?',
+        'meta_title' => 'IMEI Checker Online for Mobile Routers and Hotspots',
+        'excerpt' => 'Check a mobile router\'s IMEI without confusing it with a Wi-Fi MAC address. Learn what model lookup reveals and what your carrier must confirm.',
+        'date' => '2026-10-25',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261025_0'
+An IMEI checker online can be a useful starting point when evaluating a cellular mobile router, but identifying the device is only one part of getting it connected. You also need the correct data plan, carrier acceptance and configuration. A hotspot broadcasting Wi-Fi does not, by itself, prove that its cellular internet connection works.
+
+Before buying a used mobile hotspot, separate the identity question from the service question. That makes it easier to choose a relevant check and avoid paying for a report that cannot diagnose the problem.
+
+## Find the cellular identifier, not the Wi-Fi details
+
+A router's label can contain several unrelated values. Look specifically for IMEI rather than copying the serial number, Wi-Fi network name or MAC address into a 15-digit IMEI form.
+
+NETGEAR's [mobile-hotspot IMEI guide](https://kb.netgear.com/000065012/Where-can-I-find-my-NETGEAR-mobile-routers-IMEI-number) shows the label beneath the removable battery on listed models, including the M1, M5 and M6. Follow the instructions for your model; do not pry open a sealed enclosure to imitate another product's layout.
+
+### Match the number to the unit being sold
+
+Ask for a readable identifier from the actual device, not just a marketplace description. If the seller provides a box, compare its identifier with the device's label or supported information screen.
+
+For applicable devices, the [NETGEAR MR5000 manual](https://www.downloads.netgear.com/files/GDC/MR5000/MR5000_UM_EN.pdf) also describes viewing device details such as model, software version and IMEI. Use the equivalent manual for your own router rather than assuming every hotspot has identical menus.
+
+## What the lookup can and cannot establish
+
+| Question | Appropriate evidence |
+|---|---|
+| Which model does this identifier resolve to? | A supported model lookup, checked against the device |
+| Will my chosen data plan accept this router? | Confirmation from the carrier for that model and plan |
+| Does it currently pass cellular data? | A practical connection test using the intended service |
+| Is there a reported lost-or-stolen issue? | A relevant supported blacklist check and carrier clarification |
+| Is the device in good physical condition? | Inspection of the router, battery and accessories |
+
+A missing model result is not an instruction to change the digits until a familiar model appears. Recheck the source number and ask about device support. Coverage of a phone-oriented lookup should not be assumed to include every router variant.
+
+### Free model data is not a router approval certificate
+
+The [IMEIHub free basic check](https://imeihub.net/service.php?slug=free-imei-check) resolves the identifier against its model catalog and supplies brand, model and basic specifications. It does not promise carrier approval for a particular hotspot plan.
+
+It also does not include free blacklist, warranty or iCloud reports. The paid [WorldWide Blacklist service](https://imeihub.net/service.php?slug=blacklist) addresses reported lost-or-stolen status; confirm applicability to the device before ordering. A clean report would still not prove plan compatibility.
+
+## Check the data plan before troubleshooting the router
+
+NETGEAR's [unlocked-hotspot setup guidance](https://kb.netgear.com/000064847/), updated September 15, 2026, recommends confirming plan compatibility with the carrier. It specifically notes that a T-Mobile SIM may be on a TAC/IMEI-restricted plan.
+
+The same guide explains that APN settings may populate automatically or require carrier-specific configuration. This is a different question from whether a model lookup recognizes the IMEI.
+
+Keep the carrier conversation precise:
+
+- Provide the exact router model and IMEI through the carrier's secure channel.
+- Identify the specific data plan you intend to use.
+- Ask whether that combination is accepted.
+- Obtain the correct setup instructions for the service.
+
+Do not assume that moving a working phone SIM into a hotspot creates a supported router subscription.
+
+### Test internet access beyond the local Wi-Fi connection
+
+During a demonstration, connect a client device and check that it can reach an external website through the hotspot's cellular service. Note which SIM and plan are being used.
+
+If the demonstration uses a different arrangement from yours, it is evidence of that arrangement only. Ask to verify the intended setup before treating the device as ready for your use.
+
+## Make the purchase decision from both identity and service evidence
+
+Record the model, matching IMEI, carrier response and observed connection result. If one is unresolved, investigate that specific gap rather than repeating the same lookup. No IMEI report removes an activation or carrier lock, changes a data-plan restriction or repairs a faulty router.
+
+To start with the identity question, use the [IMEIHub free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then take the confirmed device details to your carrier for plan approval.
+ARTICLE_20261025_0
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-ios-compatibility',
+        'title' => 'iPhone Serial Number Check: Can It Confirm iOS Compatibility?',
+        'meta_title' => 'iPhone Serial Number Check for iOS Compatibility',
+        'excerpt' => 'Use an iPhone serial number check to establish the model, then verify iOS support separately from the installed version and update availability.',
+        'date' => '2026-10-25',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261025_1'
+An iPhone serial number check can help establish which phone you have, but iOS compatibility is determined by the model's support for a particular release. A lookup result is not a live reading of the software installed on the phone, nor a guarantee that an update will finish successfully.
+
+For a used iPhone, ask three separate questions: which model is it, which release does Apple support on that model, and which version is installed now? Answering them in that order prevents a vague “supports the latest iOS” claim from replacing useful evidence.
+
+## Identify the exact model before checking support
+
+Keep the full model name, including any Pro, Plus, mini or SE generation designation. A shortened seller description can hide a meaningful difference between products.
+
+If you use a serial-number search or an IMEI lookup, match the identifier to the actual phone. A result for a different device cannot establish this phone's software support.
+
+### Use the right input for each service
+
+A serial number and an IMEI are different identifiers. Enter the type requested by the form rather than trying one value in every checker.
+
+The paid [IMEIHub Apple Check Basic service](https://imeihub.net/service.php?slug=apple-basic) requests a 15-digit IMEI and advertises model, colour and storage information. Its stated scope does not include reading the installed iOS version remotely.
+
+## Compare the model with Apple's release-specific list
+
+Apple publishes an [iPhone compatibility list](https://support.apple.com/guide/iphone/iphone-models-compatible-with-ios-27-iphe3fa5df43/ios). When reviewed on October 25, 2026, the page was for iOS 27 and included a version selector for earlier guides.
+
+Check both the model and the release named on the page. A phone appearing in an older guide is not evidence that it supports every later release.
+
+| Observation | What it establishes |
+|---|---|
+| Exact model identified | Which hardware model to investigate |
+| Model on Apple's list for the target release | Support for that release |
+| iOS Version displayed on the device | The version installed on that phone |
+| Update offered in Software Update | An available update in the device's current circumstances |
+| Successful installation | That the particular update completed |
+
+Keep these observations separate in a buying checklist. A seller may have confirmed only one of them.
+
+### Compatibility does not promise every feature
+
+Apple notes that features and apps can vary with the iPhone model, region, language and carrier. If one function is essential to your purchase, verify that function's own requirements as well.
+
+For example, do not turn a general compatibility result into an assurance that every feature shown in a promotional video will work on the device you are buying.
+
+## Read the installed version directly
+
+Apple's [software-version instructions](https://support.apple.com/en-us/109065), published October 12, 2026, place this information in Settings, General, About, beside iOS Version. The guide also describes checking through a connected computer.
+
+Ask to see the version on the physical phone or in a current demonstration. An old screenshot can describe an earlier state, while a model-information report normally addresses identity rather than the device's present software.
+
+### Record the complete version shown
+
+Keep the version exactly as displayed instead of reducing it to “new” or “updated.” That makes any later troubleshooting conversation clearer and avoids confusing a major release with a smaller update.
+
+A supported model running an older version is not automatically defective. Find out why the update has not been installed before drawing a conclusion.
+
+## What if a compatible iPhone will not update?
+
+Apple's [update troubleshooting guide](https://support.apple.com/en-us/108905) lists issues including insufficient storage, download delays, difficulty reaching the update server and an installation that does not complete.
+
+Start with the actual message:
+
+- Confirm the model supports the intended release.
+- Note the installed version and update being offered.
+- Record the exact error or point where the process stops.
+- Follow Apple's instructions for that symptom.
+
+Repeating an identity lookup will not create free storage or resolve a failed download. If the purchase depends on a successful update, ask the seller to demonstrate completion before you rely on it.
+
+## Choose the lookup for the missing information
+
+The [IMEIHub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic brand, model and specification information. Paid reports have separate scopes; free model lookup is not a free warranty, blacklist or iCloud report.
+
+Neither type of lookup installs iOS, grants future software support or removes an activation or carrier lock. Use Apple's compatibility list and the phone's own software screens for the update decision.
+
+If you need additional reported model, colour and storage details to identify the iPhone first, review the [IMEIHub Apple Check Basic report](https://imeihub.net/service.php?slug=apple-basic) and check that its scope answers your question.
+ARTICLE_20261025_1
+    ],
+    [
         'slug' => 'iphone-serial-number-check-applecare-expired',
         'title' => 'iPhone Serial Number Check: Can Expired AppleCare Be Renewed?',
         'meta_title' => 'iPhone Serial Number Check: AppleCare After Expiry',
