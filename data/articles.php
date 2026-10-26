@@ -8,6 +8,155 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tablet-imei-check-calls-texts',
+        'title' => 'Samsung Tablet IMEI Check: Will Calls and Texts Work?',
+        'meta_title' => 'Samsung Tablet IMEI Check for Calls and Texts',
+        'excerpt' => 'A Samsung tablet IMEI check identifies the device, but calling depends on its model and service. Separate standalone calls from linked-phone features.',
+        'date' => '2026-10-26',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261026_1'
+A Samsung tablet IMEI check is a useful starting point when a seller says a Galaxy Tab can replace your phone. The important follow-up is how it makes calls: through its own mobile service, through a connected Galaxy phone, or through an internet app. Those are different arrangements, and an IMEI result does not tell you which one the seller demonstrated.
+
+If calls or text messages are essential, identify the tablet first and test the intended arrangement before buying a plan or relying on it away from home.
+
+## Start with the exact tablet model
+
+A product-family name such as Galaxy Tab A is not enough for this decision. Record the full model number and compare it with the device's own information, rather than relying only on the listing title.
+
+Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) directs users to Settings, then About tablet. It also lists sources such as the original packaging and carrier account. Screens can differ by model and software.
+
+### Use the IMEI for identity, not as a calling specification
+
+When checking a Samsung Tab A IMEI, copy the field labelled IMEI into an IMEI form. Keep the model number separately for Samsung support and carrier questions. Do not substitute the serial number if the form requests a 15-digit IMEI.
+
+The [IMEIHub free basic lookup](https://imeihub.net/service.php?slug=free-imei-check) supplies brand, model and basic specifications from its catalog. Treat the result as an identity cross-check, not confirmation that voice service is provisioned on your tablet.
+
+## Separate direct calling from phone-linked calling
+
+Samsung's [tablet calling and messaging guide](https://www.samsung.com/us/support/answer/ANS10001614/) distinguishes LTE tablets with active SIM or eSIM service from its Call & text on other devices feature.
+
+For the linked feature, Samsung specifies a compatible Galaxy phone with active service, the same Samsung account, Wi-Fi connectivity and the feature enabled. Its current US guidance says calls require the same Wi-Fi network when the feature version is higher than 3.3.00; messaging can work without both devices sharing that network.
+
+Compatibility matters: the guide excludes Verizon and AT&T phones and notes that other carrier models may also lack support. Verify the applicable regional instructions for your devices.
+
+### Ask what service the demonstration uses
+
+Do not assume a cellular tablet's IMEI establishes that your proposed plan supports ordinary voice calls. Ask the carrier to confirm calling and messaging for the exact model and plan. A linked-phone demonstration also does not establish independent calling from the tablet's own line.
+
+| What the seller demonstrates | What to clarify |
+|---|---|
+| A call appears on both phone and tablet | Is the tablet using the phone's service? |
+| A call works with a SIM installed | Which line, plan and app handled it? |
+| A message arrives in an app | Is it ordinary SMS or that app's messaging? |
+| Calls work at home over Wi-Fi | Will the intended arrangement work elsewhere? |
+
+The useful evidence is a repeatable setup that matches your needs, not simply an icon labelled Phone.
+
+## Test the arrangement you actually need
+
+Before the demonstration, agree on one concrete task: for example, receiving a normal call while carrying only the tablet. Then record the setup rather than changing several settings at once.
+
+- Note the model, carrier, plan and app being used.
+- Ask which phone number should receive the call.
+- Make and receive a normal test call with the owner's permission.
+- Test an ordinary text separately from an app message.
+- Repeat in the intended connection arrangement, including whether a linked phone is present and online.
+
+Use an ordinary contact for testing, not an emergency number. If a test fails, keep the exact message and circumstances so Samsung or the carrier can investigate the relevant service.
+
+### When an IMEI report adds useful information
+
+The paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) lists model, warranty, original carrier, purchase country and Knox Guard status. Those fields may help resolve an identity or reported-status question. They are not a live test of the microphone, messaging app or line configuration.
+
+Free basic lookup does not include free warranty, blacklist or iCloud reports. Neither a free lookup nor a paid report enables a calling feature or removes an activation or carrier lock.
+
+## Confirm the calling method before committing
+
+Keep the identity result, carrier answer and practical test together. If the tablet works only through a linked phone, decide whether that arrangement meets your needs before treating it as a standalone replacement.
+
+Start by matching the device with the [IMEIHub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then verify the exact calling and messaging setup with Samsung and your carrier.
+ARTICLE_20261026_1,
+    ],
+    [
+        'slug' => 'tmobile-imei-check-device-protection',
+        'title' => 'T-Mobile IMEI Check: Does It Qualify You for Device Protection?',
+        'meta_title' => 'T-Mobile IMEI Check and Device Protection Eligibility',
+        'excerpt' => 'Passing a T-Mobile IMEI check does not enroll a phone in device protection. Learn how BYOD checks, inspections and coverage confirmation differ.',
+        'date' => '2026-10-26',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261026_2'
+A T-Mobile IMEI check can help you investigate whether a phone is suitable for bringing to the network. It does not enroll that phone in Protection 360 or confirm that an insurance claim will be accepted. If you want protection for a phone you already own, the next steps concern the device's condition, the enrollment process and the coverage attached to your line.
+
+Keep those questions separate when buying a used phone or switching carriers. A compatibility screenshot is useful evidence for one part of the process, but it is not a coverage confirmation.
+
+## What the BYOD IMEI check actually addresses
+
+T-Mobile's [bring-your-own-device guide](https://www.t-mobile.com/support/devices/not-sold-by-t-mobile/bring-your-own-device-byod-guide) directs customers to its IMEI compatibility checker to determine BYOD eligibility. It also discusses unlocking and supported network technologies.
+
+That is the network-use question. Protection enrollment is a different process, even if the same phone identifier is used along the way.
+
+| Evidence | Question it helps answer |
+|---|---|
+| BYOD compatibility result | Is this device suitable for the network? |
+| Device condition evaluation | Does it pass the required inspection? |
+| Enrollment confirmation for the line | Has protection actually been added? |
+| Applicable coverage documents | What benefits, limits and costs apply? |
+| Claim decision | Is the particular claim approved? |
+
+A positive result in one row does not replace the evidence in another. Keep the wording of the result instead of shortening every successful check to “approved.”
+
+## Check enrollment in your own account
+
+T-Mobile's [device protection support page](https://www.t-mobile.com/support/devices/protectionandlt360andgt-and-device-protection), reviewed on October 26, 2026, gives two ways to check coverage: the device's enrollment status in T-Life, or the protection service listed under account add-ons online.
+
+In T-Life, open Manage, select the relevant device and review Device security. For enrollment, follow the Add Protection flow if offered. An invitation to enroll is not the same as completed enrollment.
+
+### Match the record to the phone you intend to protect
+
+Before proceeding, compare the device and line shown in your account with the phone in your hand. If they appear wrong or outdated, ask T-Mobile to clarify the record.
+
+Keep the final confirmation and applicable documents. A seller's statement that the phone “had insurance” is not confirmation of protection on your account. Ask T-Mobile directly what applies after a change of owner or device rather than assuming a previous arrangement continues.
+
+## Expect a condition check for an existing device
+
+T-Mobile's [Protection 360 information page](https://www.t-mobile.com/benefits/phone-protection-plans) says adding protection after purchase requires a visual mechanical inspection. Its support instructions also describe an inspection route in T-Life, with a store alternative when the app cannot be used.
+
+Follow the route offered for your device and account. Do not treat a clean IMEI report as a substitute for the inspection.
+
+### Prepare for the evaluation
+
+The official [device condition guide](https://www.t-mobile.com/support/devices/device-troubleshooting/check-the-condition-of-a-device) describes optical-damage, touchscreen and sound tests in T-Life. It recommends good lighting, a clean mirror or second camera-equipped device, and disconnecting Bluetooth or other audio accessories.
+
+These tests involve the physical phone. An online identifier lookup cannot perform them remotely. If the evaluation does not complete, record which stage failed and follow the carrier's instructions instead of repeatedly purchasing an unrelated report.
+
+## Review the benefits for your particular device
+
+Ask for the terms that apply to your enrollment, not just a general marketing summary. T-Mobile notes that AppleCare Services may not be included with a non-T-Mobile BYOD device, and that deductibles depend on the device model and claim type.
+
+Before accepting coverage, establish:
+
+- Which phone and line the enrollment covers.
+- When the relevant benefits begin.
+- The recurring charge and applicable service fees or deductibles.
+- The exclusions and limits in the supplied documents.
+- How to obtain help if the account shows an unexpected status.
+
+This is a confirmation checklist, not a prediction that a future loss or repair will qualify. Keep coverage questions with T-Mobile or its protection provider.
+
+## Use IMEIHub for the device information it actually supplies
+
+The [IMEIHub free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check) supplies brand, model and basic specifications. It does not verify a T-Mobile protection subscription.
+
+If your separate concern is reported lost-or-stolen status, the [WorldWide Blacklist check](https://imeihub.net/service.php?slug=blacklist) is a paid report. A clean blacklist result does not establish the phone's physical condition, enroll it in protection or guarantee a claim. Free model lookup does not include free blacklist, iCloud or warranty reports, and no lookup removes an activation or carrier lock.
+
+## Finish with a coverage confirmation, not just a lookup
+
+Use the IMEI to identify the device, complete the carrier's required evaluation, and confirm enrollment and terms for the correct line. Keep each result for the question it answers.
+
+If you need to establish the phone's basic identity first, start with the [IMEIHub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check), then complete protection enrollment through T-Mobile's official account channels.
+ARTICLE_20261026_2,
+    ],
+    [
         'slug' => 'imei-checker-online-mobile-router',
         'title' => 'IMEI Checker Online for Mobile Routers: What Should You Check?',
         'meta_title' => 'IMEI Checker Online for Mobile Routers and Hotspots',
