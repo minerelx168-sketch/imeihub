@@ -8,6 +8,157 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-sim-swap-fraud',
+        'title' => 'IMEI Checker Online: Can It Detect SIM-Swap Fraud?',
+        'meta_title' => 'IMEI Checker Online vs SIM-Swap Fraud Checks',
+        'excerpt' => 'A clean IMEI result cannot rule out SIM-swap fraud. Learn which account changes to verify, who to contact, and what a device report actually checks.',
+        'tag' => 'Guide',
+        'date' => '2026-10-27',
+        'body' => <<<'ARTICLE_20261027_0'
+An IMEI checker online cannot rule out SIM-swap fraud simply because it recognizes your phone or returns a clean blacklist result. A device lookup and a mobile-account investigation answer different questions. If your service suddenly disappears after an unexpected SIM-change notification, contact your carrier rather than waiting for another IMEI report.
+
+The distinction matters because you may still be holding the original phone while someone else controls your number.
+
+## What changes during a fraudulent SIM swap?
+
+[ENISA's explanation of SIM swapping](https://www.enisa.europa.eu/news/enisa-news/beware-of-the-sim-swapping-fraud) describes an attacker taking over a subscriber's number by getting it linked to a SIM under the attacker's control. Legitimate SIM replacements also exist, including replacements for lost or damaged cards and eSIM changes.
+
+The fraud question is therefore whether a change was authorized. Recognizing the handset model does not answer it.
+
+### Your phone's identity is not your account's security status
+
+IMEIHub's [free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check) uses model-catalog information to return brand, model and basic specifications. Its stated scope does not include auditing your carrier account or showing who authorized a SIM change.
+
+Likewise, the paid [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) concerns reported lost-or-stolen device status. A clean result is not a finding that your number, email or carrier login is secure.
+
+| Question | Appropriate place to investigate |
+|---|---|
+| Which model does this IMEI identify? | A supported device lookup |
+| Is this IMEI reported lost or stolen? | A relevant blacklist report and carrier clarification |
+| Was my SIM changed without permission? | The carrier's account and fraud investigation |
+| Were my online accounts accessed? | Security records and recovery tools for those accounts |
+
+## Treat unexpected account changes as a separate problem
+
+The [FTC's SIM-swap guidance](https://consumer.ftc.gov/consumer-alerts/2019/10/sim-swap-scams-how-protect-yourself) identifies sudden loss of calls, messages and data alongside an unexpected SIM-activation notice as possible warning signs. It also explains the risk to accounts that use texted verification codes.
+
+Loss of signal alone does not establish fraud. Give the carrier the full sequence of events instead of presenting an IMEI result as proof either way.
+
+### Prepare a useful timeline
+
+Write down when the service stopped, which notification arrived and whether you requested a device or SIM change. Keep screenshots of relevant messages without posting them publicly.
+
+Ask the carrier to check:
+
+- Whether a SIM or eSIM change occurred on your line.
+- Whether the change was authorized.
+- Whether there were other unexpected account changes.
+- What steps are needed to restore control and secure the account.
+
+Use contact details from the carrier's official website or your existing records. Do not follow a suspicious message's instructions to reveal passwords or verification codes.
+
+## Act on account risk before ordering a report
+
+The FTC advises contacting the carrier immediately to recover control of the number, then changing account passwords after access is restored. It also recommends checking financial accounts for unauthorized changes and reporting them to the relevant institution.
+
+For prevention, its guidance includes a carrier-account PIN or password and stronger authentication such as an authenticator app or security key for sensitive accounts.
+
+These actions address the account problem. Buying a model or blacklist report is not a substitute for them.
+
+### Check what your carrier's protection actually covers
+
+As reviewed on October 27, 2026, [T-Mobile's SIM Protection page](https://www.t-mobile.com/support/plans-features/sim-protection/) describes an additional account safeguard against common SIM-swap fraud. It also states that the feature does not prevent Apple-device eSIM transfers.
+
+Read the requirements and exceptions for your particular account type. Do not confuse this account control with a SIM PIN, a carrier lock on a handset, or an IMEI blacklist. Turning on one protection does not establish that every possible account-change route is blocked.
+
+## Use an IMEI lookup for a device question
+
+Free basic model lookup does not include free blacklist, warranty or iCloud reports. No lookup removes an activation or carrier lock, reverses a fraudulent SIM change or restores access to an online account.
+
+If you suspect a SIM swap, start with your carrier. If you also need to identify a handset involved in a separate device check, use the [IMEIHub free basic IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) for that specific question.
+ARTICLE_20261027_0,
+    ],
+    [
+        'slug' => 'iphone-serial-number-check-express-replacement-return',
+        'title' => 'iPhone Serial Number Check Before an Express Replacement Return',
+        'meta_title' => 'iPhone Serial Number Check for Express Replacement',
+        'excerpt' => 'Use an iPhone serial number check to separate your original and replacement phones, match the service record, and avoid packing the wrong device.',
+        'tag' => 'Apple',
+        'date' => '2026-10-27',
+        'body' => <<<'ARTICLE_20261027_1'
+An iPhone serial number check is especially useful when two similar-looking phones are on your desk during Express Replacement Service. Before packing anything, identify the original phone, identify the replacement and match the return instructions to the correct service case. A warranty result alone cannot tell you which physical device you have placed in the box.
+
+This guide focuses on keeping those records straight, rather than determining whether a used phone was previously replaced.
+
+## Understand which iPhone goes back
+
+Apple's [Express Replacement overview](https://support.apple.com/products/repair/express-replacement) explains that a replacement arrives before the original device is returned. You set up the replacement, transfer your data and prepare the original for return.
+
+Apple currently describes a temporary card hold and a return window of 10 business days. Follow the deadline and instructions supplied for your particular case, especially if you are arranging service in another region.
+
+### Give the two devices separate records
+
+Create a short private note before moving phones between boxes. Label one record “original device for return” and the other “replacement device to keep.” Copy identifiers directly from each device where possible.
+
+Do not use colour, wallpaper or the presence of your apps as the only way to distinguish them. Those details are less useful than a matching identifier when speaking with support.
+
+| Record | What to keep |
+|---|---|
+| Original iPhone | Serial number, IMEI if available, service case reference |
+| Replacement iPhone | Its own serial number and IMEI |
+| Return shipment | Provided label, tracking number and courier receipt |
+| Unresolved mismatch | Exact fields that disagree and Apple's response |
+
+Keep the records together so you can explain a discrepancy without relying on memory.
+
+## Read the serial number from the phone
+
+Apple's [identifier instructions](https://support.apple.com/en-us/108037) place the serial number in Settings, General, About. The same screen provides the IMEI further down, and you can touch and hold a value to copy it.
+
+Before setup, the information button on the Hello screen is another route to device identifiers. Apple also lists alternatives such as packaging and a connected computer when the device cannot be used.
+
+### Compare like with like
+
+Compare a serial number with a serial-number field and an IMEI with an IMEI field. An iPhone SN check and an IMEI lookup use different inputs; a mismatch between different identifier types is not evidence that the phone is wrong.
+
+If a box label, device screen or service record disagrees, stop packing and ask Apple to reconcile the case. Do not choose whichever number produces a reassuring online result.
+
+## Prepare the original using the current instructions
+
+Apple's [iPhone return-preparation guide](https://support.apple.com/en-us/102781), published October 15, 2026 and reviewed October 27, includes backup and iCloud-sync checks, Wallet preparation and model-specific shipping guidance.
+
+The guide also distinguishes software versions: iOS 27 uses Ready for Repair or Trade-In, while its instructions for iOS 26 or earlier call for turning off Find My. Follow the current steps for the original device rather than copying an older checklist.
+
+### Keep preparation and identification separate
+
+Completing a backup does not confirm the return phone's identity. Likewise, matching the serial number does not establish that your data preparation is complete.
+
+Work through both checks deliberately:
+
+- Confirm which device Apple expects back.
+- Complete Apple's preparation instructions for that device.
+- Recheck its identifier against your original-device note.
+- Use the supplied packing materials and return label.
+- Retain the courier receipt and tracking details.
+
+Apple's packing guidance says not to include accessories such as cases or cables. If instructions for your model differ, use the model-specific guidance linked from Apple's page.
+
+## What a warranty report can add
+
+The paid [IMEIHub Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) advertises activation-date and remaining-warranty information and requests a 15-digit IMEI. It is not a return authorization, shipment tracker or confirmation that Apple has released a card hold.
+
+If a report appears inconsistent with your service paperwork, take the paperwork and current device identifiers to Apple. Repeating a report on an old identifier will not correct a service-case record.
+
+IMEIHub's free basic lookup provides brand, model and basic specifications. It does not include free warranty, blacklist or iCloud reports. Neither a free nor paid lookup removes an activation or carrier lock.
+
+## Finish with the right device and a traceable return
+
+The most useful check is the match between the physical iPhone, its identifier and Apple's case instructions. Keep that evidence until the return has been processed; do not treat a parcel's tracking update as a warranty decision.
+
+For a separate question about reported activation and warranty information, review the [IMEIHub Apple Warranty & Activation service](https://imeihub.net/service.php?slug=apple-warranty) using the IMEI of the device you actually want to check.
+ARTICLE_20261027_1,
+    ],
+    [
         'slug' => 'samsung-tablet-imei-check-calls-texts',
         'title' => 'Samsung Tablet IMEI Check: Will Calls and Texts Work?',
         'meta_title' => 'Samsung Tablet IMEI Check for Calls and Texts',
