@@ -8,6 +8,162 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'tmobile-imei-check-t-satellite-eligibility',
+        'title' => 'T-Mobile IMEI Check: Is Your Phone Ready for T-Satellite?',
+        'meta_title' => 'T-Mobile IMEI Check for T-Satellite Eligibility',
+        'excerpt' => 'Check T-Satellite eligibility by IMEI, distinguish messaging from data support, and confirm enrollment before relying on satellite connectivity.',
+        'date' => '2026-10-28',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261028_1'
+A T-Mobile IMEI check can help you establish whether your phone supports T-Satellite, but a general network-compatibility result is only part of the answer. You also need to know which satellite features the device supports and whether the line is enrolled. A phone that works well near a cell tower is not automatically ready for every satellite service.
+
+This guide explains how to read those separate answers before you buy a device or prepare for a trip. Service information was reviewed on October 28, 2026.
+
+## Look for the satellite-specific result
+
+T-Mobile's [official BYOD checker](https://www.t-mobile.com/resources/bring-your-own-phone) includes separate result fields for network compatibility, blocked-device status, eSIM and satellite support. Its satellite messages distinguish a device that supports T-Satellite from one that supports T-Satellite messaging.
+
+Enter the IMEI requested by the checker and read the entire result. Do not stop at a positive statement about ordinary cellular compatibility.
+
+### Keep the result attached to the correct phone
+
+Take the number from the handset you actually plan to use. T-Mobile's checker explains how to locate it through phone settings or by dialing `*#06#`. If you are comparing two phones, keep a separate note for each rather than relying on a shared model name.
+
+An unclear or missing satellite result is a question for T-Mobile. It is not a reason to assume that a model lookup or a seller's screenshot fills the gap.
+
+## Confirm eligibility and enrollment separately
+
+The carrier's [T-Satellite support instructions](https://www.t-mobile.com/support/coverage/satellite-support) provide an account-level route: open T-Life, select Account, choose the relevant phone line, then look under Status for T-Satellite.
+
+That screen identifies enrollment, eligibility and unsupported features, such as picture messaging or data. These are separate checks even when they appear together.
+
+| Result to confirm | Decision it helps you make |
+|---|---|
+| Device eligibility | Whether this handset is supported |
+| Feature limitations | Whether your intended activity is supported |
+| Line enrollment | Whether service has been added to the line |
+| Destination and conditions | Whether you should expect a usable connection there |
+
+### Ask a specific feature question
+
+Instead of asking whether the phone “has satellite,” identify the activity you need: sending a message, sharing a location or using a particular app. Then compare that activity with the current result.
+
+For example, messaging support alone is insufficient evidence for a navigation app you intend to use. Treat a narrower result as narrower support until the carrier confirms otherwise.
+
+## Check the requirements when keeping another carrier
+
+T-Mobile states that non-T-Mobile customers need an unlocked, satellite-optimized phone with eSIM capability to use T-Satellite. Verify those requirements for the exact device and enrollment route before purchasing service.
+
+A separate [IMEIHub Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) can answer the reported carrier-lock question for an iPhone. It is a paid status report, not a T-Satellite eligibility decision or an enrollment service. A lookup does not remove a carrier or activation lock.
+
+If a result conflicts with the phone's settings or your existing carrier's records, resolve that conflict before treating the phone as ready.
+
+## Compatibility does not guarantee an off-grid connection
+
+T-Mobile's [satellite service overview](https://www.t-mobile.com/coverage/satellite-phone-service) describes limited data capacity, selected satellite-ready apps and possible delays or service gaps. It also warns that satellite emergency messaging may be limited or unavailable.
+
+A successful IMEI check therefore answers a device-support question, not whether a particular message will get through at a particular moment.
+
+### Prepare before cellular coverage disappears
+
+Use a short preparation list:
+
+- Review the current satellite coverage information for your destination.
+- Confirm enrollment for the line you will carry.
+- Check the supported features against your intended tasks.
+- Update phone software and the apps you intend to use.
+- Download and sign in to supported apps while regular connectivity is available.
+
+T-Mobile recommends keeping software current and preparing apps before entering satellite coverage. Its support guidance also explains that connection is automatic when traditional or roaming cellular service is unavailable; manually selecting satellite while those options remain available will not work.
+
+## Use IMEIHub for the device facts it actually provides
+
+IMEIHub's free lookup identifies brand, model and basic specifications using its TAC catalog. It does not confirm your T-Mobile account enrollment or promise satellite availability. Blacklist, iCloud and warranty reports are separate paid services, not included free satellite checks.
+
+Start with the carrier's satellite-specific result, confirm your line and required features, then prepare for the destination. If you first need to establish which handset the number identifies, use the [IMEIHub free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261028_1
+    ],
+
+    [
+        'slug' => 'icloud-imei-check-ready-for-repair-find-my-on',
+        'title' => 'iCloud IMEI Check: Why Find My Can Stay ON During Repair',
+        'meta_title' => 'iCloud IMEI Check: Find My ON During Repair',
+        'excerpt' => 'Learn why Find My can stay ON with Ready for Repair or Trade In, what an iCloud IMEI check cannot confirm, and which service records to verify.',
+        'date' => '2026-10-28',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261028_2'
+An iCloud IMEI check showing Find My ON does not, by itself, prove that an iPhone was incorrectly prepared for an authorized repair. Apple's Ready for Repair or Trade In feature can deliberately keep Find My enabled during eligible service. The useful question is whether the correct repair workflow is active, not simply whether an ON/OFF report looks reassuring.
+
+This distinction matters when an owner, repair intake team or buyer sees a status report alongside service paperwork. Those records describe different things.
+
+## What changed in Apple's repair preparation?
+
+Apple's [Ready for Repair or Trade In guide](https://support.apple.com/en-us/122189), published October 15, 2026 and reviewed October 28, describes the feature for devices running version 27 or later of the relevant Apple operating system, including iOS.
+
+For eligible repairs or trade-ins, it keeps Find My enabled. Apple or the Apple Authorized Service Provider tells the owner whether the workflow is available for the requested service.
+
+### Find My ON is not the same as repair readiness
+
+The practical implication is that a simple ON result cannot settle whether preparation succeeded. You need the service provider's instructions and the device's actual repair status.
+
+Equally, an ON result alone does not prove that Ready for Repair is enabled. An ordinary iPhone with Find My turned on could produce the same broad status. Do not infer a specific repair workflow from a field that only describes Find My.
+
+## Read the report within its stated scope
+
+The paid [IMEIHub iCloud ON/OFF service](https://imeihub.net/service.php?slug=apple-icloud-status) advertises a Find My status check using a 15-digit IMEI. Its description does not promise repair authorization, case progress or confirmation that Ready for Repair is active.
+
+It also does not include Clean/Lost detail. Those are separate questions, not additional meanings hidden inside the word ON.
+
+| Question | Evidence to use |
+|---|---|
+| Is Find My reported as enabled? | The relevant ON/OFF result |
+| Is the device prepared for this repair? | Provider instructions and the repair state in Find My |
+| Has the repair been completed? | The service record and provider confirmation |
+| Is the device ready for a new owner? | Account removal and setup checks appropriate to that transfer |
+
+Keep a report's date and the IMEI checked alongside the service case. If the phone or its identifiers changed during service, ask the provider which device the current record concerns before comparing results.
+
+## Verify the workflow on the device or with the provider
+
+Apple's feature guide directs an iPhone owner to Find My, select the device, open the More menu, choose Repair or Trade In, and enable it using their Apple Account authentication. It also describes a web route through iCloud Find Devices.
+
+Use those steps only within the service instructions for your device. If the expected option or state is missing, contact the provider handling the case.
+
+### A focused repair-intake checklist
+
+Before handing over the phone:
+
+- Confirm that the service case refers to this physical device.
+- Check which preparation instructions apply to its software version.
+- Confirm whether the provider expects Ready for Repair or another preparation step.
+- Keep the case reference and any unresolved status question together.
+- Ask the provider to explain an inconsistency before assuming a report overrides its instructions.
+
+Apple's [service appointment preparation guide](https://support.apple.com/en-us/109519) distinguishes iOS 27 or later from iOS 26 or earlier, for which its instructions call for turning off Find My. It also includes backup and personal-information preparation. Enabling a repair state is not a substitute for completing that checklist.
+
+Apple advises owners never to disclose their account password or device passcode. If authentication is needed during support, enter it yourself and remain present.
+
+## Repair preparation is not a private-sale handover
+
+Do not accept “ready for repair” as proof that a used iPhone is ready to belong to someone else. Apple's [Activation Lock guidance](https://support.apple.com/en-us/108794) explains that Find My enables Activation Lock and that a buyer should not take ownership while the device remains linked to the previous owner's account.
+
+The seller must complete the appropriate ownership-transfer steps. A repair status, a service receipt or a paid lookup does not perform that transfer.
+
+### After the service is finished
+
+Apple says Ready for Repair or Trade In turns off automatically when the technician marks the work complete. That is the repair feature ending; do not reinterpret it as a promise that an IMEI report must now show Find My OFF.
+
+If you turned Find My off under an older service workflow, Apple's preparation guide advises turning it back on when the device is returned.
+
+## Match the check to the decision
+
+IMEIHub's free basic model lookup is separate from paid iCloud, blacklist and warranty reports. Neither a free lookup nor a paid report removes an activation or carrier lock.
+
+For repair readiness, rely on the current service instructions and provider confirmation. For the narrower question of reported Find My status, review the [IMEIHub iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status).
+ARTICLE_20261028_2
+    ],
+
+    [
         'slug' => 'imei-checker-online-sim-swap-fraud',
         'title' => 'IMEI Checker Online: Can It Detect SIM-Swap Fraud?',
         'meta_title' => 'IMEI Checker Online vs SIM-Swap Fraud Checks',
