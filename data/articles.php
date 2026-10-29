@@ -8,6 +8,163 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-verify-seller-report-screenshot',
+        'title' => 'IMEI Checker Online: How to Verify a Seller\'s Report Screenshot',
+        'meta_title' => 'IMEI Checker Online: Verify a Seller\'s Screenshot',
+        'excerpt' => 'Check the IMEI, report type, date and original source behind a seller\'s screenshot before relying on its device-status claims.',
+        'date' => '2026-10-29',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261029_0'
+An IMEI checker online can help you verify the claim behind a seller's report screenshot, but the image itself is only a starting point. Before relying on a green badge or the word clean, establish which device was checked, which service produced the result and what question that service actually answered.
+
+This is a report-verification workflow. It does not require you to decide whether an image was edited by inspecting fonts or colours.
+
+## Match the report to the physical device
+
+Ask for the complete report privately, then compare its submitted IMEI with the identifier displayed on the phone. A matching model name alone is insufficient: two handsets of the same model can appear identical in a short summary.
+
+For an iPhone, [Apple's identifier guide](https://support.apple.com/en-us/108037) directs you to Settings, General, About. You can copy the IMEI from there. If the phone cannot be operated, use Apple's documented alternative locations and repeat the comparison when the device is accessible.
+
+### What if the screenshot hides some digits?
+
+Redaction can be reasonable in a public listing. It also means the public image cannot establish a full identifier match.
+
+Arrange a private comparison before relying on the report. Do not ask the seller to publish the complete identifier for everyone to see. If a report and device disagree, record the discrepancy and ask for an explanation rather than choosing whichever number produces a better result.
+
+## Identify the service behind the badge
+
+Read the report name and field labels, not just its overall colour. A model-identification result, a carrier-lock result and a lost-or-stolen status result are not interchangeable.
+
+IMEIHub's [free basic lookup](https://imeihub.net/service.php?slug=free-imei-check) uses the TAC portion of the IMEI to identify brand, model and basic specifications. That service does not include free blacklist, iCloud or warranty reports.
+
+The paid [WorldWide Blacklist check](https://imeihub.net/service.php?slug=blacklist) addresses reported lost-or-stolen status. Do not assume it includes every field shown in another provider's example report.
+
+| What the image shows | What you still need to establish |
+|---|---|
+| A model name | Whether the full IMEI matches this handset |
+| A clean or clear badge | Which status field and service it describes |
+| A date | Whether it is the lookup date or another date field |
+| A provider logo | Whether the result can be independently verified |
+| A cropped result | Whether omitted fields change its meaning |
+
+### Separate missing information from a negative finding
+
+A screenshot that does not show carrier lock has not demonstrated that the phone is unlocked. Similarly, a blank or omitted field should not be rewritten as a confirmed clean result.
+
+Request the full context or choose a service that explicitly covers the unresolved question.
+
+## Verify the source independently
+
+If the provider offers a report-verification feature, reach it through the provider's own website. A screenshot should not be your only route to the purported source.
+
+Where no verification mechanism exists, obtain your own relevant check using the device identifier you have confirmed. This does not authenticate the old image; it gives you a separate result to compare.
+
+Keep a small evidence record:
+
+- The identifier checked, stored privately.
+- The service name and specific fields purchased.
+- The date you obtained the result.
+- Any report or order reference supplied.
+- The seller's explanation of discrepancies.
+
+Avoid treating visual inconsistencies as conclusive fraud evidence. Image compression, cropping and different page layouts can complicate comparison. The stronger test is whether the underlying claim is reproducible for the correct device.
+
+## Understand what a fresh result still cannot settle
+
+[GSMA's Device Check terms](https://devicecheck.gsma.com/rtlapp/termsOfUse) explain that reporting and database updates can lag, and device status may change after a lookup. An independently obtained result is therefore useful evidence at a point in time, not permanent protection against later changes.
+
+If a blacklist result is disputed, [GSMA's FAQ](https://devicecheck.gsma.com/rtlapp/faqs/) directs consumers to their wireless provider for investigation. Keep the disagreement attached to the correct IMEI rather than comparing isolated badges from different services.
+
+## Verify the claim, then make the decision
+
+A useful report has a clear device match, identifiable scope and traceable source. No lookup removes an activation or carrier lock, and a screenshot cannot expand the capabilities of the service that produced it.
+
+Start with the [IMEIHub free model lookup](https://imeihub.net/service.php?slug=free-imei-check) for identification; if the seller's specific claim concerns lost-or-stolen status, review the separate [paid blacklist service](https://imeihub.net/service.php?slug=blacklist).
+ARTICLE_20261029_0
+    ],
+
+    [
+        'slug' => 'iphone-imei-check-before-deleting-esim',
+        'title' => 'iPhone IMEI Check Before Deleting an eSIM: What to Record',
+        'meta_title' => 'iPhone IMEI Check Before Deleting an eSIM',
+        'excerpt' => 'Record the right iPhone identifiers before deleting an eSIM. Separate device checks from carrier reactivation, plan cancellation and unlocking.',
+        'date' => '2026-10-29',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261029_1'
+An iPhone IMEI check can help identify your handset before an eSIM change, but it cannot restore a deleted cellular plan. Before tapping Delete eSIM, record the device identifiers, confirm which line you are changing and understand how your carrier will restore service if you still need it.
+
+The key decision is why you are deleting the eSIM. Troubleshooting a connection, moving a number and preparing a phone for someone else require different follow-up actions.
+
+## Decide whether deletion is appropriate
+
+Apple's [eSIM deletion guidance](https://support.apple.com/en-us/102421), published September 17, 2026 and reviewed October 29, says not to erase an eSIM for troubleshooting unless the carrier directs you to do so.
+
+It describes deletion after transferring a plan or number to another device, and when selling, trading in or giving away a device. It also says that obtaining a new eSIM after deletion requires contacting the carrier.
+
+### Ask about recovery before you remove the line
+
+If you intend to keep using the same number, ask the carrier how reactivation will work for your account. Clarify which device you are activating and how you will complete any required verification.
+
+Write down the instructions before changing the phone. An IMEI report will not replace them, and the appearance of the correct model in a lookup does not mean a replacement eSIM has been issued.
+
+## Keep a private identifier record
+
+[Apple's device-identification instructions](https://support.apple.com/en-us/108037) show where to find IMEI and EID in Settings, General, About. Copy the relevant values accurately rather than transcribing them from memory.
+
+Label each field. An EID is not an alternative value to paste into a form specifically requesting a 15-digit IMEI.
+
+| Record | Why keep it |
+|---|---|
+| IMEI, including its displayed label | Match the handset to a device check or carrier request |
+| EID | Supply it if the carrier requests it for eSIM support |
+| Phone number and line label | Identify which cellular plan you intend to change |
+| Exact error message | Give support the problem you actually observed |
+| Carrier case reference | Keep the instructions and follow-up connected |
+
+This is a private support note, not information to post in a public listing. Supply account credentials only through the carrier's legitimate verification process, never to an IMEI-checking form.
+
+### Check the selected line carefully
+
+For multiple plans, Apple's deletion instructions require selecting the particular plan to remove. Pause at that choice and compare the line with your notes.
+
+A travel plan and your everyday number may both be present. The model name of the phone cannot tell you which one you selected.
+
+## Troubleshoot activation without guessing
+
+Apple's [eSIM setup troubleshooting page](https://support.apple.com/en-us/102478) recommends checking requirements such as an active supported plan and current compatible software. Its initial steps include toggling Airplane Mode, turning the affected line off and on when it appears in Settings, and restarting the phone.
+
+The page also covers carrier-settings updates and advises contacting the carrier if setup still fails. Prepare the error text and requested identifiers for that conversation.
+
+These steps investigate the connection. Ordering another model lookup will not reveal which account-side activation step failed.
+
+## Deleting an eSIM does not complete every account task
+
+Apple directs users who want to cancel a cellular plan to their carrier. Removing the eSIM from the device is not confirmation that the service agreement or billing has ended.
+
+Carrier unlocking is another separate process. [Apple's unlock guide](https://support.apple.com/en-us/109316) says only the carrier can unlock an iPhone for another carrier. It identifies the Carrier Lock field in Settings, General, About as the place to check the phone's displayed restriction status.
+
+Do not use eSIM deletion as a substitute for a carrier-approved unlock or for the full preparation required when handing a device to a new owner.
+
+### Keep the final confirmations separate
+
+After the change, confirm the outcome you intended:
+
+- For a transfer, verify service on the destination device.
+- For reactivation, confirm the carrier's setup has completed.
+- For cancellation, retain the carrier's cancellation confirmation.
+- For a sale, complete the separate account and device handover requirements.
+
+One completed action should not be treated as evidence that all the others happened.
+
+## Where an IMEI check helps
+
+IMEIHub's free basic check returns brand, model and basic specifications from its model catalog. It does not provision eSIMs, cancel subscriptions or investigate your carrier account. Blacklist, iCloud and warranty reports are paid services outside that free lookup.
+
+Use the carrier for changes to your line; use a device lookup for the identification question it can answer. Neither free nor paid reports remove activation or carrier locks. To verify the model associated with the number you recorded, start with the [IMEIHub free basic IMEI check](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261029_1
+    ],
+
+    [
         'slug' => 'tmobile-imei-check-t-satellite-eligibility',
         'title' => 'T-Mobile IMEI Check: Is Your Phone Ready for T-Satellite?',
         'meta_title' => 'T-Mobile IMEI Check for T-Satellite Eligibility',
