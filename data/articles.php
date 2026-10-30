@@ -8,6 +8,163 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tablet-imei-check-maintenance-mode',
+        'title' => 'Samsung Tablet IMEI Check: Prepare for Maintenance Mode',
+        'meta_title' => 'Samsung Tablet IMEI Check Before Maintenance Mode',
+        'excerpt' => 'Prepare your Samsung tablet identifiers, repair notes and backup before Maintenance Mode. Learn what an IMEI check can and cannot verify.',
+        'date' => '2026-10-30',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261030_1'
+A Samsung tablet IMEI check can help you organize the identity of a cellular Galaxy tablet before handing it over for repair. It cannot confirm that your personal files are protected. That is a separate preparation task involving Samsung's Maintenance Mode, a backup and the instructions for your repair booking.
+
+Treat the handover as three jobs: identify the tablet, preserve what you need and prepare the device for the technician. Completing one does not complete the others.
+
+## Record the tablet's identity before handover
+
+Start with Settings, then About tablet. [Samsung's identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) explains how to find the model, serial number and IMEI through this screen. Available labels can vary by model and software.
+
+Keep a private copy outside the tablet. A screenshot stored only on the device will not be useful while the device is at the repair centre.
+
+### Build a short repair record
+
+Save the following alongside your booking confirmation:
+
+- The exact model number and serial number.
+- Each IMEI shown, with its label, for a cellular model.
+- The repair reference and the contact details supplied by the service provider.
+- A clear description of the fault, including when it occurs.
+- Photos of the tablet's external condition, if useful for your own handover record.
+
+For example, "the screen stops responding after the tablet wakes" gives the technician a more useful starting point than "tablet broken." Keep that description separate from any online device report.
+
+If the Samsung Tab A IMEI field is not available on your particular unit, do not substitute a Wi-Fi MAC address or invent a number. Give the service provider the model and serial number and ask which identifier its booking requires.
+
+## Understand what Maintenance Mode changes
+
+[Samsung's Maintenance Mode instructions](https://www.samsung.com/us/support/answer/ANS10003675/) describe a separate user account for the person handling the device. The feature is intended to keep personal material, such as photos, contacts and messages, out of that repair account.
+
+Samsung lists One UI 5 or later as a requirement in its US guide and notes that settings vary by carrier and software. Check whether the option is present on your tablet; a model returned by an IMEI lookup is not proof that its installed software offers the feature.
+
+### Enable it through the tablet, not a lookup website
+
+Where available, open Settings, Device care, Maintenance mode, then Turn on and follow the restart prompts. Samsung also documents access through the Support section of Samsung Members. A screen lock is required.
+
+Do not interpret an online report's warranty or Knox Guard field as confirmation that Maintenance Mode is active. Check the tablet's own interface.
+
+## Finish a backup before entering the repair workflow
+
+[Samsung's service-preparation page](https://www.samsung.com/us/support/answer/ANS10002816/) recommends backing up before using Maintenance Mode. A repair can still require actions that affect stored data.
+
+Samsung's [UK Maintenance Mode guide](https://www.samsung.com/uk/support/mobile-devices/what-is-maintenance-mode-and-how-to-use-it-on-your-galaxy-phone-or-tablet/), updated June 4, 2026 and reviewed October 30, describes temporary cloud backup and notes that files are retained for 30 days. It also explains that a reset or mainboard replacement may make a backup necessary.
+
+Check the available backup options and their exclusions on your device. Confirm completion and note any expiry date before handing it over. Do not assume that entering Maintenance Mode automatically created a usable backup.
+
+| Preparation item | What it helps with | What it does not establish |
+|---|---|---|
+| IMEI and serial record | Matching the repair paperwork to the tablet | That personal files are backed up |
+| Maintenance Mode | Separating the repair user from personal data | That a reset will never be required |
+| Completed backup | Recovering supported saved content | That every app's data is included |
+| Warranty information | Preparing a coverage enquiry | Approval of this specific repair |
+
+## Use device reports only for their stated fields
+
+IMEIHub's [free basic lookup](https://imeihub.net/service.php?slug=free-imei-check) identifies brand, model and basic specifications from its TAC catalog. It does not provide a free warranty, blacklist or iCloud report.
+
+The separate paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) lists model, warranty, original carrier, purchase country and Knox Guard status. These fields do not inspect your files, create a backup or activate Maintenance Mode. Keep the repair provider's assessment separate from any lookup result.
+
+## Close the handover with a clear record
+
+Follow the instructions attached to your particular service booking. When the tablet returns, compare it with the repair paperwork, review the completed work and follow Samsung's steps to exit Maintenance Mode. If the device was reset, use the backup you prepared.
+
+A lookup removes neither an activation lock nor a carrier lock. Its useful role here is identification and, where requested, supplementary device information. To check the model associated with your recorded IMEI before handover, use the [IMEIHub free IMEI check](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261030_1
+    ],
+
+    [
+        'slug' => 'iphone-serial-number-check-warranty-service-abroad',
+        'title' => 'iPhone Serial Number Check: Can You Get Warranty Service Abroad?',
+        'meta_title' => 'iPhone Serial Number Check: Warranty Service Abroad',
+        'excerpt' => 'Does an active iPhone warranty mean you can get repairs abroad? Check coverage, gather purchase records and confirm service options before travelling.',
+        'date' => '2026-10-30',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261030_2'
+An iPhone serial number check may show active coverage, but it does not guarantee that a repair will be available in the country you are visiting. Before travelling to a service location or sending an imported iPhone for repair, confirm both the coverage record and the local service options for that particular device.
+
+The useful question is not simply "Is the warranty active?" It is "Can this provider service this iPhone here, for this fault, under the coverage I have?"
+
+## Separate coverage from service availability
+
+[Apple's explanation of its coverage system](https://support.apple.com/en-us/102865) says service options depend on the product and the country or region where service is requested. It also notes that Apple may ask for a sales receipt or AppleCare Proof of Coverage when checking eligibility.
+
+An expiration date answers a timing question. It does not identify the fault, confirm available parts or authorize a particular repair.
+
+Consider an imported iPhone whose coverage has several months remaining. That result is worth recording, but it is not enough reason to book a trip to a repair centre. Ask the destination provider about the actual device and issue first.
+
+### Avoid turning one status into a blanket promise
+
+Do not rewrite an active coverage result as "worldwide free repairs." Equally, do not assume that a device purchased elsewhere can never receive service. The next step is a device-specific enquiry, not a conclusion based on the status label alone.
+
+## Read the applicable warranty terms
+
+Apple's [published iOS limited warranty terms](https://www.apple.com/legal/warranty/products/ios-warranty-row-english.html) state that Apple may restrict iPhone warranty service to the country where Apple or its authorized distributors originally sold it.
+
+The same document explains that service options, parts availability and response times can differ by country. Where international service is available, local requirements can affect the repair or replacement provided.
+
+Those are qualified terms, not a promise that every imported iPhone is eligible everywhere or a statement that every international request will be refused. Review the terms applicable to your purchase and ask Apple to confirm your options.
+
+### Keep AppleCare and other rights distinct
+
+A limited warranty, an AppleCare plan and a retailer's own protection promise are different sources of coverage. Identify which one you are asking the provider to apply.
+
+Apple also explains that its coverage display may not reflect every right available under consumer protection rules. A lookup is therefore not a complete determination of all possible remedies. If a relevant right or plan is missing from the display, raise it directly with Apple or the responsible seller using the supporting documents.
+
+## Gather the information for a useful enquiry
+
+Use Apple's [coverage guidance](https://support.apple.com/en-us/102607) to review AppleCare & Warranty in Settings, General, or check coverage online. The same guide explains how to obtain proof of coverage through My Support.
+
+An iPhone SN check is only as useful as its device match. Compare the serial number you are checking with the phone and the paperwork you intend to submit.
+
+Prepare a concise record:
+
+- The iPhone serial number and exact model.
+- The country of original purchase, supported by the receipt where available.
+- The country and service location where you want help.
+- The coverage or plan details currently displayed.
+- A description of the fault and any relevant service reference.
+
+Keep complete identifiers and purchase documents in the private support conversation. There is no need to publish them in a forum to ask a general question.
+
+## Ask the destination provider before making arrangements
+
+Send the details to Apple or an Apple Authorized Service Provider and ask for a response addressing the practical uncertainties.
+
+| Question to ask | Why it matters |
+|---|---|
+| Can you service this exact model at this location? | A general iPhone repair listing is not device-specific confirmation |
+| Which coverage applies to this fault? | An active plan does not identify the cause of the problem |
+| What documents should I bring? | A lookup result may not replace purchase or coverage records |
+| Is an inspection needed before a quote or approval? | Initial information may not settle the repair decision |
+| What service method and timing should I expect? | You need workable arrangements while away from home |
+
+Retain the case reference and the provider's instructions. If the response is conditional on inspection, keep that condition in your plans rather than treating it as final approval.
+
+## Where an IMEIHub report fits
+
+IMEIHub's [Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty) is a paid IMEI-based report for activation date and remaining warranty coverage. Its input requests a 15-digit IMEI, so do not paste a serial number into that field.
+
+That report can supplement your device records. It cannot book overseas service, guarantee parts availability or approve a warranty claim.
+
+The [free basic IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) is limited to brand, model and basic specifications. Warranty, iCloud and blacklist reports are separate paid services, and no lookup removes an activation or carrier lock.
+
+## Confirm the service plan, then proceed
+
+Use the coverage result to start the conversation, then obtain a clear answer about the destination, device and fault. Keep the receipt, plan documents and provider instructions together so that you are not relying on a status screenshot alone.
+
+For a supplementary activation and warranty record using your iPhone's IMEI, review the [IMEIHub Apple Warranty & Activation service](https://imeihub.net/service.php?slug=apple-warranty).
+ARTICLE_20261030_2
+    ],
+
+    [
         'slug' => 'imei-checker-online-verify-seller-report-screenshot',
         'title' => 'IMEI Checker Online: How to Verify a Seller\'s Report Screenshot',
         'meta_title' => 'IMEI Checker Online: Verify a Seller\'s Screenshot',
