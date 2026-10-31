@@ -8,6 +8,162 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 't-mobile-imei-check-phone-number-transfer',
+        'title' => 'T-Mobile IMEI Check: Does It Transfer Your Phone Number?',
+        'meta_title' => 'T-Mobile IMEI Check vs Phone Number Transfer',
+        'excerpt' => 'A T-Mobile IMEI check tests your device, not your number transfer. Learn which details belong to each process and how to verify a completed switch.',
+        'tag' => 'Carrier',
+        'date' => '2026-10-31',
+        'body' => <<<'ARTICLE_20261031_0'
+A T-Mobile IMEI check does not transfer your phone number. It is part of checking the device you want to bring to the network. Keeping your existing number requires a separate number-transfer request, with information from the account at your current provider.
+
+That distinction matters when a phone passes the compatibility check but your familiar number has not moved. Repeating the IMEI lookup will not correct a transfer PIN or a billing-address mismatch.
+
+## Check the handset and the number separately
+
+[T-Mobile's bring-your-own-phone page](https://www.t-mobile.com/resources/bring-your-own-phone) separates device compatibility, the choice to keep a number, plan selection and SIM activation. An IMEI belongs to the handset; the number you want to keep belongs in the number-transfer process.
+
+Use the value requested by each form. Do not enter your telephone number into an IMEI field, or assume that selecting an existing device automatically identifies the line you want to move.
+
+### Keep a separate record for each line
+
+For a household switching several lines, create one private row per person. Record the phone being used, the number being transferred and the transfer reference supplied by the carrier.
+
+This simple separation helps prevent a successful check for one handset being mistaken for progress on a different person's number. It also makes a support conversation much more specific.
+
+| Task | Relevant information | What success means |
+|---|---|---|
+| Device compatibility check | Handset IMEI | A result about the device |
+| Number eligibility check | Existing telephone number | A result about whether that number can transfer |
+| Transfer request | Carrier account and authorization details | A request for the number to move |
+| Completion check | Carrier status and working service | Evidence that the switch has finished |
+
+## Prepare the number-transfer information
+
+T-Mobile's [keep-your-number guidance](https://www.t-mobile.com/resources/keep-your-number), reviewed October 31, 2026, provides a number-eligibility check. It requests the current provider, account number, billing address and the number being moved, and directs customers to obtain the appropriate porting PIN or password from their existing provider.
+
+Ask your current carrier which authorization value it requires. Avoid guessing that the device passcode or an unrelated account PIN is the transfer credential.
+
+### Keep transfer credentials out of device-checking forms
+
+An IMEI report does not need your porting PIN. Share transfer authorization only through the carrier's legitimate transfer process.
+
+Before submitting, compare the account details with the current provider's records. If another person controls the account, coordinate with that account holder rather than trying different credentials until something works.
+
+## Track the transfer through the carrier
+
+T-Mobile advises keeping current service until the number is fully activated on the new account. Its guidance also points to a port-in dashboard for transfer status and common problems involving PIN or billing information.
+
+If something stalls, identify the exact stage and message:
+
+- Has a number-transfer request actually been submitted?
+- Does the carrier identify a missing or mismatched field?
+- Which line and transfer reference does the message concern?
+- Has the requested correction been acknowledged?
+
+Keep the wording of the error in your support note. "My IMEI passed" explains a device result, but it does not tell the transfer team which account detail needs attention.
+
+Do not repeatedly submit new requests merely because the first result is unclear. Ask the carrier how to continue the existing request.
+
+## Treat carrier locking as another device question
+
+A number-transfer credential is not a carrier-unlock code. If you are bringing an iPhone, resolve its carrier restriction separately from the request to keep your telephone number.
+
+IMEIHub's [paid Apple SIM-Lock Status check](https://imeihub.net/service.php?slug=apple-sim-lock) reports the device's SIM-lock status. It does not authorize a number transfer, retrieve your transfer PIN or unlock the phone.
+
+For basic identification, IMEIHub offers a [free model lookup](https://imeihub.net/service.php?slug=free-imei-check). That returns brand, model and basic specifications; blacklist, iCloud and warranty reports are separate paid services.
+
+## Verify the outcome you wanted
+
+When the carrier says the transfer is complete, check ordinary incoming and outgoing service using the number you intended to keep. If the observed behaviour disagrees with the status, report that specific discrepancy to carrier support.
+
+A compatible handset, a submitted request and a completed transfer are different milestones. Keep their confirmations separate, and remember that no IMEI lookup removes an activation or carrier lock. If the remaining question concerns your iPhone's device restriction, review the [IMEIHub Apple SIM-Lock Status service](https://imeihub.net/service.php?slug=apple-sim-lock).
+ARTICLE_20261031_0
+    ],
+
+    [
+        'slug' => 'iphone-serial-number-check-proof-of-purchase',
+        'title' => 'iPhone Serial Number Check: Does It Replace Proof of Purchase?',
+        'meta_title' => 'iPhone Serial Number Check vs Proof of Purchase',
+        'excerpt' => 'An iPhone serial number check is not a purchase receipt. Learn how to match device records, keep useful documents and handle missing proof of purchase.',
+        'tag' => 'iPhone',
+        'date' => '2026-10-31',
+        'body' => <<<'ARTICLE_20261031_1'
+An iPhone serial number check cannot replace proof of purchase. A device record and a purchase record answer different questions: one identifies a product or describes its coverage, while the other documents a transaction. Keep both when you need to explain where an iPhone came from or support a service enquiry.
+
+A recognised serial number does not show that you paid the seller, and an active warranty date does not authenticate an invoice. The useful approach is to connect the phone, its identifiers and the documents without asking a lookup to prove more than it contains.
+
+## Match the device before reviewing the paperwork
+
+[Apple's identifier guide](https://support.apple.com/en-us/108037) shows the serial number in Settings, General, About, with alternative locations if the device cannot be used. Copy the value carefully and keep it labelled as a serial number.
+
+An IMEI is a different identifier. If a document lists an IMEI rather than a serial number, compare it with the corresponding field on the phone. Comparing different types of identifiers creates an apparent mismatch even when both values belong to the same device.
+
+### A matching number is a consistency check
+
+A match helps connect the document to the device being discussed. It does not establish who issued the document or whether every statement on it is genuine.
+
+If the numbers disagree, ask the seller or document issuer to explain the discrepancy. Preserve the original document and any response. Do not edit the identifier yourself to make the records appear consistent.
+
+## Keep the original sales record
+
+Apple's [receipt-retention guidance](https://support.apple.com/en-gb/102264) recommends keeping the original sales receipt and, where relevant, AppleCare Proof of Coverage. For updating device records, its listed receipt details include a readable device description, purchase date, receipt or invoice number, price and reseller contact information.
+
+That guidance also calls for the serial number when the reseller normally includes serial numbers on receipts. A missing serial field alone should therefore not be treated as universal proof that a receipt is fraudulent.
+
+### Keep different documents under their own names
+
+A marketplace order confirmation, payment record, original retail receipt and later private-sale receipt may all be useful, but they are not interchangeable.
+
+| Record | Useful question it can help answer |
+|---|---|
+| Device identifier record | Which phone are we discussing? |
+| Original retail receipt | What original transaction does the issuer document? |
+| Later resale agreement | What did this seller agree to provide? |
+| Payment confirmation | What payment is recorded? |
+| Coverage result | What coverage information does the lookup display? |
+
+For a used iPhone, retain the documents you actually received. Do not rename a later resale document "original Apple receipt" or assume it will satisfy every support request.
+
+## Why a coverage result is not enough
+
+[Apple's coverage-system explanation](https://support.apple.com/en-us/102865) says Apple may request a sales receipt or AppleCare Proof of Coverage to verify service eligibility, even for a registered product. It also notes that the system's purchase-date information can be inaccurate and that recently submitted information may not yet appear.
+
+The practical implication is that an iPhone SN check is supporting information, not a substitute for the records Apple asks you to provide. When a support request specifies original proof, supply that document or explain honestly that it is unavailable.
+
+This is also why a seller's warranty screenshot should not be your only transaction record. It may describe coverage without documenting the purchase you are making.
+
+## What to do when the receipt is missing
+
+Start with the party that issued the original document. Ask whether it can retrieve a copy using the order or receipt reference and the account through which the purchase was made.
+
+For a second-hand purchase, ask the seller which records are available and what they describe. Keep your request and the reply with the sale information.
+
+Prepare a small evidence folder:
+
+- The unchanged documents received from the seller or retailer.
+- A private record of the phone's serial number and IMEI.
+- The listing and agreed description of the device.
+- The payment confirmation for your own transaction.
+- Any support reference and the exact documents requested.
+
+If the issuer cannot provide a copy, tell the organization requesting proof what you do have and ask what it will accept. Do not assume that buying another online report will fill the gap.
+
+## Use an IMEI report for a separate, defined question
+
+IMEIHub's [paid Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) covers activation date and remaining warranty information using a 15-digit IMEI. It does not issue a retail receipt or certify who purchased the device.
+
+The [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic model information. Free identification does not include free warranty, blacklist or iCloud reporting. Neither a free nor paid lookup removes an activation or carrier lock.
+
+## Preserve evidence without overstating it
+
+Use identifiers to connect records, receipts to document purchases and coverage results to understand the reported status. Keeping those roles clear makes a seller or support conversation easier to resolve.
+
+If you need supplementary activation and warranty information alongside your existing documents, review the [IMEIHub Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty).
+ARTICLE_20261031_1
+    ],
+
+    [
         'slug' => 'samsung-tablet-imei-check-maintenance-mode',
         'title' => 'Samsung Tablet IMEI Check: Prepare for Maintenance Mode',
         'meta_title' => 'Samsung Tablet IMEI Check Before Maintenance Mode',
