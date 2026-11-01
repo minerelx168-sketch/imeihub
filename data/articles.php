@@ -8,6 +8,161 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'samsung-tablet-imei-check-s-pen-compatibility',
+        'title' => 'Samsung Tablet IMEI Check: Will an S Pen Work?',
+        'meta_title' => 'Samsung Tablet IMEI Check for S Pen Compatibility',
+        'excerpt' => 'Identify your Samsung tablet before buying an S Pen. Match the exact model and pen, separate writing from remote features, and test the actual device.',
+        'date' => '2026-11-01',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261101_1'
+A Samsung tablet IMEI check can help establish which tablet you have, but it cannot certify that a particular S Pen will work with it. Before buying a replacement pen or a used Galaxy Tab for handwritten notes, match the exact tablet model with Samsung's accessory guidance.
+
+The practical question is more specific than "Does this tablet support a stylus?" You need to know whether the chosen pen supports writing on that model, which extra features are available, and whether the actual screen and pen work together.
+
+## Start with the full tablet model
+
+Open **Settings > About tablet** and record the model number. Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) explains where to find the model, IMEI and serial details. Keep those labels separate: a model code is useful for accessory matching, while an IMEI identifies a cellular device.
+
+If you have a Samsung Tab A IMEI, enter it in [IMEIHub's free model lookup](https://imeihub.net/service.php?slug=free-imei-check) as an additional identification check. Compare the returned model with the tablet itself. Resolve a disagreement before ordering an accessory.
+
+### Do not stop at "Galaxy Tab A"
+
+A family name leaves room for important differences. Samsung's own support page identifies the [SM-P205 as Galaxy Tab A with S Pen 8.0-inch (2019)](https://www.samsung.com/th/support/model/SM-P205NZAATHL/). That is a concrete example of why a broad claim about every Tab A can mislead.
+
+Use the full code shown on your device, then find its Samsung support page or manual. A listing that says only "fits Samsung tablets" is not enough evidence for a purchase.
+
+For a Wi-Fi-only tablet without an IMEI, continue with its model number and serial number. The absence of an IMEI is not an accessory-compatibility test. Samsung also has an official [SM-P200 Wi-Fi model page](https://www.samsung.com/sec/support/model/SM-P200NZKAKOO/) that explicitly lists S Pen support.
+
+## Check the pen model and the feature you need
+
+Samsung's [S Pen comparison](https://www.samsung.com/us/support/answer/ANS10003226/), reviewed November 1, 2026, distinguishes writing, Bluetooth, Air Command and Air Actions. These are separate capabilities.
+
+For example, Samsung lists the Tab S9 FE S Pen among pens without Bluetooth. Its guidance also restricts the S Pen Fold Edition to specified Galaxy Z Fold models. An S Pen name alone is therefore not a promise of tablet compatibility or remote controls.
+
+### Writing support does not imply remote gestures
+
+Someone buying a pen for classroom notes may need reliable handwriting but have no use for remote camera controls. Someone replacing a pen for presentations may need those remote functions.
+
+Write down the required feature before comparing products. Do not reject a correctly working writing pen solely because it does not offer a Bluetooth feature that its specification never promised.
+
+| What you want to establish | Best evidence |
+|---|---|
+| Which tablet you own | On-device model number, checked against Samsung's model page |
+| Whether a particular pen is supported | Tablet manual and the pen's compatibility information |
+| Whether remote functions are included | Feature list for that tablet and pen combination |
+| Whether this used unit works | A demonstration with the actual tablet and supported pen |
+
+## Test the combination before accepting a used tablet
+
+A model match answers a design question. It does not test the condition of an individual screen, nib or accessory.
+
+Ask the seller to demonstrate the exact pen included in the sale. A video made with a different pen does not establish the condition of the accessory you will receive.
+
+### Use a short, repeatable writing test
+
+In a suitable note-taking app, ask for:
+
+- A few lines of handwriting in different parts of the screen.
+- Slow diagonal strokes and small circles.
+- Erasing and any pen-button function you specifically need.
+- The advertised remote feature, only if Samsung documents it for this combination.
+
+These are practical purchase checks, not a manufacturer diagnostic or a guarantee of future reliability. If strokes fail in one area, record what happened and ask for an explanation or service assessment. Repeating an online IMEI lookup cannot diagnose that symptom.
+
+## What IMEIHub can add to the decision
+
+The free IMEI service resolves the TAC against model data; it is an identification aid, not a live S Pen test. It does not provide a free warranty, blacklist or iCloud report.
+
+IMEIHub's paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) lists model, warranty, original carrier, purchase country and Knox Guard information. Those fields may serve a separate device-history question, but the service does not advertise certification of S Pen compatibility. A report also does not remove an activation or carrier lock.
+
+There is no reason to buy an unrelated report merely to choose a pen. First settle the model and accessory match; use paid device-status checks only when you need their stated information.
+
+## Choose the pen from the model, then verify it in use
+
+A reliable purchase starts with an exact tablet code, a documented pen match and a demonstration of the functions you need. Keep those three pieces of evidence together so a vague product description cannot replace them. If your cellular tablet's identity needs a second check, start with [IMEIHub's free IMEI model lookup](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261101_1,
+    ],
+    [
+        'slug' => 't-mobile-imei-check-international-roaming',
+        'title' => 'T-Mobile IMEI Check: Does It Confirm International Roaming?',
+        'meta_title' => 'T-Mobile IMEI Check and International Roaming',
+        'excerpt' => 'A T-Mobile IMEI check is not a roaming allowance. Verify your destination, plan, device and line settings before relying on your phone abroad.',
+        'date' => '2026-11-01',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261101_2'
+A T-Mobile IMEI check can help assess a phone you want to use on T-Mobile, but a compatible result does not confirm your international roaming allowance. Before a trip, you still need to verify the destination, the plan attached to your line and the device you will actually carry.
+
+This matters when two people own the same phone but have different mobile plans. The hardware can match while their included data, calling rates and travel options differ. A device identifier cannot stand in for that account-specific information.
+
+## Separate bringing a phone from taking a line abroad
+
+T-Mobile's [bring-your-own-device page](https://www.t-mobile.com/resources/bring-your-own-phone) uses an IMEI check as part of bringing a device to its network. Its [international roaming page](https://www.t-mobile.com/cell-phone-plans/international-roaming-plans) has a separate destination and device check, with personalized information available after login.
+
+Use the second process for travel planning. A saved BYOD result may be useful background, but it is not a record of what your current line includes overseas.
+
+### Ask four separate questions
+
+| Question | Where to verify it |
+|---|---|
+| Is this the phone I intend to take? | Device settings and model identification |
+| Is roaming available at my destination? | T-Mobile's destination coverage check |
+| What usage is included or charged? | The actual line's plan and destination details |
+| Is my line ready to roam? | Account status, roaming restrictions and device settings |
+
+Keep a note of the answers for each traveller. Checking one family member's line does not settle the others, even when all the phones were purchased together.
+
+## Verify the trip in your T-Mobile account
+
+T-Mobile's [international roaming checklist](https://www.t-mobile.com/support/coverage/international-roaming-checklist), reviewed November 1, 2026, directs customers to sign in, select destinations and check the device. It also identifies network compatibility, roaming blocks and line status as items to review.
+
+Use your actual destination rather than a neighbouring country or a general region. Then record the calling, texting and data terms shown for your line.
+
+### Compare the allowance with the way you will travel
+
+A useful personal travel note includes:
+
+- The line and device you checked.
+- Every country on the itinerary.
+- The included data allowance and what happens after it is used.
+- Relevant call rates and any optional pass you selected.
+- The date you checked the information.
+
+This record is a planning aid, not a carrier contract. Recheck if you change the plan, handset or itinerary. Avoid treating a promotional headline as the complete terms for your account.
+
+T-Mobile's current [international plan terms](https://www.t-mobile.com/cell-phone-plans/international-roaming-plans) require a qualifying plan and capable device. They also limit extended international use and note that partner coverage is not guaranteed. Passing an IMEI check does not remove those conditions.
+
+## Prepare the line before departure
+
+The official [roaming checklist](https://www.t-mobile.com/support/coverage/international-roaming-checklist) says the device must register on T-Mobile's U.S. network and make a call before international use. It also explains that Data Roaming settings may need attention.
+
+If you are setting up a new line shortly before leaving, finish the required preparation while still in the United States. Do not assume that a successful compatibility lookup is equivalent to completed activation and domestic registration.
+
+### Keep account readiness separate from a device report
+
+When something remains unclear, ask T-Mobile a specific question: "Is international roaming blocked on this line?" is more actionable than "My IMEI passed; will everything work?"
+
+If you plan to use another provider's SIM or eSIM instead, that is a different setup. Carrier-lock status becomes relevant to that choice, but an unlocked result still does not create a roaming benefit on your T-Mobile plan. A lookup cannot unlock a phone or remove Activation Lock.
+
+## Check sea travel separately from land coverage
+
+A cruise itinerary can include both countries and a ship network. T-Mobile's checklist directs customers to a separate cruise coverage check and states that international data passes do not cover cruise ships.
+
+Add that distinction to your travel notes before boarding. A destination appearing in a land-roaming result is not enough evidence for service costs at sea. Read the ship-specific terms and decide which connectivity option you intend to use.
+
+## Where an IMEI checker online fits
+
+IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic model identification through TAC data. It can help you confirm the device name before choosing it in a travel checker. It does not read your T-Mobile account, remaining allowance or roaming restrictions.
+
+For an iPhone, the paid [Apple SIM-Lock Status report](https://imeihub.net/service.php?slug=apple-sim-lock) addresses carrier-lock status only. It is not a roaming approval or an international pass. Warranty, iCloud and blacklist reports are also separate from free model lookup and should not be treated as travel-plan checks.
+
+Use a report for the question it actually answers. If your question concerns a destination or a charge, the carrier's current account and coverage information is the relevant source.
+
+## Confirm the trip, not just the handset
+
+A successful T-Mobile IMEI check is one useful device result. Travel readiness requires matching that device with the destination, line and plan you will use. Save the relevant carrier details before departure, and if you first need to identify the handset, use [IMEIHub's free model lookup](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261101_2,
+    ],
+    [
         'slug' => 't-mobile-imei-check-phone-number-transfer',
         'title' => 'T-Mobile IMEI Check: Does It Transfer Your Phone Number?',
         'meta_title' => 'T-Mobile IMEI Check vs Phone Number Transfer',
