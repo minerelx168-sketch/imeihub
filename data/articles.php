@@ -8,6 +8,170 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-unknown-result',
+        'title' => 'IMEI Checker Online: Does an Unknown Result Mean Clean?',
+        'meta_title' => 'IMEI Checker Online: Unknown vs Clean Results',
+        'excerpt' => 'An unknown IMEI result is not a clean report. Learn how to separate missing data, unfinished orders and explicit status results before checking again.',
+        'date' => '2026-11-02',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261102_0'
+An IMEI checker online may return an incomplete answer instead of the status you expected. If a field says "unknown," remains blank or is unavailable, do not translate it into "clean." The useful next step is to establish which question the service actually answered and which information is still missing.
+
+This is especially important when a model name appears correctly above an empty blacklist field. Identifying the handset and checking a reported lost-or-stolen status are different tasks. Success in one does not fill in the other.
+
+## Separate the order status from the device status
+
+A completed order and a completed device-status answer are not necessarily the same thing. Read the service's explanation of its output rather than assuming every label has a universal meaning.
+
+The examples below are a reading framework, not a list of guaranteed IMEIHub messages. Different services may use different wording.
+
+| What you see | What to establish next |
+|---|---|
+| Pending or processing | Whether the requested report has finished |
+| Unknown or unavailable in a field | Whether that specific fact could be obtained |
+| A model name only | Whether you ordered model identification rather than a status report |
+| An explicit not-listed result | Which list was checked and when |
+| An explicit lost-or-stolen flag | The reporting source and the appropriate correction route |
+
+### A missing field does not answer a yes-or-no question
+
+Suppose you want to know whether an iPhone has been reported stolen. A report that identifies an iPhone model but supplies no blacklist answer leaves that question unresolved. It neither proves a blacklist nor clears one.
+
+Keep the original wording in your notes. Writing "unknown" is more useful than converting it into a green tick that another person may later treat as evidence.
+
+## Confirm the input before requesting another report
+
+Compare the submitted IMEI with the identifier on the actual device. Check every digit, including the beginning and end. Do not use a telephone number or a serial number in a field requesting an IMEI.
+
+For Samsung devices, the manufacturer's [identifier instructions](https://www.samsung.com/us/support/answer/ANS10002504/) place model and identification details in Settings under About phone or About tablet. Follow the device maker's guidance instead of relying only on a seller's typed message.
+
+### Keep the report tied to one device
+
+Record:
+
+- The device you inspected and the identifier you submitted.
+- The service name and the specific information it promises.
+- The order reference and completion state.
+- The exact unanswered field.
+- The time of the check.
+
+Keep full identifiers and order details in your private records. When asking support for help, use the service's official contact channel and include the relevant reference.
+
+## Ask a precise support question
+
+A useful question is: "This order finished, but the blacklist field is unavailable. Was that field checked, and is another action required?" That gives support a concrete discrepancy to investigate.
+
+Ask whether the result reflects unsupported coverage, an input issue or a temporary failure; do not assume one of those explanations without confirmation. Also ask what the provider recommends before placing another paid order.
+
+Repeatedly purchasing the same report without understanding the first result may leave you with the same unresolved question. No specific retry time or refund entitlement should be assumed unless the service's current terms state it.
+
+## Understand an explicit blacklist result separately
+
+The [GSMA Device Check FAQ](https://devicecheck.gsma.com/rtlapp/faqs/), reviewed November 2, 2026, distinguishes devices flagged on its Block List from those not flagged. That is an explicit result about a defined list. A missing answer from another checker is not equivalent to GSMA's not-flagged result.
+
+GSMA's [data limitations](https://devicecheck.gsma.com/rtlapp/termsOfUse) also explain that reporting can be delayed and status can change. Even a successful result has a scope and a time; it is not a permanent certificate of ownership or unrestricted service.
+
+### If a transaction depends on the answer
+
+For a used-phone purchase, mark the unresolved check as outstanding. Agree with the seller on how it will be resolved before treating the report as a completed condition of the sale.
+
+If a report explicitly flags a device and the owner disputes it, GSMA directs consumers to their wireless provider. An unknown answer calls for clarification; an explicit disputed flag calls for investigation of the source record.
+
+## Choose the service that matches the missing fact
+
+[IMEIHub's free lookup](https://imeihub.net/service.php?slug=free-imei-check) uses TAC data for basic model identification. Free model information is not a free blacklist, warranty or iCloud report.
+
+The paid [WorldWide Blacklist service](https://imeihub.net/service.php?slug=blacklist) addresses reported lost-or-stolen status. Read its scope before ordering, and do not substitute it for a carrier-lock or Activation Lock check. A lookup does not remove either lock.
+
+## Resolve the unknown before drawing a conclusion
+
+An incomplete result is a reason to identify the missing evidence, not to invent a favourable or unfavourable answer. Verify the input, retain the exact message and clarify the report scope. If reported lost-or-stolen status is the question you need answered, review [IMEIHub's blacklist report](https://imeihub.net/service.php?slug=blacklist) before choosing your next check.
+ARTICLE_20261102_0,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-dex-monitor',
+        'title' => 'Samsung Tablet IMEI Check: Can It Run DeX on a Monitor?',
+        'meta_title' => 'Samsung Tablet IMEI Check: DeX Monitor Compatibility',
+        'excerpt' => 'Identify your Galaxy tablet before buying a DeX dock. Check standalone, HDMI and wireless support separately, then test the display setup you need.',
+        'date' => '2026-11-02',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261102_1'
+A Samsung tablet IMEI check can help identify a cellular Galaxy Tab before you buy it for a desktop setup. It does not, by itself, confirm that Samsung DeX will work on an external monitor. The exact model and the connection method both matter.
+
+A seller may demonstrate a desktop-style interface on the tablet itself while you expect to connect a monitor at work. Those are different demonstrations. Establish which setup you need before buying a dock, cable or used tablet.
+
+## Identify the model, including its suffix
+
+Find the model number in **Settings > About tablet**, following [Samsung's identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/). Record the full code and the product name rather than just "Tab S" or "Tab A."
+
+A cellular tablet's IMEI can provide an additional model cross-check through [IMEIHub's free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check). Compare that information with the actual tablet. If the names disagree, clarify the identity before buying accessories.
+
+### Keep model identification separate from feature testing
+
+An IMEI lookup does not connect to the tablet's USB port or inspect a monitor. It cannot test whether the port, adapter or screen in front of you works.
+
+For a Wi-Fi-only tablet, use the model number directly. [CTIA's device identifier FAQ](https://stolenphonechecker.org/spc/faqs.jsp) explains that devices relying only on Wi-Fi do not have an IMEI. That absence says nothing about whether the model supports a desktop interface.
+
+## Check three different DeX configurations
+
+Samsung's [tablet DeX compatibility guide](https://www.samsung.com/us/support/answer/ANS10003426/), reviewed November 2, 2026, separates DeX on the tablet, DeX over a cable and Wireless DeX. Read the relevant category rather than treating "supports DeX" as one universal capability.
+
+| Your intended setup | What you need to verify |
+|---|---|
+| Desktop interface on the tablet screen | Standalone DeX support for the model |
+| Tablet connected to a monitor by cable | HDMI-output compatibility and the required connection |
+| Tablet connected to a display wirelessly | Wireless DeX compatibility for the tablet and display |
+
+### An FE label can change the answer
+
+Samsung's guide explicitly excludes the Galaxy Tab S9 FE and S9 FE+ from HDMI output and Wireless DeX. A listing that shortens one of those names to "Tab S9" can therefore lead you to the wrong conclusion.
+
+The same guide lists the Tab A9+ under DeX mode on the tablet. Do not turn that entry into a promise of every external-display option. Always check the category for your intended connection.
+
+These examples illustrate how to read the list; they are not a complete compatibility table. Check Samsung's current documentation for the exact model you are considering.
+
+## Ask for a demonstration of the setup you will use
+
+Before accepting a used tablet for a desk or shop counter, describe your requirement precisely: for example, "I need this tablet to display DeX on this monitor through a cable."
+
+Ask the seller to demonstrate the actual device with the intended type of connection. A screenshot of a desktop interface cannot show whether the physical connection works.
+
+### Make the demonstration useful
+
+Try a short sequence that reflects your normal work:
+
+- Connect the tablet and display using the documented method.
+- Open the apps you actually intend to use.
+- Try the keyboard and mouse you plan to pair with the setup.
+- Check that text is readable at your normal viewing distance.
+- Disconnect and reconnect once to see whether the setup is repeatable.
+
+This is a practical acceptance check, not a guarantee that every app or peripheral will behave identically. Note the adapter and display used so you can reproduce the demonstration later.
+
+## Investigate a blank monitor without changing the IMEI
+
+If Samsung documents support for the connection but the monitor stays blank, collect the model code, software version, cable or adapter details and the observed symptom. Those facts give Samsung support a useful starting point.
+
+Check the display input and the connection against the model's instructions. Avoid buying several replacement docks before establishing that the tablet supports the output you want.
+
+### A model mismatch comes before accessory troubleshooting
+
+If the actual tablet turns out to be a different variant from the listing, resolve that discrepancy with the seller first. A more expensive cable does not change the model's documented compatibility.
+
+Similarly, a successful IMEI test is not evidence that a damaged connector is healthy. Model identification and a working physical setup require different evidence.
+
+## Use paid reports for separate device-status questions
+
+IMEIHub's paid [Samsung Info + Knox Guard report](https://imeihub.net/service.php?slug=samsung-info) covers device information such as warranty, carrier and Knox Guard status. It does not advertise a DeX or USB-port diagnostic.
+
+The free model check is separate from paid warranty, blacklist and iCloud reports. Neither a free lookup nor a paid report removes an activation or carrier lock. Choose a status report only when its listed information is relevant to another question about the tablet.
+
+## Match the tablet to the monitor before buying
+
+Start with the full model code, check the correct DeX category, and ask for a demonstration of your intended connection. That sequence helps turn a vague "desktop-ready" claim into something you can verify. For a cellular Galaxy Tab, begin the identification step with [IMEIHub's free model lookup](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261102_1,
+    ],
+    [
         'slug' => 'samsung-tablet-imei-check-s-pen-compatibility',
         'title' => 'Samsung Tablet IMEI Check: Will an S Pen Work?',
         'meta_title' => 'Samsung Tablet IMEI Check for S Pen Compatibility',
