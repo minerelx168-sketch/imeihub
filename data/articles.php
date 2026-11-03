@@ -8,6 +8,170 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'icloud-imei-check-screen-time-passcode',
+        'title' => 'iCloud IMEI Check: Can It Detect a Screen Time Passcode?',
+        'meta_title' => 'iCloud IMEI Check vs Screen Time Passcode',
+        'excerpt' => 'A Find My result does not reveal a Screen Time passcode. Identify the restriction, use Apple\'s recovery guidance, and choose the right IMEI report.',
+        'date' => '2026-11-03',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261103_0'
+An iCloud IMEI check does not tell you whether an iPhone has a Screen Time passcode. A Find My ON or OFF result addresses a different protection. If the phone asks for a code when you change app limits or restrictions, ordering another iCloud report will not supply that code.
+
+The distinction can save you from paying for the wrong information. Start with the wording of the prompt and the action that triggered it, then follow the recovery path for that particular setting.
+
+## Identify what the phone is asking for
+
+Apple explains in its [Screen Time passcode guidance](https://support.apple.com/en-ie/102677) that this code protects chosen limits and restrictions and is separate from the passcode used to unlock the device.
+
+By contrast, [Activation Lock](https://support.apple.com/en-us/108794) is linked to Find My and helps prevent another person from activating a lost or stolen device. Apple says it turns on when Find My is enabled.
+
+| Situation | What to investigate |
+|---|---|
+| A code is requested while changing Screen Time limits | Screen Time settings and authorized recovery |
+| The phone requests its passcode at the Lock Screen | The device-unlock passcode |
+| Setup requests the previous owner's Apple Account | Activation Lock and the previous owner's account |
+| An IMEI report says Find My ON or OFF | The scope of the Find My status report |
+
+### Record the trigger, not just the word "locked"
+
+Write down whether the prompt appeared during setup, after waking the phone or inside Screen Time. Those details help distinguish issues that otherwise sound identical in a support conversation.
+
+Do not send passwords or passcodes to an IMEI-checking website. A report based on a device identifier is not an account-recovery form.
+
+## Use the authorized Screen Time recovery route
+
+Apple's current [recovery instructions](https://support.apple.com/en-ie/102677), reviewed November 3, 2026, distinguish your own device from a child's device managed through Family Sharing. The recovery account can differ from the Apple Account currently signed in on the phone.
+
+For a family-managed device, the organizer or authorized parent or guardian should handle the change through the family settings. For your own device, follow Apple's instructions for the software version installed and use the account associated with Screen Time recovery when requested.
+
+### Prepare before attempting recovery
+
+Have the following information ready:
+
+- Whether the device is yours or is managed through Family Sharing.
+- The iOS version currently installed.
+- Which account was used to set up Screen Time recovery.
+- The exact message shown when the change fails.
+
+Menu names can vary across software versions. Use the linked Apple instructions rather than assuming a screenshot from a different version matches your phone.
+
+If the appropriate account cannot be accessed, resolve that account issue with Apple. Repeating an IMEI lookup does not establish permission to change restrictions.
+
+## What to check during a used-phone handover
+
+If a seller demonstrates a working Home Screen but cannot change a restriction, ask them to resolve that issue before the transaction is treated as complete. A Find My OFF screenshot does not demonstrate control over every local setting.
+
+Keep the seller's role clear: they should handle their own account and passcode actions without giving you their credentials. Your role is to verify that the agreed handover is complete.
+
+### Verify setup independently of the report
+
+Apple's [used-device Activation Lock guidance](https://support.apple.com/en-us/108794) tells buyers to check that the device has been erased and is no longer linked to the previous owner. If setup requests that person's account, the seller needs to resolve the link.
+
+This is a separate check from changing Screen Time restrictions. Solving one prompt does not prove that another protection has also been removed.
+
+## What IMEIHub's iCloud report actually covers
+
+The paid [iCloud ON/OFF service](https://imeihub.net/service.php?slug=apple-icloud-status) is described as a Find My status check. It does not advertise a Screen Time passcode, account password or restriction-removal function. It also does not include Clean/Lost detail in that particular report.
+
+IMEIHub's [free model lookup](https://imeihub.net/service.php?slug=free-imei-check) provides basic identification from TAC data. It is separate from paid iCloud, warranty and blacklist reports. Searching for a free iCloud IMEI checker should not lead you to interpret a free model result as a lock-status answer.
+
+### Buy information only for the unresolved question
+
+If the only issue is a forgotten Screen Time code on your own phone, begin with Apple's recovery process. If you separately need to check Find My status, review the iCloud service scope before ordering.
+
+Neither a lookup nor its result removes Activation Lock, a carrier lock or a Screen Time restriction.
+
+## Match the recovery method to the prompt
+
+A Screen Time request and an Activation Lock request require different evidence and different action. Identify the prompt, involve the authorized account holder and verify the outcome directly on the phone. When your separate question is whether Find My is enabled, review [IMEIHub's iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status).
+ARTICLE_20261103_0,
+    ],
+    [
+        'slug' => 'imei-checker-online-cellular-laptop',
+        'title' => 'IMEI Checker Online for a Laptop: Which Number Should You Use?',
+        'meta_title' => 'IMEI Checker Online for Cellular Laptops',
+        'excerpt' => 'Find the right IMEI on a cellular Windows laptop. Separate the modem identifier from the laptop serial, and verify carrier support before buying a plan.',
+        'date' => '2026-11-03',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261103_1'
+An IMEI checker online is relevant to a laptop when the computer has cellular hardware with an IMEI. A laptop serial number, service tag or Wi-Fi address is not a substitute. Before entering anything into a lookup form, establish whether you are checking built-in mobile broadband, an external modem or a computer that only uses Wi-Fi.
+
+That first distinction prevents a common mistake: assuming that any portable computer has a phone-style identifier simply because it can access the internet.
+
+## Confirm the laptop has cellular hardware
+
+Dell's [Windows IMEI guide](https://www.dell.com/support/kbdoc/en-au/000143678/how-to-find-the-international-mobile-station-equipment-identity-imei-number-in-win-8-x) explains that an IMEI belongs to the wireless cellular device in a WWAN-capable computer. Wi-Fi and Bluetooth adapters are not assigned an IMEI.
+
+WWAN means Wireless Wide Area Network: in this context, the hardware used for a mobile carrier connection. Do not confuse it with ordinary wireless networking over a home or office Wi-Fi router.
+
+### Check the actual configuration
+
+A product-family name is not enough to establish the hardware installed in one machine. Ask for the exact configuration and inspect the computer you intend to use.
+
+For a Surface, Microsoft's [LTE and 5G setup guide](https://support.microsoft.com/en-us/surface/wifi-cellular/set-up-the-lte-or-5g-connection-on-your-surface) recommends checking the Surface app's device information to identify whether the model is LTE or 5G enabled.
+
+If the laptop is using a separate hotspot, keep the two devices distinct in your records. An identifier taken from that hotspot is not proof that the laptop contains its own cellular modem.
+
+## Find the IMEI in the cellular connection details
+
+Dell documents a Settings route through **Network & Internet > Cellular**, with the IMEI in the connection properties. The available labels can differ with the Windows version and device.
+
+Its guide also describes checking hardware and connection properties for a cellular modem. If Cellular is absent, investigate the installed configuration rather than creating an IMEI from another number.
+
+### Keep the identifiers labelled
+
+| Identifier or record | Use it for |
+|---|---|
+| IMEI shown for cellular hardware | A supported cellular device lookup or carrier request |
+| Laptop serial number or service tag | Identifying the computer for manufacturer support |
+| Model and configuration details | Checking which hardware the computer was sold with |
+| Carrier account and plan information | Establishing service entitlement and activation status |
+
+Copy the field labelled IMEI exactly. If the form requests a 15-digit IMEI and your record contains letters or a different type of identifier, return to the source instead of trimming or replacing characters.
+
+## Treat an online result as one piece of evidence
+
+A model lookup may help you investigate the submitted cellular identifier, but it does not inspect the laptop's processor, storage, battery or physical condition. It also cannot prove that a seller has supplied the same computer you will receive.
+
+Keep the manufacturer serial record and the cellular record together. For a used machine, compare the on-device information with the sale description before relying on a remote report.
+
+### Ask about support before ordering a paid check
+
+IMEIHub's [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) describes TAC-based manufacturer, model and basic specification information. Its public page does not promise complete coverage for every laptop or WWAN module.
+
+If no useful model match appears, do not treat that as proof of a stolen or counterfeit computer. Confirm the identifier and ask whether the service supports that type of cellular device.
+
+The same principle applies to paid reports: confirm the supported device category and promised fields first. A phone-specific warranty report should not be assumed to cover a Windows laptop.
+
+## Verify the carrier connection separately
+
+Microsoft's [Surface cellular instructions](https://support.microsoft.com/en-us/surface/wifi-cellular/set-up-the-lte-or-5g-connection-on-your-surface), reviewed November 3, 2026, describe a mobile-operator data plan and supported SIM or eSIM setup. Those requirements are separate from finding an IMEI.
+
+Before purchasing service, ask the carrier to confirm support for the actual device and intended plan. Keep any activation instructions with your device records.
+
+### Test the connection you are buying
+
+For a laptop advertised as cellular-ready, a useful demonstration should show:
+
+- The cellular hardware recognized in the operating system.
+- The intended SIM or eSIM setup, where supported.
+- An active mobile data connection rather than only Wi-Fi.
+- The device identifier matching the one used for the carrier inquiry.
+
+Do this with the owner's permission and an appropriate active plan. A browser loading over Wi-Fi is not a demonstration of the laptop's cellular connection.
+
+## Keep free identification and paid status checks separate
+
+Free basic model information does not include a free blacklist, iCloud or warranty report. IMEIHub lists those as separate services, and the relevant device support still needs to be confirmed. A lookup does not activate a data plan or remove an activation or carrier lock.
+
+For manufacturer service, retain the laptop's own serial or service-tag information. For cellular questions, retain the modem's IMEI. This separation gives support the right starting point.
+
+## Start with the hardware, then check the number
+
+A laptop IMEI check begins by identifying the cellular hardware actually present. Find its labelled identifier, keep it separate from the computer's serial number, and verify plan compatibility with the carrier. If you have a supported 15-digit IMEI to investigate, start with [IMEIHub's free model lookup](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261103_1,
+    ],
+    [
         'slug' => 'imei-checker-online-unknown-result',
         'title' => 'IMEI Checker Online: Does an Unknown Result Mean Clean?',
         'meta_title' => 'IMEI Checker Online: Unknown vs Clean Results',
