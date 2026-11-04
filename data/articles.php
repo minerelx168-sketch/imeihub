@@ -14449,6 +14449,102 @@ Whether you are a Myanmar resident, an expat, or a traveller with a foreign devi
 Registering on ceir.gov.mm takes less than ten minutes. The alternative — a permanently blocked phone — costs far more to resolve.
 MD,
     ],
+    [
+        'slug'    => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title'   => 'NCC IMEI Check: Verify Phone IMEI in Nigeria',
+        'excerpt' => 'Buying a phone in Nigeria? Learn how NCC rules target counterfeit and unapproved IMEIs, and how to verify any IMEI before you pay.',
+        'date'    => '2026-11-04',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## NCC IMEI Check: Why Every Nigerian Phone Buyer Needs One
+
+Nigeria is one of Africa's largest mobile markets, and also one of its biggest markets for **counterfeit, cloned and unapproved handsets**. The **Nigerian Communications Commission (NCC)** regulates which devices may legally operate on Nigerian networks, and the **IMEI (International Mobile Equipment Identity)** is the identifier that tells networks, regulators and buyers what a phone really is.
+
+If you are shopping in Lagos, Abuja, Port Harcourt or Kano, a quick **verify phone IMEI Nigeria** check before paying can save you from a phone that is fake, reported stolen, or at risk of being blocked.
+
+---
+
+## What Is the NCC's Role in IMEI Control?
+
+The NCC is the telecom regulator in Nigeria. In practice its device-related work focuses on:
+
+- **Type approval:** handsets sold in Nigeria are expected to meet NCC technical and safety standards.
+- **Counterfeit and substandard devices:** the regulator has repeatedly warned consumers about fake phones that imitate known brands.
+- **Stolen and invalid IMEIs:** networks can restrict handsets whose IMEI is reported lost or stolen, or that is invalid, duplicated or cloned.
+
+**Important:** rules and enforcement timelines change. Always confirm the latest requirements directly with the NCC and your network operator (MTN, Airtel, Glo or T2) before relying on any specific deadline.
+
+---
+
+## Why Counterfeit and Unapproved IMEIs Are a Problem
+
+| Problem | What it means for you | Risk level |
+|---|---|---|
+| **Fake / clone phone** | Looks like a flagship, runs a cheap clone with a copied IMEI | High |
+| **Duplicate IMEI** | The same IMEI appears on many devices; networks may restrict it | High |
+| **Invalid IMEI** | Number fails the checksum or does not exist in the GSMA TAC database | High |
+| **Reported stolen** | Phone can be blacklisted and lose network access | Very high |
+| **Unapproved model** | May lack proper approval or local band support | Medium |
+
+---
+
+## How to Verify a Phone IMEI in Nigeria (Step by Step)
+
+- **Step 1: Get the IMEI.** Dial **\*#06#** on the phone. Write down all 15 digits. On dual-SIM phones you will see two IMEIs.
+- **Step 2: Compare it.** The IMEI from \*#06#, the one in *Settings > About phone*, and the one printed on the box or SIM tray should match. A mismatch is a red flag.
+- **Step 3: Run a free IMEI check.** This confirms the brand and model tied to the first 8 digits (the TAC). If the seller says "iPhone 15 Pro" but the IMEI decodes to a low-end Android, walk away.
+- **Step 4: Run a blacklist check.** This tells you whether the IMEI is reported lost or stolen in the global database.
+- **Step 5: Check the physical phone.** Test the camera, screen, battery and fingerprint sensor, and make sure the OS matches the claimed model.
+- **Step 6: Keep proof.** Get a receipt with the seller's details and the IMEI written on it.
+
+---
+
+## Buying Safely in Lagos and Abuja Markets
+
+Markets such as Computer Village in Ikeja are busy, and that is exactly where rushed buyers get caught. Follow these habits:
+
+- Never buy a phone without being able to read the IMEI first.
+- Do the IMEI check **before** you pay, not after you leave.
+- Be suspicious of prices far below the market rate, especially for new flagships.
+- Avoid sellers who refuse to power the phone on or to let you dial \*#06#.
+- Be extra careful with "UK used" or "US used" claims. Verify the model and blacklist status instead of trusting the label.
+
+---
+
+## What If Your IMEI Check Fails?
+
+- **Model mismatch:** do not buy, or demand a refund if you already did.
+- **Blacklisted:** the phone may be reported stolen. Do not use it, and consider reporting it to the police.
+- **Invalid IMEI:** treat the phone as counterfeit.
+- **Your own phone was stolen:** report it to the police and to your network so the IMEI can be restricted, and keep your IMEI and receipt for the report.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is there an official NCC IMEI check I can use?**
+A: The NCC has discussed device-management and verification initiatives over time. Check the NCC website and your network for the current official options. Independent tools like Imeihub let you verify the device identity and blacklist status immediately.
+
+**Q: Can a phone be blocked in Nigeria because of its IMEI?**
+A: Yes. Networks can restrict handsets whose IMEI is reported stolen, invalid or cloned. That is why a blacklist check before purchase matters.
+
+**Q: Is the IMEI the same as the serial number?**
+A: No. The serial number is set by the manufacturer. The IMEI is the identifier used by mobile networks.
+
+**Q: Does a clean result guarantee the phone is genuine?**
+A: A clean blacklist result means it is not currently reported stolen. Combine it with a model check and a physical inspection.
+
+---
+
+## Check Any Phone Before You Pay
+
+Spend two minutes on these checks and protect your money:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand and model behind any IMEI
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the phone is reported lost or stolen
+
+For iPhones and Samsung devices, add a brand-specific check such as [Apple iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) or [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) for deeper details.
+MD,
+    ],
 
 ];
-
