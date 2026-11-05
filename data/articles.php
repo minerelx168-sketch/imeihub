@@ -8,6 +8,172 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-repair-status',
+        'title' => 'iPhone Serial Number Check: How to Track an Existing Repair',
+        'meta_title' => 'iPhone Serial Number Check and Repair Status',
+        'excerpt' => 'Track an existing iPhone repair using the right Apple service record. Learn why a serial number or warranty result does not show repair progress.',
+        'date' => '2026-11-04',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261104_0'
+An iPhone serial number check can help you identify a device or investigate coverage, but it is not the same as tracking a repair already in progress. If your iPhone is at a service centre, the useful starting point is the repair record created for that job.
+
+A warranty result cannot tell you that a technician has finished, that a parcel has shipped or that collection is available. Keep the device identifier and the service reference together, then ask the system handling the repair for the update you need.
+
+## Start with the existing repair record
+
+Apple's [repair support page](https://support.apple.com/repair), reviewed November 4, 2026, directs customers to sign in to My Support to track an existing repair. It presents checking warranty coverage as a separate task.
+
+That distinction matters when an online search offers several different forms. A form asking for a serial number to check coverage is answering a coverage question. It should not be treated as a progress tracker for a particular service job.
+
+### Find the Case or Repair ID
+
+Apple explains [how to find your Case or Repair ID](https://support.apple.com/en-gb/102424): use the Apple Account associated with the original support or service request, then look in Recent Activity in My Support. A repair confirmation email can also contain the Repair ID.
+
+Use the reference exactly as issued. Do not replace it with an IMEI merely because both numbers relate to the same phone.
+
+## Keep each reference attached to its purpose
+
+Create a short service note before contacting support. This is particularly useful if your household has more than one iPhone or you have several support conversations.
+
+| Record | What it helps you establish |
+|---|---|
+| Serial number | Which physical device the inquiry concerns |
+| IMEI | The cellular device identifier used by supported IMEI services |
+| Case or Repair ID | Which support interaction or repair job to discuss |
+| Service confirmation | Who accepted the device and what was arranged |
+| Shipping reference, if provided | Which shipment a delivery question concerns |
+
+An iPhone serial number search should not replace the other records. Match the details rather than assuming that any result showing the right model belongs to the current repair.
+
+### Use a precise support question
+
+Instead of asking only whether your phone is “ready,” identify the stage you need clarified. For example:
+
+- Has the service provider received the device?
+- Is any action or approval required from me?
+- Has the agreed work been completed?
+- Should I wait for a collection message or shipping confirmation?
+- Which reference should I use for the next follow-up?
+
+These are suggested questions, not a list of status labels Apple promises to display. Use the wording in your actual service record.
+
+## If the repair does not appear
+
+First compare the account you are using with the confirmation for the original request. Apple's instructions specifically refer to the same account used to start the support or service interaction.
+
+If that does not resolve the problem, contact the organization that accepted the iPhone. Have the service confirmation and device details available. A repair arranged directly with a shop should be followed up through that shop's documented process unless its instructions say otherwise.
+
+### Avoid opening a second request just to get an update
+
+Before starting a new repair booking, ask support to locate the existing job. Explain that you are seeking its current status. This keeps the conversation focused and reduces the chance of confusing an inquiry with a new service request.
+
+Do not infer that the repair has been cancelled, completed or refused simply because one online screen does not show it. Missing information needs clarification from the provider.
+
+## Where coverage checks still help
+
+Coverage information is useful when you are preparing for service or trying to understand which coverage record applies. Apple's [coverage checker](https://checkcoverage.apple.com/) accepts a serial number and offers an account sign-in route.
+
+Keep that result with your paperwork, but treat any question about the actual work, quoted charge or completion date as a question for the repair provider.
+
+### Understand the scope of an IMEIHub report
+
+IMEIHub's paid [Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty) describes activation-date and remaining-warranty information. Its public service description does not advertise live repair progress or parcel tracking.
+
+The [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) offers basic model identification from TAC data. It is separate from paid warranty, blacklist and iCloud reports. Neither a free model result nor a paid warranty result removes an activation or carrier lock.
+
+If all you need is the status of a repair already booked, start with the service record rather than buying another report.
+
+## Follow the job, not just the device number
+
+For an existing repair, match the iPhone to its Case or Repair ID and follow the provider's updates. A serial number identifies the device; it does not independently establish what is happening to the current job. If you also need activation or warranty information for a supported IMEI, review [IMEIHub's Apple Warranty & Activation service](https://imeihub.net/service.php?slug=apple-warranty).
+ARTICLE_20261104_0
+    ],
+    [
+        'slug' => 't-mobile-imei-check-smartphone-hotspot',
+        'title' => 'T-Mobile IMEI Check: Does It Confirm Your Hotspot Allowance?',
+        'meta_title' => 'T-Mobile IMEI Check and Smartphone Hotspot',
+        'excerpt' => 'A T-Mobile IMEI check does not show your hotspot allowance. Check the device, line benefits and remaining data before sharing your phone\'s connection.',
+        'date' => '2026-11-04',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261104_1'
+A T-Mobile IMEI check can help you assess a phone for the network, but it does not tell you how much smartphone hotspot data your line includes. Before relying on a phone to connect a laptop, verify the device, the plan benefit and the remaining allowance separately.
+
+This guide concerns sharing a smartphone's mobile connection. It is not a guide to choosing a dedicated hotspot router or its data plan.
+
+## What the IMEI result answers
+
+T-Mobile's [bring-your-own-device page](https://www.t-mobile.com/resources/bring-your-own-phone) uses an IMEI check to assess network compatibility. Choosing a plan and activating service are separate steps in its process.
+
+A compatible result therefore is not a receipt for a particular hotspot benefit. It also does not measure how much data you have already used this billing cycle.
+
+### Separate three questions before switching
+
+| Question | Best place to verify it |
+|---|---|
+| Can this phone be brought to the network? | T-Mobile's official BYOD checker and support |
+| What hotspot benefit does my line include? | The selected plan and account details |
+| Can my laptop use the connection now? | A test with the actual phone, line and laptop |
+
+If you are comparing a seller's phone with your own, do not assume that the seller's hotspot allowance transfers with the handset. Establish the terms of the line you intend to use.
+
+## Check the hotspot benefit on your own line
+
+T-Mobile's [smartphone hotspot guidance](https://www.t-mobile.com/support/plans-features/smartphone-mobile-hotspot-wi-fi-sharing--tethering), reviewed November 4, 2026, says hotspot availability and high-speed allowances depend on the plan. It also explains that speeds can be reduced after the high-speed allotment is used.
+
+Read the terms for your exact plan rather than relying on the word “unlimited” in a general advertisement. Record the hotspot allowance and what happens after it is exhausted.
+
+### Check usage before planning a long session
+
+The same T-Mobile guide directs customers to account usage information, where they can select the relevant line and review hotspot consumption. Confirm which line you are viewing before making plans around the balance.
+
+For a practical planning note, record:
+
+- The line that will supply the connection.
+- The current plan name and hotspot benefit.
+- The usage period shown in the account.
+- The remaining allowance or usage figure provided.
+- Any separate add-on you have actually confirmed.
+
+Do not estimate the balance from the phone's IMEI. Ask the carrier to clarify any discrepancy between the benefit description and the account display before purchasing an add-on.
+
+## Confirm that the phone can share its connection
+
+On an iPhone, Apple's [Personal Hotspot troubleshooting guide](https://support.apple.com/en-us/119837) says that a missing or unavailable hotspot option can require checking carrier enablement and plan support. A model lookup alone cannot confirm those account settings.
+
+Apple also recommends checking that Personal Hotspot is on, restarting the devices and keeping the software current. Follow the instructions for the actual operating system rather than using a menu path from an unrelated phone.
+
+### Make the test answer a specific question
+
+With permission from the account holder, try a small, ordinary browsing task from the laptop through the phone's hotspot. Confirm the laptop is connected to that hotspot rather than another saved Wi-Fi network.
+
+Write down what happens. “The laptop cannot join the Wi-Fi network” is a different observation from “it joins, but a page does not load.” Neither observation, by itself, proves that the IMEI compatibility result is wrong.
+
+Avoid using a large download as the first test: the point is to establish the connection before consuming a significant part of the allowance.
+
+## When the hotspot works but is slow
+
+Return to the evidence you can check. Review the line's hotspot usage and plan terms, then note the location, device and time of the problem. A short successful connection test is not a guarantee of sustained speed for an entire workday.
+
+T-Mobile's BYOD page also cautions that functionality and performance can vary on devices it did not sell. Ask support about the specific phone and symptom if the benefit is active but the experience remains poor.
+
+### Send support useful details
+
+Have the phone model, software version, affected line and the exact symptom ready. If support requests the IMEI, provide it through the official support channel. Keep account credentials out of public troubleshooting posts.
+
+An IMEI checker online is not a substitute for carrier troubleshooting of the active line.
+
+## Where IMEIHub fits
+
+IMEIHub's [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) provides basic TAC-based model information. It can help you establish which device you are investigating, but it does not display your T-Mobile plan, hotspot balance or account provisioning.
+
+Paid blacklist, iCloud and warranty reports answer separate device-status questions; they are not included in the free model lookup. A lookup does not add a hotspot benefit, activate a line or remove an activation or carrier lock.
+
+## Verify the benefit before depending on it
+
+Use the T-Mobile IMEI check for the device question, account information for the hotspot benefit, and a practical connection test for the phone-and-laptop setup. Keep those results together before relying on tethering away from Wi-Fi. If you first need basic identification for a supported 15-digit IMEI, start with [IMEIHub's free model lookup](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261104_1
+    ],
+    [
         'slug' => 'icloud-imei-check-screen-time-passcode',
         'title' => 'iCloud IMEI Check: Can It Detect a Screen Time Passcode?',
         'meta_title' => 'iCloud IMEI Check vs Screen Time Passcode',
