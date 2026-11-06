@@ -8,6 +8,182 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'icloud-imei-check-locked-replacement-part',
+        'title' => 'iCloud IMEI Check: Can It Clear a Locked Replacement Part?',
+        'meta_title' => 'iCloud IMEI Check: Locked Replacement Parts',
+        'excerpt' => 'A Find My report cannot clear a locked replacement part. Learn which on-device messages to check and when to contact the repairer or part seller.',
+        'date' => '2026-11-06',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261106_0'
+An iCloud IMEI check reports information about the submitted device; it does not unlock a replacement display, battery or other component. A previously used part can remain linked to another Apple Account. Investigate the on-device repair message and contact the repairer or part seller before paying for another report.
+
+**Key takeaways**
+
+- A device-level Find My result is not proof that every installed part can be configured.
+- IMEIHub's iCloud ON/OFF service accepts a 15-digit IMEI and is paid.
+- Repair Assistant handles supported repair configuration; an IMEI lookup cannot complete it.
+- Keep the repair invoice, exact message and device identifiers together.
+
+## Why can a replacement part have its own lock?
+
+A previously used component may retain an association with the Apple Account from its original device. That creates a repair-specific problem even when you are investigating a different phone. Treat the component's configuration message as separate evidence from a report about the receiving phone's IMEI.
+
+Apple's [Activation Lock security guide](https://support.apple.com/en-ca/guide/security/sec0f8dfd030/web) explains that supported parts originating from a device with Activation Lock or Lost Mode enabled can face calibration restrictions.
+
+### Identify the message before choosing a remedy
+
+Record whether the prompt concerns the whole phone during setup or a component during repair configuration. Ask the technician which part was fitted and what action remains outstanding. Do not describe every Apple Account prompt as a carrier or SIM Lock problem.
+
+## Which check answers the replacement-part question?
+
+The relevant evidence is the component message on the device and the repairer's records. A free model lookup, a Find My status report and a repair configuration process answer different questions. Choose the process that addresses the unresolved issue instead of treating all checks as interchangeable.
+
+| Check or process | Useful scope | Boundary |
+|---|---|---|
+| Free basic IMEI lookup | TAC-based model identification | No component unlocking |
+| Paid iCloud ON/OFF report | Submitted device's Find My status | No advertised individual-part clearance |
+| Parts and Service History | Supported on-device part messages | Availability depends on model and software |
+| Repair Assistant | Supported repair calibration and configuration | Required account information may still be needed |
+
+IMEIHub's [iCloud ON/OFF page](https://imeihub.net/service.php?slug=apple-icloud-status) describes Find My status without Clean/Lost detail. It does not advertise replacement-part unlocking. Free basic identification is separate from paid iCloud, blacklist and warranty reports.
+
+## How should you document the problem step by step?
+
+Start by recording the phone's identity, then capture the exact component message and contact the party responsible for the repair. Keep these records separate so a support agent can distinguish the receiving phone from the replacement part and understand what has already been attempted.
+
+**1. Record the receiving phone.** Open Settings > General > About. Copy the labelled IMEI and Apple Serial Number into separate fields. Apple's [identifier guide](https://support.apple.com/en-us/108037) explains this route and model-dependent SIM tray or back-case markings. Do not substitute EID or MEID into a 15-digit IMEI field.
+
+**2. Inspect the repair information.** In About, look for Parts and Service History where available. Record the component and message rather than only photographing the model name.
+
+**3. Ask the repairer to complete the job.** Apple's [Repair Assistant instructions](https://support.apple.com/en-us/120579) describe Settings > General > About > Parts & Service History > Restart & Finish Repair on supported devices. Requirements include current software, Wi-Fi and more than 20 percent battery. Follow the device's prompts.
+
+**4. Resolve account ownership through the responsible party.** If the part requests someone else's Apple Account, contact the repairer or seller. They should arrange the authorized account action without sharing passwords with you. Keep their response with the repair record.
+
+### Does Finish Repair always mean Activation Lock?
+
+No. Apple's [Parts and Service History guidance](https://support.apple.com/en-lb/102658) describes Finish Repair in connection with completing calibration. The label alone does not establish the cause. Read the subsequent instructions and let the service provider distinguish an unfinished process from a part requiring account authorization.
+
+## Frequently Asked Questions
+
+The questions below separate device reports from component configuration. Use the exact prompt and the service record to decide your next action. A lookup result should help identify a particular question, while the on-device repair process establishes whether the installed component can be configured successfully.
+
+### Can an iCloud IMEI check unlock a replacement display?
+
+No. An iCloud IMEI check does not perform Apple's component configuration or remove its account association. If a replacement display requests authorization during repair, contact the installer or part seller and follow the supported Apple process for that specific component.
+
+### Does Find My OFF mean every part is unlocked?
+
+A Find My OFF report should not be treated as confirmation about every installed part. IMEIHub's ON/OFF service describes the submitted device's Find My state. Check any replacement-part message directly and ask the repairer to confirm completion of the work.
+
+### Why does my iPhone say Finish Repair?
+
+Finish Repair indicates that a supported repair still needs completion through Apple's configuration process. It does not by itself prove that a component was stolen or locked. Inspect the next prompt, check the relevant requirements and ask the installer to resolve the unfinished repair.
+
+### Who should resolve a locked replacement part?
+
+Start with the repairer or part seller. Apple's [locked-part guidance](https://support.apple.com/en-lb/120610) directs users without the necessary account information to the owner or seller and says Apple cannot remove Activation Lock for previously used parts. A third-party IMEI report does not replace that authorization.
+
+## What should you do before ordering another report?
+
+Match your next action to the evidence: a component prompt belongs with the repairer and Apple's supported repair process, while a device-level Find My question belongs with a suitable status check. Keep those purposes distinct and retain the records needed to explain the problem clearly.
+
+A lookup removes neither Activation Lock nor a carrier lock. If your separate question concerns the phone's Find My state, review [IMEIHub's iCloud ON/OFF service](https://imeihub.net/service.php?slug=apple-icloud-status).
+ARTICLE_20261106_0,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-hardware-diagnostics',
+        'title' => 'Samsung Tablet IMEI Check: Does It Test the Hardware?',
+        'meta_title' => 'Samsung Tablet IMEI Check vs Hardware Diagnostics',
+        'excerpt' => 'An IMEI report does not test a Samsung tablet\'s hardware. Match the device, run available diagnostics and document faults before choosing a paid report.',
+        'date' => '2026-11-06',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261106_1'
+A Samsung tablet IMEI check identifies or reports information about the device; it does not physically test its touchscreen, charging port, speakers or cameras. For hardware concerns, inspect the actual tablet and use available Samsung diagnostics. Combine those observations with the correct device record instead of treating a report as a condition certificate.
+
+**Key takeaways**
+
+- Use the labelled 15-digit IMEI for supported cellular-device reports.
+- Keep the model and serial number in your inspection notes.
+- Run available on-device tests and record failures or incomplete tests.
+- Warranty or Knox Guard information does not certify physical condition.
+
+## What does an IMEI report tell you about condition?
+
+An IMEI report can supply identification or service-specific status fields, but it cannot demonstrate how the tablet behaves in your hands. A model match is useful for keeping records aligned. It does not replace checking the actual screen, accessories and functions involved in your concern.
+
+IMEIHub's paid [Samsung Info + Knox Guard service](https://imeihub.net/service.php?slug=samsung-info) lists model, warranty, original carrier, purchase country and Knox Guard status. Its description does not promise a live hardware inspection.
+
+| Evidence | What it contributes | What it does not establish |
+|---|---|---|
+| Free basic model lookup | TAC-based identification | Current physical condition |
+| Paid Samsung report | Listed device and status fields | Successful touchscreen or charging test |
+| On-device diagnostics | Results of available tests performed | A guarantee against every future fault |
+| Inspection notes | Observed symptoms and test conditions | Unobserved repair history |
+
+### Use the report for a specific unresolved question
+
+If you need warranty or Knox Guard information, review the paid report's scope. If your concern is an unresponsive area of the display, begin with a direct test and the appropriate support route. Buying a second identification result does not test that area.
+
+## How do you match the tablet and run tests?
+
+First record the model, serial number and any labelled IMEI from the tablet itself. Then use the diagnostic functions available on that model and software version. Record the outcome of each relevant test so your notes distinguish a completed check from an assumption or missing option.
+
+**1. Record identifiers.** Open Settings > About tablet. Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) also describes back-case markings, packaging and Samsung Members as possible sources. Compare records with the device rather than relying on the box alone.
+
+**2. Choose the correct input.** If ordering a service that requests a 15-digit IMEI, copy that field exactly. Do not convert the model code or serial number into an IMEI. If two IMEIs appear, label them separately and confirm which the service requires.
+
+**3. Open diagnostics.** Samsung's [diagnostics guide](https://www.samsung.com/us/support/answer/ANS10003632/) describes Samsung Members diagnostics through Discover or Support, then Phone diagnostics. Menu names can vary, including on tablets. Select an available individual test or Test all and follow the prompts.
+
+**4. Keep useful results.** Note which tests were offered, completed or unsuccessful. Samsung says some require interaction and the selection varies by model. Do not record an unavailable test as passed.
+
+### What should the inspection notes contain?
+
+Include the date, model, symptom, test attempted and observed result. For example, “touch input missed in the lower-right area during this test” is more useful than “bad tablet.” This is a suggested note format, not a diagnosis of the underlying component.
+
+## How should you handle a fault or incomplete test?
+
+Preserve the observation and ask Samsung or the service provider what to do next. A failed test deserves investigation, while an incomplete test needs clarification before interpretation. Keep the device report alongside your notes, but do not use an unrelated clean status to dismiss the symptom.
+
+A concise support handover can include:
+
+- The precise problem and when you noticed it.
+- Whether you can reproduce it.
+- The test name and outcome, where available.
+- The accessory used during the observation.
+- Relevant purchase or service paperwork.
+
+### Avoid turning a short demonstration into a guarantee
+
+A seller demonstrating one working function has shown that function under those conditions. Ask to inspect the functions that matter to you and keep any agreed condition or return terms in writing. Do not label an entire tablet fault-free from a single result.
+
+## Frequently Asked Questions
+
+These answers explain how to combine device records with practical inspection. Keep identification, account-related status and observed behavior separate in your notes. That separation helps you ask the right support question and prevents a successful lookup from being mistaken for a completed hardware assessment.
+
+### Can a Samsung tablet IMEI check test the touchscreen?
+
+No. A Samsung tablet IMEI check does not interact with the touchscreen. To investigate touch problems, use the relevant on-device test if available and record what happens. A matching model or favorable warranty result does not demonstrate that every screen area responds.
+
+### How do I run diagnostics on a Galaxy tablet?
+
+Use Samsung Members and locate Diagnostics through the available Discover or Support interface, then follow the diagnostic prompts. Samsung documents individual tests and Test all, with availability varying by model and software. Keep the actual results rather than assuming every listed test applies.
+
+### Does Knox Guard OFF mean the tablet has no faults?
+
+No. Knox Guard information and physical condition answer different questions. IMEIHub's Samsung report lists Knox Guard alongside device information, but it does not advertise hardware certification. Investigate charging, display or other symptoms directly even when a report contains a favorable status.
+
+### What if a diagnostic test is missing?
+
+Record the test as unavailable, not passed or failed. Check the instructions for the actual model and software, then ask Samsung which assessment is appropriate for your concern. Do not infer that a feature is defective solely because a particular diagnostic option is absent.
+
+## Which check should you choose next?
+
+Choose the next step from the unresolved question: device identification, a listed status field or a reproducible hardware symptom. Keep the IMEI report and inspection evidence together without treating either as a universal certificate. This produces a clearer support request and a more informed purchase decision.
+
+IMEIHub's free basic model lookup is separate from paid warranty, blacklist and iCloud reports. No lookup removes an activation or carrier lock. For supported Samsung device information and Knox Guard questions, review [IMEIHub's Samsung Info service](https://imeihub.net/service.php?slug=samsung-info).
+ARTICLE_20261106_1,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-repair-status',
         'title' => 'iPhone Serial Number Check: How to Track an Existing Repair',
         'meta_title' => 'iPhone Serial Number Check and Repair Status',
