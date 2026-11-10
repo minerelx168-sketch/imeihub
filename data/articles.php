@@ -8,6 +8,168 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-cancel-applecare',
+        'title' => 'iPhone Serial Number Check Before Canceling AppleCare',
+        'meta_title' => 'iPhone Serial Number Check Before Canceling AppleCare',
+        'excerpt' => 'Match your iPhone to the correct AppleCare agreement, identify who bills you, and verify cancellation separately from a warranty lookup.',
+        'date' => '2026-11-10',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261110_0'
+An iPhone serial number check helps match your device to the correct AppleCare agreement before cancellation; it does not cancel coverage or stop billing. Identify the covered phone, the plan and the company collecting payment, then use that provider's cancellation process and retain its confirmation.
+
+**Key takeaways**
+
+- Find the Apple Serial Number in Settings > General > About.
+- Match the device, AppleCare agreement and receipt before making a change.
+- Recurring billing and upfront coverage can require different cancellation routes.
+- A free IMEI model lookup or paid warranty report is not a cancellation receipt.
+
+## Which records should you match before canceling?
+
+Match the phone's serial number to the agreement you intend to change, then identify the billing provider. This prevents a coverage lookup for one device from becoming the basis for canceling another plan. Keep the receipt and account information alongside the device record while checking.
+
+**1. Identify the phone.** Open Settings > General > About and copy the serial number. Apple's [identifier instructions](https://support.apple.com/en-us/108037) also cover account records, packaging and connected computers when the phone is unavailable. The 15-digit IMEI, IMEI2 and EID are separate identifiers.
+
+**2. Identify the agreement.** Record the AppleCare agreement number and the receipt for the plan. If several family devices are covered, write down exactly which device or agreement you mean to change.
+
+**3. Identify the payment route.** Check whether Apple, a carrier or another reseller bills you. Do not assume that buying the phone from one business means the same business handles its coverage.
+
+**4. Resolve missing records first.** Apple's [missing-plan guidance](https://support.apple.com/en-us/102190) recommends having the agreement number, device serial, receipts and relevant Apple Accounts ready for support. A missing subscription entry is not proof that billing has stopped.
+
+### What does each check establish?
+
+| Evidence | Useful purpose | Limit |
+| --- | --- | --- |
+| Serial number | Match the individual iPhone | Does not authorize cancellation |
+| AppleCare agreement and receipt | Identify the purchased plan | Not proof of completed cancellation |
+| Free TAC model lookup | Basic cellular model identification | Does not include AppleCare billing |
+| Paid warranty report | Listed device coverage fields | Not a refund ledger |
+| Provider confirmation | Record the cancellation outcome | Read its effective date and conditions |
+
+IMEIHub's [Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) is paid. Use it only for the advertised coverage question, not to submit a cancellation request. The [free IMEI lookup](https://imeihub.net/service.php?slug=free-imei-check) is a separate basic identification service.
+
+## How do you choose the correct cancellation route?
+
+Use the route for your actual plan and billing arrangement, and read the terms applicable to your location before confirming. Avoid treating cancellation as a harmless coverage check. Its timing matters, particularly if you still need protection or are arranging service for the phone.
+
+Apple's [cancellation instructions](https://support.apple.com/en-us/118218), checked November 10, 2026, distinguish recurring payments from fixed-term plans paid upfront. They describe Apple-billed cancellation options and direct customers with recurring reseller coverage to that provider for refund requests. Cancellation and refund rules vary by location and plan.
+
+Follow the current provider instructions after matching your records. Do not promise yourself a specific refund amount based only on the months shown in a warranty report.
+
+### What should you record afterward?
+
+Keep a compact decision record:
+
+- Agreement and device affected.
+- Date the request was submitted.
+- Provider confirmation or reference.
+- Effective coverage end date.
+- Any refund amount, payment method and expected timing stated by the provider.
+
+If the result is unclear, ask the provider to confirm it. A second device lookup cannot substitute for the transaction record.
+
+## Frequently Asked Questions
+
+Device identification, coverage information and billing changes are separate tasks. These answers focus on preparing and verifying a cancellation rather than transferring a plan or renewing expired coverage. Keep the provider's response as the evidence of what changed, and preserve unresolved questions for support.
+
+### Can a serial number check cancel AppleCare?
+
+No. A serial number check can help identify the covered device, but a lookup does not instruct the billing provider to cancel anything. Use the applicable cancellation process and retain its confirmation before treating coverage or future payments as changed.
+
+### Which details should I prepare to cancel AppleCare?
+
+Prepare the device serial number, AppleCare agreement number and plan receipt, plus access to the relevant account. Match them before proceeding. If you cannot find the plan, ask Apple or the billing provider to reconcile the records rather than selecting a different agreement.
+
+### Does selling my iPhone automatically stop AppleCare billing?
+
+Do not treat the sale itself as cancellation confirmation. Review the plan with its billing provider and decide whether cancellation or an eligible transfer is appropriate. Keep written evidence of the chosen outcome instead of assuming that handing over the phone changed the agreement.
+
+### Will a warranty report confirm my refund?
+
+No. A warranty report describes its listed device coverage fields, not the provider's refund transaction. Ask the billing provider for confirmation and compare that with your payment account. An expected refund and a completed refund should remain separate entries in your records.
+
+## What should you confirm before closing the task?
+
+Confirm that the correct agreement was changed and that you understand the effective date and any refund outcome. Keep coverage research separate from cancellation evidence. If you still need a device coverage report, review the fields in [IMEIHub's paid Apple Warranty & Activation check](https://imeihub.net/service.php?slug=apple-warranty).
+ARTICLE_20261110_0,
+    ],
+    [
+        'slug' => 'icloud-imei-check-apple-account-locked',
+        'title' => 'iCloud IMEI Check: Apple Account Locked or Activation Lock?',
+        'meta_title' => 'iCloud IMEI Check: Account Lock vs Activation Lock',
+        'excerpt' => 'A locked Apple Account and Activation Lock need different checks. Read the exact alert and choose account recovery or device ownership support.',
+        'date' => '2026-11-10',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261110_1'
+An iCloud IMEI check reports a device-related status; it does not tell you whether your Apple Account can sign in. A locked-account alert and Activation Lock are different problems. Read the exact message, identify whether you need account access or device ownership support, and follow Apple's corresponding process.
+
+**Key takeaways**
+
+- Keep the exact alert text and where it appeared.
+- Find My ON/OFF is not an account-login test.
+- A 15-digit IMEI identifies cellular equipment; it is not an account recovery credential.
+- Free model lookup and paid Find My reports do not reset passwords or remove locks.
+
+## How do you tell an account alert from a device lock?
+
+Start with the action that failed: signing in to an account, accessing purchases or setting up a device. Record the wording rather than shortening every message to “iCloud locked.” That distinction determines which support process is relevant and whether a device report adds any useful information.
+
+Apple's [locked-account guidance](https://support.apple.com/en-sg/102640) separates security-disabled accounts, locked or inactive accounts, and disabled Media & Purchases access. Follow the route matching your alert. For example, a password reset and a request for account access are not interchangeable promises of immediate recovery.
+
+### Compare the questions each record answers
+
+| Record or message | Main question | Appropriate next step |
+| --- | --- | --- |
+| Account sign-in alert | Can this account access Apple services? | Follow Apple's account guidance |
+| Media & Purchases disabled | Can this account use that service? | Follow the reactivation route |
+| Device ownership prompt | Is setup requiring an existing owner's authorization? | Use Apple's Activation Lock support path |
+| Paid Find My ON/OFF result | What Find My status is reported for this device? | Interpret that specific result |
+| Free IMEI model result | Which model is associated with the TAC? | Compare device identity |
+
+IMEIHub's [iCloud ON/OFF report](https://imeihub.net/service.php?slug=apple-icloud-status) is paid and concerns Find My status. It does not test a password, disclose recovery details or establish why a sign-in attempt failed.
+
+## What should you do before ordering a report?
+
+Collect the alert and identify the affected account or device before spending money. This keeps the investigation focused on the failed action. Do not submit account credentials to an IMEI form, and do not use a reassuring device result as evidence that an account problem has been resolved.
+
+**1. Record the exact context.** Note the app or setup screen, the time and the full message. Keep screenshots private. An error in purchases should not be silently reclassified as a cellular SIM Lock.
+
+**2. Use Apple's matching route.** Open the official locked-account guidance and follow the instructions for that message. If password recovery is the issue, Apple's [account recovery guidance](https://support.apple.com/en-us/102656) explains the available options and possible waiting period.
+
+**3. Identify the handset only when needed.** Use Settings > General > About for the labelled IMEI. Apple's [identifier guide](https://support.apple.com/en-us/108037) includes alternative sources. Preserve IMEI2 separately; neither the EID nor Apple Serial Number should be substituted into an IMEI-only field.
+
+**4. Verify the original failed action.** A completed password change, a submitted support request and a successful sign-in are different milestones. Record what actually succeeded. If a separate ownership prompt remains, investigate that prompt independently.
+
+### When is the paid Find My report relevant?
+
+It is relevant when your unresolved question is the reported Find My state of a verified device. It is not a faster account-recovery method. Ask what decision the result will change before ordering, especially if you already have an explicit account error.
+
+## Frequently Asked Questions
+
+Account access and device status can be investigated separately without assuming that one result explains the other. These answers help keep the next action tied to the actual failure. A lookup is information about a submitted identifier, while account recovery requires Apple's authorized process.
+
+### Does Find My ON mean my Apple Account is locked?
+
+No. Find My ON describes the reported device setting, not whether an account can authenticate. If sign-in fails, record that alert and use Apple's account guidance. Do not infer a security-disabled account solely from a Find My result on the phone.
+
+### Can a free iCloud IMEI checker restore account access?
+
+No. IMEIHub's free check supplies basic model information, and its paid Find My report is a status lookup. Neither resets account credentials nor completes recovery. Use Apple's official process for the account issue rather than purchasing reports as a substitute.
+
+### What if only Media & Purchases is disabled?
+
+Use Apple's instructions for that specific message. Do not automatically treat it as Activation Lock or a carrier restriction. Keep the alert and any reactivation response together, then check the affected service again so you know whether access was actually restored.
+
+### Will a new Apple Account remove Activation Lock?
+
+Do not assume that creating another account resolves an existing device ownership requirement. Apple's locked-account guidance treats account access and Activation Lock assistance as separate paths. Use the authorized ownership-support process where needed; a lookup or new account is not an unlock confirmation.
+
+## Which check should you choose next?
+
+Choose account support for sign-in failures and device-status research for a specific handset question. Keep each outcome attached to the action it verifies. If the remaining question is specifically whether Find My is enabled, review [IMEIHub's paid iCloud ON/OFF service](https://imeihub.net/service.php?slug=apple-icloud-status) before ordering.
+ARTICLE_20261110_1,
+    ],
+    [
         'slug' => 'iphone-imei-check-missing-settings',
         'title' => 'iPhone IMEI Check: What If the Number Is Missing in Settings?',
         'meta_title' => 'iPhone IMEI Check When the Number Is Missing',
