@@ -8,6 +8,138 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-magsafe-charging',
+        'title' => 'iPhone IMEI Check: Will This iPhone Work With MagSafe?',
+        'meta_title' => 'iPhone IMEI Check for MagSafe Charging Compatibility',
+        'excerpt' => 'Identify your iPhone, distinguish magnetic alignment from ordinary Qi charging, and test your charger before spending money on a report.',
+        'date' => '2026-11-11',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261111_0'
+An iPhone IMEI check can identify the model before you buy a MagSafe charger. It cannot tell you whether the phone will attach magnetically, how fast your particular adapter will charge it, or whether the charging coil works. Match the exact model to Apple's guide, then test your setup.
+
+**Key takeaways**
+
+- In Settings > General > About, record Model Name, including a suffix such as “e” or “mini.”
+- Use the labelled 15-digit IMEI for a free model lookup. The serial number and EID are different identifiers.
+- A charging icon confirms charging at that moment. It does not identify the wireless charging standard or measure power.
+
+## Which kind of compatibility do you need?
+
+A MagSafe charger can supply power to some iPhones that lack built-in MagSafe magnets. If you want the phone to stay on a vertical stand, verify magnetic attachment separately from charging. If you want faster charging, check the phone, charger version and power adapter together.
+
+### Why does the letter after the model name matter?
+
+Apple lists the iPhone 16e as a Qi-compatible phone without native MagSafe in its [MagSafe charger guide](https://support.apple.com/en-us/105047). A seller showing a 16e charging flat on an Apple puck has demonstrated something useful: that combination transfers power. The demonstration does not show that the bare phone will hold onto a magnetic car mount.
+
+| Question | Evidence to use | What it leaves open |
+| --- | --- | --- |
+| Which iPhone is it? | Model Name and free IMEI model lookup | Whether this unit charges |
+| Does it support native MagSafe? | Apple's specifications for that exact model | Grip with the fitted case |
+| Does my setup deliver power? | Charging indicator with your adapter and puck | Actual wattage |
+| Is the phone carrier locked? | Carrier Lock field or a separate status report | Nothing about wireless charging performance |
+
+## How can I test the charger before buying it?
+
+Start with the phone lying flat so a weak magnetic connection cannot cause a fall. Use the charger and adapter you intend to buy, remove anything between the phone and puck, and change one item at a time if the charging indicator does not appear.
+
+**1. Identify the handset.** Check the model on the phone itself. If the box or SIM tray carries an identifier, treat it as a cross-check rather than proof that it belongs to the phone. [Apple's identifier guide](https://support.apple.com/en-us/108037) lists the markings available by model.
+
+**2. Start with a powered puck.** Connect the puck to the recommended adapter before placing the phone on it. Follow Apple's guide for the particular charger version; a power figure printed on an adapter alone is not the wireless power received by the phone.
+
+**3. Test the bare phone, then the case.** Center the phone and watch for the charging indicator. Repeat with your everyday case. If only the bare phone charges, you have narrowed the problem to the combination with the case. No IMEI report is needed to make that comparison.
+
+## Frequently Asked Questions
+
+The word “works” can describe three different observations: the phone starts charging, the magnets hold it in position, or the battery charges at an expected rate. Decide which result matters for the accessory you want. Each takes a different kind of evidence.
+
+### Can an iPhone 16e charge on an Apple MagSafe puck?
+
+Yes. Apple identifies the iPhone 16e as compatible with ordinary Qi charging on the puck. Center it on the charging surface. Do not infer native MagSafe alignment or the charging speed of another iPhone 16 model from that result.
+
+### Does a magnetic case prove my phone has MagSafe?
+
+No. A case can account for the attachment you feel. Identify the bare handset and read the manufacturer's specification for that model. Test your chosen case separately if what you actually need is a secure fit on a particular stand.
+
+### Can a free IMEI checker tell me the charging wattage?
+
+No. A free lookup can identify a model whose charging specifications you can then read. It does not measure the power flowing between your phone and charger. Even a correct model match cannot establish what your particular adapter and puck deliver.
+
+### Should I order a warranty report if wireless charging fails?
+
+A paid warranty report answers a coverage question, not a charging diagnosis. First try the bare handset with a known working setup. If it still fails, describe the phone, adapter, charger and observed behavior to the service provider rather than presenting a model report as a test result.
+
+## What should you check first?
+
+Use the model name to decide what the phone was designed to support, then use the actual accessory to see what works. If a listing omits the model suffix or the box disagrees with Settings, start with [IMEIHub's free model lookup](https://imeihub.net/) before choosing a charger.
+ARTICLE_20261111_0,
+    ],
+    [
+        'slug' => 't-mobile-imei-check-visual-voicemail',
+        'title' => 'T-Mobile IMEI Check Passed. Why Is Visual Voicemail Empty?',
+        'meta_title' => 'T-Mobile IMEI Check Passed but Visual Voicemail Is Empty',
+        'excerpt' => 'Use one test call to distinguish a T-Mobile mailbox problem from a missing Visual Voicemail entry. Learn what a compatible IMEI actually verifies.',
+        'date' => '2026-11-11',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261111_1'
+A T-Mobile IMEI check can help you identify a compatible handset, but it cannot confirm that voicemail reaches your line or appears in your app. Leave one new test message, call the mailbox, then look for that same message on the phone. The point where it disappears determines what to investigate.
+
+**Key takeaways**
+
+- A 15-digit IMEI identifies equipment. A voicemail test needs the phone number of the line being called.
+- On the T-Mobile line, hold **1** on the keypad to reach its mailbox. Use a different phone for the incoming test call.
+- Free model identification and paid device-status reports cannot retrieve recordings or set up a mailbox.
+
+## Where does the test message disappear?
+
+A list with no entries does not tell you whether callers can leave messages. Follow one call from the greeting to the mailbox to the visual list. Use a short, identifiable recording so an old message or delayed notification cannot be mistaken for today's test.
+
+**1. Call the correct number.** From another phone, call the T-Mobile number, let it ring unanswered and listen for the greeting. If you have two lines, write down which number you dialed. Record a short message such as “Tuesday test at ten” and hang up.
+
+**2. Listen by phone.** On the receiving line, follow [T-Mobile's voicemail instructions](https://www.t-mobile.com/support/plans-features/voicemail). If prompted to set up a mailbox, complete that process and repeat the test. Keep the mailbox PIN private.
+
+**3. Look for the same recording.** Check voicemail in the iPhone Phone app or the supported Android voicemail interface. T-Mobile documents its [Visual Voicemail app for Android](https://www.t-mobile.com/support/plans-features/t-mobile-visual-voicemail-app) separately. A missing notification and a missing recording are different observations.
+
+### Which result should I report to support?
+
+| What happened | What you have established | Next check |
+| --- | --- | --- |
+| Caller never reached a greeting | Message deposit was not demonstrated | Unanswered-call routing on the line |
+| Greeting played but mailbox has no test recording | A greeting alone did not establish delivery | Repeat once and note time and number |
+| Mailbox plays it; visual list is empty | Carrier mailbox received this recording | Visual Voicemail setup or download |
+| Visual list plays it; no alert appeared | Delivery and playback worked this time | Voicemail notification settings |
+
+## When does the IMEI help with this problem?
+
+Use the IMEI when the question is which handset you brought to the network. Once the correct line receives a recording that you can play by calling in, another device lookup adds little. Take the mailbox and app results to support instead of ordering another report.
+
+Check the labelled IMEI in **Settings > General > About** on iPhone or try **`*#06#`** on a supported handset. IMEI2 may also appear on dual-SIM devices. Neither number is a voicemail address. Use [T-Mobile's troubleshooting guide](https://www.t-mobile.com/support/devices/device-troubleshooting/voicemail-troubleshooting/) for the symptom you observed; it has separate paths for missed notifications, unanswered calls and visual messages that do not download.
+
+## Frequently Asked Questions
+
+The useful comparison is between the recording available through the carrier mailbox and the one shown on the handset. An IMEI result cannot make that comparison for you. Keep the phone number, test time and outcome together so support can investigate the right line.
+
+### Can a compatible IMEI prove Visual Voicemail is set up?
+
+No. Equipment compatibility does not verify voicemail setup for a particular line. Call from another phone, leave a fresh message, and listen through the mailbox before checking the visual list. That tests the service you actually want to use.
+
+### Why can I hear a message that the app does not show?
+
+If you can play the new test recording by dialing the mailbox, that recording reached the carrier mailbox. Focus on the visual interface or message download next. The observation narrows the problem; it does not identify a specific app fault by itself.
+
+### Do I need the T-Mobile Android app on my iPhone?
+
+No. T-Mobile directs iPhone users to the iPhone voicemail interface and documents its Android app separately. Look for the recording in the Phone app, then compare it with the dial-in result before changing settings or seeking a different voicemail application.
+
+### Should I give someone my voicemail PIN for an IMEI check?
+
+No. A handset lookup needs the requested device identifier, not your mailbox PIN. Enter your PIN only as part of your own authorized mailbox access. Support can start with the affected line, handset and test outcome without receiving your private recordings.
+
+## What is the most useful next step?
+
+If the mailbox contains your message, follow the visual voicemail troubleshooting steps for your phone. If the caller never reaches a greeting, investigate the line first. If you still need to identify the handset itself, use [IMEIHub's free IMEI model check](https://imeihub.net/).
+ARTICLE_20261111_1,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-cancel-applecare',
         'title' => 'iPhone Serial Number Check Before Canceling AppleCare',
         'meta_title' => 'iPhone Serial Number Check Before Canceling AppleCare',
