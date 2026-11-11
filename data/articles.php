@@ -8,6 +8,187 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-bulk-list',
+        'title' => 'IMEI Checker Online: How to Check a Bulk List of Phones',
+        'meta_title' => 'IMEI Checker Online for a Bulk List of Phones',
+        'excerpt' => 'Checking many IMEIs at once? Build a list that survives export, order the right report per device, and keep results tied to the number you submitted.',
+        'date' => '2026-11-11',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261111_2'
+An online IMEI checker resolves one submitted identifier at a time, so a bulk list is mainly a data-handling task. The quality of a batch result depends on the quality of the list: export the numbers without corrupting them, decide which report each device actually needs, then record every result against the exact identifier you submitted.
+
+**Key takeaways**
+
+- Store every IMEI as text; a numeric column can round or truncate 15 digits.
+- De-duplicate and check length before spending credits on a batch.
+- One report type rarely answers every question across a mixed lot.
+- A clean result for one handset establishes nothing about the rest of the consignment.
+
+## How do you build a list that will not corrupt itself?
+
+Start from the most reliable source available and keep each identifier in a text column. Most batch errors are created before any lookup runs, when a 15-digit value is reformatted, trimmed or merged with a second identifier. Repair the list first, because a damaged digit still produces a confident answer about some other device.
+
+**1. Collect numbers from the devices where possible.** On Galaxy phones and tablets, Settings > About shows the fields, and Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) also covers back-case markings, packaging and account records. For iPhone, Apple's [identifier instructions](https://support.apple.com/en-us/108037) describe Settings > General > About, Finder or Apple Devices, original packaging and the signed-in Apple Account. iPhone 14 and later have no IMEI engraving.
+
+**2. Store each identifier as text.** Import the column as text rather than letting a spreadsheet infer a type. A 15-digit value placed in a numeric column can display in scientific notation or lose its final digit, and the damage is often invisible until a lookup fails. The [spreadsheet formatting guide](https://imeihub.net/article/imei-checker-online-excel-scientific-notation) covers that specific failure.
+
+**3. Keep labels with the numbers.** Dual-SIM handsets expose IMEI and IMEI2, and eSIM devices also report an EID. Keep each in its own labelled column. Never concatenate two identifiers into one cell, and do not submit an EID or a serial number to an IMEI-only field.
+
+**4. De-duplicate and check length.** Remove repeated rows, strip spaces and hyphens, and flag anything that is not exactly 15 digits. An IMEISV is 16 digits because it carries a software-version number instead of the check digit; handle those separately using the [IMEISV guide](https://imeihub.net/article/imei-checker-online-imeisv-16-digits).
+
+### Why validate before you spend credits?
+
+Because a malformed number still returns a result. The 15-digit IMEI ends in a check digit calculated with the Luhn formula over the preceding 14 digits, and its first eight digits are the Type Allocation Code allocated through the GSMA, which documents the [IMEI allocation and database arrangements](https://www.gsma.com/get-involved/working-groups/fraud-security/imei-database). A length or check-digit failure is a reason to re-read the device, not to submit the number anyway.
+
+## Which report does each device actually need?
+
+Decide per device rather than per batch. A mixed consignment of iPhones, Galaxy tablets and other Android handsets rarely shares a single question, and ordering the same premium report for every row usually buys fields you did not need while leaving the real question unanswered.
+
+| Question in the batch | Appropriate check | What it does not cover |
+| --- | --- | --- |
+| Which model is this identifier? | [Free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) | Reported loss, lock or ownership status |
+| Reported lost or stolen? | [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Carrier lock or account lock |
+| Find My or Activation Lock on an iPhone? | [iCloud status report](https://imeihub.net/service.php?slug=apple-icloud) | Blacklist position or warranty |
+| Carrier restriction on an iPhone? | [Apple SIM-Lock report](https://imeihub.net/service.php?slug=apple-sim-lock) | Reception or network compatibility |
+| Knox and model fields on a Galaxy device | [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) | Apple-specific coverage fields |
+
+Paid reports are charged per lookup, so sequence matters. Running the free model lookup across the list first often removes rows before any paid report is ordered, which is the same reasoning set out in [free check before a paid report](https://imeihub.net/article/free-imei-check-online-before-paid-report).
+
+### How should you sequence a large batch?
+
+Resolve identity first, then reported status, then the brand-specific question for the rows that still matter. Work in small groups and read the results as you go. A full batch submitted in one pass hides the moment when a pattern of mismatches first appears, which is exactly when you want to stop and re-check the source list.
+
+## How do you keep batch results defensible?
+
+Record what was submitted, which service answered, and when. A result describes a submitted identifier at the time of that lookup, and reported statuses can change afterwards. Keeping that provenance is what separates an auditable intake record from a spreadsheet of unsourced labels.
+
+Keep the following for each row:
+
+- The exact 15-digit number as submitted.
+- Which service produced the result, with its date and time.
+- The source of the identifier: live device, packaging or a seller's list.
+- Any row excluded from the batch, and the reason.
+- Physical condition notes, recorded separately from database results.
+
+A seller's spreadsheet or screenshot is a claim rather than your own evidence; the [report screenshot guide](https://imeihub.net/article/imei-checker-online-verify-seller-report-screenshot) explains why. If two physical devices in one lot present the same IMEI, treat it as a duplicate-identifier question and stop before reselling either, following the [cloned IMEI guide](https://imeihub.net/article/imei-checker-online-cloned-imei).
+
+### What should you do with a row that fails?
+
+Quarantine it instead of averaging it away. Re-read the identifier from the device, confirm the length, and note whether the original source was packaging or a typed list. Keep the device out of resale stock while the question is open, and raise an unresolved mismatch with your supplier rather than selecting whichever reading returns a comfortable result.
+
+## Frequently Asked Questions
+
+Batch checking raises questions about volume, trust and evidence rather than about any single phone. These answers describe how to keep a list accurate and how far a batch result reasonably extends. Treat each row as its own record and leave unresolved rows visible instead of summarising them into a single verdict.
+
+### Can I check many IMEIs in one request?
+
+Each lookup resolves one identifier, so in practice you submit numbers in sequence and keep the results in your own record. Prepare the list first, validate the digits, then work through it in small groups so that a systematic problem with the source data becomes visible early.
+
+### Does one clean result cover the whole shipment?
+
+No. A result applies to the identifier submitted, not to a carton, an invoice or a supplier. Sample checking can indicate how carefully a consignment was assembled, but it cannot stand in for the individual devices you intend to sell. Check each unit you will be accountable for.
+
+### Should I trust a supplier's pre-checked list?
+
+Treat it as a claim to verify. Re-check a sample yourself at minimum, and the full list for high-value stock. Confirm that the numbers on the list match the handsets physically present, because a correct number attached to the wrong device is the most common failure in a pre-checked batch.
+
+### What if a number has only 14 digits?
+
+Do not add a digit to make it fit. Re-read the identifier from the device or its documented source, and record where the short value came from. A fabricated check digit can produce a valid-looking IMEI belonging to a different handset, which makes the resulting report misleading rather than merely wrong.
+
+## What should you do before ordering a batch?
+
+Clean and validate the list, decide the question for each device, then order the narrowest report that answers it. Keep the submitted number, service and date beside every result so the record stays auditable. If you are still establishing which models you are holding, begin with [IMEIHub's free IMEI check](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261111_2,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-wifi-only-vs-cellular',
+        'title' => 'Samsung Tablet IMEI Check: Wi-Fi-Only or Cellular Model?',
+        'meta_title' => 'Samsung Tablet IMEI Check: Wi-Fi vs Cellular',
+        'excerpt' => 'No IMEI on your Galaxy tablet? Tell Wi-Fi-only models from cellular variants, confirm the model code, and submit the right identifier before you buy.',
+        'date' => '2026-11-11',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261111_3'
+A Samsung tablet IMEI check only applies to a cellular variant. Wi-Fi-only Galaxy tablets have no mobile broadband module and therefore no IMEI, so an empty IMEI field is usually a model difference rather than a fault, a lock or a hidden blacklist. Confirm the model code first, then decide which identifier your check actually needs.
+
+**Key takeaways**
+
+- Wi-Fi-only Galaxy tablets have a serial number but no IMEI.
+- The model code distinguishes the variants faster than the retail product name.
+- A cellular tablet may show IMEI, IMEI2 and an EID; these are different identifiers.
+- A blank IMEI field is not evidence of blacklisting or an account lock.
+
+## How do you tell which variant you are holding?
+
+Read the device's own records before describing the IMEI as missing. A Wi-Fi-only tablet and a cellular tablet can look identical from the front, carry the same marketing name and ship in similar packaging, so the identifier fields and the model code are the reliable evidence.
+
+**1. Open About tablet.** Go to Settings > About tablet and record the model number and serial number. Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) explains where the model, IMEI and serial fields appear, and notes the other places an identifier can be read when the screen is unavailable.
+
+**2. Look for the cellular fields.** On a cellular model, About tablet shows a labelled IMEI, and Settings includes mobile network options. On a Wi-Fi-only model those entries are absent. Record what you can actually see, such as "serial visible, no IMEI field, no mobile network menu," rather than concluding that something has been removed.
+
+**3. Compare the model code.** Note the full code, for example SM-X210 against SM-X216, rather than only the product family. Samsung's [model and serial number page](https://www.samsung.com/uk/support/mobile-devices/how-to-find-the-model-and-serial-number-of-my-product/) describes where that code is printed and displayed, and regional suffixes vary.
+
+**4. Check the tray.** A cellular tablet has a SIM or combined SIM and microSD tray; many Wi-Fi-only tablets have a microSD slot only. Treat the tray as supporting evidence alongside the model code, not as proof on its own, because tray layouts differ between generations.
+
+### Why does the model code matter more than the product name?
+
+Because a single product name usually covers both variants. A listing that says only "Galaxy Tab A9+" does not tell you whether the unit accepts a SIM, and the price difference between variants is real. Ask for the model code in writing, then compare it against what About tablet displays on the device in front of you.
+
+## What can an IMEI check establish for a tablet?
+
+Match each identifier to the question it can answer. A tablet's records cover several different things, and mixing them produces conclusions the data does not support, particularly when a seller offers one number as general proof that a device is fine.
+
+| Evidence | Useful for | Important limit |
+| --- | --- | --- |
+| Serial number | Warranty and registration records | Not accepted by an IMEI-only form |
+| Model code | Variant, accessory and band matching | Not a status check |
+| IMEI, on cellular models only | Model lookup and reported-status reports | Not proof that mobile data is provisioned |
+| EID, on eSIM models | eSIM profile provisioning with a carrier | Not an IMEI substitute |
+
+A [free IMEIHub lookup](https://imeihub.net/service.php?slug=free-imei-check) resolves basic model information from the TAC of a cellular identifier. The paid [Samsung Info report](https://imeihub.net/service.php?slug=samsung-info) and the [WorldWide Blacklist report](https://imeihub.net/service.php?slug=blacklist) answer separate questions. None of them applies to a tablet that has no IMEI to submit.
+
+If the tablet does report two identifiers, keep them labelled and separate, as set out in the [IMEI1 and IMEI2 guide](https://imeihub.net/article/samsung-tablet-imei-number-imei1-imei2). The distinction between an IMEI and an EID is covered in the [IMEI versus EID guide](https://imeihub.net/article/samsung-tablet-imei-number-vs-eid).
+
+## What should a used-tablet buyer verify?
+
+Establish the variant, then the condition, then any status question that remains. Buying a Wi-Fi-only tablet is a reasonable decision; buying one while believing it will take a SIM is not. Settle the variant question before money changes hands, because it cannot be fixed afterwards.
+
+Before paying, confirm the following:
+
+- The model code, supplied in writing and checked against About tablet.
+- Whether a SIM tray is physically present.
+- The IMEI, if the unit is cellular, read from the live device.
+- That calls or mobile data have been demonstrated if the listing claims cellular use, which the [calls and texts guide](https://imeihub.net/article/samsung-tablet-imei-check-calls-texts) covers.
+- Any account or enterprise lock question, handled separately through the [Knox Guard and Google lock guide](https://imeihub.net/article/samsung-tablet-imei-check-knox-guard-google-lock).
+
+For warranty or registration questions, Samsung's [warranty information](https://www.samsung.com/us/support/warranty/) and its registration process work from the model and serial number. A tablet without an IMEI is still identifiable for support purposes; it simply uses a different identifier than a cellular device would.
+
+## Frequently Asked Questions
+
+The absent IMEI field, the model code and any lock question are three separate matters. These answers help decide which evidence is missing before paying for a report that cannot apply. Keep the variant question settled first, since every later check depends on it.
+
+### Why does my Galaxy tablet have no IMEI?
+
+Most likely because it is a Wi-Fi-only model, which has no mobile broadband hardware and therefore no IMEI to display. Check the model code and whether Settings offers mobile network options. If the code indicates a cellular variant but no IMEI appears, record the symptoms and raise it with Samsung support.
+
+### Can I add cellular service to a Wi-Fi-only tablet?
+
+No. The variant is determined by hardware, so no carrier plan, SIM adapter or software change makes a Wi-Fi-only tablet into a cellular one. The practical route is a mobile hotspot from a phone or a dedicated router. Buy the cellular variant if you need a SIM or eSIM in the tablet itself.
+
+### Can a Wi-Fi-only tablet be blacklisted?
+
+IMEI-based registries record cellular identifiers reported to carriers, and a Wi-Fi-only tablet has no IMEI to report. That is not an assurance about ownership. Ask for proof of purchase and check any account lock on the device, because a tablet without an IMEI can still be someone else's property.
+
+### Which number should I give for a warranty claim?
+
+Supply the model code and serial number from About tablet, and add the IMEI only if the unit is cellular and the provider requests it. Keep the serial number private in public listings. Submitting an EID or a serial number to an IMEI-only field will simply be rejected or produce an unrelated result.
+
+## What should you confirm first?
+
+Settle the variant from the model code and the identifier fields, then choose a check that matches the question you still have. Record what you observed on the device rather than relying on a listing's product name. If the tablet is cellular and you want to confirm the model behind its identifier, start with [IMEIHub's free IMEI check](https://imeihub.net/service.php?slug=free-imei-check).
+ARTICLE_20261111_3,
+    ],
+    [
         'slug' => 'iphone-imei-check-magsafe-charging',
         'title' => 'iPhone IMEI Check: Will This iPhone Work With MagSafe?',
         'meta_title' => 'iPhone IMEI Check for MagSafe Charging Compatibility',
