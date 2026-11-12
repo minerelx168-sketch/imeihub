@@ -15737,6 +15737,226 @@ Whether you are a Myanmar resident, an expat, or a traveller with a foreign devi
 Registering on ceir.gov.mm takes less than ten minutes. The alternative — a permanently blocked phone — costs far more to resolve.
 MD,
     ],
+    [
+        'slug'    => 'ncc-imei-check-nigeria-device-checker-315',
+        'title'   => 'NCC IMEI Check Nigeria: Verify Any Phone With *315#',
+        'meta_title' => 'NCC IMEI Check Nigeria: *315# Device Checker Guide 2026',
+        'excerpt' => 'Nigeria now runs a national IMEI register. Learn how to verify any phone with *315#, read the result correctly, and know what it does not cover.',
+        'date'    => '2026-11-12',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## NCC IMEI Check in Nigeria: The Complete 2026 Guide
+
+For years the standard advice before buying a phone in Nigeria was to check the box and trust the seller. That advice is now out of date. The **Nigerian Communications Commission (NCC)** has built a national device register, and for the first time there is an official, free way to ask the regulator a direct question about a specific handset: is this phone approved and verified for use on Nigerian networks?
+
+This guide explains exactly how to run an **NCC IMEI check**, how to interpret what comes back, and, just as important, the questions the NCC check **cannot** answer. If you are buying second-hand at Computer Village in Ikeja, at Wuse in Abuja, or from an online seller shipping out of Kano, the gap between those two things is where people lose money.
+
+## Quick Summary: What You Need To Know
+
+- The **NCC Device Checker** is the official consumer-facing lookup. It came on stream on **7 October 2026**.
+- You can reach it three ways: dial `*315#`, visit **www.ncc.gov.ng/DeviceChecker**, or call the toll-free line **315**.
+- It answers one question: whether the device is **NCC Type Approved** and verified for Nigerian networks.
+- It is **not** a tracker, **not** an international stolen-phone database, and **not** a condition report.
+- Most ordinary users do not have to register anything. The registration burden falls on **OEMs, importers, dealers and vendors** bringing devices into Nigeria.
+- A failed check does **not** by itself prove a phone is counterfeit, and a passed check does **not** prove every component inside it is genuine.
+
+## What Is the NCC Device Checker?
+
+The Device Checker is the public front end of a much larger piece of regulatory infrastructure: the NCC's **Device Management System (DMS)**, which functions as Nigeria's **Central Equipment Identity Register (CEIR)**.
+
+A CEIR is a national database of device identities. Nigeria's version collects **IMEI** numbers for SIM-enabled equipment entering the country, ties them to type approval records, and is designed to synchronise with international IMEI databases. The policy intent, as the Commission has set it out, is to squeeze out three categories of device:
+
+- **Non-type-approved equipment**, meaning models never certified as meeting Nigerian technical standards.
+- **Illegally imported devices**, meaning handsets that bypassed Customs and the import declaration process.
+- **Reported-stolen handsets**, which should not be re-sellable on any Nigerian network.
+
+The legal foundation is not new. Device type approval rests on **Section 132(2) of the Nigerian Communications Act 2003**, and the Commission's **Type Approval Business Rules of August 2024** provided the specific framework for establishing the CEIR. What changed in 2026 is the enforcement machinery, and a consumer-facing window into it.
+
+### Why This Matters More in Nigeria Than Elsewhere
+
+Nigeria is the largest smartphone market in Africa, with well over 200 million active connections across **MTN, Airtel, Globacom (Glo)** and **9mobile**. That scale, combined with a very large and genuinely useful second-hand and refurbished trade, also makes the country an attractive destination for cloned IMEIs, grey imports and handsets stolen abroad. A national register is the regulator's answer to that, and the Device Checker is how an ordinary buyer gets to use it.
+
+## How To Run an NCC IMEI Check: Three Methods
+
+| Method | How to use it | Best for | Cost |
+| --- | --- | --- | --- |
+| USSD | Dial `*315#` and follow the prompts | Checking a phone on the spot at a market stall, with no data | Free |
+| Web portal | Go to www.ncc.gov.ng/DeviceChecker and enter the IMEI | A device you do not physically have yet, or keeping a record | Free |
+| Toll-free call | Call 315 and speak to customer care | Buyers who want a human to confirm, or who hit an error | Free |
+
+**Important:** use only these official channels. The Commission has warned consumers specifically about look-alike services and scam pages that imitate the Device Checker. If a site asks you to pay for an NCC verification, or to supply your BVN, NIN or bank details, close it. The official check costs nothing and asks for nothing but an IMEI.
+
+### Step 1: Find the IMEI
+
+The IMEI is a **15-digit** number unique to the handset. There are four reliable ways to read it:
+
+- **The universal keypad code.** Dial `*#06#` on the handset. This works on virtually every phone, Android or iPhone, and displays the IMEI immediately. Use this method at a market stall, because it reads the number out of the device itself rather than off a sticker that someone could have swapped.
+- **iPhone:** Settings, then General, then About, then scroll to IMEI. It is also laser-etched on the SIM tray or the back of older models.
+- **Android, including Tecno, Infinix, itel, Samsung and Xiaomi:** Settings, then About phone, then Status, or Settings, then About phone, then IMEI.
+- **The box or the receipt.** Useful as a cross-check, never as your only source.
+
+If the handset is **dual-SIM** you will see **IMEI1** and **IMEI2**. They are two identities for the same phone. Check IMEI1 unless you are told otherwise, and if a result looks wrong, try the other one before concluding anything.
+
+**Field tip:** always compare three numbers before you pay. The IMEI from `*#06#`, the IMEI printed on the box, and the IMEI on the SIM tray or chassis label. If any one of them disagrees with the others, stop. A mismatch is the single most common signature of a re-shelled, re-flashed or cloned handset, and no database check can protect you from a phone whose identity has already been rewritten.
+
+### Step 2: Run the Check
+
+Dial `*315#` on the phone itself, or enter the 15 digits into the Device Checker portal. If you are checking a different device from the one you are dialling on, which is normal when you are buying, you will need to type the IMEI in manually, so read it carefully. One transposed digit returns a meaningless answer.
+
+### Step 3: Read the Result Properly
+
+This is the step most guides get wrong. The result is narrower than people assume.
+
+| Result | What it means | What it does NOT mean |
+| --- | --- | --- |
+| Type Approved and verified | The model meets NCC standards, and this specific handset is cleared for Nigerian networks | Not a guarantee that every component is original, nor that the phone is in good condition |
+| Unsuccessful or not found | The Commission has no verified record matching that IMEI | Not automatic proof of a counterfeit. It can also mean a data-entry error, an unregistered import, or a damaged IMEI record |
+| Error or no response | A technical problem, a mistyped number, or a network issue | Nothing at all about the device. Retry, then call 315 |
+
+Two points the Commission itself has been explicit about, and which you should internalise:
+
+- **A failed check does not automatically establish that a device is counterfeit.** It is a reason to pause and demand an explanation from the seller, not a verdict.
+- **A successful check does not establish that the phone is genuine in every respect.** It says nothing about repair history, screen or battery replacement, water damage, or software integrity.
+
+The honest framing is this. The NCC check tells you whether the device's identity is in good standing with the Nigerian regulator. It does not tell you whether the device is a good buy.
+
+The practical rule for buyers: **do not pay for a device until the seller can explain and resolve an unsuccessful verification result.** An honest dealer with legitimate stock can do that. One who becomes evasive, blames the network, or pressures you to complete the sale quickly has told you what you needed to know.
+
+## Do You Personally Have To Register Your Phone?
+
+This is the biggest source of confusion in Nigeria right now, and the honest answer is that for most individuals, no.
+
+| Who you are | What the DMS requires of you |
+| --- | --- |
+| Individual already using a phone on a Nigerian network | Generally nothing. Devices already connected before the Device Checker went live were reported as automatically verified |
+| Individual bringing in one or two personal handsets | No commercial registration obligation. Follow normal Customs declaration rules |
+| OEM, importer, dealer or vendor | Must be licensed, and must register device IMEIs through the DMS before sale |
+| Commercial importer clearing a shipment | Must submit IMEIs and invoice data via the DMS, pay the per-IMEI charge, and obtain a pre-authorisation certificate before Customs clearance |
+
+The registration deadline for stock already sitting in the trade was originally **7 September 2026**, and the Commission extended it to **6 October 2026** after pushback from OEMs, importers and dealers who said they needed more time to upload IMEI data.
+
+Industry bodies raised two concerns worth knowing about as a consumer, because both can reach you at the counter:
+
+- **Per-IMEI charges** accumulate heavily for high-volume importers, and that cost tends to find its way into retail prices.
+- **No clearly published appeal procedure** existed for a device flagged because of a damaged or unreadable IMEI record. That matters if you own a legitimately repaired phone that fails a check.
+
+Representatives of the refurbishing trade have also been lobbying for certified technicians to be allowed to register legitimately refurbished handsets into the CEIR. That is a live policy question, not settled practice.
+
+### On the Privacy Question
+
+Many Nigerians reasonably asked whether a national device register amounts to surveillance. The Commission's position is that the system holds **device identification information, including IMEI numbers**, that it does not give the Commission access to the content of users' devices, and that it does not enable monitoring of personal communications. The NCC has also stated that the Device Checker does **not** track users' physical locations or movements, and that the system operates under Nigeria's data protection framework.
+
+You do not have to take that on faith in order to use the tool safely. Dialling `*315#` to check an IMEI transmits a device identifier, not your messages, your contacts or your location.
+
+## What the NCC Check Does Not Cover, and What Does
+
+Here is where buyers of **imported and second-hand phones** get caught. The NCC register is a Nigerian register. An enormous share of the used handsets sold in Lagos, Port Harcourt and Abuja arrived from the UK, the US, the UAE or China. A phone can be perfectly in order from the NCC's point of view while carrying a problem that was created in another country entirely.
+
+| Question you need answered | NCC Device Checker | What answers it |
+| --- | --- | --- |
+| Is this model approved for Nigerian networks? | Yes | NCC Device Checker |
+| Is this specific handset verified in Nigeria? | Yes | NCC Device Checker |
+| Was it reported lost or stolen abroad? | No | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| Is iCloud Activation Lock still on this iPhone? | No | [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) |
+| Is it locked to a foreign carrier? | No | [SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) |
+| Does the real model match what the seller claims? | Partly | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Is there a Knox Guard or Mi Account lock? | No | [Samsung Info](https://imeihub.net/service.php?slug=samsung-info) or [Xiaomi Status](https://imeihub.net/service.php?slug=xiaomi-status) |
+
+Three failure modes are worth naming, because they are the ones that actually empty people's pockets in Nigeria.
+
+**The iCloud-locked iPhone.** A clean-looking iPhone at a very good price, sold as new and just needing setup. It has been factory reset, but **Activation Lock** is still bound to the previous owner's Apple ID. It will pass an NCC check without difficulty, because nothing about it is irregular in Nigeria. It is also permanently unusable without the original Apple ID. Checking the [iCloud status](https://imeihub.net/service.php?slug=apple-icloud) before paying costs a fraction of the loss.
+
+**The foreign-blacklisted handset.** A phone reported stolen to a UK or US carrier is listed on the **GSMA** blacklist that operators worldwide draw on. It may still work on a Nigerian network today. But that listing follows the IMEI, it does not expire, and the handset becomes unsellable the moment the next buyer runs a proper check. A [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) is the only way to see it.
+
+**The carrier-locked import.** Sold as unlocked, it accepts the SIM it was shipped with and rejects everything else, or quietly throttles you onto 3G. Check the [SIM-lock status](https://imeihub.net/service.php?slug=apple-sim-lock) rather than trusting the stall.
+
+These two kinds of check are complements, not substitutes. **Run the NCC check for Nigerian regulatory standing, and an international IMEI check for the device's own history.** Neither one replaces the other, and anyone who tells you otherwise is selling something.
+
+## Buying Used in Nigeria: A Five-Minute Pre-Purchase Routine
+
+Use this at the stall, in this order. It takes under five minutes, and it has to be done **before** money changes hands.
+
+- **Read the real IMEI.** Dial `*#06#` on the handset yourself. Do not accept a number read out to you or shown in a photo.
+- **Cross-check three places.** Screen, box, and SIM tray or chassis. Any mismatch ends the conversation.
+- **Run the official check.** Dial `*315#` and confirm NCC type approval and verification status.
+- **Run a free model lookup.** Use a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm that the brand, model, storage and colour actually match what you are being sold. A 256GB phone that reports as 64GB is a re-labelled device.
+- **Run a blacklist check on anything imported.** A [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) covers the history the Nigerian register cannot see. For an iPhone, add the [iCloud status](https://imeihub.net/service.php?slug=apple-icloud).
+- **Test with your own SIM.** Insert it, make a call, and load a page on mobile data. Confirm both slots if it is dual-SIM.
+- **Get the IMEI onto the receipt.** Written, with the seller's name and phone number. Without this you have no route to recourse and no basis for a police report.
+
+## If Your Phone Is Stolen in Nigeria
+
+The national register is also supposed to work in the other direction. A device reported stolen, with ownership verified, can be blocked across Nigerian networks. The practical procedure as it stands today:
+
+- **Act immediately on the SIM.** Call your operator, whether MTN, Airtel, Glo or 9mobile, and have the SIM blocked. This stops the thief using your number, your airtime, and any bank USSD or OTP tied to it. Do this first. It is the most time-critical step, and the most financially damaging one to delay.
+- **Secure your accounts.** Change your Apple ID or Google password. Use Find My iPhone or Find My Device to mark the handset lost and erase it remotely. Revoke access to banking apps.
+- **File a police report at the nearest station**, and make sure the written report includes the **15-digit IMEI**. Operators routinely ask for it, and without the IMEI on the report you will be sent away.
+- **Take the report to your operator** and request that the IMEI be blacklisted.
+- **Keep every reference number.** The police report, the operator ticket, and the date and time of each call.
+
+Two realistic caveats. First, the **Device Checker is not a tracking tool.** It will not tell you where your phone is, and neither will the NCC. Second, blacklisting only bites to the extent that every operator applies the block consistently, and full automated, real-time enforcement across all carriers has been described in industry reporting as a later phase of the DMS rollout rather than as something already finished.
+
+Report the theft anyway. It is what puts the IMEI into the register, and it is what protects the next person from buying your stolen phone.
+
+## Troubleshooting Common NCC Check Problems
+
+| Problem | Likely cause | What to do |
+| --- | --- | --- |
+| The USSD code is not recognised | USSD blocked, no network, or a data-only line | Retry with signal, or use the web portal |
+| Result says not found, but the phone is clearly legitimate | Mistyped digit, unregistered import, or damaged IMEI record | Re-read the IMEI with `*#06#`, retry, then call 315 |
+| Two different results for one phone | You checked IMEI1 on one attempt and IMEI2 on another | Note both. They are the same device |
+| Seller insists their own certificate is enough | No third-party certificate substitutes for the official check | Run `*315#` yourself |
+| Device passes the NCC check but fails a blacklist check | Reported stolen outside Nigeria | Do not buy. The listing follows the IMEI |
+
+## Frequently Asked Questions
+
+**Is the NCC IMEI check free?**
+
+Yes. Dialling `*315#`, using the Device Checker portal, and calling 315 are all free. Any service charging you for an official NCC verification is not the NCC.
+
+**Will my phone be blocked if I do nothing?**
+
+For a device already in use on a Nigerian network before the Device Checker went live, the reported position is that it was verified automatically, with no action required. The registration obligation sits with importers and dealers, not with ordinary users. There have been reports of 30-day warning messages going to owners of devices flagged as unregistered. If you receive one, run `*315#` and call 315 rather than ignoring it.
+
+**My phone failed the check. Is it fake?**
+
+Not necessarily, and the Commission has said so explicitly. A failure can come from a typing error, an unregistered import, or a damaged IMEI record on a repaired handset. Re-read the IMEI with `*#06#`, check again, and call 315. If you have not yet paid, do not pay until it is resolved.
+
+**Does the NCC check tell me if a phone was stolen abroad?**
+
+No. The Nigerian register is national. For devices reported lost or stolen in other countries you need an international check against the global blacklist.
+
+**Can the NCC see my messages or track me through this?**
+
+The Commission's stated position is that the system holds device identification data such as IMEI numbers, that it does not provide access to device content or personal communications, and that it does not track users' locations or movements.
+
+**I bought a phone from abroad for personal use. Do I need to register it?**
+
+Commercial registration obligations apply to OEMs, importers, dealers and vendors, not to an individual bringing in a personal handset. Follow normal Customs declaration rules, and run `*315#` once you are in Nigeria so that you know its status.
+
+**Does a damaged or missing IMEI label matter?**
+
+Yes, and it is a warning sign. A missing or tampered IMEI plate on a used device is a common indicator of a re-shelled or cloned handset. Read the IMEI from `*#06#` and compare it against the chassis and the box.
+
+## A Note on Dates and Official Sources
+
+The DMS rollout has moved quickly, and the deadlines have shifted at least once. The dates in this guide, meaning the **7 October 2026** start of the Device Checker and the move of the stock-registration deadline from **7 September** to **6 October 2026**, reflect the Commission's announcements and Nigerian press reporting at the time of writing. Enforcement phases, charges and appeal routes are still developing.
+
+Before you rely on a deadline for a commercial decision, confirm it directly with the NCC at www.ncc.gov.ng or on the toll-free line 315. For a consumer buying a single phone, none of that uncertainty changes the practical advice: check the IMEI before you pay.
+
+## Check Before You Pay
+
+The order that protects you is simple, and it costs almost nothing:
+
+- **Read the real IMEI.** Dial `*#06#` on the device itself.
+- **Check with the regulator.** Dial `*315#` to confirm the phone's standing with the NCC. Free.
+- **[Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)** to confirm that the model, storage and colour match the seller's claim.
+- **[WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)** to see the international history the Nigerian register cannot. Essential for any imported handset.
+- **[iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud)** for every used iPhone, without exception.
+
+Five minutes of checking, against the cost of a handset you cannot activate, cannot sell and cannot get a refund for. The full range of checks is at [Imeihub Services](https://imeihub.net/services.php).
+MD,
+    ],
 
 ];
 
