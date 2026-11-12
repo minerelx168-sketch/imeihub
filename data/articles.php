@@ -8,6 +8,138 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-emergency-sos-satellite-demo',
+        'title' => 'iPhone IMEI Check: Can You Try the Satellite SOS Demo?',
+        'meta_title' => 'iPhone IMEI Check for the Emergency SOS Satellite Demo',
+        'excerpt' => 'Identify your iPhone, check Apple\'s regional requirements and practice the satellite SOS demo without calling emergency services.',
+        'date' => '2026-11-12',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261112_0'
+An iPhone IMEI check can help identify the handset you plan to take off grid. To see whether you can practice Emergency SOS via satellite, check Apple's requirements for the model, software and region, then open the built-in demo. A database lookup cannot test reception along your route.
+
+**Key takeaways**
+
+- Open **Settings > General > About** for the model name, iOS version and labelled 15-digit IMEI.
+- Check both where the iPhone was purchased and where you intend to use it.
+- Use the demo for practice. It does not call emergency services, and completing it does not verify coverage at a different location.
+
+## Which details matter before you try the demo?
+
+Start with the exact iPhone model and destination. Apple supports Emergency SOS via satellite on iPhone 14 and later in supported locations, subject to software and purchase-region requirements. Two people carrying phones with the same model name can therefore have different answers to the same travel question.
+
+### What does each check establish?
+
+| Evidence | Question it answers | What to do with it |
+| --- | --- | --- |
+| Free IMEI model lookup | Which handset family matches the identifier? | Compare it with the model in Settings |
+| Apple feature availability | Is the feature offered where I will be? | Check the destination and purchase exceptions |
+| Satellite Connection Demo | Can I practice on this handset here? | Learn the pointing prompts before departure |
+| Paid carrier-lock or blacklist report | What restriction does that report list? | Use only for that separate network question |
+
+For an imported phone, the location of the current seller may differ from the original market. Check the purchase record if you have one. [Apple's Emergency SOS requirements](https://support.apple.com/en-us/101573) cover both international visitors and exceptions. A compatible model name alone does not settle the import question.
+
+## How do I practice without making an emergency call?
+
+Go outdoors with a clear view of the sky and use Apple's labelled demo, rather than placing a test call to an emergency number. The exercise teaches you how to hold and point the phone. Trees, buildings and terrain can affect whether you connect even with eligible hardware.
+
+**1. Match the phone.** Use the device in your hand. A box label or an IMEI engraved on a removable SIM tray is less useful if you cannot establish that it belongs to this particular handset. Do not substitute an EID or Apple serial number into an IMEI field.
+
+**2. Open the practice screen.** In Control Center, open the cellular controls and choose **Satellite > Try Demo**. Choose the emergency SOS practice option. Apple also describes a route through **Settings > Emergency SOS** in its [satellite connection guide](https://support.apple.com/en-us/105097).
+
+**3. Follow the prompts.** Move or turn as directed. For a trip, write down what you actually verified: for example, “demo completed in the open parking area,” rather than “the whole trail has coverage.” If the option is absent, revisit the eligibility checks before buying any device report.
+
+## Frequently Asked Questions
+
+Three questions often get bundled together before a trip: whether the handset qualifies, whether a demo can run here and whether a connection will be possible elsewhere. Each needs different evidence. Only the practice feature lets you learn the prompts on the actual phone.
+
+### Can I try satellite SOS while I still have cell service?
+
+Yes, on a supported iPhone in a location where the demo is available, you can start the demonstration before losing service. Choose the demo in the satellite controls. You do not need to create an actual emergency to practice.
+
+### Does the satellite demo contact an emergency dispatcher?
+
+No. Apple's Emergency SOS via satellite demo is a practice experience. Use it to learn the interface and pointing instructions ahead of time. Do not place a real emergency call simply to see what the demonstration would look like.
+
+### Will an imported iPhone have the same satellite features?
+
+Do not assume so from the model name alone. Compare the original purchase market and your intended location with Apple's current eligibility notes. A successful free IMEI lookup identifies the model but does not waive a purchase-region restriction.
+
+### Can a paid IMEI report predict reception on my hike?
+
+No. A device-status report does not observe the sky above your route or the obstacles around you. A successful outdoor demo is useful practice on your own phone, but it is not a coverage forecast for the next valley.
+
+## What should I verify before departure?
+
+Check eligibility for the place you will actually visit, practice with the phone you will carry and keep the limits of that test in mind. If the first uncertainty is which iPhone a listing describes, start with [IMEIHub's free IMEI model lookup](https://imeihub.net/).
+ARTICLE_20261112_0,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-windows-second-screen',
+        'title' => 'Samsung Tablet IMEI Check: Can It Be a Second Windows Screen?',
+        'meta_title' => 'Samsung Tablet IMEI Check for Windows Second Screen',
+        'excerpt' => 'Check the Galaxy Tab model and Windows wireless display support, then test Extend mode to see whether the tablet gives your PC a second workspace.',
+        'date' => '2026-11-12',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261112_1'
+A Samsung tablet IMEI check helps identify a cellular Galaxy Tab, but it cannot tell whether your Windows PC will discover it as a second screen. Check the tablet model and software against Samsung's requirements, then connect from the PC and move a window onto the tablet in Extend mode.
+
+**Key takeaways**
+
+- In **Settings > About tablet**, note the full model number. For a cellular lookup, use the labelled 15-digit IMEI; for a Wi-Fi tablet, use the model number directly.
+- The PC sends its desktop and the tablet receives it. Showing a tablet app on a TV tests the opposite direction.
+- A free model result or paid network-status report cannot test the PC's wireless display connection.
+
+## What needs to be compatible on each side?
+
+The tablet must support Samsung's Second screen feature, and the PC must support Wireless Display. Check both ends before buying a used tablet as a portable monitor. A seller's photo showing a Windows desktop is useful only if you know which device supplied the image.
+
+[Samsung's Windows Second screen guide](https://www.samsung.com/us/support/answer/ANS10002024/) names supported Galaxy Tab S families and specifies One UI and Windows requirements. Do not infer support for a Galaxy Tab A from a similarly sized Tab S. If a newer model is not named, check its own support documentation rather than assuming a general list rules it in or out.
+
+### Which demonstration should you request?
+
+| Demonstration | What it proves | What remains untested |
+| --- | --- | --- |
+| Free lookup identifies the cellular tablet | The submitted IMEI maps to a model | PC discovery and display modes |
+| Tablet sends DeX to a monitor | Tablet can drive that external setup | Receiving a PC desktop |
+| Both screens show the same Windows window | Duplication works on that pair | Extra desktop space |
+| Different windows remain on each screen | An extended Windows desktop works on that pair | Compatibility with another PC |
+
+## How do I test an extended desktop before buying?
+
+Test with the Windows computer you intend to use, if possible. Open Second screen on the tablet, connect to it from the PC and select Extend. Moving a single window across the desktop boundary is a better test than comparing two photographs of the same wallpaper.
+
+**1. Identify the receiver.** Use [Samsung's device identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) if you cannot distinguish the model code from the serial number. Record the One UI version under software information. A cellular plan is not evidence that the tablet has the Second screen control.
+
+**2. Make the tablet discoverable.** Bring both devices close together. On the tablet, open Quick settings and select **Second screen**. Leave that screen open. On the PC, use the wireless display connection option in Display settings and select the tablet by name.
+
+**3. Prove the workspace is separate.** In Windows Display settings choose **Extend** instead of **Duplicate**. Leave one document on the laptop and drag another window onto the tablet. If the window moves in an unexpected direction, rearrange the displays in Settings to match their positions on the desk.
+
+## Frequently Asked Questions
+
+The quickest way to resolve an uncertain listing is to ask for a specific demonstration on a named PC. Model identification narrows the shortlist; a connection test answers whether this pair works. A paid report about a different feature cannot replace either step.
+
+### Does a Galaxy Tab A IMEI prove it supports Second screen?
+
+No. The IMEI can help identify the cellular variant, but a match for the Galaxy Tab A family does not establish Second screen support. Check the exact model against Samsung's documentation and look for the feature on the tablet.
+
+### Can I check a Wi-Fi tablet without an IMEI?
+
+Yes. Start with the model number in About tablet and the installed One UI version. The relevant test is a wireless display connection to the PC. There is no need to enter a serial number into a cellular IMEI checker.
+
+### Why do my laptop and tablet show the same thing?
+
+If the connection is active and both screens mirror the same window, check the Windows projection mode. Duplicate is useful for sharing a presentation. For more workspace, select Extend and drag a window across to the other display.
+
+### Does a working DeX demo prove my PC can use the tablet?
+
+No. DeX on an external monitor demonstrates output from the tablet. For a second Windows screen, ask to see output from the PC arriving on the tablet. Those demonstrations use different source devices and answer different buying questions.
+
+## What evidence is enough to make a decision?
+
+For an extra workspace, the useful result is two different windows displayed at once from your own PC. If the seller cannot identify the cellular tablet well enough to check its specifications, use [IMEIHub's free model check](https://imeihub.net/) before arranging that demonstration.
+ARTICLE_20261112_1,
+    ],
+    [
         'slug' => 'iphone-imei-check-magsafe-charging',
         'title' => 'iPhone IMEI Check: Will This iPhone Work With MagSafe?',
         'meta_title' => 'iPhone IMEI Check for MagSafe Charging Compatibility',
