@@ -8,6 +8,134 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-usb-transfer-speed',
+        'title' => 'iPhone IMEI Check: How Fast Can This USB-C Port Transfer Files?',
+        'meta_title' => 'iPhone IMEI Check for USB-C File Transfer Speed',
+        'excerpt' => 'Compare iPhone 15 and 15 Pro USB limits, identify the cable you need, and test a file transfer before buying an upgrade.',
+        'date' => '2026-11-13',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_NOV13'
+An iPhone IMEI check can identify the model, but it cannot measure how fast your videos will copy to a computer. An iPhone 15 and an iPhone 15 Pro both accept a USB-C plug. Only the Pro in that pair supports USB 3 speeds, and the cable and computer must support them too.
+
+**Key takeaways**
+
+- Open Settings > General > About and read Model Name, including the word Pro if present.
+- Use the 15-digit IMEI for a free basic model lookup. The Apple serial number is a different field.
+- Check the cable's data rating separately from its charging wattage. A paid device-status report does not measure either.
+
+## Which part of the setup sets the speed limit?
+
+Start with the slowest link between the phone and the destination. Apple specifies a maximum for the phone, while the cable and computer port can impose lower limits. A successful copy proves data can pass through the connection; it does not prove the link reached its advertised maximum.
+
+| What you have | What it tells you | Decision |
+| --- | --- | --- |
+| Standard iPhone 15 | USB 2, up to 480 Mb/s | A faster cable cannot upgrade the phone's port |
+| iPhone 15 Pro | Up to 10 Gb/s with suitable USB 3 equipment | Check the cable and host port before upgrading |
+| Cable marked only with charging watts | Power rating, no stated data rate | Look for a separate data specification |
+| Free IMEI model result | Model family associated with the identifier | Match the full name to Apple's specifications |
+
+Compare [Apple's iPhone 15 specifications](https://support.apple.com/en-us/111831) with its [USB-C connection guide](https://support.apple.com/en-us/105099). The units above are bits per second. File sizes are commonly shown in bytes; a 10 Gb/s label does not mean ten gigabytes copied each second.
+
+## How can I test the cable before buying another one?
+
+Use one large video already stored on the phone and the same destination folder on the computer for each trial. Change only the cable at first. If a replacement makes no difference, check the phone model and the computer port before assuming either cable is faulty.
+
+**1. Identify the phone.** Read Model Name on the About screen. If you have an IMEI from a listing, compare the lookup result with that screen on the actual phone. A photo of a USB-C socket cannot distinguish these two models.
+
+**2. Check the route.** Connect directly to a computer port with a documented data rate. Set aside hubs and docks for the comparison. If the phone charges but never appears for import, resolve that connection problem before timing anything.
+
+**3. Compare like with like.** Import the same original video using each cable. Record the size, elapsed time and port. If your usual workflow includes exporting or converting the video, measure that separately so conversion time does not masquerade as a slow cable.
+
+## Frequently Asked Questions
+
+The most useful distinction is between the phone's design limit and the speed of one copy. The first comes from the exact model specification. The second depends on the equipment and transfer you actually use. Neither a charging icon nor an IMEI report measures file throughput.
+
+### Will a USB 3 cable make my standard iPhone 15 faster?
+
+A USB 3 cable cannot raise the standard iPhone 15 above its USB 2 limit. Replacing a damaged or unreliable cable might solve a connection problem, but buying a cable rated for 10 Gb/s does not give this phone a USB 3 port.
+
+### My iPhone 15 Pro charges quickly. Does that prove the cable is fast?
+
+No. Charging and data transfer have separate specifications. A cable can supply the power your phone requests while carrying data at a lower rate than the phone supports. Check the manufacturer's data rating before using charging performance to justify a purchase.
+
+### Why is a big video a better test than a photo album?
+
+A single local video makes it easier to repeat the same transfer. An album can mix small files, downloads and conversions. Timing a video still measures the whole copy operation, but changing one variable at a time makes a difference easier to interpret.
+
+### Would a paid IMEI report tell me if the USB port is damaged?
+
+No. A report about a device's blacklist or carrier-lock status does not inspect the connector. If several known working data cables and computers cannot detect the phone, describe those tests when seeking service. The model name alone cannot diagnose a damaged port.
+
+## What should I verify before spending money?
+
+Verify the exact iPhone model first, then look for a cable rating or a repeatable transfer result that explains the delay. If the model is already the limiting factor, a faster cable offers no higher ceiling. Start with [imeihub's free IMEI model lookup](https://imeihub.net/).
+ARTICLE_NOV13,
+    ],
+    [
+        'slug' => 't-mobile-imei-check-rcs-google-messages',
+        'title' => 'T-Mobile IMEI Check Passed. Why Is Google Messages Still Using SMS?',
+        'meta_title' => 'T-Mobile IMEI Check Passed but RCS Still Sends SMS',
+        'excerpt' => 'Separate T-Mobile device compatibility from Google Messages registration. Use the RCS status and one test conversation to find out why texts still send as SMS.',
+        'date' => '2026-11-13',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_NOV13'
+A T-Mobile IMEI check can help establish whether a phone is compatible with the network. It does not register your number for Rich Communication Services (RCS). If Google Messages still sends SMS, check the RCS status on your Android phone, then test a conversation with someone who has RCS enabled.
+
+**Key takeaways**
+
+- The carrier checks a 15-digit IMEI. Google Messages verifies a phone number for RCS.
+- In Google Messages, tap your profile picture > Messages settings > RCS chats. Older menus may say Chat features.
+- A free model lookup identifies hardware. A paid blacklist or SIM lock report cannot turn on chat features.
+
+## Which result explains why a conversation uses SMS?
+
+Read the status in Google Messages before drawing conclusions from a carrier compatibility result. A phone can work on T-Mobile while its number is still being verified for RCS. Once the status says Connected, the next question is whether the other person can receive an RCS message.
+
+| Evidence | What it establishes | Next step |
+| --- | --- | --- |
+| IMEI passes the carrier check | Device compatibility result | Inspect the messaging app |
+| RCS status is Connecting | Number verification is in progress | Check the number if prompted |
+| RCS status is Connected | Your app is ready for RCS | Try one contact who also uses RCS |
+| No read receipt | The app has not shown a read confirmation | Check conversation type and receipt preferences |
+
+[T-Mobile's RCS guide](https://www.t-mobile.com/support/plans-features/advanced-messaging) describes the carrier feature. [Google's status guide](https://support.google.com/messages/answer/7189714?hl=en) explains the labels inside Google Messages, including what to do if the app explicitly says the carrier disabled RCS.
+
+## How do I separate a registration problem from a contact problem?
+
+Test a single conversation with another RCS user while both phones have an internet connection. If that chat offers RCS but a different thread offers SMS, repeating the IMEI check will not explain the difference. If no thread offers RCS, start with your own registration status.
+
+**1. Read the exact status.** Open RCS chats in Messages settings. If asked to verify your number, use the mobile number for the line. Do not paste the IMEI, IMEI2 or eSIM identifier (EID) into that field.
+
+**2. Compare two threads.** Start a one-to-one conversation with someone who confirms RCS is on. Read the message type in the compose field before sending. Compare it with the thread in question; an ordinary SMS reply only shows that texting worked.
+
+**3. Follow the specific error.** For a persistent verification retry, use Google's troubleshooting link in the status guide. If Messages says your carrier disabled RCS, contact T-Mobile with the exact wording. A generic screenshot of a successful device lookup omits the detail support needs.
+
+## Frequently Asked Questions
+
+A working phone number, a compatible handset and an RCS connection are three different results. Use a normal text to check basic messaging, the app status to check registration, and the conversation itself to check whether RCS is available with a particular person.
+
+### Does passing the T-Mobile IMEI check activate RCS?
+
+No. A compatible IMEI does not enroll a number in Google Messages. Open the RCS settings on the Android phone you intend to use. If the status is Connecting, the app is still verifying the number even though the carrier recognizes the device.
+
+### Why can I use RCS with one person but not another?
+
+Both ends of the conversation need RCS for that exchange. If one known RCS contact works, check the other person's messaging setup and the message type in that thread. One SMS conversation does not by itself indicate that your device failed a network check.
+
+### Does a missing read receipt mean my phone is blocked?
+
+No. RCS read receipts depend on the recipient's settings. Someone can receive a message without sharing when they read it. A missing receipt by itself tells you neither whether a person blocked you nor whether a carrier blacklisted the handset.
+
+### Should I buy a blacklist report if Google Messages says Connecting?
+
+A blacklist report answers a different question: whether the submitted device identifier has a reported block in the records checked. Connecting refers to number verification in the app. Follow the verification prompt first; purchasing a report cannot register the number or remove a carrier lock.
+
+## Which check should I use next?
+
+If calls and texts work, use the RCS status and the affected conversation to decide what to investigate. Keep device identification for cases where the handset itself is uncertain. When you need to match the IMEI to a model, use [imeihub's free basic lookup](https://imeihub.net/).
+ARTICLE_NOV13,
+    ],
+    [
         'slug' => 'iphone-imei-check-emergency-sos-satellite-demo',
         'title' => 'iPhone IMEI Check: Can You Try the Satellite SOS Demo?',
         'meta_title' => 'iPhone IMEI Check for the Emergency SOS Satellite Demo',
