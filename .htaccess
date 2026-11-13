@@ -1,0 +1,75 @@
+# imeihub - Production .htaccess
+# Apache 2.4+ with mod_rewrite, mod_headers, mod_deflate
+
+# ─── Security Headers ──────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    # HSTS - uncomment after confirming SSL works
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+# ─── Deny access to sensitive files ───────────────────────────────
+<FilesMatch "^\.env|\.git|composer\.(json|lock)|package\.json|Dockerfile|docker-compose">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
+# Block access to includes/, data/, sql/, scripts/, docker/ directories
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block direct access to backend directories
+    RewriteRule ^(includes|data|sql|scripts|docker)/ - [F,L]
+
+    # Block .env file
+    RewriteRule ^\.env - [F,L]
+
+    # Article pretty URLs: /article/slug -> article.php?slug=slug
+    RewriteRule ^article/([a-z0-9-]+)$ article.php?slug=$1 [L,QSA]
+
+    # Pretty URLs: /api/check -> /api/check.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.+)$ $1.php [L,QSA]
+
+    # Force HTTPS (uncomment in production behind Cloudflare)
+    # RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ─── Compression ──────────────────────────────────────────────────
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ─── Caching for static assets ────────────────────────────────────
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# ─── PHP settings (if not using php.ini) ──────────────────────────
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_flag log_errors On
+    php_value error_log /var/log/php/error.log
+    php_value upload_max_filesize 2M
+    php_value post_max_size 8M
+    php_value max_execution_time 90
+</IfModule>
+
+# ─── Prevent directory listing ────────────────────────────────────
+Options -Indexes

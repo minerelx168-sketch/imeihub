@@ -1,0 +1,12 @@
+.env
+.env.local
+*.log
+*.sqlite
+vendor/
+node_modules/
+.DS_Store
+includes/config.local.php
+storage/
+dist/
+pending-services-for-provider.xlsx
+active-services.xlsx

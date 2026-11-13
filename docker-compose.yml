@@ -1,0 +1,73 @@
+# imeihub dev stack.
+#
+#   docker compose up --build       (first run: ~2 min for image build + db init)
+#   docker compose up -d            (subsequent: a few seconds)
+#   docker compose down             (stop, keep data)
+#   docker compose down -v          (stop + drop the DB volume)
+#
+# Two services:
+#   db    MySQL 8.4 with the schema and seed auto-loaded from sql/* on
+#         first boot. Persists to a named volume so the test user and
+#         any signups survive a restart.
+#   app   PHP 8.4 + Apache, bind-mounting the repo so edits to
+#         .php/.css/.js take effect on next request (no rebuild).
+#
+# After "up": open http://localhost:8080.
+# Default test user:
+#   email     test@example.com
+#   password  test123
+#   credit    $100 (seeded so paid IMEI lookups work right away)
+
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: devpassword
+      MYSQL_DATABASE: imei_checker
+    ports:
+      - "3307:3306"   # exposed so you can connect with a GUI client if needed
+    volumes:
+      - imeihub_db:/var/lib/mysql
+      # MySQL runs every *.sql / *.sh in /docker-entrypoint-initdb.d on
+      # first init, in alphabetical order. Names below preserve that
+      # order: schema -> seed -> migration -> test user.
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./sql/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+      - ./sql/migrate-dhru-async.sql:/docker-entrypoint-initdb.d/03-migrate-dhru-async.sql:ro
+      - ./docker/initdb/04-test-user.sql:/docker-entrypoint-initdb.d/04-test-user.sql:ro
+      - ./sql/migrate-admin.sql:/docker-entrypoint-initdb.d/05-migrate-admin.sql:ro
+      - ./sql/migrate-blacklist.sql:/docker-entrypoint-initdb.d/06-migrate-blacklist.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-pdevpassword"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    env_file:
+      - .env
+    environment:
+      # These override .env so the app always points at the linked db
+      # service, regardless of what the .env file says.
+      DB_HOST: db
+      DB_NAME: imei_checker
+      DB_USER: root
+      DB_PASS: devpassword
+      APP_URL: http://localhost:8080
+    volumes:
+      # Bind-mount the repo over the image's /var/www/html so edits
+      # are live. The compose volume below shadows the COPY layer from
+      # the Dockerfile - intentional, so dev iteration doesn't need a
+      # rebuild.
+      - .:/var/www/html
+
+volumes:
+  imeihub_db:
