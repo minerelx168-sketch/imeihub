@@ -1,0 +1,58 @@
+# imeihub production container.
+#
+# Differences from dev Dockerfile:
+#   - Uses php.prod.ini (display_errors=Off, OPcache aggressive)
+#   - No bind-mount; code is COPY'd in and immutable
+#   - Strips dev-only files (scripts/, docker/, sql/, tests/)
+#   - Runs as non-root (www-data)
+FROM php:8.4-apache
+
+# System deps for PHP extensions.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libzip-dev \
+        libicu-dev \
+        libpng-dev \
+        libjpeg-dev \
+        libfreetype6-dev \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# PHP extensions.
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) \
+        pdo_mysql \
+        zip \
+        intl \
+        gd \
+        opcache
+
+# Production PHP config.
+COPY docker/php.prod.ini /usr/local/etc/php/conf.d/zz-imeihub.ini
+
+# Apache modules + vhost.
+RUN a2enmod rewrite headers ssl
+COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
+
+# SSL with self-signed cert for Cloudflare Full mode.
+RUN apt-get update -qq && apt-get install -y -qq ssl-cert && rm -rf /var/lib/apt/lists/*
+COPY docker/ssl-vhost.conf /etc/apache2/sites-available/default-ssl.conf
+RUN a2ensite default-ssl
+
+# Copy application code (excluding dev-only dirs via .dockerignore).
+WORKDIR /var/www/html
+COPY --chown=www-data:www-data . /var/www/html
+
+# Remove dev-only files from the image.
+RUN rm -rf /var/www/html/docker \
+           /var/www/html/scripts \
+           /var/www/html/sql \
+           /var/www/html/.env \
+           /var/www/html/.env.example \
+           /var/www/html/.git \
+           /var/www/html/.gitignore \
+           /var/www/html/docker-compose*.yml \
+           /var/www/html/Dockerfile* \
+           /var/www/html/README.md \
+           /var/www/html/DOCKER.md
+
+EXPOSE 80 443
