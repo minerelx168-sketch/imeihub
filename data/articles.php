@@ -16145,4 +16145,202 @@ _Regulatory status described reflects public reporting available as at 13 Novemb
 ARTICLE_20261113_GH,
     ],
 
+    [
+        'slug'    => 'pta-dirbs-status-check-tax-calculator-pakistan',
+        'title'   => 'PTA DIRBS Status Check & PTA Tax Guide 2026',
+        'meta_title' => 'PTA DIRBS Status Check by IMEI & PTA Tax Calculator 2026',
+        'excerpt' => 'How to check PTA DIRBS status by IMEI, what each result means, the 60-day rule, and why no online PTA tax calculator gives the real figure.',
+        'date'    => '2026-11-14',
+        'tag'     => 'Regulation',
+        'body'    => <<<'ARTICLE_20261114_PK'
+## PTA DIRBS Status Check: What It Tells You, and What It Costs
+
+Pakistan runs one of the strictest device registration regimes in the world. Under the **Device Identification, Registration and Blocking System (DIRBS)**, operated by the **Pakistan Telecommunication Authority (PTA)**, a handset that is not registered against a CNIC or a passport simply stops receiving mobile service. No calls, no SMS, no mobile data. The phone still works on Wi-Fi, which is why so many people discover the problem late and assume the handset is broken.
+
+This guide does two things. First, it shows you how to run a **PTA DIRBS status check** through the official channels and read the result correctly. Second, it explains, honestly, why every **PTA tax calculator** you find online is an estimate, why those estimates currently disagree with each other by tens of thousands of rupees, and where the only authoritative number actually comes from.
+
+**Key takeaways**
+
+- Check status by sending your 15-digit IMEI by SMS to **8484**, by dialling **`*8484#`**, or through the official DIRBS portal and app. Get the IMEI itself with **`*#06#`**.
+- On a dual-SIM phone, **check both IMEI1 and IMEI2**. PTA advises verifying every IMEI a device carries.
+- Travellers bringing a phone in accompanied baggage have **60 days from arrival** to register it. After that window the device receives no services.
+- Short-term visitors have a separate facility valid for **120 days** from arrival, validated against FIA travel records.
+- **Registering on a passport is cheaper than registering on a CNIC.** The gap is substantial on flagship models.
+- **No third-party calculator is authoritative.** Duties were cut for FY2026-27 and the popular calculators have not converged. The real figure is the one on the **PSID** that DIRBS generates for your specific IMEI.
+- Critically: **PTA-approved does not mean the phone is not stolen.** DIRBS answers a tax and type-approval question, not a theft question. Those are separate checks, covered below.
+
+## Step 1: Get the Right 15 Digits
+
+Every result downstream depends on reading the IMEI out of the handset rather than off a sticker or a screenshot.
+
+- **Universal method:** dial **`*#06#`** on the keypad. This works on effectively every phone, Android or iPhone, and reads the identity from the device itself.
+- **iPhone:** Settings, then General, then About. The IMEI is also laser-etched on the SIM tray.
+- **Android, including the Infinix, Tecno and Vivo handsets common across Pakistan:** Settings, then About phone, then Status or IMEI.
+
+If the phone is dual-SIM you will see **IMEI1** and **IMEI2**. Both belong to the same handset, and PTA's own guidance is to verify the status of all IMEIs a device carries. A phone can be registered on one IMEI and not the other, which produces exactly the kind of partial service failure that is hard to diagnose.
+
+## Step 2: Run the PTA DIRBS Status Check
+
+There are four official routes. They query the same database, so a disagreement between them means you mistyped something.
+
+| Channel | How to use it | Best for |
+| --- | --- | --- |
+| **SMS** | Send the 15-digit IMEI as a text message to **8484** | Fastest check, works on any handset including feature phones |
+| **USSD** | Dial **`*8484#`** and follow the menu | Checking *and* starting registration from the phone itself |
+| **Web portal** | The official DIRBS site at `dirbs.pta.gov.pk` | Checking several devices, or checking before you travel |
+| **Mobile app** | The PTA **DVS / DIRBS** app from Google Play or the App Store | Repeat checks, dealers, anyone buying regularly |
+
+A practical note: the SMS reply returns your **status**, not the tax amount. People frequently expect a rupee figure back from 8484 and conclude the service is broken when it does not arrive. To get a figure you have to go through the registration flow and generate a PSID.
+
+Only `dirbs.pta.gov.pk` and the PTA apps are official. Search results for "PTA tax check" are dominated by third-party calculators and affiliate sites. Some are useful for rough budgeting, none of them can bill you, and none should receive your CNIC number.
+
+## Step 3: Read Your Status Correctly
+
+This is where most confusion lives, because the wording is terse and the consequences differ sharply.
+
+| Result | What it actually means | What to do |
+| --- | --- | --- |
+| **Compliant / Valid** | The IMEI is approved and registered. Service will continue normally | Nothing. Keep the confirmation |
+| **Valid but not registered** | The model is type-approved, but *this* handset has not been registered against a CNIC or passport | Register and pay before the window closes |
+| **Non-compliant** | Not registered, and scheduled to lose service | Register immediately, or stop relying on the device for calls |
+| **Blocked** | The window has passed, or the device was blocked. No mobile service | Registration and payment is the route back, where the device is eligible |
+| **Invalid IMEI** | The number does not correspond to a recognised, type-approved device | Re-read with `*#06#`. If it still fails, treat the handset as suspect |
+
+An **Invalid IMEI** result deserves emphasis. If you dialled `*#06#` on the actual handset and PTA does not recognise the number, you are very likely looking at a cloned, re-shelled or IMEI-rewritten phone. That is not a registration problem you can pay your way out of. Do not buy it.
+
+## The 60-Day Rule That Catches Travellers
+
+This is the single most expensive thing to misunderstand, and it catches overseas Pakistanis returning home every year.
+
+| Your situation | Window | Notes |
+| --- | --- | --- |
+| Resident or returning Pakistani bringing a phone in accompanied baggage | **60 days from arrival** | Register by entering your travel credentials. After 60 days the device receives no services |
+| Short-term foreign visitor | **120 days from arrival** | A separate temporary facility, validated against FIA travel records |
+| Phone bought locally from an authorised retailer | None | Already registered. Verify with 8484 before you leave the shop |
+
+Two warnings about this window.
+
+First, **the 60 days run from your arrival date, not from the day you insert a Pakistani SIM.** A phone sitting in a drawer for two months is as exposed as one in daily use.
+
+Second, informal "grace period extensions" circulate widely in Pakistani phone forums. Historically the window has been extended at various points, and some guides still describe 90 or 120-day allowances as if they were universal. Do not plan around an extension. Plan around 60 days, and treat anything longer as a bonus you did not count on.
+
+Overseas Pakistanis are also widely reported to be allowed **one phone per 12 months** registered duty-free, assessed against travel records. This is repeated by many secondary sources, but the official FAQ language on fee treatment within the 60-day window is not unambiguous on the point. If you are relying on a duty-free allowance to make a purchase worthwhile, confirm it with PTA or Customs directly before you buy the phone abroad.
+
+## Why No PTA Tax Calculator Can Give You the Real Figure
+
+Search "PTA tax calculator Pakistan" and you will get dozens of tools that confidently return a single rupee figure. Here is why you should treat all of them as estimates.
+
+### The bill is not one tax, it is a stack
+
+What people call "PTA tax" is an assembly of separate federal charges applied at import or registration:
+
+- **Regulatory Duty (RD)** — a per-unit or percentage charge that steps up with the declared value band
+- **Additional Customs Duty (ACD)** — a percentage charge
+- **General Sales Tax (GST)** — applied on value, with a higher effective treatment once the device crosses the upper value band
+- **Mobile Device Levy (handset levy)** — a per-device charge banded by value
+- **Withholding / advance income tax** under section 148 of the Income Tax Ordinance
+
+Each component is keyed to the **customs-assessed US-dollar value** of the model, not the price you paid. Two buyers of the same phone, assessed under different value bands or at different exchange rates, can owe different amounts.
+
+### The rates moved in 2026
+
+Duties on imported mobile phones were **cut for FY2026-27**. Reporting on the FBR's briefing to the National Assembly finance committee put the reduction at around 20 per cent, taking effect from 1 July 2026, with the revised tariff detail set out in a commerce ministry brief reported in September 2026. Among the changes reported:
+
+- Regulatory duty on completely-built-up smartphones valued **above $500** reduced from **Rs 22,000 to Rs 17,600** per unit
+- **Additional Customs Duty** reduced from **6% to 4%** on the listed categories
+- The lowest band, devices valued up to $30, reduced from **Rs 300 to Rs 240**
+- For CKD/SKD local assembly, regulatory duty from **5% to 4%**
+
+Separately, the Finance Act 2026 has been reported to permit the sales tax element on an imported handset to be paid in **instalments through DIRBS**. If you are facing a large bill on a flagship, that is worth asking about explicitly during registration.
+
+### The calculators have not caught up, and they disagree badly
+
+This is the practical consequence. As of November 2026, popular third-party calculators return materially different figures for the same handset:
+
+| Model (illustrative) | One set of third-party estimates | Another set of third-party estimates |
+| --- | --- | --- |
+| iPhone 17, on **passport** | ~Rs 149,600 | ~Rs 128,800 |
+| iPhone 17, on **CNIC** | ~Rs 164,600 | ~Rs 154,300 |
+| iPhone 17 Pro Max, on **passport** | ~Rs 205,000 | ~Rs 182,700 |
+| iPhone 17 Pro Max, on **CNIC** | ~Rs 225,400 | ~Rs 213,600 |
+
+**These are unverified third-party estimates reproduced to show the spread, not rates to budget against.** The gap between the two columns is tens of thousands of rupees on a single handset, and it largely reflects whether a given site has applied the July 2026 reduction. Some tables are stale; some are affiliate tools with no stated methodology.
+
+**The only authoritative figure is the PSID that DIRBS generates for your specific IMEI, CNIC or passport, and date.** Everything else is a guess, including a well-meaning guess from a shopkeeper in Hafeez Centre or Saddar.
+
+## Passport vs CNIC: Why It Matters
+
+Registering against a **passport** is consistently cheaper than registering against a **CNIC**, and on flagship devices the difference commonly runs to tens of thousands of rupees.
+
+The passport route exists for travellers who physically brought the device in, and it is validated against your travel record and the 60-day window. The CNIC route is the general case and carries the higher charge.
+
+The practical implication for anyone buying abroad: **register during your 60-day window on your passport.** Letting the window lapse and registering later on your CNIC is a straightforwardly more expensive outcome for the identical handset.
+
+## How to Register and Pay
+
+- **Start the registration.** Dial **`*8484#`** and work through the menu, or use the DIRBS portal. You will enter your CNIC or passport and travel credentials, plus the IMEI or IMEIs.
+- **Enter every IMEI.** On a dual-SIM handset, register both. This is the most common avoidable error.
+- **Generate the PSID.** The system produces a Payment Slip ID with the actual amount due for your device.
+- **Pay the PSID** through the available banking channels, branch, ATM, internet banking or mobile wallet, as presented at the time.
+- **Verify afterwards.** Send the IMEI to **8484** again and confirm the status has moved to compliant. Do not assume payment equals registration. Keep the receipt and the confirmation.
+
+## The Gap DIRBS Does Not Close: Stolen and Locked Phones
+
+This is the part that costs Pakistani buyers real money, and it is widely misunderstood.
+
+**A compliant DIRBS status tells you the handset is type-approved and its taxes are settled. It does not tell you the phone was not stolen.** DIRBS is a tax and approval register. It is not a theft database, and it does not know what happened to a handset before it entered Pakistan.
+
+A very large share of used phones sold in Pakistan arrived from the **United States, the United Kingdom, the UAE and Gulf states**. A phone can be perfectly compliant with PTA, fully paid, showing a clean status on 8484, and still be:
+
+- **Reported lost or stolen** in its country of origin, and listed on international blacklists
+- **iCloud Activation Locked** to a stranger's Apple account, which no shop and no software can remove
+- **Carrier-locked** to a foreign network such as T-Mobile or AT&T
+- **Under finance lock or Knox Guard**, because the original buyer stopped paying an instalment plan
+- **Under MDM enrolment**, because it was a corporate device that was never released
+
+None of these show up in a PTA DIRBS status check. They are separate questions, and they are checkable:
+
+| Question | Answered by DIRBS? | What answers it |
+| --- | --- | --- |
+| Is the IMEI valid, and does the model match the claim? | Partly | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Was it reported lost or stolen internationally? | **No** | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| Is iCloud Activation Lock still on? | **No** | [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) |
+| Is the iPhone locked to a foreign carrier? | **No** | [SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) |
+| Is it under remote management (MDM)? | **No** | [MDM Check](https://imeihub.net/service.php?slug=apple-mdm) |
+| Is a Samsung under Knox Guard or finance lock? | **No** | [Samsung Info Check](https://imeihub.net/service.php?slug=samsung-info) |
+| Is the Xiaomi under Mi Account lock? | **No** | [Xiaomi Status Check](https://imeihub.net/service.php?slug=xiaomi-status) |
+| Are taxes paid and is it type-approved for Pakistan? | **Yes** | SMS 8484 or `dirbs.pta.gov.pk` |
+
+### Buying Used in Pakistan: The Short Checklist
+
+- **Dial `*#06#` yourself** on the handset in front of you. Never accept a number read aloud or shown in a screenshot.
+- **Send that IMEI to 8484** and see the reply on your own phone, not the seller's.
+- **Run the international checks** before money moves. A clean PTA status plus an international blacklist hit is a phone you walk away from.
+- **Factory reset in front of the seller and complete setup fresh.** This is the only reliable way to expose iCloud Activation Lock or a Google account lock. A phone that cannot finish setup without someone else's password is not yours.
+- **Compare three numbers:** `*#06#`, the box, and the SIM tray or chassis label. Any mismatch means walk away.
+- **Treat a price far below market as information.** On Pakistan's used market, a flagship at a third of the going rate is far more often blocked, locked or stolen than it is a bargain.
+
+## Frequently Asked Questions
+
+**My phone works on Wi-Fi but has no signal. Is it a PTA block?**
+Very possibly. A DIRBS block removes cellular service while leaving Wi-Fi untouched, which is the classic signature. Send the IMEI to 8484 before you pay anyone for a repair.
+
+**Can a blocked phone be unblocked?**
+Where the device is eligible, registering it and paying the assessed amount is the route back. There is no legitimate shortcut, and services offering to "remove a PTA block" without registration are either changing the IMEI, which is illegal, or taking your money.
+
+**Is the SMS to 8484 free?**
+Sources disagree, and some networks have treated it as free while others apply a standard SMS rate of a rupee or two. Either way the cost is trivial compared with getting the answer wrong.
+
+**Do I need to register a phone I only use on Wi-Fi?**
+No. DIRBS governs access to Pakistani mobile networks. A tablet or handset used purely on Wi-Fi does not need registration, though it also will not work with a local SIM.
+
+**I have two IMEIs. Do I pay twice?**
+No. A dual-SIM handset is one device, and both IMEIs are registered together as part of the same device registration. But you do need to enter both.
+
+---
+
+_Regulatory and tax details above reflect public reporting available as at 14 November 2026, including the FY2026-27 duty reduction reported as effective 1 July 2026 with tariff detail reported in September 2026. Pakistani mobile device taxation changes with each Finance Act and with customs valuation notifications issued during the year, and the rupee figures shown are unverified third-party estimates reproduced only to illustrate how widely published calculators disagree. They are not rates to budget against. Confirm your own liability with the PSID generated for your device at `dirbs.pta.gov.pk`, by dialling `*8484#`, or with PTA and FBR directly before making any payment._
+ARTICLE_20261114_PK,
+    ],
+
 ];
