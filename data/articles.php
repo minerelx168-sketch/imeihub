@@ -15989,6 +15989,91 @@ Whether you are a Myanmar resident, an expat, or a traveller with a foreign devi
 Registering on ceir.gov.mm takes less than ten minutes. The alternative — a permanently blocked phone — costs far more to resolve.
 MD,
     ],
+    [
+        'slug'    => 'ncc-imei-check-verify-phone-imei-nigeria',
+        'title'   => 'NCC IMEI Check: Verify a Phone IMEI in Nigeria',
+        'excerpt' => 'Buying a phone in Lagos or Abuja? Learn how NCC rules target counterfeit and stolen IMEIs, and verify any phone before you pay.',
+        'date'    => '2026-11-06',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## NCC IMEI Check in Nigeria: What Buyers Need to Know
+
+Nigeria is one of Africa's biggest mobile markets, and also one of the busiest for second-hand, imported and cloned handsets. The **Nigerian Communications Commission (NCC)** regulates the sector. Its policies on type approval, counterfeit devices and stolen handsets all revolve around one identifier: the **IMEI** (International Mobile Equipment Identity).
+
+If you want to **verify a phone IMEI in Nigeria** before paying, this guide explains what the NCC cares about, what you can check yourself in a few minutes, and how to avoid the most common market scams.
+
+## Why the NCC Cares About IMEI Numbers
+
+Every genuine phone has a unique 15-digit IMEI. Regulators and operators use it to:
+
+- **Identify the device** - brand, model and manufacturer come from the first 8 digits (the TAC).
+- **Block stolen phones** - a reported IMEI can be barred from networks.
+- **Fight counterfeits and clones** - fake handsets often reuse a real IMEI or carry an invalid one.
+- **Enforce type approval** - devices sold in Nigeria are expected to meet NCC technical standards.
+
+The NCC has publicly discussed a **Device Management System (DMS)** approach to counter counterfeit and unapproved devices. Exact enforcement rules and timelines change, so always confirm current requirements on the official NCC website or its consumer line (**622**, toll-free) before relying on any blog, including this one.
+
+## What Happens to Counterfeit or Blacklisted IMEIs
+
+| IMEI problem | Typical risk for you |
+|---|---|
+| Reported stolen / blacklisted | Network can bar the handset; you may lose the money you paid |
+| Duplicate (cloned) IMEI | Two phones share one number; one or both can be blocked |
+| Invalid or all-zero IMEI | Usually a counterfeit or tampered device |
+| IMEI does not match the model | A fake or "refurbished" phone sold as a premium model |
+
+## How to Verify a Phone IMEI in Nigeria (5 Steps)
+
+- **Step 1: Dial *#06#** on the phone, or open Settings and About phone. Write down every IMEI shown (dual-SIM phones have two).
+- **Step 2: Match the box and the phone.** The IMEI on the box label, the SIM tray or back, and the dialler screen must be identical.
+- **Step 3: Run a free IMEI check** to confirm the brand and model match what the seller claims.
+- **Step 4: Run a blacklist check** to see whether the IMEI has been reported lost or stolen.
+- **Step 5: For iPhones, check iCloud status** so you do not buy an Activation-Locked device.
+
+Do all of this at the point of sale, before you hand over cash or make a transfer.
+
+## Free Checks vs Blacklist Checks
+
+| Check | What it tells you | Best for |
+|---|---|---|
+| Free IMEI check | Brand, model, basic specs | Spotting fake or mismatched models |
+| Blacklist check | Lost / stolen reports across databases | Used phones in Computer Village, Alaba and similar markets |
+| iCloud check (Apple) | Find My / Activation Lock status | Any second-hand iPhone |
+
+Run the checks here:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check)
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist)
+- [All IMEI services](https://imeihub.net/services.php)
+
+## Tips for Buyers in Lagos, Abuja and Beyond
+
+- **Never buy a phone without the seller present** and willing to let you check the IMEI first.
+- **Be wary of prices far below market.** Stolen or cloned phones are often cheap.
+- **Ask for a receipt** that lists the IMEI, plus the seller's name and number.
+- **Test the SIM slot and network** with your own SIM before you leave.
+- **Avoid phones with scratched, covered or missing IMEI labels.**
+
+## What to Do If Your Phone Is Stolen
+
+- **Contact your network operator** with your IMEI and ask for the handset to be blocked.
+- **File a police report** and keep a copy; operators may ask for it.
+- **For iPhones,** use Find My to enable Lost Mode.
+- **Keep your IMEI safe.** It is on the original box and receipt, so photograph both when you buy.
+
+## Frequently Asked Questions
+
+**Is there an NCC IMEI checker I can use myself?**
+Rules and public tools change. Check the NCC website or call 622 for the current official option, and use an independent blacklist check as a second opinion.
+
+**Can a blacklisted phone be unblocked?**
+Only the party that reported it (the original owner or operator) can normally clear it. Do not buy a phone that fails a blacklist check.
+
+**Does a clean check guarantee the phone is genuine?**
+No. It lowers risk. Also inspect the phone physically and compare the IMEI in all places.
+
+Protect your money: [check any IMEI free](https://imeihub.net/service.php?slug=free-imei-check) before you buy.
+MD,
+    ],
 
 ];
-
