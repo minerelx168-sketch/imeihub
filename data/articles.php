@@ -8,6 +8,130 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-airtag-find-nearby',
+        'title' => 'iPhone IMEI Check: Why Can I See My AirTag but Not the Arrow?',
+        'meta_title' => 'iPhone IMEI Check: Why AirTag Find Nearby Is Missing',
+        'excerpt' => 'Identify your iPhone, check Ultra Wideband support and location permissions, then test Find Nearby with your own AirTag in the same room.',
+        'date' => '2026-11-14',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_NOV14'
+An iPhone IMEI check can help identify the phone you plan to use with an AirTag. It cannot tell whether your keys are close enough for a direction arrow. If the item appears in Find My but Find Nearby is missing, check the exact iPhone model, location permission and distance first.
+
+**Key takeaways**
+
+- In Settings > General > About, read Model Name. If checking a listing, compare its 15-digit IMEI lookup result with the phone in hand.
+- In Find My, select Items and the AirTag attached to your belongings. A map pin alone does not demonstrate Precision Finding.
+- A paid Find My status report concerns the handset. It cannot locate an AirTag or test Ultra Wideband reception.
+
+## Which screen tells me what is working?
+
+Look at the item card before changing settings. A map location can help you decide where to start searching. A chime helps you listen once you are close. Distance and direction on the iPhone screen are the evidence that Precision Finding is working for this particular search.
+
+| What you see or hear | What it establishes | What to try next |
+| --- | --- | --- |
+| A location on the map | Find My has a location to display | Check the displayed time before traveling there |
+| The tag chimes | Sound can help you locate this item | Listen near drawers, bags and cushions |
+| A direction and distance | The nearby search has a directional reading | Move slowly and watch the distance change |
+| A model name from an IMEI | A starting point for checking specifications | Compare it with Apple's supported models |
+
+## How can I test Find Nearby before relying on it?
+
+Put your own AirTag on a table where you can see it. Testing at a known distance separates a missing feature from a missing item. Use the same phone, tag and room for the first attempt; a map pin at another address makes a poor hardware test.
+
+**1. Match the equipment.** Compare Model Name with [Apple's Ultra Wideband availability list](https://support.apple.com/en-us/109512). Check the region as well as the model. Then check the software requirement for your AirTag generation in [Apple's Find Nearby guide](https://support.apple.com/en-us/109021).
+
+**2. Check location access.** In Settings, open Privacy & Security, then Location Services. Select Find My, allow location access when using the app and enable Precise Location for the test.
+
+**3. Start a nearby search.** In Find My, select Items, your tag, then Find or Find Nearby if offered. Move around the room as prompted. Note whether the button is absent, the search is trying to connect, or a distance appears. Those are three different observations to give support.
+
+## Frequently Asked Questions
+
+A map pin, an audible chime and a direction arrow answer different questions about the same item. When comparing phones, record the exact model and what appeared during a nearby search. A screenshot from the map cannot stand in for that test on the phone you intend to use.
+
+### Can an IMEI checker tell me where my AirTag is?
+
+No. An iPhone IMEI identifies cellular equipment; it is not the identifier you enter to search for your keys. Open the Items tab in Find My and select your AirTag. If its location is old, treat it as a starting point for searching.
+
+### Why can I hear the AirTag but not see an arrow?
+
+Sound and directional guidance are separate features. A chime helps you search by ear; it does not establish that the phone supports Precision Finding. Check the model and location settings, then retry near the tag with fewer objects between it and the phone.
+
+### Can I use the iCloud website to test Find Nearby?
+
+No. Apple says AirTags do not appear on its Find Devices website. Use the Find My app on the iPhone you want to test. Make sure you are opening the tagged item under Items rather than selecting the phone under Devices.
+
+### Should I buy a Find My report if the button is missing?
+
+A handset status report will not add a Find Nearby button or check your permissions. Save the report for a question about the handset's reported status. For a missing button, identify the model and check the settings on the phone itself.
+
+## What should I check before buying a phone for this feature?
+
+Ask for the exact model name and, if possible, a nearby demonstration using a tag the owner can access. Seeing the distance change is more useful than seeing a seller's map screenshot. If you only have the handset identifier, start with [imeihub's free model lookup](https://imeihub.net/).
+ARTICLE_NOV14,
+    ],
+    [
+        'slug' => 'blacklisted-iphone-scam-likely-caller-id',
+        'title' => 'Does “Scam Likely” on My Calls Mean I Have a Blacklisted iPhone?',
+        'meta_title' => 'Blacklisted iPhone or Scam Likely Caller ID?',
+        'excerpt' => 'A scam label identifies a call, not an IMEI block. Check what the recipient saw and report a mislabeled number to the right carrier.',
+        'date' => '2026-11-14',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_NOV14'
+A “Scam Likely” label on an outgoing call does not establish that you have a blacklisted iPhone. The recipient is seeing a warning about the incoming call. An IMEI blacklist check concerns the handset's equipment identifier. To correct a mislabeled call, start with the number displayed and the service that supplied the warning.
+
+**Key takeaways**
+
+- Ask the recipient for the exact label, displayed number, call time and carrier or call-filtering app.
+- A phone number belongs in a mislabeled-call report. A device blacklist inquiry uses the 15-digit IMEI from Settings > General > About.
+- Free model identification, a paid blacklist report and a caller-label correction are three separate checks.
+
+## What does each result actually tell me?
+
+Match the identifier to the problem before ordering a report. If a customer says your shop's call rang but showed a scam warning, investigate the displayed calling number. If the carrier says the handset itself is blocked, ask which IMEI the carrier checked and why.
+
+| Evidence | What the result describes | Who can act on it |
+| --- | --- | --- |
+| Scam Likely appears as the call rings | Classification shown to the recipient | The service that supplied the label |
+| Wrong business name appears without a scam warning | Displayed caller identity | The carrier or caller ID provider |
+| A device blacklist report flags the IMEI | Reported equipment status in the records checked | The carrier responsible for the block |
+| Free lookup returns an iPhone model | Hardware family associated with the identifier | Use it to match the handset, not the calling number |
+
+## How do I report a legitimate call marked Scam Likely?
+
+First reproduce the warning with someone expecting your call. Ask which number actually appeared, especially if you use more than one line or a business phone system. Then report that displayed number to the provider responsible for the label. T-Mobile offers a form for incorrectly identified calls.
+
+**1. Record one specific example.** Note the date and time, the number you dialed from and the number the recipient saw. Ask whether the warning came from the carrier or a separate app. A cropped screenshot is useful; an entire call history is unnecessary.
+
+**2. Route the correction.** If the warning came from T-Mobile, use its [incorrectly identified call form](https://callreporting.t-mobile.com/). Describe why the call was expected. If a different provider or app supplied the warning, use that service's correction process instead.
+
+**3. Retest the same route.** Ask the same recipient to check a later call from the same number. A label disappearing on one network is evidence about that route, not a promise about every recipient. Keep device-service issues in a separate carrier support case.
+
+## Frequently Asked Questions
+
+Start with what the other person saw, because several different problems sound like “my phone is blocked.” A call can ring with a warning, display the wrong name or fail to connect at all. Only the first observation directly establishes that the recipient saw a warning label.
+
+### Should I buy an iPhone blacklist check to remove Scam Likely?
+
+No. A paid blacklist check reports information about the submitted IMEI; it does not change how a call appears on another person's screen. For a label correction, collect the number shown to the recipient and report a specific example to the labeling provider.
+
+### Does one customer's screenshot mean everyone sees the warning?
+
+No. The screenshot tells you what appeared for that customer on that call. Ask another willing recipient which carrier or app they use and what they see. Keep the results separate so the correction request goes to the service displaying the warning.
+
+### Should I enter my IMEI in the caller-number field?
+
+No. Enter the calling telephone number requested by the report form. Your iPhone may show IMEI and IMEI2 in About, but neither is a dialable number. Supplying a handset identifier instead would point the report at the wrong piece of information.
+
+### What if the call never rings and nobody sees a label?
+
+A failed call alone does not establish that it was labeled as spam. Note any recorded announcement and whether other expected calls connect. Give those observations to your carrier; if it identifies an equipment block, then investigate the specific IMEI separately.
+
+## Which check should come next?
+
+For a mislabeled business call, keep the recipient's evidence and pursue the number correction first. If a separate carrier inquiry raises a question about the handset, verify its identity before selecting any paid device report. You can [match the iPhone model by IMEI on imeihub](https://imeihub.net/).
+ARTICLE_NOV14,
+    ],
+    [
         'slug' => 'iphone-imei-check-usb-transfer-speed',
         'title' => 'iPhone IMEI Check: How Fast Can This USB-C Port Transfer Files?',
         'meta_title' => 'iPhone IMEI Check for USB-C File Transfer Speed',
