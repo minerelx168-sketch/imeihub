@@ -8,6 +8,150 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'bea-cukai-imei-registration-indonesia',
+        'title' => 'Bea Cukai IMEI Registration Indonesia: Full 2026 Guide',
+        'meta_title' => 'Bea Cukai IMEI Registration Indonesia 2026: Rules and Tax',
+        'excerpt' => 'Register your phone IMEI with Bea Cukai to avoid a network block in Indonesia. The USD 500 rule, the 60-day trap and what the tax really costs.',
+        'date' => '2026-11-15',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV15_ID'
+If you carry a phone into Indonesia and put an Indonesian SIM card in it, the network will stop serving that handset unless its **IMEI** is in the government database. The block has been live since April 2020, and it is enforced at the network level by every Indonesian operator. **Bea Cukai** (the Directorate General of Customs and Excise) is the agency that registers phones brought in by travellers.
+
+The rule itself is simple. The expensive part is the timing: registering your phone **before you leave the airport** can cut your bill roughly in half, and almost every traveller who gets this wrong finds out too late.
+
+**Key takeaways**
+
+- Registration is only required if you use an **Indonesian SIM or eSIM**. A foreign SIM on international roaming is exempt.
+- The **USD 500 duty exemption applies only if you register inside the customs area on arrival**. Register later and you pay tax on the full value of the phone.
+- You can still register at a customs office for up to **60 days** after arrival, but without the exemption.
+- The limit is **two handsets per passenger, per arrival**.
+- Registration itself is **free**. You only pay import duty and taxes if the value exceeds the exemption.
+- Bea Cukai registration proves the phone is legal to use in Indonesia. It does **not** prove the phone is not stolen somewhere else.
+
+## Do you actually need to register?
+
+Most travellers register when they did not need to, or skip it when they did. Work down this table before you do anything else.
+
+| Your situation | Registration needed | What to do |
+|---|---|---|
+| Short visit, using your home SIM on roaming | No | Nothing. Inbound roamers are exempt from IMEI verification |
+| Short visit, using a travel eSIM that roams on an Indonesian network | No | Nothing. The eSIM provider handles the connection |
+| Tourist buying a local Indonesian SIM or operator eSIM | Usually no | The operator can grant temporary access for up to 90 days on your passport |
+| Staying beyond 90 days on an Indonesian SIM | Yes | Register with Bea Cukai, ideally on arrival |
+| Moving to Indonesia with a phone bought abroad | Yes | Register at the airport on the day you land |
+| Buying a phone from a shop inside Indonesia | No | The importer or manufacturer registers it through Kemenperin |
+| Buying a used phone inside Indonesia | No, but verify | Check the IMEI before you pay |
+
+The last row is the one that catches residents rather than tourists. A second-hand phone sold in Jakarta, Surabaya or Denpasar may never have been registered by anyone, because it was carried in by a traveller who skipped the step. The seller is not blocked today, but the handset can be cut off later, and the cost of fixing it lands on you.
+
+## The USD 500 rule, and the mistake that doubles your tax
+
+Every arriving passenger gets an exemption of **USD 500** on personal goods. For phones, Bea Cukai applies two extra conditions that are easy to miss:
+
+- The exemption covers a **maximum of two devices** per passenger, per arrival.
+- The exemption is only granted when the IMEI is registered **inside the customs area** — that is, at the arrivals terminal, before you walk out.
+
+If you leave the airport without registering, you have not lost your chance to register. You have lost the **exemption**. Bea Cukai will still accept the registration at a local customs office (KPPBC) within **60 days** of arrival, but the duty and taxes are then calculated on the **full declared value** of the phone rather than on the amount above USD 500.
+
+### What that difference looks like in rupiah
+
+Take a phone bought overseas for **USD 1,000**. The exchange rate used is the NDPBM, a rate the Ministry of Finance sets weekly, so treat the figure below as illustrative. This example uses Rp 16,500 per USD.
+
+| Step | Registered at the airport | Registered later, within 60 days |
+|---|---|---|
+| Dutiable value | USD 1,000 less USD 500 equals USD 500 | Full USD 1,000, no exemption |
+| In rupiah | Rp 8,250,000 | Rp 16,500,000 |
+| Import duty at 10 percent | Rp 825,000 | Rp 1,650,000 |
+| Import value for taxes | Rp 9,075,000 | Rp 18,150,000 |
+| VAT (PPN) at 11 percent | Rp 998,250 | Rp 1,996,500 |
+| Income tax (PPh 22) at 10 percent with NPWP | Rp 907,500 | Rp 1,815,000 |
+| **Total payable** | **Rp 2,730,750** | **Rp 5,461,500** |
+
+Ten minutes at the customs counter is worth roughly **Rp 2.7 million** on a phone at this price. If you do not hold an Indonesian tax number (NPWP), PPh 22 is charged at 20 percent instead of 10, which pushes the airport figure to about Rp 3.64 million and the late figure to about Rp 7.28 million.
+
+A note on the VAT rate: Indonesia's headline PPN moved to 12 percent in January 2025, but the increase was applied to luxury categories, and consumer handsets are still assessed at the 11 percent effective rate in the Bea Cukai worked examples. Some third-party calculators show 12 percent. Use the **Mobile Bea Cukai** app for a binding simulation rather than any blog figure, including this one.
+
+## How to check whether an IMEI is already registered
+
+First, get the number. Dial `*#06#` on the handset and the IMEI appears on screen. Dual-SIM phones show two. Both matter, and Bea Cukai registers both against one device.
+
+The official check is on the Bea Cukai website at **beacukai.go.id/cek-imei.html**. Enter the 15-digit IMEI and the verification code shown on the page.
+
+One detail that trips people up, and that most guides still get wrong: the older Ministry of Industry checker at **imei.kemenperin.go.id** was withdrawn from public use, and reporting from September 2025 onward describes it as no longer available to consumers. Do not treat a failure to load that page as evidence that a phone is illegal.
+
+It also helps to understand that there is more than one database behind the scenes:
+
+| Database | What it contains | Who registers |
+|---|---|---|
+| Kemenperin | Phones imported or manufactured for sale in Indonesia | Importers, manufacturers, distributors |
+| Bea Cukai | Phones carried in by individual passengers | The traveller, on arrival |
+| Operator | Temporary tourist access tied to a passport | The mobile operator |
+
+Because these are separate records, a phone can legitimately appear in one and not another. A handset you bought at a mall in Bandung should be in the Kemenperin set. A handset you carried from Singapore should be in the Bea Cukai set. Neither will show up in the other.
+
+## Step by step: registering on arrival
+
+### Before you fly
+
+Complete the arrival declaration online. Indonesia moved to the **All Indonesia** arrival card from 1 October 2025, with the electronic customs declaration (e-CD) still in use for pre-registration. Submit it in the days immediately before you land, declare the phone, and save the QR code or barcode it generates. Screenshot it. Airport wifi is not something to depend on while a queue builds behind you.
+
+### At the airport
+
+- Collect your baggage first. The IMEI counter sits in the customs hall, after the baggage belts.
+- Go to the customs officer or the dedicated IMEI desk and present your **passport, boarding pass, the QR code, and the handset itself**.
+- Bring the **receipt or invoice**. Without proof of price, the officer assigns a value, and the assigned value is rarely in your favour.
+- The officer records the IMEI and issues a payment code if duty is owed. Pay at the bank counter or through the app.
+- Allow up to **2 x 24 hours** for the registration to propagate to the operators before the Indonesian SIM connects reliably.
+
+### If you already left the airport
+
+Go to the nearest KPPBC customs office within 60 days, with the same documents. Expect to pay duty and taxes on the full value, as set out above. After 60 days, the passenger route is closed and the handset cannot be registered this way at all.
+
+## What Bea Cukai registration does not tell you
+
+This is the gap that costs Indonesian buyers the most money, and it is worth being precise about it.
+
+Bea Cukai answers one question: **has duty been settled on this phone so it is allowed on Indonesian networks?** It is a tax and import record. It is not a theft record, and it is not an ownership record.
+
+A phone can be properly registered with Bea Cukai and still be:
+
+- **Reported lost or stolen in another country** and listed on the GSMA global blacklist. The duty was paid by whoever carried it in. That has no bearing on who owned it before.
+- **Locked to iCloud or a Google account**, which makes the handset unusable after a factory reset no matter what its customs status is.
+- **Locked to a foreign carrier**, so an Indonesian SIM is rejected for reasons that have nothing to do with the IMEI database.
+- **Carrying a cloned IMEI** copied from a genuine registered device, which is the standard technique for passing an IMEI check with a handset that should not pass one.
+
+If you are buying a used phone in Indonesia, or buying abroad to bring home, the customs check and the international status check answer different questions and you want both.
+
+| Question | Where to check |
+|---|---|
+| Is it legal to use on Indonesian networks | beacukai.go.id/cek-imei.html |
+| Was it reported stolen anywhere in the world | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| What model, storage and specification is it really | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+
+Run the free check first. If the brand, model and storage it returns do not match the phone in your hand or the listing in front of you, stop there. That mismatch is the clearest single sign of a cloned or misrepresented IMEI, and no amount of customs paperwork will fix it.
+
+## Common mistakes
+
+- **Registering a phone you did not need to register.** If you are on roaming, you owe nothing and need to do nothing.
+- **Declaring a value far below the receipt.** Officers check, and an invented figure invites a reassessment at a higher value.
+- **Assuming the exemption follows you out of the airport.** It does not. It ends at the customs hall.
+- **Registering more than two handsets on one passport.** The third device gets no exemption.
+- **Trusting a seller's screenshot.** Screenshots are trivially edited. Dial `*#06#` on the actual handset and check that number yourself.
+- **Waiting past 60 days.** The passenger registration route closes entirely, and the remaining options are considerably worse.
+
+## Before you buy or fly
+
+If you are bringing a phone into Indonesia, register it at the airport on the day you arrive. That single decision is worth more than every other tip on this page combined.
+
+If you are buying a used phone inside Indonesia, check the IMEI against the global record before money changes hands, not after:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand, model, storage and specification actually match the handset being sold
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the device has been reported lost or stolen in any country connected to the global GSMA database
+
+Rules, rates and exchange rates change. Confirm current figures with Bea Cukai on 1500225, through the Mobile Bea Cukai app, or at beacukai.go.id before you rely on any number in this guide.
+ARTICLE_NOV15_ID,
+    ],
+    [
         'slug' => 'iphone-imei-check-airtag-find-nearby',
         'title' => 'iPhone IMEI Check: Why Can I See My AirTag but Not the Arrow?',
         'meta_title' => 'iPhone IMEI Check: Why AirTag Find Nearby Is Missing',
