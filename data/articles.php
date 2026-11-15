@@ -8,6 +8,130 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-applecare-proof-of-coverage',
+        'title' => 'iPhone Serial Number Check: Where Is My AppleCare Proof of Coverage?',
+        'meta_title' => 'iPhone Serial Number Check for AppleCare Proof of Coverage',
+        'excerpt' => 'Match the iPhone to its AppleCare plan, open Apple\'s proof of coverage, and learn what to check when the document is missing.',
+        'date' => '2026-11-15',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_NOV15'
+An iPhone serial number check helps identify the phone, but the serial number itself is not your AppleCare agreement number. To get Apple's proof of coverage, sign in to My Support, select the covered device and open View Proof of Coverage. A model lookup cannot issue that document.
+
+**Key takeaways**
+
+- Read Serial Number in Settings > General > About. Two phones with the same model name can have different plans.
+- Check the plan on the phone under Settings > General > AppleCare & Warranty. Use My Support for the coverage document.
+- A 15-digit IMEI belongs in an IMEI lookup. Do not enter it in a field that asks for an AppleCare agreement number.
+
+## Which record should I use when someone asks for proof?
+
+Ask what the recipient needs: the identity of the handset, the date its coverage ends, or the AppleCare agreement itself. Each comes from a different field or document. If the request specifically names proof of coverage, use Apple's record for the selected device rather than a screenshot of a lookup.
+
+| Request | Where to look | What to supply |
+| --- | --- | --- |
+| Identify this particular iPhone | General > About | The serial number when requested |
+| Check the displayed coverage end date | General > AppleCare & Warranty > your device | The date shown for that phone |
+| Provide proof of the AppleCare agreement | My Support > your device | Apple's proof of coverage |
+| Identify a handset from its IMEI | Free basic model lookup | A model match, not evidence of a plan |
+
+## How do I get the document for the right iPhone?
+
+Start on the phone if you have it, especially when your account lists an old iPhone alongside its replacement. Note the serial number before you sign in. Choose the matching device in My Support and open its proof of coverage using [Apple's coverage instructions](https://support.apple.com/en-us/102607).
+
+**1. Identify the handset.** Read the serial directly in About. If you keep records for several identical phones, use the last few characters to tell your own notes apart. Use the full number only where Apple asks for it.
+
+**2. Retrieve the plan record.** Open [My Support](https://mysupport.apple.com/), sign in to your Apple Account, select the device and choose View Proof of Coverage. If the document is missing, Apple directs you to check whether two-factor authentication is set up on the account.
+
+**3. Separate a missing document from a missing plan.** If the plan itself is absent, consult [Apple's missing-plan instructions](https://support.apple.com/en-us/102190). Check whether the plan still needs to be linked to your Apple Account. Have your purchase records ready if Apple needs to reconcile the device and plan.
+
+## Frequently Asked Questions
+
+An AppleCare request can stall because the form asks for a different number than the one in front of you. Read the field label first. A device serial identifies hardware; the agreement number identifies a plan. When a document is requested, a number on its own may be insufficient.
+
+### Is my AppleCare agreement number the same as my iPhone serial number?
+
+No. The serial number identifies the iPhone. The agreement number identifies the coverage agreement for it. If a form asks for the agreement number, look up the plan in My Support rather than copying the serial or the IMEI from the phone.
+
+### Why can I see an expiration date but no proof of coverage?
+
+The on-device coverage screen and the proof document serve different purposes. Sign in to My Support, select the device there and look for View Proof of Coverage. If the option is missing, check two-factor authentication as Apple recommends before concluding that the plan expired.
+
+### Does a shop receipt count as Apple's proof of coverage?
+
+A shop receipt records a purchase. It may help Apple resolve a missing plan, but it is not the document labeled View Proof of Coverage in My Support. If someone asks for the receipt instead, confirm which purchase and document they mean.
+
+### Can I buy an IMEI report to get the agreement document?
+
+No. A free model lookup identifies hardware, and a paid device report provides only the fields described for that service. Neither issues Apple's account document. If your handset matches but the plan is absent, follow up with Apple about the missing agreement.
+
+## What should I keep with the document?
+
+Keep the coverage document with a note identifying the phone it belongs to, especially if you manage several devices of the same model. Retrieve the agreement from Apple whenever the document is what matters. If your inventory starts with an IMEI, [identify the model on imeihub](https://imeihub.net/).
+ARTICLE_NOV15,
+    ],
+    [
+        'slug' => 'samsung-tab-a-imei-offline-gps-navigation',
+        'title' => 'No Samsung Tab A IMEI: Can a Wi-Fi Galaxy Tab A9 Navigate Offline?',
+        'meta_title' => 'No Samsung Tab A IMEI? Check GPS and Offline Maps',
+        'excerpt' => 'Check the Wi-Fi Galaxy Tab A9\'s GPS specification, download the full driving route, and test offline directions without a SIM or IMEI.',
+        'date' => '2026-11-15',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_NOV15'
+A missing Samsung Tab A IMEI does not rule out GPS navigation. Samsung lists GPS on its Wi-Fi Galaxy Tab A9, model SM-X110. To use it for offline driving, verify your particular model, download a map covering the whole route and check that the tablet can locate you without an internet connection.
+
+**Key takeaways**
+
+- Find Model number under Settings > About tablet. Match that code to Samsung's specification before buying a cellular plan.
+- GPS supplies a position; a downloaded map supplies roads. A working blue dot does not mean your destination is saved.
+- Use a 15-digit IMEI only for a cellular device lookup. Neither free model identification nor a paid status report tests GPS reception.
+
+## Which specification matters more than an IMEI for navigation?
+
+Look for Location Technology on the product page for the exact model. Samsung lists GPS for the [Wi-Fi Galaxy Tab A9 SM-X110](https://www.samsung.com/ie/business/tablets/galaxy-tab-a/galaxy-tab-a9-wifi-graphite-128gb-sm-x110nzaeeub/). That confirms this version has satellite positioning. It does not tell you whether a particular mapping app has downloaded your roads or has permission to use your location.
+
+| Evidence | What it answers | What remains to check |
+| --- | --- | --- |
+| GPS in the matching model specification | Is the receiver part of this model? | Whether this unit gets a usable position |
+| Current position updates outdoors | Can the app locate the tablet here? | Whether the route is available offline |
+| Entire drive inside a downloaded map | Is the road data saved for this trip? | Whether the map is current |
+| IMEI model result for a cellular Tab | Which model family matches the identifier? | Receiver performance and offline map coverage |
+
+## How can I test a route before leaving Wi-Fi?
+
+Download the area while you still have internet access, then try the intended drive with Wi-Fi disconnected and Location turned on. Check both the starting point and the destination. A route between two saved places may still leave the downloaded area halfway through the journey.
+
+**1. Save the roads.** In Google Maps, open your profile menu, choose Offline maps and select your own map. Frame the entire drive, including a planned detour, then download it. Availability varies by region; check [Google's offline map guidance](https://support.google.com/maps/answer/6291838?hl=en).
+
+**2. Check the position.** Outside with a clear view of the sky, turn off Wi-Fi and disconnect any phone hotspot. Give Maps location access and use its location button. Check that the dot follows a short walk rather than just showing your last known position.
+
+**3. Test the directions while stationary.** With the network still disconnected, request driving directions to the destination. If the dot moves but the route fails, reconnect and inspect the saved map boundaries before blaming the GPS receiver.
+
+## Frequently Asked Questions
+
+Three observations are easy to confuse on a tablet: a road drawn on a map, a dot that marks your position and a route the app can calculate offline. Check each one separately. Testing only at home on Wi-Fi leaves the last two questions unresolved.
+
+### Does a Wi-Fi Galaxy Tab A9 need a SIM card to receive GPS?
+
+No. Samsung lists GPS for the Wi-Fi SM-X110 itself. You can download map data over Wi-Fi before departure. Check the code on your tablet before applying that answer to another Galaxy Tab A model, because the family name alone is less specific.
+
+### Why does the dot move but Google Maps cannot give me a route?
+
+The position and route use different information. A tablet may know where you are while the app lacks roads for part of your drive. Confirm that you selected driving directions and that the whole route fits inside a current downloaded area.
+
+### Can I use the same offline map for walking directions or live traffic?
+
+Google Maps does not provide offline walking, cycling or transit directions. Offline driving also lacks live traffic and alternate routes. A downloaded road map can still be useful to look at, but that is different from receiving directions for your chosen travel mode.
+
+### Can a free IMEI checker test the GPS on a used tablet?
+
+No. A free lookup identifies the model associated with a cellular tablet's IMEI. A paid blacklist report answers a device-status question. Neither receives a satellite signal from the tablet in front of you; test that unit outdoors with location enabled.
+
+## What should I verify before choosing a tablet for a trip?
+
+Choose the model against the navigation job: confirm its GPS specification, save the complete route and test the app offline before departure. The Wi-Fi SM-X110 does not need an invented IMEI. If you are comparing a cellular variant, [check its model with imeihub](https://imeihub.net/).
+ARTICLE_NOV15,
+    ],
+    [
         'slug' => 'iphone-imei-check-airtag-find-nearby',
         'title' => 'iPhone IMEI Check: Why Can I See My AirTag but Not the Arrow?',
         'meta_title' => 'iPhone IMEI Check: Why AirTag Find Nearby Is Missing',
