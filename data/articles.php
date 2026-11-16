@@ -8,6 +8,139 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'sierra-leone-imei-check',
+        'title' => 'Sierra Leone IMEI Check: Verify a Used Phone in 2026',
+        'meta_title' => 'Sierra Leone IMEI Check 2026: Stolen and Blacklist Guide',
+        'excerpt' => 'Sierra Leone has no national IMEI blacklist. Here is what an IMEI check really proves before you pay for a used phone in Freetown, Bo or Kenema.',
+        'date' => '2026-11-16',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV16_SL'
+Almost every smartphone sold in Sierra Leone arrived here second-hand. Phones come in from Europe, the United States, Dubai and neighbouring Guinea, pass through a shop in central Freetown or a stall in Bo or Kenema, and change hands two or three more times after that. The **IMEI** is the only number that stays with the handset through all of it, which makes it the one thing worth checking before you hand over your leones.
+
+There is an uncomfortable fact to get out of the way first. **Sierra Leone does not operate a national stolen-phone blacklist.** No public register exists where you can type an IMEI and have the state tell you whether that phone was snatched in Freetown last month. That is precisely why the check you *can* run matters so much, and why knowing the difference between a device check and the SIM rules everyone has been talking about since 1 November is worth real money.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset to display its IMEI. Do this on the actual phone, never from a seller's screenshot.
+- The regulator is now **NatCA**, the National Communications Authority, established under the National Communications Authority Act 2022 and renamed from NATCOM in December 2023.
+- The **1 November 2026 deadline** that deactivated unlinked SIMs was about linking your **SIM to your National Identification Number**. It has nothing to do with your handset's IMEI.
+- As of November 2026 there is **no announced national IMEI or device register** in Sierra Leone, and no local blacklist lookup.
+- The protection available to you is the **global GSMA blacklist**, which records devices reported lost or stolen by operators in participating countries, plus **Apple and Samsung account locks**.
+- A phone that passes every check in Sierra Leone can still be dead weight if it is **iCloud locked**, and locked handsets are openly advertised in local listings.
+
+## Does Sierra Leone have a national IMEI blacklist?
+
+No, and it is important to be precise about what does exist, because two separate systems get mistaken for one.
+
+NatCA runs a **type approval** regime for equipment. Under the type approval regulations made beneath the Telecommunications Act, electronic communications equipment may only be imported, supplied or used in Sierra Leone if it has been type approved by the regulator or expressly exempted. Mobile handsets sit in the terminal equipment category. Approved equipment is supposed to carry a label showing the regulator's logo, the product type and a unique Type Approval Number, and the regulator maintains a national database of terminal equipment imported and traded in the country.
+
+Read that carefully and you will see what it is: an **importer-facing register of equipment models and consignments**. It answers the question *is this type of device approved for sale here*. It does not answer *was this particular handset stolen from someone*. Those are different questions, and conflating them is the single most common error in guides written about this market.
+
+| System | What it actually covers | Can you look up one phone? |
+|---|---|---|
+| NatCA type approval | Whether a model of equipment is approved for import and sale | No. It is not a public per-device lookup |
+| SIM registration and NIN linkage | Who the subscriber is, tied to a national ID | Status of your own SIM only, via `*999#` |
+| Operator records | SIMs, accounts and usage on that one network | Not to the public, and not across networks |
+| GSMA global blacklist | Handsets reported lost or stolen by participating operators worldwide | Yes, by IMEI |
+
+If NatCA announces a device register or an equipment identity register later, it will appear on [natca.gov.sl](https://natca.gov.sl/). Until then, treat any website that claims to search an official Sierra Leonean stolen-phone database as a site making a claim it cannot support.
+
+## The 1 November 2026 SIM deadline was about your SIM, not your phone
+
+Through October, NatCA ran a national campaign to link every active SIM card to a **National Identification Number**, working with the civil registration authority and directing mobile network operators and mobile money operators to deactivate subscribers who had not completed the link by **1 November 2026**. The regulator framed it as an anti-fraud and cybersecurity measure. You can check the status of a line by dialling `*999#` on Orange, Africell or QCell.
+
+Plenty of people spent that month believing their *phone* needed registering. It did not. Nothing in the SIM-NIN exercise touches the IMEI, and completing it tells you nothing about the handset's history.
+
+| Question | SIM-NIN linkage | IMEI check |
+|---|---|---|
+| Will my line keep working after 1 November 2026 | Yes, this is the relevant rule | No |
+| Is the SIM registered in my own name | Yes, dial `*999#` | No |
+| Was this handset reported stolen abroad | No | Yes, via the global blacklist |
+| Is this handset locked to an Apple or Samsung account | No | Yes, via a lock status check |
+| Is the model what the seller claims | No | Yes, via a free model lookup |
+
+One practical consequence of the deadline is worth noting for buyers. A deactivated SIM makes a phone look faulty. If a handset you are inspecting cannot register on the network, establish whether the problem is the **SIM** (unlinked and switched off), the **network lock** (tied to a foreign carrier) or the **handset** before you accept any explanation from the person selling it.
+
+## How to read the IMEI off a phone you are about to buy
+
+Three places should agree. If they do not, walk away.
+
+- **On screen:** dial `*#06#` in the phone app. The IMEI appears immediately, on both Android and iPhone. A dual-SIM phone shows two numbers, and both belong to that handset.
+- **In settings:** on iPhone, Settings, then General, then About. On Android, Settings, then About phone, then Status or IMEI information.
+- **On the hardware or packaging:** the SIM tray on many iPhones, the label under a removable battery on older Android phones, and the barcode on the retail box.
+
+A genuine phone matches in all three. A mismatch between the screen and the box usually means the box is not the phone's own, which is common and not damning on its own. A mismatch between `*#06#` and the engraved tray is far more serious: that is the signature of a **cloned IMEI**, where a working number copied from another device has been flashed onto a handset that would otherwise fail a check.
+
+Also confirm the number is 15 digits and passes its own checksum. Any valid IMEI satisfies the Luhn formula, so a number that fails it was invented rather than issued.
+
+## What an IMEI check can and cannot tell you here
+
+| What you want to know | Can an IMEI check answer it? | Where it comes from |
+|---|---|---|
+| Real brand, model, storage and specification | Yes | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Reported lost or stolen in a participating country | Yes | [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud Activation Lock, clean or lost | Yes | [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) |
+| Locked to a foreign carrier | Yes, for iPhone | [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) |
+| Knox Guard status on a Samsung handset | Yes | [Samsung Info + Knox Guard](https://imeihub.net/service.php?slug=samsung-info) |
+| Stolen in Freetown last week and never reported abroad | **No** | No national register exists to carry that record |
+| Who owns the phone, or where it is now | **No** | Ownership and location are not in any IMEI database |
+| Whether the seller has the right to sell it | **No** | Ask for a receipt and identification |
+
+That sixth row is the honest limit of this market. A handset stolen locally and resold locally may never appear on any blacklist, because no Sierra Leonean system feeds theft reports into one. What a global check does catch is the much larger category of phones that were **reported stolen overseas and then exported**, which is exactly how a large share of cheap flagship handsets reach West African counters.
+
+## The three checks that protect a used-phone buyer
+
+Run them in this order. The first is free and eliminates the worst listings before you spend anything.
+
+**1. Match the model.** Run a [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) and compare what comes back against the phone in your hand. If the lookup says 64 GB and the seller says 256 GB, or it returns a different model year, the number has been tampered with or the listing is false. This single step catches most clones and most misdescriptions.
+
+**2. Check the global blacklist.** A [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) check tells you whether the handset has been reported lost or stolen by an operator in any participating country. A blacklisted phone may work perfectly on an Africell or Orange SIM today and still be unusable the moment it travels, or the moment a local operator begins honouring global records.
+
+**3. Check the account locks.** For an iPhone, [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) status is the difference between a phone and a paperweight. Listings in Sierra Leone openly advertise iCloud-locked American handsets with a note to buy now and unlock later. There is no legitimate remote unlock for Activation Lock: only the original Apple account holder can remove it. For a Samsung, check [Knox Guard](https://imeihub.net/service.php?slug=samsung-info), which lets a finance company or employer lock the device remotely.
+
+## Inspecting a used phone before you pay
+
+- Insist on seeing `*#06#` typed on the handset in front of you. **Screenshots are worthless**: they take seconds to edit.
+- Compare the on-screen IMEI against the SIM tray or label.
+- Look for the **NatCA type approval label** on the box or device. Its absence is not proof of theft, but a legitimately imported retail unit should carry one.
+- Put your own SIM in and make a call. Then test both SIM slots on a dual-SIM phone.
+- Ask the seller to **sign out of iCloud or the Google account in front of you**, then restart the phone. A phone that demands a previous owner's password after a restart is not yours to use.
+- Do not accept a factory reset performed after you pay. The reset is where Activation Lock reveals itself, so it belongs before the money moves.
+- Get a receipt with the seller's name, phone number and the IMEI written on it. For a shop, ask about a return window in writing.
+- Check charging, both cameras, the speaker, the microphone and battery health in the same session. An IMEI check verifies identity and status, never physical condition.
+
+## If your phone is stolen in Sierra Leone
+
+The **Sierra Leone Police Cyber Unit** handles stolen-phone cases and asks owners to come with the **IMEI, the make and model, and any purchase receipt**. Without the IMEI there is very little an investigator can work with, so record it now, while you still have the phone.
+
+- **Record the IMEI today.** Dial `*#06#` and store it somewhere that is not on the phone: a photo in your email, a note in a cloud account, a line in your contacts list.
+- **Report to the police** as soon as possible and keep the reference. Mention the IMEI explicitly in the report.
+- **Tell your operator** so the SIM can be barred. Barring the SIM stops calls and mobile money on that line. It does not stop the handset being used with another SIM.
+- **Lock the device remotely.** Find My iPhone, or Find Hub on Android, lets you lock the handset and display a message. Do this before a thief gets to a factory reset.
+- **Change the passwords** on your email, mobile money and social accounts, in that order.
+- **Report the IMEI as lost or stolen** so it reaches the global record. A local police report alone will not reach the international database, and the global record is what protects the next buyer.
+
+## Common mistakes
+
+- **Believing a local check proves a phone is clean.** There is no national register to check. A seller saying the phone passed a government check is describing something that does not exist.
+- **Confusing SIM registration with device registration.** The 1 November 2026 deadline applied to SIMs and national IDs, not to IMEIs.
+- **Accepting a seller's screenshot.** Dial `*#06#` on the handset yourself, every time.
+- **Paying before the reset.** Activation Lock appears after a factory reset, which is the moment that must happen before money changes hands.
+- **Assuming a working SIM means a clean handset.** A blacklisted or locked phone can make calls here today and be worthless next month or in the next country.
+- **Buying an iCloud-locked phone at a discount.** The discount exists because the phone cannot be used by you. No service can remove Activation Lock for you.
+
+## Before you pay
+
+Run the free model lookup first, and treat any mismatch between the lookup and the handset as the end of the conversation. If the phone is worth more than a few weeks of income, add the blacklist and lock checks before you pay, not after:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand, model and storage match the handset in front of you
+- [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) — the single most important check on any second-hand iPhone
+
+Rules change, and regulators add systems. Confirm the current position on SIM registration, type approval and any new device register with NatCA at [natca.gov.sl](https://natca.gov.sl/) or with your operator before relying on any detail in this guide.
+ARTICLE_NOV16_SL,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-applecare-proof-of-coverage',
         'title' => 'iPhone Serial Number Check: Where Is My AppleCare Proof of Coverage?',
         'meta_title' => 'iPhone Serial Number Check for AppleCare Proof of Coverage',
