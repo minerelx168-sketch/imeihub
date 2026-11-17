@@ -8,6 +8,185 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'togo-verification-imei',
+        'title' => 'Vérification IMEI Togo: Check Any Used Phone in 2026',
+        'meta_title' => 'Vérification IMEI Togo 2026: Stolen and Blacklist Check',
+        'excerpt' => 'Togo has no national stolen-phone register. Here is what a vérification IMEI really proves before you pay for a used phone in Lomé, Kara or Sokodé.',
+        'date' => '2026-11-17',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV17_TG'
+Walk through **Assigamé**, the Grand Marché in Lomé, or down the Rue du Commerce, and you will pass a hundred phones for sale before you reach the end of the street. Almost none of them were bought new in Togo. They came in through the **Port of Lomé** and Lomé–Tokoin airport from Europe, Dubai, China and the United States, some destined for Togolese buyers and many more for onward trade into Burkina Faso, Niger and Mali. Each handset carries one number that survives every resale, every SIM swap and every factory reset: the **IMEI**.
+
+That makes the *vérification IMEI* the single most useful thing you can do before handing over your CFA francs. But it only helps if you know what it can and cannot prove here, and there is one hard fact to state plainly before anything else.
+
+**Togo does not operate a public national stolen-phone blacklist.** There is no government portal where you type 15 digits and the state tells you whether that phone was snatched in Bè last month. What Togo does have is a **type approval** regime for equipment and a strict **SIM identification** regime for subscribers — and neither of those is a device theft register, however often the three get mixed up in market conversations.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset itself to display the IMEI. Never accept a seller's screenshot.
+- The regulator is **ARCEP Togo**, the Autorité de Régulation des Communications Électroniques et des Postes, successor to the former ART&P. The mobile operators are **Togocom (Togocel)** and **Moov Africa Togo**.
+- **Décision N°152/ARCEP/DG/26** modernised Togo's *homologation* (type approval) rules for terminal and radio equipment in late 2026. It governs **models and importers**, not individual stolen handsets.
+- The **mandatory SIM identification** rules — tightened by the décret of 26 December 2024 — link your **SIM to your identity**, not your IMEI to a register.
+- As of November 2026 there is **no publicly announced Togolese CEIR or IMEI blacklist**, and no local lookup you can run.
+- Your real protection is the **global GSMA blacklist**, plus **iCloud Activation Lock** and **Samsung Knox / Google account locks**.
+- A phone can pass every check available in Togo and still be worthless to you if it is **iCloud locked**.
+
+## Does Togo have a national IMEI blacklist?
+
+No. And the distinction matters enough to be precise about, because two real systems get confused with a third that does not exist.
+
+ARCEP Togo runs **homologation** — type approval. Under the regime administered through [arcep.tg](https://arcep.tg/) and the e-services portal, electronic communications and radio equipment intended for the Togolese market must be approved before it is manufactured, imported, marketed, installed or used in the country. Mobile handsets fall inside terminal equipment. Applications are filed by a local representative, with a technical conformity examination covering radio, SAR and EMC performance.
+
+Read that carefully and you will see exactly what it is: an **approval register for equipment models and the companies importing them**. It answers *is this model legal to sell in Togo*. It does not answer *was this particular handset stolen from someone in Lomé*. A phone with a perfectly valid type approval can still be a stolen phone, because type approval is granted to a model, not to your unit.
+
+| System | What it actually covers | Can you look up one handset? |
+|---|---|---|
+| ARCEP homologation (type approval) | Equipment models approved for import and sale in Togo | No — it is model and importer level |
+| SIM identification (décret of 26 Dec 2024) | Linking a subscriber's identity to each SIM card | No — it covers SIMs and people, not devices |
+| National IMEI blacklist / CEIR | Would cover individual stolen or blocked handsets | **Does not exist in Togo as of November 2026** |
+| GSMA global blacklist | Handsets reported lost or stolen by operators in participating countries | **Yes** — this is the check that works |
+| iCloud / Knox / Google account lock | Whether a previous owner's account still owns the device | **Yes** — and it is decisive on any iPhone |
+
+## Décision N°152/ARCEP/DG/26: what changed in 2026
+
+ARCEP Togo replaced its long-standing 2001 framework for terminal and radio equipment approval with a new decision reported as **N°152/ARCEP/DG/26**, signed in late September 2026 and published on the regulator's site in early October. Compliance specialists tracking the text report that it:
+
+- requires **formal type approval** for all electronic communications and radio equipment intended for the Togolese market, tested against RF, SAR and EMC standards
+- introduces **mandatory labelling**, with an indelible label carrying the approval number, the date and ARCEP's identity
+- requires a **functional sample** to be submitted and retained by ARCEP
+- adds a separate **certification requirement for installers**
+
+ARCEP has also been expanding its own RF and SAR testing laboratory, with a public procurement process for the equipment running into December 2026 — a sign that enforcement capacity, not just paperwork, is being built up.
+
+**Verify before you rely on it.** The details above come from compliance-industry summaries, not from the official text. If you are importing phones commercially, read the decision itself on [arcep.tg](https://arcep.tg/) or ask ARCEP directly. If you are buying one used phone in a market, none of this changes what you should check — skip to the steps below.
+
+What this means for an ordinary buyer is modest but real: a legitimately imported retail unit should increasingly carry approval marking on its packaging. **The absence of a label is not proof of theft** — plenty of honest phones arrive in a traveller's pocket — but its presence is one more small signal that the device entered the country through a formal channel.
+
+## SIM identification is not device registration
+
+This is the most common confusion in Togo, and sellers exploit it.
+
+Togo adopted a **décret on 26 December 2024** making identification of subscribers mandatory and, crucially, **prior** to service: you must be identified before the line works. It also bans the sale of pre-activated or pre-identified SIM cards, and obliges operators to maintain a complete subscriber database. This builds on the biometric identification framework created by **Law No. 2020-009**, under which residents obtain a **Numéro d'Identification Unique (NIU)** issued through the **Agence Nationale d'Identification (ANID)**. A 2021 ministerial order also caps holdings at **three SIM cards per person per operator**.
+
+Separately, **Décision n°030/ARCEP/DG/26** of February 2026 changed consumer rules on bundles and SIM validity — including extending the inactivity period before an operator may deactivate and recycle a number from three months to six — with a compliance window that ran from 20 February to 20 April 2026.
+
+Every one of those rules is about **SIMs, subscribers and billing**. Not one of them creates a register of handsets. If a seller tells you a phone is "declared" or "registered with ARCEP", ask what they mean: either they are describing the SIM in it, or they are describing nothing at all.
+
+## What a vérification IMEI actually tells you here
+
+| Check | What it answers | Useful in Togo? |
+|---|---|---|
+| [Free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) | Real brand, model, storage, colour from the TAC | Always — it exposes a repainted or misdescribed phone instantly |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Reported lost or stolen by an operator in a participating country | Critical for imported phones, which is most of the market |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Whether Find My still ties the iPhone to a previous Apple Account | Decisive — never buy an iPhone without it |
+| [SIM-Lock / carrier lock](https://imeihub.net/service.php?slug=apple-sim-lock) | Whether the handset is locked to a foreign network | Important for European and US imports |
+| [Samsung info and Knox](https://imeihub.net/service.php?slug=samsung-info) | Knox Guard status, model and manufacture origin | Important — Samsung dominates the mid-range here |
+| [Warranty status](https://imeihub.net/service.php?slug=apple-warranty) | Age and remaining coverage | Useful for pricing, and it exposes a "new" phone that is two years old |
+
+A blacklist result cannot be stronger than the reporting behind it. If a phone was stolen in Togo and never reported to any operator's system, no database on earth will flag it. That is a limitation to accept honestly — and it is also why the **iCloud and account-lock checks matter more here than the blacklist does**, since those depend on the previous owner's account rather than on a police report.
+
+## How to find the IMEI
+
+- **Any phone:** dial `*#06#`. Dual-SIM handsets show **IMEI1** and **IMEI2** — they are two numbers for one device, and both are normal.
+- **iPhone:** Settings → General → About. Also etched on the SIM tray on many models, and laser-marked in small print on the back of older ones.
+- **Android / Samsung:** Settings → About phone → Status information, or Settings → About device.
+- **The box:** the barcode label carries the IMEI. **Compare it with the screen.** A box that does not match the handset inside it is the oldest trick in Assigamé.
+- **A dead phone:** check the SIM tray, the box and the purchase receipt.
+
+An IMEI is 15 digits and passes the **Luhn checksum**. A 16-digit number is an **IMEISV** (software version appended) and is not what a checker wants. If a seller gives you a number that fails validation, the conversation is over.
+
+## Checking a used phone in Lomé, step by step
+
+- **Type `*#06#` yourself**, on the handset, while the seller watches. Screenshots and WhatsApp photos take seconds to fake.
+- **Run the free model lookup on the spot.** If the result says Galaxy A15 and the seller says A55, you have learned everything you need to know.
+- **Compare the IMEI** on screen against the SIM tray, the box label and any receipt. All of them should agree.
+- **Run the blacklist check** before money moves on anything above a few tens of thousands of CFA francs.
+- **For an iPhone, run the iCloud check, then make the seller sign out in front of you** — Settings → their name → Sign Out, with the password typed by them.
+- **Insist on the factory reset before you pay, not after.** Activation Lock and Knox Guard only reveal themselves when the phone restarts and asks for an account that is not yours. A seller who wants to reset it "at home later" is telling you something.
+- **Test both SIM slots** with your own Togocom or Moov Africa SIM. Make a real call and load a page on mobile data.
+- **Check the hardware in the same session**: both cameras, speaker, microphone, charging port, and battery health. An IMEI check proves identity and status — never physical condition.
+- **Get a written receipt** with the seller's name, phone number and the IMEI on it. From a shop, ask for the return window in writing.
+
+## Imported phones, customs and the Lomé transit trade
+
+Togo's position as a re-export hub for the Sahel shapes this market. Phones arrive at the Port of Lomé in volume, some clear Togolese customs for local sale, and a large share move on. For the buyer, that produces two practical consequences.
+
+The first is that **a high proportion of handsets here were first sold in another country**, which is precisely the situation the global blacklist is built for. A phone reported stolen in Marseille or Milan can be sitting on a table in Lomé within weeks, working perfectly on a Togolese SIM today, and blocked the moment it crosses into a market that enforces the GSMA list.
+
+The second is customs. Imports into Togo are assessed under the **UEMOA common external tariff** with **VAT at 18%** applied on the customs value plus duties, collected by the **Office Togolais des Recettes (OTR)**. Rates applied to mobile handsets specifically have changed over the years, and published third-party figures contradict each other — so if you are importing more than a personal device, get the current classification from the OTR or your transitaire rather than from a shipping-site table. For the traveller bringing one phone in personal baggage, this is not normally the issue; **the device's history is.**
+
+## If your phone is stolen in Togo
+
+- **Record the IMEI today**, before anything happens. Dial `*#06#` and store the number somewhere that is not on the phone — an email to yourself, a note in a cloud account, a line in a notebook.
+- **Report to the police or gendarmerie** as soon as possible and keep the reference number. State the IMEI explicitly in the report, along with the make, model and any receipt.
+- **Call your operator** to bar the SIM. Barring stops calls, SMS and **mobile money on that line** — which in Togo is frequently the more urgent loss. It does **not** stop the handset being used with a different SIM.
+- **Lock the device remotely** through Find My iPhone or Find Hub on Android, before the thief reaches a factory reset. Display a message and erase the data if you have given up on recovery.
+- **Change your passwords** in order: email first, then mobile money, then social accounts.
+- **Have the IMEI reported as lost or stolen** so it reaches the international record. A Togolese police report on its own does not propagate to the global database — and the global record is what protects the next buyer, and what might get your phone flagged if it is resold abroad.
+
+## Common mistakes
+
+- **Believing there is a government check.** There is no Togolese IMEI register to consult. A seller claiming a phone "passed the ARCEP check" is either describing type approval of the model or inventing something.
+- **Treating SIM identification as proof of a clean device.** Your NIU on a SIM says nothing about the handset around it.
+- **Accepting a screenshot.** Dial `*#06#` on the phone, yourself, every time.
+- **Paying before the reset.** The reset is where Activation Lock appears, so it has to happen before the money does.
+- **Assuming a working SIM means a clean handset.** A blacklisted phone can work on a Togolese network today and be dead in the next country, or after the next enforcement change.
+- **Buying an iCloud-locked iPhone cheap.** The discount exists precisely because the phone cannot be used. No service removes Activation Lock for you, whatever a stall promises.
+- **Confusing IMEI1 and IMEI2 with two phones.** A dual-SIM handset has two IMEIs. Check the first one; it is the one most reports key on.
+
+## Vocabulaire: French and English terms
+
+| Français | English | What it means in practice |
+|---|---|---|
+| Vérification IMEI | IMEI check | Looking up the 15-digit device identity |
+| Numéro IMEI | IMEI number | Dial `*#06#` to display it |
+| Homologation | Type approval | ARCEP approval of an equipment **model** |
+| Téléphone volé | Stolen phone | Report to police **and** have the IMEI reported globally |
+| Liste noire / blocage | Blacklist / block | Network-level block on a reported handset |
+| Téléphone d'occasion | Used phone | Most of the Togolese market |
+| Verrouillage iCloud | iCloud lock | Activation Lock tied to a previous Apple Account |
+| Carte SIM identifiée | Identified SIM | Subscriber identity linked under the 2024 décret |
+| Opérateur | Operator | Togocom (Togocel) or Moov Africa Togo |
+
+## Frequently asked questions
+
+**Is there an official Togolese website to check whether a phone is stolen?**
+No. As of November 2026 no public Togolese IMEI or stolen-device lookup has been announced. The practical alternative is a global blacklist check plus the account-lock checks.
+
+**Does ARCEP block stolen phones?**
+ARCEP's published remit covers regulation, type approval and consumer protection rather than a public device-blocking service. Blocking a specific handset is something operators do within their own systems and the international framework. Ask Togocom or Moov Africa Togo what they can do with an IMEI and a police report.
+
+**Will an IMEI check tell me if a phone was stolen in Lomé?**
+Only if the theft was reported into a system that feeds the global record. A theft reported solely to a local police post will usually not appear. This is the honest limit of any IMEI check in Togo.
+
+**My phone works on a Togocom SIM — doesn't that prove it is clean?**
+No. It proves the handset is not currently blocked on that network. Blocks are applied per country and per system, and they can be applied later.
+
+**Does the SIM identification rule mean my phone is registered with the government?**
+No. The 26 December 2024 décret identifies **subscribers** and links identity to SIM cards. Your handset's IMEI is not what is being registered.
+
+**I am bringing a phone into Togo for personal use. Do I have to declare the IMEI?**
+Togo has no announced IMEI declaration scheme comparable to Kenya's F88 or Pakistan's DIRBS. Ordinary customs rules on personal effects apply at the border; there is no device register to enrol in.
+
+**What is the difference between IMEI1 and IMEI2?**
+They identify the two cellular radios in a dual-SIM phone. One physical device, two numbers — completely normal, and not a sign of tampering.
+
+**Can a blocked IMEI be unblocked?**
+Only by whoever reported it, through the operator that applied the block, usually with proof of lawful ownership. Treat any stall offering to "clean" an IMEI as a scam: changing an IMEI is illegal in most jurisdictions and the handset becomes harder to sell, not easier.
+
+## Before you pay
+
+Run the free lookup first. If what comes back does not match the phone in your hand, stop there — you have just saved yourself the full purchase price. If the phone is worth more than a few days of earnings, add the blacklist and lock checks before the money moves:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour against the handset in front of you
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no second-hand iPhone purchase should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard state and origin for Galaxy devices
+
+Regulations move. ARCEP Togo has modernised its equipment rules once already in 2026 and is building out its testing capability, so confirm the current position on homologation, SIM identification and any new device register with **ARCEP** at [arcep.tg](https://arcep.tg/), or with Togocom or Moov Africa Togo, before relying on any detail in this guide.
+ARTICLE_NOV17_TG,
+    ],
+    [
         'slug' => 'sierra-leone-imei-check',
         'title' => 'Sierra Leone IMEI Check: Verify a Used Phone in 2026',
         'meta_title' => 'Sierra Leone IMEI Check 2026: Stolen and Blacklist Guide',
