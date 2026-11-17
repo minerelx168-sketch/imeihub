@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+.env.example
+docker-compose*.yml
+Dockerfile*
+README.md
+DOCKER.md
+scripts/test-*.py
+scripts/test-*.php
