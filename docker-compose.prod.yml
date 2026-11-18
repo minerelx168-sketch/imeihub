@@ -1,0 +1,75 @@
+# imeihub production stack.
+#
+# Usage:
+#   docker compose -f docker-compose.prod.yml up -d --build
+#   docker compose -f docker-compose.prod.yml down
+#
+# Prerequisites:
+#   - Copy .env.example to .env and fill in ALL production values
+#   - Set APP_DEBUG=false, APP_URL=https://imeihub.com
+#   - Set strong DB_PASS (not "devpassword")
+#   - Configure Cloudflare DNS to point imeihub.com -> server IP
+#
+# Architecture:
+#   Cloudflare (DNS + CDN + SSL termination)
+#     └── Server (DigitalOcean Singapore)
+#          ├── app (PHP 8.4 + Apache, port 80)
+#          └── db  (MySQL 8.4, internal only)
+#
+# SSL is handled by Cloudflare proxy (Full mode).
+# The app container listens on port 80 and 443 (self-signed cert for Cloudflare).
+services:
+  db:
+    image: mysql:8.4
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASS}
+      MYSQL_DATABASE: ${DB_NAME:-imei_checker}
+    volumes:
+      - imeihub_db:/var/lib/mysql
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./sql/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+      - ./sql/migrate-dhru-async.sql:/docker-entrypoint-initdb.d/03-migrate-dhru-async.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-p${DB_PASS}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    # Do NOT expose port 3306 externally in production.
+    networks:
+      - internal
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+    env_file:
+      - .env
+    environment:
+      DB_HOST: db
+      DB_NAME: ${DB_NAME:-imei_checker}
+      DB_USER: root
+      DB_PASS: ${DB_PASS}
+      APP_DEBUG: "false"
+    networks:
+      - internal
+    # Health check for the app container.
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  internal:
+    driver: bridge
+
+volumes:
+  imeihub_db:

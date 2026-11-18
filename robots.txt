@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+Sitemap: /sitemap.php
