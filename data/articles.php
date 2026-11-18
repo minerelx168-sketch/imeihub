@@ -8,6 +8,204 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'senegal-imei-check',
+        'title' => 'Senegal IMEI Check: Verify an Imported Phone in 2026',
+        'meta_title' => 'Senegal IMEI Check 2026: Vérification IMEI and Import Tax',
+        'excerpt' => 'Senegal has no national IMEI register, and import duty on phones is back. What a vérification IMEI really proves before you buy in Dakar.',
+        'date' => '2026-11-18',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV18_SN'
+Most smartphones in Senegal were first sold somewhere else. They arrive at the **Port de Dakar** and Blaise Diagne airport from France, Spain, Italy, Dubai, China and the United States — in containers for the formal trade, in suitcases carried by the diaspora, and in parcels sent home to Dakar, Thiès and Touba. Then they circulate: a phone bought new in Paris can pass through **Colobane**, a shop on the Allées du Centenaire and two private buyers within a year.
+
+One number survives all of that. Not the phone number, not the SIM, not the owner's Apple Account — the **IMEI**, 15 digits burned into the handset at the factory. That is why a *vérification IMEI* is the single most useful thing you can do before paying for a used or imported phone here. But it only protects you if you understand what it can and cannot prove in Senegal, and there are two facts to state plainly before anything else.
+
+**Senegal does not operate a public national stolen-phone register.** There is no government portal where you type an IMEI and the state tells you whether that handset was snatched at Petersen last month. And second: **the tax position on imported phones changed in 2025.** The customs exemption that had applied to imported handsets since 2008 was removed, which matters to anyone shipping a phone home or buying one that came in through an informal channel.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset itself to display the IMEI. Never accept a seller's screenshot.
+- The regulator is **ARTP**, the Autorité de Régulation des Télécommunications et des Postes. The mobile operators are **Orange (Sonatel)**, **Yas** (formerly Free Sénégal, rebranded by Axian in November 2024), **Expresso**, **Hayo** and **Promobile**.
+- As of November 2026 there is **no publicly announced Senegalese CEIR or IMEI blacklist** and no local handset lookup you can run.
+- ARTP runs **homologation** — type approval of equipment **models**, published as a list of approved terminals with their DAS (SAR) values. It is not a theft register.
+- **Mandatory SIM identification** links your identity to your **SIM card**, not your IMEI to a register. Unidentified lines were restricted from 18 March 2025 and suspended from 31 March 2025.
+- **Import duty and tax on telephones returned in 2025**, when Parliament removed the suspension created by Article 7 of **Law No. 2008-46**.
+- The widely copied claim that imported phones must be registered with ARTP for around **10,000 FCFA** or be blocked after 30 days has **no official source** we can find. Treat it as unverified.
+- Your real protection is the **global GSMA blacklist** plus **iCloud Activation Lock** and **Samsung Knox / Google account** checks.
+
+## Does Senegal have a national IMEI register?
+
+No. And the confusion is worth clearing up carefully, because three separate systems get collapsed into one in market conversations.
+
+ARTP's remit, set out in the **Code des communications électroniques (Law No. 2018-28 of 12 December 2018)**, covers regulation of the telecoms and postal sectors, type approval of equipment, spectrum, numbering and consumer protection. Under **Article 70**, radio and terminal equipment intended for the Senegalese market requires prior ARTP approval and must remain in conformity with the approved model; **Article 71** extends approval requirements to installers of radio equipment. **ARTP Decision No. 2021-011 of 27 August 2021** sets the conditions for terminal equipment and radio installation approvals, and in practice ARTP requires a physical sample as part of the file.
+
+None of that is a device-theft database. Type approval is granted to a **model and its importer**, so a phone with impeccable homologation can still be a stolen phone.
+
+| System | What it actually covers | Can you look up one handset? |
+|---|---|---|
+| ARTP homologation (type approval) | Equipment **models** approved for the Senegalese market, with DAS values | No — model and importer level only |
+| SIM identification | Linking a subscriber's identity to each SIM card | No — it covers SIMs and people, not devices |
+| Customs clearance (dédouanement) | Whether duty and tax were paid on an import | No — there is no public IMEI-by-IMEI customs lookup |
+| National IMEI blacklist / CEIR | Would cover individual stolen or blocked handsets | **Does not exist in Senegal as of November 2026** |
+| GSMA global blacklist | Handsets reported lost or stolen by operators in participating countries | **Yes** — this is the check that works |
+| iCloud / Knox / Google account lock | Whether a previous owner's account still controls the device | **Yes** — and it is decisive on any iPhone |
+
+## The 2025 change that matters most: duty on imported phones is back
+
+This is the part of Senegalese phone regulation that actually moved recently, and it is still poorly understood by buyers.
+
+**Law No. 2008-46** created the RUTEL, the fee for access to public telecommunications networks — and its **Article 7 suspended customs duties and taxes on imported fixed and mobile telephone equipment**. The policy goal in 2008 was mobile penetration, and it worked: handsets came in cheaply for well over a decade.
+
+In September 2025, meeting in extraordinary session, the **Assemblée nationale adopted a law removing that suspension**, reported as **Law No. 18/2025** and passed alongside two other economic texts. The measure sits inside the **Plan de Redressement Économique et Social (PRES)**. Finance Minister **Cheikh Diba** justified it on two grounds: the sector had been under-taxed relative to the exponential growth in demand for equipment, and restoring duty brings Senegal into line with the **ECOWAS Common External Tariff (TEC CEDEAO)**, which provides for import duties on these devices. Several deputies warned during the debate that handset prices would rise.
+
+What that means in practice, for the three people who care most:
+
+- **If you are buying locally in a shop:** formal retail prices absorb the tax. You are not asked for proof of clearance when you buy a phone from a dealer, and there is no IMEI-level customs check you can run.
+- **If you are importing or shipping a phone home:** expect duty and tax to be assessed on arrival, which was not reliably the case before. The duty rate depends on the tariff classification under the ECOWAS CET, whose bands are 0%, 5%, 10%, 20% and 35%, with **VAT at 18%** applied on the customs value plus duty, plus the usual community levies and statistical fee.
+- **If you are buying a used phone on the street:** none of this is your problem, and none of it tells you whether the phone is stolen. Skip to the checks below.
+
+**Verify the numbers before you budget.** Third-party calculators and shipping-site tables disagree about the duty band that applies to smartphones in Senegal, and the position changed in 2025. Get the current rate from the **Direction Générale des Douanes** or a licensed *commissionnaire en douane* rather than from a blog — including this one.
+
+## The 10,000 FCFA "ARTP IMEI registration" claim
+
+Search in French for how to send a phone to Senegal and you will eventually hit a widely copied claim: that imported phones must be **registered with ARTP**, that this costs around **10,000 FCFA per device**, and that an undeclared handset is **blocked after 30 days**.
+
+We could not find any official basis for it. The claim appears on commercial shipping and parcel blogs without citing a decree, a decision or an ARTP notice. ARTP's own published material covers its mandate, number portability, SIM identification and equipment homologation — not per-handset IMEI registration or a fee of that kind. No Senegalese CEIR has been announced.
+
+It is easy to see how the idea spread: Pakistan's **DIRBS** does block unregistered imports after a grace period, Kenya introduced an **airport declaration** regime, and Indonesia's **Bea Cukai** registers IMEIs at customs. Those schemes are real — they are just not Senegalese.
+
+**So:** if someone quotes you a figure to "register the IMEI with ARTP", ask them to show you the text. And if ARTP does introduce a device register later, confirm it on [artp.sn](https://artp.sn/) rather than relying on a blog post — including this one.
+
+## What ARTP's approved-terminal list is good for
+
+There is one official Senegalese list a careful buyer can actually consult. Through its open-data section, ARTP publishes a **list of approved terminals with their DAS values** — DAS being *débit d'absorption spécifique*, the French term for SAR, the specific absorption rate that measures radio-frequency energy absorbed by the body.
+
+Used sensibly, that list tells you whether a model was formally approved for the Senegalese market, which is one weak signal that a device came through a formal import channel. ARTP has also been building enforcement capacity around unapproved radio equipment, with a surveillance committee reported in 2025.
+
+Used carelessly, it tells you nothing about the phone in your hand. A model can be approved and the specific handset stolen. A model can be absent from the list and the handset entirely legitimate — plenty of honest phones arrive in a traveller's pocket. **Homologation is about models; theft is about units.** Only an IMEI-level check speaks to the unit.
+
+## SIM identification is not device registration
+
+This is the most exploited confusion in the Senegalese market.
+
+ARTP reminded operators in **January 2025** that subscriber identification is a legal obligation, noting that it was no longer being respected by distributors and at operator points of sale. It then set a hard timetable: lines that were not properly identified would be **restricted from 18 March 2025** and **suspended from 31 March 2025**. The rules require the subscriber to be present in person, a **valid CNI or passport** for Senegalese and ECOWAS nationals, and cap holdings at **three SIM cards per subscriber per mobile operator**.
+
+Every element of that is about **SIMs, subscribers and billing**. Not one of them creates a register of handsets. If a seller tells you a phone is "identified" or "registered", they are describing the SIM card inside it — or nothing at all. Pull the SIM out and the phone's history is unchanged.
+
+## What a vérification IMEI actually tells you here
+
+| Check | What it answers | Useful in Senegal? |
+|---|---|---|
+| [Free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) | Real brand, model, storage and colour from the TAC | Always — it exposes a misdescribed or repainted phone in seconds |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Reported lost or stolen by an operator in a participating country | Critical — most handsets here were first sold abroad |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Whether Find My still ties the iPhone to a previous Apple Account | Decisive — never buy an iPhone without it |
+| [SIM-Lock / carrier lock](https://imeihub.net/service.php?slug=apple-sim-lock) | Whether the handset is locked to a foreign network | Important for French, Spanish and US imports |
+| [Samsung info and Knox](https://imeihub.net/service.php?slug=samsung-info) | Knox Guard status, model and origin | Important — Samsung dominates the mid-range |
+| [Warranty status](https://imeihub.net/service.php?slug=apple-warranty) | Device age and remaining coverage | Useful for pricing, and it unmasks a "new" phone that is two years old |
+
+Be honest about the limit. A blacklist is only as good as the reports that feed it. A phone stolen in Dakar and never reported into an operator system will not appear on any global list — which is exactly why the **account-lock checks carry more weight here than the blacklist does**. Activation Lock does not depend on anyone filing a report; it depends on the previous owner's Apple Account, and it is checkable today.
+
+## How to find the IMEI
+
+- **Any phone:** dial `*#06#`. Dual-SIM handsets display **IMEI1** and **IMEI2** — two numbers, one device, completely normal.
+- **iPhone:** Settings → General → About. Also engraved on the SIM tray on many models.
+- **Android and Samsung:** Settings → About phone → Status information.
+- **The box:** the barcode label carries the IMEI. **Compare it against the screen.** A mismatched box is the oldest trick in Colobane.
+- **A phone that will not start:** check the SIM tray, the box and the receipt.
+
+An IMEI is 15 digits and passes the **Luhn checksum**. A 16-digit number is an **IMEISV**, which includes a software version and is not what a checker wants. A number that fails validation ends the conversation.
+
+## Buying a used phone in Dakar, step by step
+
+Colobane is the best-known destination for second-hand handsets, repairs and accessories in Dakar, and its reputation cuts both ways: a real repair economy has grown up there, and it is also where stolen phones surface. In one 2026 operation the gendarmerie's Section de Recherches, working with the GIGN, reported dismantling a network accused of snatching, unlocking and reselling phones — 23 people arrested and more than 500 handsets seized, after a run of complaints from several Dakar neighbourhoods. Buy accordingly.
+
+- **Type `*#06#` yourself**, on the handset, while the seller watches. A WhatsApp screenshot takes ten seconds to fake.
+- **Run the free model lookup on the spot.** If the result says Galaxy A16 and the seller says A56, you have learned everything you need.
+- **Compare the IMEI** on the screen against the SIM tray, the box label and any receipt. They should all agree.
+- **Run the blacklist check** before money moves on anything above about 50,000 FCFA.
+- **For an iPhone, run the iCloud check, then make the seller sign out in front of you** — Settings → their name → Sign Out, with the password typed by them, not by you.
+- **Insist on the factory reset before you pay, not after.** Activation Lock and Knox Guard only appear when the phone restarts and asks for an account that is not yours. A seller who wants to reset it "at home later" has told you something important.
+- **Test both SIM slots** with your own Orange, Yas or Expresso SIM. Make a real call and load a page on mobile data.
+- **Check the hardware in the same session:** both cameras, speaker, microphone, charging port, battery health. An IMEI check proves identity and status, never physical condition.
+- **Get a written receipt** with the seller's name, telephone number and the IMEI on it. From a shop, ask for the return window in writing.
+
+## If your phone is stolen in Senegal
+
+- **Record the IMEI today**, before anything happens. Dial `*#06#` and store it somewhere that is not on the phone — an email to yourself, a cloud note, a line in a notebook.
+- **Report to the police or gendarmerie** quickly and keep the receipt. State the IMEI explicitly along with the make, model and any proof of purchase.
+- **Get the réquisition and take it to your operator.** Orange Sénégal's own support guidance describes the route: the complaint goes to the police or gendarmerie, who issue a *réquisition*; you deposit it at Orange's head office on the **VDN** in Dakar and provide the IMEI, after which the operator can give an approximate last-known location from the cell it used and proceed with a remote block. Practice varies between posts and operators, so ask what each one needs.
+- **Secure the money before the handset.** For most people in Senegal the urgent loss is **Orange Money, Wave, Mixx by Yas or E-Money**, not the phone. Call the provider, freeze the account, change the PIN.
+- **Bar the SIM** so calls and SMS stop. Barring a SIM does **not** stop the handset being used with a different SIM.
+- **Lock the device remotely** through Find My iPhone or Find Hub on Android before the thief reaches a factory reset. Display a message, then erase if recovery is hopeless.
+- **Report online where it fits.** Senegal's **Division spéciale de lutte contre la cybercriminalité** operates a national online reporting platform, launched in 2026, for ICT-related offences — useful where the theft is tied to fraud, account takeover or mobile-money loss, alongside the ordinary complaint at the commissariat.
+- **Have the IMEI reported as lost or stolen** so it reaches the international record. A Senegalese police report does not propagate to the global database by itself, and that global record is what protects the next buyer.
+
+## Common mistakes
+
+- **Believing there is a government IMEI check.** There is no Senegalese register to consult. A seller claiming the phone "passed the ARTP check" is describing model homologation, or inventing something.
+- **Paying an "ARTP registration" fee.** No official per-handset IMEI registration fee is published. Ask for the text before you pay anyone anything.
+- **Treating an identified SIM as a clean handset.** Your CNI on a SIM says nothing about the phone around it.
+- **Accepting a screenshot of the IMEI.** Dial `*#06#` on the phone, yourself, every time.
+- **Paying before the reset.** The reset is where Activation Lock reveals itself, so it has to come before the money.
+- **Assuming a working Orange SIM proves anything.** It proves the handset is not currently blocked on that network. Blocks are applied per country and per system, and can arrive later.
+- **Buying an iCloud-locked iPhone because it is cheap.** The discount exists precisely because the phone cannot be used. No service removes Activation Lock, whatever a stall promises.
+- **Confusing IMEI1 and IMEI2 with two phones.** A dual-SIM handset has two IMEIs. That is normal, not tampering.
+
+## Vocabulaire: French and English terms
+
+| Français | English | What it means in practice |
+|---|---|---|
+| Vérification IMEI | IMEI check | Looking up the 15-digit device identity |
+| Numéro IMEI | IMEI number | Dial `*#06#` to display it |
+| Homologation / agrément | Type approval | ARTP approval of an equipment **model** |
+| DAS | SAR | Specific absorption rate, published in ARTP's approved-terminal list |
+| Dédouanement | Customs clearance | Duty and VAT on an imported handset |
+| Téléphone volé | Stolen phone | Report to police **and** have the IMEI reported globally |
+| Réquisition | Judicial request | The document the police issue so an operator can act |
+| Liste noire / blocage | Blacklist / block | Network-level block on a reported handset |
+| Téléphone d'occasion | Used phone | Most of the Senegalese market |
+| Verrouillage iCloud | iCloud lock | Activation Lock tied to a previous Apple Account |
+| Carte SIM identifiée | Identified SIM | Subscriber identity linked under the ARTP rules |
+| Opérateur | Operator | Orange, Yas, Expresso, Hayo or Promobile |
+
+## Frequently asked questions
+
+**Is there an official Senegalese website to check whether a phone is stolen?**
+No. As of November 2026 no public Senegalese IMEI or stolen-device lookup has been announced. The practical substitute is a global blacklist check plus the account-lock checks.
+
+**Does ARTP block stolen phones?**
+ARTP's published remit is regulation, homologation, numbering and consumer protection rather than a public device-blocking service. Blocking a specific handset is handled by operators, with a police or gendarmerie *réquisition*. Ask Orange, Yas or Expresso what they require.
+
+**Will an IMEI check tell me if a phone was stolen in Dakar?**
+Only if the theft was reported into a system that feeds the global record. A theft reported solely at a local commissariat usually will not appear. That is the honest limit of any IMEI check in Senegal.
+
+**Do I have to pay tax on a phone sent to me from France?**
+Since the 2025 removal of the Article 7 suspension in Law No. 2008-46, imported telephones are again within scope of customs duty and tax. How much depends on classification and value, so confirm the current rate with Senegalese customs or a licensed broker before you ship.
+
+**Do I have to register an imported phone's IMEI with ARTP?**
+We can find no official requirement, and no published fee. The 10,000 FCFA figure circulating on shipping blogs is unverified. Check [artp.sn](https://artp.sn/) if you want certainty.
+
+**My phone works on an Orange SIM — doesn't that mean it is clean?**
+No. It means the handset is not currently blocked on that network. Nothing more.
+
+**What is the difference between IMEI1 and IMEI2?**
+They identify the two cellular radios in a dual-SIM phone. One device, two numbers.
+
+**Can a blocked IMEI be unblocked?**
+Only by whoever reported it, through the operator that applied the block, usually with proof of lawful ownership. Treat any stall offering to "clean" an IMEI as a scam: altering an IMEI is illegal in most jurisdictions and makes the handset harder to sell, not easier.
+
+## Before you pay
+
+Run the free lookup first. If what comes back does not match the phone in your hand, stop there — you have just saved the full purchase price. If the phone is worth more than a few days of earnings, add the blacklist and lock checks before the money moves:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour against the handset in front of you
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no second-hand iPhone purchase should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard state and origin for Galaxy devices
+
+Rules change, and Senegal's changed in 2025. Confirm the current position on import duty with the **Direction Générale des Douanes**, and on homologation, SIM identification or any future device register with **ARTP** at [artp.sn](https://artp.sn/) or with your operator, before relying on any detail in this guide.
+ARTICLE_NOV18_SN,
+    ],
+    [
         'slug' => 'togo-verification-imei',
         'title' => 'Vérification IMEI Togo: Check Any Used Phone in 2026',
         'meta_title' => 'Vérification IMEI Togo 2026: Stolen and Blacklist Check',
