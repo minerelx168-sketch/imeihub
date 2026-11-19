@@ -8,6 +8,187 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'how-to-register-imei-in-kenya',
+        'title' => 'How to Register IMEI in Kenya (2026): What Is Required Now',
+        'meta_title' => 'How to Register IMEI in Kenya 2026: 1555 Check, KRA & Court Ruling',
+        'excerpt' => 'Kenya\'s IMEI registration order was quashed in court. What residents must still do: the 1555 check, KRA customs rules and a safe used-phone buy.',
+        'date' => '2026-11-19',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV19_KE'
+Every few weeks a new message goes round Kenyan WhatsApp groups: *register your phone's IMEI with KRA or Safaricom will switch it off.* People queue at customer care centres, pay "agents" in Nairobi CBD to "register" a handset, or panic-sell a perfectly good phone on Jiji.
+
+Here is the short version, for anyone in Nairobi, Mombasa, Kisumu, Nakuru or Eldoret who searched **how to register IMEI in Kenya**: **as of November 2026, there is no lawful requirement for an ordinary resident to register a phone's IMEI with KRA, the Communications Authority (CA) or their mobile operator.** The scheme that tried to make that mandatory was **quashed by the High Court in July 2025**. The CA has appealed, and the appeal had not been decided at the time of writing.
+
+That does not mean you have nothing to do. Some rules did not go away — **customs duty on imported phones**, **type approval of phone models**, and the **brand ban the CA announced in February 2026**. And the free **1555 IMEI check** is still the fastest way to tell a genuine phone from a counterfeit one. This step-by-step guide covers what is actually required, what is optional, and what protects your money.
+
+**Key takeaways**
+
+- Dial `*#06#` to see your IMEI. Dual-SIM phones show two — **IMEI1** and **IMEI2**. Both belong to the same phone.
+- **SMS the 15-digit IMEI to 1555** (free) or use the CA's online IMEI checker to confirm the number is valid and matches the model.
+- The **October and November 2024** CA and KRA public notices requiring IMEI registration from **1 January 2025** were quashed on **18 July 2025** in *Katiba Institute v Communications Authority of Kenya & 2 others*, **Petition E647 of 2024, [2025] KEHC 10568 (KLR)**, before **Justice Chacha Mwita**.
+- The court held the notices had **no basis in law** and breached the right to privacy under **Articles 24 and 31** of the Constitution. It barred the State from implementing them or any measure requiring people to disclose IMEI numbers.
+- **Customs duty still applies.** Phones above the traveller allowance, or in commercial quantities, must be declared. From **1 July 2026** Kenya applies a **25% import duty** on mobile phones for one year, ending the previous 0% rate.
+- Since **February 2026**, the CA has named **21 non-type-approved brands** that vendors may not sell. Check the model before you buy, not after.
+- No one can legally "register" or "clean" an IMEI for a fee. Altering an IMEI is illegal in most jurisdictions, and a phone with a tampered IMEI can be disconnected.
+
+## Do I have to register my phone's IMEI in Kenya?
+
+No — not as an individual, not under current law. To see why so many people believe they do, you need the timeline.
+
+| Date | What happened | Status in November 2026 |
+|---|---|---|
+| 2012 | CA (then CCK) switches off counterfeit phones and launches the **1555** SMS check | Check still available, free |
+| October 2024 | CA public notice on IMEI collection and a whitelist of devices allowed on networks, linked to KRA tax compliance | **Quashed** |
+| 5 November 2024 | KRA notice: importers, assemblers and passengers to declare IMEIs; passengers on the **F88** form from 1 January 2025 | **Quashed** as to IMEI disclosure |
+| November 2024 | KRA clarifies that **tourists and short-stay foreign visitors** are exempt | Superseded by the ruling |
+| 18 July 2025 | High Court quashes the CA and KRA notices "in their entirety" | **Operative judgment** |
+| September 2025 | CA appeals to the Court of Appeal | **Pending**, per public reporting |
+| 10 February 2026 | CA names 21 non-type-approved brands vendors may not sell | In force |
+| 1 July 2026 | 25% import duty on mobile phones for one year | In force |
+
+The court's reasoning matters for what comes next. Justice Mwita found the notices were not anchored in any statute, were never tabled in Parliament, and were issued without public participation. He also found that IMEI numbers, linked to subscribers, are **personal data**, and that collecting them for every phone in the country risked unchecked state surveillance. He described the blanket traveller declaration as disproportionate.
+
+So if anyone — an agent, a shop, a forwarded message — tells you that your phone "will be blocked unless you register it", ask them which law requires it. As things stand, there isn't one.
+
+**What could change it:** a Court of Appeal decision overturning the judgment, or Parliament passing a law that gives the scheme a legal basis. Either would be public news. Until then, confirm any new requirement on [ca.go.ke](https://www.ca.go.ke/) or [kra.go.ke](https://www.kra.go.ke/), not on WhatsApp.
+
+## Step-by-step: what every Kenyan phone owner should actually do
+
+These steps take about five minutes, cost nothing, and cover everything that genuinely protects you.
+
+**Step 1 — Find your IMEI**
+
+- **Any phone:** open the dialler and type `*#06#`. The IMEI appears instantly; no call is made.
+- **iPhone:** Settings → General → About. Scroll down to IMEI.
+- **Samsung:** Settings → About phone → IMEI.
+- **Tecno, Infinix, itel, Oppo, Xiaomi and other Android phones:** Settings → About phone → Status (or "Status information").
+- **On the box:** the barcode sticker. On many phones it is also on the SIM tray.
+
+A valid IMEI has **15 digits** and passes the **Luhn checksum**. If you see 16 digits, that is the **IMEISV** (IMEI plus software version), which is not what checkers want. Use the 15-digit number shown by `*#06#`.
+
+**Step 2 — Write it down somewhere that is not your phone**
+
+Email it to yourself, save it in a cloud note, or write it in a notebook along with the receipt. If the phone is stolen, the IMEI is the one detail the police and your operator will ask for — and you cannot read it from a phone you no longer have.
+
+**Step 3 — Verify it with the CA: SMS to 1555**
+
+- Send the 15-digit IMEI as an SMS to **1555**. The CA lists the service as free.
+- Or use the **IMEI checker** on the CA website ([ca.go.ke/imei-checker](https://www.ca.go.ke/imei-checker)).
+- The reply tells you whether the IMEI is **valid** and which **make and model** it belongs to.
+
+What to look for: the model in the reply must match the phone in your hand. If you are holding a "Samsung Galaxy S24" and 1555 says "Tecno" — or says the IMEI is invalid — you are holding a counterfeit, a cloned IMEI, or a tampered phone.
+
+**Step 4 — Check the model is type approved**
+
+The CA publishes a **List of Type Approved Equipment** and, since February 2026, a list of **non-type-approved brands** vendors may not sell. A phone outside that list is not automatically stolen, but it may not be properly certified for Kenyan networks, and it is a red flag in a shop that claims to sell "original" stock.
+
+**Step 5 — Run a free model lookup and, for a used phone, a blacklist check**
+
+1555 tells you the IMEI exists. It does not tell you whether the phone was reported stolen abroad, whether an iPhone is still locked to someone else's Apple Account, or whether a Samsung is under Knox Guard. Those are separate checks:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — brand, model, storage and colour from the TAC
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — reported lost or stolen in participating countries
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — essential for every second-hand iPhone
+
+**Step 6 — Keep proof of purchase**
+
+A receipt showing the IMEI, the seller and the price is your strongest evidence of ownership if the phone is ever lost, stolen or questioned at customs. M-PESA confirmation messages help, but they rarely include the IMEI. Ask the shop to write it on the receipt.
+
+## The official checks compared
+
+| Check | Run by | What it proves | What it does not prove |
+|---|---|---|---|
+| SMS to **1555** / CA IMEI checker | Communications Authority | IMEI is valid; make and model | Whether the phone is stolen or locked |
+| Type approval list | Communications Authority | The **model** is certified for Kenya | Anything about the individual handset |
+| KRA **DIRS** status | Kenya Revenue Authority | Whether duty was recorded for that IMEI, where the record exists | It is not a legal requirement for residents after the ruling |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Global operator reports | Reported lost or stolen in participating countries | Thefts never reported to an operator |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Apple account status | Whether a previous owner still controls the iPhone | Physical condition |
+| [Samsung Knox status](https://imeihub.net/service.php?slug=samsung-info) | Samsung | Knox Guard state and origin | Network blacklist status |
+
+A note on **DIRS**, KRA's Device Identification and Registration System: it was built for the 2024 scheme, and some buying guides still tell you to look for a "Compliant" status. Where a status is available, it can be useful information when buying a phone that came in from Dubai or China — an "Unregistered" result on a brand-new flagship is worth a question. But after the July 2025 judgment it is **not** a condition for using a phone in Kenya, and a missing record does not make a phone illegal.
+
+## Bringing a phone into Kenya: customs still applies
+
+The IMEI declaration was quashed. **Customs duty was not.** If you are flying into JKIA or Moi International with new phones, these rules still apply:
+
+- **Personal effects:** the passenger allowance for baggage and personal effects is **USD 2,000** per traveller, according to published guidance on the updated EAC rules. Your own phone, in use, is personal effects.
+- **New phones for resale, or for friends and family:** these are goods, not personal effects. Declare them in the red channel.
+- **Above the allowance:** expect **import duty** (25% on mobile phones from 1 July 2026, for one year), **16% VAT**, the **Import Declaration Fee** and the **Railway Development Levy**, plus excise duty where it applies. Rates have changed several times since 2023 — get the current figure from KRA or a licensed clearing agent before you travel.
+- **Enforcement is real:** on 1 October 2026, KRA customs officers at JKIA intercepted **40 undeclared iPhone 18 Pro and Pro Max handsets**, worth about **KES 8.2 million**, from a passenger arriving from Dubai. The phones went to the Customs Warehouse. Undeclared goods can be seized, and penalties under the **EAC Customs Management Act** can be heavy.
+
+So the honest rule for travellers is simple: **declare goods, not IMEIs.** If you carry one or two phones for your own use, you are dealing with ordinary personal effects. If you carry a box of phones, you are an importer and duty applies.
+
+## Buying a used phone in Nairobi safely
+
+Luthuli Avenue, Moi Avenue, Tom Mboya Street and the phone floors of CBD malls sell millions of handsets a year. Most sellers are honest; some are not. Phones snatched in traffic or on matatus regularly surface for resale within days. Protect yourself:
+
+- **Type `*#06#` on the phone yourself.** Never accept a photo or screenshot of the IMEI.
+- **SMS it to 1555 on the spot.** The model must match. "Invalid" ends the deal.
+- **Compare the IMEI** on the screen with the box, the SIM tray and the receipt. All four should agree.
+- **Run the free lookup and blacklist check** before any M-PESA payment on a phone above about KES 10,000.
+- **iPhones:** run the iCloud check, then watch the seller sign out of their Apple Account (Settings → their name → Sign Out) and erase the phone in front of you.
+- **Samsung and other Android phones:** have the seller remove their Google account and factory reset before you pay. After a reset, Factory Reset Protection asks for the previous owner's account — find out now, not at home.
+- **Test with your own SIM.** Make a call, send an SMS and load a page on mobile data.
+- **Check the hardware:** cameras, speakers, microphone, charging port, battery health, Face ID or fingerprint.
+- **Get a receipt** with the seller's name, phone number, shop location and the IMEI.
+
+**The "IMEI registration" scam:** some sellers and agents charge a fee to "register" a phone with KRA or "clear" it for Safaricom. There is no such registration for residents. Paying for it gets you nothing — and a seller who offers to "fix" an IMEI is describing a crime.
+
+## If your phone is stolen in Kenya
+
+- **Freeze your money first.** For most Kenyans the urgent loss is **M-PESA**, **Airtel Money** or a banking app, not the handset. Call your operator immediately (Safaricom customer care on **100** for prepaid or **200** for postpaid; Airtel and Telkom have their own lines) and ask them to block the line and freeze mobile money.
+- **Report at the nearest police station** and get an **OB number**. Give the IMEI, make, model and proof of purchase.
+- **Replace the SIM** at an operator shop with your ID. This stops the thief receiving your OTPs.
+- **Lock or erase the phone remotely** using Find My (iPhone) or Find Hub (Android) before the thief can reset it.
+- **Ask your operator to block the handset by IMEI**, quoting your OB number. Blocking a SIM does not stop the phone being used with another SIM.
+- **Change passwords** for email, banking, WhatsApp and social media, starting with the email account that resets all the others.
+
+## Common mistakes
+
+- **Paying someone to "register" your IMEI.** No law requires it after the July 2025 ruling.
+- **Assuming the F88 IMEI declaration still applies.** The IMEI part of the KRA notice was quashed. Customs declarations of dutiable goods still apply.
+- **Treating 1555 as a stolen-phone check.** It confirms validity and model, not theft.
+- **Mistaking IMEI1 and IMEI2 for two phones.** Dual-SIM phones have two IMEIs. That is normal.
+- **Buying a non-type-approved brand because it is cheap.** Vendors are prohibited from selling the 21 brands named in February 2026, and support and certification are uncertain.
+- **Buying an iCloud-locked iPhone "for parts" and hoping to unlock it.** Activation Lock can only be removed by the owner or Apple with proof of purchase.
+- **Believing a working Safaricom SIM proves the phone is clean.** It proves only that the phone is not blocked on that network today.
+
+## Frequently asked questions
+
+**Is IMEI registration mandatory in Kenya in 2026?**
+No. The CA and KRA notices that tried to make it mandatory from 1 January 2025 were quashed by the High Court on 18 July 2025. The CA appealed in September 2025, and no Court of Appeal decision had been publicly reported at the time of writing.
+
+**Will Safaricom block my phone if its IMEI is not registered?**
+There is no lawful basis for that under current law. Operators can block a specific handset reported stolen, and phones with invalid or cloned IMEIs can be disconnected. Your phone will not be blocked just because it was never "registered".
+
+**How do I check if my phone is genuine in Kenya?**
+Dial `*#06#`, then SMS the 15-digit IMEI to **1555** or use the CA's online checker. The reply should say "valid" and show the same model as your phone.
+
+**Do I need to declare my phone at JKIA?**
+Your own phone in personal use counts as personal effects. New phones above the passenger allowance, or in commercial quantities, must be declared and taxed. Separately listing IMEIs on the F88 form was part of the notice the court quashed.
+
+**What is KRA DIRS?**
+KRA's Device Identification and Registration System, set up under the 2024 scheme. Some buyers use it to see whether duty was recorded for a phone. After the ruling it is not a legal requirement for residents.
+
+**Can a blacklisted IMEI be cleared?**
+Only by the person who reported it, through the operator that applied the block, usually with proof of ownership. Anyone offering to change or "clean" an IMEI is offering to commit a crime.
+
+**Which phone brands are banned in Kenya?**
+In February 2026 the CA named 21 non-type-approved brands that vendors may not sell, citing safety and health risks. Check the CA's current list before buying an unfamiliar brand.
+
+## Check before you pay
+
+The 1555 check tells you the phone is real. These checks tell you whether it is **yours to buy**:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no used iPhone should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard and origin for Galaxy phones
+
+Kenyan phone rules changed three times between 2024 and 2026 and may change again when the Court of Appeal rules. Before you rely on any detail here — including duty rates — confirm the current position with the **Communications Authority** at [ca.go.ke](https://www.ca.go.ke/), **KRA** at [kra.go.ke](https://www.kra.go.ke/), or your mobile operator.
+ARTICLE_NOV19_KE,
+    ],
+    [
         'slug' => 'senegal-imei-check',
         'title' => 'Senegal IMEI Check: Verify an Imported Phone in 2026',
         'meta_title' => 'Senegal IMEI Check 2026: Vérification IMEI and Import Tax',
