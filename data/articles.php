@@ -8,6 +8,883 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ceir-gov-mm-registration-step-by-step',
+        'title' => 'ceir.gov.mm Registration: Step-by-Step Guide (2026)',
+        'meta_title' => 'ceir.gov.mm Registration 2026: Step-by-Step IMEI Guide (English/မြန်မာ)',
+        'excerpt' => 'How to register a phone on ceir.gov.mm in 2026: check the IMEI, declare it, pay the 12% tax within 30 days and avoid fake CEIR sites. English/Burmese.',
+        'date' => '2026-11-20',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV20_MM'
+Since **1 April 2026**, a phone in Myanmar only works on the mobile network if its IMEI is on the national **CEIR whitelist**. If it isn't, MPT, ATOM, U9 and Mytel will block it after a short grace period. Since **14 July 2026** the same rule covers phones that travellers bring in through the airports.
+
+This is a **step-by-step ceir.gov.mm registration tutorial** written in English, with the key Burmese terms beside each step (ဖုန်း IMEI မှတ်ပုံတင်နည်း). It is for people in Yangon, Mandalay and Naypyidaw who bought a phone abroad, got one as a gift, bought a used or grey-import handset, or saw a "tax unpaid" message on their screen and don't know what to do next.
+
+If you just want to know what CEIR is, our earlier [ceir.gov.mm IMEI check guide](https://imeihub.net/article/ceir-gov-mm-imei-check-register-myanmar-guide) covers the basics. This guide is the hands-on version, updated with the rules announced through 2026.
+
+**Key takeaways (အဓိကအချက်များ)**
+
+- **Official portal: ceir.gov.mm only.** There is **no official CEIR app**, and no "agent" can sell you whitelist status. Many lookalike sites (ceir-something.online and similar) are not government sites.
+- **Official call centre: 1577 or 1755**, according to the CEIR and EIR System Project Steering Committee.
+- Phones that were **switched on with an active MPT, ATOM, U9 (formerly Ooredoo) or Mytel SIM by 31 March 2026** were **whitelisted automatically, with no tax to pay**.
+- A phone that is **not** whitelisted works for about **30 days** after it first connects to a Myanmar network. After that it is blocked until the tax, plus any penalty, is paid.
+- Reported tax on a newly registered phone: **5% customs duty + 5% commercial tax + 2% advance income tax** (about **12%** of the value customs assesses), plus a **redemption fine** if you are late.
+- **Travellers:** declare unregistered phones on the **Passenger Declaration (PD) Form** at arrival, then register and pay within **30 days**. The limit is **2 phones per person per year**, counting the phone you are using.
+- If you live in a border area or somewhere with poor internet, you can pay at an **Internal Revenue Department (IRD)** or **Customs Department** office instead.
+
+## Who has to register? (ဘယ်သူတွေ မှတ်ပုံတင်ရမလဲ)
+
+| Your situation | Do you need to register? | What to do |
+|---|---|---|
+| Phone in use with a Myanmar SIM before 31 March 2026 | **No.** Auto-whitelisted | Nothing. Ignore "unpaid tax" pop-ups (see below) |
+| New phone bought from an authorised Myanmar shop after 31 March | Usually no. The importer should have registered and paid tax | Check the IMEI on ceir.gov.mm **before** you pay |
+| Phone bought abroad and brought in by you | **Yes** | Declare on the PD Form at arrival, then register within 30 days |
+| Phone sent to you from overseas as a gift | **Yes** | Register on ceir.gov.mm and pay the tax |
+| Used / grey-import phone bought in Myanmar | **Maybe** | Check the IMEI first. If it isn't whitelisted, the tax becomes your problem |
+| Foreign visitor on a short trip | Not for the first ~30 days with a local SIM | Declare at arrival if the phone is unregistered. Register if you stay longer |
+
+The rule that catches most people out: **the tax follows the phone (IMEI), not the owner.** If a seller in a Yangon market sells you a phone that was never whitelisted, the shop doesn't pay the tax when the block comes. You do.
+
+## Step 1 — Find your IMEI (IMEI နံပါတ် ရှာနည်း)
+
+Dial **`*#06#`**. The phone shows a 15-digit number.
+
+- **Dual-SIM phones show two IMEIs (IMEI1 and IMEI2).** Note both. CEIR checks each one.
+- On an **iPhone**: Settings → General → About. On **Android**: Settings → About phone → Status.
+- Compare the number on screen with the box and the SIM tray (on iPhones). **If they don't match, stop.** A mismatch is the classic sign of a refurbished board, a swapped housing or a tampered IMEI.
+
+Write the IMEI down exactly. Don't type it from a photo of the box. Typing the wrong digit is the most common reason people get a false "not found" result.
+
+## Step 2 — Check the status on ceir.gov.mm (အခြေအနေ စစ်ဆေးခြင်း)
+
+1. Open a browser and type **`ceir.gov.mm`** into the address bar yourself. Don't follow a link from Facebook, Viber or Telegram.
+2. Open the IMEI status check. Enter the 15-digit IMEI with no spaces.
+3. Repeat for IMEI2 on a dual-SIM phone.
+
+Read the result like this:
+
+| Result on screen | What it means | Next step |
+|---|---|---|
+| **Whitelisted / registered** | The phone can use any Myanmar network | Done. Keep a screenshot |
+| **Whitelisted, but shows "IMEI tax unpaid"** | Auto-whitelisted phone. The CEIR team says **no payment is required** | Nothing. Don't pay anyone |
+| **Not registered / not on whitelist** | It will be blocked after the ~30-day grace period | Go to Step 3 |
+| **Blocked / blacklisted** | Reported, duplicated or invalid IMEI | Don't buy it. If it's yours, call 1577 / 1755 |
+
+The second row is worth repeating because people have paid for it. The CEIR project team said that after 31 March 2026 some **whitelisted** phones show a tax-payment notice for an "unpaid IMEI", and that **these users do not need to pay**. If the status check says your phone is whitelisted, the pop-up is not a bill.
+
+## Step 3 — Prepare your documents (လိုအပ်သော စာရွက်စာတမ်းများ)
+
+Have these ready before you start the online form. Clear phone photos are fine:
+
+| Document | Burmese | Who needs it |
+|---|---|---|
+| NRC card (citizens) | နိုင်ငံသားစိစစ်ရေးကတ်ပြား (မှတ်ပုံတင်) | Myanmar residents |
+| Passport | နိုင်ငံကူးလက်မှတ် | Foreigners and returning travellers |
+| Passenger Declaration (PD) Form | ခရီးသည် ကြေညာလွှာ | Anyone who declared a phone at arrival |
+| Boarding pass and flight ticket | လေယာဉ်လက်မှတ် | Air travellers registering a phone they brought in |
+| Purchase receipt or invoice | ဝယ်ယူမှု ပြေစာ | Recommended for everyone. It supports the value you declare |
+| SIM registered in your name | ဆင်းမ်ကတ် | The phone gets linked to a SIM and ID |
+
+**Privacy note:** CEIR links the handset's IMEI to a SIM and a national ID. Digital-rights groups such as the Myanmar Internet Project have warned that this makes it easy to tie a specific device to a specific person. Register because the network requires it. But be careful what you store on the phone, and never hand your NRC or passport photo to an unofficial "registration agent".
+
+## Step 4 — Register and pay the tax (မှတ်ပုံတင်ပြီး အခွန်ပေးဆောင်ခြင်း)
+
+Online, on **ceir.gov.mm**. The labels on the portal may change, but the flow reported so far is:
+
+1. Choose the option to **register a device / pay IMEI tax** for a phone that is not whitelisted.
+2. Enter the **IMEI(s)**, brand and model.
+3. Enter your **ID details** (NRC or passport) and, if you are a traveller, your **PD Form** details.
+4. Upload the supporting documents from Step 3.
+5. Review the **tax assessment** the system shows: customs duty, commercial tax, advance income tax and any fine.
+6. Pay through the payment options the portal offers, and **save the receipt or reference number**.
+7. Wait for confirmation, then run the Step 2 check again until the IMEI shows **whitelisted** (for dual-SIM phones, check both IMEIs).
+
+In person, if you can't get online or live in a border area:
+
+- Go to an **Internal Revenue Department (IRD)** or **Customs Department** office and pay the tax and any penalty there.
+- Air travellers can use the **CEIR One-Stop Service** counters connected to the airport declaration process.
+
+Phone operator shops (MPT, ATOM, U9, Mytel) can help with SIM registration and tell you whether a block is caused by CEIR. **The tax itself is paid through CEIR, IRD or Customs, not to a shop.**
+
+## How much tax will I pay? (အခွန် ဘယ်လောက် ကျမလဲ)
+
+Law-firm summaries of the traveller rules list three charges:
+
+| Charge | Burmese | Rate |
+|---|---|---|
+| Customs duty | အကောက်ခွန် | 5% |
+| Commercial tax | ကုန်သွယ်လုပ်ငန်းခွန် | 5% |
+| Advance income tax | ကြိုတင်ဝင်ငွေခွန် | 2% |
+| Redemption fine (if late or not compliant) | ဒဏ်ကြေး | Extra, on top of the taxes |
+
+**Rough example:** if customs assesses a phone at **2,000,000 kyats**, 12% comes to about **240,000 kyats** before any fine. The real figure can be a little higher or lower. Customs uses its own valuation for the model, not necessarily your receipt price, and commercial tax may be calculated on the value plus duty. **The amount the portal shows you is the number that counts.**
+
+Two ways to avoid paying more than you need to:
+
+- **Don't miss the 30-day window.** Late registration adds penalties. Some reports suggest a non-compliant device can cost up to 25% extra.
+- **Don't buy someone else's tax bill.** A cheap grey-import phone that isn't whitelisted isn't cheap once you add 12% or more in tax and the fine.
+
+## Travellers arriving in Myanmar (နိုင်ငံခြားမှ ပြန်လာသူများ)
+
+The traveller rules took effect on **14 July 2026** at **Yangon, Mandalay and Naypyidaw international airports**. Later announcements said land and sea entry points are covered too.
+
+1. **Before landing:** note the IMEI of every phone you are carrying that has never been used in Myanmar.
+2. **At the customs counter:** declare each unregistered phone and its IMEI on the **PD Form**. Keep your copy. You will need it to register.
+3. **Limit:** a maximum of **2 phones per person**, including the phone you are using, and **2 registrations in total over 12 months** from your first PD Form declaration.
+4. **Within 30 days:** register on ceir.gov.mm (or at a One-Stop Service counter) with your passport, boarding pass and ticket, and pay the taxes.
+5. **After 30 days:** the phone is blocked, and the taxes plus a fine are due before it works again.
+
+Short-stay visitors can use their own handset with a Myanmar SIM for about 30 days without paying the tax. If you are staying longer, register before the 30 days run out.
+
+## Buying a used phone in Myanmar safely (ဖုန်းအဟောင်း ဝယ်ယူခြင်း)
+
+Used phones are where CEIR causes the most problems, in the shops around Bogyoke Market and 34th Street in Mandalay, and in Facebook Marketplace deals. Before you hand over any money:
+
+1. **Dial `*#06#` on the phone yourself.** Don't accept an IMEI the seller reads out or a sticker on the box.
+2. **Check both IMEIs on ceir.gov.mm.** Buy only if they show **whitelisted**, or knock the full tax off the price.
+3. **Check the brand and model** with our [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). If the IMEI decodes to a different model, the phone has been tampered with or rebuilt.
+4. **Check whether it was reported stolen abroad** with the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist). Many grey imports come from Thailand, China and Singapore, and a phone blacklisted there can still be sold here.
+5. **For iPhones**, check that Activation Lock is off with an [iCloud status check](https://imeihub.net/service.php?slug=apple-icloud-status). Then sign out of the seller's Apple ID in front of them.
+6. **For Samsung phones**, confirm the model and region with a [Samsung info check](https://imeihub.net/service.php?slug=samsung-info).
+7. **Get a written receipt** showing the IMEI, price, date and the seller's phone number.
+
+| Check | What it catches | Tool |
+|---|---|---|
+| CEIR status | Not whitelisted → tax and blocking risk in Myanmar | ceir.gov.mm |
+| IMEI decode (brand/model) | Fake, cloned or rebuilt phones | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| International blacklist | Reported lost or stolen abroad | [Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud / Activation Lock | iPhone locked to another person | [iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) |
+
+## Common problems and fixes (ပြဿနာများနှင့် ဖြေရှင်းနည်း)
+
+**"My phone says IMEI tax unpaid, but it worked before April."**
+Check the status. If it is whitelisted, the CEIR team says no payment is needed.
+
+**"Only one SIM slot works."**
+On dual-SIM phones, IMEI1 and IMEI2 are separate entries. Check both. If one isn't whitelisted, register it or call 1577 / 1755.
+
+**"The portal won't load."**
+Try again later or on a different connection, or call the call centre. Use a tax office if you're in an area with poor internet. **Don't use a lookalike site** just because it loads faster.
+
+**"Someone offers to 'unlock' or 'change' my IMEI so I don't have to pay."**
+Say no. Changing an IMEI is illegal, gets the device blacklisted, and you can lose the phone permanently.
+
+**"My phone was stolen."**
+Report it to the police and your operator straight away, with the IMEI from your box or receipt. Then also change your passwords and the PIN on your mobile wallet.
+
+## Quick Burmese–English glossary (ဝေါဟာရ)
+
+| English | မြန်မာ |
+|---|---|
+| Phone registration | ဖုန်း မှတ်ပုံတင်ခြင်း |
+| Whitelist | ခွင့်ပြုစာရင်း (White List) |
+| Tax | အခွန် |
+| Customs duty | အကောက်ခွန် |
+| Fine / penalty | ဒဏ်ကြေး |
+| 30 days | ရက် ၃၀ |
+| Used phone | ဖုန်းအဟောင်း |
+| Stolen phone | ခိုးယူခံရသော ဖုန်း |
+
+## Bottom line
+
+For most people in Myanmar, ceir.gov.mm registration takes about 15 minutes. Find the IMEI, check it, and if it isn't whitelisted, register it and pay roughly 12% within 30 days. The expensive mistakes are paying fake agents, paying "unpaid tax" pop-ups on phones that are already whitelisted, and buying a used phone that brings its tax bill with it.
+
+Before you buy any used or imported phone, run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) as well as the CEIR status check. Together they take less than two minutes.
+
+*This guide is based on CEIR and EIR System Project Steering Committee announcements as reported by Myanmar media, plus law-firm and customs alerts published between March and November 2026. Rates, deadlines and portal screens can change without notice. Always confirm the current rules on ceir.gov.mm or by calling 1577 / 1755 before you pay. imeihub is an independent IMEI-checking service and is not affiliated with the Myanmar government or CEIR.*
+ARTICLE_NOV20_MM,
+    ],
+    [
+        'slug' => 'how-to-register-imei-in-kenya',
+        'title' => 'How to Register IMEI in Kenya (2026): What Is Required Now',
+        'meta_title' => 'How to Register IMEI in Kenya 2026: 1555 Check, KRA & Court Ruling',
+        'excerpt' => 'Kenya\'s IMEI registration order was quashed in court. What residents must still do: the 1555 check, KRA customs rules and a safe used-phone buy.',
+        'date' => '2026-11-19',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV19_KE'
+Every few weeks a new message goes round Kenyan WhatsApp groups: *register your phone's IMEI with KRA or Safaricom will switch it off.* People queue at customer care centres, pay "agents" in Nairobi CBD to "register" a handset, or panic-sell a perfectly good phone on Jiji.
+
+Here is the short version, for anyone in Nairobi, Mombasa, Kisumu, Nakuru or Eldoret who searched **how to register IMEI in Kenya**: **as of November 2026, there is no lawful requirement for an ordinary resident to register a phone's IMEI with KRA, the Communications Authority (CA) or their mobile operator.** The scheme that tried to make that mandatory was **quashed by the High Court in July 2025**. The CA has appealed, and the appeal had not been decided at the time of writing.
+
+That does not mean you have nothing to do. Some rules did not go away — **customs duty on imported phones**, **type approval of phone models**, and the **brand ban the CA announced in February 2026**. And the free **1555 IMEI check** is still the fastest way to tell a genuine phone from a counterfeit one. This step-by-step guide covers what is actually required, what is optional, and what protects your money.
+
+**Key takeaways**
+
+- Dial `*#06#` to see your IMEI. Dual-SIM phones show two — **IMEI1** and **IMEI2**. Both belong to the same phone.
+- **SMS the 15-digit IMEI to 1555** (free) or use the CA's online IMEI checker to confirm the number is valid and matches the model.
+- The **October and November 2024** CA and KRA public notices requiring IMEI registration from **1 January 2025** were quashed on **18 July 2025** in *Katiba Institute v Communications Authority of Kenya & 2 others*, **Petition E647 of 2024, [2025] KEHC 10568 (KLR)**, before **Justice Chacha Mwita**.
+- The court held the notices had **no basis in law** and breached the right to privacy under **Articles 24 and 31** of the Constitution. It barred the State from implementing them or any measure requiring people to disclose IMEI numbers.
+- **Customs duty still applies.** Phones above the traveller allowance, or in commercial quantities, must be declared. From **1 July 2026** Kenya applies a **25% import duty** on mobile phones for one year, ending the previous 0% rate.
+- Since **February 2026**, the CA has named **21 non-type-approved brands** that vendors may not sell. Check the model before you buy, not after.
+- No one can legally "register" or "clean" an IMEI for a fee. Altering an IMEI is illegal in most jurisdictions, and a phone with a tampered IMEI can be disconnected.
+
+## Do I have to register my phone's IMEI in Kenya?
+
+No — not as an individual, not under current law. To see why so many people believe they do, you need the timeline.
+
+| Date | What happened | Status in November 2026 |
+|---|---|---|
+| 2012 | CA (then CCK) switches off counterfeit phones and launches the **1555** SMS check | Check still available, free |
+| October 2024 | CA public notice on IMEI collection and a whitelist of devices allowed on networks, linked to KRA tax compliance | **Quashed** |
+| 5 November 2024 | KRA notice: importers, assemblers and passengers to declare IMEIs; passengers on the **F88** form from 1 January 2025 | **Quashed** as to IMEI disclosure |
+| November 2024 | KRA clarifies that **tourists and short-stay foreign visitors** are exempt | Superseded by the ruling |
+| 18 July 2025 | High Court quashes the CA and KRA notices "in their entirety" | **Operative judgment** |
+| September 2025 | CA appeals to the Court of Appeal | **Pending**, per public reporting |
+| 10 February 2026 | CA names 21 non-type-approved brands vendors may not sell | In force |
+| 1 July 2026 | 25% import duty on mobile phones for one year | In force |
+
+The court's reasoning matters for what comes next. Justice Mwita found the notices were not anchored in any statute, were never tabled in Parliament, and were issued without public participation. He also found that IMEI numbers, linked to subscribers, are **personal data**, and that collecting them for every phone in the country risked unchecked state surveillance. He described the blanket traveller declaration as disproportionate.
+
+So if anyone — an agent, a shop, a forwarded message — tells you that your phone "will be blocked unless you register it", ask them which law requires it. As things stand, there isn't one.
+
+**What could change it:** a Court of Appeal decision overturning the judgment, or Parliament passing a law that gives the scheme a legal basis. Either would be public news. Until then, confirm any new requirement on [ca.go.ke](https://www.ca.go.ke/) or [kra.go.ke](https://www.kra.go.ke/), not on WhatsApp.
+
+## Step-by-step: what every Kenyan phone owner should actually do
+
+These steps take about five minutes, cost nothing, and cover everything that genuinely protects you.
+
+**Step 1 — Find your IMEI**
+
+- **Any phone:** open the dialler and type `*#06#`. The IMEI appears instantly; no call is made.
+- **iPhone:** Settings → General → About. Scroll down to IMEI.
+- **Samsung:** Settings → About phone → IMEI.
+- **Tecno, Infinix, itel, Oppo, Xiaomi and other Android phones:** Settings → About phone → Status (or "Status information").
+- **On the box:** the barcode sticker. On many phones it is also on the SIM tray.
+
+A valid IMEI has **15 digits** and passes the **Luhn checksum**. If you see 16 digits, that is the **IMEISV** (IMEI plus software version), which is not what checkers want. Use the 15-digit number shown by `*#06#`.
+
+**Step 2 — Write it down somewhere that is not your phone**
+
+Email it to yourself, save it in a cloud note, or write it in a notebook along with the receipt. If the phone is stolen, the IMEI is the one detail the police and your operator will ask for — and you cannot read it from a phone you no longer have.
+
+**Step 3 — Verify it with the CA: SMS to 1555**
+
+- Send the 15-digit IMEI as an SMS to **1555**. The CA lists the service as free.
+- Or use the **IMEI checker** on the CA website ([ca.go.ke/imei-checker](https://www.ca.go.ke/imei-checker)).
+- The reply tells you whether the IMEI is **valid** and which **make and model** it belongs to.
+
+What to look for: the model in the reply must match the phone in your hand. If you are holding a "Samsung Galaxy S24" and 1555 says "Tecno" — or says the IMEI is invalid — you are holding a counterfeit, a cloned IMEI, or a tampered phone.
+
+**Step 4 — Check the model is type approved**
+
+The CA publishes a **List of Type Approved Equipment** and, since February 2026, a list of **non-type-approved brands** vendors may not sell. A phone outside that list is not automatically stolen, but it may not be properly certified for Kenyan networks, and it is a red flag in a shop that claims to sell "original" stock.
+
+**Step 5 — Run a free model lookup and, for a used phone, a blacklist check**
+
+1555 tells you the IMEI exists. It does not tell you whether the phone was reported stolen abroad, whether an iPhone is still locked to someone else's Apple Account, or whether a Samsung is under Knox Guard. Those are separate checks:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — brand, model, storage and colour from the TAC
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — reported lost or stolen in participating countries
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — essential for every second-hand iPhone
+
+**Step 6 — Keep proof of purchase**
+
+A receipt showing the IMEI, the seller and the price is your strongest evidence of ownership if the phone is ever lost, stolen or questioned at customs. M-PESA confirmation messages help, but they rarely include the IMEI. Ask the shop to write it on the receipt.
+
+## The official checks compared
+
+| Check | Run by | What it proves | What it does not prove |
+|---|---|---|---|
+| SMS to **1555** / CA IMEI checker | Communications Authority | IMEI is valid; make and model | Whether the phone is stolen or locked |
+| Type approval list | Communications Authority | The **model** is certified for Kenya | Anything about the individual handset |
+| KRA **DIRS** status | Kenya Revenue Authority | Whether duty was recorded for that IMEI, where the record exists | It is not a legal requirement for residents after the ruling |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Global operator reports | Reported lost or stolen in participating countries | Thefts never reported to an operator |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Apple account status | Whether a previous owner still controls the iPhone | Physical condition |
+| [Samsung Knox status](https://imeihub.net/service.php?slug=samsung-info) | Samsung | Knox Guard state and origin | Network blacklist status |
+
+A note on **DIRS**, KRA's Device Identification and Registration System: it was built for the 2024 scheme, and some buying guides still tell you to look for a "Compliant" status. Where a status is available, it can be useful information when buying a phone that came in from Dubai or China — an "Unregistered" result on a brand-new flagship is worth a question. But after the July 2025 judgment it is **not** a condition for using a phone in Kenya, and a missing record does not make a phone illegal.
+
+## Bringing a phone into Kenya: customs still applies
+
+The IMEI declaration was quashed. **Customs duty was not.** If you are flying into JKIA or Moi International with new phones, these rules still apply:
+
+- **Personal effects:** the passenger allowance for baggage and personal effects is **USD 2,000** per traveller, according to published guidance on the updated EAC rules. Your own phone, in use, is personal effects.
+- **New phones for resale, or for friends and family:** these are goods, not personal effects. Declare them in the red channel.
+- **Above the allowance:** expect **import duty** (25% on mobile phones from 1 July 2026, for one year), **16% VAT**, the **Import Declaration Fee** and the **Railway Development Levy**, plus excise duty where it applies. Rates have changed several times since 2023 — get the current figure from KRA or a licensed clearing agent before you travel.
+- **Enforcement is real:** on 1 October 2026, KRA customs officers at JKIA intercepted **40 undeclared iPhone 18 Pro and Pro Max handsets**, worth about **KES 8.2 million**, from a passenger arriving from Dubai. The phones went to the Customs Warehouse. Undeclared goods can be seized, and penalties under the **EAC Customs Management Act** can be heavy.
+
+So the honest rule for travellers is simple: **declare goods, not IMEIs.** If you carry one or two phones for your own use, you are dealing with ordinary personal effects. If you carry a box of phones, you are an importer and duty applies.
+
+## Buying a used phone in Nairobi safely
+
+Luthuli Avenue, Moi Avenue, Tom Mboya Street and the phone floors of CBD malls sell millions of handsets a year. Most sellers are honest; some are not. Phones snatched in traffic or on matatus regularly surface for resale within days. Protect yourself:
+
+- **Type `*#06#` on the phone yourself.** Never accept a photo or screenshot of the IMEI.
+- **SMS it to 1555 on the spot.** The model must match. "Invalid" ends the deal.
+- **Compare the IMEI** on the screen with the box, the SIM tray and the receipt. All four should agree.
+- **Run the free lookup and blacklist check** before any M-PESA payment on a phone above about KES 10,000.
+- **iPhones:** run the iCloud check, then watch the seller sign out of their Apple Account (Settings → their name → Sign Out) and erase the phone in front of you.
+- **Samsung and other Android phones:** have the seller remove their Google account and factory reset before you pay. After a reset, Factory Reset Protection asks for the previous owner's account — find out now, not at home.
+- **Test with your own SIM.** Make a call, send an SMS and load a page on mobile data.
+- **Check the hardware:** cameras, speakers, microphone, charging port, battery health, Face ID or fingerprint.
+- **Get a receipt** with the seller's name, phone number, shop location and the IMEI.
+
+**The "IMEI registration" scam:** some sellers and agents charge a fee to "register" a phone with KRA or "clear" it for Safaricom. There is no such registration for residents. Paying for it gets you nothing — and a seller who offers to "fix" an IMEI is describing a crime.
+
+## If your phone is stolen in Kenya
+
+- **Freeze your money first.** For most Kenyans the urgent loss is **M-PESA**, **Airtel Money** or a banking app, not the handset. Call your operator immediately (Safaricom customer care on **100** for prepaid or **200** for postpaid; Airtel and Telkom have their own lines) and ask them to block the line and freeze mobile money.
+- **Report at the nearest police station** and get an **OB number**. Give the IMEI, make, model and proof of purchase.
+- **Replace the SIM** at an operator shop with your ID. This stops the thief receiving your OTPs.
+- **Lock or erase the phone remotely** using Find My (iPhone) or Find Hub (Android) before the thief can reset it.
+- **Ask your operator to block the handset by IMEI**, quoting your OB number. Blocking a SIM does not stop the phone being used with another SIM.
+- **Change passwords** for email, banking, WhatsApp and social media, starting with the email account that resets all the others.
+
+## Common mistakes
+
+- **Paying someone to "register" your IMEI.** No law requires it after the July 2025 ruling.
+- **Assuming the F88 IMEI declaration still applies.** The IMEI part of the KRA notice was quashed. Customs declarations of dutiable goods still apply.
+- **Treating 1555 as a stolen-phone check.** It confirms validity and model, not theft.
+- **Mistaking IMEI1 and IMEI2 for two phones.** Dual-SIM phones have two IMEIs. That is normal.
+- **Buying a non-type-approved brand because it is cheap.** Vendors are prohibited from selling the 21 brands named in February 2026, and support and certification are uncertain.
+- **Buying an iCloud-locked iPhone "for parts" and hoping to unlock it.** Activation Lock can only be removed by the owner or Apple with proof of purchase.
+- **Believing a working Safaricom SIM proves the phone is clean.** It proves only that the phone is not blocked on that network today.
+
+## Frequently asked questions
+
+**Is IMEI registration mandatory in Kenya in 2026?**
+No. The CA and KRA notices that tried to make it mandatory from 1 January 2025 were quashed by the High Court on 18 July 2025. The CA appealed in September 2025, and no Court of Appeal decision had been publicly reported at the time of writing.
+
+**Will Safaricom block my phone if its IMEI is not registered?**
+There is no lawful basis for that under current law. Operators can block a specific handset reported stolen, and phones with invalid or cloned IMEIs can be disconnected. Your phone will not be blocked just because it was never "registered".
+
+**How do I check if my phone is genuine in Kenya?**
+Dial `*#06#`, then SMS the 15-digit IMEI to **1555** or use the CA's online checker. The reply should say "valid" and show the same model as your phone.
+
+**Do I need to declare my phone at JKIA?**
+Your own phone in personal use counts as personal effects. New phones above the passenger allowance, or in commercial quantities, must be declared and taxed. Separately listing IMEIs on the F88 form was part of the notice the court quashed.
+
+**What is KRA DIRS?**
+KRA's Device Identification and Registration System, set up under the 2024 scheme. Some buyers use it to see whether duty was recorded for a phone. After the ruling it is not a legal requirement for residents.
+
+**Can a blacklisted IMEI be cleared?**
+Only by the person who reported it, through the operator that applied the block, usually with proof of ownership. Anyone offering to change or "clean" an IMEI is offering to commit a crime.
+
+**Which phone brands are banned in Kenya?**
+In February 2026 the CA named 21 non-type-approved brands that vendors may not sell, citing safety and health risks. Check the CA's current list before buying an unfamiliar brand.
+
+## Check before you pay
+
+The 1555 check tells you the phone is real. These checks tell you whether it is **yours to buy**:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no used iPhone should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard and origin for Galaxy phones
+
+Kenyan phone rules changed three times between 2024 and 2026 and may change again when the Court of Appeal rules. Before you rely on any detail here — including duty rates — confirm the current position with the **Communications Authority** at [ca.go.ke](https://www.ca.go.ke/), **KRA** at [kra.go.ke](https://www.kra.go.ke/), or your mobile operator.
+ARTICLE_NOV19_KE,
+    ],
+    [
+        'slug' => 'senegal-imei-check',
+        'title' => 'Senegal IMEI Check: Verify an Imported Phone in 2026',
+        'meta_title' => 'Senegal IMEI Check 2026: Vérification IMEI and Import Tax',
+        'excerpt' => 'Senegal has no national IMEI register, and import duty on phones is back. What a vérification IMEI really proves before you buy in Dakar.',
+        'date' => '2026-11-18',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV18_SN'
+Most smartphones in Senegal were first sold somewhere else. They arrive at the **Port de Dakar** and Blaise Diagne airport from France, Spain, Italy, Dubai, China and the United States — in containers for the formal trade, in suitcases carried by the diaspora, and in parcels sent home to Dakar, Thiès and Touba. Then they circulate: a phone bought new in Paris can pass through **Colobane**, a shop on the Allées du Centenaire and two private buyers within a year.
+
+One number survives all of that. Not the phone number, not the SIM, not the owner's Apple Account — the **IMEI**, 15 digits burned into the handset at the factory. That is why a *vérification IMEI* is the single most useful thing you can do before paying for a used or imported phone here. But it only protects you if you understand what it can and cannot prove in Senegal, and there are two facts to state plainly before anything else.
+
+**Senegal does not operate a public national stolen-phone register.** There is no government portal where you type an IMEI and the state tells you whether that handset was snatched at Petersen last month. And second: **the tax position on imported phones changed in 2025.** The customs exemption that had applied to imported handsets since 2008 was removed, which matters to anyone shipping a phone home or buying one that came in through an informal channel.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset itself to display the IMEI. Never accept a seller's screenshot.
+- The regulator is **ARTP**, the Autorité de Régulation des Télécommunications et des Postes. The mobile operators are **Orange (Sonatel)**, **Yas** (formerly Free Sénégal, rebranded by Axian in November 2024), **Expresso**, **Hayo** and **Promobile**.
+- As of November 2026 there is **no publicly announced Senegalese CEIR or IMEI blacklist** and no local handset lookup you can run.
+- ARTP runs **homologation** — type approval of equipment **models**, published as a list of approved terminals with their DAS (SAR) values. It is not a theft register.
+- **Mandatory SIM identification** links your identity to your **SIM card**, not your IMEI to a register. Unidentified lines were restricted from 18 March 2025 and suspended from 31 March 2025.
+- **Import duty and tax on telephones returned in 2025**, when Parliament removed the suspension created by Article 7 of **Law No. 2008-46**.
+- The widely copied claim that imported phones must be registered with ARTP for around **10,000 FCFA** or be blocked after 30 days has **no official source** we can find. Treat it as unverified.
+- Your real protection is the **global GSMA blacklist** plus **iCloud Activation Lock** and **Samsung Knox / Google account** checks.
+
+## Does Senegal have a national IMEI register?
+
+No. And the confusion is worth clearing up carefully, because three separate systems get collapsed into one in market conversations.
+
+ARTP's remit, set out in the **Code des communications électroniques (Law No. 2018-28 of 12 December 2018)**, covers regulation of the telecoms and postal sectors, type approval of equipment, spectrum, numbering and consumer protection. Under **Article 70**, radio and terminal equipment intended for the Senegalese market requires prior ARTP approval and must remain in conformity with the approved model; **Article 71** extends approval requirements to installers of radio equipment. **ARTP Decision No. 2021-011 of 27 August 2021** sets the conditions for terminal equipment and radio installation approvals, and in practice ARTP requires a physical sample as part of the file.
+
+None of that is a device-theft database. Type approval is granted to a **model and its importer**, so a phone with impeccable homologation can still be a stolen phone.
+
+| System | What it actually covers | Can you look up one handset? |
+|---|---|---|
+| ARTP homologation (type approval) | Equipment **models** approved for the Senegalese market, with DAS values | No — model and importer level only |
+| SIM identification | Linking a subscriber's identity to each SIM card | No — it covers SIMs and people, not devices |
+| Customs clearance (dédouanement) | Whether duty and tax were paid on an import | No — there is no public IMEI-by-IMEI customs lookup |
+| National IMEI blacklist / CEIR | Would cover individual stolen or blocked handsets | **Does not exist in Senegal as of November 2026** |
+| GSMA global blacklist | Handsets reported lost or stolen by operators in participating countries | **Yes** — this is the check that works |
+| iCloud / Knox / Google account lock | Whether a previous owner's account still controls the device | **Yes** — and it is decisive on any iPhone |
+
+## The 2025 change that matters most: duty on imported phones is back
+
+This is the part of Senegalese phone regulation that actually moved recently, and it is still poorly understood by buyers.
+
+**Law No. 2008-46** created the RUTEL, the fee for access to public telecommunications networks — and its **Article 7 suspended customs duties and taxes on imported fixed and mobile telephone equipment**. The policy goal in 2008 was mobile penetration, and it worked: handsets came in cheaply for well over a decade.
+
+In September 2025, meeting in extraordinary session, the **Assemblée nationale adopted a law removing that suspension**, reported as **Law No. 18/2025** and passed alongside two other economic texts. The measure sits inside the **Plan de Redressement Économique et Social (PRES)**. Finance Minister **Cheikh Diba** justified it on two grounds: the sector had been under-taxed relative to the exponential growth in demand for equipment, and restoring duty brings Senegal into line with the **ECOWAS Common External Tariff (TEC CEDEAO)**, which provides for import duties on these devices. Several deputies warned during the debate that handset prices would rise.
+
+What that means in practice, for the three people who care most:
+
+- **If you are buying locally in a shop:** formal retail prices absorb the tax. You are not asked for proof of clearance when you buy a phone from a dealer, and there is no IMEI-level customs check you can run.
+- **If you are importing or shipping a phone home:** expect duty and tax to be assessed on arrival, which was not reliably the case before. The duty rate depends on the tariff classification under the ECOWAS CET, whose bands are 0%, 5%, 10%, 20% and 35%, with **VAT at 18%** applied on the customs value plus duty, plus the usual community levies and statistical fee.
+- **If you are buying a used phone on the street:** none of this is your problem, and none of it tells you whether the phone is stolen. Skip to the checks below.
+
+**Verify the numbers before you budget.** Third-party calculators and shipping-site tables disagree about the duty band that applies to smartphones in Senegal, and the position changed in 2025. Get the current rate from the **Direction Générale des Douanes** or a licensed *commissionnaire en douane* rather than from a blog — including this one.
+
+## The 10,000 FCFA "ARTP IMEI registration" claim
+
+Search in French for how to send a phone to Senegal and you will eventually hit a widely copied claim: that imported phones must be **registered with ARTP**, that this costs around **10,000 FCFA per device**, and that an undeclared handset is **blocked after 30 days**.
+
+We could not find any official basis for it. The claim appears on commercial shipping and parcel blogs without citing a decree, a decision or an ARTP notice. ARTP's own published material covers its mandate, number portability, SIM identification and equipment homologation — not per-handset IMEI registration or a fee of that kind. No Senegalese CEIR has been announced.
+
+It is easy to see how the idea spread: Pakistan's **DIRBS** does block unregistered imports after a grace period, Kenya introduced an **airport declaration** regime, and Indonesia's **Bea Cukai** registers IMEIs at customs. Those schemes are real — they are just not Senegalese.
+
+**So:** if someone quotes you a figure to "register the IMEI with ARTP", ask them to show you the text. And if ARTP does introduce a device register later, confirm it on [artp.sn](https://artp.sn/) rather than relying on a blog post — including this one.
+
+## What ARTP's approved-terminal list is good for
+
+There is one official Senegalese list a careful buyer can actually consult. Through its open-data section, ARTP publishes a **list of approved terminals with their DAS values** — DAS being *débit d'absorption spécifique*, the French term for SAR, the specific absorption rate that measures radio-frequency energy absorbed by the body.
+
+Used sensibly, that list tells you whether a model was formally approved for the Senegalese market, which is one weak signal that a device came through a formal import channel. ARTP has also been building enforcement capacity around unapproved radio equipment, with a surveillance committee reported in 2025.
+
+Used carelessly, it tells you nothing about the phone in your hand. A model can be approved and the specific handset stolen. A model can be absent from the list and the handset entirely legitimate — plenty of honest phones arrive in a traveller's pocket. **Homologation is about models; theft is about units.** Only an IMEI-level check speaks to the unit.
+
+## SIM identification is not device registration
+
+This is the most exploited confusion in the Senegalese market.
+
+ARTP reminded operators in **January 2025** that subscriber identification is a legal obligation, noting that it was no longer being respected by distributors and at operator points of sale. It then set a hard timetable: lines that were not properly identified would be **restricted from 18 March 2025** and **suspended from 31 March 2025**. The rules require the subscriber to be present in person, a **valid CNI or passport** for Senegalese and ECOWAS nationals, and cap holdings at **three SIM cards per subscriber per mobile operator**.
+
+Every element of that is about **SIMs, subscribers and billing**. Not one of them creates a register of handsets. If a seller tells you a phone is "identified" or "registered", they are describing the SIM card inside it — or nothing at all. Pull the SIM out and the phone's history is unchanged.
+
+## What a vérification IMEI actually tells you here
+
+| Check | What it answers | Useful in Senegal? |
+|---|---|---|
+| [Free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) | Real brand, model, storage and colour from the TAC | Always — it exposes a misdescribed or repainted phone in seconds |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Reported lost or stolen by an operator in a participating country | Critical — most handsets here were first sold abroad |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Whether Find My still ties the iPhone to a previous Apple Account | Decisive — never buy an iPhone without it |
+| [SIM-Lock / carrier lock](https://imeihub.net/service.php?slug=apple-sim-lock) | Whether the handset is locked to a foreign network | Important for French, Spanish and US imports |
+| [Samsung info and Knox](https://imeihub.net/service.php?slug=samsung-info) | Knox Guard status, model and origin | Important — Samsung dominates the mid-range |
+| [Warranty status](https://imeihub.net/service.php?slug=apple-warranty) | Device age and remaining coverage | Useful for pricing, and it unmasks a "new" phone that is two years old |
+
+Be honest about the limit. A blacklist is only as good as the reports that feed it. A phone stolen in Dakar and never reported into an operator system will not appear on any global list — which is exactly why the **account-lock checks carry more weight here than the blacklist does**. Activation Lock does not depend on anyone filing a report; it depends on the previous owner's Apple Account, and it is checkable today.
+
+## How to find the IMEI
+
+- **Any phone:** dial `*#06#`. Dual-SIM handsets display **IMEI1** and **IMEI2** — two numbers, one device, completely normal.
+- **iPhone:** Settings → General → About. Also engraved on the SIM tray on many models.
+- **Android and Samsung:** Settings → About phone → Status information.
+- **The box:** the barcode label carries the IMEI. **Compare it against the screen.** A mismatched box is the oldest trick in Colobane.
+- **A phone that will not start:** check the SIM tray, the box and the receipt.
+
+An IMEI is 15 digits and passes the **Luhn checksum**. A 16-digit number is an **IMEISV**, which includes a software version and is not what a checker wants. A number that fails validation ends the conversation.
+
+## Buying a used phone in Dakar, step by step
+
+Colobane is the best-known destination for second-hand handsets, repairs and accessories in Dakar, and its reputation cuts both ways: a real repair economy has grown up there, and it is also where stolen phones surface. In one 2026 operation the gendarmerie's Section de Recherches, working with the GIGN, reported dismantling a network accused of snatching, unlocking and reselling phones — 23 people arrested and more than 500 handsets seized, after a run of complaints from several Dakar neighbourhoods. Buy accordingly.
+
+- **Type `*#06#` yourself**, on the handset, while the seller watches. A WhatsApp screenshot takes ten seconds to fake.
+- **Run the free model lookup on the spot.** If the result says Galaxy A16 and the seller says A56, you have learned everything you need.
+- **Compare the IMEI** on the screen against the SIM tray, the box label and any receipt. They should all agree.
+- **Run the blacklist check** before money moves on anything above about 50,000 FCFA.
+- **For an iPhone, run the iCloud check, then make the seller sign out in front of you** — Settings → their name → Sign Out, with the password typed by them, not by you.
+- **Insist on the factory reset before you pay, not after.** Activation Lock and Knox Guard only appear when the phone restarts and asks for an account that is not yours. A seller who wants to reset it "at home later" has told you something important.
+- **Test both SIM slots** with your own Orange, Yas or Expresso SIM. Make a real call and load a page on mobile data.
+- **Check the hardware in the same session:** both cameras, speaker, microphone, charging port, battery health. An IMEI check proves identity and status, never physical condition.
+- **Get a written receipt** with the seller's name, telephone number and the IMEI on it. From a shop, ask for the return window in writing.
+
+## If your phone is stolen in Senegal
+
+- **Record the IMEI today**, before anything happens. Dial `*#06#` and store it somewhere that is not on the phone — an email to yourself, a cloud note, a line in a notebook.
+- **Report to the police or gendarmerie** quickly and keep the receipt. State the IMEI explicitly along with the make, model and any proof of purchase.
+- **Get the réquisition and take it to your operator.** Orange Sénégal's own support guidance describes the route: the complaint goes to the police or gendarmerie, who issue a *réquisition*; you deposit it at Orange's head office on the **VDN** in Dakar and provide the IMEI, after which the operator can give an approximate last-known location from the cell it used and proceed with a remote block. Practice varies between posts and operators, so ask what each one needs.
+- **Secure the money before the handset.** For most people in Senegal the urgent loss is **Orange Money, Wave, Mixx by Yas or E-Money**, not the phone. Call the provider, freeze the account, change the PIN.
+- **Bar the SIM** so calls and SMS stop. Barring a SIM does **not** stop the handset being used with a different SIM.
+- **Lock the device remotely** through Find My iPhone or Find Hub on Android before the thief reaches a factory reset. Display a message, then erase if recovery is hopeless.
+- **Report online where it fits.** Senegal's **Division spéciale de lutte contre la cybercriminalité** operates a national online reporting platform, launched in 2026, for ICT-related offences — useful where the theft is tied to fraud, account takeover or mobile-money loss, alongside the ordinary complaint at the commissariat.
+- **Have the IMEI reported as lost or stolen** so it reaches the international record. A Senegalese police report does not propagate to the global database by itself, and that global record is what protects the next buyer.
+
+## Common mistakes
+
+- **Believing there is a government IMEI check.** There is no Senegalese register to consult. A seller claiming the phone "passed the ARTP check" is describing model homologation, or inventing something.
+- **Paying an "ARTP registration" fee.** No official per-handset IMEI registration fee is published. Ask for the text before you pay anyone anything.
+- **Treating an identified SIM as a clean handset.** Your CNI on a SIM says nothing about the phone around it.
+- **Accepting a screenshot of the IMEI.** Dial `*#06#` on the phone, yourself, every time.
+- **Paying before the reset.** The reset is where Activation Lock reveals itself, so it has to come before the money.
+- **Assuming a working Orange SIM proves anything.** It proves the handset is not currently blocked on that network. Blocks are applied per country and per system, and can arrive later.
+- **Buying an iCloud-locked iPhone because it is cheap.** The discount exists precisely because the phone cannot be used. No service removes Activation Lock, whatever a stall promises.
+- **Confusing IMEI1 and IMEI2 with two phones.** A dual-SIM handset has two IMEIs. That is normal, not tampering.
+
+## Vocabulaire: French and English terms
+
+| Français | English | What it means in practice |
+|---|---|---|
+| Vérification IMEI | IMEI check | Looking up the 15-digit device identity |
+| Numéro IMEI | IMEI number | Dial `*#06#` to display it |
+| Homologation / agrément | Type approval | ARTP approval of an equipment **model** |
+| DAS | SAR | Specific absorption rate, published in ARTP's approved-terminal list |
+| Dédouanement | Customs clearance | Duty and VAT on an imported handset |
+| Téléphone volé | Stolen phone | Report to police **and** have the IMEI reported globally |
+| Réquisition | Judicial request | The document the police issue so an operator can act |
+| Liste noire / blocage | Blacklist / block | Network-level block on a reported handset |
+| Téléphone d'occasion | Used phone | Most of the Senegalese market |
+| Verrouillage iCloud | iCloud lock | Activation Lock tied to a previous Apple Account |
+| Carte SIM identifiée | Identified SIM | Subscriber identity linked under the ARTP rules |
+| Opérateur | Operator | Orange, Yas, Expresso, Hayo or Promobile |
+
+## Frequently asked questions
+
+**Is there an official Senegalese website to check whether a phone is stolen?**
+No. As of November 2026 no public Senegalese IMEI or stolen-device lookup has been announced. The practical substitute is a global blacklist check plus the account-lock checks.
+
+**Does ARTP block stolen phones?**
+ARTP's published remit is regulation, homologation, numbering and consumer protection rather than a public device-blocking service. Blocking a specific handset is handled by operators, with a police or gendarmerie *réquisition*. Ask Orange, Yas or Expresso what they require.
+
+**Will an IMEI check tell me if a phone was stolen in Dakar?**
+Only if the theft was reported into a system that feeds the global record. A theft reported solely at a local commissariat usually will not appear. That is the honest limit of any IMEI check in Senegal.
+
+**Do I have to pay tax on a phone sent to me from France?**
+Since the 2025 removal of the Article 7 suspension in Law No. 2008-46, imported telephones are again within scope of customs duty and tax. How much depends on classification and value, so confirm the current rate with Senegalese customs or a licensed broker before you ship.
+
+**Do I have to register an imported phone's IMEI with ARTP?**
+We can find no official requirement, and no published fee. The 10,000 FCFA figure circulating on shipping blogs is unverified. Check [artp.sn](https://artp.sn/) if you want certainty.
+
+**My phone works on an Orange SIM — doesn't that mean it is clean?**
+No. It means the handset is not currently blocked on that network. Nothing more.
+
+**What is the difference between IMEI1 and IMEI2?**
+They identify the two cellular radios in a dual-SIM phone. One device, two numbers.
+
+**Can a blocked IMEI be unblocked?**
+Only by whoever reported it, through the operator that applied the block, usually with proof of lawful ownership. Treat any stall offering to "clean" an IMEI as a scam: altering an IMEI is illegal in most jurisdictions and makes the handset harder to sell, not easier.
+
+## Before you pay
+
+Run the free lookup first. If what comes back does not match the phone in your hand, stop there — you have just saved the full purchase price. If the phone is worth more than a few days of earnings, add the blacklist and lock checks before the money moves:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour against the handset in front of you
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no second-hand iPhone purchase should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard state and origin for Galaxy devices
+
+Rules change, and Senegal's changed in 2025. Confirm the current position on import duty with the **Direction Générale des Douanes**, and on homologation, SIM identification or any future device register with **ARTP** at [artp.sn](https://artp.sn/) or with your operator, before relying on any detail in this guide.
+ARTICLE_NOV18_SN,
+    ],
+    [
+        'slug' => 'togo-verification-imei',
+        'title' => 'Vérification IMEI Togo: Check Any Used Phone in 2026',
+        'meta_title' => 'Vérification IMEI Togo 2026: Stolen and Blacklist Check',
+        'excerpt' => 'Togo has no national stolen-phone register. Here is what a vérification IMEI really proves before you pay for a used phone in Lomé, Kara or Sokodé.',
+        'date' => '2026-11-17',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV17_TG'
+Walk through **Assigamé**, the Grand Marché in Lomé, or down the Rue du Commerce, and you will pass a hundred phones for sale before you reach the end of the street. Almost none of them were bought new in Togo. They came in through the **Port of Lomé** and Lomé–Tokoin airport from Europe, Dubai, China and the United States, some destined for Togolese buyers and many more for onward trade into Burkina Faso, Niger and Mali. Each handset carries one number that survives every resale, every SIM swap and every factory reset: the **IMEI**.
+
+That makes the *vérification IMEI* the single most useful thing you can do before handing over your CFA francs. But it only helps if you know what it can and cannot prove here, and there is one hard fact to state plainly before anything else.
+
+**Togo does not operate a public national stolen-phone blacklist.** There is no government portal where you type 15 digits and the state tells you whether that phone was snatched in Bè last month. What Togo does have is a **type approval** regime for equipment and a strict **SIM identification** regime for subscribers — and neither of those is a device theft register, however often the three get mixed up in market conversations.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset itself to display the IMEI. Never accept a seller's screenshot.
+- The regulator is **ARCEP Togo**, the Autorité de Régulation des Communications Électroniques et des Postes, successor to the former ART&P. The mobile operators are **Togocom (Togocel)** and **Moov Africa Togo**.
+- **Décision N°152/ARCEP/DG/26** modernised Togo's *homologation* (type approval) rules for terminal and radio equipment in late 2026. It governs **models and importers**, not individual stolen handsets.
+- The **mandatory SIM identification** rules — tightened by the décret of 26 December 2024 — link your **SIM to your identity**, not your IMEI to a register.
+- As of November 2026 there is **no publicly announced Togolese CEIR or IMEI blacklist**, and no local lookup you can run.
+- Your real protection is the **global GSMA blacklist**, plus **iCloud Activation Lock** and **Samsung Knox / Google account locks**.
+- A phone can pass every check available in Togo and still be worthless to you if it is **iCloud locked**.
+
+## Does Togo have a national IMEI blacklist?
+
+No. And the distinction matters enough to be precise about, because two real systems get confused with a third that does not exist.
+
+ARCEP Togo runs **homologation** — type approval. Under the regime administered through [arcep.tg](https://arcep.tg/) and the e-services portal, electronic communications and radio equipment intended for the Togolese market must be approved before it is manufactured, imported, marketed, installed or used in the country. Mobile handsets fall inside terminal equipment. Applications are filed by a local representative, with a technical conformity examination covering radio, SAR and EMC performance.
+
+Read that carefully and you will see exactly what it is: an **approval register for equipment models and the companies importing them**. It answers *is this model legal to sell in Togo*. It does not answer *was this particular handset stolen from someone in Lomé*. A phone with a perfectly valid type approval can still be a stolen phone, because type approval is granted to a model, not to your unit.
+
+| System | What it actually covers | Can you look up one handset? |
+|---|---|---|
+| ARCEP homologation (type approval) | Equipment models approved for import and sale in Togo | No — it is model and importer level |
+| SIM identification (décret of 26 Dec 2024) | Linking a subscriber's identity to each SIM card | No — it covers SIMs and people, not devices |
+| National IMEI blacklist / CEIR | Would cover individual stolen or blocked handsets | **Does not exist in Togo as of November 2026** |
+| GSMA global blacklist | Handsets reported lost or stolen by operators in participating countries | **Yes** — this is the check that works |
+| iCloud / Knox / Google account lock | Whether a previous owner's account still owns the device | **Yes** — and it is decisive on any iPhone |
+
+## Décision N°152/ARCEP/DG/26: what changed in 2026
+
+ARCEP Togo replaced its long-standing 2001 framework for terminal and radio equipment approval with a new decision reported as **N°152/ARCEP/DG/26**, signed in late September 2026 and published on the regulator's site in early October. Compliance specialists tracking the text report that it:
+
+- requires **formal type approval** for all electronic communications and radio equipment intended for the Togolese market, tested against RF, SAR and EMC standards
+- introduces **mandatory labelling**, with an indelible label carrying the approval number, the date and ARCEP's identity
+- requires a **functional sample** to be submitted and retained by ARCEP
+- adds a separate **certification requirement for installers**
+
+ARCEP has also been expanding its own RF and SAR testing laboratory, with a public procurement process for the equipment running into December 2026 — a sign that enforcement capacity, not just paperwork, is being built up.
+
+**Verify before you rely on it.** The details above come from compliance-industry summaries, not from the official text. If you are importing phones commercially, read the decision itself on [arcep.tg](https://arcep.tg/) or ask ARCEP directly. If you are buying one used phone in a market, none of this changes what you should check — skip to the steps below.
+
+What this means for an ordinary buyer is modest but real: a legitimately imported retail unit should increasingly carry approval marking on its packaging. **The absence of a label is not proof of theft** — plenty of honest phones arrive in a traveller's pocket — but its presence is one more small signal that the device entered the country through a formal channel.
+
+## SIM identification is not device registration
+
+This is the most common confusion in Togo, and sellers exploit it.
+
+Togo adopted a **décret on 26 December 2024** making identification of subscribers mandatory and, crucially, **prior** to service: you must be identified before the line works. It also bans the sale of pre-activated or pre-identified SIM cards, and obliges operators to maintain a complete subscriber database. This builds on the biometric identification framework created by **Law No. 2020-009**, under which residents obtain a **Numéro d'Identification Unique (NIU)** issued through the **Agence Nationale d'Identification (ANID)**. A 2021 ministerial order also caps holdings at **three SIM cards per person per operator**.
+
+Separately, **Décision n°030/ARCEP/DG/26** of February 2026 changed consumer rules on bundles and SIM validity — including extending the inactivity period before an operator may deactivate and recycle a number from three months to six — with a compliance window that ran from 20 February to 20 April 2026.
+
+Every one of those rules is about **SIMs, subscribers and billing**. Not one of them creates a register of handsets. If a seller tells you a phone is "declared" or "registered with ARCEP", ask what they mean: either they are describing the SIM in it, or they are describing nothing at all.
+
+## What a vérification IMEI actually tells you here
+
+| Check | What it answers | Useful in Togo? |
+|---|---|---|
+| [Free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) | Real brand, model, storage, colour from the TAC | Always — it exposes a repainted or misdescribed phone instantly |
+| [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) | Reported lost or stolen by an operator in a participating country | Critical for imported phones, which is most of the market |
+| [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) | Whether Find My still ties the iPhone to a previous Apple Account | Decisive — never buy an iPhone without it |
+| [SIM-Lock / carrier lock](https://imeihub.net/service.php?slug=apple-sim-lock) | Whether the handset is locked to a foreign network | Important for European and US imports |
+| [Samsung info and Knox](https://imeihub.net/service.php?slug=samsung-info) | Knox Guard status, model and manufacture origin | Important — Samsung dominates the mid-range here |
+| [Warranty status](https://imeihub.net/service.php?slug=apple-warranty) | Age and remaining coverage | Useful for pricing, and it exposes a "new" phone that is two years old |
+
+A blacklist result cannot be stronger than the reporting behind it. If a phone was stolen in Togo and never reported to any operator's system, no database on earth will flag it. That is a limitation to accept honestly — and it is also why the **iCloud and account-lock checks matter more here than the blacklist does**, since those depend on the previous owner's account rather than on a police report.
+
+## How to find the IMEI
+
+- **Any phone:** dial `*#06#`. Dual-SIM handsets show **IMEI1** and **IMEI2** — they are two numbers for one device, and both are normal.
+- **iPhone:** Settings → General → About. Also etched on the SIM tray on many models, and laser-marked in small print on the back of older ones.
+- **Android / Samsung:** Settings → About phone → Status information, or Settings → About device.
+- **The box:** the barcode label carries the IMEI. **Compare it with the screen.** A box that does not match the handset inside it is the oldest trick in Assigamé.
+- **A dead phone:** check the SIM tray, the box and the purchase receipt.
+
+An IMEI is 15 digits and passes the **Luhn checksum**. A 16-digit number is an **IMEISV** (software version appended) and is not what a checker wants. If a seller gives you a number that fails validation, the conversation is over.
+
+## Checking a used phone in Lomé, step by step
+
+- **Type `*#06#` yourself**, on the handset, while the seller watches. Screenshots and WhatsApp photos take seconds to fake.
+- **Run the free model lookup on the spot.** If the result says Galaxy A15 and the seller says A55, you have learned everything you need to know.
+- **Compare the IMEI** on screen against the SIM tray, the box label and any receipt. All of them should agree.
+- **Run the blacklist check** before money moves on anything above a few tens of thousands of CFA francs.
+- **For an iPhone, run the iCloud check, then make the seller sign out in front of you** — Settings → their name → Sign Out, with the password typed by them.
+- **Insist on the factory reset before you pay, not after.** Activation Lock and Knox Guard only reveal themselves when the phone restarts and asks for an account that is not yours. A seller who wants to reset it "at home later" is telling you something.
+- **Test both SIM slots** with your own Togocom or Moov Africa SIM. Make a real call and load a page on mobile data.
+- **Check the hardware in the same session**: both cameras, speaker, microphone, charging port, and battery health. An IMEI check proves identity and status — never physical condition.
+- **Get a written receipt** with the seller's name, phone number and the IMEI on it. From a shop, ask for the return window in writing.
+
+## Imported phones, customs and the Lomé transit trade
+
+Togo's position as a re-export hub for the Sahel shapes this market. Phones arrive at the Port of Lomé in volume, some clear Togolese customs for local sale, and a large share move on. For the buyer, that produces two practical consequences.
+
+The first is that **a high proportion of handsets here were first sold in another country**, which is precisely the situation the global blacklist is built for. A phone reported stolen in Marseille or Milan can be sitting on a table in Lomé within weeks, working perfectly on a Togolese SIM today, and blocked the moment it crosses into a market that enforces the GSMA list.
+
+The second is customs. Imports into Togo are assessed under the **UEMOA common external tariff** with **VAT at 18%** applied on the customs value plus duties, collected by the **Office Togolais des Recettes (OTR)**. Rates applied to mobile handsets specifically have changed over the years, and published third-party figures contradict each other — so if you are importing more than a personal device, get the current classification from the OTR or your transitaire rather than from a shipping-site table. For the traveller bringing one phone in personal baggage, this is not normally the issue; **the device's history is.**
+
+## If your phone is stolen in Togo
+
+- **Record the IMEI today**, before anything happens. Dial `*#06#` and store the number somewhere that is not on the phone — an email to yourself, a note in a cloud account, a line in a notebook.
+- **Report to the police or gendarmerie** as soon as possible and keep the reference number. State the IMEI explicitly in the report, along with the make, model and any receipt.
+- **Call your operator** to bar the SIM. Barring stops calls, SMS and **mobile money on that line** — which in Togo is frequently the more urgent loss. It does **not** stop the handset being used with a different SIM.
+- **Lock the device remotely** through Find My iPhone or Find Hub on Android, before the thief reaches a factory reset. Display a message and erase the data if you have given up on recovery.
+- **Change your passwords** in order: email first, then mobile money, then social accounts.
+- **Have the IMEI reported as lost or stolen** so it reaches the international record. A Togolese police report on its own does not propagate to the global database — and the global record is what protects the next buyer, and what might get your phone flagged if it is resold abroad.
+
+## Common mistakes
+
+- **Believing there is a government check.** There is no Togolese IMEI register to consult. A seller claiming a phone "passed the ARCEP check" is either describing type approval of the model or inventing something.
+- **Treating SIM identification as proof of a clean device.** Your NIU on a SIM says nothing about the handset around it.
+- **Accepting a screenshot.** Dial `*#06#` on the phone, yourself, every time.
+- **Paying before the reset.** The reset is where Activation Lock appears, so it has to happen before the money does.
+- **Assuming a working SIM means a clean handset.** A blacklisted phone can work on a Togolese network today and be dead in the next country, or after the next enforcement change.
+- **Buying an iCloud-locked iPhone cheap.** The discount exists precisely because the phone cannot be used. No service removes Activation Lock for you, whatever a stall promises.
+- **Confusing IMEI1 and IMEI2 with two phones.** A dual-SIM handset has two IMEIs. Check the first one; it is the one most reports key on.
+
+## Vocabulaire: French and English terms
+
+| Français | English | What it means in practice |
+|---|---|---|
+| Vérification IMEI | IMEI check | Looking up the 15-digit device identity |
+| Numéro IMEI | IMEI number | Dial `*#06#` to display it |
+| Homologation | Type approval | ARCEP approval of an equipment **model** |
+| Téléphone volé | Stolen phone | Report to police **and** have the IMEI reported globally |
+| Liste noire / blocage | Blacklist / block | Network-level block on a reported handset |
+| Téléphone d'occasion | Used phone | Most of the Togolese market |
+| Verrouillage iCloud | iCloud lock | Activation Lock tied to a previous Apple Account |
+| Carte SIM identifiée | Identified SIM | Subscriber identity linked under the 2024 décret |
+| Opérateur | Operator | Togocom (Togocel) or Moov Africa Togo |
+
+## Frequently asked questions
+
+**Is there an official Togolese website to check whether a phone is stolen?**
+No. As of November 2026 no public Togolese IMEI or stolen-device lookup has been announced. The practical alternative is a global blacklist check plus the account-lock checks.
+
+**Does ARCEP block stolen phones?**
+ARCEP's published remit covers regulation, type approval and consumer protection rather than a public device-blocking service. Blocking a specific handset is something operators do within their own systems and the international framework. Ask Togocom or Moov Africa Togo what they can do with an IMEI and a police report.
+
+**Will an IMEI check tell me if a phone was stolen in Lomé?**
+Only if the theft was reported into a system that feeds the global record. A theft reported solely to a local police post will usually not appear. This is the honest limit of any IMEI check in Togo.
+
+**My phone works on a Togocom SIM — doesn't that prove it is clean?**
+No. It proves the handset is not currently blocked on that network. Blocks are applied per country and per system, and they can be applied later.
+
+**Does the SIM identification rule mean my phone is registered with the government?**
+No. The 26 December 2024 décret identifies **subscribers** and links identity to SIM cards. Your handset's IMEI is not what is being registered.
+
+**I am bringing a phone into Togo for personal use. Do I have to declare the IMEI?**
+Togo has no announced IMEI declaration scheme comparable to Kenya's F88 or Pakistan's DIRBS. Ordinary customs rules on personal effects apply at the border; there is no device register to enrol in.
+
+**What is the difference between IMEI1 and IMEI2?**
+They identify the two cellular radios in a dual-SIM phone. One physical device, two numbers — completely normal, and not a sign of tampering.
+
+**Can a blocked IMEI be unblocked?**
+Only by whoever reported it, through the operator that applied the block, usually with proof of lawful ownership. Treat any stall offering to "clean" an IMEI as a scam: changing an IMEI is illegal in most jurisdictions and the handset becomes harder to sell, not easier.
+
+## Before you pay
+
+Run the free lookup first. If what comes back does not match the phone in your hand, stop there — you have just saved yourself the full purchase price. If the phone is worth more than a few days of earnings, add the blacklist and lock checks before the money moves:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm brand, model, storage and colour against the handset in front of you
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) — the one check no second-hand iPhone purchase should skip
+- [Samsung Info and Knox Status](https://imeihub.net/service.php?slug=samsung-info) — Knox Guard state and origin for Galaxy devices
+
+Regulations move. ARCEP Togo has modernised its equipment rules once already in 2026 and is building out its testing capability, so confirm the current position on homologation, SIM identification and any new device register with **ARCEP** at [arcep.tg](https://arcep.tg/), or with Togocom or Moov Africa Togo, before relying on any detail in this guide.
+ARTICLE_NOV17_TG,
+    ],
+    [
+        'slug' => 'sierra-leone-imei-check',
+        'title' => 'Sierra Leone IMEI Check: Verify a Used Phone in 2026',
+        'meta_title' => 'Sierra Leone IMEI Check 2026: Stolen and Blacklist Guide',
+        'excerpt' => 'Sierra Leone has no national IMEI blacklist. Here is what an IMEI check really proves before you pay for a used phone in Freetown, Bo or Kenema.',
+        'date' => '2026-11-16',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV16_SL'
+Almost every smartphone sold in Sierra Leone arrived here second-hand. Phones come in from Europe, the United States, Dubai and neighbouring Guinea, pass through a shop in central Freetown or a stall in Bo or Kenema, and change hands two or three more times after that. The **IMEI** is the only number that stays with the handset through all of it, which makes it the one thing worth checking before you hand over your leones.
+
+There is an uncomfortable fact to get out of the way first. **Sierra Leone does not operate a national stolen-phone blacklist.** No public register exists where you can type an IMEI and have the state tell you whether that phone was snatched in Freetown last month. That is precisely why the check you *can* run matters so much, and why knowing the difference between a device check and the SIM rules everyone has been talking about since 1 November is worth real money.
+
+**Key takeaways**
+
+- Dial `*#06#` on the handset to display its IMEI. Do this on the actual phone, never from a seller's screenshot.
+- The regulator is now **NatCA**, the National Communications Authority, established under the National Communications Authority Act 2022 and renamed from NATCOM in December 2023.
+- The **1 November 2026 deadline** that deactivated unlinked SIMs was about linking your **SIM to your National Identification Number**. It has nothing to do with your handset's IMEI.
+- As of November 2026 there is **no announced national IMEI or device register** in Sierra Leone, and no local blacklist lookup.
+- The protection available to you is the **global GSMA blacklist**, which records devices reported lost or stolen by operators in participating countries, plus **Apple and Samsung account locks**.
+- A phone that passes every check in Sierra Leone can still be dead weight if it is **iCloud locked**, and locked handsets are openly advertised in local listings.
+
+## Does Sierra Leone have a national IMEI blacklist?
+
+No, and it is important to be precise about what does exist, because two separate systems get mistaken for one.
+
+NatCA runs a **type approval** regime for equipment. Under the type approval regulations made beneath the Telecommunications Act, electronic communications equipment may only be imported, supplied or used in Sierra Leone if it has been type approved by the regulator or expressly exempted. Mobile handsets sit in the terminal equipment category. Approved equipment is supposed to carry a label showing the regulator's logo, the product type and a unique Type Approval Number, and the regulator maintains a national database of terminal equipment imported and traded in the country.
+
+Read that carefully and you will see what it is: an **importer-facing register of equipment models and consignments**. It answers the question *is this type of device approved for sale here*. It does not answer *was this particular handset stolen from someone*. Those are different questions, and conflating them is the single most common error in guides written about this market.
+
+| System | What it actually covers | Can you look up one phone? |
+|---|---|---|
+| NatCA type approval | Whether a model of equipment is approved for import and sale | No. It is not a public per-device lookup |
+| SIM registration and NIN linkage | Who the subscriber is, tied to a national ID | Status of your own SIM only, via `*999#` |
+| Operator records | SIMs, accounts and usage on that one network | Not to the public, and not across networks |
+| GSMA global blacklist | Handsets reported lost or stolen by participating operators worldwide | Yes, by IMEI |
+
+If NatCA announces a device register or an equipment identity register later, it will appear on [natca.gov.sl](https://natca.gov.sl/). Until then, treat any website that claims to search an official Sierra Leonean stolen-phone database as a site making a claim it cannot support.
+
+## The 1 November 2026 SIM deadline was about your SIM, not your phone
+
+Through October, NatCA ran a national campaign to link every active SIM card to a **National Identification Number**, working with the civil registration authority and directing mobile network operators and mobile money operators to deactivate subscribers who had not completed the link by **1 November 2026**. The regulator framed it as an anti-fraud and cybersecurity measure. You can check the status of a line by dialling `*999#` on Orange, Africell or QCell.
+
+Plenty of people spent that month believing their *phone* needed registering. It did not. Nothing in the SIM-NIN exercise touches the IMEI, and completing it tells you nothing about the handset's history.
+
+| Question | SIM-NIN linkage | IMEI check |
+|---|---|---|
+| Will my line keep working after 1 November 2026 | Yes, this is the relevant rule | No |
+| Is the SIM registered in my own name | Yes, dial `*999#` | No |
+| Was this handset reported stolen abroad | No | Yes, via the global blacklist |
+| Is this handset locked to an Apple or Samsung account | No | Yes, via a lock status check |
+| Is the model what the seller claims | No | Yes, via a free model lookup |
+
+One practical consequence of the deadline is worth noting for buyers. A deactivated SIM makes a phone look faulty. If a handset you are inspecting cannot register on the network, establish whether the problem is the **SIM** (unlinked and switched off), the **network lock** (tied to a foreign carrier) or the **handset** before you accept any explanation from the person selling it.
+
+## How to read the IMEI off a phone you are about to buy
+
+Three places should agree. If they do not, walk away.
+
+- **On screen:** dial `*#06#` in the phone app. The IMEI appears immediately, on both Android and iPhone. A dual-SIM phone shows two numbers, and both belong to that handset.
+- **In settings:** on iPhone, Settings, then General, then About. On Android, Settings, then About phone, then Status or IMEI information.
+- **On the hardware or packaging:** the SIM tray on many iPhones, the label under a removable battery on older Android phones, and the barcode on the retail box.
+
+A genuine phone matches in all three. A mismatch between the screen and the box usually means the box is not the phone's own, which is common and not damning on its own. A mismatch between `*#06#` and the engraved tray is far more serious: that is the signature of a **cloned IMEI**, where a working number copied from another device has been flashed onto a handset that would otherwise fail a check.
+
+Also confirm the number is 15 digits and passes its own checksum. Any valid IMEI satisfies the Luhn formula, so a number that fails it was invented rather than issued.
+
+## What an IMEI check can and cannot tell you here
+
+| What you want to know | Can an IMEI check answer it? | Where it comes from |
+|---|---|---|
+| Real brand, model, storage and specification | Yes | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Reported lost or stolen in a participating country | Yes | [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud Activation Lock, clean or lost | Yes | [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) |
+| Locked to a foreign carrier | Yes, for iPhone | [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) |
+| Knox Guard status on a Samsung handset | Yes | [Samsung Info + Knox Guard](https://imeihub.net/service.php?slug=samsung-info) |
+| Stolen in Freetown last week and never reported abroad | **No** | No national register exists to carry that record |
+| Who owns the phone, or where it is now | **No** | Ownership and location are not in any IMEI database |
+| Whether the seller has the right to sell it | **No** | Ask for a receipt and identification |
+
+That sixth row is the honest limit of this market. A handset stolen locally and resold locally may never appear on any blacklist, because no Sierra Leonean system feeds theft reports into one. What a global check does catch is the much larger category of phones that were **reported stolen overseas and then exported**, which is exactly how a large share of cheap flagship handsets reach West African counters.
+
+## The three checks that protect a used-phone buyer
+
+Run them in this order. The first is free and eliminates the worst listings before you spend anything.
+
+**1. Match the model.** Run a [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) and compare what comes back against the phone in your hand. If the lookup says 64 GB and the seller says 256 GB, or it returns a different model year, the number has been tampered with or the listing is false. This single step catches most clones and most misdescriptions.
+
+**2. Check the global blacklist.** A [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) check tells you whether the handset has been reported lost or stolen by an operator in any participating country. A blacklisted phone may work perfectly on an Africell or Orange SIM today and still be unusable the moment it travels, or the moment a local operator begins honouring global records.
+
+**3. Check the account locks.** For an iPhone, [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) status is the difference between a phone and a paperweight. Listings in Sierra Leone openly advertise iCloud-locked American handsets with a note to buy now and unlock later. There is no legitimate remote unlock for Activation Lock: only the original Apple account holder can remove it. For a Samsung, check [Knox Guard](https://imeihub.net/service.php?slug=samsung-info), which lets a finance company or employer lock the device remotely.
+
+## Inspecting a used phone before you pay
+
+- Insist on seeing `*#06#` typed on the handset in front of you. **Screenshots are worthless**: they take seconds to edit.
+- Compare the on-screen IMEI against the SIM tray or label.
+- Look for the **NatCA type approval label** on the box or device. Its absence is not proof of theft, but a legitimately imported retail unit should carry one.
+- Put your own SIM in and make a call. Then test both SIM slots on a dual-SIM phone.
+- Ask the seller to **sign out of iCloud or the Google account in front of you**, then restart the phone. A phone that demands a previous owner's password after a restart is not yours to use.
+- Do not accept a factory reset performed after you pay. The reset is where Activation Lock reveals itself, so it belongs before the money moves.
+- Get a receipt with the seller's name, phone number and the IMEI written on it. For a shop, ask about a return window in writing.
+- Check charging, both cameras, the speaker, the microphone and battery health in the same session. An IMEI check verifies identity and status, never physical condition.
+
+## If your phone is stolen in Sierra Leone
+
+The **Sierra Leone Police Cyber Unit** handles stolen-phone cases and asks owners to come with the **IMEI, the make and model, and any purchase receipt**. Without the IMEI there is very little an investigator can work with, so record it now, while you still have the phone.
+
+- **Record the IMEI today.** Dial `*#06#` and store it somewhere that is not on the phone: a photo in your email, a note in a cloud account, a line in your contacts list.
+- **Report to the police** as soon as possible and keep the reference. Mention the IMEI explicitly in the report.
+- **Tell your operator** so the SIM can be barred. Barring the SIM stops calls and mobile money on that line. It does not stop the handset being used with another SIM.
+- **Lock the device remotely.** Find My iPhone, or Find Hub on Android, lets you lock the handset and display a message. Do this before a thief gets to a factory reset.
+- **Change the passwords** on your email, mobile money and social accounts, in that order.
+- **Report the IMEI as lost or stolen** so it reaches the global record. A local police report alone will not reach the international database, and the global record is what protects the next buyer.
+
+## Common mistakes
+
+- **Believing a local check proves a phone is clean.** There is no national register to check. A seller saying the phone passed a government check is describing something that does not exist.
+- **Confusing SIM registration with device registration.** The 1 November 2026 deadline applied to SIMs and national IDs, not to IMEIs.
+- **Accepting a seller's screenshot.** Dial `*#06#` on the handset yourself, every time.
+- **Paying before the reset.** Activation Lock appears after a factory reset, which is the moment that must happen before money changes hands.
+- **Assuming a working SIM means a clean handset.** A blacklisted or locked phone can make calls here today and be worthless next month or in the next country.
+- **Buying an iCloud-locked phone at a discount.** The discount exists because the phone cannot be used by you. No service can remove Activation Lock for you.
+
+## Before you pay
+
+Run the free model lookup first, and treat any mismatch between the lookup and the handset as the end of the conversation. If the phone is worth more than a few weeks of income, add the blacklist and lock checks before you pay, not after:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the brand, model and storage match the handset in front of you
+- [WorldWide Blacklist](https://imeihub.net/service.php?slug=blacklist) — see whether the device was reported lost or stolen in any participating country
+- [iCloud Activation Lock](https://imeihub.net/service.php?slug=apple-icloud) — the single most important check on any second-hand iPhone
+
+Rules change, and regulators add systems. Confirm the current position on SIM registration, type approval and any new device register with NatCA at [natca.gov.sl](https://natca.gov.sl/) or with your operator before relying on any detail in this guide.
+ARTICLE_NOV16_SL,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-applecare-proof-of-coverage',
         'title' => 'iPhone Serial Number Check: Where Is My AppleCare Proof of Coverage?',
         'meta_title' => 'iPhone Serial Number Check for AppleCare Proof of Coverage',
