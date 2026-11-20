@@ -8,6 +8,192 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'ceir-gov-mm-registration-step-by-step',
+        'title' => 'ceir.gov.mm Registration: Step-by-Step Guide (2026)',
+        'meta_title' => 'ceir.gov.mm Registration 2026: Step-by-Step IMEI Guide (English/မြန်မာ)',
+        'excerpt' => 'How to register a phone on ceir.gov.mm in 2026: check the IMEI, declare it, pay the 12% tax within 30 days and avoid fake CEIR sites. English/Burmese.',
+        'date' => '2026-11-20',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_NOV20_MM'
+Since **1 April 2026**, a phone in Myanmar only works on the mobile network if its IMEI is on the national **CEIR whitelist**. If it isn't, MPT, ATOM, U9 and Mytel will block it after a short grace period. Since **14 July 2026** the same rule covers phones that travellers bring in through the airports.
+
+This is a **step-by-step ceir.gov.mm registration tutorial** written in English, with the key Burmese terms beside each step (ဖုန်း IMEI မှတ်ပုံတင်နည်း). It is for people in Yangon, Mandalay and Naypyidaw who bought a phone abroad, got one as a gift, bought a used or grey-import handset, or saw a "tax unpaid" message on their screen and don't know what to do next.
+
+If you just want to know what CEIR is, our earlier [ceir.gov.mm IMEI check guide](https://imeihub.net/article/ceir-gov-mm-imei-check-register-myanmar-guide) covers the basics. This guide is the hands-on version, updated with the rules announced through 2026.
+
+**Key takeaways (အဓိကအချက်များ)**
+
+- **Official portal: ceir.gov.mm only.** There is **no official CEIR app**, and no "agent" can sell you whitelist status. Many lookalike sites (ceir-something.online and similar) are not government sites.
+- **Official call centre: 1577 or 1755**, according to the CEIR and EIR System Project Steering Committee.
+- Phones that were **switched on with an active MPT, ATOM, U9 (formerly Ooredoo) or Mytel SIM by 31 March 2026** were **whitelisted automatically, with no tax to pay**.
+- A phone that is **not** whitelisted works for about **30 days** after it first connects to a Myanmar network. After that it is blocked until the tax, plus any penalty, is paid.
+- Reported tax on a newly registered phone: **5% customs duty + 5% commercial tax + 2% advance income tax** (about **12%** of the value customs assesses), plus a **redemption fine** if you are late.
+- **Travellers:** declare unregistered phones on the **Passenger Declaration (PD) Form** at arrival, then register and pay within **30 days**. The limit is **2 phones per person per year**, counting the phone you are using.
+- If you live in a border area or somewhere with poor internet, you can pay at an **Internal Revenue Department (IRD)** or **Customs Department** office instead.
+
+## Who has to register? (ဘယ်သူတွေ မှတ်ပုံတင်ရမလဲ)
+
+| Your situation | Do you need to register? | What to do |
+|---|---|---|
+| Phone in use with a Myanmar SIM before 31 March 2026 | **No.** Auto-whitelisted | Nothing. Ignore "unpaid tax" pop-ups (see below) |
+| New phone bought from an authorised Myanmar shop after 31 March | Usually no. The importer should have registered and paid tax | Check the IMEI on ceir.gov.mm **before** you pay |
+| Phone bought abroad and brought in by you | **Yes** | Declare on the PD Form at arrival, then register within 30 days |
+| Phone sent to you from overseas as a gift | **Yes** | Register on ceir.gov.mm and pay the tax |
+| Used / grey-import phone bought in Myanmar | **Maybe** | Check the IMEI first. If it isn't whitelisted, the tax becomes your problem |
+| Foreign visitor on a short trip | Not for the first ~30 days with a local SIM | Declare at arrival if the phone is unregistered. Register if you stay longer |
+
+The rule that catches most people out: **the tax follows the phone (IMEI), not the owner.** If a seller in a Yangon market sells you a phone that was never whitelisted, the shop doesn't pay the tax when the block comes. You do.
+
+## Step 1 — Find your IMEI (IMEI နံပါတ် ရှာနည်း)
+
+Dial **`*#06#`**. The phone shows a 15-digit number.
+
+- **Dual-SIM phones show two IMEIs (IMEI1 and IMEI2).** Note both. CEIR checks each one.
+- On an **iPhone**: Settings → General → About. On **Android**: Settings → About phone → Status.
+- Compare the number on screen with the box and the SIM tray (on iPhones). **If they don't match, stop.** A mismatch is the classic sign of a refurbished board, a swapped housing or a tampered IMEI.
+
+Write the IMEI down exactly. Don't type it from a photo of the box. Typing the wrong digit is the most common reason people get a false "not found" result.
+
+## Step 2 — Check the status on ceir.gov.mm (အခြေအနေ စစ်ဆေးခြင်း)
+
+1. Open a browser and type **`ceir.gov.mm`** into the address bar yourself. Don't follow a link from Facebook, Viber or Telegram.
+2. Open the IMEI status check. Enter the 15-digit IMEI with no spaces.
+3. Repeat for IMEI2 on a dual-SIM phone.
+
+Read the result like this:
+
+| Result on screen | What it means | Next step |
+|---|---|---|
+| **Whitelisted / registered** | The phone can use any Myanmar network | Done. Keep a screenshot |
+| **Whitelisted, but shows "IMEI tax unpaid"** | Auto-whitelisted phone. The CEIR team says **no payment is required** | Nothing. Don't pay anyone |
+| **Not registered / not on whitelist** | It will be blocked after the ~30-day grace period | Go to Step 3 |
+| **Blocked / blacklisted** | Reported, duplicated or invalid IMEI | Don't buy it. If it's yours, call 1577 / 1755 |
+
+The second row is worth repeating because people have paid for it. The CEIR project team said that after 31 March 2026 some **whitelisted** phones show a tax-payment notice for an "unpaid IMEI", and that **these users do not need to pay**. If the status check says your phone is whitelisted, the pop-up is not a bill.
+
+## Step 3 — Prepare your documents (လိုအပ်သော စာရွက်စာတမ်းများ)
+
+Have these ready before you start the online form. Clear phone photos are fine:
+
+| Document | Burmese | Who needs it |
+|---|---|---|
+| NRC card (citizens) | နိုင်ငံသားစိစစ်ရေးကတ်ပြား (မှတ်ပုံတင်) | Myanmar residents |
+| Passport | နိုင်ငံကူးလက်မှတ် | Foreigners and returning travellers |
+| Passenger Declaration (PD) Form | ခရီးသည် ကြေညာလွှာ | Anyone who declared a phone at arrival |
+| Boarding pass and flight ticket | လေယာဉ်လက်မှတ် | Air travellers registering a phone they brought in |
+| Purchase receipt or invoice | ဝယ်ယူမှု ပြေစာ | Recommended for everyone. It supports the value you declare |
+| SIM registered in your name | ဆင်းမ်ကတ် | The phone gets linked to a SIM and ID |
+
+**Privacy note:** CEIR links the handset's IMEI to a SIM and a national ID. Digital-rights groups such as the Myanmar Internet Project have warned that this makes it easy to tie a specific device to a specific person. Register because the network requires it. But be careful what you store on the phone, and never hand your NRC or passport photo to an unofficial "registration agent".
+
+## Step 4 — Register and pay the tax (မှတ်ပုံတင်ပြီး အခွန်ပေးဆောင်ခြင်း)
+
+Online, on **ceir.gov.mm**. The labels on the portal may change, but the flow reported so far is:
+
+1. Choose the option to **register a device / pay IMEI tax** for a phone that is not whitelisted.
+2. Enter the **IMEI(s)**, brand and model.
+3. Enter your **ID details** (NRC or passport) and, if you are a traveller, your **PD Form** details.
+4. Upload the supporting documents from Step 3.
+5. Review the **tax assessment** the system shows: customs duty, commercial tax, advance income tax and any fine.
+6. Pay through the payment options the portal offers, and **save the receipt or reference number**.
+7. Wait for confirmation, then run the Step 2 check again until the IMEI shows **whitelisted** (for dual-SIM phones, check both IMEIs).
+
+In person, if you can't get online or live in a border area:
+
+- Go to an **Internal Revenue Department (IRD)** or **Customs Department** office and pay the tax and any penalty there.
+- Air travellers can use the **CEIR One-Stop Service** counters connected to the airport declaration process.
+
+Phone operator shops (MPT, ATOM, U9, Mytel) can help with SIM registration and tell you whether a block is caused by CEIR. **The tax itself is paid through CEIR, IRD or Customs, not to a shop.**
+
+## How much tax will I pay? (အခွန် ဘယ်လောက် ကျမလဲ)
+
+Law-firm summaries of the traveller rules list three charges:
+
+| Charge | Burmese | Rate |
+|---|---|---|
+| Customs duty | အကောက်ခွန် | 5% |
+| Commercial tax | ကုန်သွယ်လုပ်ငန်းခွန် | 5% |
+| Advance income tax | ကြိုတင်ဝင်ငွေခွန် | 2% |
+| Redemption fine (if late or not compliant) | ဒဏ်ကြေး | Extra, on top of the taxes |
+
+**Rough example:** if customs assesses a phone at **2,000,000 kyats**, 12% comes to about **240,000 kyats** before any fine. The real figure can be a little higher or lower. Customs uses its own valuation for the model, not necessarily your receipt price, and commercial tax may be calculated on the value plus duty. **The amount the portal shows you is the number that counts.**
+
+Two ways to avoid paying more than you need to:
+
+- **Don't miss the 30-day window.** Late registration adds penalties. Some reports suggest a non-compliant device can cost up to 25% extra.
+- **Don't buy someone else's tax bill.** A cheap grey-import phone that isn't whitelisted isn't cheap once you add 12% or more in tax and the fine.
+
+## Travellers arriving in Myanmar (နိုင်ငံခြားမှ ပြန်လာသူများ)
+
+The traveller rules took effect on **14 July 2026** at **Yangon, Mandalay and Naypyidaw international airports**. Later announcements said land and sea entry points are covered too.
+
+1. **Before landing:** note the IMEI of every phone you are carrying that has never been used in Myanmar.
+2. **At the customs counter:** declare each unregistered phone and its IMEI on the **PD Form**. Keep your copy. You will need it to register.
+3. **Limit:** a maximum of **2 phones per person**, including the phone you are using, and **2 registrations in total over 12 months** from your first PD Form declaration.
+4. **Within 30 days:** register on ceir.gov.mm (or at a One-Stop Service counter) with your passport, boarding pass and ticket, and pay the taxes.
+5. **After 30 days:** the phone is blocked, and the taxes plus a fine are due before it works again.
+
+Short-stay visitors can use their own handset with a Myanmar SIM for about 30 days without paying the tax. If you are staying longer, register before the 30 days run out.
+
+## Buying a used phone in Myanmar safely (ဖုန်းအဟောင်း ဝယ်ယူခြင်း)
+
+Used phones are where CEIR causes the most problems, in the shops around Bogyoke Market and 34th Street in Mandalay, and in Facebook Marketplace deals. Before you hand over any money:
+
+1. **Dial `*#06#` on the phone yourself.** Don't accept an IMEI the seller reads out or a sticker on the box.
+2. **Check both IMEIs on ceir.gov.mm.** Buy only if they show **whitelisted**, or knock the full tax off the price.
+3. **Check the brand and model** with our [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). If the IMEI decodes to a different model, the phone has been tampered with or rebuilt.
+4. **Check whether it was reported stolen abroad** with the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist). Many grey imports come from Thailand, China and Singapore, and a phone blacklisted there can still be sold here.
+5. **For iPhones**, check that Activation Lock is off with an [iCloud status check](https://imeihub.net/service.php?slug=apple-icloud-status). Then sign out of the seller's Apple ID in front of them.
+6. **For Samsung phones**, confirm the model and region with a [Samsung info check](https://imeihub.net/service.php?slug=samsung-info).
+7. **Get a written receipt** showing the IMEI, price, date and the seller's phone number.
+
+| Check | What it catches | Tool |
+|---|---|---|
+| CEIR status | Not whitelisted → tax and blocking risk in Myanmar | ceir.gov.mm |
+| IMEI decode (brand/model) | Fake, cloned or rebuilt phones | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| International blacklist | Reported lost or stolen abroad | [Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud / Activation Lock | iPhone locked to another person | [iCloud Status](https://imeihub.net/service.php?slug=apple-icloud-status) |
+
+## Common problems and fixes (ပြဿနာများနှင့် ဖြေရှင်းနည်း)
+
+**"My phone says IMEI tax unpaid, but it worked before April."**
+Check the status. If it is whitelisted, the CEIR team says no payment is needed.
+
+**"Only one SIM slot works."**
+On dual-SIM phones, IMEI1 and IMEI2 are separate entries. Check both. If one isn't whitelisted, register it or call 1577 / 1755.
+
+**"The portal won't load."**
+Try again later or on a different connection, or call the call centre. Use a tax office if you're in an area with poor internet. **Don't use a lookalike site** just because it loads faster.
+
+**"Someone offers to 'unlock' or 'change' my IMEI so I don't have to pay."**
+Say no. Changing an IMEI is illegal, gets the device blacklisted, and you can lose the phone permanently.
+
+**"My phone was stolen."**
+Report it to the police and your operator straight away, with the IMEI from your box or receipt. Then also change your passwords and the PIN on your mobile wallet.
+
+## Quick Burmese–English glossary (ဝေါဟာရ)
+
+| English | မြန်မာ |
+|---|---|
+| Phone registration | ဖုန်း မှတ်ပုံတင်ခြင်း |
+| Whitelist | ခွင့်ပြုစာရင်း (White List) |
+| Tax | အခွန် |
+| Customs duty | အကောက်ခွန် |
+| Fine / penalty | ဒဏ်ကြေး |
+| 30 days | ရက် ၃၀ |
+| Used phone | ဖုန်းအဟောင်း |
+| Stolen phone | ခိုးယူခံရသော ဖုန်း |
+
+## Bottom line
+
+For most people in Myanmar, ceir.gov.mm registration takes about 15 minutes. Find the IMEI, check it, and if it isn't whitelisted, register it and pay roughly 12% within 30 days. The expensive mistakes are paying fake agents, paying "unpaid tax" pop-ups on phones that are already whitelisted, and buying a used phone that brings its tax bill with it.
+
+Before you buy any used or imported phone, run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) as well as the CEIR status check. Together they take less than two minutes.
+
+*This guide is based on CEIR and EIR System Project Steering Committee announcements as reported by Myanmar media, plus law-firm and customs alerts published between March and November 2026. Rates, deadlines and portal screens can change without notice. Always confirm the current rules on ceir.gov.mm or by calling 1577 / 1755 before you pay. imeihub is an independent IMEI-checking service and is not affiliated with the Myanmar government or CEIR.*
+ARTICLE_NOV20_MM,
+    ],
+    [
         'slug' => 'how-to-register-imei-in-kenya',
         'title' => 'How to Register IMEI in Kenya (2026): What Is Required Now',
         'meta_title' => 'How to Register IMEI in Kenya 2026: 1555 Check, KRA & Court Ruling',
