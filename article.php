@@ -76,7 +76,7 @@ $jsonLd = json_encode([
 $extraHead .= "\n<script type=\"application/ld+json\">{$jsonLd}</script>";
 
 layout_head(
-    htmlspecialchars($article['meta_title'] ?? ($article['title'] . ' · imeihub'), ENT_QUOTES, 'UTF-8'),
+    $article['meta_title'] ?? ($article['title'] . ' · imeihub'),
     $article['excerpt'],
     $extraHead
 );
