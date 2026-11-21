@@ -8,6 +8,198 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-one-sim-no-mobile-data',
+        'title' => 'iPhone IMEI Check: Why Does One SIM Have No Mobile Data?',
+        'meta_title' => 'iPhone IMEI Check: One SIM Has No Mobile Data',
+        'excerpt' => 'Identify the iPhone, distinguish IMEI from IMEI2 and EID, then test the selected data line, plan, roaming, and carrier provisioning in the right order.',
+        'date' => '2026-11-20',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_NOV20_IPHONE_DATA'
+An iPhone IMEI check identifies the handset, but it does not choose which SIM or eSIM supplies mobile data. When one line works and the other does not, confirm that both lines are enabled, select the intended Cellular Data line, review roaming and plan status, and then ask the carrier about provisioning.
+
+**Key takeaways**
+
+- Find the 15-digit IMEI and IMEI2 in Settings > General > About or by dialing *#06#; an eSIM may also show an EID.
+- An iPhone uses one cellular data network at a time, even when two lines are active.
+- A free model lookup identifies hardware. Paid blacklist or carrier-lock reports answer separate status questions and cannot activate data service.
+
+## Why can calls work on a line while mobile data does not?
+
+Voice service, messaging and cellular data can use different default lines on a Dual SIM iPhone. A line may therefore make calls while another line remains selected for data. Plan status, roaming rules, APN provisioning and local coverage can also affect data without changing the phone's IMEI.
+
+| Evidence | What it establishes | What it does not establish |
+| --- | --- | --- |
+| Free IMEI model lookup | Model family associated with the 15-digit identifier | Which line currently supplies data |
+| IMEI and IMEI2 in About | Two cellular equipment identities are present | That both carrier plans are active |
+| EID | Identifier for the eSIM hardware | An active eSIM plan or data allowance |
+| Carrier or GSMA status report | The fields stated in that paid report | Mobile-data provisioning or signal at your location |
+
+Apple's [Dual SIM guide](https://support.apple.com/en-us/109317) says an iPhone uses one cellular data network at a time. It also explains that Allow Cellular Data Switching can let the phone use either plan for data depending on coverage and availability. That setting changes data routing, not IMEI status.
+
+## How do I test the two SIM lines without mixing up the results?
+
+Test one line at a time and record the selected data line before changing anything. Turn off Wi-Fi so a successful webpage load proves that cellular data works. Keep the same location during both tests, because moving between coverage areas can create a false comparison between the two plans.
+
+**1. Open the line settings.** Go to Settings > Cellular or Settings > Mobile Data.
+
+**2. Enable both lines.** Under SIMs, tap each line and confirm Turn On This Line is enabled.
+
+**3. Isolate the first line.** Tap Cellular Data, select the first line, and temporarily turn off Allow Cellular Data Switching.
+
+**4. Test without Wi-Fi.** Load a new webpage and note the signal indicator and any error.
+
+**5. Repeat with the second line.** Select it under Cellular Data and run the same test in the same location.
+
+**6. Check travel settings last.** If the failing line is a travel plan, verify Data Roaming only after confirming the carrier's roaming terms.
+
+Apple's [iPhone cellular settings guide](https://support.apple.com/guide/iphone/view-or-change-cellular-data-settings-iph3dd5f213/ios) explains that available network options depend on the iPhone model, carrier and region. If a menu shown in generic instructions is absent, that alone does not prove a hardware or IMEI fault.
+
+## Which identifier should I use for a report or carrier support?
+
+Use the identifier assigned to the line or radio being investigated. IMEI and IMEI2 are 15-digit equipment identifiers, while EID identifies eSIM hardware. A serial number identifies the Apple device for support purposes. Do not substitute one value merely because a form accepts the same number of characters.
+
+**IMEI:** Commonly associated with the first cellular line or radio. Use the value shown next to IMEI in Settings > General > About.
+
+**IMEI2:** Commonly associated with the second cellular capability. If support asks about the eSIM line, confirm whether it wants IMEI2 rather than EID.
+
+**EID:** A longer eSIM hardware identifier used during some carrier activation workflows. It is not an IMEI and should not be entered into a 15-digit IMEI checker.
+
+**Apple Serial Number:** Useful for Apple support and coverage workflows. It does not replace the IMEI in a carrier blacklist or device-eligibility query.
+
+## What can an IMEI report answer before I contact the carrier?
+
+A basic lookup can confirm the model associated with an IMEI, helping you choose the correct Apple instructions. A paid report may provide blacklist, carrier-lock or Find My fields when explicitly included. Neither type can prove that a line has data allowance, correct billing or active carrier provisioning.
+
+- Use the free lookup when the model or identifier format is uncertain.
+- Use a paid blacklist report when reported-lost or network-block status is the actual question.
+- Use a carrier-lock report when the iPhone rejects a different carrier, rather than when one existing plan lacks data.
+- Contact the carrier when the line is enabled but its data plan, APN or account provisioning is unclear.
+
+A lookup does not remove a SIM Lock, Activation Lock or GSMA blacklist record. It also cannot move cellular data from one line to the other; that selection remains in iPhone settings.
+
+## Frequently Asked Questions
+
+These answers separate device identity from line configuration so each result can be acted on independently. Before ordering a report, record the exact IMEI, selected Cellular Data line and visible error. That short record is usually more useful to carrier support than a general statement that Dual SIM is not working.
+
+### Why does mobile data work on one iPhone SIM but not the other?
+
+The working plan may be selected under Settings > Cellular > Cellular Data, while the other line is used only for calls or messages. Test each line separately with Wi-Fi off. If the second line still fails, check its plan, roaming eligibility, coverage and carrier provisioning.
+
+### Does an iPhone IMEI check show which SIM line supplies data?
+
+No. An IMEI check can identify the device or return the status fields included in that service. The active data line is a live iPhone setting. Open Settings > Cellular > Cellular Data to see which plan supplies data and whether data switching is enabled.
+
+### Are IMEI2 and EID the same identifier?
+
+No. IMEI2 is a 15-digit equipment identity for a second cellular capability. EID is a longer identifier for the eSIM hardware. A carrier may request either during activation, so copy the label and value exactly instead of entering the EID into an IMEI form.
+
+### Can resetting network settings remove a carrier lock or blacklist?
+
+No. Resetting network settings clears saved network configuration such as Wi-Fi networks and may help with a local connection problem. It does not change a SIM Lock, carrier account status or GSMA blacklist record, and it cannot activate a data plan that the carrier has not provisioned.
+
+## What should I do next?
+
+Identify the exact line, test it with Wi-Fi off, and contact the carrier if its plan or provisioning is uncertain. If you first need to confirm which model belongs to a 15-digit identifier, start with [imeihub's free iPhone model lookup](https://imeihub.net/) and choose a paid report only when its listed fields answer your separate status question.
+
+ARTICLE_NOV20_IPHONE_DATA,
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-5g-option-missing',
+        'title' => 'Samsung Tablet IMEI Check: Why Is the 5G Option Missing?',
+        'meta_title' => 'Samsung Tablet IMEI Check: Missing 5G Option',
+        'excerpt' => 'Identify the Galaxy tablet, confirm it is a cellular 5G model, then check Network mode, SIM, plan, coverage, and carrier provisioning without guessing.',
+        'date' => '2026-11-20',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_NOV20_SAMSUNG_5G'
+A Samsung tablet IMEI check can identify a cellular Galaxy model, but it cannot add 5G to a Wi-Fi-only tablet or carrier plan. If the 5G option is missing, confirm the exact model and 15-digit IMEI, then review Network mode, SIM compatibility, plan eligibility, coverage and carrier provisioning.
+
+**Key takeaways**
+
+- Cellular Galaxy tablets normally show a 15-digit IMEI in Settings > About tablet; Wi-Fi-only versions may have a serial number but no IMEI.
+- A 5G-capable tablet still needs a compatible SIM, active plan and local 5G coverage.
+- A free model lookup identifies hardware. Paid blacklist or carrier-lock reports do not enable 5G or remove network restrictions.
+
+## Why can two tablets with the same product name have different network options?
+
+Samsung may sell Wi-Fi, LTE and 5G variants within one tablet family. Their names can look nearly identical while their radios and identifiers differ. A Wi-Fi-only model has no cellular Network mode to select, and an LTE variant cannot gain 5G through a software setting or SIM change.
+
+| Tablet evidence | What it establishes | What it does not establish |
+| --- | --- | --- |
+| IMEI in Settings > About tablet | The tablet has a cellular equipment identity | That the modem supports every 5G band |
+| Serial number only | Apple-style or Samsung device support identity is present | A cellular modem or active plan |
+| 5G option in Network mode | Software exposes a 5G-capable network preference | Current 5G coverage or plan access |
+| Paid status report | Only the blacklist, carrier or other fields listed | That 5G service is active at your location |
+
+Samsung's [5G guide for Galaxy phones and tablets](https://www.samsung.com/us/support/answer/ANS10001946/) says 5G use requires a compatible device, SIM, service plan and coverage. The same guide notes that a device can fall back to LTE when 5G is unavailable, which is different from the 5G option being absent entirely.
+
+## How do I confirm that the tablet is a cellular 5G model?
+
+Start with identifiers shown by the tablet itself, then compare them with the box or seller listing. A model name such as Galaxy Tab A or Galaxy Tab S is not specific enough. Record the model code, IMEI and serial number before ordering a report or contacting the carrier.
+
+**1. Open About tablet.** Go to Settings > About tablet.
+
+**2. Record the model.** Copy the Model name and Model number exactly.
+
+**3. Find the cellular identifier.** Look for a 15-digit IMEI. If the tablet displays IMEI1 and IMEI2, record both labels separately.
+
+**4. Compare physical labels carefully.** If no IMEI appears, check the original box or SIM tray, but do not trust a printed number until the model and serial also match.
+
+**5. Inspect the Connections menu.** If Mobile networks is absent, verify whether the model is Wi-Fi-only before troubleshooting a SIM.
+
+**6. Check Network mode.** On supported cellular models, open Mobile networks > Network mode and look for an option that includes 5G.
+
+An EID may also appear on eSIM-capable models. EID is an eSIM identifier, not a substitute for the 15-digit IMEI used by most device checkers.
+
+## What should I check when the tablet is 5G-capable but shows LTE?
+
+If the model supports 5G yet connects only to LTE, inspect service conditions before treating the tablet as defective. The selected Network mode, SIM generation, data plan, account provisioning and local coverage all matter. LTE fallback can be normal when 5G signal or carrier capacity is unavailable.
+
+**1. Check Network mode.** Open Settings > Connections > Mobile networks > Network mode and select an option that includes 5G when available. Menu names vary by carrier, region and software version.
+
+**2. Check the SIM and plan.** Samsung advises confirming that the SIM and subscribed plan support 5G. An older SIM or an LTE-only plan can prevent 5G service even when the tablet hardware supports it.
+
+**3. Check the location.** Test in a known carrier 5G area. Indoor signal, congestion and band deployment can cause LTE fallback without changing IMEI status.
+
+**4. Restart before resetting.** Restart after any carrier or SIM change. Samsung's [mobile network troubleshooting guide](https://www.samsung.com/us/support/troubleshooting/TSG01212956/) lists a network-settings reset as a later step and warns that it removes stored Wi-Fi networks and Bluetooth pairings.
+
+## Which check should I use for a missing 5G option?
+
+Choose a check that matches the unknown. Use a free lookup to identify the model associated with an IMEI. Use a paid blacklist or carrier report only for the status fields it promises. For plan access, SIM provisioning and coverage, the carrier remains the authoritative source for that active line.
+
+- **Free basic model lookup:** useful when the seller's tablet variant or model code is unclear.
+- **Paid GSMA blacklist report:** useful when reported-lost or network-block status is the question.
+- **Paid carrier-lock report:** useful when the tablet rejects a different carrier and the report explicitly supports that model.
+- **Carrier account check:** required for plan eligibility, 5G provisioning, SIM replacement and local coverage.
+
+A lookup cannot convert LTE hardware to 5G, unlock a carrier restriction, clear a blacklist or activate a service plan.
+
+## Frequently Asked Questions
+
+The fastest diagnosis separates model capability from live network service. First confirm whether the tablet is Wi-Fi, LTE or 5G. Then test Network mode and the active carrier line. This order prevents a normal Wi-Fi-only or LTE variant from being misdiagnosed as a blocked 5G tablet.
+
+### Why is the 5G option missing on my Samsung tablet?
+
+The tablet may be a Wi-Fi-only or LTE variant, or the carrier firmware may expose different network choices. Confirm the full model number and look for an IMEI under About tablet. If the model supports 5G, ask the carrier whether the SIM and plan are provisioned for it.
+
+### Does every Samsung tablet have a 15-digit IMEI?
+
+No. An IMEI identifies cellular equipment, so a Wi-Fi-only Galaxy tablet may have a serial number and model number without an IMEI. Cellular versions normally show the IMEI in Settings > About tablet. Do not invent an IMEI from the serial number or a Wi-Fi MAC address.
+
+### Can a Samsung tablet IMEI check confirm 5G coverage?
+
+No. A model lookup may help establish whether the tablet hardware supports cellular 5G, but coverage changes by carrier, location, building and network conditions. Check the carrier's current coverage information and test the active SIM at the intended location before relying on 5G service.
+
+### Will a blacklist or carrier-lock report turn on 5G?
+
+No. Those reports return status information when the chosen service includes it. They do not alter Network mode, replace an incompatible SIM, add a 5G plan, remove a SIM Lock or clear a GSMA blacklist. Contact the responsible carrier for account and provisioning changes.
+
+## What should I do next?
+
+Record the full model number and 15-digit IMEI, then check Network mode, SIM, plan and coverage in that order. If the precise cellular variant is still unclear, use [imeihub's free Samsung model lookup](https://imeihub.net/) before choosing any paid status report from the [verified service list](https://imeihub.net/services.php).
+
+ARTICLE_NOV20_SAMSUNG_5G,
+    ],
+    [
         'slug' => 'iphone-serial-number-check-applecare-proof-of-coverage',
         'title' => 'iPhone Serial Number Check: Where Is My AppleCare Proof of Coverage?',
         'meta_title' => 'iPhone Serial Number Check for AppleCare Proof of Coverage',
