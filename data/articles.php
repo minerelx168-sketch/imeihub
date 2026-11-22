@@ -8,6 +8,64 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'used-iphone-buying-checklist-2026',
+        'title' => '2026 Used iPhone Buying Checklist: Check IMEI, iCloud Lock, Carrier & AppleCare',
+        'meta_title' => '2026 Used iPhone Buying Checklist: Check IMEI, FMI, Carrier & Blacklist',
+        'excerpt' => 'Complete 7-step used iPhone buying checklist for 2026: verify IMEI, Find My iPhone (FMI) Activation Lock, GSMA blacklist, carrier SIM-lock, MDM, and AppleCare coverage before paying.',
+        'date' => '2026-11-22',
+        'tag' => 'Buying Guide',
+        'body' => <<<'ARTICLE_NOV22_USED_IPHONE_CHECKLIST'
+Buying a second-hand iPhone can save hundreds of dollars, provided you verify the device is not **iCloud Activation Locked**, **carrier SIM-locked**, **corporate MDM-supervised**, or **GSMA blacklisted** before handing over cash. Run through this 7-step IMEI verification checklist before completing any local meetup or online marketplace purchase.
+
+**Quick pre-purchase verification table (pricing verified November 2026)**
+
+| Verification Step | Risk It Prevents | imeihub Tool & Price |
+| --- | --- | --- |
+| 1. IMEI & TAC Match | Counterfeit phone or swapped logic board | [Free IMEI Check](/service.php?slug=free-imei-check) ($0.00) |
+| 2. Find My iPhone (FMI) | Bricked iPhone locked to previous Apple ID | [iCloud Clean / Lost Check](/service.php?slug=apple-icloud) ($0.03) |
+| 3. GSMA Blacklist | Reported lost, stolen, or unpaid carrier plan | [Blacklist Check](/service.php?slug=blacklist) ($0.05–$0.10) |
+| 4. Carrier & SIM-Lock | Handset rejects your local SIM or eSIM | [Apple SIM-Lock Check](/service.php?slug=apple-sim-lock) ($0.05) |
+| 5. AppleCare & Warranty | Fake warranty claim or unvalidated replacement | [Apple Warranty Lookup](/service.php?slug=apple-warranty) ($0.04) |
+| 6. Corporate MDM Lock | Enterprise device that re-locks after wipe | [Apple MDM Check](/service.php?slug=apple-mdm) ($0.35) |
+| 7. Full GSX History | Hidden carrier policy or repair/swap history | [Apple Full GSX Report](/service.php?slug=apple-full-gsx) ($2.30) |
+
+## Step 1: Confirm the 15-digit IMEI matches everywhere
+
+Dial `*#06#` on the keypad or open **Settings > General > About** and compare the 15-digit IMEI with the SIM tray and retail box. Run the number through our [Free IMEI Check](/service.php?slug=free-imei-check) to confirm ISO/IEC 7812-1 checksum validity and exact model match.
+
+## Step 2: Verify Find My iPhone (FMI) / Activation Lock is OFF
+
+Never pay for a used iPhone while **Find My iPhone** is still enabled—even if the home screen is unlocked. After a factory reset or iOS update, Apple Activation Lock will require the previous owner's Apple ID. Check live status with the [iCloud ON/OFF ($0.01)](/service.php?slug=apple-icloud-status) or [iCloud Clean/Lost ($0.03)](/service.php?slug=apple-icloud) lookup.
+
+## Step 3: Check GSMA Blacklist & financed-device risk
+
+A blacklisted IMEI cannot connect to cellular networks across participating carriers. Run a [Worldwide Blacklist Check](/service.php?slug=blacklist) before paying, and ask the seller for proof that any carrier installment plan has been paid in full.
+
+## Step 4: Verify Carrier Lock shows No SIM restrictions
+
+On the iPhone, open **Settings > General > About > Carrier Lock** and verify it reads **No SIM restrictions**. When buying online before inspecting the phone in person, confirm unlock status remotely with the [Apple Carrier / SIM-Lock Check](/service.php?slug=apple-sim-lock).
+
+## Step 5: Check AppleCare & serial number warranty coverage
+
+Confirm the exact model, estimated purchase date, and active AppleCare+ or Limited Warranty status via [Apple Serial & Warranty Check](/service.php?slug=apple-warranty) ($0.04 USD, no CAPTCHA).
+
+## Step 6: Screen for hidden corporate MDM profiles
+
+Discounted enterprise phones enrolled in Apple Business Manager can appear unlocked until erased, then lock behind a Remote Management screen. Run an [Apple MDM Check](/service.php?slug=apple-mdm) before finalizing higher-value purchases.
+
+## Step 7: Factory reset and activate with your SIM in person
+
+- Ask the seller to sign out of iCloud (**Settings > [Name] > Sign Out**).
+- Erase the phone via **Settings > General > Transfer or Reset iPhone > Erase All Content and Settings**.
+- Confirm the phone reaches the standard **Hello** setup screen and activates with your own SIM/eSIM and Apple ID without any Activation Lock or Remote Management prompt.
+- Check **Battery Health**, Face ID, cameras, speakers, and True Tone display before leaving.
+
+## For mobile repair shops, resellers & tech blogs
+
+You can reference this checklist in your buyer guides, embed our [Free IMEI Checker Widget](/widget) directly on your site in 30 seconds, or automate inventory checks via our [JSON REST API](/api-docs).
+ARTICLE_NOV22_USED_IPHONE_CHECKLIST,
+    ],
+    [
         'slug' => 'free-icloud-fmi-checker-guide',
         'title' => 'iCloud & FMI Checker Guide: How to Verify Find My iPhone (Clean vs. Lost)',
         'meta_title' => 'iCloud & FMI Checker Guide: Verify Find My iPhone Status',

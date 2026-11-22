@@ -12,6 +12,14 @@
     # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 </IfModule>
 
+# Allow external partner sites to embed the free IMEI widget via iframe
+<Files "embed-imei-checker.php">
+    <IfModule mod_headers.c>
+        Header always unset X-Frame-Options
+        Header always set Content-Security-Policy "frame-ancestors *"
+    </IfModule>
+</Files>
+
 # ─── Deny access to sensitive files ───────────────────────────────
 <FilesMatch "^\.env|\.git|composer\.(json|lock)|package\.json|Dockerfile|docker-compose">
     <IfModule mod_authz_core.c>
@@ -39,6 +47,7 @@
     RewriteRule ^vs-ifreeicloud/?$ vs-ifreeicloud.php [L]
     RewriteRule ^vs-imei-info/?$ vs-imei-info.php [L]
     RewriteRule ^api-docs/?$ api-docs.php [L]
+    RewriteRule ^widget/?$ widget.php [L]
 
     # Article pretty URLs: /article/slug -> article.php?slug=slug
     RewriteRule ^article/([a-z0-9-]+)$ article.php?slug=$1 [L,QSA]

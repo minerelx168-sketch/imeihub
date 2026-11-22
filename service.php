@@ -194,6 +194,7 @@ layout_head(
                   data-code="<?= htmlspecialchars((string) $service['code'], ENT_QUOTES, 'UTF-8') ?>"
                   data-paid="<?= $service['free'] ? '0' : '1' ?>">
                 <label for="imei" class="sr-only">IMEI number</label>
+                <?php $prefillImei = isset($_GET['imei']) ? preg_replace('/[^0-9A-Za-z]/', '', (string) $_GET['imei']) : ''; ?>
                 <input
                     id="imei"
                     name="imei"
@@ -201,6 +202,7 @@ layout_head(
                     inputmode="numeric"
                     pattern="\d*"
                     maxlength="17"
+                    value="<?= htmlspecialchars($prefillImei, ENT_QUOTES, 'UTF-8') ?>"
                     placeholder="Enter 15-digit IMEI"
                     required>
                 <button type="submit" id="submit-btn">

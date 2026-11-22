@@ -19,6 +19,7 @@ $urls = [
     ['loc' => $base . '/vs-ifreeicloud',  'priority' => '0.8', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
     ['loc' => $base . '/vs-imei-info',    'priority' => '0.8', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
     ['loc' => $base . '/api-docs',        'priority' => '0.8', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
+    ['loc' => $base . '/widget',          'priority' => '0.8', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
     ['loc' => $base . '/refund-policy',   'priority' => '0.6', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
     ['loc' => $base . '/about.php',     'priority' => '0.5', 'changefreq' => 'monthly', 'lastmod' => $siteMod],
     ['loc' => $base . '/contact.php',   'priority' => '0.5', 'changefreq' => 'monthly', 'lastmod' => $siteMod],

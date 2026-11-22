@@ -126,6 +126,7 @@ function layout_foot(): void
             <a href="/services.php">All services</a>
             <a href="/brands.php">Brands</a>
             <a href="/api-docs">API &amp; Bulk Checks</a>
+            <a href="/widget">Free Widget</a>
             <a href="/vs-ifreeicloud">vs iFreeiCloud</a>
             <a href="/vs-imei-info">vs IMEI.info</a>
         </div>
