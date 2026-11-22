@@ -10,6 +10,7 @@ Policy: Allow AI search indexing and citation with attribution to imeihub.net.
 
 # Machine-Readable Discovery Endpoints
 LLMs: https://imeihub.net/llms.txt
+LLMs-Full: https://imeihub.net/llms-full.txt
 Summary: https://imeihub.net/ai/summary.json
 FAQ: https://imeihub.net/ai/faq.json
 Services: https://imeihub.net/ai/service.json

@@ -125,12 +125,16 @@ function layout_foot(): void
             <a href="/">IMEI Check</a>
             <a href="/services.php">All services</a>
             <a href="/brands.php">Brands</a>
+            <a href="/api-docs">API &amp; Bulk Checks</a>
+            <a href="/vs-ifreeicloud">vs iFreeiCloud</a>
+            <a href="/vs-imei-info">vs IMEI.info</a>
         </div>
         <div class="footer-col">
             <h4>Site</h4>
             <a href="/articles.php">Articles</a>
             <a href="/about.php">About</a>
             <a href="/contact.php">Contact</a>
+            <a href="/refund-policy">Refund Policy</a>
             <a href="/privacy.php">Privacy</a>
         </div>
         <div class="footer-col footer-col--bottom">

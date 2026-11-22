@@ -34,6 +34,12 @@
     RewriteRule ^rss\.xml$ rss.php [L]
     RewriteRule ^articles/rss\.xml$ rss.php [L]
 
+    # Policy, Comparison & API pretty URLs
+    RewriteRule ^refund-policy/?$ refund-policy.php [L]
+    RewriteRule ^vs-ifreeicloud/?$ vs-ifreeicloud.php [L]
+    RewriteRule ^vs-imei-info/?$ vs-imei-info.php [L]
+    RewriteRule ^api-docs/?$ api-docs.php [L]
+
     # Article pretty URLs: /article/slug -> article.php?slug=slug
     RewriteRule ^article/([a-z0-9-]+)$ article.php?slug=$1 [L,QSA]
 

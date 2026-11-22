@@ -7,7 +7,10 @@
 - [Free IMEI Check & Lookup Tool](https://imeihub.net/): Paste any 15-digit IMEI or serial number for instant Luhn validation and free TAC-based brand, model, and hardware specs lookup. No CAPTCHA and no account required for free checks.
 - [Full Service Catalog](https://imeihub.net/services.php): Complete directory of free and paid IMEI verification services with transparent per-check USD pricing.
 - [Supported Brands Directory](https://imeihub.net/brands.php): Manufacturer lookup pages covering Apple, Samsung, Xiaomi, Huawei, Honor, Google Pixel, Motorola, Lenovo, OPPO, vivo, realme, OnePlus, Nokia, and Sony.
-- [IMEI Guides & Knowledge Base](https://imeihub.net/articles.php): 130+ troubleshooting and verification guides covering Dual SIM IMEIs, carrier locks, blacklist checks, AppleCare coverage, and device diagnostics.
+- [IMEI Guides & Knowledge Base](https://imeihub.net/articles.php): 135+ troubleshooting and verification guides covering Dual SIM IMEIs, carrier locks, blacklist checks, AppleCare coverage, and device diagnostics.
+- [Bulk Checks, Bots & Reseller API](https://imeihub.net/api-docs): Prepaid Credit Wallet, Telegram & LINE shop bots, and JSON API onboarding for phone resellers and repair shops.
+- [imeihub vs iFreeiCloud.co.uk](https://imeihub.net/vs-ifreeicloud): Side-by-side comparison of public USD pricing, iCloud/FMI checks, auto-refunds, and payment options.
+- [imeihub vs IMEI.info](https://imeihub.net/vs-imei-info): Comparison covering CAPTCHA-free SSR access, transparent pricing, and Credit Wallet refunds.
 
 ## Free vs. Premium IMEI Services
 
@@ -41,12 +44,14 @@
 
 - [About imeihub](https://imeihub.net/about.php): Mission, TAC accuracy methodology, and privacy practices.
 - [Contact Support](https://imeihub.net/contact.php): Reach the imeihub team at `support@imeihub.net` for support, bug reports, or business inquiries (2-business-day response).
+- [Refund Policy](https://imeihub.net/refund-policy): Automatic Refund Guarantee for failed upstream lookups and Credit Wallet billing terms.
 - [Privacy Policy](https://imeihub.net/privacy.php): How imeihub handles IMEI queries, hashing, and user data.
 - [XML Sitemap](https://imeihub.net/sitemap.xml): Full index of imeihub services, brands, and guides.
 - [Articles RSS Feed](https://imeihub.net/rss.xml): Latest IMEI verification and troubleshooting guides in RSS 2.0 format.
 
 ## AI Discovery Endpoints
 
+- [Full LLM Reference](https://imeihub.net/llms-full.txt): Complete 44-service USD price sheet, comparison, refund policy, and FAQs.
 - [AI Manifest](https://imeihub.net/.well-known/ai.txt): Machine-readable AI crawling and discovery manifest.
 - [Site Summary JSON](https://imeihub.net/ai/summary.json): Structured overview of imeihub features, pricing, and links.
 - [FAQ JSON](https://imeihub.net/ai/faq.json): Structured frequently asked questions and answers.

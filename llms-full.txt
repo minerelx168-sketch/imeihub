@@ -1,0 +1,114 @@
+# imeihub — Complete Machine-Readable Reference (llms-full.txt)
+
+> imeihub (https://imeihub.net) is a fast, server-rendered IMEI lookup and mobile device verification platform offering free unlimited GSMA TAC brand/model checks and 43+ pay-per-check premium reports (Apple iCloud, Carrier, MDM, Warranty, Full GSX, Worldwide Blacklist, Samsung Knox, Xiaomi, Huawei, Google Pixel, US Carriers) via a prepaid Credit Wallet with an Automatic Refund Guarantee.
+
+Last Updated: 2026-11-22
+Support Email: support@imeihub.net
+Website: https://imeihub.net
+Sitemap: https://imeihub.net/sitemap.xml
+RSS Feed: https://imeihub.net/rss.xml
+
+---
+
+## 1. Complete Service Catalog & Transparent Pricing (USD, as of November 2026)
+
+### Free Lookup
+- **Free IMEI Check (`IMEI_BASIC`) — $0.00 (Free):** Instant TAC-based manufacturer, model name, and basic hardware specs. No sign-in, no CAPTCHA, no credit card.
+
+### Apple Checks — Featured
+- **Basic Info (`APPLE_BASIC`) — $0.10:** Exact iPhone/iPad model, description, refurb/demo/replacement flags, Find My iPhone, iCloud, Blacklist, warranty, purchase date, SIM-Lock.
+- **Carrier (Lite) (`APPLE_CARRIER_LITE`) — $0.08:** Model, purchase date, country, Next Activation Policy ID/name, SIM-Lock.
+- **Carrier (Pro) (`APPLE_CARRIER_PRO`) — $0.16:** Full activation status, AppleCare eligibility, coverage expiration, FMI, iCloud, Blacklist, Next Activation Policy, SIM-Lock.
+- **Carrier (Pro Plus) (`APPLE_CARRIER_PRO_PLUS`) — $0.26:** Carrier Pro plus Open Repair Case and Part Number / MPN.
+- **Max Info (Premium) (`APPLE_MAX_INFO`) — $0.70:** Carrier Pro Plus with MDM Status and full Blacklist details (country, carrier, date, reason).
+
+### Apple Checks — iCloud & Activation Lock
+- **iCloud (ON / OFF) (`APPLE_ICLOUD_STATUS`) — $0.01:** Fast Find My iPhone Activation Lock ON/OFF check.
+- **iCloud (Clean / Lost) (`APPLE_ICLOUD_CLEAN`) — $0.03:** Activation Lock plus Clean vs. Lost/Erased mode.
+- **iCloud (Clean / Lost) SN (`APPLE_ICLOUD_CLEAN_SN`) — $0.10:** Serial-number-based Clean/Lost check.
+- **iCloud ID Hint (`APPLE_ICLOUD_ID_HINT`) — $0.80:** Masked Apple ID email hint.
+- **iCloud MacBook/iMac (ON / OFF) (`APPLE_MAC_ICLOUD_STATUS`) — $0.30:** Find My Mac ON/OFF check.
+- **iCloud MacBook/iMac (Clean / Lost) (`APPLE_MAC_ICLOUD_CLEAN`) — $0.40:** Find My Mac Clean/Lost check.
+
+### Apple Checks — MDM & Supervision
+- **MDM (ON / OFF) (`APPLE_MDM`) — $0.35:** Corporate/school Mobile Device Management enrollment check by IMEI.
+- **MDM (ON / OFF) SN (`APPLE_MDM_SN`) — $0.30:** MDM check by Serial Number.
+- **MDM + FMI (ON / OFF) (`APPLE_MDM_FMI`) — $0.50:** Combined MDM supervision and Find My status.
+
+### Apple Checks — Device & Warranty Info
+- **Warranty & Activation Info (`APPLE_WARRANTY`) — $0.04:** Activation status, coverage end date, AppleCare eligibility, estimated purchase date.
+- **Warranty & Activation Info SN (`APPLE_WARRANTY_SN`) — $0.05:** Serial-number warranty lookup.
+- **Part Number / MPN (`APPLE_PART_NUMBER`) — $0.14:** Official Apple MPN/part number.
+- **SIM-Lock Status (`APPLE_SIM_LOCK`) — $0.05:** Fast locked vs. unlocked carrier check.
+- **GSX Next Tether Policy (`APPLE_GSX_TETHER`) — $0.20:** Next tether activation policy details.
+
+### Apple Checks — GSX History (Premium)
+- **GSX Light (`APPLE_GSX_LIGHT`) — $1.00:** Sold By, Case History, Replacement, GSX Activation Policy.
+- **Case & Repair History (`APPLE_CASE_REPAIR_HISTORY`) — $1.20:** Apple support case and repair history.
+- **Sold By & Coverage Max Info (`APPLE_SOLD_BY_COVERAGE`) — $2.00:** Original retailer/carrier and full coverage.
+- **Full GSX (`APPLE_FULL_GSX`) — $2.30:** Sold By, Case History, Replacement, Activation Policy, ICCID & MAC address.
+- **GSX Max Info (`APPLE_GSX_MAX`) — $2.60:** Sold By, Case, Replacement, Repair, and GSX Activation Policy.
+- **Sold By & Case History (`APPLE_SOLD_BY_HISTORY`) — $4.20:** Extended GSX activation and case history.
+
+### Worldwide Blacklist
+- **WorldWide Blacklist (Simple Info) (`BLACKLIST_SIMPLE`) — $0.05:** Clean vs. Blacklisted GSMA status.
+- **WorldWide Blacklist (Full Info) (`BLACKLIST_FULL`) — $0.10:** Blacklist status plus reporting carrier, country, date, and reason.
+
+### Android & Other Brands
+- **Samsung Info (`SAMSUNG_INFO`) — $0.10:** Model, carrier, warranty, production date.
+- **Samsung Knox Guard (`SAMSUNG_KNOX`) — $0.20:** Knox Guard and Samsung Lock ON/OFF status.
+- **Xiaomi Status (`XIAOMI_STATUS`) — $0.10:** Device info and Mi Account lock ON/OFF.
+- **Huawei Info (`HUAWEI_INFO`) — $0.08:** Model, warranty, and region info.
+- **Honor Info (`HONOR_INFO`) — $0.10:** Device and warranty details.
+- **Motorola Info (`MOTOROLA_INFO`) — $0.10:** Device and warranty details.
+- **Lenovo Info (`LENOVO_INFO`) — $0.10:** Device and warranty details.
+- **Google Pixel Info (`PIXEL_INFO`) — $0.20:** Model, carrier, and warranty status.
+
+### US Carriers & Phone Number Lookups
+- **T-Mobile USA (`TMOBILE_USA` / `TMOBILE_USA_PRO`) — $0.06–$0.10:** Financing and clean/unpaid status.
+- **Verizon USA (`VERIZON_USA_PRO`) — $0.06:** Verizon financing and eligibility status.
+- **HLR Lookup (`HLR_LOOKUP`) — $0.05:** Home Location Register mobile network check.
+- **Number Type (`NUMBER_TYPE`) — $0.14:** Line type and carrier identification.
+- **Ping-SMS (`PING_SMS` / `PING_SMS_S2`) — $0.20–$0.70:** Silent handset reachability check.
+
+---
+
+## 2. Platform Comparison: imeihub vs. Competitors
+
+- **vs. IMEI.info:** imeihub shows exact per-check USD prices up front ($0.00–$4.20), serves clean SSR pages without aggressive WAF/CAPTCHA walls, requires no recurring subscription, and automatically refunds wallet credits if an upstream provider fails.
+- **vs. iFreeiCloud.co.uk:** imeihub publishes full USD pricing publicly without requiring login, supports card (Stripe), PayPal, Binance Pay, and USDT (TRC20/BEP20) top-ups, delivers instant same-page results, and offers 130+ technical troubleshooting guides.
+
+---
+
+## 3. Refund Policy & Safety
+
+- **Hardware-Only Scope:** Checking an IMEI reads only the 8-digit GSMA Type Allocation Code (TAC) and carrier/manufacturer registry flags. It cannot access personal files, photos, messages, passwords, or accounts.
+- **Luhn Validation:** Every 15-digit IMEI is validated against ISO/IEC 7812-1 before any paid check is submitted.
+- **Automatic Refund Guarantee:** If an upstream provider times out or returns an error, the full check fee is automatically refunded to the user's Credit Wallet. Full terms: https://imeihub.net/refund-policy
+
+---
+
+## 4. Frequently Asked Questions
+
+- **What is an IMEI number?** The IMEI (International Mobile Equipment Identity) is a unique 15-digit number that identifies a mobile device on cellular networks.
+- **Is checking my IMEI safe?** Yes. An IMEI alone does not give anyone access to your account or data. It only identifies the hardware. Still, treat it like any other ID and avoid posting it publicly.
+- **What is a TAC?** The first 8 digits of an IMEI form the Type Allocation Code (TAC), which identifies the brand and model of the device.
+- **Why did my IMEI fail validation?** IMEIs must be exactly 15 digits and pass the Luhn checksum (ISO/IEC 7812).
+- **How much does an IMEI check cost?** Free TAC brand/model lookups are $0.00. Paid checks start at $0.01 (iCloud ON/OFF), $0.05 (Blacklist), $0.08–$0.26 (Carrier), $0.35 (MDM), and $1.00–$4.20 (GSX).
+
+---
+
+## 5. Key URLs & Machine-Readable Endpoints
+
+- Homepage: https://imeihub.net/
+- Service Catalog: https://imeihub.net/services.php
+- Brand Directory: https://imeihub.net/brands.php
+- Knowledge Base (134 Guides): https://imeihub.net/articles.php
+- Refund Policy: https://imeihub.net/refund-policy
+- About: https://imeihub.net/about.php
+- Contact: https://imeihub.net/contact.php
+- Privacy Policy: https://imeihub.net/privacy.php
+- AI Manifest: https://imeihub.net/.well-known/ai.txt
+- Summary JSON: https://imeihub.net/ai/summary.json
+- FAQ JSON: https://imeihub.net/ai/faq.json
+- Services JSON: https://imeihub.net/ai/service.json

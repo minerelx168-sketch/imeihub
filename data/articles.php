@@ -8,6 +8,118 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'free-icloud-fmi-checker-guide',
+        'title' => 'iCloud & FMI Checker Guide: How to Verify Find My iPhone (Clean vs. Lost)',
+        'meta_title' => 'iCloud & FMI Checker Guide: Verify Find My iPhone Status',
+        'excerpt' => 'Check whether Find My iPhone (FMI) Activation Lock is ON or OFF and distinguish Clean vs. Lost mode before buying a used iPhone, iPad, or Mac.',
+        'date' => '2026-11-22',
+        'tag' => 'iCloud',
+        'body' => <<<'ARTICLE_NOV22_ICLOUD_FMI'
+An iCloud or FMI (Find My iPhone) check verifies whether Apple Activation Lock is currently enabled on an iPhone, iPad, or Mac using its 15-digit IMEI or serial number. On imeihub, a basic iCloud ON/OFF lookup costs $0.01 USD, while a Clean/Lost mode check costs $0.03 USD with instant same-page delivery and an automatic refund if the upstream lookup fails.
+
+**Key takeaways**
+
+- **FMI OFF** means Activation Lock is disabled and the device can be erased and set up with a new Apple ID.
+- **FMI ON (Clean)** means Find My is still signed in to a previous owner's Apple ID, even though the device has not been flagged missing.
+- **FMI ON (Lost / Erased)** means the owner placed the handset in Lost Mode via iCloud; do not purchase a Lost Mode device because it cannot be activated without the original credentials.
+
+## iCloud ON/OFF vs. Clean/Lost: Which check should you run?
+
+Choosing the right check depends on whether you are screening inventory quickly or inspecting a high-value trade-in. Pricing below is verified as of November 2026.
+
+| Check Type | Price (USD) | What It Returns | Best For |
+| --- | --- | --- | --- |
+| Free IMEI Check (TAC) | $0.00 | Brand, model name, and basic hardware specs | Confirming the advertised model |
+| iCloud (ON / OFF) | $0.01 | Find My iPhone Activation Lock ON or OFF | Fast pre-purchase screening |
+| iCloud (Clean / Lost) | $0.03 | FMI ON/OFF plus Clean vs. Lost/Erased flag | Buying used iPhones & trade-ins |
+| MDM + FMI (ON / OFF) | $0.50 | Corporate MDM supervision + Find My status | Checking ex-corporate or school devices |
+| Apple Full GSX Report | $2.30 | Sold-by retailer, activation policy, case & repair history | High-value refurbishing & wholesale |
+
+## How to run an iCloud / FMI check in 3 steps
+
+**1. Locate the 15-digit IMEI or Serial Number.** Dial `*#06#` on the iPhone, or open **Settings > General > About**. On a locked setup screen, tap the small **(i)** icon in the bottom-right corner.
+
+**2. Validate the identifier.** Paste the 15-digit IMEI into the [imeihub IMEI checker](/). Every IMEI is validated against the [ISO/IEC 7812-1 Luhn check-digit standard](https://www.iso.org/standard/70484.html) before any paid check is submitted.
+
+**3. Verify Activation Lock before paying.** Run the [iCloud (ON / OFF)](/service.php?slug=apple-icloud-status) or [iCloud Activation Lock (Clean / Lost)](/service.php?slug=apple-icloud) report. According to [Apple's Activation Lock support guide](https://support.apple.com/en-us/108794), the previous owner must sign out of iCloud and turn off Find My before transferring ownership.
+
+## Why FMI OFF alone does not guarantee a clean phone
+
+A handset with **Find My OFF** can still be carrier SIM-locked, enrolled in corporate Mobile Device Management (MDM), or reported stolen on the global [GSMA IMEI blacklist](https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/). For complete protection on second-hand purchases, pair an iCloud check ($0.01–$0.03) with a [WorldWide Blacklist check](/service.php?slug=blacklist) ($0.05–$0.10) and [Apple SIM-Lock check](/service.php?slug=apple-sim-lock) ($0.05).
+ARTICLE_NOV22_ICLOUD_FMI,
+    ],
+    [
+        'slug' => 'applecare-serial-number-warranty-lookup-guide',
+        'title' => 'AppleCare & Serial Number Lookup Guide: Check Warranty, Coverage & Activation',
+        'meta_title' => 'AppleCare Serial Number Lookup & Warranty Check Guide',
+        'excerpt' => 'How to check AppleCare coverage, estimated purchase date, and activation status by serial number or IMEI—and when to use a paid warranty or GSX report.',
+        'date' => '2026-11-22',
+        'tag' => 'AppleCare',
+        'body' => <<<'ARTICLE_NOV22_APPLECARE_SN'
+An AppleCare serial number lookup confirms whether an iPhone, iPad, or Mac is still covered under Apple's Limited Warranty or AppleCare+, whether the purchase date is valid, and whether the device has been activated. You can check basic coverage on [Apple's Check Coverage portal](https://checkcoverage.apple.com/) for free, or run an instant [Apple Warranty & Activation check](/service.php?slug=apple-warranty) on imeihub for $0.04 USD to retrieve activation status, coverage end date, and AppleCare eligibility in one structured report.
+
+**Key takeaways**
+
+- Apple's official coverage portal requires a serial number and CAPTCHA; imeihub returns warranty, activation status, and estimated purchase date from either an IMEI or serial number with no CAPTCHA.
+- A **Valid Purchase Date: No** or **Unactivated** flag indicates a brand-new sealed device—or occasionally a replacement unit whose purchase date has not been registered.
+- Warranty status does not show iCloud Activation Lock, carrier SIM-Lock, or GSMA blacklist status; those require separate checks.
+
+## Free Apple Check Coverage vs. imeihub Warranty & GSX Reports
+
+| Report Option | Cost (USD) | Accepts IMEI? | Key Fields Returned |
+| --- | --- | --- | --- |
+| Apple Check Coverage (official) | $0.00 | Serial only | Limited Warranty & AppleCare+ active status |
+| imeihub Apple Warranty & Activation | $0.04 | Yes (IMEI & SN) | Activation status, coverage end date, AppleCare eligibility, purchase date, loaner flag |
+| imeihub Apple Carrier Pro | $0.16 | Yes | Warranty + FMI + iCloud + Blacklist + SIM-Lock + Next Activation Policy |
+| imeihub Apple Full GSX Report | $2.30 | Yes | Full coverage + Sold-by retailer + Case/Repair/Replacement history |
+
+## How to find your Apple Serial Number and IMEI
+
+According to [Apple's official serial number guide](https://support.apple.com/en-us/108037), you can find the serial number and 15-digit IMEI in three places:
+
+**1. In iOS Settings.** Open **Settings > General > About** to view Serial Number, IMEI, and IMEI2.
+
+**2. On the original retail box or receipt.** The barcode label lists both the 10-to-12-character Serial Number and the 15-digit IMEI.
+
+**3. By dialing `*#06#`.** Works on any active iPhone to display the IMEI immediately.
+
+## What to verify before buying a phone advertised as "Under AppleCare+"
+
+Even if a serial lookup shows active coverage, AppleCare+ with Theft and Loss can be canceled by the original owner for a prorated refund after the sale. Verify the **Estimated Purchase Date**, confirm **Find My iPhone is OFF** ($0.01), and confirm the device is **not a replacement or loaner unit** using the [Apple Warranty & Activation](/service.php?slug=apple-warranty) or [Apple Full GSX Report](/service.php?slug=apple-full-gsx). All paid checks on imeihub are backed by our [Automatic Refund Guarantee](/refund-policy).
+ARTICLE_NOV22_APPLECARE_SN,
+    ],
+    [
+        'slug' => 'best-free-imei-checkers-compared-2026',
+        'title' => 'Best Free IMEI Checkers Compared (2026): imeihub vs iFreeiCloud vs IMEI.info',
+        'meta_title' => 'Best Free IMEI Checkers Compared (2026)',
+        'excerpt' => 'An objective 2026 comparison of imeihub, iFreeiCloud.co.uk, and IMEI.info across free TAC lookups, transparent USD pricing, CAPTCHA friction, and auto-refund protection.',
+        'date' => '2026-11-22',
+        'tag' => 'Comparison',
+        'body' => <<<'ARTICLE_NOV22_COMPARE_2026'
+The best IMEI checker in 2026 depends on whether you need fast, CAPTCHA-free TAC lookups with transparent per-check USD pricing (**imeihub**), legacy DHRU/Project Zeus batch integration (**iFreeiCloud.co.uk**), or a consumer-focused spec database (**IMEI.info**). Every legitimate IMEI checker decodes the same 8-digit Type Allocation Code (TAC) governed by the [GSMA IMEI Database](https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/) and validates the 15th digit with the [ISO/IEC 7812-1 Luhn algorithm](https://www.iso.org/standard/70484.html).
+
+**Key takeaways**
+
+- **For transparent pricing & no CAPTCHA walls:** **imeihub** lists all 44 services publicly ($0.00 free TAC, $0.01 iCloud ON/OFF, $0.05 Blacklist, $2.30 Full GSX) and refunds failed checks automatically.
+- **For legacy DHRU unlocking storefronts:** **iFreeiCloud.co.uk** offers Project Zeus batch processing and DHRU Fusion / PHP APIs inside its Client Area.
+- **For casual model browsing:** **IMEI.info** maintains a large spec catalog, though users frequently encounter ads and WAF/CAPTCHA prompts.
+
+## 2026 Comparison Table: imeihub vs iFreeiCloud vs IMEI.info
+
+| Feature | imeihub.net | iFreeiCloud.co.uk | IMEI.info |
+| --- | --- | --- | --- |
+| Free TAC Model Lookup | Yes (unlimited, no CAPTCHA) | Yes (rate/bot-limited) | Yes (CAPTCHA-gated) |
+| Public Upfront USD Prices | Yes ($0.00–$4.20) | Login required for full rates | Varies by tier |
+| Automatic Refund on Error | Yes (instant wallet credit) | Policy-based | Manual ticket |
+| Payment Methods | Stripe, PayPal, Binance Pay, USDT | PayPal, Card | Card, PayPal |
+| Reseller Workflow | Credit Wallet, Telegram/LINE Bots, API | Project Zeus, DHRU/PHP API | Web browser |
+
+## Deep-Dive Comparisons
+
+For a closer look at specific workflows and pricing tiers, read our dedicated side-by-side pages: [imeihub vs iFreeiCloud.co.uk](/vs-ifreeicloud), [imeihub vs IMEI.info](/vs-imei-info), and our [Bulk Checks & Reseller API guide](/api-docs).
+ARTICLE_NOV22_COMPARE_2026,
+    ],
+    [
         'slug' => 'iphone-imei-check-one-sim-no-mobile-data',
         'title' => 'iPhone IMEI Check: Why Does One SIM Have No Mobile Data?',
         'meta_title' => 'iPhone IMEI Check: One SIM Has No Mobile Data',

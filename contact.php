@@ -31,14 +31,61 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-layout_head('Contact · imeihub', 'Get in touch with the imeihub team. We respond to all inquiries within two business days.');
+$siteUrl = 'https://imeihub.net';
+$pageUrl = $siteUrl . '/contact.php';
+$ogImage = $siteUrl . '/assets/img/og-image.png';
+$contactJsonLd = [
+    '@context' => 'https://schema.org',
+    '@graph'   => [
+        [
+            '@type'           => 'BreadcrumbList',
+            'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Contact', 'item' => $pageUrl],
+            ],
+        ],
+        [
+            '@type'      => 'ContactPage',
+            'url'        => $pageUrl,
+            'name'       => 'Contact imeihub',
+            'mainEntity' => [
+                '@type'        => 'Organization',
+                'name'         => 'imeihub',
+                'url'          => $siteUrl,
+                'contactPoint' => [
+                    '@type'             => 'ContactPoint',
+                    'email'             => 'support@imeihub.net',
+                    'contactType'       => 'customer support',
+                    'url'               => $pageUrl,
+                    'availableLanguage' => ['English'],
+                ],
+            ],
+        ],
+    ],
+];
+
+$title = 'Contact · imeihub';
+$desc  = 'Get in touch with the imeihub team at support@imeihub.net. We respond to all inquiries within two business days.';
+layout_head(
+    $title,
+    $desc,
+    '<meta property="og:title" content="' . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . '">' . "\n"
+    . '<meta property="og:description" content="' . htmlspecialchars($desc, ENT_QUOTES, 'UTF-8') . '">' . "\n"
+    . '<meta property="og:type" content="website">' . "\n"
+    . '<meta property="og:url" content="' . $pageUrl . '">' . "\n"
+    . '<meta property="og:image" content="' . $ogImage . '">' . "\n"
+    . '<script type="application/ld+json">' . "\n"
+    . json_encode($contactJsonLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
+    . "\n</script>"
+);
 ?>
     <section class="page-hero">
         <div class="container">
+            <p class="breadcrumbs"><a href="/">Home</a> &rsaquo; Contact</p>
             <h1>Contact us</h1>
             <p class="lede">
-                Bug report, feature idea, or partnership inquiry?
-                Drop us a note and we will respond within two business days.
+                Bug report, billing question, or bulk reseller inquiry?
+                Email <a href="mailto:support@imeihub.net">support@imeihub.net</a> or use the form below&mdash;we respond within two business days.
             </p>
         </div>
     </section>
