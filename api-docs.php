@@ -1,5 +1,17 @@
 <?php
 declare(strict_types=1);
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    echo "# imeihub Bulk IMEI Checks, Bot Integration & Reseller API\n\n";
+    echo "Canonical: https://imeihub.net/api-docs | Updated: 2026-11-22\n\n";
+    echo "All 44 imeihub verification services are available via Credit Wallet dashboard, Telegram/LINE shop bots, and JSON REST API starting at \$0.00 (Free TAC) and \$0.01 (Apple iCloud ON/OFF) with automatic wallet refunds on upstream errors.\n\n";
+    echo "Machine-readable service catalog: https://imeihub.net/ai/service.json\n";
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 
 $siteUrl = 'https://imeihub.net';
@@ -24,41 +36,41 @@ $faqs = [
 
 $jsonLd = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'API & Bulk Checks', 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'         => 'TechArticle',
-            'url'           => $pageUrl,
-            'headline'      => 'imeihub Bulk IMEI Checks, Bot Integration & Reseller API',
-            'description'   => 'High-speed IMEI verification workflows for phone resellers, refurbishers, and repair shops: Credit Wallet, Telegram/LINE bots, and JSON API documentation.',
-            'datePublished' => '2026-11-22',
-            'dateModified'  => $dateMod,
-            'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
-            'publisher'     => [
-                '@type' => 'Organization',
-                'name'  => 'imeihub',
-                'url'   => $siteUrl,
-                'logo'  => ['@type' => 'ImageObject', 'url' => $siteUrl . '/assets/img/logo.png', 'width' => 512, 'height' => 512],
-            ],
-        ],
-        [
-            '@type'      => 'FAQPage',
-            'mainEntity' => array_map(
-                static fn(array $item): array => [
-                    '@type'          => 'Question',
-                    'name'           => $item['q'],
-                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'API & Bulk Checks', 'item' => $pageUrl],
                 ],
-                $faqs
-            ),
-        ],
-    ],
+            ],
+            [
+                '@type'         => 'TechArticle',
+                'url'           => $pageUrl,
+                'headline'      => 'imeihub Bulk IMEI Checks, Bot Integration & Reseller API',
+                'description'   => 'High-speed IMEI verification workflows for phone resellers, refurbishers, and repair shops: Credit Wallet, Telegram/LINE bots, and JSON API documentation.',
+                'datePublished' => '2026-11-22',
+                'dateModified'  => $dateMod,
+                'inLanguage'    => 'en',
+                'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
+                'publisher'     => ['@id' => $siteUrl . '/#organization'],
+                'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $pageUrl],
+            ],
+            [
+                '@type'      => 'FAQPage',
+                'mainEntity' => array_map(
+                    static fn(array $item): array => [
+                        '@type'          => 'Question',
+                        'name'           => $item['q'],
+                        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+                    ],
+                    $faqs
+                ),
+            ],
+        ]
+    ),
 ];
 
 $title = 'Bulk IMEI Check, Bot & Reseller API · imeihub';

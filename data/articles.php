@@ -8,6 +8,83 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'best-free-imei-checker-comparison-2026',
+        'title' => 'Best Free IMEI Checkers in 2026: imeihub vs IMEI.info, iFreeiCloud, Swappa & Apple',
+        'meta_title' => 'Best Free IMEI Checkers 2026: Side-by-Side Comparison',
+        'excerpt' => 'Independent 2026 comparison of the top free IMEI and serial lookup tools—comparing TAC accuracy, CAPTCHA friction, public USD pricing, Find My iPhone (FMI), blacklist checks, and API access.',
+        'date' => '2026-11-22',
+        'tag' => 'Comparison',
+        'body' => <<<'ARTICLE_NOV22_BEST_IMEI_CHECKERS'
+A free IMEI checker decodes a phone's 15-digit International Mobile Equipment Identity using the [GSMA Type Allocation Code (TAC) registry](https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/) and validates its checksum under [ISO/IEC 7812-1](https://www.iso.org/standard/70484.html). In 2026, buyers, repair technicians, and resellers generally combine a fast free TAC lookup with targeted paid carrier, iCloud, or blacklist queries before purchasing a second-hand handset.
+
+## Top IMEI Lookup Platforms Compared (November 2026)
+
+| Platform | Free Lookup Scope | Paid Starting Rate | CAPTCHA / Access Friction | Refund Protection |
+| --- | --- | --- | --- | --- |
+| **imeihub** (`imeihub.net`) | Unlimited TAC model & specs ($0.00) | $0.01 (iCloud ON/OFF), $0.05 (Blacklist), $2.30 (Full GSX) | None on free lookup; clean SSR pages | Automatic instant wallet refund on upstream errors |
+| **Apple Check Coverage** (`checkcoverage.apple.com`) | Official warranty & AppleCare status | N/A (Apple warranty only) | Requires CAPTCHA + Apple Serial Number | Official Apple portal |
+| **Swappa ESN / IMEI** (`swappa.com`) | Basic US carrier & blacklist screening | Paid detailed tiers available | Account / web form rate limits | Marketplace-oriented |
+| **IMEI.info** | Free TAC specs (ad-supported) | Variable paid carrier/Apple tiers | Frequent WAF & CAPTCHA challenges | Manual support review |
+| **iFreeiCloud.co.uk** | Free iCloud / basic Apple lookup | Paid Client Area & DHRU API tiers | Bot/rate protections on automated requests | Account balance model |
+
+## Which Tool Fits Each Workflow Best?
+
+- **Fast Pre-Purchase Screening Without CAPTCHA:** [imeihub Free IMEI Check](/service.php?slug=free-imei-check) validates the 15-digit Luhn checksum and resolves hardware model specs immediately at $0.00, while letting buyers upgrade on the same page to [iCloud ON/OFF ($0.01)](/service.php?slug=apple-icloud-status) or [AppleCare Warranty ($0.04)](/service.php?slug=apple-warranty).
+- **Official Warranty Verification:** [Apple Check Coverage](https://checkcoverage.apple.com/) remains the canonical free source when you already hold the Apple serial number and want official AppleCare eligibility.
+- **High-Volume Repair Shops & Resellers:** Look for transparent per-lookup rates, bot/API automation, and automatic refunds on failed upstream queries—see [imeihub Bulk & API Docs](/api-docs) or embed our [Free IMEI Widget](/widget) directly on your store page.
+ARTICLE_NOV22_BEST_IMEI_CHECKERS,
+    ],
+    [
+        'slug' => 'how-to-check-stolen-blacklisted-phone-imei',
+        'title' => 'How to Check if a Phone Is Stolen or GSMA Blacklisted by IMEI (2026 Guide)',
+        'meta_title' => 'How to Check if a Phone Is Stolen or Blacklisted by IMEI',
+        'excerpt' => 'Learn how the global GSMA IMEI blacklist works, how to check if a used iPhone or Android is reported lost, stolen, or unpaid, and why clean devices can still carry financing risk.',
+        'date' => '2026-11-22',
+        'tag' => 'Blacklist',
+        'body' => <<<'ARTICLE_NOV22_BLACKLIST_GUIDE'
+A GSMA IMEI blacklist record is an international carrier registry entry that blocks a handset reported stolen, missing, or tied to an unpaid insurance or financing claim from registering on participating cellular networks. Running an IMEI blacklist lookup before paying for a second-hand iPhone or Samsung Galaxy takes seconds and prevents buying a handset that cannot make calls or use mobile data.
+
+## What Triggers an IMEI Blacklist Block?
+
+Carriers submit a device's 15-digit identifier to the [GSMA Device Registry](https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/) for three main reasons:
+
+- **Reported Stolen or Missing:** The original owner contacted their carrier to suspend service and block the hardware permanently.
+- **Insurance Replacement Claim:** An insurer replaced the device under theft or loss coverage and automatically blacklisted the original serial.
+- **Unpaid Carrier Financing (Bad ESN):** The seller defaulted on monthly carrier installments—meaning a phone that reads **Clean** today can be blocked weeks later if the balance goes unpaid.
+
+## How to Verify Clean Status in 3 Steps
+
+1. **Read the IMEI Directly From Settings:** Dial `*#06#` or open **Settings > General > About** and confirm the 15-digit number passes [ISO/IEC 7812-1 validation](https://www.iso.org/standard/70484.html) on our [Free IMEI Check](/service.php?slug=free-imei-check).
+2. **Run a Worldwide Blacklist Report:** Submit the identifier to [imeihub Worldwide Blacklist](/service.php?slug=blacklist) ($0.05 Simple / $0.10 Full Info, verified November 2026) to see global Clean vs. Blacklisted status plus reporting carrier and country where available.
+3. **Pair With iCloud & SIM-Lock Verification:** Blacklist status is separate from Apple Activation Lock—always confirm Find My is disabled per [Apple's Activation Lock guide](https://support.apple.com/en-us/108794) using our [iCloud Clean/Lost report](/service.php?slug=apple-icloud) ($0.03) and [SIM-Lock lookup](/service.php?slug=apple-sim-lock) ($0.05).
+ARTICLE_NOV22_BLACKLIST_GUIDE,
+    ],
+    [
+        'slug' => 'corporate-mdm-lock-iphone-check-guide',
+        'title' => 'How to Check iPhone MDM (Remote Management) Lock by IMEI Before Buying Used',
+        'meta_title' => 'Check iPhone MDM Remote Management Lock by IMEI (2026)',
+        'excerpt' => 'Used iPhones from corporate fleets can appear unlocked until factory reset, then lock behind Remote Management. Learn how Apple MDM works and how to verify MDM status by IMEI.',
+        'date' => '2026-11-22',
+        'tag' => 'Apple MDM',
+        'body' => <<<'ARTICLE_NOV22_MDM_GUIDE'
+Apple Mobile Device Management (MDM) is an enterprise supervision profile managed through [Apple Business Manager](https://support.apple.com/guide/apple-business-manager/welcome/web) or Apple School Manager. When a company-owned iPhone or iPad is sold without being released by its IT administrator, the handset can appear completely normal during a quick meetup—then lock behind a **Remote Management** login screen immediately after a factory reset or iOS restore.
+
+## MDM Lock vs. iCloud Activation Lock
+
+| Lock Type | Controlled By | Visible Before Factory Reset? | How to Screen Before Paying |
+| --- | --- | --- | --- |
+| **iCloud Activation Lock (FMI)** | Previous owner's personal Apple ID | Yes (in Settings > Apple ID) | [iCloud ON/OFF ($0.01)](/service.php?slug=apple-icloud-status) or [Clean/Lost ($0.03)](/service.php?slug=apple-icloud) |
+| **Corporate MDM Supervision** | Employer / school Apple Business Manager | Often hidden until wipe (or subtle "Supervised" banner in Settings) | [Apple MDM Check ($0.35)](/service.php?slug=apple-mdm) |
+| **Combined Risk (FMI + MDM)** | Both personal Apple ID and corporate fleet | May require two separate removals | [Apple MDM + FMI Bundle ($0.50)](/service.php?slug=apple-mdm) |
+
+## How to Spot and Verify MDM Before Buying
+
+1. **Inspect Settings on the Device:** Open **Settings > General > VPN & Device Management** and look for any installed management profile or a top banner stating *"This iPhone is supervised and managed by [Organization]."*
+2. **Run a Server-Side IMEI MDM Lookup:** Because temporary bypass tools can hide local Settings banners until the next wipe, run an [imeihub Apple MDM (ON/OFF) lookup](/service.php?slug=apple-mdm) ($0.35 USD as of November 2026) directly from the 15-digit IMEI or Apple serial number.
+3. **Always Wipe and Reactivate In Person:** Per [Apple's device transfer guide](https://support.apple.com/en-us/109511), erase all content and settings and walk through Wi-Fi activation before paying—if Remote Management appears, only the original organization's IT team can release the serial from Apple Business Manager.
+ARTICLE_NOV22_MDM_GUIDE,
+    ],
+    [
         'slug' => 'used-iphone-buying-checklist-2026',
         'title' => '2026 Used iPhone Buying Checklist: Check IMEI, iCloud Lock, Carrier & AppleCare',
         'meta_title' => '2026 Used iPhone Buying Checklist: Check IMEI, FMI, Carrier & Blacklist',
@@ -15,7 +92,7 @@ return [
         'date' => '2026-11-22',
         'tag' => 'Buying Guide',
         'body' => <<<'ARTICLE_NOV22_USED_IPHONE_CHECKLIST'
-Buying a second-hand iPhone can save hundreds of dollars, provided you verify the device is not **iCloud Activation Locked**, **carrier SIM-locked**, **corporate MDM-supervised**, or **GSMA blacklisted** before handing over cash. Run through this 7-step IMEI verification checklist before completing any local meetup or online marketplace purchase.
+A used iPhone pre-purchase inspection verifies seven critical hardware and registry signals—IMEI checksum validity, Find My iPhone (Activation Lock), GSMA blacklist status, carrier SIM-lock, AppleCare warranty, corporate MDM supervision, and a live factory reset—before handing over cash or completing an online order.
 
 **Quick pre-purchase verification table (pricing verified November 2026)**
 
@@ -23,7 +100,7 @@ Buying a second-hand iPhone can save hundreds of dollars, provided you verify th
 | --- | --- | --- |
 | 1. IMEI & TAC Match | Counterfeit phone or swapped logic board | [Free IMEI Check](/service.php?slug=free-imei-check) ($0.00) |
 | 2. Find My iPhone (FMI) | Bricked iPhone locked to previous Apple ID | [iCloud Clean / Lost Check](/service.php?slug=apple-icloud) ($0.03) |
-| 3. GSMA Blacklist | Reported lost, stolen, or unpaid carrier plan | [Blacklist Check](/service.php?slug=blacklist) ($0.05–$0.10) |
+| 3. GSMA Blacklist | Reported missing, stolen, or unpaid carrier plan | [Blacklist Check](/service.php?slug=blacklist) ($0.05–$0.10) |
 | 4. Carrier & SIM-Lock | Handset rejects your local SIM or eSIM | [Apple SIM-Lock Check](/service.php?slug=apple-sim-lock) ($0.05) |
 | 5. AppleCare & Warranty | Fake warranty claim or unvalidated replacement | [Apple Warranty Lookup](/service.php?slug=apple-warranty) ($0.04) |
 | 6. Corporate MDM Lock | Enterprise device that re-locks after wipe | [Apple MDM Check](/service.php?slug=apple-mdm) ($0.35) |
@@ -31,38 +108,38 @@ Buying a second-hand iPhone can save hundreds of dollars, provided you verify th
 
 ## Step 1: Confirm the 15-digit IMEI matches everywhere
 
-Dial `*#06#` on the keypad or open **Settings > General > About** and compare the 15-digit IMEI with the SIM tray and retail box. Run the number through our [Free IMEI Check](/service.php?slug=free-imei-check) to confirm ISO/IEC 7812-1 checksum validity and exact model match.
+Dial `*#06#` on the keypad or open **Settings > General > About** and compare the 15-digit identifier with the SIM tray and retail box. Validate it against [ISO/IEC 7812-1](https://www.iso.org/standard/70484.html) and the [GSMA TAC database](https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/) via our [Free IMEI Check](/service.php?slug=free-imei-check).
 
 ## Step 2: Verify Find My iPhone (FMI) / Activation Lock is OFF
 
-Never pay for a used iPhone while **Find My iPhone** is still enabled—even if the home screen is unlocked. After a factory reset or iOS update, Apple Activation Lock will require the previous owner's Apple ID. Check live status with the [iCloud ON/OFF ($0.01)](/service.php?slug=apple-icloud-status) or [iCloud Clean/Lost ($0.03)](/service.php?slug=apple-icloud) lookup.
+Never pay for a used iPhone while **Find My iPhone** is still enabled—even if the home screen is unlocked. According to [Apple Activation Lock Support](https://support.apple.com/en-us/108794), the previous owner must sign out before transfer. Verify live status with [iCloud ON/OFF ($0.01)](/service.php?slug=apple-icloud-status) or [iCloud Clean/Lost ($0.03)](/service.php?slug=apple-icloud).
 
-## Step 3: Check GSMA Blacklist & financed-device risk
+## Step 3: Screen GSMA Blacklist & financed-device risk
 
-A blacklisted IMEI cannot connect to cellular networks across participating carriers. Run a [Worldwide Blacklist Check](/service.php?slug=blacklist) before paying, and ask the seller for proof that any carrier installment plan has been paid in full.
+A blacklisted handset cannot connect to cellular networks across participating carriers. Run a [Worldwide Blacklist report](/service.php?slug=blacklist) before paying, and ask the seller for proof that any carrier installment plan has been paid in full.
 
 ## Step 4: Verify Carrier Lock shows No SIM restrictions
 
-On the iPhone, open **Settings > General > About > Carrier Lock** and verify it reads **No SIM restrictions**. When buying online before inspecting the phone in person, confirm unlock status remotely with the [Apple Carrier / SIM-Lock Check](/service.php?slug=apple-sim-lock).
+On the iPhone, open **Settings > General > About > Carrier Lock** and confirm it reads **No SIM restrictions**. When buying online before inspecting the device in person, verify unlock status remotely with our [Apple Carrier / SIM-Lock report](/service.php?slug=apple-sim-lock).
 
-## Step 5: Check AppleCare & serial number warranty coverage
+## Step 5: Verify AppleCare & serial number warranty coverage
 
-Confirm the exact model, estimated purchase date, and active AppleCare+ or Limited Warranty status via [Apple Serial & Warranty Check](/service.php?slug=apple-warranty) ($0.04 USD, no CAPTCHA).
+Confirm the exact model, estimated purchase date, and active AppleCare+ or Limited Warranty status via [Apple Serial & Warranty Lookup](/service.php?slug=apple-warranty) ($0.04 USD, no CAPTCHA) or [Apple Check Coverage](https://checkcoverage.apple.com/).
 
 ## Step 6: Screen for hidden corporate MDM profiles
 
-Discounted enterprise phones enrolled in Apple Business Manager can appear unlocked until erased, then lock behind a Remote Management screen. Run an [Apple MDM Check](/service.php?slug=apple-mdm) before finalizing higher-value purchases.
+Discounted enterprise phones enrolled in Apple Business Manager can appear unlocked until erased, then lock behind a Remote Management screen. Run an [Apple MDM lookup](/service.php?slug=apple-mdm) before finalizing higher-value purchases.
 
 ## Step 7: Factory reset and activate with your SIM in person
 
 - Ask the seller to sign out of iCloud (**Settings > [Name] > Sign Out**).
 - Erase the phone via **Settings > General > Transfer or Reset iPhone > Erase All Content and Settings**.
 - Confirm the phone reaches the standard **Hello** setup screen and activates with your own SIM/eSIM and Apple ID without any Activation Lock or Remote Management prompt.
-- Check **Battery Health**, Face ID, cameras, speakers, and True Tone display before leaving.
+- Inspect **Battery Health**, Face ID, cameras, speakers, and True Tone display before leaving.
 
 ## For mobile repair shops, resellers & tech blogs
 
-You can reference this checklist in your buyer guides, embed our [Free IMEI Checker Widget](/widget) directly on your site in 30 seconds, or automate inventory checks via our [JSON REST API](/api-docs).
+You can reference this checklist in your buyer guides, embed our [Free IMEI Checker Widget](/widget) directly on your site in 30 seconds, or automate inventory lookups via our [JSON REST API](/api-docs).
 ARTICLE_NOV22_USED_IPHONE_CHECKLIST,
     ],
     [

@@ -35,7 +35,10 @@
 
 ## Featured Guides
 
+- [Best Free IMEI Checkers in 2026](https://imeihub.net/article/best-free-imei-checker-comparison-2026): Side-by-side comparison of imeihub, IMEI.info, iFreeiCloud, Swappa, and Apple Check Coverage.
 - [2026 Used iPhone Buying Checklist](https://imeihub.net/article/used-iphone-buying-checklist-2026): Complete 7-step pre-purchase verification covering IMEI, Find My iPhone (FMI), GSMA blacklist, carrier SIM-lock, AppleCare warranty, and MDM.
+- [How to Check Stolen or GSMA Blacklisted Phones by IMEI](https://imeihub.net/article/how-to-check-stolen-blacklisted-phone-imei): How the global GSMA blacklist works and how to verify Clean vs. Blacklisted status before buying used.
+- [How to Check iPhone Corporate MDM Lock by IMEI](https://imeihub.net/article/corporate-mdm-lock-iphone-check-guide): Detect hidden Apple Business Manager Remote Management locks before factory reset.
 - [iCloud & FMI Checker Guide](https://imeihub.net/article/free-icloud-fmi-checker-guide): How to verify Find My iPhone Activation Lock (Clean vs. Lost) before buying a used Apple device.
 - [AppleCare & Serial Number Lookup Guide](https://imeihub.net/article/applecare-serial-number-warranty-lookup-guide): Check AppleCare warranty coverage, activation status, and estimated purchase date without CAPTCHA.
 - [iPhone IMEI Check: Why Does One SIM Have No Mobile Data?](https://imeihub.net/article/iphone-imei-check-one-sim-no-mobile-data): Distinguish IMEI, IMEI2, and EID and isolate Dual SIM cellular data issues.

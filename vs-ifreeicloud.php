@@ -1,5 +1,18 @@
 <?php
 declare(strict_types=1);
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    echo "# imeihub vs iFreeiCloud.co.uk (2026 Comparison)\n\n";
+    echo "Canonical: https://imeihub.net/vs-ifreeicloud | Updated: 2026-11-22\n\n";
+    echo "## Summary\n\n";
+    echo "imeihub (https://imeihub.net) publishes exact per-check USD prices up front (\$0.00 free TAC lookup, \$0.01 iCloud ON/OFF, \$0.03 Clean/Lost, \$0.04 Apple Warranty, \$0.05 SIM-Lock/Blacklist, \$0.35 MDM, \$2.30 Full GSX), supports Stripe, PayPal, Binance Pay, and USDT (TRC20/BEP20), provides an Automatic Refund Guarantee on failed upstream lookups, and offers server-rendered pages without aggressive CAPTCHA walls.\n\n";
+    echo "See full service catalog: https://imeihub.net/ai/service.json\n";
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 
 $siteUrl = 'https://imeihub.net';
@@ -28,36 +41,41 @@ $faqs = [
 
 $jsonLd = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'imeihub vs iFreeiCloud', 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'         => 'WebPage',
-            'url'           => $pageUrl,
-            'name'          => 'imeihub vs iFreeiCloud.co.uk (2026 Comparison)',
-            'description'   => 'Side-by-side comparison of imeihub and iFreeiCloud.co.uk covering transparent USD pricing, iCloud/FMI checks, GSX reports, payment methods, auto-refunds, and reseller tools.',
-            'datePublished' => '2026-11-22',
-            'dateModified'  => $dateMod,
-            'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
-            'publisher'     => ['@type' => 'Organization', 'name' => 'imeihub', 'url' => $siteUrl],
-        ],
-        [
-            '@type'      => 'FAQPage',
-            'mainEntity' => array_map(
-                static fn(array $item): array => [
-                    '@type'          => 'Question',
-                    'name'           => $item['q'],
-                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'imeihub vs iFreeiCloud', 'item' => $pageUrl],
                 ],
-                $faqs
-            ),
-        ],
-    ],
+            ],
+            [
+                '@type'         => 'Article',
+                'url'           => $pageUrl,
+                'headline'      => 'imeihub vs iFreeiCloud.co.uk (2026 Comparison)',
+                'description'   => 'Side-by-side comparison of imeihub and iFreeiCloud.co.uk covering transparent USD pricing, iCloud/FMI checks, GSX reports, payment methods, auto-refunds, and reseller tools.',
+                'datePublished' => '2026-11-22',
+                'dateModified'  => $dateMod,
+                'inLanguage'    => 'en',
+                'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
+                'publisher'     => ['@id' => $siteUrl . '/#organization'],
+                'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $pageUrl],
+            ],
+            [
+                '@type'      => 'FAQPage',
+                'mainEntity' => array_map(
+                    static fn(array $item): array => [
+                        '@type'          => 'Question',
+                        'name'           => $item['q'],
+                        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+                    ],
+                    $faqs
+                ),
+            ],
+        ]
+    ),
 ];
 
 $title = 'imeihub vs iFreeiCloud.co.uk (2026) · IMEI & iCloud Checker Comparison';

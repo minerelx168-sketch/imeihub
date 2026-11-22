@@ -1,5 +1,16 @@
 <?php
 declare(strict_types=1);
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    echo "# About imeihub\n\n";
+    echo "Canonical: https://imeihub.net/about.php | Support: support@imeihub.net\n\n";
+    echo "imeihub is a free online IMEI checker and pay-per-lookup mobile verification platform covering 44 services (TAC specs, iCloud FMI, AppleCare warranty, Carrier SIM-Lock, MDM, Full GSX, GSMA Blacklist, Samsung Knox) validated against ISO/IEC 7812-1 and GSMA TAC registries.\n";
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 
 $siteUrl = 'https://imeihub.net';
@@ -9,35 +20,28 @@ $dateMod = '2026-11-22';
 
 $jsonLd = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'About', 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'         => 'AboutPage',
-            'url'           => $pageUrl,
-            'name'          => 'About imeihub',
-            'description'   => 'About imeihub — free TAC IMEI lookup and transparent pay-per-check mobile verification with automatic refunds.',
-            'datePublished' => '2024-06-01',
-            'dateModified'  => $dateMod,
-            'mainEntity'    => [
-                '@type'        => 'Organization',
-                'name'         => 'imeihub',
-                'url'          => $siteUrl,
-                'logo'         => $siteUrl . '/assets/img/logo.png',
-                'contactPoint' => [
-                    '@type'       => 'ContactPoint',
-                    'email'       => 'support@imeihub.net',
-                    'contactType' => 'customer support',
-                    'url'         => $siteUrl . '/contact.php',
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'About', 'item' => $pageUrl],
                 ],
             ],
-        ],
-    ],
+            [
+                '@type'         => 'AboutPage',
+                'url'           => $pageUrl,
+                'name'          => 'About imeihub',
+                'description'   => 'About imeihub — free TAC IMEI lookup and transparent pay-per-check mobile verification with automatic refunds.',
+                'datePublished' => '2024-06-01',
+                'dateModified'  => $dateMod,
+                'isPartOf'      => ['@id' => $siteUrl . '/#website'],
+                'mainEntity'    => ['@id' => $siteUrl . '/#organization'],
+            ],
+        ]
+    ),
 ];
 
 $title = 'About · imeihub';

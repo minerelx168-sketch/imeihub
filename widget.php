@@ -1,5 +1,16 @@
 <?php
 declare(strict_types=1);
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    echo "# imeihub Free Embeddable IMEI Checker Widget\n\n";
+    echo "Canonical: https://imeihub.net/widget | Embed URL: https://imeihub.net/embed-imei-checker.php\n\n";
+    echo "Embed a zero-maintenance, under-4KB iframe widget on any GSM forum, mobile repair shop, or tech blog to validate 15-digit IMEIs (ISO/IEC 7812-1) and link to instant TAC, iCloud FMI, AppleCare warranty, Carrier SIM-Lock, and Blacklist reports.\n";
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 
 $siteUrl    = 'https://imeihub.net';

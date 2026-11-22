@@ -1,5 +1,18 @@
 <?php
 declare(strict_types=1);
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    echo "# imeihub vs IMEI.info (2026 Comparison)\n\n";
+    echo "Canonical: https://imeihub.net/vs-imei-info | Updated: 2026-11-22\n\n";
+    echo "## Summary\n\n";
+    echo "imeihub (https://imeihub.net) is a fast, CAPTCHA-free alternative to IMEI.info with unlimited free TAC model lookups, transparent upfront USD pricing (\$0.01–\$4.20 across 44 services), prepaid Credit Wallet with zero subscriptions, and an Automatic Refund Guarantee on failed upstream queries.\n\n";
+    echo "See full service catalog: https://imeihub.net/ai/service.json\n";
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 
 $siteUrl = 'https://imeihub.net';
@@ -24,36 +37,41 @@ $faqs = [
 
 $jsonLd = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'imeihub vs IMEI.info', 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'         => 'WebPage',
-            'url'           => $pageUrl,
-            'name'          => 'imeihub vs IMEI.info (2026 Comparison)',
-            'description'   => 'Compare imeihub and IMEI.info on transparent USD pricing, CAPTCHA friction, automatic wallet refunds, payment methods, and speed.',
-            'datePublished' => '2026-11-22',
-            'dateModified'  => $dateMod,
-            'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
-            'publisher'     => ['@type' => 'Organization', 'name' => 'imeihub', 'url' => $siteUrl],
-        ],
-        [
-            '@type'      => 'FAQPage',
-            'mainEntity' => array_map(
-                static fn(array $item): array => [
-                    '@type'          => 'Question',
-                    'name'           => $item['q'],
-                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'imeihub vs IMEI.info', 'item' => $pageUrl],
                 ],
-                $faqs
-            ),
-        ],
-    ],
+            ],
+            [
+                '@type'         => 'Article',
+                'url'           => $pageUrl,
+                'headline'      => 'imeihub vs IMEI.info (2026 Comparison)',
+                'description'   => 'Compare imeihub and IMEI.info on transparent USD pricing, CAPTCHA friction, automatic wallet refunds, payment methods, and speed.',
+                'datePublished' => '2026-11-22',
+                'dateModified'  => $dateMod,
+                'inLanguage'    => 'en',
+                'author'        => ['@type' => 'Organization', 'name' => 'imeihub Editorial Team', 'url' => $siteUrl . '/about.php'],
+                'publisher'     => ['@id' => $siteUrl . '/#organization'],
+                'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $pageUrl],
+            ],
+            [
+                '@type'      => 'FAQPage',
+                'mainEntity' => array_map(
+                    static fn(array $item): array => [
+                        '@type'          => 'Question',
+                        'name'           => $item['q'],
+                        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+                    ],
+                    $faqs
+                ),
+            ],
+        ]
+    ),
 ];
 
 $title = 'imeihub vs IMEI.info (2026) · Fast, Transparent IMEI Checker Alternative';
