@@ -8,6 +8,197 @@ declare(strict_types=1);
 
 return [
     [
+        'slug'    => 'pta-tax-iphone-15-16-pakistan',
+        'title'   => 'PTA Tax on iPhone 15 & 16 in Pakistan (2026 Guide)',
+        'meta_title' => 'PTA Tax on iPhone 15 & iPhone 16 (2026): Passport vs CNIC Guide',
+        'excerpt' => 'What PTA tax on an iPhone 15 or 16 really costs in 2026: FBR values, passport vs CNIC, used-phone rulings, eSIM IMEIs and how to get your exact PSID.',
+        'date'    => '2026-11-22',
+        'tag'     => 'Guide',
+        'body'    => <<<'ARTICLE_NOV22_PK'
+## PTA Tax on iPhone 15 and iPhone 16: The Real Number
+
+Before anyone in Pakistan buys an iPhone 15 or iPhone 16 from Dubai, from a cousin in London, or from a non-PTA dealer at Hafeez Centre, Saddar or Blue Area, they ask the same thing: **how much PTA tax will I pay on it?**
+
+Most websites answer with one confident rupee figure. For the same phone, those figures are often **Rs 30,000 to Rs 60,000 apart**. This guide explains why. It shows how the tax on an iPhone 15 or 16 is actually worked out in 2026, which official values it is based on, how your choice between passport and CNIC changes the bill, and how to get the exact amount from **PTA DIRBS** before you pay anyone.
+
+**Key takeaways**
+
+- The **only binding figure** is the **PSID** that DIRBS generates for your IMEI, ID document and date. Every calculator, including dealer quotes, is an estimate.
+- Tax is based on the **FBR customs value in US dollars** for the model and storage, not on what you paid. For new iPhone 16 units, FBR **Valuation Ruling 1999/2025** applies. For example, it values the **iPhone 16 Pro Max 256GB at $1,070**.
+- **Used iPhone 15** units brought in commercially are valued under **used-phone rulings**. These were cut in January 2026 (Ruling 2035/2026) and raised again in April 2026 (Ruling 2076/2026). The used iPhone 15 Pro Max went from **$460 to $505**.
+- **Duties were reduced from 1 July 2026** for FY2026-27. On phones valued above $500, regulatory duty was cut from **Rs 22,000 to Rs 17,600**. Many online tables still use the old rates.
+- **Passport registration is cheaper than CNIC**, often by 15–25%. You only get the passport rate if you register within **60 days of arriving** in Pakistan.
+- **Register both IMEIs.** Every iPhone 15 and 16 has two IMEIs: one for the physical SIM and one for the eSIM. US models have **no SIM tray at all**.
+- Paying PTA tax **does not** prove a phone is clean. Check for **theft reports, iCloud lock and carrier lock** before you pay for the phone.
+
+## Step 1: Identify Exactly Which iPhone You Have
+
+The tax depends on the exact model and storage, so start with facts you have checked yourself, not the seller's description.
+
+- Dial **`*#06#`** on the phone. You will see **IMEI** (physical SIM) and **IMEI2** (eSIM). Write down both.
+- Go to **Settings > General > About** and note the **Model Name**, **Capacity** and **Model Number**. Tap the model number to see the **A-number** (for example A3084). The A-number shows which regional variant you have.
+- Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm that the IMEI really belongs to the model and storage being sold. A "256GB" phone that comes back as 128GB is taxed and priced differently, and it tells you the seller is not being honest.
+
+**Why the region matters:** US iPhone 15 and iPhone 16 units are **eSIM-only**. They have no physical SIM tray. You can only use them in Pakistan with an operator that supports eSIM. Even then, the eSIM IMEI still has to be registered with DIRBS. Units from the UAE, UK and Hong Kong usually have a physical tray plus eSIM. Some Hong Kong and mainland China models take **two physical SIMs**.
+
+## Step 2: Understand How the Tax Is Built
+
+People call it "PTA tax", but PTA does not set the rate. PTA runs the **DIRBS** registration system. The amount itself is a set of federal charges collected through it:
+
+| Component | How it is charged | What it means for an iPhone 15/16 |
+|---|---|---|
+| **Regulatory Duty (RD)** | Fixed rupee amount per phone, set by value band | Flagships are in the top band (above $500). Since 1 July 2026 the reported amount is **Rs 17,600** |
+| **Additional Customs Duty (ACD)** | Percentage of value | Reported cut from **6% to 4%** for FY2026-27 |
+| **Sales Tax** | Percentage of the assessed value | The biggest part of the bill for flagships. It goes up with the dollar value |
+| **Mobile Handset Levy** | Fixed amount per phone, set by value band | Highest for phones valued above $700 |
+| **Withholding / Advance Income Tax** | Fixed amount per phone, set by value band | Higher on CNIC than on passport |
+
+All of these are based on the **FBR customs value in US dollars**, converted at the exchange rate on the day the PSID is generated. That has two effects:
+
+1. **Two people with the same iPhone can pay different amounts** if they register on different dates, because the rupee rate changes.
+2. **Storage matters more than most buyers expect.** The 512GB and 1TB versions have higher FBR values, so the percentage-based charges are higher too.
+
+## Step 3: Check the FBR Values for Your Model
+
+### New iPhone 16 series (Valuation Ruling 1999/2025)
+
+FBR's April 2025 ruling replaced the December 2023 iPhone values and added the full iPhone 16 lineup. Widely reported values for the top model are:
+
+| iPhone 16 Pro Max storage | FBR customs value |
+|---|---|
+| 256GB | **$1,070** |
+| 512GB | **$1,278** |
+| 1TB | **$1,469** |
+
+The iPhone 16, 16 Plus, 16 Pro and 16e have their own lower values in the same ruling. Every iPhone 16 Pro and Pro Max is well above $700, so they are all in the **top band** for every fixed charge. On the base iPhone 16 and the 16e, the percentage-based charges are where you save money.
+
+### iPhone 15 series: new vs used
+
+This is where most calculators go wrong. The iPhone 15 can be assessed in two different ways:
+
+- **A new, boxed iPhone 15** is assessed on the new-phone values.
+- **A used iPhone 15** imported commercially, **without box or accessories**, is assessed on FBR's **used-phone valuation ruling**. That ruling sets one value for each model **whatever its condition or grade**.
+
+The used-phone values changed twice in 2026:
+
+| Ruling | When | Effect on used iPhones | Used iPhone 15 Pro Max value |
+|---|---|---|---|
+| **2035/2026** | January 2026 | Values for used iPhones cut by about **32–81%** | **$460** |
+| **2076/2026** | April 2026, after a challenge under Section 25D of the Customs Act | Values for **62 models** raised, by up to **175%** for some | **$505** |
+
+The April ruling only lists iPhones **up to the iPhone 15 series**. **There is no used-phone value for the iPhone 16**, so Customs sets the value for a used iPhone 16 case by case. This is one reason why quotes for a used iPhone 16 vary so much.
+
+**What this means for you:** If you are buying a non-PTA iPhone 15 from a dealer, ask whether the price you are quoted assumes the **new-phone** or the **used-phone** value. On a 15 Pro Max, that difference alone can be tens of thousands of rupees.
+
+## Step 4: Passport or CNIC
+
+| | Passport route | CNIC route |
+|---|---|---|
+| **Who can use it** | A traveller who brought the iPhone in their own baggage | Anyone, including people who bought the phone locally from a non-PTA seller |
+| **Time limit** | Within **60 days of arrival** (checked against FIA travel records) | No arrival window |
+| **Relative cost** | **Lower**, typically 15–25% below CNIC | **Higher**, mostly because of the withholding/income-tax part |
+| **Best for** | Overseas Pakistanis and travellers buying in the Gulf, UK or US | Buyers of non-PTA phones already in Pakistan |
+
+Two practical tips:
+
+- **Do not miss the 60 days.** They start on the day you **land**, not the day you put in a SIM. If you miss the window and register later on your CNIC, you pay the higher rate for the same phone.
+- **Registration limits apply to each CNIC.** Several sources report a cap of **5 devices per CNIC per calendar year** across all registration routes. If family members ask you to register their phones too, you may hit that limit.
+
+## Indicative Ranges: What Buyers Are Seeing in Late 2026
+
+The table below shows the **range of third-party estimates** published after the July 2026 changes. **These are not official rates.** They are here so you can tell a reasonable dealer quote from an inflated one.
+
+| Model | Passport (indicative) | CNIC (indicative) | Notes |
+|---|---|---|---|
+| **iPhone 15** (new) | ~Rs 92,000 – 111,000 | ~Rs 110,000 – 135,000 | Lower values in the range reflect the July 2026 cuts |
+| **iPhone 15 Pro Max** (used, commercial import) | Depends on the used-phone value ($505) | Depends on the used-phone value ($505) | Much lower than a new-unit assessment |
+| **iPhone 16** | ~Rs 90,000 – 120,000 | ~Rs 107,000 – 145,000 | Wide spread between calculators |
+| **iPhone 16 Pro Max 256GB** | ~Rs 108,000 – 155,000 | ~Rs 131,000 – 183,000 | Top band for every fixed charge; FBR value $1,070 |
+
+**How to use this table:** If a dealer quotes you well above the top of a range, ask for the **PSID** before you agree to anything. If a quote is far below the bottom, the phone may be assessed as used, may already be "registered" on someone else's CNIC, or may be patched. All three cause problems later.
+
+## Step 5: Get Your Exact Amount From DIRBS
+
+1. **Check the current status first.** Text the IMEI to **8484**, or dial **`*8484#`**. Check **both IMEIs**.
+2. **Start registration** by dialling **`*8484#`** or on the official portal, **dirbs.pta.gov.pk**. Choose the passport or CNIC route and enter your travel details if needed.
+3. **Enter IMEI and IMEI2.** On an iPhone 15 or 16, the eSIM IMEI counts as well. If you only register one, the phone may lose service when you switch lines.
+4. **Generate the PSID.** It shows your **exact** amount in rupees. This is the number to budget for.
+5. **Pay the PSID** through internet banking, a mobile wallet, an ATM or a bank branch. The Finance Act 2026 reportedly lets you pay the sales tax part in **instalments through DIRBS**. Ask about it if the bill on a Pro Max is high.
+6. **Check again.** Text the IMEI to 8484 and make sure the status shows **compliant**. Keep the receipt.
+
+Only **dirbs.pta.gov.pk**, the official PTA apps and 8484 are official channels. Never give your CNIC number to a calculator website or a WhatsApp "agent".
+
+## Non-PTA, Patched and "Already Registered" iPhones
+
+Pakistan's second-hand market has its own vocabulary, and each term carries a different risk:
+
+| Term | What it usually means | Risk |
+|---|---|---|
+| **Non-PTA / FU** | Imported, never registered. Works on Wi-Fi only | Low if you are ready to pay the tax. Check status and theft history first |
+| **PTA Approved** | Registered on DIRBS | Low, **as long as** the IMEI on `*#06#` matches the registered IMEI |
+| **JV / Patched** | Unregistered phone running on a hidden software or SIM workaround | High. Patches stop working after iOS updates, and PTA blocks them regularly |
+| **"Registered on CNIC"** (someone else's) | Tax paid on another person's ID | Medium to high. The registration is tied to a stranger's identity |
+| **Box-pack / sealed** | New, unopened | Check the IMEI on the box against `*#06#` after you open it |
+
+Never buy an iPhone that shows **Invalid IMEI** on 8484. On a genuine iPhone, that almost always means the phone has a fake or altered identity. You cannot fix that by paying tax.
+
+## What PTA Tax Doesn't Tell You: Theft, iCloud and Carrier Locks
+
+DIRBS answers one question: **has this phone's tax been paid?** It does not show whether the iPhone was **stolen abroad**, still has its owner's **Activation Lock**, or is **locked to a US carrier**. Many non-PTA iPhones in Pakistan are "UK-used" or "US-used". These are the checks that protect your money:
+
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): shows whether the IMEI has been reported lost or stolen in the US, UK, UAE or elsewhere. A phone blacklisted abroad can still pass DIRBS, but nobody legitimate will buy it from you later.
+- [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud): makes sure **Find My / Activation Lock** is off. An iCloud-locked iPhone becomes useless after a reset, whether or not its tax is paid.
+- [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock): makes sure a US or UK unit is **unlocked**. If you pay PTA tax on a carrier-locked iPhone, you have paid for a phone that cannot use Jazz, Zong, Telenor or Ufone SIMs.
+- [Apple Warranty Check](https://imeihub.net/service.php?slug=apple-warranty): confirms the purchase date and warranty status, and helps spot replacement units sold as new.
+
+**Order matters:** run these checks **before** you pay the seller, and **before** you generate a PSID. Tax paid on a stolen or locked phone is very hard to get back.
+
+## Is Paying PTA Tax on an iPhone 15 or 16 Worth It?
+
+A quick way to decide:
+
+- **Add up the total cost:** non-PTA price + your **PSID amount** (not a calculator estimate).
+- **Compare it** with the PTA-approved price for the same model and storage at an authorised retailer or a reputable seller.
+- **Take resale value into account.** PTA-approved iPhones sell faster and for more. A non-PTA phone is only worth it if you pay the tax.
+- **If you are travelling,** buying abroad and registering on your passport within 60 days usually costs the least. It works best on base and Pro models.
+
+If the non-PTA price plus tax comes within a few thousand rupees of a PTA-approved phone, buy the approved one. You avoid the registration process, a local warranty is easier to claim, and you know who you bought it from.
+
+## Frequently Asked Questions
+
+**How much is PTA tax on the iPhone 16 Pro Max?**
+For the 256GB model (FBR value $1,070), published estimates after July 2026 run from about Rs 108,000 to Rs 155,000 on passport and about Rs 131,000 to Rs 183,000 on CNIC. The 512GB and 1TB versions cost more. Your exact figure is on the PSID that DIRBS generates.
+
+**Why do PTA tax calculators give different answers for the iPhone 15?**
+They use different assumptions: old vs post-July 2026 rates, new vs used values, and different exchange rates. The used iPhone 15 value changed twice in 2026 (Rulings 2035 and 2076), and many sites never updated.
+
+**Do I need to register both IMEIs on my iPhone?**
+Yes. Every iPhone 15 and 16 has IMEI and IMEI2, the second one for eSIM. Register both so the phone keeps working whichever line you use.
+
+**Can I register a US eSIM-only iPhone 16 in Pakistan?**
+Yes. Registration is done by IMEI, so having no SIM tray doesn't matter. To use the phone on a network, though, you need an operator that offers eSIM. Make sure the phone is **carrier-unlocked** before you buy or pay tax.
+
+**Is the passport rate available if I've been back for three months?**
+Generally, no. The passport route depends on registering within 60 days of arrival. After that, you will normally have to register on CNIC at the higher rate.
+
+**Does PTA approval mean the iPhone isn't stolen?**
+No. DIRBS checks tax and type-approval status only. Use a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) and an [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) to check theft reports and Activation Lock.
+
+## Before You Pay, Check
+
+1. `*#06#`: write down **IMEI and IMEI2**
+2. [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the model and storage
+3. [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): check for theft reports from other countries
+4. [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud) and [SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock): make sure there is no Activation Lock or carrier lock
+5. Text the IMEI to **8484**, then generate your **PSID** on DIRBS for the exact tax
+
+Five minutes of checks can save you a phone that costs more than Rs 300,000, plus the tax on it.
+
+*Tax rates and FBR values change. Figures in this guide reflect reported FBR rulings and the FY2026-27 budget changes as of November 2026. Always use the amount shown on your DIRBS PSID.*
+ARTICLE_NOV22_PK,
+    ],
+
+    [
         'slug'    => 'check-blacklisted-phone-nigeria-lagos-abuja',
         'title'   => 'Check Blacklisted Phone Nigeria: Lagos & Abuja Guide',
         'meta_title' => 'Check Blacklisted Phone Nigeria (2026): Stolen IMEI Guide',
