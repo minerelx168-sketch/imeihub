@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 return [
     [
-        'quote'   => 'Switched from another provider last month. The credit wallet, auto-refund on failed lookups, and Telegram bot together saved me hours of admin every week.',
+        'quote'   => 'Switched from another provider in October 2026. The credit wallet, auto-refund on failed lookups, and Telegram bot together saved me hours of admin every week.',
         'name'    => 'Marco R.',
         'role'    => 'Refurbishing Shop Owner',
         'country' => 'Milan, Italy',

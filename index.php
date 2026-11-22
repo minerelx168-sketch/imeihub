@@ -1,5 +1,15 @@
 <?php
 declare(strict_types=1);
+// AI Content Negotiation: serve clean Markdown summary when AI agents request Accept: text/markdown
+if (stripos((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/markdown') !== false && is_file(__DIR__ . '/llms.txt')) {
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept');
+    readfile(__DIR__ . '/llms.txt');
+    return;
+}
+if (!headers_sent()) {
+    header('Vary: Accept');
+}
 require __DIR__ . '/includes/layout.php';
 require_once __DIR__ . '/includes/icons.php';
 require_once __DIR__ . '/includes/db.php';
@@ -118,45 +128,13 @@ $homeDesc  = 'Free IMEI checker by imeihub. Pick a check, paste any 15-digit IME
 $homeTitle = $brandName . ' · Free IMEI Check & Phone Info Lookup';
 $ogImage   = $siteUrl . '/assets/img/og-image.png';
 
-// TODO: Verify/replace sameAs social profile URLs with official live accounts when ready.
 $jsonLdGraph = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'        => 'Organization',
-            '@id'          => $siteUrl . '/#organization',
-            'name'         => $brandName,
-            'url'          => $siteUrl,
-            'logo'         => [
-                '@type'  => 'ImageObject',
-                'url'    => $siteUrl . '/assets/img/logo.png',
-                'width'  => 512,
-                'height' => 512,
-            ],
-            'contactPoint' => [
-                '@type'             => 'ContactPoint',
-                'email'             => 'support@imeihub.net',
-                'contactType'       => 'customer support',
-                'url'               => $siteUrl . '/contact.php',
-                'availableLanguage' => ['English'],
-            ],
-            'sameAs'       => [
-                'https://www.trustpilot.com/review/imeihub.net',
-                'https://www.linkedin.com/company/imeihub',
-                'https://x.com/imeihub',
-            ],
-        ],
-        [
-            '@type'       => 'WebSite',
-            '@id'         => $siteUrl . '/#website',
-            'name'        => $brandName,
-            'url'         => $siteUrl . '/',
-            'description' => $homeDesc,
-            'inLanguage'  => 'en',
-            'publisher'   => ['@id' => $siteUrl . '/#organization'],
-        ],
-        [
-            '@type'               => 'WebApplication',
+            [
+                '@type'               => 'WebApplication',
             '@id'                 => $siteUrl . '/#webapp',
             'name'                => $brandName,
             'alternateName'       => 'imeihub Free IMEI Check & Phone Info Lookup',
@@ -210,7 +188,7 @@ $jsonLdGraph = [
                 $homeFaqs
             ),
         ],
-    ],
+    ]),
 ];
 
 $jsonLdScript = '<script type="application/ld+json">' . "\n"
@@ -242,11 +220,13 @@ layout_head(
             <p class="hero-eyebrow">imeihub &middot; Free phone information lookup</p>
             <h1>Identify any mobile phone <br>by its IMEI number</h1>
             <p class="lede">
-                Pick a check, paste a 15-digit IMEI, and we'll run it instantly.
-                Free brand &amp; model lookup &mdash; premium reports for signed-in customers.
+                IMEIHub is an instant online device verification and Apple serial lookup platform.
+                Pick a report, paste any 15-digit handset identifier, and retrieve TAC brand &amp; model specs at no charge &mdash; plus pay-per-lookup iCloud FMI, carrier lock, MDM, warranty, and GSMA blacklist status.
             </p>
 
-            <form id="imei-form" class="hero-lookup" autocomplete="off" novalidate>
+            <form id="imei-form" class="hero-lookup" autocomplete="off" novalidate
+                  toolname="check_imei"
+                  tooldescription="Validate a 15-digit IMEI or Apple serial number and retrieve device model, iCloud FMI, carrier SIM-lock, AppleCare warranty, MDM, or GSMA blacklist status.">
                 <label for="imei" class="hero-field">
                     <span class="hero-field-icon"><?= icon('phone', 18) ?></span>
                     <input

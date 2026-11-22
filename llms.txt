@@ -9,6 +9,7 @@
 - [Supported Brands Directory](https://imeihub.net/brands.php): Manufacturer lookup pages covering Apple, Samsung, Xiaomi, Huawei, Honor, Google Pixel, Motorola, Lenovo, OPPO, vivo, realme, OnePlus, Nokia, and Sony.
 - [IMEI Guides & Knowledge Base](https://imeihub.net/articles.php): 135+ troubleshooting and verification guides covering Dual SIM IMEIs, carrier locks, blacklist checks, AppleCare coverage, and device diagnostics.
 - [Bulk Checks, Bots & Reseller API](https://imeihub.net/api-docs): Prepaid Credit Wallet, Telegram & LINE shop bots, and JSON API onboarding for phone resellers and repair shops.
+- [Free Embeddable IMEI Widget](https://imeihub.net/widget): Lightweight, zero-maintenance iframe IMEI & Apple serial checker widget for GSM forums, repair shops, and tech blogs.
 - [imeihub vs iFreeiCloud.co.uk](https://imeihub.net/vs-ifreeicloud): Side-by-side comparison of public USD pricing, iCloud/FMI checks, auto-refunds, and payment options.
 - [imeihub vs IMEI.info](https://imeihub.net/vs-imei-info): Comparison covering CAPTCHA-free SSR access, transparent pricing, and Credit Wallet refunds.
 
@@ -34,6 +35,9 @@
 
 ## Featured Guides
 
+- [2026 Used iPhone Buying Checklist](https://imeihub.net/article/used-iphone-buying-checklist-2026): Complete 7-step pre-purchase verification covering IMEI, Find My iPhone (FMI), GSMA blacklist, carrier SIM-lock, AppleCare warranty, and MDM.
+- [iCloud & FMI Checker Guide](https://imeihub.net/article/free-icloud-fmi-checker-guide): How to verify Find My iPhone Activation Lock (Clean vs. Lost) before buying a used Apple device.
+- [AppleCare & Serial Number Lookup Guide](https://imeihub.net/article/applecare-serial-number-warranty-lookup-guide): Check AppleCare warranty coverage, activation status, and estimated purchase date without CAPTCHA.
 - [iPhone IMEI Check: Why Does One SIM Have No Mobile Data?](https://imeihub.net/article/iphone-imei-check-one-sim-no-mobile-data): Distinguish IMEI, IMEI2, and EID and isolate Dual SIM cellular data issues.
 - [Does "Scam Likely" Mean I Have a Blacklisted iPhone?](https://imeihub.net/article/blacklisted-iphone-scam-likely-caller-id): Clarify carrier caller-ID labels versus GSMA IMEI blacklist status.
 - [iPhone Serial Number Check: Where Is My AppleCare Proof of Coverage?](https://imeihub.net/article/iphone-serial-number-check-applecare-proof-of-coverage): How to verify AppleCare warranty coverage using serial and IMEI numbers.

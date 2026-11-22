@@ -53,11 +53,12 @@ return [
         'code'        => 'APPLE_ICLOUD_CLEAN',
         'name'        => 'iCloud Activation Lock (Clean / Lost)',
         'icon'        => 'cloud',
-        'tagline'     => 'Find My iPhone status: Clean or Lost.',
+        'tagline'     => 'Verify Find My iPhone status: Clean vs. Missing or Erased.',
         'description' =>
-            'Returns the iCloud activation-lock status (Clean / Lost) as '
-            . 'reported by Apple. A device flagged Lost has been reported '
-            . 'missing and cannot be re-activated without the original Apple ID.',
+            'Returns the live Apple Find My iPhone activation-lock status so buyers '
+            . 'can distinguish a Clean handset from one reported missing or erased. '
+            . 'A flagged device cannot be reactivated without the previous owner\'s '
+            . 'original Apple ID credentials.',
         'free'        => false,
     ],
     [

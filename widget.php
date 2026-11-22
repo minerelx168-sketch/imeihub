@@ -11,50 +11,53 @@ $dateMod    = '2026-11-22';
 
 $faqs = [
     [
-        'q' => 'Is the imeihub embeddable IMEI Checker Widget free to use?',
-        'a' => 'Yes. The widget is 100% free for mobile repair shops, GSM forums, phone resellers, and tech blogs with zero maintenance and no API key required.',
+        'q' => 'Does the imeihub embeddable IMEI Checker Widget cost anything?',
+        'a' => 'No. The embeddable lookup box is 100% complimentary ($0.00) for mobile repair shops, GSM forums, phone resellers, and tech blogs with zero maintenance and no API key required.',
     ],
     [
-        'q' => 'What checks can visitors launch from the embedded widget?',
-        'a' => 'Visitors can validate any 15-digit IMEI (ISO/IEC 7812-1 Luhn check) or Apple Serial Number and jump directly to Free TAC Lookup ($0.00), iCloud / FMI Status ($0.01–$0.03), AppleCare Warranty ($0.04), Carrier SIM-Lock ($0.05), or Worldwide Blacklist ($0.05–$0.10).',
+        'q' => 'Which verification reports can visitors launch from the embedded widget?',
+        'a' => 'Visitors can validate any 15-digit handset identifier (ISO/IEC 7812-1 Luhn check) or Apple Serial Number and jump directly to TAC Model Lookup ($0.00), iCloud / FMI Status ($0.01–$0.03), AppleCare Warranty ($0.04), Carrier SIM-Lock ($0.05), or Worldwide Blacklist ($0.05–$0.10).',
     ],
     [
-        'q' => 'Does the widget slow down my website?',
-        'a' => 'No. The embed loads asynchronously via a lazy-loaded iframe under 4 KB with zero external JavaScript frameworks.',
+        'q' => 'Does embedding the widget slow down my website?',
+        'a' => 'No. The iframe loads asynchronously with native lazy loading under 4 KB and zero external JavaScript dependencies.',
     ],
 ];
 
 $jsonLd = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Free IMEI Widget', 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'               => 'SoftwareApplication',
-            'name'                => 'imeihub Free Embeddable IMEI Checker Widget',
-            'applicationCategory' => 'UtilitiesApplication',
-            'operatingSystem'     => 'Web',
-            'url'                 => $pageUrl,
-            'offers'              => ['@type' => 'Offer', 'price' => '0.00', 'priceCurrency' => 'USD'],
-            'publisher'           => ['@type' => 'Organization', 'name' => 'imeihub', 'url' => $siteUrl],
-        ],
-        [
-            '@type'      => 'FAQPage',
-            'mainEntity' => array_map(
-                static fn(array $item): array => [
-                    '@type'          => 'Question',
-                    'name'           => $item['q'],
-                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'Free IMEI Widget', 'item' => $pageUrl],
                 ],
-                $faqs
-            ),
-        ],
-    ],
+            ],
+            [
+                '@type'               => 'SoftwareApplication',
+                'name'                => 'imeihub Free Embeddable IMEI Checker Widget',
+                'applicationCategory' => 'UtilitiesApplication',
+                'operatingSystem'     => 'Web',
+                'url'                 => $pageUrl,
+                'offers'              => ['@type' => 'Offer', 'price' => '0.00', 'priceCurrency' => 'USD'],
+                'publisher'           => ['@id' => $siteUrl . '/#organization'],
+            ],
+            [
+                '@type'      => 'FAQPage',
+                'mainEntity' => array_map(
+                    static fn(array $item): array => [
+                        '@type'          => 'Question',
+                        'name'           => $item['q'],
+                        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+                    ],
+                    $faqs
+                ),
+            ],
+        ]
+    ),
 ];
 
 $title = 'Free Embeddable IMEI Checker Widget · imeihub';
@@ -135,8 +138,9 @@ layout_head(
             </p>
 
             <div class="geo-citations" style="margin-top:24px">
-                <strong>Need full JSON API integration instead?</strong>
-                See our <a href="/api-docs">API &amp; Bulk Checks Documentation</a> or email <a href="mailto:support@imeihub.net">support@imeihub.net</a> for free partner test credits.
+                <strong>Standards &amp; developer API:</strong>
+                All 15-digit identifiers are validated against <a href="https://www.iso.org/standard/70484.html" target="_blank" rel="noopener noreferrer">ISO/IEC 7812-1</a> and decoded with the <a href="https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/" target="_blank" rel="noopener noreferrer">GSMA TAC database</a>.
+                Need JSON responses instead? Explore our <a href="/api-docs">API &amp; Bulk Lookup Docs</a> or email <a href="mailto:support@imeihub.net">support@imeihub.net</a> for partner sandbox credits.
             </div>
         </div>
     </section>

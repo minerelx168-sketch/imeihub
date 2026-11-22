@@ -9,6 +9,62 @@ declare(strict_types=1);
  *   layout_foot();
  */
 
+/**
+ * Shared Organization + WebSite (with SearchAction) JSON-LD nodes so every page
+ * (homepage, service pages, articles, widget) emits consistent Brand Entity signals.
+ *
+ * @return array<int, array<string, mixed>>
+ */
+function layout_entity_nodes(string $siteUrl = 'https://imeihub.net'): array
+{
+    $siteUrl = rtrim($siteUrl, '/');
+    return [
+        [
+            '@type'        => 'Organization',
+            '@id'          => $siteUrl . '/#organization',
+            'name'         => 'imeihub',
+            'url'          => $siteUrl,
+            'logo'         => [
+                '@type'  => 'ImageObject',
+                'url'    => $siteUrl . '/assets/img/logo.png',
+                'width'  => 512,
+                'height' => 512,
+            ],
+            'contactPoint' => [
+                '@type'             => 'ContactPoint',
+                'email'             => 'support@imeihub.net',
+                'contactType'       => 'customer support',
+                'url'               => $siteUrl . '/contact.php',
+                'availableLanguage' => ['English', 'Thai'],
+            ],
+            'sameAs'       => [
+                'https://github.com/minerelx168-sketch/imeihub',
+                'https://www.trustpilot.com/review/imeihub.net',
+                'https://www.linkedin.com/company/imeihub',
+                'https://www.crunchbase.com/organization/imeihub',
+                'https://x.com/imeihub',
+            ],
+        ],
+        [
+            '@type'           => 'WebSite',
+            '@id'             => $siteUrl . '/#website',
+            'name'            => 'imeihub',
+            'url'             => $siteUrl . '/',
+            'description'     => 'Free IMEI checker by imeihub. Validate any 15-digit IMEI or Apple serial number for brand, model, iCloud FMI, carrier lock, MDM, warranty, and GSMA blacklist status.',
+            'inLanguage'      => 'en',
+            'publisher'       => ['@id' => $siteUrl . '/#organization'],
+            'potentialAction' => [
+                '@type'       => 'SearchAction',
+                'target'      => [
+                    '@type'       => 'EntryPoint',
+                    'urlTemplate' => $siteUrl . '/service.php?slug=free-imei-check&imei={search_term_string}',
+                ],
+                'query-input' => 'required name=search_term_string',
+            ],
+        ],
+    ];
+}
+
 function layout_head(string $title, string $description = '', string $extraHead = ''): void
 {
     // SEO: Set cache-control to allow Google to cache public pages

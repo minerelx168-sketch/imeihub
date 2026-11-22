@@ -86,57 +86,57 @@ $serviceFaqs = [
 
 $jsonLdGraph = [
     '@context' => 'https://schema.org',
-    '@graph'   => [
+    '@graph'   => array_merge(
+        layout_entity_nodes($siteUrl),
         [
-            '@type'           => 'BreadcrumbList',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Services', 'item' => $siteUrl . '/services.php'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => $plainName, 'item' => $pageUrl],
-            ],
-        ],
-        [
-            '@type'       => 'Service',
-            '@id'         => $pageUrl . '#service',
-            'name'        => $plainName,
-            'description' => strip_tags((string) $service['description']),
-            'url'         => $pageUrl,
-            'serviceType' => 'IMEI Verification & Mobile Device Lookup',
-            'provider'    => [
-                '@type' => 'Organization',
-                'name'  => 'imeihub',
-                'url'   => $siteUrl,
-            ],
-            'offers'      => [
-                '@type'         => 'Offer',
-                'price'         => number_format((float) $priceUsd, 2, '.', ''),
-                'priceCurrency' => 'USD',
-                'availability'  => 'https://schema.org/InStock',
-                'url'           => $pageUrl,
-            ],
-        ],
-        [
-            '@type'         => 'WebPage',
-            'url'           => $pageUrl,
-            'name'          => $plainName . ' · imeihub',
-            'description'   => strip_tags((string) $service['tagline']),
-            'datePublished' => '2024-06-01',
-            'dateModified'  => $dateMod,
-            'author'        => ['@type' => 'Organization', 'name' => 'imeihub', 'url' => $siteUrl],
-            'publisher'     => ['@type' => 'Organization', 'name' => 'imeihub', 'url' => $siteUrl],
-        ],
-        [
-            '@type'      => 'FAQPage',
-            'mainEntity' => array_map(
-                static fn(array $item): array => [
-                    '@type'          => 'Question',
-                    'name'           => $item['q'],
-                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+            [
+                '@type'           => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $siteUrl . '/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'Services', 'item' => $siteUrl . '/services.php'],
+                    ['@type' => 'ListItem', 'position' => 3, 'name' => $plainName, 'item' => $pageUrl],
                 ],
-                $serviceFaqs
-            ),
-        ],
-    ],
+            ],
+            [
+                '@type'       => 'Service',
+                '@id'         => $pageUrl . '#service',
+                'name'        => $plainName,
+                'description' => strip_tags((string) $service['description']),
+                'url'         => $pageUrl,
+                'serviceType' => 'IMEI Verification & Mobile Device Lookup',
+                'provider'    => ['@id' => $siteUrl . '/#organization'],
+                'offers'      => [
+                    '@type'         => 'Offer',
+                    'price'         => number_format((float) $priceUsd, 2, '.', ''),
+                    'priceCurrency' => 'USD',
+                    'availability'  => 'https://schema.org/InStock',
+                    'url'           => $pageUrl,
+                ],
+            ],
+            [
+                '@type'         => 'WebPage',
+                'url'           => $pageUrl,
+                'name'          => $plainName . ' · imeihub',
+                'description'   => strip_tags((string) $service['tagline']),
+                'isPartOf'      => ['@id' => $siteUrl . '/#website'],
+                'datePublished' => '2024-06-01',
+                'dateModified'  => $dateMod,
+                'author'        => ['@id' => $siteUrl . '/#organization'],
+                'publisher'     => ['@id' => $siteUrl . '/#organization'],
+            ],
+            [
+                '@type'      => 'FAQPage',
+                'mainEntity' => array_map(
+                    static fn(array $item): array => [
+                        '@type'          => 'Question',
+                        'name'           => $item['q'],
+                        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['a']],
+                    ],
+                    $serviceFaqs
+                ),
+            ],
+        ]
+    ),
 ];
 
 $seoKeywords = implode(', ', array_filter([
@@ -191,6 +191,8 @@ layout_head(
             <p class="lede"><?= htmlspecialchars($service['tagline'], ENT_QUOTES, 'UTF-8') ?></p>
 
             <form id="imei-form" class="lookup-form lookup-form--hero" autocomplete="off" novalidate
+                  toolname="run_imei_service"
+                  tooldescription="Run the <?= htmlspecialchars($plainName, ENT_QUOTES, 'UTF-8') ?> verification for a 15-digit IMEI or Apple serial number."
                   data-code="<?= htmlspecialchars((string) $service['code'], ENT_QUOTES, 'UTF-8') ?>"
                   data-paid="<?= $service['free'] ? '0' : '1' ?>">
                 <label for="imei" class="sr-only">IMEI number</label>
@@ -204,6 +206,7 @@ layout_head(
                     maxlength="17"
                     value="<?= htmlspecialchars($prefillImei, ENT_QUOTES, 'UTF-8') ?>"
                     placeholder="Enter 15-digit IMEI"
+                    aria-label="15-digit IMEI or Apple serial number"
                     required>
                 <button type="submit" id="submit-btn">
                     <span class="btn-label"><?= $service['free'] ? 'Check' : 'Run paid check' ?></span>
@@ -253,8 +256,9 @@ layout_head(
             </ul>
 
             <div class="geo-citations" style="margin-top:24px">
-                <strong>Standards &amp; guarantee:</strong>
+                <strong>Standards &amp; authoritative references:</strong>
                 IMEI numbers are validated against <a href="https://www.iso.org/standard/70484.html" target="_blank" rel="noopener noreferrer">ISO/IEC 7812-1 (Luhn checksum)</a> and decoded using the <a href="https://www.gsma.com/solutions-and-impact/technologies/device-services/imei-database/" target="_blank" rel="noopener noreferrer">GSMA TAC database</a>.
+                For Apple devices, see <a href="https://support.apple.com/en-us/108794" target="_blank" rel="noopener noreferrer">Apple Activation Lock Support</a> and <a href="https://checkcoverage.apple.com/" target="_blank" rel="noopener noreferrer">Apple Check Coverage</a>.
                 <?php if (!$service['free']): ?>
                 Paid checks are covered by our <a href="/refund-policy">Automatic Refund Guarantee</a>.
                 <?php endif; ?>

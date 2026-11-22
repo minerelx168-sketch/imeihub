@@ -1,7 +1,27 @@
 {
   "schema_version": "1.0",
+  "name": "imeihub IMEI Verification & Lookup Service",
+  "description": "Free and pay-per-check IMEI and Apple serial number lookup platform covering 44 verification services including TAC model lookup, Find My iPhone (FMI / iCloud), AppleCare warranty, Carrier SIM-Lock, MDM, Full GSX, and Worldwide GSMA Blacklist.",
   "provider": "imeihub",
   "url": "https://imeihub.net/services.php",
+  "documentation_url": "https://imeihub.net/api-docs",
+  "widget_url": "https://imeihub.net/widget",
+  "capabilities": [
+    "Free 15-digit IMEI Luhn validation and GSMA TAC model lookup ($0.00)",
+    "Apple Find My iPhone (FMI) & iCloud Activation Lock status ($0.01–$0.03)",
+    "AppleCare warranty, activation date, and coverage lookup ($0.04)",
+    "Apple Carrier SIM-Lock, Next Tether, and Corporate MDM supervision checks ($0.05–$0.50)",
+    "Apple Full GSX sold-by, replacement, and repair history reports ($1.00–$4.20)",
+    "Worldwide GSMA Blacklist and Samsung Knox Guard verification ($0.05–$0.20)",
+    "Prepaid JSON REST API, Telegram/LINE bots, and embeddable free iframe widget"
+  ],
+  "endpoints": {
+    "web_checker": "https://imeihub.net/service.php?slug=free-imei-check",
+    "api_docs": "https://imeihub.net/api-docs",
+    "embed_widget": "https://imeihub.net/widget",
+    "summary": "https://imeihub.net/ai/summary.json",
+    "faq": "https://imeihub.net/ai/faq.json"
+  },
   "currency": "USD",
   "pricing_as_of": "2026-11",
   "updated": "2026-11-22",
