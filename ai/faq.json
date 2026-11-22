@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "site": "https://imeihub.net",
+  "source_url": "https://imeihub.net/#faq",
+  "updated": "2026-11-22",
+  "faqs": [
+    {
+      "question": "What is an IMEI number?",
+      "answer": "The IMEI (International Mobile Equipment Identity) is a unique 15-digit number that identifies a mobile device on cellular networks."
+    },
+    {
+      "question": "Is checking my IMEI safe?",
+      "answer": "Yes. An IMEI alone does not give anyone access to your account or data. It only identifies the hardware. Still, treat it like any other ID and avoid posting it publicly."
+    },
+    {
+      "question": "What is a TAC?",
+      "answer": "The first 8 digits of an IMEI form the Type Allocation Code (TAC), which identifies the brand and model of the device."
+    },
+    {
+      "question": "Why did my IMEI fail validation?",
+      "answer": "IMEIs must be exactly 15 digits and pass the Luhn checksum (ISO/IEC 7812). If you typed it from a screen, double-check for missing or duplicated digits."
+    },
+    {
+      "question": "How much does an IMEI check cost?",
+      "answer": "Basic TAC brand and model lookups are free ($0.00) with no account required. Premium checks use a pay-as-you-go credit wallet starting at $0.01 for iCloud ON/OFF, $0.05 for Worldwide Blacklist, $0.08–$0.26 for Carrier status, $0.35 for MDM, and $1.00–$4.20 for Full GSX reports."
+    },
+    {
+      "question": "How does imeihub compare to IMEI.info?",
+      "answer": "imeihub displays exact per-check USD prices up front, requires no subscriptions or intrusive CAPTCHA gates, and automatically refunds your wallet credit if an upstream provider fails to return a report."
+    }
+  ]
+}

@@ -2633,3 +2633,169 @@ a:hover { color: var(--primary-600); }
     .account-avatar { width: 24px; height: 24px; }
     .dashboard-head { flex-direction: column; }
 }
+
+/* Editorial byline & last-updated bar (GEO G-DATES / G-BYLINE) */
+.page-meta-bar {
+    background: var(--surface-alt);
+    border-top: 1px solid var(--border);
+    padding: 18px 0;
+    font-size: .875rem;
+    color: var(--text-soft);
+}
+.page-meta-bar-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 20px;
+}
+.page-meta-bar a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.page-meta-bar a:hover {
+    text-decoration: underline;
+}
+.page-meta-bar time {
+    font-weight: 500;
+    color: var(--text);
+}
+
+/* Phase 2 GEO content sections: pricing, comparison, use cases, trust & safety */
+.geo-section {
+    padding: 72px 0;
+    background: var(--surface);
+    border-top: 1px solid var(--surface-line);
+}
+.geo-section--alt {
+    background: var(--surface-alt);
+}
+.geo-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow-xs);
+}
+.geo-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .92rem;
+    text-align: left;
+}
+.geo-table thead th {
+    background: var(--surface-alt);
+    color: var(--text-strong);
+    font-weight: 600;
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+}
+.geo-table tbody td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--surface-line);
+    color: var(--text);
+    vertical-align: top;
+}
+.geo-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+.geo-table tbody tr:hover {
+    background: rgba(79, 70, 229, .025);
+}
+.geo-table-group td {
+    background: #eef2ff;
+    color: var(--primary-700);
+    font-weight: 700;
+    font-size: .82rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    padding: 9px 16px;
+}
+.geo-price {
+    font-weight: 700;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+    color: var(--text-strong);
+}
+.geo-price--free {
+    color: var(--success);
+}
+.geo-col-highlight {
+    font-weight: 600;
+    color: var(--text-strong);
+}
+.geo-note {
+    margin-top: 16px;
+    font-size: .875rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+}
+.geo-note a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.geo-note a:hover {
+    text-decoration: underline;
+}
+.safety-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.safety-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow-xs);
+}
+.safety-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.05rem;
+    color: var(--text-strong);
+}
+.safety-card p {
+    margin: 0;
+    font-size: .92rem;
+    line-height: 1.6;
+    color: var(--text-soft);
+}
+.safety-card a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.safety-card a:hover {
+    text-decoration: underline;
+}
+.geo-citations {
+    margin-top: 24px;
+    padding: 18px 22px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: .88rem;
+    color: var(--text-soft);
+    line-height: 1.65;
+}
+.geo-citations strong {
+    color: var(--text-strong);
+}
+.geo-citations a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.geo-citations a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 820px) {
+    .geo-section { padding: 52px 0; }
+    .safety-grid { grid-template-columns: 1fr; }
+}
+
+

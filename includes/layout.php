@@ -52,6 +52,7 @@ function layout_head(string $title, string $description = '', string $extraHead 
 <?php if (strpos($extraHead, 'rel="canonical"') === false): ?>
 <link rel="canonical" href="<?= htmlspecialchars('https://' . ($_SERVER['HTTP_HOST'] ?? 'imeihub.net') . strtok($_SERVER['REQUEST_URI'] ?? '/', '?') . (isset($_GET) && !empty($_GET) ? '?' . http_build_query($_GET) : ''), ENT_QUOTES, 'UTF-8') ?>">
 <?php endif; ?>
+<link rel="alternate" type="application/rss+xml" title="imeihub Articles RSS Feed" href="https://imeihub.net/rss.xml">
 <?= $extraHead ?>
 <link rel="icon" href="data:image/svg+xml;charset=utf-8,<?= $favicon ?>">
 <link rel="preconnect" href="https://fonts.googleapis.com">

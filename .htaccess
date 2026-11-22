@@ -29,6 +29,11 @@
     # Block .env file
     RewriteRule ^\.env - [F,L]
 
+    # Sitemap & RSS XML pretty URLs
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+    RewriteRule ^rss\.xml$ rss.php [L]
+    RewriteRule ^articles/rss\.xml$ rss.php [L]
+
     # Article pretty URLs: /article/slug -> article.php?slug=slug
     RewriteRule ^article/([a-z0-9-]+)$ article.php?slug=$1 [L,QSA]
 

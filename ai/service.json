@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "provider": "imeihub",
+  "url": "https://imeihub.net/services.php",
+  "currency": "USD",
+  "pricing_as_of": "2026-11",
+  "updated": "2026-11-22",
+  "billing": {
+    "model": "Prepaid Credit Wallet (pay-per-check, no subscription)",
+    "payment_methods": [
+      "Stripe (Credit/Debit Card)",
+      "PayPal",
+      "Binance Pay",
+      "USDT (TRC20)",
+      "USDT / USDC (BEP20)"
+    ],
+    "auto_refund_policy": "Automatic instant wallet credit refund if an upstream provider times out or returns an error."
+  },
+  "services": [
+    {
+      "category": "Free Lookup",
+      "code": "IMEI_BASIC",
+      "name": "Free IMEI Check (TAC Lookup)",
+      "price_usd": 0.00,
+      "free": true,
+      "returns": "Manufacturer, model name, and basic hardware specs from GSMA TAC database",
+      "url": "https://imeihub.net/service.php?slug=free-imei-check"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_ICLOUD_STATUS",
+      "name": "iCloud (ON / OFF)",
+      "price_usd": 0.01,
+      "free": false,
+      "returns": "Find My / Activation Lock ON or OFF status",
+      "url": "https://imeihub.net/service.php?slug=apple-icloud-status"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_ICLOUD_CLEAN",
+      "name": "iCloud (Clean / Lost)",
+      "price_usd": 0.03,
+      "free": false,
+      "returns": "Activation Lock plus Clean vs. Lost/Erased mode",
+      "url": "https://imeihub.net/service.php?slug=apple-icloud"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_WARRANTY",
+      "name": "Warranty & Activation Info",
+      "price_usd": 0.04,
+      "free": false,
+      "returns": "Coverage status, activation state, estimated purchase date",
+      "url": "https://imeihub.net/service.php?slug=apple-warranty"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_SIM_LOCK",
+      "name": "SIM-Lock Status",
+      "price_usd": 0.05,
+      "free": false,
+      "returns": "Locked vs. Unlocked carrier status",
+      "url": "https://imeihub.net/service.php?slug=apple-sim-lock"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_CARRIER_LITE",
+      "name": "Carrier Check (Lite / Pro / Pro Plus)",
+      "price_usd_min": 0.08,
+      "price_usd_max": 0.26,
+      "free": false,
+      "returns": "Original carrier, lock policy, sold-by country, and coverage details",
+      "url": "https://imeihub.net/service.php?slug=apple-basic"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_MDM",
+      "name": "MDM (ON / OFF) & MDM + FMI",
+      "price_usd_min": 0.30,
+      "price_usd_max": 0.50,
+      "free": false,
+      "returns": "Corporate Mobile Device Management supervision status (optional FMI bundle)",
+      "url": "https://imeihub.net/service.php?slug=apple-mdm"
+    },
+    {
+      "category": "Apple Checks",
+      "code": "APPLE_FULL_GSX",
+      "name": "GSX Reports (Light / Full / Max Info)",
+      "price_usd_min": 1.00,
+      "price_usd_max": 4.20,
+      "free": false,
+      "returns": "Sold-by info, GSX activation policy, replacement, case and repair history",
+      "url": "https://imeihub.net/service.php?slug=apple-full-gsx"
+    },
+    {
+      "category": "Blacklist",
+      "code": "BLACKLIST_SIMPLE",
+      "name": "WorldWide Blacklist (Simple / Full)",
+      "price_usd_min": 0.05,
+      "price_usd_max": 0.10,
+      "free": false,
+      "returns": "Global GSMA lost/stolen blacklist status and reporting carrier/country",
+      "url": "https://imeihub.net/service.php?slug=blacklist"
+    },
+    {
+      "category": "Android & Other Brands",
+      "code": "SAMSUNG_INFO",
+      "name": "Samsung Info & Knox Guard",
+      "price_usd_min": 0.10,
+      "price_usd_max": 0.20,
+      "free": false,
+      "returns": "Samsung device details, warranty, and Knox Guard / Samsung Lock status",
+      "url": "https://imeihub.net/service.php?slug=samsung-info"
+    },
+    {
+      "category": "Android & Other Brands",
+      "code": "XIAOMI_STATUS",
+      "name": "Xiaomi, Huawei, Honor, Motorola, Google Pixel",
+      "price_usd_min": 0.08,
+      "price_usd_max": 0.20,
+      "free": false,
+      "returns": "Brand-specific device info, warranty, and Xiaomi Mi Account lock status",
+      "url": "https://imeihub.net/service.php?slug=xiaomi-status"
+    },
+    {
+      "category": "US Carriers",
+      "code": "TMOBILE_USA_PRO",
+      "name": "T-Mobile & Verizon USA Status",
+      "price_usd_min": 0.06,
+      "price_usd_max": 0.10,
+      "free": false,
+      "returns": "Carrier financing, clean/unpaid balance, and network eligibility status",
+      "url": "https://imeihub.net/services.php"
+    }
+  ]
+}

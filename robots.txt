@@ -1,3 +1,79 @@
+# GEO-Optimized robots.txt for imeihub.net
+
+# AI Search & Citation Bots
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /includes/
+Disallow: /data/
+Disallow: /sql/
+Disallow: /storage/
+
+# Default rule for all other crawlers
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -6,4 +82,4 @@ Disallow: /data/
 Disallow: /sql/
 Disallow: /storage/
 
-Sitemap: /sitemap.php
+Sitemap: https://imeihub.net/sitemap.xml

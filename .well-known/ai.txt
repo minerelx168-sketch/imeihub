@@ -1,0 +1,17 @@
+# AI Discovery Manifest for imeihub.net
+# Standard: https://imeihub.net/.well-known/ai.txt
+# Updated: 2026-11-22
+
+Site: https://imeihub.net
+Name: imeihub
+Description: Free IMEI checker and instant mobile device lookup service with pay-per-check premium reports (Apple iCloud, Carrier, MDM, Warranty, GSX, Samsung Knox, Worldwide Blacklist) and automatic wallet refunds.
+Contact: support@imeihub.net
+Policy: Allow AI search indexing and citation with attribution to imeihub.net.
+
+# Machine-Readable Discovery Endpoints
+LLMs: https://imeihub.net/llms.txt
+Summary: https://imeihub.net/ai/summary.json
+FAQ: https://imeihub.net/ai/faq.json
+Services: https://imeihub.net/ai/service.json
+Sitemap: https://imeihub.net/sitemap.xml
+Feed: https://imeihub.net/rss.xml

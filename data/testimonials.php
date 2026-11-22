@@ -30,7 +30,7 @@ return [
         'rating'  => 5,
     ],
     [
-        'quote'   => 'The +5% Binance Pay bonus is real cash on every top-up. Combined with transparent service pricing, the value here is hard to beat.',
+        'quote'   => 'Flexible wallet top-ups via card, PayPal, or crypto with zero subscription lock-in. Combined with transparent per-check pricing, the value here is hard to beat.',
         'name'    => 'David S.',
         'role'    => 'Reseller',
         'country' => 'Singapore',

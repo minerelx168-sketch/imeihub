@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "name": "imeihub",
+  "url": "https://imeihub.net",
+  "tagline": "Free IMEI Check & Phone Info Lookup",
+  "description": "Instant TAC-based free IMEI checker and pay-per-check mobile verification platform offering Apple iCloud, Carrier, MDM, Warranty, Full GSX, Samsung Knox, and Worldwide Blacklist reports with transparent USD pricing and automatic wallet refunds.",
+  "language": "en",
+  "updated": "2026-11-22",
+  "organization": {
+    "name": "imeihub",
+    "url": "https://imeihub.net",
+    "logo": "https://imeihub.net/assets/img/logo.png",
+    "support_email": "support@imeihub.net",
+    "contact_url": "https://imeihub.net/contact.php"
+  },
+  "key_features": [
+    "Free unlimited TAC-based brand, model, and device specs lookup with no account or CAPTCHA",
+    "Transparent pay-per-check USD pricing from $0.01 to $4.20 with no recurring subscriptions",
+    "Automatic wallet refund guarantee when an upstream provider fails or times out",
+    "Server-rendered HTML accessible to all search and AI crawlers",
+    "Flexible top-ups via Stripe (card), PayPal, Binance Pay, and USDT (TRC20 / BEP20)"
+  ],
+  "pricing_summary": {
+    "currency": "USD",
+    "as_of": "2026-11",
+    "free_tac_lookup": 0.00,
+    "paid_range_min": 0.01,
+    "paid_range_max": 4.20,
+    "billing_model": "Prepaid Credit Wallet (pay-per-check, no subscription)"
+  },
+  "target_users": [
+    "Used-phone buyers verifying Activation Lock and blacklist status before purchase",
+    "Phone resellers, wholesalers, and trade-in desks running daily bulk checks",
+    "Repair shops and refurbishers checking warranty, MDM, SIM-lock, and Knox Guard status"
+  ],
+  "links": {
+    "home": "https://imeihub.net/",
+    "services": "https://imeihub.net/services.php",
+    "brands": "https://imeihub.net/brands.php",
+    "articles": "https://imeihub.net/articles.php",
+    "about": "https://imeihub.net/about.php",
+    "contact": "https://imeihub.net/contact.php",
+    "privacy": "https://imeihub.net/privacy.php",
+    "llms_txt": "https://imeihub.net/llms.txt",
+    "sitemap": "https://imeihub.net/sitemap.xml",
+    "rss": "https://imeihub.net/rss.xml",
+    "faq_json": "https://imeihub.net/ai/faq.json",
+    "service_json": "https://imeihub.net/ai/service.json"
+  }
+}
