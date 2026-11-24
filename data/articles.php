@@ -8,185 +8,172 @@ declare(strict_types=1);
 
 return [
     [
-        'slug'    => 'ncc-imei-check-nigeria-device-checker-315',
-        'title'   => 'NCC IMEI Check Nigeria: Verify Your Phone With *315#',
-        'meta_title' => 'NCC IMEI Check Nigeria: Verify a Phone With *315# (2026)',
-        'excerpt' => 'How to run an NCC IMEI check in Nigeria with *315# or the Device Checker, what an unverified result means, and what to check before you buy.',
+        'slug'    => 'bea-cukai-imei-tax-calculator-indonesia-tourists',
+        'title'   => 'Bea Cukai IMEI Tax Calculator: Indonesia Guide 2026',
+        'meta_title' => 'Bea Cukai IMEI Tax Calculator 2026: Indonesia Phone Tax',
+        'excerpt' => 'Work out Bea Cukai IMEI tax on a phone brought into Indonesia, see if tourists must register, and follow the steps at the airport.',
         'date'    => '2026-11-24',
-        'tag'     => 'Regulation',
-        'body'    => <<<'ARTICLE_NOV24_NCC_NIGERIA'
-An **NCC IMEI check** tells you whether a phone is type approved and verified for use on Nigerian mobile networks. Since the Nigerian Communications Commission (NCC) switched on its **Device Management System (DMS)** on 7 October 2026, you can run the check for free by dialling `*315#` from any Nigerian line or by using the NCC Device Checker at `ncc.gov.ng/devicechecker`. You only need the phone's 15-digit IMEI, which you get by dialling `*#06#`.
+        'tag'     => 'Guide',
+        'body'    => <<<'ARTICLE_NOV24_BEA_CUKAI_CALC'
+The **Bea Cukai IMEI tax** on a phone you carry into Indonesia is charged only on the part of its value above **USD 500**. On that excess you pay **10% import duty** plus **VAT (PPN) at an effective 11%**, which works out to about **22.1% of the amount over USD 500**. A phone worth USD 1,200 therefore costs roughly USD 154.70 to register, provided you declare it at the airport when you arrive. Registration itself is free, and short-stay tourists usually do not need to pay anything at all.
 
-This guide explains how the check works, what each result means, which phones are at risk of being cut off, and the extra checks the NCC tool does not cover, such as a foreign blacklist or an iCloud lock on a UK-used or US-used phone.
+This guide gives you the formula, a ready-made tax table, the steps for registering at the airport, and the cheaper route for tourists.
 
-## NCC IMEI Check at a Glance
+## Bea Cukai IMEI Rules at a Glance
 
 | Question | Short answer |
 |---|---|
-| Who runs it? | The Nigerian Communications Commission (NCC), through its Device Management System |
-| USSD code | `*315#` on MTN, Airtel, Glo, 9mobile/T2 and other Nigerian SIMs |
-| Web checker | `ncc.gov.ng/devicechecker` |
-| Helpline | 315 (NCC toll-free line) |
-| Cost to check | Free |
-| What you need | The 15-digit IMEI (dial `*#06#`) |
-| Phones already in use before 7 October 2026 | Reported as automatically verified, no action needed |
-| Unverified phones | May be disconnected after 30 cumulative days of use on Nigerian networks |
+| Who handles it? | Direktorat Jenderal Bea dan Cukai (Indonesian Customs) |
+| Why register? | An unregistered IMEI cannot use Indonesian SIM cards or eSIMs after a short period |
+| Duty-free allowance | USD 500 per passenger, per arrival, on personal goods |
+| Import duty | 10% of the value above the allowance |
+| VAT (PPN) | 12% applied to 11/12 of the base, an effective 11% |
+| Income tax (PPh 22) | No longer charged on IMEI registration under PMK 34/2025 |
+| Device limit | 2 phones, handheld computers or tablets per passenger |
+| Registration fee | None. You pay only the tax, if any |
+| Deadline | At arrival for the allowance; up to 60 days at a customs office without it |
+| Wi-Fi and roaming | Not affected. Only Indonesian mobile networks are blocked |
 
-## What Is the NCC Device Management System?
+## Why Indonesia Blocks Unregistered Phones
 
-The DMS is Nigeria's central IMEI registry, sometimes described as a Central Equipment Identity Register (CEIR). Every SIM-enabled device has a unique **IMEI (International Mobile Equipment Identity)**. The DMS records which IMEIs belong to **type-approved** models and lets all operators recognise devices that are counterfeit, cloned, unapproved or reported stolen.
+Since 2020 Indonesia has run a national IMEI database called **CEIR**. Mobile operators such as Telkomsel, Indosat and XL only give service to devices whose IMEI is in that database. Phones sold officially in Indonesia are registered by the manufacturer or importer. Phones bought abroad are not, so the owner has to register them through **Bea Cukai**.
 
-The NCC has said the system has three goals:
+A phone with an unregistered IMEI still works on Wi-Fi and still works with a foreign SIM on international roaming. What it cannot do is hold a signal on an Indonesian SIM or eSIM. That is why the rule matters most to residents, expats, long-stay visitors and Indonesians returning from abroad with a new phone.
 
-- Keep **counterfeit and substandard phones** off Nigerian networks, because they drop calls, interfere with the network and can be unsafe.
-- Stop **cloned and tampered IMEIs**, where many fake phones share one copied number.
-- Make **stolen phones** less valuable, because a blacklisted IMEI can be shared with every operator at once.
+## The Bea Cukai IMEI Tax Formula
 
-The NCC has also stated that the system does not give it access to the contents of your phone and that the Device Checker is not a tracking application. It reads the device identifier, not your messages, photos or location.
+For a phone declared on arrival, the calculation under the passenger baggage rules (PMK 203/2017 as amended by PMK 34/2025) is:
 
-## Key Dates for Phone Owners and Dealers
+- **Step 1:** Taxable value = phone value in USD minus USD 500. If the result is zero or less, no tax is due.
+- **Step 2:** Import duty (bea masuk) = 10% of the taxable value.
+- **Step 3:** VAT (PPN) = 11% of the taxable value plus the import duty.
+- **Step 4:** Total = import duty + VAT.
 
-| Date | What happened |
-|---|---|
-| 7 September 2026 | Original deadline for importers and dealers to onboard existing stock onto the DMS |
-| 6 October 2026 | Extended onboarding deadline for the trade |
-| 7 October 2026 | DMS verification takes effect; phones already active on Nigerian networks are reported as automatically verified |
-| Mid October 2026 | `*315#` and the online Device Checker promoted to the public |
-| From November 2026 | Owners of unverified devices report SMS warnings from the NCC about a 30-day disconnection window |
+Combined, that is the taxable value multiplied by 0.221. Customs converts the amount to rupiah using the official Ministry of Finance exchange rate for that week, so the rupiah figure changes slightly from week to week.
 
-Dates above come from NCC statements as reported by Nigerian media. The NCC has adjusted the timeline once already, so confirm the current position on the official NCC website before you make a buying or importing decision.
+### Worked example
 
-## How to Check Your Phone With *315#
+You arrive in Jakarta with a new phone that cost USD 1,200.
 
-This is the quickest method and it works on a basic feature phone as well as a smartphone.
+- Taxable value: 1,200 minus 500 = USD 700
+- Import duty: 10% of 700 = USD 70
+- VAT: 11% of 770 = USD 84.70
+- **Total payable: USD 154.70**, about 12.9% of the phone's price
 
-- **Step 1:** Insert an active Nigerian SIM and dial `*315#`.
-- **Step 2:** Choose option 1 to check the phone you are holding. The network reads the IMEI automatically.
-- **Step 3:** To check a different phone, choose the option to check another device and type its 15-digit IMEI.
-- **Step 4:** Read the result on screen. An approved device shows a message confirming it is NCC type approved and verified for use on Nigerian mobile networks.
+## Bea Cukai IMEI Tax Table
 
-Menu wording can differ slightly between operators. If the phone has two SIM slots it has two IMEIs, so check both.
+Use this table as a quick calculator. The middle column assumes you declare the phone at the airport and use your USD 500 allowance. The right column shows the cost if you leave the airport first and register later at a customs office, where the allowance no longer applies.
 
-## How to Use the NCC Device Checker Online
-
-- **Step 1:** Dial `*#06#` on the phone and write down the 15-digit IMEI. Do not copy it from the box alone, because boxes are easy to swap.
-- **Step 2:** Open `ncc.gov.ng/devicechecker` in a browser. Type the address yourself rather than following a link from an SMS or WhatsApp message.
-- **Step 3:** Enter the IMEI and submit.
-- **Step 4:** Compare the brand and model shown with the phone in your hand.
-
-The NCC has warned about unofficial websites and fraudulent messages that claim to verify or "register" phones for a fee. Checking a device status is free, and the NCC will not ask for your bank details, BVN, NIN or a one-time password to do it.
-
-## What Your Result Means
-
-| Result | What it means | What to do |
+| Phone value | Tax if declared on arrival | Tax if registered later (no allowance) |
 |---|---|---|
-| Type approved and verified | The model is approved and this IMEI is recognised by the DMS | Nothing. Keep your receipt |
-| Not yet verified | The IMEI is not in the DMS yet. This does not automatically mean the phone is fake | Call 315, ask the seller for import documents, and do not ignore SMS warnings |
-| Model shown does not match the phone | Possible cloned or rewritten IMEI | Do not buy. If you already own it, return it to the seller |
-| Invalid IMEI | The number is mistyped or fails the IMEI checksum | Dial `*#06#` again and re-enter all 15 digits |
+| USD 300 | USD 0 | USD 66.30 |
+| USD 500 | USD 0 | USD 110.50 |
+| USD 800 | USD 66.30 | USD 176.80 |
+| USD 1,000 | USD 110.50 | USD 221.00 |
+| USD 1,200 | USD 154.70 | USD 265.20 |
+| USD 1,500 | USD 221.00 | USD 331.50 |
+| USD 2,000 | USD 331.50 | USD 442.00 |
 
-A "not yet verified" result is the one that worries most people. The usual causes are a phone that was imported after 7 October 2026 without going through the DMS, a model that was never submitted for NCC type approval, or a genuine phone bought abroad for personal use that has not been verified yet.
+Three points change the result in practice:
 
-## Which Phones Are at Risk of Being Blocked?
+- **The allowance covers all your personal goods, not only the phone.** If you also bring other new purchases, they share the same USD 500.
+- **Customs sets the value.** Officers can use your invoice or their own reference price for the model. Bring the receipt, especially for a used or discounted phone.
+- **Rates can change.** Check the figure in the official app before you pay. Older guides that quote 30% to 40% are based on rules from before PMK 34/2025, when income tax was added on top.
 
-Based on the NCC's public statements, enforcement is aimed at the following groups:
+## Do Tourists Need to Register an IMEI?
 
-- **Counterfeit phones** that copy a known brand but were never type approved.
-- **Cloned or tampered IMEIs**, including phones showing an IMEI that belongs to a different model.
-- **Phones imported after 7 October 2026** by dealers who did not upload the IMEIs to the DMS.
-- **Models with no NCC type approval** at all.
-- **Phones reported stolen** and blacklisted through the operators.
+Often they do not. You have three options as a visitor:
 
-Phones that were already connected to a Nigerian network before 7 October 2026 are reported to have been captured automatically, which covers roughly 231 million devices. If your phone has been in use in Nigeria for months, you most likely have nothing to do, but a 30-second `*315#` check will confirm it.
+| Your situation | Best option | Cost |
+|---|---|---|
+| Short trip, staying on your home SIM | Use international roaming. No registration needed | Your roaming charges |
+| Stay of up to 90 days, want a local SIM | Tourist registration through a mobile operator outlet with your passport | Free of tax; you pay for the SIM |
+| Stay over 90 days, or you are a resident or KITAS holder | Full Bea Cukai registration on arrival | Tax on value above USD 500 |
 
-## Bought Your Phone Abroad? Rules for Travellers and Personal Imports
+The operator route gives the phone access to Indonesian networks for a limited period, widely reported as 90 days, and is tied to a tourist SIM. It cannot be extended into a permanent registration later. If you already know you will stay longer than that, register with Bea Cukai on the day you land, because that is the only moment the USD 500 allowance is available.
 
-Many Nigerians buy phones in the UK, the US or Dubai, or receive them from family in the diaspora. Reports of the NCC's guidance describe three situations:
+Travel eSIMs sold by foreign providers work through roaming agreements, so they are not affected by the IMEI block either. They are a practical choice for a holiday, though they usually do not include an Indonesian phone number.
 
-- **Visitors on roaming.** If you are using a foreign SIM on international roaming, the verification system does not apply to you.
-- **A phone new to Nigeria on a Nigerian SIM.** It can be used for up to **30 cumulative days in a year** before verification is required. The count is reported to advance only on days the phone is actually used on a Nigerian network.
-- **Personal purchase abroad.** An individual who bought a device abroad for personal use can verify it using travel history details. The NCC directs people to call **315** for the exact steps.
+## How to Register Your Phone With Bea Cukai on Arrival
 
-The detailed process has been communicated mostly through the NCC helpline and FAQ, so call 315 before the 30 days run out instead of waiting for a disconnection notice.
+- **Step 1:** Before you fly, find the IMEI by dialling `*#06#`. A dual-SIM phone has two IMEIs and you should enter both.
+- **Step 2:** Run a [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the IMEI is valid and matches the model on your receipt. A typing mistake on the form means the wrong device gets registered.
+- **Step 3:** Fill in the customs declaration. Indonesia now uses the **All Indonesia** arrival declaration, which includes the electronic customs declaration. Tick the option that you are bringing a phone, handheld computer or tablet that needs IMEI registration, then enter the brand, model, IMEI and value. You will receive a QR code.
+- **Step 4:** After baggage claim, go to the Bea Cukai desk in the customs area **before you exit the terminal**. Show the QR code, your passport, your boarding pass and the purchase receipt.
+- **Step 5:** If tax is due, the officer issues a billing code. Pay it on the spot by card or bank transfer and keep the proof of payment.
+- **Step 6:** Insert an Indonesian SIM. Activation of the IMEI is normally quick but can take up to a day or two.
 
-## Do You Have to Pay to Register a Phone?
+## Missed It at the Airport? Registering Later
 
-For an ordinary phone owner, **checking** a device is free. The charges that have been discussed in the Nigerian press are DMS validation fees paid by importers and dealers per IMEI. Media reports have mentioned figures of roughly N670 per IMEI for standard phones and more for high-end devices, and the phone dealers' association AMPAT has asked the NCC to suspend the fees and the blocking for a period.
+You can still register at a Bea Cukai office within **60 days of arrival**. Bring the phone, passport, boarding pass or ticket, and the invoice. The drawback is cost: the USD 500 allowance is not applied once you have left the customs area, so the 22.1% is charged on the full value. On a USD 1,200 phone that is the difference between USD 154.70 and USD 265.20.
 
-These figures were not confirmed in an official published fee schedule at the time of writing. Treat any price quoted to you by a third party with caution and confirm it with the NCC on 315.
+After 60 days the passenger route closes. Phones that arrive by courier or post follow a separate process handled by the shipping company and are taxed under the consignment rules, not the passenger rules.
 
-## NCC Check vs Other Checks: What Each One Tells You
+## How to Check IMEI Status in Indonesia
 
-The NCC check answers one question: is this device allowed on Nigerian networks? It does not tell you whether a used phone is locked, stolen abroad or still under a contract. That matters in Nigeria, where a large share of the used market is imported "UK-used" and "US-used" stock.
+| Check | What it tells you | Where |
+|---|---|---|
+| Kemenperin IMEI check | Whether the IMEI is in the national database | `imei.kemenperin.go.id` |
+| Bea Cukai IMEI status | Whether your passenger registration was processed | `beacukai.go.id/register-imei.html` |
+| IMEI model lookup | Whether the IMEI is valid and which model it belongs to | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Blacklist check | Whether the phone is reported lost or stolen abroad | [Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| iCloud status | Whether an iPhone still has Activation Lock on | [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud-status) |
 
-| Check | What it tells you | Where to run it | Cost |
-|---|---|---|---|
-| NCC Device Checker | Type approval and DMS verification in Nigeria | `*315#` or `ncc.gov.ng/devicechecker` | Free |
-| IMEI model lookup | Whether the IMEI is valid and which brand and model it was issued to | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | Free |
-| Blacklist check | Whether the IMEI is reported lost, stolen or blocked by a carrier | [Blacklist Check](https://imeihub.net/service.php?slug=blacklist) | Paid, low cost |
-| iCloud status | Whether Find My / Activation Lock is on for an iPhone | [iCloud Status Check](https://imeihub.net/service.php?slug=apple-icloud-status) | Paid, low cost |
-| SIM lock status | Whether an iPhone is locked to a foreign carrier | [Apple SIM-Lock Check](https://imeihub.net/service.php?slug=apple-sim-lock) | Paid, low cost |
+The Indonesian databases only show whether a phone is registered locally. imeihub does not have access to CEIR, so use the official sites for registration status and use the other checks to learn about the phone's history.
 
-A phone can pass the NCC check and still be a bad purchase. An iPhone locked to a US carrier, or one with Activation Lock still on, is approved hardware that you cannot use. imeihub does not have access to the NCC database, so always run the NCC check itself through `*315#` and use the other checks to cover what it leaves out.
+## Buying a Used "Ex-Inter" Phone in Indonesia
 
-## Checklist Before You Buy a Phone in Nigeria
+Imported second-hand phones, sold locally as **ex-inter** or **ex-internasional**, are cheaper because many of them were never registered. Sellers often promise the signal is "permanent". Protect yourself before paying:
 
-Use this whether you are buying at Computer Village in Ikeja, Banex Plaza in Abuja, or from an online seller.
+- Check the IMEI on the Kemenperin site. If it is not listed, the phone will lose signal on Indonesian SIMs.
+- Be careful with phones described as having an "unlocked IMEI" through unofficial services. These registrations are not issued by Bea Cukai and have been cancelled in the past.
+- Run a [blacklist check](https://imeihub.net/service.php?slug=blacklist). A phone reported stolen in its country of origin stays flagged there even if it works in Indonesia.
+- For iPhones, confirm the [SIM-lock status](https://imeihub.net/service.php?slug=apple-sim-lock) so you do not buy a device tied to a foreign carrier.
+- Ask for the customs payment receipt if the seller claims tax was paid.
 
-- Dial `*#06#` on the phone itself and compare the IMEI with the one on the box and in Settings. All three must match.
-- Dial `*315#`, choose the option to check another device, and enter that IMEI before you pay.
-- Run a [free IMEI check](https://imeihub.net/service.php?slug=free-imei-check) and confirm the brand, model and storage match what the seller claims.
-- For a used or imported phone, run a [blacklist check](https://imeihub.net/service.php?slug=blacklist) to see whether it was reported lost or stolen.
-- For an iPhone, confirm that Find My is off and the phone is not carrier locked.
-- Insert your own SIM and make a call. A phone that shows no service with a working SIM is a warning sign.
-- Collect a dated receipt with the IMEI written on it and the seller's name and phone number.
+## Common Mistakes That Cost Money
 
-## If Your Phone Is Stolen
-
-The DMS is designed so that a blacklisted IMEI can be shared with every operator, which makes a stolen phone useless on any Nigerian network. In practice you should:
-
-- Call your network operator immediately to suspend the SIM and report the theft.
-- File a police report and keep the reference number.
-- Keep the IMEI ready. It is on the box, on your receipt, and in your Google or Apple account under your devices.
-- Call the NCC on 315 with the IMEI, proof of ownership and the police reference to ask about blocking.
-
-The Device Checker does not locate a phone and does not guarantee recovery. Blocking the IMEI stops the device from being used on the networks, which removes the reason to steal it.
+- **Walking out of the airport first.** This is the most expensive mistake, because it forfeits the USD 500 allowance.
+- **Bringing more than two devices.** Only two phones, handheld computers or tablets can be registered per passenger per arrival.
+- **Entering the wrong IMEI.** Copy it from `*#06#`, not from the box.
+- **Having no receipt.** Without proof of price, customs applies its own valuation.
+- **Paying a third party to "open" the IMEI.** Only Bea Cukai, manufacturers and operators can register an IMEI legitimately.
 
 ## Frequently Asked Questions
 
-### Is the NCC IMEI check free?
+### How much is the IMEI tax in Indonesia?
 
-Yes. Dialling `*315#` and using the online Device Checker are free. Be suspicious of any person or website that charges you to check or "register" a personal phone.
+About 22.1% of the phone's value above USD 500 when declared on arrival: 10% import duty plus an effective 11% VAT. A phone worth USD 500 or less is free to register.
 
-### My phone says not yet verified. Is it fake?
+### Is there a registration fee?
 
-Not necessarily. It may be genuine but imported outside the DMS process, or bought abroad for personal use. Call 315, and ask the seller for proof that the device was imported through an approved channel.
+No. Bea Cukai does not charge a service fee for IMEI registration. Any payment is duty and tax only.
 
-### Will my old phone stop working?
+### Do I need to register if I only use Wi-Fi?
 
-Phones already active on Nigerian networks before 7 October 2026 are reported to have been verified automatically. Confirm yours with `*315#`.
+No. Registration only affects service on Indonesian mobile networks.
 
-### Can I check a phone before buying it?
+### Can I register my phone after 60 days?
 
-Yes. Get the IMEI with `*#06#` and enter it under the option to check another device on `*315#`, or use the online checker.
+Not through the passenger route. Your remaining options are roaming, a travel eSIM, or a locally sold phone.
 
-### Does the NCC check show if an iPhone is iCloud locked?
+### Does registration expire?
 
-No. Type approval is about the hardware model and its IMEI. Activation Lock, carrier lock and foreign blacklist status need separate checks.
+A Bea Cukai registration is permanent for that IMEI. A tourist registration through an operator is temporary.
 
-### How long can I use a phone I brought into Nigeria?
+### Is the tax different for iPhones?
 
-Reports of the NCC guidance say up to 30 cumulative days in a year on a Nigerian SIM before verification is needed. Visitors on international roaming are not affected.
+No. The same rate applies to every brand. iPhones simply tend to cost more than USD 500, so they are taxed more often.
 
 ## Sources and Further Reading
 
-Regulatory details in this guide come from NCC statements and its Device Checker FAQ as published and reported in October and November 2026. Rules, fees and deadlines are still changing, so treat the NCC as the final authority.
+Rates and limits in this guide are based on Minister of Finance Regulation PMK 203/PMK.04/2017 as amended by PMK 34 of 2025 and on guidance published by Bea Cukai offices. Customs rules change, and the final amount is always the one calculated by the officer or the official app on the day you arrive.
 
-- [NCC Device Checker and Type Approval FAQ](https://ncc.gov.ng/frequently-asked-questions/ncc-device-checker-and-type-approval)
-- [Nigerian Communications Commission](https://ncc.gov.ng/)
+- [Bea Cukai: passenger goods](https://www.beacukai.go.id/barang-penumpang)
+- [PMK 34 of 2025 (official legal database)](https://peraturan.bpk.go.id/Details/319329/pmk-no-34-tahun-2025)
 - [IMEI Check by Country: PTA, CEIR, NTC and more](https://imeihub.net/article/imei-check-by-country)
 - [How to check an IMEI before buying a used phone](https://imeihub.net/article/how-to-check-imei)
-ARTICLE_NOV24_NCC_NIGERIA,
+ARTICLE_NOV24_BEA_CUKAI_CALC,
     ],
     [
         'slug' => 'best-free-imei-checker-comparison-2026',
