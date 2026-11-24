@@ -8,6 +8,165 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'imei-checker-online-two-phones-same-tac',
+        'title' => 'IMEI Checker Online: Can Two Phones Share the Same TAC?',
+        'meta_title' => 'IMEI Checker Online: Why Two Phones Share a TAC',
+        'excerpt' => 'Matching first eight IMEI digits can be normal. Learn how TAC grouping differs from a complete device identifier and which number each check needs.',
+        'date' => '2026-11-24',
+        'tag' => 'Guide',
+        'body' => <<<'ARTICLE_20261124_1'
+An IMEI checker online can return the same model for two phones because they share a Type Allocation Code, or TAC. The first eight IMEI digits identify an allocated device type, not one individual handset. Compare the complete 15-digit identifiers before treating matching prefixes as a duplicate-device problem.
+
+**Key takeaways**
+
+- A modern IMEI has an eight-digit TAC, a six-digit serial portion and one check digit: 15 digits in total.
+- Read the complete number in Settings > General > About on iPhone, or the relevant About screen on Android.
+- Use TAC for model grouping; retain full IMEI records for individual devices and device-specific reports.
+- Free model lookup does not supply paid GSMA Blacklist, Find My / Activation Lock or SIM Lock results.
+
+## Why can matching prefixes be legitimate?
+
+A matching TAC means the identifiers belong to the same allocated device type; it does not mean every digit matches. Think of it as a grouping field when organizing equipment. The remaining device-specific portion matters when distinguishing two units, so compare full records before combining entries or questioning a seller.
+
+The [GSMA device-identifier reference](https://open-gateway.gsma.com/docs/device-identifier/api-reference) describes the eight-digit TAC, six-digit serial portion and final IMEI check digit. Use that structure to interpret a prefix, rather than treating the first eight digits as a shortened unique identity.
+
+Here is a deliberately non-numeric example for reading records, not for submitting to a checker:
+
+- **Record A:** TAC GROUP-A / device portion UNIT-A / check digit A.
+- **Record B:** TAC GROUP-A / device portion UNIT-B / check digit B.
+
+The group matches while the unit record differs. Keep both stock entries. If you are comparing photographs, ensure they show two complete identifiers rather than two crops that stop after the shared prefix.
+
+## Can different TACs still identify the same model?
+
+Different TACs do not automatically mean different retail models. GSMA allocation rules allow more than one TAC for a model. When organizing stock, retain both the reported model and the original TAC instead of forcing one prefix per model or assuming a different prefix identifies a counterfeit device.
+
+[GSMA TS.06, section 5.1.1](https://imeidb.gsma.com/imei/resources/documents/TS.06%20v27.0.pdf) permits multiple TAC allocations for a model, including to accommodate production volume. This is a reason to verify a model mismatch, not to invent a universal prefix list from a small sample of phones.
+
+For your own inventory, a useful record contains a stock reference, full IMEI, identifier label, lookup model and check date. Group records for browsing, but keep status results attached to the specific submitted identifier. A shared model label should never cause one unit's report to overwrite another's.
+
+## Which number should I use for each check?
+
+Use the input requested by the selected service. An eight-digit TAC can support a type lookup, but it is incomplete for a form requiring a 15-digit IMEI. Keep model grouping separate from device-status queries, and do not fill missing digits with zeros simply to make a form accept the number.
+
+| Check or record | Appropriate input | Meaningful boundary |
+| --- | --- | --- |
+| TAC grouping | First eight digits of a correctly identified IMEI | Groups an allocated type, not a unique handset |
+| Free imeihub basic IMEI lookup | Complete IMEI requested by the form | Format, checksum and model identification |
+| Paid blacklist report | Complete identifier accepted by that service | Status for the submitted device record, not all units sharing a TAC |
+| Apple serial-based service | Complete Apple Serial Number when explicitly accepted | Not the six-digit serial portion inside an IMEI |
+
+The [imeihub homepage](https://imeihub.net/) separates free TAC/model identification from paid status reports. [GSMA Device Check](https://devicecheck.gsma.com/rtlapp/faqs) likewise describes querying device identifiers for reported block-list status. A model group is not a substitute for that individual-device question.
+
+**1. Read the live identifier.** On iPhone, open Settings > General > About; on Samsung tablets, open Settings > About tablet. On supported devices, dial `*#06#`. Do not confuse the result with an EID, MEID or manufacturer serial.
+
+**2. Match the label.** Keep IMEI and IMEI2 separately labeled where both appear. If comparing a SIM tray, back-case label or box, use the manufacturer's model-specific instructions and compare the complete number. See [Apple's identifier locations](https://support.apple.com/en-us/108037) and [Samsung's identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/).
+
+**3. Submit the intended unit.** Copy its full identifier into the correct service, then attach the returned report to that stock record. If two physical phones show the same full IMEI, preserve the evidence and ask the carrier or manufacturer to investigate; a matching TAC alone is a different observation.
+
+## Frequently Asked Questions
+
+The key distinction is the level of comparison: a model group, a complete identifier or a returned status report. Choose that level before interpreting a match. These questions explain how to retain useful inventory records without turning a normal shared prefix into a claim about ownership or network status.
+
+### Is it normal for two phones to have the same first eight IMEI digits?
+
+Yes. Those digits are the TAC, so phones from the same allocation can share them. Compare the full identifiers to distinguish the units. Two matching prefixes alone are not evidence that the complete IMEI has been duplicated or that either phone is defective.
+
+### Can I check a blacklist using only the TAC?
+
+A TAC does not identify the individual unit needed for a device-specific blacklist inquiry. Retrieve the complete identifier and use a service that accepts it. Do not interpret a successful type lookup as a clean blacklist result for every phone in that group.
+
+### Can the same phone model have different TAC codes?
+
+Yes. GSMA allows more than one TAC to be allocated to a model. A prefix difference therefore needs context rather than an automatic rejection. Keep the full identifiers and returned model descriptions, then investigate any actual mismatch between the report and the physical equipment.
+
+### Is the six-digit IMEI serial part my Apple Serial Number?
+
+No. The serial portion within an IMEI is not the separate Apple Serial Number shown in About. Copy the field named by the service instead of extracting digits from another identifier. This avoids submitting an incomplete number to a serial-based coverage or device-information check.
+
+## What should I do with matching TAC records?
+
+Keep the separate devices, full identifiers and reports intact; use the shared TAC only as a grouping aid. Start with the [free imeihub model lookup](https://imeihub.net/) when identification is the question. Choose a separate status report only for the specific unit and status you need; a lookup removes no lock.
+ARTICLE_20261124_1
+    ],
+    [
+        'slug' => 't-mobile-imei-check-trial-eligibility',
+        'title' => 'T-Mobile IMEI Check: Does Passing Qualify You for the Trial?',
+        'meta_title' => 'T-Mobile IMEI Check: Trial Eligibility Explained',
+        'excerpt' => 'A compatible IMEI does not guarantee T-Mobile Trial eligibility. Check participant rules, carrier unlock, eSIM support and the exact signup message.',
+        'date' => '2026-11-24',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261124_2'
+A T-Mobile IMEI check can help establish device compatibility, but passing it does not guarantee admission to T-Mobile Trial. The trial also has participant, carrier-unlock and eSIM requirements. Check the current offer and the exact enrollment message before assuming that another IMEI lookup will resolve a rejected application.
+
+**Key takeaways**
+
+- Use the complete 15-digit IMEI for the device check; keep IMEI2 and EID separately labeled if displayed.
+- Check Settings > General > About on iPhone for the identifiers and Carrier Lock information.
+- T-Mobile Trial and a general bring-your-own-device check are separate decisions. Participant eligibility is not encoded in an IMEI.
+- Free model identification and paid SIM Lock or GSMA Blacklist reports cannot approve a promotional trial or remove a lock.
+
+## What does the IMEI result establish before signup?
+
+The device checker addresses the phone submitted to it, while trial enrollment addresses whether you and that phone meet the offer's conditions. Read the individual result fields and retain the message. A compatible-device result is useful preparation, but it is not confirmation that a trial account has been accepted.
+
+[T-Mobile's BYOD checker](https://www.t-mobile.com/resources/bring-your-own-phone) presents compatibility, block-status and eSIM-related information where available. It also provides an unknown-compatibility path. Read the result actually returned for your device; examples visible on a webpage are not a completed personal check.
+
+| Check | Main question | What it cannot approve |
+| --- | --- | --- |
+| Free imeihub model lookup | Which device model does this IMEI identify? | T-Mobile Trial enrollment |
+| T-Mobile device checker | Is this device supported for the indicated network use? | Every participant condition of the trial |
+| Paid SIM Lock or blacklist report | What is the selected reported device status? | A trial account or a repeat promotional entitlement |
+| Trial signup in T-Life | Does the current enrollment flow accept this participant and device? | Removal of an existing carrier or Activation Lock |
+
+The [imeihub service catalog](https://imeihub.net/services.php) distinguishes free basic identification from paid status checks. A Find My / Activation Lock report answers an Apple device-status question; it is not part of deciding whether a person qualifies for this carrier's promotion.
+
+## Which trial rules should I check today?
+
+Check the current consumer offer rather than relying on an old Network Pass screenshot. Trial duration, participant restrictions and setup requirements belong to the promotion, not the model database. Read the terms during enrollment and resolve conflicting or unclear eligibility messages with T-Mobile before making changes to your existing service.
+
+As checked on November 24, 2026, [T-Mobile's consumer trial page](https://www.t-mobile.com/offers/free-trial) advertises 30 days, requires a qualifying non-T-Mobile-network user and a compatible unlocked device, and states one trial per user. It requires active service outside the T-Mobile network; keep that requirement separate from the phone's model.
+
+The [trial support guide](https://www.t-mobile.com/support/coverage/t-mobile-trial) additionally lists U.S. participation, eSIM capability and Wi-Fi setup requirements. It excludes current T-Mobile, Metro and partner-network customers and people who used the trial within the last six months. That six-month exclusion is not a promise that a repeat application will be approved afterward; the current offer still states one trial per user.
+
+## How do I separate a device problem from an enrollment problem?
+
+Record the stage where signup stops before retrying. A phone-eligibility message, account-creation failure and eSIM-download failure point to different checks. Keep the exact wording with your model and device-check result so support can address the failed step without asking you to repeat unrelated lookups or change working service settings.
+
+**1. Identify the phone once.** On iPhone, open Settings > General > About. Copy the IMEI requested by the enrollment flow, not the Apple Serial Number or EID. [Apple's identifier guide](https://support.apple.com/en-us/108037) explains the fields; `*#06#` is another supported-device route listed by T-Mobile.
+
+**2. Verify carrier unlock.** On iPhone, inspect Carrier Lock in About. Apple identifies “No SIM restrictions” as the unlocked state and directs unlock requests to the carrier. Follow [Apple's carrier-unlock guidance](https://support.apple.com/en-us/109316); a paid lookup cannot perform the unlock.
+
+**3. Classify the message.** If the app rejects the phone, compare its exact model and eSIM support with the current trial requirements. If account creation fails, check participant rules. If downloading the trial eSIM fails, verify the Wi-Fi internet connection and use T-Mobile's setup support.
+
+**4. Preserve a useful support note.** Record the date, phone model, stage, exact message and whether your existing line still works. Do not post full identifiers publicly. Do not replace a rejected number with another person's identifier or treat IMEI2 as a new participant.
+
+## Frequently Asked Questions
+
+A trial combines an equipment check with an offer-specific enrollment decision. Keep those decisions separate when reading a rejection, especially if an earlier model lookup succeeded. These answers explain what to verify next without assuming a clean report, another identifier or an old advertisement overrides the current enrollment rules.
+
+### Does a compatible IMEI guarantee T-Mobile Trial access?
+
+No. Compatibility concerns the device, while trial admission also depends on the participant and current offer. Retain the compatibility result, then read the enrollment message. Repeating the same model lookup will not establish whether an account or promotional-use restriction applies to you.
+
+### Is Network Pass still a three-month trial?
+
+The current consumer offer checked on November 24, 2026 advertises T-Mobile Trial for 30 days. Older Network Pass material can describe a different offer. Use the terms shown in today's enrollment flow rather than planning around a saved image of an earlier promotion.
+
+### Can I repeat the trial by entering IMEI2?
+
+Do not treat IMEI2 as a new person or a new promotional entitlement. It is another device identifier, and the current offer states one trial per user. Supply the identifier requested by the official flow and ask T-Mobile about any prior-use eligibility message.
+
+### Should I buy a blacklist report for an account-creation error?
+
+An account-creation error alone does not establish that the phone is blacklisted. First identify which signup condition failed. A paid blacklist report is appropriate only when you have a separate device-status question it answers; it cannot create the trial account or override participant restrictions.
+
+## What should I verify before trying again?
+
+Match the next action to the failed signup stage: device support, carrier unlock, participant eligibility or eSIM installation. If the phone's identity is uncertain, start with the [free imeihub model lookup](https://imeihub.net/). Once identified, use T-Mobile's current trial flow to determine eligibility rather than treating a report as approval.
+ARTICLE_20261124_2
+    ],
+    [
         'slug' => 'iphone-serial-number-check-apple-intelligence-unavailable',
         'title' => 'iPhone Serial Number Check: Why Is Apple Intelligence Unavailable?',
         'meta_title' => 'iPhone Serial Number Check: Apple Intelligence Support',
