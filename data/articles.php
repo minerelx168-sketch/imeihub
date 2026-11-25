@@ -8,6 +8,137 @@ declare(strict_types=1);
 
 return [
     [
+        'slug'    => 'banned-phone-brands-kenya-type-approval-imei-check',
+        'title'   => 'Banned Phones in Kenya 2026: 21 Brands & IMEI Check',
+        'meta_title' => 'Banned Phones in Kenya 2026: CA List of 21 Brands & IMEI Check',
+        'excerpt' => 'The CA has named 21 phone brands vendors may not sell in Kenya. See the full list and how to check any phone by IMEI before you pay.',
+        'date'    => '2026-11-25',
+        'tag'     => 'Regulation',
+        'body'    => <<<'ARTICLE_NOV25_KE_BANNED'
+On **10 February 2026** the **Communications Authority of Kenya (CA)** published a notice naming **21 mobile phone brands that are not type approved**. Vendors were told to stop selling them, and the public was told not to buy them. The brands are **Tinsik, Realfone, F+, Fonrox, Mez, Nemojo, Vue, Bundy, Qqmee, U-FM, Chatada, Superx, Momofly, WR, X.Oda, Smba, Q-Seven, Ugbad, FT, Raeno and Switch**.
+
+If you searched for **banned phones in Kenya** because you are about to buy a cheap handset on Luthuli Avenue, Jiji or a social media shop, this guide gives you the list, what the notice does and does not mean, and a five-minute IMEI routine that works on any phone, whatever the brand.
+
+**Key takeaways**
+
+- The CA notice covers **sale and distribution**. Reports of the notice describe a prohibition on vendors and a warning to buyers.
+- We found **no CA statement that phones already in use will be switched off**. If that changes, the CA will announce it on [ca.go.ke](https://www.ca.go.ke/).
+- **Type approval applies to a model**, not to a single handset. A phone from an approved brand can still be counterfeit, stolen or locked.
+- The free **1555 SMS check** and a **TAC lookup** tell you which model an IMEI really belongs to.
+- Spellings of some brand names differ between news outlets. The CA's own notice is the reference copy.
+
+## The 21 Phone Brands Named by the CA
+
+| No. | Brand | No. | Brand | No. | Brand |
+|---|---|---|---|---|---|
+| 1 | Tinsik | 8 | Bundy | 15 | X.Oda |
+| 2 | Realfone | 9 | Qqmee | 16 | Smba |
+| 3 | F+ | 10 | U-FM | 17 | Q-Seven |
+| 4 | Fonrox | 11 | Chatada | 18 | Ugbad |
+| 5 | Mez | 12 | Superx | 19 | FT |
+| 6 | Nemojo | 13 | Momofly | 20 | Raeno |
+| 7 | Vue | 14 | WR | 21 | Switch |
+
+This is the list as reported by Kenyan media in February 2026. Some outlets write "Xoda" for "X.Oda" and "Wr" for "WR". The CA can add or remove brands, for example when a manufacturer completes type approval, so check the current notice before you rely on any copy of the list, including this one.
+
+## What "Not Type Approved" Means
+
+**Type approval** is the CA's certification that a model of communications equipment meets Kenya's technical standards before it is sold. The CA said the notice followed **market surveillance** and that the listed brands had not gone through that process. The concerns it raised were:
+
+- **Radiation exposure** that has not been tested against the limits the CA applies
+- **Electromagnetic interference** with mobile networks and other equipment
+- **Poor network performance**, such as dropped calls and weak data
+- **No accountable manufacturer** for warranty, repairs or software updates
+
+A brand on the list is therefore not "illegal to own" in the way a stolen phone is. It is a brand that vendors are prohibited from selling because nobody has shown the CA that its phones are safe and compatible.
+
+## Banned Brand, Counterfeit, Stolen: Three Different Problems
+
+Buyers often mix these up, and each one needs a different check.
+
+| Problem | What it means | How to detect it |
+|---|---|---|
+| Non-type-approved brand | The model was never certified for Kenya | Compare the brand with the CA notice and the CA list of type approved equipment |
+| Counterfeit or cloned phone | The IMEI is invalid, or belongs to a different model | SMS the IMEI to **1555**, then run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) |
+| Stolen or blacklisted phone | An operator has reported the handset lost or stolen | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) |
+| Locked phone | A previous owner's account still controls it | [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) for iPhones |
+
+A "Samsung" or "iPhone" at half the market price is far more likely to be a counterfeit or a stolen phone than one of the 21 listed brands. Do not stop at the brand name on the box.
+
+## How to Check a Phone Before You Buy in Kenya
+
+**Step 1: Read the IMEI from the phone itself.** Open the dialler and type `*#06#`. Do it yourself and do not accept a screenshot. A dual-SIM phone shows two numbers, IMEI1 and IMEI2. Each has 15 digits.
+
+**Step 2: SMS the IMEI to 1555.** This is the CA's verification service, and the CA lists it as free. The reply shows the make and model registered for that IMEI. You can also use the IMEI checker on the CA website.
+
+**Step 3: Compare the reply with the phone in your hand.** If the reply names a different make or model, or says the IMEI is invalid, walk away. A cloned or invented IMEI is the most common sign of a fake.
+
+**Step 4: Check the brand against the CA lists.** Look at the notice of 21 brands above, then search the model in the CA's **list of type approved equipment** on ca.go.ke. Unknown brand and no entry on the approved list is a clear reason not to buy.
+
+**Step 5: Run a TAC lookup.** The first eight digits of an IMEI are the **Type Allocation Code**, issued through the GSMA to the real manufacturer. Our [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) decodes it and shows the brand and model the code was issued for. A phone sold as one brand whose TAC belongs to another is a counterfeit.
+
+**Step 6: For a used phone, check the blacklist and the locks.** Run the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist), and for an iPhone the [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud), before any M-PESA payment.
+
+**Step 7: Get a receipt with the IMEI written on it.** Ask for the seller's name, shop location and phone number as well. It is your proof of purchase if the phone is ever questioned or stolen.
+
+## What Each Check Proves
+
+| Check | Cost | Proves | Does not prove |
+|---|---|---|---|
+| `*#06#` on the phone | Free | The IMEI the phone reports | That the IMEI is genuine |
+| SMS to **1555** | Free | The IMEI is valid, and its make and model | Stolen or locked status |
+| CA type approved list | Free | The model is certified for Kenya | Anything about one handset |
+| [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | Free | Brand and model from the TAC | Stolen or locked status |
+| [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) | Paid | Reported lost or stolen by participating operators | Thefts never reported to an operator |
+
+## I Already Own One of These Phones. What Now?
+
+- **Nothing in the reported notice orders you to hand it in or stop using it.** The prohibition is on vendors.
+- **A switch-off is possible in principle.** In 2012 the regulator had operators disconnect about 1.9 million counterfeit handsets. No comparable order has been announced for these 21 brands.
+- **If you bought it recently, go back to the seller** with your receipt and ask for a refund or exchange. A vendor who sold a brand the CA has prohibited is in a weak position.
+- **Keep your money apps safe.** Phones from unknown manufacturers may never receive security updates. Think carefully before running M-PESA, banking and email on one.
+- **Do not pay anyone to "approve" or "register" the phone.** Type approval is applied for by manufacturers and importers, not by individual owners, and no agent can add your handset to a CA list.
+- **Never let anyone change the IMEI.** A phone with an altered IMEI can be disconnected, and tampering with an IMEI is an offence in most countries.
+
+## Does This Have Anything to Do With IMEI Registration?
+
+No. The 2026 notice is about type approval of models. It is separate from the 2024 plan by the CA and KRA to collect IMEI numbers, which the High Court quashed on **18 July 2025** in a petition brought by the Katiba Institute. The CA has appealed. Residents are not required to register an IMEI to use a phone in Kenya, but vendors must still sell only type approved equipment.
+
+## Frequently Asked Questions
+
+**Which phones are banned in Kenya in 2026?**
+The CA named 21 non-type-approved brands on 10 February 2026: Tinsik, Realfone, F+, Fonrox, Mez, Nemojo, Vue, Bundy, Qqmee, U-FM, Chatada, Superx, Momofly, WR, X.Oda, Smba, Q-Seven, Ugbad, FT, Raeno and Switch. Vendors may not sell them.
+
+**Are Tecno, Infinix, itel, Samsung, Oppo or Xiaomi on the list?**
+No. None of the mainstream brands sold in Kenya is among the 21. You should still check the individual phone, because counterfeit copies of popular brands are common.
+
+**Will my phone be switched off if it is one of the 21 brands?**
+We found no CA announcement saying so. The notice is reported as a ban on sale and distribution. Follow ca.go.ke for any change.
+
+**How do I check if a phone is type approved in Kenya?**
+Search the model in the CA's list of type approved equipment on its website, and SMS the phone's IMEI to 1555 to confirm the make and model match.
+
+**Is the 1555 check free?**
+The CA lists it as a free service. It replies only to a message you send. Treat any unsolicited text asking you to "register" your IMEI as a scam.
+
+**Does a valid 1555 reply mean the phone is not stolen?**
+No. It confirms the IMEI and the model. A stolen-phone report is a separate record, which is why a blacklist check matters for used phones.
+
+**Can a phone show two IMEIs?**
+Yes. Dual-SIM phones have one IMEI per SIM slot. Check both.
+
+## Check the IMEI Before You Pay
+
+A brand list tells you what not to buy. It cannot tell you whether the phone in front of you is the model the seller claims, or whether it was reported stolen last week. These checks can:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) for the real brand and model behind the IMEI
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) for lost and stolen reports
+- [iCloud Activation Lock Check](https://imeihub.net/service.php?slug=apple-icloud) for every second-hand iPhone
+
+This article reflects public reporting of the CA notice as of **25 November 2026**. The CA can update its lists at any time, so confirm the current position on [ca.go.ke](https://www.ca.go.ke/) before a large purchase.
+ARTICLE_NOV25_KE_BANNED,
+    ],
+    [
         'slug' => 'best-free-imei-checker-comparison-2026',
         'title' => 'Best Free IMEI Checkers in 2026: imeihub vs IMEI.info, iFreeiCloud, Swappa & Apple',
         'meta_title' => 'Best Free IMEI Checkers 2026: Side-by-Side Comparison',
