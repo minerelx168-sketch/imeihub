@@ -8,136 +8,136 @@ declare(strict_types=1);
 
 return [
     [
-        'slug' => 'ncc-imei-check-nigeria-device-checker-315',
-        'title' => 'NCC IMEI Check Nigeria: Verify Your Phone With *315#',
-        'meta_title' => 'NCC IMEI Check Nigeria: *315# Device Checker Guide (2026)',
-        'excerpt' => 'How to run an NCC IMEI check in Nigeria with *315# or the Device Checker, read the result, and avoid buying a phone that gets blocked.',
+        'slug' => 'myanmar-phone-registration-travelers-ceir-pd-form',
+        'title' => 'Myanmar Phone Registration for Travelers: CEIR Guide',
+        'meta_title' => 'Myanmar Phone Registration for Travelers: CEIR & PD Form 2026',
+        'excerpt' => 'Flying into Myanmar with a phone? How the CEIR Passenger Declaration Form, two-phone limit, 30-day deadline and import taxes work.',
         'date' => '2026-11-26',
         'tag' => 'Regulation',
-        'body' => <<<'ARTICLE_NOV26_NCC_IMEI_CHECK_NIGERIA'
-An **NCC IMEI check** tells you whether a phone is cleared to stay on Nigerian mobile networks. Since **7 October 2026**, the Nigerian Communications Commission (NCC) has enforced a tighter Type Approval and device verification framework, and phones that fail it can lose service on MTN, Airtel, Glo and T2 (formerly 9mobile) after **30 cumulative days** of use. The official check is free to run: dial `*315#` or use the NCC Device Checker with the phone's 15-digit IMEI.
+        'body' => <<<'ARTICLE_NOV26_MYANMAR_CEIR_TRAVELERS'
+Travelers entering Myanmar with a phone that is not already in the country's **Central Equipment Identity Register (CEIR)** are expected to declare it to customs on a **Passenger Declaration Form (PD Form)**, listing the IMEI of each handset. Reported rules allow **up to two phones per passenger**, with customs duty, commercial tax and advance income tax due **within 30 days** of filing the form. A phone that stays unregistered can be cut off from Myanmar mobile networks.
 
-This guide explains how to run the check, what each result means, who is affected, and which extra checks a used-phone buyer in Lagos, Abuja or Port Harcourt should still do before paying.
+This guide is for tourists, business visitors, returning migrant workers and anyone carrying a phone for family. It covers what to prepare before the flight, what happens at the customs counter, what it costs, and how to check a handset before you carry it across a border.
 
-## Quick Answer: How to Do an NCC IMEI Check
+## Quick Answer for Travelers
 
-- **Step 1 — Get the IMEI:** Dial `*#06#` on the phone. Write down every 15-digit number shown. A dual-SIM phone has two IMEIs and both matter.
-- **Step 2 — Dial the NCC code:** From a Nigerian SIM, dial `*315#` and choose the option to check a device (reported as option 1, "Check this device").
-- **Step 3 — Or use the web checker:** Open the official NCC Device Checker at [ncc.gov.ng/DeviceChecker](https://ncc.gov.ng/DeviceChecker) and enter the IMEI.
-- **Step 4 — Read both parts of the result:** You want to see that the model is **Type Approved** and that this specific handset is **verified** for use on Nigerian mobile networks.
-- **Step 5 — Need a person?** Call **315** for Device Checker assistance.
+- **Before you fly:** Dial `*#06#` and save every 15-digit IMEI. Dual-SIM phones have two.
+- **At the airport:** Declare unregistered phones at the customs counter on a PD Form at Yangon, Mandalay or Nay Pyi Taw international airport.
+- **Limit:** Two phones per person, and that count includes the phone in your pocket.
+- **Deadline:** Pay the assessed taxes within 30 days of submitting the PD Form.
+- **Reported tax:** 5% customs duty, 5% commercial tax and 2% advance income tax, plus a redemption fine where one applies.
+- **Help line:** CEIR call centre on **1577** or **1755**, or the official portal at [ceir.gov.mm](https://ceir.gov.mm).
 
-## What Changed in Nigeria in 2026
-
-Nigeria has required Type Approval for telecom equipment for years, but until 2026 nothing checked individual handsets at network level. That changed with the NCC's **Device Management System (DMS)**, a central registry of device identifiers such as IMEIs.
+## How Myanmar's CEIR Reached Travelers
 
 | Date | What happened |
 | --- | --- |
-| 9 September 2026 | NCC launched the first phase of the DMS for SIM-enabled devices |
-| 6 October 2026 | Extended onboarding deadline for manufacturers, importers and vendors (moved from 7 September) |
-| 7 October 2026 | Enhanced Type Approval and device verification framework took effect |
-| 10 October 2026 | SMS notices from sender ID "NCC-Checker" began reaching users of unverified devices |
-| Mid-October 2026 | NCC publicised the `*315#` Device Checker; about 231 million devices already on Nigerian networks were reported as captured automatically |
-| 13 November 2026 | NCC consumer alert warning about fake device-registration websites |
-| Late November 2026 | Nigerian media report disconnection notices and the first disconnections of unverified devices |
+| March 2026 | Myanmar launched the CEIR, described officially as a measure against illegal handsets and online scams |
+| By 31 March 2026 | Phones already in use on a local SIM were to be registered automatically, provided they connected at least once |
+| 1 April 2026 | A 30-day grace period began for unregistered handsets, after which unpaid devices lose network access |
+| Mid-2026 | Customs introduced the Passenger Declaration Form route for phones carried through international airports |
+| July 2026 | Reports of the registration requirement being extended to travelers entering by land and sea |
 
-The rule is wider than smartphones. Reporting on the framework lists feature phones, cellular tablets, modems, routers, PoS terminals and IoT devices — anything that takes a SIM.
+Sources: [DFDL's legal update on registration for travelers](https://www.dfdl.com/insights/legal-and-tax-updates/myanmar-mobile-phone-registration-for-travelers-entering-myanmar/), [VDB Loi's tax and customs alert on the Passenger Declaration](https://www.vdb-loi.com/mm_publications/myanmar-tax-customs-alert-passenger-declaration-required-for-mobile-devices/), [Eleven Media on the two-phone limit](https://elevenmyanmar.com/news/passengers-entering-myanmar-limited-to-two-mobile-phones-each-under-ceir-registration-rules) and [Mizzima on the extension to international travelers](https://eng.mizzima.com/2026/07/15/36355).
 
-Sources worth reading in full: the [NCC Device Checker and Type Approval FAQ](https://ncc.gov.ng/frequently-asked-questions/ncc-device-checker-and-type-approval), [Channels Television's report on the *315# launch](https://www.channelstv.com/2026/10/13/ncc-unveils-315-device-checker-in-move-against-fake-phones/), and [Nigeria Communications Week's coverage of the 30-day notices](https://www.nigeriacommunicationsweek.com.ng/2026/10/11/ncc-to-block-unapproved-phones-gives-30-day-disconnection-notices).
+## Who Needs to Register a Phone
 
-## Who Needs to Act — and Who Does Not
-
-| Your situation | What the NCC framework says | What to do |
+| Your situation | Registration needed? | Notes |
 | --- | --- | --- |
-| Phone was already in use on a Nigerian SIM before 7 October 2026 | Automatically verified | Nothing. Dial `*315#` once if you want confirmation |
-| Buying a new phone from a Nigerian retailer | Seller's stock should be Type Approved and uploaded by the importer | Check the IMEI before paying |
-| Buying a used phone that has already been used in Nigeria | Permitted; previously connected devices are generally verified | Check the IMEI before paying |
-| Buying a "UK used" or "US used" phone that has never been on a Nigerian network | Highest risk — it has no verification history | Do not pay until `*315#` shows it verified |
-| You bought a phone abroad for personal use | Individuals can verify using their travel history | Call 315 for the step-by-step process |
-| Visitor or diaspora Nigerian home for a short stay | Reported allowance of up to 30 cumulative days within a year without verification | Longer stay? Call 315 before the days run out |
-| You received an "NCC-Checker" SMS | Device is flagged as unverified with a 30-cumulative-day countdown | Check the IMEI, then contact the seller with your receipt |
+| Short visit, phone stays on Wi-Fi or hotel internet only | Not for Wi-Fi use | CEIR controls mobile-network access, not Wi-Fi |
+| Short visit, you want a local SIM (MPT, ATOM, Ooredoo, Mytel) | Likely yes | Declare at customs; reports say use beyond 30 days requires registration |
+| Returning resident or migrant worker with a phone bought abroad | Yes | Declare on arrival and pay within 30 days |
+| Carrying a second phone as a gift | Yes | Counts toward the two-phone limit |
+| Carrying three or more phones | Not through the passenger route | Extra handsets fall outside the PD Form allowance |
+| Phone previously used on a Myanmar SIM before 31 March 2026 | Usually already registered | Confirm the status on ceir.gov.mm |
 
-Two points are easy to miss. First, the 30 days are **cumulative days of use on Nigerian networks**, not a fixed calendar date. Second, the NCC states that an unverified result does **not** automatically mean the phone is counterfeit — it can also mean the importer never uploaded that IMEI.
+One point the published guidance does not settle is whether a short-stay visitor on **international roaming** from a foreign SIM is treated differently from one who buys a local SIM. If your trip depends on mobile data, ask your home operator and call 1577 before you travel rather than assuming an exemption.
 
-## How to Read Your NCC Device Checker Result
+## What to Prepare Before You Fly
 
-| Result you see | What it means | Next step |
-| --- | --- | --- |
-| Type Approved and verified | Model is approved and this handset is cleared for Nigerian networks | Safe on the regulatory side; continue with the other checks below |
-| Type Approved but not verified | Model is fine, but this unit's IMEI is not in the DMS | Ask the seller or importer to fix it, or follow the personal-import route through 315 |
-| Not Type Approved | The model itself has no NCC approval | Avoid buying; an individual cannot fix a model-level problem |
-| IMEI not recognised or invalid | Typing error, or a cloned or fake IMEI | Re-read `*#06#` and try again; if it still fails, walk away |
+- **Every IMEI, written down.** Dial `*#06#`, or read it in Settings. Do not rely on the box — a box IMEI that differs from the handset causes problems at the counter.
+- **Passport and a copy of the photo page.**
+- **Boarding pass and air ticket.** Keep them after landing; they are listed among the documents for CEIR registration.
+- **Proof of purchase and price,** if you have it. An invoice gives customs a basis for valuing the phone.
+- **A clean device history.** Run the IMEI through a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm it is valid and decodes to the right model, and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to confirm it is not reported lost or stolen. A registry cannot make a blacklisted or cloned IMEI usable.
 
-If the first try fails, the NCC's own advice is to confirm you typed the IMEI correctly before assuming the worst.
+## Step by Step: Declaring a Phone on Arrival
 
-## What an NCC Check Does Not Tell You
+- **Step 1 — Go to the customs counter** after baggage claim and ask for the Passenger Declaration Form for mobile devices.
+- **Step 2 — Enter each phone's IMEI.** For dual-SIM phones, give both IMEIs so that neither SIM slot is left unregistered.
+- **Step 3 — Keep the original stamped declaration.** It is one of the documents needed to finish CEIR registration.
+- **Step 4 — Complete the CEIR application.** Reported requirements are the CEIR application, passport copy, boarding pass, air ticket and the original customs declaration.
+- **Step 5 — Pay within 30 days** of submitting the PD Form. Payment and status checks run through ceir.gov.mm; Internal Revenue Department and Customs Department counters have also been reported as payment points.
+- **Step 6 — Confirm the result.** Check the IMEI status on ceir.gov.mm, or call 1577 or 1755, and keep a screenshot.
 
-The NCC is clear that a pass is not a complete assessment of a device's condition, repair history, software or the seller's claims. For a used phone, a passed NCC IMEI check still leaves four expensive risks open:
+## How Much Does It Cost?
 
-- **Stolen abroad:** Many imported used phones come from the UK, US and UAE. A handset can pass in Nigeria and still sit on the international GSMA blacklist as lost or stolen — which matters for resale, travel and roaming.
-- **iCloud Activation Lock:** An iPhone with Find My still on is unusable after a reset, whatever its NCC status.
-- **Carrier lock:** A phone locked to a foreign carrier will reject Nigerian SIMs.
-- **Swapped parts or wrong model:** The IMEI on the screen should decode to the same model, storage and colour as the phone in your hand.
+Legal and press summaries give the same three components for phones declared by passengers:
 
-Our tools cover those gaps. They do not replace the NCC Device Checker, and the NCC Device Checker does not replace them.
+| Component | Reported rate |
+| --- | --- |
+| Customs duty | 5% |
+| Commercial tax | 5% |
+| Advance income tax | 2% |
+| Redemption fine | Only where applicable, for example late or non-compliant devices |
+
+That is about **12% of the value customs assigns to the phone** before any fine. As an illustration only: on a handset assessed at 800 US dollars, the three taxes together come to roughly 96 dollars. Customs sets the assessed value and the exact calculation, so treat your own figure as an estimate until the official assessment is issued. Local reporting has cited fines of up to 25% for non-compliant devices; that number comes from news calculations, not a published official schedule.
+
+## What Happens If You Skip Registration
+
+- **Loss of mobile service.** An unregistered handset can be blocked from calls, SMS and mobile data on every Myanmar operator.
+- **Tax plus a fine to reconnect.** Reports say a blocked phone is restored only after the original tax and a penalty are paid.
+- **Wi-Fi keeps working.** A CEIR block applies to cellular networks, so the phone still works on Wi-Fi.
+- **Resale gets harder.** A local buyer who checks the IMEI will see an unregistered device and expect a discount.
+
+## Checks a Registry Will Not Do for You
+
+CEIR registration answers one question: may this IMEI use Myanmar networks? It says nothing about whether the phone is worth carrying across the border in the first place. Many phones reach Myanmar from Thailand, China, Singapore and Malaysia, so check these before you buy or accept a device to bring in:
 
 | Check | What it answers | Where | Cost |
 | --- | --- | --- | --- |
-| NCC Device Checker | Is it Type Approved and verified for Nigerian networks? | `*315#` or the NCC portal | Free to run |
-| IMEI validity and model decode | Is the IMEI real, and does it match this model? | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | $0.00 |
+| CEIR status | Is this IMEI registered for Myanmar networks? | ceir.gov.mm or 1577 | Official service |
+| IMEI validity and model | Is the IMEI genuine and does it match the handset? | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | $0.00 |
 | Global blacklist | Was it reported lost or stolen in another country? | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) | From $0.05 |
-| iCloud status | Is Find My / Activation Lock on? | [iCloud ON/OFF](https://imeihub.net/service.php?slug=apple-icloud-status) | $0.01 |
+| iCloud status | Is Find My / Activation Lock still on? | [iCloud ON/OFF](https://imeihub.net/service.php?slug=apple-icloud-status) | $0.01 |
 | SIM lock | Is the iPhone locked to a foreign carrier? | [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) | $0.05 |
 
-## Buying a Used Phone in Computer Village or Wuse: A 5-Minute Routine
+Our checks do not register a phone with CEIR and do not replace the customs declaration. They tell you whether the device has problems that registration cannot fix.
 
-Whether you are in Computer Village (Ikeja), Banex Plaza (Abuja) or dealing with an Instagram or Jiji seller, do these in order **before** money changes hands:
+## Privacy: What Travelers Should Know
 
-- **Read the IMEI yourself.** Dial `*#06#` on the phone. Do not accept an IMEI read out by the seller or printed on a box. Compare it with the number in Settings and on the SIM tray or back cover.
-- **Run the NCC check on every IMEI.** Dial `*315#`. Use your own SIM in your own phone if the seller's device has no SIM in it.
-- **Decode the IMEI.** Paste it into the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). If a phone sold as a Galaxy S24 decodes as a different model, the IMEI has been tampered with.
-- **Run a blacklist check.** A [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) takes seconds and costs less than a sachet of water.
-- **For iPhones, confirm Find My is off.** Check in Settings and confirm with an [iCloud ON/OFF](https://imeihub.net/service.php?slug=apple-icloud-status) lookup.
-- **Get a receipt with the IMEI written on it,** plus the seller's name and phone number. If the device is later flagged, this is your evidence for a refund or a complaint.
-
-## What to Do If You Get the "NCC-Checker" SMS
-
-- **Do not click links in follow-up messages.** The NCC warned on 13 November 2026 about fake registration sites. The only official routes are `*315#`, the NCC portal and the 315 line. Nobody from the NCC needs your bank details or a "registration fee" sent to a personal account.
-- **Confirm the flag yourself.** Dial `*315#`. Check every IMEI on the device.
-- **Bought it in Nigeria?** Take the phone, receipt and IMEI back to the seller. Uploading IMEIs is the importer's and vendor's responsibility, not yours.
-- **Brought it in yourself?** Call 315 and follow the personal-use process, which relies on your travel history.
-- **Keep records.** Note the date of the SMS and screenshot your Device Checker result.
+Rights organisations, including groups cited by the Business and Human Rights Centre, have warned that linking each handset's IMEI to an identified person lets authorities trace devices and disable individual phones. Whether that matters for your trip is your decision. Practical options include carrying a secondary phone, relying on Wi-Fi, or registering only the device you need on a local network.
 
 ## Frequently Asked Questions
 
-**Is the NCC IMEI check free?**
-Dialling `*315#` and using the Device Checker are offered as free consumer services, and the NCC's published FAQ lists no consumer fee. Type Approval fees apply to manufacturers and importers, not to someone checking a handset.
+**Do tourists have to register a phone in Myanmar?**
+If you use only Wi-Fi, a CEIR block does not affect you. If you plan to use a Myanmar SIM, declare the phone on arrival; reports indicate that an unregistered phone used for more than 30 days needs registration. Rules for short stays on international roaming are not clearly published, so confirm with the call centre.
 
-**Will my current phone stop working?**
-If it was already active on a Nigerian network before 7 October 2026, it was verified automatically and you do not need to do anything.
+**How many phones can I bring into Myanmar?**
+Reported customs rules allow CEIR registration for up to two phones per passenger arriving at Yangon, Mandalay and Nay Pyi Taw international airports, including your personal phone.
 
-**Can I still use a phone I bought in the UK, US or Dubai?**
-Yes, provided the model meets NCC Type Approval requirements and the handset passes verification. Approval in another country does not carry over automatically. Individuals who bought a device abroad for personal use verify it through the 315 process.
+**I arrived by land. Does this apply to me?**
+Reports from July 2026 say the requirement was extended to travelers entering by land and sea. Ask at the border customs post and keep whatever declaration you are given.
 
-**Does the NCC see my messages or photos?**
-The NCC says the system holds device identification information such as IMEI numbers and does not give it access to the content of your device.
+**I forgot to declare at the airport. What now?**
+Contact the CEIR call centre on 1577 or 1755 as early as possible and keep your passport, boarding pass and ticket. Expect the standard taxes, and possibly a redemption fine.
 
-**Can a blocked phone still use Wi-Fi?**
-A network-level IMEI block stops calls, SMS and mobile data on Nigerian networks. It does not disable Wi-Fi.
+**Does a dual-SIM phone count as two phones?**
+It is one phone with two IMEIs. Declare both numbers so that both SIM slots work.
 
-**Is changing the IMEI a way around it?**
-No. Altering an IMEI is illegal in Nigeria, produces a number the checker will reject, and makes the phone unsellable.
+**Can I check CEIR status from abroad before I travel?**
+You can try the status check on ceir.gov.mm. For a full background check on the device itself, start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check).
 
-## Check Before You Pay
+## Before You Pack the Phone
 
-The rules are still settling: traders have asked for more time, and news reports differ on how far disconnections have gone. Treat the NCC's own channels as the final word on your device's status, and re-check close to the day you buy.
+Myanmar's rules have changed several times in 2026 and published details are not always consistent, so confirm the current position with customs or the CEIR call centre close to your travel date.
 
 - [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the IMEI is valid and matches the model
-- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm it was not reported lost or stolen abroad
-- [IMEI Check by Country](https://imeihub.net/article/imei-check-by-country) — how Nigeria compares with PTA, CEIR and other national registries
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm it is not reported lost or stolen
+- [ceir.gov.mm IMEI Check and Register guide](https://imeihub.net/article/ceir-gov-mm-imei-check-register-myanmar-guide) — the registration process for residents
 
-_Last verified against NCC guidance and Nigerian press reports on 26 November 2026._
-ARTICLE_NOV26_NCC_IMEI_CHECK_NIGERIA,
+_Last verified against legal updates and press reports on 26 November 2026._
+ARTICLE_NOV26_MYANMAR_CEIR_TRAVELERS,
     ],
     [
         'slug' => 'best-free-imei-checker-comparison-2026',
