@@ -8,6 +8,175 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-serial-number-check-older-iphone-applecare-one',
+        'title' => 'iPhone Serial Number Check: Add an Older iPhone to AppleCare One?',
+        'meta_title' => 'iPhone Serial Number Check: Older iPhone, AppleCare One',
+        'excerpt' => 'Check an older iPhone for AppleCare One enrollment: separate device identity, existing coverage, account association and required condition checks.',
+        'date' => '2026-11-26',
+        'tag' => 'Apple',
+        'body' => <<<'ARTICLE_20261126_1'
+An iPhone serial number check helps identify the device and review coverage, but it cannot approve an older iPhone for AppleCare One. Check eligibility through Apple's enrollment flow, where account association, device age and condition matter. Complete any requested device check, then verify that the specific iPhone actually appears as covered.
+
+**Key takeaways**
+
+- Copy the Apple Serial Number from Settings > General > About; a 15-digit IMEI is a different identifier.
+- Open Settings > General > AppleCare & Warranty to review Apple's available options.
+- An eligibility label, a completed diagnostic and an active coverage record are different stages.
+- Free TAC model lookup does not include paid warranty, Find My / Activation Lock, SIM Lock or GSMA Blacklist reports.
+
+## Can an older iPhone qualify without current warranty coverage?
+
+An older iPhone may qualify, but an expired warranty alone neither approves nor excludes it. Apple advertises eligibility for existing devices in good condition within its age window. Use the options offered for your account and country, and distinguish adding a device from starting a new plan.
+
+[Apple's AppleCare overview](https://www.apple.com/applecare/) describes adding eligible devices already owned that are four years old or newer, with a condition assessment potentially required. This is not a promise that every iPhone sold under a particular model name can enroll.
+
+Starting a subscription is a separate gate. Apple's [plan setup instructions](https://support.apple.com/en-us/127207) direct you to an eligible initiating device, such as a recent purchase or qualifying existing coverage. Do not assume an old phone by itself qualifies you to start a plan merely because it falls within an advertised age window.
+
+Record three separate answers: Can this account start or manage the plan? Can this particular phone be added? Has coverage for this phone begun? That checklist prevents an encouraging preliminary result from being mistaken for a completed enrollment.
+
+## Which identifier and check answer each question?
+
+Use the Apple Serial Number to match the iPhone to Apple's device record, and use a complete 15-digit IMEI when a selected report requires it. Neither number performs a physical inspection. Choose the check by its purpose, keeping model identification, existing coverage and new enrollment approval separate.
+
+| Check | Input or location | What it answers | What it does not establish |
+| --- | --- | --- | --- |
+| Free basic model lookup | Full IMEI; TAC identifies the device type | Reported brand and model | AppleCare One enrollment |
+| Paid warranty report | Identifier requested by the service | Available coverage and activation fields | Guaranteed acceptance into a new plan |
+| Apple enrollment screen | Signed-in Apple Account and selected device | Options currently offered for that device | Completed coverage before enrollment finishes |
+| Apple condition check | Device assessment requested during enrollment | Required condition evidence | A substitute for verifying final coverage |
+
+**1. Match the phone.** Open Settings > General > About and copy the Serial Number. Preserve its letters and digits exactly. Apple's [identifier guide](https://support.apple.com/en-us/108037) also explains where IMEI/MEID and EID appear.
+
+**2. Label any additional identifiers.** Dial `*#06#` where supported to display the IMEI, or read it in About. Keep IMEI and IMEI2 separate if both appear. EID and MEID are not substitute values for a form specifically requesting a 15-digit IMEI. On supported iPhones, inspect the SIM tray or older back-case markings when Settings is unavailable; the location depends on the model.
+
+**3. Select the right report.** The paid [imeihub Apple Warranty & Activation service](https://imeihub.net/service.php?slug=apple-warranty) lists possible fields, including AppleCare Eligible, with availability dependent on the response. Read that field as report information, not a purchase confirmation from Apple.
+
+## What should you do when Apple requests a device check?
+
+Follow the assessment requested for the actual iPhone you want to cover. Apple may ask for remote checks, photographs or an in-store inspection. A successful serial lookup cannot replace those steps, because recognizing a device record does not establish the physical condition of the device in your hands.
+
+**1. Open the enrollment controls.** On a supported device, go to Settings > General > AppleCare & Warranty. For an existing Individual plan, choose Add Device in the AppleCare One Devices section and select the iPhone. Apple's [device-management instructions](https://support.apple.com/en-us/122224) explain the available statuses and account requirements.
+
+**2. Resolve the displayed requirement.** If a condition assessment is requested, start it on the iPhone being evaluated. Apple's [device-check guide](https://support.apple.com/en-us/127874) explains photo requirements and the Apple Store alternative. Do not upload a seller's old report as a substitute for the requested assessment.
+
+**3. Confirm the outcome.** Finish the enrollment flow, then review the device's coverage in AppleCare & Warranty or [Apple's coverage checker](https://checkcoverage.apple.com/). Keep the confirmation with the matching serial number. Stop short of describing the phone as covered while it is still awaiting action.
+
+## Frequently Asked Questions
+
+The practical distinction is between identifying an iPhone and enrolling it in a plan. These answers address the point where a lookup result often gets mistaken for approval. When a report and Apple's enrollment screen appear inconsistent, resolve the specific device record with Apple before relying on coverage.
+
+### Can a serial number check approve my older iPhone for AppleCare One?
+
+No. A serial number check can help match the device and review available coverage information. AppleCare One enrollment still follows Apple's account, eligibility and condition requirements. Treat the lookup as preparation, then complete the offered enrollment steps and verify coverage for that exact iPhone.
+
+### Can I add an iPhone that is no longer under warranty?
+
+Possibly. Apple allows qualifying older devices in good condition within its advertised eligibility window, so an expired limited warranty is not the whole decision. Check the options offered for your device and region; eligibility to add a phone differs from eligibility to start the subscription.
+
+### Why does AppleCare One say Action Needed?
+
+That status means an additional step is needed before the device can be added, such as a device check. Read the instruction beside the selected iPhone and complete it through Apple. Repeating an IMEI lookup does not perform the requested condition assessment or change that enrollment stage.
+
+### Does an AppleCare Eligible report mean my iPhone is covered?
+
+No. An eligibility field is not an active coverage agreement. Confirm the iPhone appears under the intended plan in Apple's coverage records after enrollment. A third-party report also cannot remove Find My / Activation Lock or a carrier SIM Lock to make a device ready for use.
+
+## How should you finish the eligibility check?
+
+Finish with an Apple coverage record tied to the correct iPhone, rather than a model match or a preliminary eligibility label. Keep the serial number, enrollment outcome and confirmation together. If a separate activation or warranty question remains, choose a report that specifically addresses that remaining question.
+
+Use [imeihub's paid Apple Warranty & Activation report](https://imeihub.net/service.php?slug=apple-warranty) for its listed record fields, and Apple's enrollment flow for AppleCare One acceptance. Review the current service input and scope before ordering; no lookup enrolls the phone for you.
+ARTICLE_20261126_1
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-usb-charging-only',
+        'title' => 'Samsung Tablet IMEI Check: Why Does USB Only Charge?',
+        'meta_title' => 'Samsung Tablet IMEI Check: USB Only Charging?',
+        'excerpt' => 'A tablet IMEI lookup cannot enable USB file transfer. Check One UI USB mode, unlock and permission prompts, then test a data cable with a Windows PC.',
+        'date' => '2026-11-26',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261126_2'
+A Samsung tablet IMEI check cannot enable USB file transfer or diagnose a charging-only connection. Unlock the tablet, connect it to a trusted computer, and select the file-transfer USB mode. Samsung says One UI 8 defaults to charging only, so check the active connection setting before assuming the port has failed.
+
+**Key takeaways**
+
+- Settings > About tablet identifies the model; cellular versions use a 15-digit IMEI, while Wi-Fi-only tablets do not need one for USB transfers.
+- With the cable connected, open the USB notification and choose Transferring files or the equivalent file-transfer option.
+- Use a data-capable cable and approve the connection on the unlocked tablet.
+- Free model lookup and paid Samsung or blacklist reports do not test the cable, USB port or current transfer permissions.
+
+## Why can a tablet charge without appearing in File Explorer?
+
+Charging confirms that power is reaching the tablet, but it does not confirm a working data connection. The selected USB mode, permission prompt and cable all matter. On One UI 8, check the charging-only default first; on other versions, inspect the actual setting instead of assuming the same behavior.
+
+Samsung's [USB connection-mode instructions](https://www.samsung.com/us/support/answer/ANS10013049/) identify the One UI 8 default and explain how to switch modes from the notification panel. The menu may use wording that mentions a phone even when the support instructions apply to tablets.
+
+Keep the test narrow: can Windows browse a local folder after you approve file access? Charging speed, mobile-network registration and a successful model lookup answer different questions. Record whether the PC sees nothing, sees an empty device, or disconnects during copying; those observations are more useful than a generic statement that USB is broken.
+
+## How do you test a USB file transfer step by step?
+
+Test with the tablet unlocked, a trusted Windows PC and a cable capable of carrying data. Choose file transfer, accept any access prompt and copy one small local file. If it fails, change one connection component at a time so you can identify which change affects the result.
+
+**1. Identify the tablet.** Open Settings > About tablet and note the model and software version. If you need an identifier for support, follow [Samsung's identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/). A back-case or original-box label can help when the screen is unavailable; match it to this device.
+
+**2. Make the connection.** Unlock the tablet and connect it directly to your trusted PC. Approve any request to allow data access. Samsung's [file-transfer guide](https://www.samsung.com/us/support/answer/ANS10002839/) describes this permission step and browsing the device in Windows File Explorer.
+
+**3. Set the mode.** Open the tablet's notification panel, tap the USB notification, and select Transferring files, MTP, or Transferring files / Android Auto, depending on the displayed options. Recheck the mode after reconnecting if the device is again absent from the PC.
+
+**4. Copy a test file.** Copy one small photo stored locally on the tablet into a new PC folder. Open the copied file before attempting a larger batch. Copy rather than move during troubleshooting so the original remains available if the connection drops.
+
+**5. Isolate the connection.** As a practical diagnostic sequence, try another known data-capable cable, then another PC USB port, then a second trusted computer if available. Note each outcome. Persistent failure across those tests gives support a clearer starting point than repeatedly buying reports.
+
+## Should Auto Blocker be disabled to make USB work?
+
+Do not treat every USB failure as proof that Auto Blocker is responsible. Samsung describes it as protection against unauthorized commands and other suspicious activity, and recommends leaving it enabled. Check the normal file-transfer mode and permission flow first, then investigate the exact message shown by the tablet.
+
+The [Samsung Auto Blocker guide](https://www.samsung.com/us/support/answer/ANS10003636/) locates the feature under Settings > Security and privacy > Auto Blocker and notes that behavior and menus vary with software. Blocking USB commands is not the same diagnosis as selecting charging-only mode.
+
+If a managed tablet presents an administrator restriction, record the wording and contact the administrator. Do not interpret a carrier-unlocked result as permission to change organizational settings. Likewise, a paid Knox Guard report is not a live readout of every USB security control on the device.
+
+## Which checks are useful for identity and which test the connection?
+
+Use the model number for instructions, an IMEI only for a service requiring that identifier, and a real file copy to test USB transfer. A report about network or device records cannot observe the current cable connection. Choose the evidence that matches the symptom you are trying to resolve.
+
+| Check or observation | Required input | Useful result | Boundary |
+| --- | --- | --- | --- |
+| About tablet | Access to Settings | Model and device identifiers | Does not test PC connectivity |
+| Free TAC model lookup | Cellular tablet's full 15-digit IMEI | Reported brand and model | Does not change USB mode |
+| Paid Samsung Info + Knox Guard | Supported IMEI | Available Samsung record fields | Does not inspect cable or permissions |
+| Paid GSMA Blacklist report | Supported IMEI | Reported network blacklist status | Does not certify USB hardware |
+| File Explorer copy test | Unlocked tablet, data cable and PC | Transfer succeeds in that setup | Does not establish cellular status |
+
+The [imeihub service catalog](https://imeihub.net/services.php) separates the free basic lookup from paid reports. For a Wi-Fi-only tablet, do not enter its serial number into a form requiring 15 IMEI digits. A cellular identifier, IMEI2, EID or legacy MEID is not a USB access credential.
+
+## Frequently Asked Questions
+
+A USB problem should be described by what happens during the connection, not by whether an IMEI report looks reassuring. These answers separate tablet identity, file access and security settings. Use the visible notification and one repeatable copy test to decide what to check next on your own setup.
+
+### Why does my Samsung tablet charge but not appear on my PC?
+
+The tablet may be using charging-only mode, awaiting permission, or connected through a cable that does not provide a working data path. Unlock it, open the USB notification and select file transfer. On One UI 8, Samsung documents charging only as the default connection mode.
+
+### Does a Wi-Fi Samsung tablet need an IMEI to transfer files?
+
+No. USB file transfer does not require a mobile-network identifier or active SIM. Identify a Wi-Fi-only tablet by its model and serial number, then use the cable, permission and file-transfer controls. Do not invent an IMEI or borrow another device's number to troubleshoot the connection.
+
+### Should I turn off Auto Blocker to copy photos?
+
+Do not disable it as the first troubleshooting step. Samsung recommends keeping Auto Blocker enabled. Start with the ordinary USB mode and access prompt, and read any specific security message. A failed copy alone does not establish that a protection setting caused the problem.
+
+### Does a clean IMEI report prove the USB port works?
+
+No. An IMEI report describes the records returned by its selected service; it does not inspect USB hardware. Even a correct model and clean blacklist result cannot confirm data transfer. Test a local file copy with a known data cable and investigate any repeated disconnects separately.
+
+## What should you check before paying for another report?
+
+Check whether the problem is missing device identity or a failed connection. For charging-only USB behavior, resolve the mode, permission and cable path first. Order a device report only when you have a separate question about supported record fields, and retain the practical transfer test as its own evidence.
+
+For that separate identity question, start with [imeihub's free basic IMEI lookup](https://imeihub.net/). Review [Samsung Info + Knox Guard](https://imeihub.net/service.php?slug=samsung-info) only if its paid record fields answer what you need. Neither lookup enables file transfer, removes an activation lock or unlocks a carrier SIM Lock.
+ARTICLE_20261126_2
+    ],
+    [
         'slug' => 'imei-checker-online-two-phones-same-tac',
         'title' => 'IMEI Checker Online: Can Two Phones Share the Same TAC?',
         'meta_title' => 'IMEI Checker Online: Why Two Phones Share a TAC',
