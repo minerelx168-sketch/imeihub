@@ -149,7 +149,7 @@ layout_head(
     $extraHead
 );
 ?>
-    <article class="article-page">
+    <article class="article-page" data-article-slug="<?= htmlspecialchars($article['slug'], ENT_QUOTES, 'UTF-8') ?>">
         <header class="page-hero">
             <div class="container">
                 <p class="breadcrumbs">
@@ -191,3 +191,4 @@ layout_head(
         </section>
     </article>
 <?php layout_foot(); ?>
+

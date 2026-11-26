@@ -44,6 +44,7 @@ out(200, [
     'ok'              => true,
     'public_id'       => $row['public_id'],
     'service'         => $row['service_name'] ?: $row['service_code'],
+    'service_code'    => $code,
     'status'          => $row['status'],
     'cost'            => $row['cost'],
     'created_at'      => $row['created_at'],
@@ -54,3 +55,4 @@ out(200, [
     'details'         => $curated ? service_filter_details($code, $details) : $details,
     'details_curated' => $curated,
 ]);
+
