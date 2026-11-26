@@ -8,6 +8,138 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'myanmar-phone-registration-travelers-ceir-pd-form',
+        'title' => 'Myanmar Phone Registration for Travelers: CEIR Guide',
+        'meta_title' => 'Myanmar Phone Registration for Travelers: CEIR & PD Form 2026',
+        'excerpt' => 'Flying into Myanmar with a phone? How the CEIR Passenger Declaration Form, two-phone limit, 30-day deadline and import taxes work.',
+        'date' => '2026-11-26',
+        'tag' => 'Regulation',
+        'body' => <<<'ARTICLE_NOV26_MYANMAR_CEIR_TRAVELERS'
+Travelers entering Myanmar with a phone that is not already in the country's **Central Equipment Identity Register (CEIR)** are expected to declare it to customs on a **Passenger Declaration Form (PD Form)**, listing the IMEI of each handset. Reported rules allow **up to two phones per passenger**, with customs duty, commercial tax and advance income tax due **within 30 days** of filing the form. A phone that stays unregistered can be cut off from Myanmar mobile networks.
+
+This guide is for tourists, business visitors, returning migrant workers and anyone carrying a phone for family. It covers what to prepare before the flight, what happens at the customs counter, what it costs, and how to check a handset before you carry it across a border.
+
+## Quick Answer for Travelers
+
+- **Before you fly:** Dial `*#06#` and save every 15-digit IMEI. Dual-SIM phones have two.
+- **At the airport:** Declare unregistered phones at the customs counter on a PD Form at Yangon, Mandalay or Nay Pyi Taw international airport.
+- **Limit:** Two phones per person, and that count includes the phone in your pocket.
+- **Deadline:** Pay the assessed taxes within 30 days of submitting the PD Form.
+- **Reported tax:** 5% customs duty, 5% commercial tax and 2% advance income tax, plus a redemption fine where one applies.
+- **Help line:** CEIR call centre on **1577** or **1755**, or the official portal at [ceir.gov.mm](https://ceir.gov.mm).
+
+## How Myanmar's CEIR Reached Travelers
+
+| Date | What happened |
+| --- | --- |
+| March 2026 | Myanmar launched the CEIR, described officially as a measure against illegal handsets and online scams |
+| By 31 March 2026 | Phones already in use on a local SIM were to be registered automatically, provided they connected at least once |
+| 1 April 2026 | A 30-day grace period began for unregistered handsets, after which unpaid devices lose network access |
+| Mid-2026 | Customs introduced the Passenger Declaration Form route for phones carried through international airports |
+| July 2026 | Reports of the registration requirement being extended to travelers entering by land and sea |
+
+Sources: [DFDL's legal update on registration for travelers](https://www.dfdl.com/insights/legal-and-tax-updates/myanmar-mobile-phone-registration-for-travelers-entering-myanmar/), [VDB Loi's tax and customs alert on the Passenger Declaration](https://www.vdb-loi.com/mm_publications/myanmar-tax-customs-alert-passenger-declaration-required-for-mobile-devices/), [Eleven Media on the two-phone limit](https://elevenmyanmar.com/news/passengers-entering-myanmar-limited-to-two-mobile-phones-each-under-ceir-registration-rules) and [Mizzima on the extension to international travelers](https://eng.mizzima.com/2026/07/15/36355).
+
+## Who Needs to Register a Phone
+
+| Your situation | Registration needed? | Notes |
+| --- | --- | --- |
+| Short visit, phone stays on Wi-Fi or hotel internet only | Not for Wi-Fi use | CEIR controls mobile-network access, not Wi-Fi |
+| Short visit, you want a local SIM (MPT, ATOM, Ooredoo, Mytel) | Likely yes | Declare at customs; reports say use beyond 30 days requires registration |
+| Returning resident or migrant worker with a phone bought abroad | Yes | Declare on arrival and pay within 30 days |
+| Carrying a second phone as a gift | Yes | Counts toward the two-phone limit |
+| Carrying three or more phones | Not through the passenger route | Extra handsets fall outside the PD Form allowance |
+| Phone previously used on a Myanmar SIM before 31 March 2026 | Usually already registered | Confirm the status on ceir.gov.mm |
+
+One point the published guidance does not settle is whether a short-stay visitor on **international roaming** from a foreign SIM is treated differently from one who buys a local SIM. If your trip depends on mobile data, ask your home operator and call 1577 before you travel rather than assuming an exemption.
+
+## What to Prepare Before You Fly
+
+- **Every IMEI, written down.** Dial `*#06#`, or read it in Settings. Do not rely on the box — a box IMEI that differs from the handset causes problems at the counter.
+- **Passport and a copy of the photo page.**
+- **Boarding pass and air ticket.** Keep them after landing; they are listed among the documents for CEIR registration.
+- **Proof of purchase and price,** if you have it. An invoice gives customs a basis for valuing the phone.
+- **A clean device history.** Run the IMEI through a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm it is valid and decodes to the right model, and a [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) to confirm it is not reported lost or stolen. A registry cannot make a blacklisted or cloned IMEI usable.
+
+## Step by Step: Declaring a Phone on Arrival
+
+- **Step 1 — Go to the customs counter** after baggage claim and ask for the Passenger Declaration Form for mobile devices.
+- **Step 2 — Enter each phone's IMEI.** For dual-SIM phones, give both IMEIs so that neither SIM slot is left unregistered.
+- **Step 3 — Keep the original stamped declaration.** It is one of the documents needed to finish CEIR registration.
+- **Step 4 — Complete the CEIR application.** Reported requirements are the CEIR application, passport copy, boarding pass, air ticket and the original customs declaration.
+- **Step 5 — Pay within 30 days** of submitting the PD Form. Payment and status checks run through ceir.gov.mm; Internal Revenue Department and Customs Department counters have also been reported as payment points.
+- **Step 6 — Confirm the result.** Check the IMEI status on ceir.gov.mm, or call 1577 or 1755, and keep a screenshot.
+
+## How Much Does It Cost?
+
+Legal and press summaries give the same three components for phones declared by passengers:
+
+| Component | Reported rate |
+| --- | --- |
+| Customs duty | 5% |
+| Commercial tax | 5% |
+| Advance income tax | 2% |
+| Redemption fine | Only where applicable, for example late or non-compliant devices |
+
+That is about **12% of the value customs assigns to the phone** before any fine. As an illustration only: on a handset assessed at 800 US dollars, the three taxes together come to roughly 96 dollars. Customs sets the assessed value and the exact calculation, so treat your own figure as an estimate until the official assessment is issued. Local reporting has cited fines of up to 25% for non-compliant devices; that number comes from news calculations, not a published official schedule.
+
+## What Happens If You Skip Registration
+
+- **Loss of mobile service.** An unregistered handset can be blocked from calls, SMS and mobile data on every Myanmar operator.
+- **Tax plus a fine to reconnect.** Reports say a blocked phone is restored only after the original tax and a penalty are paid.
+- **Wi-Fi keeps working.** A CEIR block applies to cellular networks, so the phone still works on Wi-Fi.
+- **Resale gets harder.** A local buyer who checks the IMEI will see an unregistered device and expect a discount.
+
+## Checks a Registry Will Not Do for You
+
+CEIR registration answers one question: may this IMEI use Myanmar networks? It says nothing about whether the phone is worth carrying across the border in the first place. Many phones reach Myanmar from Thailand, China, Singapore and Malaysia, so check these before you buy or accept a device to bring in:
+
+| Check | What it answers | Where | Cost |
+| --- | --- | --- | --- |
+| CEIR status | Is this IMEI registered for Myanmar networks? | ceir.gov.mm or 1577 | Official service |
+| IMEI validity and model | Is the IMEI genuine and does it match the handset? | [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) | $0.00 |
+| Global blacklist | Was it reported lost or stolen in another country? | [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) | From $0.05 |
+| iCloud status | Is Find My / Activation Lock still on? | [iCloud ON/OFF](https://imeihub.net/service.php?slug=apple-icloud-status) | $0.01 |
+| SIM lock | Is the iPhone locked to a foreign carrier? | [Apple SIM-Lock Status](https://imeihub.net/service.php?slug=apple-sim-lock) | $0.05 |
+
+Our checks do not register a phone with CEIR and do not replace the customs declaration. They tell you whether the device has problems that registration cannot fix.
+
+## Privacy: What Travelers Should Know
+
+Rights organisations, including groups cited by the Business and Human Rights Centre, have warned that linking each handset's IMEI to an identified person lets authorities trace devices and disable individual phones. Whether that matters for your trip is your decision. Practical options include carrying a secondary phone, relying on Wi-Fi, or registering only the device you need on a local network.
+
+## Frequently Asked Questions
+
+**Do tourists have to register a phone in Myanmar?**
+If you use only Wi-Fi, a CEIR block does not affect you. If you plan to use a Myanmar SIM, declare the phone on arrival; reports indicate that an unregistered phone used for more than 30 days needs registration. Rules for short stays on international roaming are not clearly published, so confirm with the call centre.
+
+**How many phones can I bring into Myanmar?**
+Reported customs rules allow CEIR registration for up to two phones per passenger arriving at Yangon, Mandalay and Nay Pyi Taw international airports, including your personal phone.
+
+**I arrived by land. Does this apply to me?**
+Reports from July 2026 say the requirement was extended to travelers entering by land and sea. Ask at the border customs post and keep whatever declaration you are given.
+
+**I forgot to declare at the airport. What now?**
+Contact the CEIR call centre on 1577 or 1755 as early as possible and keep your passport, boarding pass and ticket. Expect the standard taxes, and possibly a redemption fine.
+
+**Does a dual-SIM phone count as two phones?**
+It is one phone with two IMEIs. Declare both numbers so that both SIM slots work.
+
+**Can I check CEIR status from abroad before I travel?**
+You can try the status check on ceir.gov.mm. For a full background check on the device itself, start with the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check).
+
+## Before You Pack the Phone
+
+Myanmar's rules have changed several times in 2026 and published details are not always consistent, so confirm the current position with customs or the CEIR call centre close to your travel date.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the IMEI is valid and matches the model
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — confirm it is not reported lost or stolen
+- [ceir.gov.mm IMEI Check and Register guide](https://imeihub.net/article/ceir-gov-mm-imei-check-register-myanmar-guide) — the registration process for residents
+
+_Last verified against legal updates and press reports on 26 November 2026._
+ARTICLE_NOV26_MYANMAR_CEIR_TRAVELERS,
+    ],
+    [
         'slug' => 'best-free-imei-checker-comparison-2026',
         'title' => 'Best Free IMEI Checkers in 2026: imeihub vs IMEI.info, iFreeiCloud, Swappa & Apple',
         'meta_title' => 'Best Free IMEI Checkers 2026: Side-by-Side Comparison',
