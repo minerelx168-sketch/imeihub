@@ -16559,5 +16559,209 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'ncc-30-day-disconnection-warning-sms-nigeria',
+        'title'   => 'NCC 30-Day Phone Warning SMS: What to Do in Nigeria',
+        'meta_title' => 'NCC 30-Day Phone Warning SMS: What to Do (Nigeria 2026)',
+        'excerpt' => 'Got an NCC SMS saying your phone may be disconnected in 30 days? Check your status on *315#, learn what the notice means and what to do.',
+        'date'    => '2026-11-27',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## The short answer
+
+If you received an SMS saying your phone is **unverified** and may be disconnected after **30 days**, do three things today:
+
+- Dial **`*315#`** and choose **option 1 (Check this device)** to see the status the Nigerian Communications Commission (NCC) holds for your handset.
+- Find your **receipt, box, or travel record** — whatever proves where and when you got the phone.
+- If the result is not "approved and verified", take that proof to the **seller**, or call the NCC's toll-free line **315** if you bought the phone abroad or from a private individual.
+
+Do **not** pay anyone who promises to "register" or "clear" your IMEI for a fee. The rest of this guide explains what the notice means, why a phone that has worked for months can be flagged, and what your realistic options are.
+
+*Last reviewed: 27 November 2026. This rule is new and still changing — see "What is still unclear" below.*
+
+---
+
+## What the NCC warning SMS actually means
+
+In October 2026 the NCC switched on consumer-facing enforcement of its **Device Management System (DMS)** — Nigeria's central register of device IMEI numbers, first announced in October 2025. Under the framework, a SIM-enabled device must pass **two** tests to stay on MTN, Airtel, Glo, 9mobile/T2 or any other Nigerian network:
+
+- **Model test:** the phone *model* holds **NCC Type Approval**.
+- **Handset test:** the *individual* handset's **IMEI** is verified in the DMS — normally because the manufacturer or importer uploaded it.
+
+When a phone on the network fails one of those tests, the system sends an automated warning. Nigerian press reports describe the countdown as **30 cumulative days of use on a Nigerian network**, not 30 calendar days from the date of the message. A phone left switched off, or used only abroad, is reported not to consume the allowance.
+
+| What the SMS says | What it means | What it does not mean |
+|---|---|---|
+| Device unverified | The IMEI is not matched to a verified record in the DMS | That the phone is stolen or fake |
+| 30 days to disconnection | The handset may lose cellular service once the allowance is used | That your SIM or phone number is being cancelled |
+| Verify your device | Check status through official NCC channels | That you should pay a third party to "register" it |
+
+A disconnection applies to the **handset's IMEI**. Your SIM, your number and your NIN link are separate; the same SIM should keep working in a compliant phone.
+
+---
+
+## Step 1: Check your status with *315#
+
+The NCC **Device Checker** is free and works three ways:
+
+- **USSD:** dial `*315#`, then select **1 – Check this device**. To check a different phone (for example one you want to buy), choose the option to enter an IMEI and type its 15 digits.
+- **Online:** use the Device Checker on the NCC's own website, [ncc.gov.ng](https://ncc.gov.ng/frequently-asked-questions/ncc-device-checker-and-type-approval).
+- **Phone:** call the NCC toll-free consumer line on **315**.
+
+To find any phone's IMEI, dial **`*#06#`**. Dual-SIM phones show **IMEI 1 and IMEI 2** — check both, because each SIM slot has its own identity on the network.
+
+A compliant phone returns a confirmation along the lines of: *"This device is NCC Type Approved and verified for use on Nigerian mobile networks."* Anything else needs follow-up.
+
+---
+
+## Step 2: Work out why your phone was flagged
+
+Most flagged phones fall into one of four groups. Knowing which one you are in tells you who can actually fix it.
+
+| Your situation | Likely reason for the flag | Who to contact first |
+|---|---|---|
+| Bought new from a Nigerian retailer | Importer or distributor has not uploaded the IMEI to the DMS | The seller, with your receipt |
+| "UK-used" / "London-used" / "US-used" phone from Computer Village or a similar market | Handset entered Nigeria outside the registered import channel | The seller; then NCC on 315 |
+| Bought abroad and carried in personally | IMEI was never declared by any Nigerian importer | NCC on 315, with proof of purchase and travel |
+| Cheap unbranded or "clone" phone | Model has no Type Approval, or the IMEI is invalid or duplicated | The seller for a refund — this is unlikely to be fixable |
+
+Two points catch people out:
+
+- **"It has worked for years" is not proof of status.** Network history does not put an IMEI in the register.
+- **A genuine phone can still be flagged.** An authentic iPhone or Galaxy bought in London, Dubai or Houston is a real device with a valid IMEI — it simply has no Nigerian import record yet.
+
+---
+
+## Step 3: Confirm the phone itself is genuine and clean
+
+Before you spend time arguing with a seller or queuing on a helpline, establish what you are actually holding. The NCC check tells you about **Nigerian regulatory status**. It does not tell you whether the IMEI belongs to the model printed on the back, or whether the phone was reported lost or stolen in the country it came from.
+
+An independent IMEI lookup answers those questions:
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — decodes the IMEI's Type Allocation Code to show the real brand and model. If your "iPhone 15 Pro" decodes as something else, the phone is a clone and no registration process will rescue it.
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — shows whether the IMEI has been reported lost, stolen or unpaid to the GSMA-linked blacklist used by carriers in the UK, US, EU and elsewhere. This matters most for foreign-used phones, where the original owner or carrier may have blocked the device after it left the country.
+
+**Important:** imeihub is an independent service. Our checks do **not** query the NCC DMS and cannot change your NCC status. Use `*315#` for the Nigerian regulatory answer, and an IMEI report to understand the device's identity and history.
+
+| Check | Answers | Cost | Official NCC result? |
+|---|---|---|---|
+| `*315#` / NCC Device Checker | Type Approval + DMS verification in Nigeria | Free | Yes |
+| imeihub Free IMEI Check | True brand and model behind the IMEI | Free | No |
+| imeihub WorldWide Blacklist Check | Lost / stolen / blocked status abroad | From $0.05 | No |
+
+If the free check shows a mismatched model, or the blacklist check shows the phone reported stolen overseas, you have strong grounds to demand a refund — and a printed result to show the seller.
+
+---
+
+## Step 4: Take action based on where you got the phone
+
+**Bought from a Nigerian shop or online store**
+
+- Go back with the receipt and the `*315#` result.
+- Ask the seller to have the importer or distributor upload the IMEI, or to replace the handset with a verified one.
+- Reported DMS fees (roughly ₦670 per IMEI for standard phones, more for premium models) are charged to **importers**, not to end users. A retailer asking you to pay again for a phone you already bought is passing on a cost that is not yours.
+
+**Bought as a foreign-used phone**
+
+- Return to the seller first. Traders' associations are part of the enforcement discussion, and established dealers are expected to resolve stock they sold.
+- If the seller refuses or has disappeared, call **315** and keep a note of the date and any reference you are given.
+
+**Bought abroad and brought in yourself**
+
+- Keep the **purchase receipt** and evidence of travel (passport stamp, boarding pass, e-ticket).
+- Call **315**. The NCC has said a regularisation process for privately purchased and personally imported phones is being introduced; at the time of writing the detailed public procedure had not been widely published.
+- Check the Device Checker again every few days — statuses can update once a process opens.
+
+**Unbranded or counterfeit phone**
+
+- If the IMEI is invalid, duplicated, or decodes to a different model, the realistic outcome is a refund from the seller or a replacement device. Type Approval is granted to manufacturers for models, not to individual owners.
+
+---
+
+## Avoid "IMEI registration" scams
+
+Enforcement panic is a gift to fraudsters. On **13 November 2026** the NCC issued a consumer alert about **fake device registration websites**. Protect yourself:
+
+- Use only **`*315#`**, the **315** helpline, and pages on **ncc.gov.ng**.
+- Ignore WhatsApp broadcasts, Telegram agents and roadside "engineers" offering to register a phone for ₦5,000 or more.
+- Never share your **NIN, BVN, bank OTP or SIM PUK** with anyone claiming to verify your device.
+- **Do not let anyone "change" or "repair" your IMEI.** Altering an IMEI is unlawful, produces a duplicate identity the DMS is specifically designed to detect, and usually makes the phone permanently unusable.
+
+---
+
+## What happens if the 30 days run out?
+
+Based on how the NCC has described the system and how similar registers work in Pakistan, Kenya and Indonesia:
+
+- The handset loses **cellular service** on Nigerian networks — calls, SMS and mobile data.
+- **Wi-Fi, the camera, apps and stored data keep working.** Nothing is erased.
+- Your **SIM and number** remain yours and can be moved to a verified phone.
+- The NCC states the DMS holds device identifiers such as IMEIs and does **not** give it access to calls, messages, photos, contacts or financial data.
+
+By late November 2026, Nigerian outlets were reporting that the first disconnections had started and that lawmakers were discussing whether to give consumers a longer compliance window. Neither point changes what you should do now: check, gather proof, and contact the seller or the NCC before your allowance is used up.
+
+---
+
+## What is still unclear
+
+We would rather tell you what is not settled than guess:
+
+- **The exact start date.** Reports cite both 7 October and 10 October 2026.
+- **The process for phones bought abroad.** Announced, but not yet fully documented for the public.
+- **Any consumer fee.** No official end-user charge has been confirmed; treat any demand for payment with suspicion.
+- **Possible extensions.** Legislative talks could change the timeline.
+
+For anything that affects your money or your line, the NCC's own channels are the final word.
+
+---
+
+## Buying a phone in Nigeria this month? Check before you pay
+
+The cheapest time to solve this problem is before the handover:
+
+- Ask the seller to dial `*#06#` in front of you and read both IMEIs off the screen — not off the box.
+- Run each IMEI through `*315#` and wait for the "Type Approved and verified" message.
+- Run the same IMEI through the [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) to confirm the model matches what you are being sold.
+- For any foreign-used phone, add the [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) so you do not inherit a device blocked in its home country.
+- Insist on a dated receipt showing the IMEI and the seller's name and shop number.
+
+Four checks, about five minutes, and you avoid buying a phone that goes silent thirty days later.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is the NCC 30-day warning SMS real or a scam?**
+A: The warnings are part of a genuine NCC enforcement programme, but scammers are imitating them. A real notice never asks you to click an unfamiliar link or pay a fee. Confirm your status yourself by dialling `*315#`.
+
+**Q: Is the 30 days counted from the day I got the SMS?**
+A: Reports describe it as 30 cumulative days of active use on a Nigerian network rather than a fixed calendar deadline. Do not rely on that to delay — check your status immediately.
+
+**Q: My iPhone was bought in the UK and is 100% original. Why was it flagged?**
+A: Being genuine is not the same as being verified in Nigeria's DMS. A phone carried in personally has no importer record. Keep your receipt and travel evidence and call the NCC on 315.
+
+**Q: Do I have to pay to verify or register my phone?**
+A: Checking status on `*315#` is free, and reported DMS fees apply to importers. No official consumer fee has been confirmed, so be wary of anyone asking for payment.
+
+**Q: Will my phone still work on Wi-Fi if it is disconnected?**
+A: Yes. A network-level block stops calls, SMS and mobile data on that handset. Wi-Fi and everything stored on the phone are unaffected.
+
+**Q: Can an imeihub check remove the NCC flag?**
+A: No. imeihub is independent of the NCC and cannot edit any government register. Our checks verify the device's true model and its lost/stolen status abroad, which helps you decide whether to pursue a refund or regularisation.
+
+**Q: Does this affect tourists and visitors roaming in Nigeria?**
+A: The reported rules target devices used on Nigerian networks with local SIMs. If you are visiting and plan to use a Nigerian SIM for more than a few weeks, check your phone on `*315#` once the SIM is active and call 315 if it is flagged.
+
+---
+
+## Check your phone now
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check) — confirm the real brand and model behind your IMEI in seconds
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) — make sure a foreign-used phone is not reported lost or stolen abroad
+
+Then dial `*315#` for your official NCC status. Knowing all three answers puts you in the strongest position with a seller, with the NCC, and with your own wallet.
+MD,
+    ],
+
 ];
 
