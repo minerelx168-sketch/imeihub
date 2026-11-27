@@ -8,6 +8,180 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 'iphone-imei-check-hearing-aid-pairing',
+        'title' => 'iPhone IMEI Check: Will Your Hearing Aids Connect?',
+        'meta_title' => 'iPhone IMEI Check: Hearing Aid Pairing Explained',
+        'excerpt' => 'Identify your iPhone, compare MFi hearing-device requirements with HAC ratings, and test pairing and call audio without mistaking an IMEI result for approval.',
+        'date' => '2026-11-27',
+        'tag' => 'iPhone',
+        'body' => <<<'ARTICLE_20261127_1'
+An iPhone IMEI check can help identify the phone, but it cannot confirm that your hearing aids will pair or deliver the call features you need. Match the exact iPhone and hearing-device models to Apple's compatibility information, then test pairing and audio. Hearing Aid Compatibility ratings and Made for iPhone streaming describe different capabilities.
+
+**Key takeaways**
+
+- Find the phone model in Settings > General > About; use the complete 15-digit IMEI only when a lookup requests it.
+- Match the hearing aid's exact model, not just its manufacturer, to the applicable compatibility information.
+- Pair MFi devices through Settings > Accessibility > Hearing Devices.
+- Test listening and speaking separately; receiving audio does not by itself establish hands-free microphone support.
+- Free model lookup and paid lock or blacklist reports do not test hearing-device connectivity.
+
+## Is hearing aid compatibility the same as MFi streaming?
+
+No. Hearing Aid Compatibility, or HAC, describes compatibility under telephone-related requirements, while Made for iPhone, or MFi, identifies a supported hearing-device connection system. A phone's HAC listing does not certify every hearing aid's wireless features. Check both product models and the specific listening or calling function you want to use.
+
+[Apple's HAC reference](https://support.apple.com/en-us/106349) presents regulatory information alongside MFi support. That separation matters: a compliance entry is not a completed Bluetooth pairing test with your own equipment.
+
+Apple's [MFi device list and system requirements](https://support.apple.com/en-us/106341) distinguish one-way audio streaming from bidirectional streaming, which supports hands-free conversation. The list marks bidirectional devices with an asterisk. Check the full hearing-device name and the relevant iPhone requirements before drawing a conclusion from a brand name alone.
+
+| Evidence | What it helps establish | What remains to check |
+| --- | --- | --- |
+| Free IMEI/TAC model lookup | Reported iPhone model | Actual model and software on the device |
+| HAC reference | Listed telephone compatibility information | Your hearing aid's specific connection features |
+| MFi compatibility listing | Supported hearing-device model and system requirements | Successful pairing in your setup |
+| Listening test | Audio reaches the hearing device | Microphone behavior during a call |
+| Conversation test | Both people can hear each other in that setup | Reliability in your normal use |
+
+## Which iPhone details should you record before pairing?
+
+Record the iPhone model, installed iOS version and hearing-device model before troubleshooting. Keep identifiers labeled separately if you also need an IMEI report. The Apple Serial Number, IMEI, IMEI2, EID and MEID serve different identification purposes; none is a pairing code to type into the hearing-device settings screen.
+
+**1. Read the phone's details.** Open Settings > General > About and record the model and iOS version. For identifiers, use [Apple's serial number and IMEI guide](https://support.apple.com/en-us/108037). Where supported, `*#06#` also displays the IMEI. Older models may have SIM-tray or back-case markings; do not expect those on every iPhone.
+
+**2. Identify the hearing device.** Use its packaging, model label or manufacturer documentation. Record the complete model name and any relevant firmware information available through its supported app. Avoid confusing a product family's marketing name with the exact variant you own.
+
+**3. Compare before changing settings.** Use the manufacturer's instructions and Apple's MFi list where applicable. A non-MFi hearing device may have a different supported connection method; its absence from that list alone does not prove it cannot work with an iPhone.
+
+This produces a useful support note: phone model, iOS version, hearing-device model, intended feature and observed failure. It is much more specific than sending only an IMEI and asking whether the phone is compatible.
+
+## How do you pair and test an MFi hearing device?
+
+After confirming compatibility, prepare the hearing device for pairing using its own instructions, bring it close to the iPhone and open Hearing Devices in Accessibility settings. Complete the displayed requests, then test a short audio sample and a normal call. Record which stage succeeds before changing the setup again.
+
+**1. Prepare the devices.** Follow the hearing-device manufacturer's pairing instructions and Apple's guidance to use current compatible iOS software. Different hearing devices enter pairing mode differently; do not assume that every rechargeable model uses the same button sequence.
+
+**2. Open the MFi controls.** Go to Settings > Accessibility > Hearing Devices. Choose Pair MFi Hearing Device if shown, or select the detected hearing-device name and respond to the pairing requests. Apple's [MFi setup guide](https://support.apple.com/en-us/108780) explains these interface variations.
+
+**3. Separate the tests.** Play a short audio sample, then make an ordinary call to someone who agrees to help. Confirm whether you hear them and whether they hear you using the intended microphone arrangement. This is a suggested verification procedure, not a claim that every supported device offers the same call features.
+
+If audio unexpectedly moves to another Apple device, consider whether it is also paired. Apple's [hearing-device user guide](https://support.apple.com/en-ca/guide/iphone/iph470b1833/ios) describes automatic switching between paired devices. Include that possibility in your test notes instead of treating every interruption as a carrier lock problem.
+
+## Frequently Asked Questions
+
+The most useful answer depends on the feature being tested: telephone compatibility, streaming, pairing or hands-free conversation. These are separate checkpoints. A model lookup can start the identification process, but the hearing-device documentation and a practical test provide the evidence needed to assess the connection you actually intend to use.
+
+### Can an iPhone IMEI check confirm hearing aid compatibility?
+
+It can help identify the iPhone model, but it cannot certify a connection with your hearing aids. Match both product models to the applicable requirements and test them together. A report about Find My / Activation Lock, SIM Lock or GSMA Blacklist status answers a different question.
+
+### Does hearing aid compatible mean Bluetooth streaming works?
+
+Not automatically. A HAC entry and a supported wireless streaming arrangement are different pieces of information. Check whether your specific hearing device uses MFi or another manufacturer-supported method, then verify the phone requirements. A general compatibility label does not demonstrate successful pairing between two particular devices.
+
+### Why can I hear a call but not talk hands-free?
+
+Receiving call audio does not establish bidirectional streaming support. Apple's MFi list distinguishes hearing devices that support hands-free conversation from those that stream in one direction. Confirm the hearing-device model and iPhone requirements, then check the intended microphone arrangement with the manufacturer if the result remains unclear.
+
+### Where do I pair Made for iPhone hearing aids?
+
+Use Settings > Accessibility > Hearing Devices on the iPhone after preparing the hearing device for pairing. Depending on the software, choose Pair MFi Hearing Device or select the device when it appears. Follow the prompts; use the hearing-device manufacturer's instructions if it uses a different connection system.
+
+## What should you verify before ordering an IMEI report?
+
+Verify what information is actually missing. If you need the phone's identity, a model lookup can help. If you already know the model and are troubleshooting hearing-device audio, focus on compatibility and pairing evidence. Buy a status report only for a separate question that its listed fields can answer.
+
+Start with [imeihub's free basic model lookup](https://imeihub.net/) when identification is needed. The [service catalog](https://imeihub.net/services.php) lists separate paid reports for warranty, Find My, carrier lock and blacklist questions. None pairs hearing devices, removes Activation Lock or unlocks the phone.
+ARTICLE_20261127_1
+    ],
+    [
+        'slug' => 'icloud-imei-check-find-my-family-location-sharing',
+        'title' => 'iCloud IMEI Check: Does Find My ON Mean Family Can See You?',
+        'meta_title' => 'iCloud IMEI Check: Find My vs Family Location Sharing',
+        'excerpt' => 'Find My ON does not identify who can see your location. Review People, Share My Location and Family settings separately from an iCloud IMEI report.',
+        'date' => '2026-11-27',
+        'tag' => 'iCloud',
+        'body' => <<<'ARTICLE_20261127_2'
+An iCloud IMEI check showing Find My ON does not tell you which family members can see your location. The result concerns a device-status record, not your sharing recipients. Review Find My's People and Me sections and your Family location-sharing settings to see how your own account is configured.
+
+**Key takeaways**
+
+- Find My iPhone, Share My Location and Family Sharing are related features with different controls.
+- Review Find My > People and Find My > Me, then Settings > Family > Location Sharing.
+- A paid Find My ON/OFF report does not supply a list of people, a live map or account permissions.
+- Use the complete 15-digit IMEI only for a report that requests it; no IMEI is required to inspect your own sharing settings.
+- Free basic model lookup does not include paid iCloud, SIM Lock, warranty or GSMA Blacklist reports.
+
+## What does Find My ON actually tell you?
+
+A Find My ON result indicates the status returned for the submitted device, not a list of people receiving its location. Apple ties Activation Lock to enabling Find My. Sharing your location with another person is a separate account feature, so do not infer recipients from a single ON/OFF field.
+
+Apple's [Activation Lock explanation](https://support.apple.com/en-us/108794) describes the protection that turns on with Find My. That protection concerns unauthorized reactivation; it is not a statement that every person in a family group receives your location.
+
+For this distinction, separate three questions in your notes: Is device protection enabled? Is personal location sharing enabled? Which recipients and source device are selected? An answer to the first question cannot fill in the other two.
+
+| Item | Where to review it | Question it answers | Important boundary |
+| --- | --- | --- | --- |
+| Find My / Activation Lock status | Device settings or the selected paid report | What device status is shown? | Does not identify sharing recipients |
+| Share My Location | Find My > Me | Is personal location sharing enabled? | Review individual recipients separately |
+| People | Find My > People | What sharing relationship is shown for a person? | Read the person's details, not just their presence in the list |
+| Family location settings | Settings > Family > Location Sharing | Which family sharing choices are configured? | A family relationship alone is not the report's ON/OFF field |
+| Free TAC lookup | IMEI model checker | Which brand and model are reported? | Does not inspect location-sharing permissions |
+
+## How do you review your own location-sharing settings?
+
+Review the settings on the account you actually use, rather than relying on an old report or another person's screenshot. Inspect individual sharing relationships, the overall sharing switch and the device providing your location. If you change a setting, revisit that screen to confirm the intended choice was saved.
+
+**1. Review People.** Open Find My > People and select the relevant person. Read the sharing details; being able to see someone else's location is not sufficient evidence that they can see yours. Apple's [Find My location-sharing guide](https://support.apple.com/guide/iphone/share-your-location-iph01954dc44/ios) explains the recipient controls.
+
+**2. Review Me.** In Find My > Me, inspect Share My Location and the device shown beside Sharing From. If you intend this iPhone to provide your location, use the offered Use This iPhone as My Location control. Keep a note of the actual source before troubleshooting a surprising map position.
+
+**3. Review Family.** Open Settings > Family > Location Sharing and review the selected family members and automatic-sharing option if present. Apple's [Family Sharing instructions](https://support.apple.com/en-us/105107) explain that an organizer who enables family location sharing shares with the group, while family members have their own sharing choices.
+
+**4. Confirm the specific relationship.** If you intend to share, ask the intended recipient to check what they can currently see. If you intend to stop, use the relevant sharing control and verify your setting. Avoid treating either an old map screenshot or a historical report as a current permissions audit.
+
+This review addresses Apple's location-sharing controls. It does not claim to audit every app, signed-in device or person with access to an account. Keep any broader account-security question separate from the narrow meaning of an IMEI report.
+
+## Can a free or paid IMEI check reveal sharing recipients?
+
+Neither a free model lookup nor a paid Find My ON/OFF report is a recipient audit. Choose a report for the specific device-status field it offers, and inspect sharing relationships in your account. Paying for another device report will not substitute for reviewing those location-sharing controls directly.
+
+The verified [imeihub iCloud ON/OFF service](https://imeihub.net/service.php?slug=apple-icloud-status) is a paid check that lists Find My status, with field availability dependent on the response. It does not advertise a recipient list. The [service catalog](https://imeihub.net/services.php) separates this from the free model lookup and other paid checks.
+
+If a separate device-status question requires a report, obtain the correct identifier first:
+
+**1. Read the label.** Open Settings > General > About and find the IMEI. Copy all 15 digits. Keep IMEI2 separately labeled if present; EID, MEID and Apple Serial Number are not interchangeable form inputs.
+
+**2. Use an appropriate fallback.** Where supported, `*#06#` displays the IMEI. Apple's [identifier guide](https://support.apple.com/en-us/108037) explains model-dependent SIM-tray, back-case and packaging locations. Match a physical label to the device rather than assuming every tray or box belongs to it.
+
+**3. Keep the result in scope.** Record the submitted identifier, report type and returned status. Do not translate ON into a person's name or location. A lookup does not change sharing permissions or remove an activation or carrier lock.
+
+## Frequently Asked Questions
+
+A device-status result and a sharing relationship should be read separately. These answers clarify what an ON/OFF report can establish and where account settings provide the missing context. When comparing screens, note which device and account each screen represents before assuming two apparently different results contradict one another.
+
+### Does Find My ON mean my family can see my location?
+
+No. The ON result does not identify your family-sharing choices or recipients. Check your Family location settings and the sharing relationship shown for each person. Family members may have some missing-device assistance capabilities even without location access, so location visibility should not be treated as the entire family permission model.
+
+### Can an iCloud IMEI checker tell me who I share my location with?
+
+The verified imeihub ON/OFF service does not provide that information. It returns the available Find My status for the submitted identifier, not an account's People list. Review your own Find My and Family settings to answer the recipient question instead of ordering repeated status checks.
+
+### Does turning off Share My Location remove Activation Lock?
+
+No. Share My Location controls personal location sharing; it is not the Find My iPhone protection switch. Apple explains that Activation Lock is tied to Find My. Do not use a sharing change as evidence that an iPhone has been released from its owner's account for transfer.
+
+### Why does Find My show my location from another device?
+
+Your account can use another selected device as the source of your shared location. Review Sharing From in Find My > Me before assuming the iPhone's device-status report is wrong. The selected source and a Find My ON/OFF result describe different settings and can coexist without contradiction.
+
+## Which check should you use next?
+
+Use the account's sharing controls when the question is who can see your location, and a device-status report when the question is the returned Find My state for an identifier. Keep those findings separate in your records so neither one is mistaken for a complete explanation of the other.
+
+For the device-status question, review [imeihub's paid iCloud ON/OFF check](https://imeihub.net/service.php?slug=apple-icloud-status). Confirm its current scope before ordering. For recipient visibility, use the account review above; the report cannot reveal or change that list.
+ARTICLE_20261127_2
+    ],
+    [
         'slug' => 'iphone-serial-number-check-older-iphone-applecare-one',
         'title' => 'iPhone Serial Number Check: Add an Older iPhone to AppleCare One?',
         'meta_title' => 'iPhone Serial Number Check: Older iPhone, AppleCare One',
