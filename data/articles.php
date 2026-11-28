@@ -8,6 +8,170 @@ declare(strict_types=1);
 
 return [
     [
+        'slug' => 't-mobile-imei-check-missing-verification-texts',
+        'title' => 'T-Mobile IMEI Check: Why Are Verification Texts Missing?',
+        'meta_title' => 'T-Mobile IMEI Check: Missing Verification Texts',
+        'excerpt' => 'Separate phone compatibility from missing verification texts. Check the destination number, message filters and sender before escalating a delivery issue.',
+        'date' => '2026-11-28',
+        'tag' => 'Carrier',
+        'body' => <<<'ARTICLE_20261128_1'
+A T-Mobile IMEI check assesses device compatibility; it does not confirm delivery of a particular verification text. Check the phone number registered with the sender, inspect filtered messages and compare ordinary SMS with the missing code. If the problem persists, give the sender or carrier specific delivery details rather than another IMEI result.
+
+**Key takeaways**
+
+- A 15-digit IMEI identifies the handset; the verification service sends a code to a phone number.
+- Check the sender's masked destination number before requesting another code.
+- Inspect Unknown Senders on iPhone or Spam & blocked in Google Messages.
+- Separate one missing sender from a failure affecting all SMS.
+- Free model lookup and paid GSMA Blacklist, SIM Lock or Find My reports do not trace individual messages.
+
+## Why does a compatible IMEI not guarantee a verification code?
+
+Compatibility concerns the phone's use on the network, while verification delivery also involves the sender, destination number and messaging path. Treat a successful IMEI result as one device check. It does not confirm that an account has your current number or that a particular message reached your messaging app.
+
+[T-Mobile's BYOD checker](https://www.t-mobile.com/resources/bring-your-own-phone/) describes its IMEI check as a way to assess network compatibility. It is not a delivery receipt for a login attempt.
+
+T-Mobile's [Message Blocking reference](https://www.t-mobile.com/support/plans-features/message-blocking) describes business messages that include one-time PINs and security codes. These can use short or longer sender numbers. Do not assume every verification message comes from the same kind of number, or that a missing code proves the handset is blacklisted.
+
+## What should you check before requesting another code?
+
+First establish whether the code was requested for the correct number and whether it is already present in a filtered conversation. Then test ordinary SMS separately. This sequence distinguishes an account-addressing mistake, an app-view issue and a broader messaging failure without treating every symptom as a device compatibility problem.
+
+**1. Check the destination.** In the service you are signing into, compare the displayed or masked phone number with your current line. On a dual-SIM phone, identify which line owns that number. Choosing a default data SIM does not rewrite a number saved in another company's account.
+
+**2. Inspect the message app.** On iPhone, look in Messages > Filters > Unknown Senders where available. Apple's [unknown-sender guide](https://support.apple.com/en-gb/125068) explains filtering and notification controls, including time-sensitive categories. Labels and choices vary with software and region.
+
+For Google Messages, review Spam & blocked. Google's [spam-protection explanation](https://support.google.com/messages/answer/9327903?hl=en) describes how suspected messages can be hidden there. Review the actual sender before changing a block; finding a message in that folder does not make every message from an unfamiliar number trustworthy.
+
+**3. Compare an ordinary SMS.** Ask a trusted contact to send an SMS to the same number. Confirm the message type rather than relying only on an app chat that may use a different service. Record whether the ordinary SMS arrives and whether one or several verification senders fail.
+
+**4. Follow the sender's retry instructions.** Use the resend control according to the service's displayed timing. If another verification method is offered, use that service's official option. Keep a simple note of the request time and outcome instead of repeatedly changing phone settings without a baseline.
+
+## When should you contact the sender or T-Mobile?
+
+Contact the sender first when the failure is isolated to its service, if the account shows an outdated number or a verification error. If multiple SMS sources fail, investigate the line with T-Mobile. Provide observations that distinguish the cases rather than asking support to infer them from a clean IMEI.
+
+| Observation | Useful next check | What it does not prove |
+| --- | --- | --- |
+| Code is in a filtered folder | App filtering and notification settings | A network delivery failure |
+| Sender shows an old number | That service's account details | A handset IMEI fault |
+| Ordinary SMS works; one sender fails | Sender support and the request record | That all messaging routes work |
+| Several SMS sources fail | Line status and carrier troubleshooting | That a blacklist is the only cause |
+| IMEI check passes | Continue symptom-specific checks | Successful delivery of a particular code |
+
+[T-Mobile's messaging troubleshooting](https://www.t-mobile.com/support/devices/device-troubleshooting/messaging-and-email-troubleshooting) includes checking messaging restrictions and recipient details. Its Message Blocking documentation also lists exceptions, including standard-rated short-code messages, so do not assume one account switch controls every verification sender.
+
+Prepare the destination line, sender name or number, approximate request time, phone model and comparison-test result. If support requests the IMEI, read it from Settings > General > About on iPhone or the relevant Android About screen; `*#06#` also works on supported phones. Keep IMEI2, EID, MEID and Apple Serial Number separately labeled. These identifiers are not the verification code.
+
+## Frequently Asked Questions
+
+A useful diagnosis identifies where the evidence stops: compatibility, request submission, delivery or notification. These answers keep those stages separate. They also explain why the absence of a pop-up is not enough to prove a message never arrived, and why a device report cannot settle a sender-specific delivery question.
+
+### Does passing a T-Mobile IMEI check guarantee verification texts?
+
+No. It helps assess device compatibility, but a verification message still depends on the correct destination and its delivery path. Check the service's saved number, the message app and a comparison SMS. A passing result is not proof that the sender generated or delivered the requested code.
+
+### Why do normal texts arrive but verification codes do not?
+
+The problem may be specific to the verification sender, its saved destination or how the app handles that conversation. Successful ordinary SMS narrows the investigation but does not validate every sender. Record which services fail and check their official support options before concluding that the phone itself is incompatible.
+
+### Can a verification text be hidden without a notification?
+
+Yes, message filtering and notification settings can affect what appears in your main conversation list or alerts. Check the relevant filtered folders on your phone. Apple's settings include controls for time-sensitive notifications; Google Messages can place suspected spam in Spam & blocked. Inspect the message itself before requesting another.
+
+### Should I buy a blacklist report to fix a missing code?
+
+No report fixes message delivery. A paid blacklist check answers a separate device-status question and does not trace a login text. Investigate the sender, destination and messaging behavior first. If you also need a blacklist result, order it for that specific purpose without treating it as a troubleshooting repair.
+
+## Which check is useful after these tests?
+
+Choose the next check from the evidence you collected. A missing code needs a messaging or account investigation; an uncertain device identity may justify a model lookup. Keep both results separate so a successful device check does not hide an unresolved delivery issue or lead to unnecessary repeated purchases.
+
+Use [imeihub's free basic model lookup](https://imeihub.net/) for identification. Review the [paid service catalog](https://imeihub.net/services.php) only for a separate status question. A lookup does not remove Find My / Activation Lock, unlock a carrier SIM Lock or make a verification message arrive.
+ARTICLE_20261128_1
+    ],
+    [
+        'slug' => 'samsung-tablet-imei-check-secure-folder-missing',
+        'title' => 'Samsung Tablet IMEI Check: Why Is Secure Folder Missing?',
+        'meta_title' => 'Samsung Tablet IMEI Check: Secure Folder Missing?',
+        'excerpt' => 'Distinguish an unsupported Secure Folder feature, a hidden icon and a forgotten passcode. Identify the Galaxy tablet and use the correct on-device checks.',
+        'date' => '2026-11-28',
+        'tag' => 'Samsung',
+        'body' => <<<'ARTICLE_20261128_2'
+A Samsung tablet IMEI check cannot enable Secure Folder or recover its passcode. First identify the exact tablet, then distinguish an unsupported feature from a hidden Apps-screen icon or an access problem. Check the tablet's security settings and Samsung's model-specific guidance before treating a missing shortcut as evidence of a lock or hardware fault.
+
+**Key takeaways**
+
+- Record the model in Settings > About tablet; a Wi-Fi-only tablet's serial number is not a 15-digit IMEI.
+- On supported software, look under Settings > Security and privacy > More security settings > Secure Folder.
+- A hidden icon, an absent feature and a forgotten passcode need different next steps.
+- Free TAC lookup identifies a reported model; paid Samsung records do not inspect private folder contents.
+- An IMEI lookup does not remove a device lock or restore access to encrypted files.
+
+## Is Secure Folder unsupported or only hidden?
+
+Start by checking whether Secure Folder exists in Settings, not just on the Apps screen. Samsung allows the shortcut to be hidden, while unsupported devices lack the feature in the relevant security menu. Those are different findings, so record exactly where it is absent before deciding what to do next.
+
+Samsung's [Secure Folder setup guide](https://www.samsung.com/us/support/answer/ANS10001401/) says unsupported devices do not show the feature in Security and privacy. It also documents hiding the Apps-screen shortcut. Menu wording can vary by software, so use instructions appropriate to the actual tablet.
+
+Avoid drawing a family-wide conclusion from a listing that says only “Galaxy Tab A.” A useful support request includes the full model code and installed software, plus whether the feature appears in Settings. A seller's screenshot from another model is not evidence that your tablet has the same menu.
+
+## How should you identify the tablet and inspect the menu?
+
+Identify the tablet from its own Settings screen, then inspect the relevant security menu and shortcut controls. Preserve these observations before making changes. You need the model and software to find applicable instructions; you only need a cellular IMEI when a separate device-record service specifically asks for that identifier.
+
+**1. Record the model.** Open Settings > About tablet and note the model number. Open Software information for the installed software details. Samsung's [identifier guide](https://www.samsung.com/us/support/answer/ANS10002504/) also describes serial and IMEI locations, including device and packaging labels where present.
+
+**2. Find the feature.** Look under Settings > Security and privacy > More security settings > Secure Folder on software using that path. If the names differ, search Settings and consult the tablet's official instructions. Note whether you reach setup, a credential prompt or no matching feature.
+
+**3. Check the shortcut.** If you can open the settings, inspect the option to add Secure Folder to the Apps screen. Samsung's [missing-folder troubleshooting](https://www.samsung.com/us/support/troubleshoot/TSG10001553/) also describes access through Quick settings. Finding the menu changes the diagnosis from a missing feature to a visibility or access issue.
+
+**4. Escalate with a precise observation.** Tell Samsung the model, software version, menu path checked and exact message. For example, “Settings contains Secure Folder but asks for a PIN” is a different case from “no Secure Folder option appears in Settings.” Neither observation is replaced by a generic clean IMEI result.
+
+## Which information can a report actually establish?
+
+A device report can return the fields offered by its selected service, but it does not browse your tablet's private apps or confirm that a shortcut is visible. Match each question to its evidence. Feature support needs model-specific documentation; access problems need the actual on-device prompt and supported recovery route.
+
+| Evidence | Useful for | Does not establish |
+| --- | --- | --- |
+| Model and software in Settings | Selecting the correct instructions | Successful access to private files |
+| Free IMEI/TAC lookup | Reported cellular device identity | Secure Folder availability or passcode |
+| Paid Samsung Info + Knox Guard | Available Samsung device-record fields | Current app visibility or folder contents |
+| Secure Folder menu | Observing setup or access state | A carrier blacklist result |
+| Credential recovery prompt | Following supported account recovery | General proof of device ownership |
+
+The [imeihub service catalog](https://imeihub.net/services.php) lists Samsung Info + Knox Guard as a paid report, distinct from the free basic model lookup. A field about a device record is not a test of Secure Folder. Likewise, SIM Lock and GSMA Blacklist status do not tell you whether an Apps-screen shortcut is hidden.
+
+If a cellular-device report is separately needed, copy the complete 15-digit IMEI from About tablet. Do not pad a serial number to fit the form, or substitute EID, IMEI2 or MEID without following the service's requested input. The full model code remains the more direct starting point for locating tablet-specific feature instructions.
+
+## Frequently Asked Questions
+
+The phrase “Secure Folder is missing” can describe different observations. These answers separate feature support, icon visibility and credential recovery. State which screen you can reach and what it displays before choosing a next step, because an identity report does not reveal the contents or access state of private storage.
+
+### Can a Samsung tablet IMEI check enable Secure Folder?
+
+No. A lookup reads available device-related records; it does not install or activate tablet software. Identify the exact model and check [Samsung's support information](https://www.samsung.com/uk/support/mobile-devices/what-is-the-secure-folder-and-how-do-i-use-it/). If the device does not support Secure Folder, buying a different IMEI report does not add the missing feature or change its software capabilities.
+
+### Does a missing Secure Folder icon mean my tablet is unsupported?
+
+Not necessarily. The shortcut may be hidden while the feature remains accessible through Settings. Check the relevant security menu before deciding that support is absent. If the feature exists but asks for credentials, investigate access instead of treating the missing Apps-screen icon as a compatibility result.
+
+### Does a Wi-Fi tablet need an IMEI for Secure Folder?
+
+No cellular identifier is required simply to determine whether a tablet supports the feature. Use its model number, software and Samsung's instructions. A Wi-Fi-only tablet may lack an IMEI, but that fact alone does not answer the Secure Folder support question for its particular model.
+
+### Can an IMEI report recover my Secure Folder passcode?
+
+No. [Samsung's recovery guidance](https://www.samsung.com/us/support/troubleshoot/TSG10001553/) depends on whether Reset with Samsung account was enabled beforehand. If that option was not enabled, Samsung says the Forgot prompt will not be available for recovery. Follow its official access guidance; a paid IMEI report cannot supply the passcode or decrypt the folder.
+
+## What should you do after identifying the missing item?
+
+Choose the next step from the observed state: verify support for an absent feature, restore visibility for a hidden shortcut, or follow account recovery for a credential problem. Keep any separate device-status question alongside those findings. This prevents a model lookup from being mistaken for a solution to private-storage access.
+
+For a separate cellular-device identity check, use [imeihub's free basic lookup](https://imeihub.net/), then review the [service catalog](https://imeihub.net/services.php) if you need listed paid record fields. These checks do not enable Secure Folder or remove activation and carrier locks.
+ARTICLE_20261128_2
+    ],
+    [
         'slug' => 'iphone-imei-check-hearing-aid-pairing',
         'title' => 'iPhone IMEI Check: Will Your Hearing Aids Connect?',
         'meta_title' => 'iPhone IMEI Check: Hearing Aid Pairing Explained',
