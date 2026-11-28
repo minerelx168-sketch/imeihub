@@ -16559,5 +16559,168 @@ Registering on ceir.gov.mm takes less than ten minutes. The alternative — a pe
 MD,
     ],
 
+    [
+        'slug'    => 'ghana-sim-re-registration-ceir-imei-phone-guide',
+        'title'   => 'Ghana SIM Re-Registration 2026: What CEIR Does to Your IMEI',
+        'meta_title' => 'Ghana SIM Re-Registration 2026: CEIR & IMEI Explained',
+        'excerpt' => 'Ghana is tying phone IMEIs to SIM re-registration through a new CEIR. See what is confirmed, what is not, and how to check your phone now.',
+        'date'    => '2026-11-28',
+        'tag'     => 'Regulation',
+        'body'    => <<<MD
+## The short answer
+
+Ghana's next SIM registration exercise is not only about SIM cards. It comes with a **Central Equipment Identity Register (CEIR)**, a national database of phone **IMEI numbers** that lets the regulator and the networks block a handset on MTN, Telecel and AirtelTigo at the same time.
+
+As of late November 2026, here is where things stand:
+
+- **The legal basis is in place.** The Communications Minister said in September 2026 that Parliament had passed the new Legislative Instrument on SIM registration.
+- **No start date has been published.** The government's stated target is "before the end of 2026". We could not find an official commencement date, and earlier targets have slipped more than once.
+- **You cannot register an IMEI yourself today.** There is no public NCA portal, shortcode or fee for device registration. Anyone asking you to pay to "register your IMEI" is not acting for the NCA.
+- **What you can do now** is make sure the phone you own, or the one you are about to buy, has a clean and consistent IMEI before a national register starts judging it.
+
+_Last reviewed: 28 November 2026. Dates and procedures here are drawn from public statements by the Ministry and the National Communications Authority (NCA) and from Ghanaian press coverage. Confirm anything time-sensitive on nca.org.gh._
+
+## Why Ghana is registering SIMs again
+
+Most Ghanaians already queued for the Ghana Card-linked exercise in 2021 to 2023, so the obvious question is why it is happening again.
+
+The official explanation is that the previous exercise never completed its **biometric verification** stage. Registrations were captured, but they were not properly matched against the **National Identification Authority (NIA)** database. The NCA has said an audit of those records found no usable fingerprint matches against the national identity database, and the Minister, Samuel Nartey George, has said publicly that a large majority of the SIMs that passed the first phase may have been obtained with fraudulent Ghana Cards. The result is the mobile money and SIM swap fraud Ghanaians know too well.
+
+The new exercise is meant to fix that with live biometric checks against the NIA, and the NCA's Director-General has described it as, ideally, the final SIM registration Ghana will need.
+
+### Timeline so far
+
+| Date | What happened |
+|---|---|
+| 2011 | SIM registration first regulated under LI 2006 |
+| 2021 to 2023 | Ghana Card-linked SIM registration, without completed biometric verification |
+| March 2026 | Cabinet approves a fresh SIM registration exercise; NCA holds consultations and publishes a public FAQ |
+| June 2026 | Minister says procurement clearance has been obtained and the exercise could begin by the end of 2026 |
+| September 2026 | Minister says Parliament has passed the new SIM registration Legislative Instrument |
+| Late November 2026 | No official start date published yet |
+
+## What the CEIR is, in plain terms
+
+Every phone has a 15-digit **IMEI** that identifies the handset itself, not the SIM inside it. Today each Ghanaian network keeps its own equipment register. If your phone is stolen and your network blocks it, a thief can often put in a SIM from another network and carry on.
+
+A **CEIR** merges those separate registers into one. According to the NCA's published material and ministerial statements, Ghana's CEIR is intended to:
+
+- **Block stolen phones across all networks** once they are reported.
+- **Detect unapproved, substandard or duplicate devices**, meaning handsets with cloned or invalid IMEIs.
+- **Link a device to a verified subscriber**, so that when a SIM is shut down for fraud, the handset used with it can be blocked as well. The NCA's FAQ lists "immediate blocking of the SIM card and associated device" among the consequences of fraud.
+
+The NCA has also said the data will be stored in Ghana. Privacy advocates and some cybersecurity professionals have still raised concerns that tying IMEIs to biometrically verified identities amounts to device-level tracking. That debate is not settled, and it is reasonable to follow it.
+
+## What is confirmed and what is not
+
+A lot of confident claims are circulating on WhatsApp and TikTok. This table separates what officials have actually said from what remains open.
+
+| Question | Status in November 2026 |
+|---|---|
+| Will there be a new SIM registration? | **Confirmed.** Approved by Cabinet, with the LI reported as passed by Parliament |
+| Will it use biometrics checked against the NIA? | **Confirmed** as the design |
+| Will a CEIR be part of it? | **Confirmed** by the Ministry and the NCA |
+| Which ID is needed? | **Ghana Card** for citizens, **Non-Citizen Ghana Card** for foreign residents, per the NCA FAQ |
+| When does it start? | **Not confirmed.** Target is end of 2026; no date published |
+| Is there a registration fee? | **None announced** |
+| Do I register my IMEI separately? | **No separate process announced.** Device details are expected to be captured during SIM registration |
+| Will consumers get an IMEI lookup tool like Nigeria's `*315#`? | **Not announced** |
+| What happens to a second-hand phone with a bad history? | **Not explained yet** |
+| How do short-term visitors and roamers fit in? | **Not explained yet** |
+
+If you read a firm date, a fee, or a "register your IMEI here" link that is not on the NCA's own website, treat it as unverified.
+
+## Will your phone be blocked?
+
+Nobody outside the NCA can promise you an answer, but the stated purpose of the CEIR tells you which phones are exposed.
+
+| Your phone | Risk when the CEIR goes live |
+|---|---|
+| Bought new from an authorised dealer, IMEI matches the box | Low |
+| Used phone, clean history, IMEI consistent everywhere | Low |
+| Used import from the UK, US or UAE with an overseas theft or unpaid-finance flag | Uncertain. Depends on whether Ghana's register takes in international data |
+| Phone whose IMEI has been rewritten, or shares an IMEI with other handsets | High. Duplicate and invalid IMEIs are a named target |
+| Counterfeit phone with an IMEI that belongs to a different model | High |
+| Phone previously used with a SIM that was shut down for fraud | High, under the announced design |
+
+The uncomfortable point is the same one that has played out in other countries: when a register starts blocking, the person who loses is **whoever holds the phone that day**, not the person who imported or sold it.
+
+## How to check your phone now
+
+You do not have to wait for the NCA. Three checks cover almost everything a register could hold against a handset.
+
+- **Step 1: Read the IMEI from the phone itself.** Dial `*#06#`. On a dual-SIM phone you will see IMEI1 and IMEI2; note both.
+- **Step 2: Compare three places.** The IMEI on screen, the IMEI on the box, and the IMEI on the SIM tray or in Settings should be identical. If they differ, the phone has been re-shelled or its IMEI has been altered.
+- **Step 3: Confirm the IMEI belongs to that model.** Run a [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check). If your "Samsung Galaxy S24" comes back as a different brand or model, the handset is a clone.
+- **Step 4: Check for theft and finance flags.** A [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist) shows whether the phone has been reported lost, stolen or blocked for non-payment abroad. This matters most for "UK used" and "US used" phones.
+- **Step 5: Check the locks.** For iPhones, confirm [iCloud Activation Lock status](https://imeihub.net/service.php?slug=apple-icloud-status) and [SIM-lock status](https://imeihub.net/service.php?slug=apple-sim-lock). For Samsung, the [Samsung Info Check](https://imeihub.net/service.php?slug=samsung-info) reports Knox Guard status.
+
+If you are buying at Kwame Nkrumah Circle, Kejetia or through an online listing, do all of this **before** you pay, and do a factory reset in front of the seller.
+
+## Get ready for registration day
+
+None of this needs an official date, and all of it will make the exercise easier whenever it starts.
+
+- **Make sure your Ghana Card is valid and your details are correct.** Biometric matching against the NIA is the heart of the new system, so a card problem becomes a SIM problem.
+- **Know which numbers are in your name.** During the last exercise the NCA introduced the shortcode `*402*1#` to list SIMs linked to a Ghana Card. If it does not respond on your network, ask your operator how to check.
+- **Decide which number is your main one.** The NCA's FAQ says subscribers will choose one SIM as their **primary**, and one-time passwords will be used when further SIMs are registered against the same card.
+- **Write down your IMEI and keep it off the phone.** You will need it for a police report and for any blocking request.
+- **Keep proof of purchase.** A receipt and the original box are the simplest evidence that a phone is yours if its status is ever questioned.
+- **Stop lending your Ghana Card for SIM registration.** Under the announced rules, fraud on a SIM in your name can lead to the associated device being blocked.
+
+## Avoid "IMEI registration" scams
+
+Every delay in the official timeline creates room for fraudsters. The pattern is consistent: a message about a deadline, a link or a mobile money number, and a request for your Ghana Card PIN, date of birth or MoMo PIN.
+
+- The NCA has **not** opened an individual IMEI registration portal.
+- **No fee** has been announced for SIM or device registration.
+- Your **mobile money PIN** is never needed to register anything.
+- Official information comes from **nca.org.gh**, the Ministry, and your network's own channels.
+
+## If your phone is stolen before the CEIR is live
+
+Until cross-network blocking exists, act quickly yourself.
+
+- Mark the phone as lost with **Find My** (iPhone) or **Find My Device** (Android) from another device.
+- Call your network to block the SIM, and ask whether they will also flag the handset's IMEI.
+- Freeze your mobile money wallet and change your email password.
+- Report to the **Ghana Police Service** and get a written report that quotes the IMEI.
+
+## Frequently Asked Questions
+
+### Has the new SIM registration started in Ghana?
+
+Not as far as public sources show at the time of writing. The Legislative Instrument has been reported as passed and the target remains the end of 2026, but no official start date has been published.
+
+### Do I have to register my phone's IMEI with the NCA?
+
+There is no separate IMEI registration for individuals today. Under the announced design, device information is captured as part of SIM registration at your operator.
+
+### Will my old registration from 2022 or 2023 still count?
+
+Officials have described the new exercise as a fresh registration with biometric verification, so expect to register again. Wait for the NCA's instructions on how and when.
+
+### Will a UK used iPhone stop working in Ghana?
+
+Nothing announced says imported used phones will be blocked simply for being imported. The risk is a phone that carries a theft report, an unpaid-finance block or an altered IMEI. Check those before you buy.
+
+### Can a foreigner register a SIM in Ghana?
+
+The NCA's FAQ lists the Non-Citizen Ghana Card for foreign residents. Rules for short-term visitors under the new exercise have not been clearly published, so ask the operator on arrival.
+
+### Does the CEIR let the government read my messages?
+
+A CEIR stores device identifiers such as IMEIs and their status. It is not a tool for reading messages or calls. The concern critics raise is about linking devices to identities, not about content.
+
+## Check your phone before the register does
+
+A two-minute check today costs far less than a phone that stops connecting later.
+
+- [Free IMEI Check](https://imeihub.net/service.php?slug=free-imei-check): confirm the IMEI is valid and matches the model you were sold
+- [WorldWide Blacklist Check](https://imeihub.net/service.php?slug=blacklist): see whether the phone has been reported lost, stolen or blocked abroad
+MD,
+    ],
+
+
 ];
 
